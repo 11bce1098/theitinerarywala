@@ -1,0 +1,245 @@
+/* ---------------------------------------------------------------
+   TheItineraryWala — design tokens
+   Palette: ink slate, warm paper, marigold (route + CTAs), teal
+   Type: Fraunces (display) + Karla (body)
+---------------------------------------------------------------- */
+:root {
+  --ink: #182430;
+  --ink-soft: #46545f;
+  --paper: #f7f6f2;
+  --card: #ffffff;
+  --line: #ddd8cc;
+  --marigold: #e39a2d;
+  --marigold-deep: #c47f14;
+  --teal: #1d6a5e;
+
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Karla', system-ui, sans-serif;
+
+  --measure: 42rem; /* keeps body lines under ~80 chars */
+  --radius: 10px;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+}
+
+a { color: var(--teal); }
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--marigold);
+  outline-offset: 2px;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+
+.wrap {
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* ---- header / footer ---- */
+.site-header {
+  border-bottom: 1px solid var(--line);
+  background: var(--card);
+}
+.site-header .wrap {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.brand {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  color: var(--ink);
+  text-decoration: none;
+}
+.brand span { color: var(--marigold-deep); }
+.site-nav a {
+  margin-left: 1.25rem;
+  text-decoration: none;
+  color: var(--ink-soft);
+}
+.site-nav a:hover { color: var(--ink); }
+
+.site-footer {
+  border-top: 1px solid var(--line);
+  margin-top: 5rem;
+  padding: 2rem 0 3rem;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
+.site-footer .wrap { max-width: var(--measure); }
+
+/* ---- homepage ---- */
+.hero {
+  padding: 4rem 0 3rem;
+}
+.hero h1 {
+  font-size: clamp(2.2rem, 6vw, 3.6rem);
+  margin: 0 0 1rem;
+  max-width: 22ch;
+}
+.hero p {
+  max-width: var(--measure);
+  font-size: 1.15rem;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+.itinerary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+  padding: 1.5rem 0 2rem;
+  margin: 0;
+  list-style: none;
+}
+.itinerary-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.4rem 1.4rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.itinerary-card h2 {
+  font-size: 1.35rem;
+  margin: 0;
+}
+.itinerary-card h2 a {
+  color: var(--ink);
+  text-decoration: none;
+}
+.itinerary-card h2 a:hover { color: var(--teal); }
+.itinerary-card p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.97rem;
+  flex-grow: 1;
+}
+.card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+}
+
+/* visa pill — the niche hook, shown everywhere */
+.pill {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 0.15rem 0.7rem;
+  border: 1px solid var(--line);
+  color: var(--ink-soft);
+  background: var(--paper);
+}
+.pill--visa {
+  border-color: var(--teal);
+  color: var(--teal);
+  background: #eaf3f1;
+}
+
+/* ---- itinerary page ---- */
+.itin-hero {
+  background: var(--card);
+  border-bottom: 1px solid var(--line);
+  padding: 3rem 0 2.2rem;
+}
+.itin-hero h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin: 0 0 0.8rem;
+  max-width: 24ch;
+}
+.itin-hero .summary {
+  max-width: var(--measure);
+  color: var(--ink-soft);
+  font-size: 1.1rem;
+  margin: 0 0 1.2rem;
+}
+.facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.9rem;
+}
+
+/* article body + the day timeline */
+.itin-body {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 0;
+}
+.itin-body h2 {
+  font-size: 1.5rem;
+  margin: 2.8rem 0 0.8rem;
+  position: relative;
+  padding-left: 2.1rem;
+}
+/* marigold route line + node on each Day heading:
+   days are a genuine sequence, so the timeline earns its markers */
+.itin-body h2::before {
+  content: '';
+  position: absolute;
+  left: 0.45rem;
+  top: 0.42em;
+  width: 0.85rem;
+  height: 0.85rem;
+  border-radius: 50%;
+  background: var(--marigold);
+  border: 3px solid var(--card);
+  box-shadow: 0 0 0 1px var(--marigold-deep);
+}
+.itin-body h3 { font-size: 1.15rem; margin: 1.8rem 0 0.5rem; }
+.itin-body p, .itin-body ul { max-width: var(--measure); }
+.itin-body img {
+  max-width: 100%;
+  border-radius: var(--radius);
+}
+
+/* affiliate booking button — used as raw HTML inside markdown */
+.book-btn {
+  display: inline-block;
+  background: var(--marigold);
+  color: var(--ink);
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 0.55rem 1.1rem;
+  margin: 0.35rem 0.5rem 0.35rem 0;
+  border: 1px solid var(--marigold-deep);
+}
+.book-btn:hover { background: var(--marigold-deep); color: #fff; }
+
+/* small print under affiliate sections */
+.disclosure {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  border-top: 1px solid var(--line);
+  margin-top: 3rem;
+  padding-top: 1rem;
+}

@@ -1,0 +1,49 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+}
+const { title, description } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="/">The Itinerary <span>Wala</span></a>
+        <nav class="site-nav">
+          <a href="/">Itineraries</a>
+          <a href="https://instagram.com/theitinerarywala">Instagram</a>
+        </nav>
+      </div>
+    </header>
+
+    <slot />
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          Day-by-day itineraries for families travelling on Indian passports
+          with UAE residence. Some links are affiliate links — booking through
+          them supports this site at no extra cost to you.
+        </p>
+        <p>© {new Date().getFullYear()} The Itinerary Wala</p>
+      </div>
+    </footer>
+  </body>
+</html>
