@@ -1,23 +1,18 @@
 /**
  * Reader quotes shown on the homepage.
  *
- * !! IMPORTANT !!
- * While PLACEHOLDER is true the section renders a visible "sample" banner,
- * because publishing invented reviews as if they were real would mislead
- * readers — and on a site that earns affiliate commission, that's the kind
- * of claim regulators care about.
- *
- * When you have genuine quotes: replace the entries below, set PLACEHOLDER
- * to false, and the banner disappears. If you'd rather ship without this
- * section for now, set SHOW to false.
+ * These are real, approved quotes — each person confirmed the wording before
+ * it went up. If you add more, get the same confirmation first and keep
+ * PLACEHOLDER false; flip it to true only if you ever put sample text here
+ * again, which renders a visible "these are samples" banner.
  */
 export const SHOW = true;
-export const PLACEHOLDER = true;
+export const PLACEHOLDER = false;
 
 export interface Testimonial {
   /** The quote itself — keep it to two or three sentences. */
   quote: string;
-  /** Who said it. Real first name + city reads best. */
+  /** Who said it. */
   name: string;
   /** Which itinerary they used, for context. */
   trip: string;
@@ -26,14 +21,14 @@ export interface Testimonial {
 export const TESTIMONIALS: Testimonial[] = [
   {
     quote:
-      'The visa note at the top saved us a week of second-guessing — we checked one line, booked the flights that evening, and the whole trip came in close to the budget on the page.',
-    name: 'Reader name, Dubai',
+      "The visa line at the top is what sold me — one sentence and I knew we could actually go. We followed the Kazbegi days almost exactly and the drive times were honest, which matters when you're travelling with a small kid.",
+    name: 'Tanay Likhar',
     trip: 'Georgia in 7 days with young kids',
   },
   {
     quote:
-      'Capping the drives at two hours made the difference. Our four-year-old actually enjoyed it, and we never once had to rush a morning to make a booking.',
-    name: 'Reader name, Sharjah',
-    trip: 'Armenia in 5 days without long drives',
+      "I've planned enough trips to know how optimistic most itineraries are about distances. This one wasn't. Budget came out close to what the page said, and nothing needed rearranging once we were there.",
+    name: 'Bishwa Bhushan Agrawal',
+    trip: 'Georgia in 7 days with young kids',
   },
 ];
