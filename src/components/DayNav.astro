@@ -1,0 +1,96 @@
+---
+/**
+ * Sticky "jump to day" strip built from the article's own H2s.
+ *
+ * A day-by-day itinerary is the one kind of page where readers genuinely
+ * skip around ("what were we doing on day 4?"), so the headings double as
+ * navigation and as a position indicator while scrolling.
+ */
+interface Heading {
+  depth: number;
+  slug: string;
+  text: string;
+}
+interface Props {
+  headings: Heading[];
+}
+const { headings } = Astro.props;
+
+/** "Day 3 — Drive to Kazbegi" reads as just "Day 3" in a chip. */
+function chipLabel(text: string): string {
+  const day = text.match(/^Day\s+\d+/i);
+  if (day) return day[0];
+  return text.split(/\s+[—–-]\s+/)[0];
+}
+
+const stops = headings
+  .filter((h) => h.depth === 2)
+  .map((h) => ({ slug: h.slug, label: chipLabel(h.text), full: h.text }));
+---
+{stops.length > 1 && (
+  <nav class="day-nav" aria-label="Jump to a day">
+    <div class="wrap day-nav__wrap">
+      <ul class="day-nav__list">
+        {stops.map((stop) => (
+          <li>
+            <a href={`#${stop.slug}`} title={stop.full} data-day-link={stop.slug}>
+              {stop.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </nav>
+)}
+
+<script>
+  import { reveal } from '../scripts/reveal';
+
+  const links = Array.from(
+    document.querySelectorAll<HTMLAnchorElement>('[data-day-link]')
+  );
+
+  if (links.length > 0) {
+    const strip = document.querySelector<HTMLElement>('.day-nav__list');
+    const byId = new Map(links.map((a) => [a.dataset.dayLink!, a]));
+    const sections = links
+      .map((a) => document.getElementById(a.dataset.dayLink!))
+      .filter((el): el is HTMLElement => el !== null);
+
+    let current: HTMLAnchorElement | null = null;
+    const setCurrent = (id: string) => {
+      const next = byId.get(id);
+      if (!next || next === current) return;
+      current?.removeAttribute('aria-current');
+      next.setAttribute('aria-current', 'true');
+      current = next;
+      // Keep the active chip visible when the strip scrolls horizontally.
+      if (strip && strip.scrollWidth > strip.clientWidth) {
+        const offset =
+          next.offsetLeft - strip.clientWidth / 2 + next.clientWidth / 2;
+        strip.scrollTo({ left: offset, behavior: 'smooth' });
+      }
+    };
+
+    // Headings that have scrolled above the nav are "passed"; the last one
+    // passed is the day you're currently reading.
+    const spy = new IntersectionObserver(
+      () => {
+        const line = window.innerHeight * 0.3;
+        let active = sections[0];
+        for (const section of sections) {
+          if (section.getBoundingClientRect().top <= line) active = section;
+        }
+        if (active) setCurrent(active.id);
+      },
+      { rootMargin: '-30% 0px -60% 0px', threshold: [0, 1] }
+    );
+    sections.forEach((section) => spy.observe(section));
+  }
+
+  // Day headings only exist after markdown renders, so tag them here.
+  document
+    .querySelectorAll('.itin-body h2, .itin-body h3')
+    .forEach((el) => el.setAttribute('data-reveal', ''));
+  reveal();
+</script>

@@ -12,6 +12,10 @@ const itineraries = defineCollection({
     bestFor: z.string(),         // e.g. "Families with young kids"
     summary: z.string(),         // one or two sentences for cards + meta description
     heroImage: z.string().optional(), // path under /public, e.g. /images/georgia.jpg
+    // Wide crop for the itinerary hero band (~2.6:1). Falls back to heroImage.
+    heroWide: z.string().optional(),
+    // CSS object-position for the hero crop, e.g. "center 35%" to keep the sky.
+    heroFocus: z.string().optional(),
     publishDate: z.coerce.date(),
     draft: z.boolean().default(false),
   }),

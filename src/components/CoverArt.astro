@@ -1,0 +1,142 @@
+---
+/**
+ * Cover art for an itinerary, in order of preference:
+ *   1. a real photo from `heroImage` frontmatter,
+ *   2. a hand-drawn scene of the country's landmark (see scenes.ts),
+ *   3. a seeded ridge-line fallback, so a new country is never a blank box.
+ */
+import { sceneFor } from './scenes';
+
+interface Props {
+  seed: string;
+  country?: string;
+  src?: string;
+  /** Wider crop used above `wideFrom`; falls back to `src`. */
+  wide?: string;
+  /** Viewport width at which the wide crop takes over. */
+  wideFrom?: string;
+  /** CSS object-position, e.g. "center 35%". */
+  focus?: string;
+  alt?: string;
+  eager?: boolean;
+}
+const {
+  seed,
+  country,
+  src,
+  wide,
+  wideFrom = '761px',
+  focus,
+  alt = '',
+  eager = false,
+} = Astro.props;
+
+/** FNV-1a — small, stable, and we only need it to scatter a few numbers. */
+function hash(input: string): number {
+  let h = 2166136261;
+  for (let i = 0; i < input.length; i++) {
+    h ^= input.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return h >>> 0;
+}
+
+/** xorshift32, so the same slug always draws the same mountains. */
+function makeRandom(seedValue: number) {
+  let state = seedValue || 1;
+  return () => {
+    state ^= state << 13; state >>>= 0;
+    state ^= state >> 17;
+    state ^= state << 5;  state >>>= 0;
+    return state / 4294967296;
+  };
+}
+
+const palettes = [
+  { sky: ['#f5e7cd', '#ecd0a6'], sun: '#e39a2d', ridges: ['#8ba7ab', '#587c81', '#33555d', '#1d353c'] },
+  { sky: ['#e0efe9', '#bcd9cf'], sun: '#e3b02d', ridges: ['#82a89b', '#4f8677', '#2e665a', '#18443b'] },
+  { sky: ['#f7e8e0', '#ecc7b7'], sun: '#c47f14', ridges: ['#ad8b80', '#815e56', '#573e39', '#342520'] },
+  { sky: ['#e6e8f2', '#c6cae0'], sun: '#e39a2d', ridges: ['#9196b2', '#666d8e', '#434869', '#272c44'] },
+];
+
+const W = 400;
+const H = 250;
+
+const scene = sceneFor(country);
+const random = makeRandom(hash(seed));
+const palette = palettes[hash(seed) % palettes.length];
+
+/** One mountain range: angular peaks, flatter and lower as they come forward. */
+function ridge(index: number): string {
+  const baseline = H * (0.42 + index * 0.13);
+  const amplitude = H * (0.2 - index * 0.035);
+  const segments = 5 + index;
+  const step = W / segments;
+
+  const points: string[] = [];
+  for (let i = 0; i <= segments; i++) {
+    const x = Math.round(i * step);
+    const y = Math.round(baseline - random() * amplitude);
+    points.push(`${x},${y}`);
+  }
+  return `M ${points.join(' L ')} L ${W},${H} L 0,${H} Z`;
+}
+
+const ridges = scene ? [] : palette.ridges.map((fill, i) => ({ fill, d: ridge(i) }));
+const fallbackSun = {
+  x: Math.round(60 + random() * (W - 140)),
+  y: Math.round(46 + random() * 34),
+  r: Math.round(16 + random() * 10),
+};
+
+const skyTop = scene ? scene.skyTop : palette.sky[0];
+const skyBottom = scene ? scene.skyBottom : palette.sky[1];
+const sun = scene ? scene.sun : { ...fallbackSun, fill: palette.sun };
+const uid = `cv${hash(seed).toString(36)}`;
+---
+{src ? (
+  <picture class="cover-pic">
+    {wide && <source media={`(min-width: ${wideFrom})`} srcset={wide} />}
+    <img
+      class="cover-art"
+      src={src}
+      alt={alt}
+      style={focus ? `object-position:${focus}` : undefined}
+      loading={eager ? 'eager' : 'lazy'}
+      decoding="async"
+    />
+  </picture>
+) : (
+  <svg
+    class="cover-art cover-art--drawn"
+    viewBox={`0 0 ${W} ${H}`}
+    preserveAspectRatio="xMidYMid slice"
+    role="img"
+    aria-label={scene ? `Illustration of ${scene.subject}` : ''}
+    aria-hidden={scene ? undefined : 'true'}
+  >
+    <defs>
+      <linearGradient id={`${uid}-sky`} x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color={skyTop} />
+        <stop offset="100%" stop-color={skyBottom} />
+      </linearGradient>
+      <linearGradient id={`${uid}-haze`} x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+        <stop offset="100%" stop-color="#ffffff" stop-opacity="0.18" />
+      </linearGradient>
+    </defs>
+
+    <rect width={W} height={H} fill={`url(#${uid}-sky)`} />
+    <circle class="cover-sun" cx={sun.x} cy={sun.y} r={sun.r} fill={sun.fill} opacity="0.9" />
+
+    {scene ? (
+      <g set:html={scene.body} />
+    ) : (
+      ridges.map((layer, i) => (
+        <path class="cover-ridge" style={`--depth:${ridges.length - i}`} d={layer.d} fill={layer.fill} />
+      ))
+    )}
+
+    <rect width={W} height={H} fill={`url(#${uid}-haze)`} />
+  </svg>
+)}

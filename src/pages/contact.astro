@@ -1,0 +1,195 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE, FORM_ENDPOINT, HAS_FORM_ENDPOINT } from '../lib/site';
+
+const topics = [
+  'A question about an itinerary',
+  'Suggest a destination',
+  'Report something out of date',
+  'Work together / press',
+  'Something else',
+];
+---
+<Base
+  title="Contact — The Itinerary Wala"
+  description="Questions about an itinerary, a destination request, or a correction — get in touch with The Itinerary Wala."
+>
+  <section class="page-hero">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Contact</p>
+      <h1 data-reveal>Ask about a trip, or tell me what to cover next.</h1>
+      <p class="page-hero__lede" data-reveal>
+        Questions about a plan, a visa detail that's changed, or a country
+        you'd like researched — all of it is useful. Replies usually take a
+        couple of days.
+      </p>
+    </div>
+  </section>
+
+  <section class="wrap section contact-layout">
+    <form
+      class="contact-form"
+      data-contact
+      method="POST"
+      action={HAS_FORM_ENDPOINT ? FORM_ENDPOINT : undefined}
+      novalidate
+      data-reveal
+    >
+      <div class="field">
+        <label for="name">Your name</label>
+        <input id="name" name="name" type="text" required autocomplete="name" />
+        <p class="field__error" data-error-for="name"></p>
+      </div>
+
+      <div class="field">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required autocomplete="email" />
+        <p class="field__error" data-error-for="email"></p>
+      </div>
+
+      <div class="field">
+        <label for="topic">What's this about?</label>
+        <select id="topic" name="topic">
+          {topics.map((topic) => <option value={topic}>{topic}</option>)}
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+        <p class="field__error" data-error-for="message"></p>
+      </div>
+
+      <!-- Honeypot: real people never see this, bots fill it in. -->
+      <div class="hp" aria-hidden="true">
+        <label for="company">Company</label>
+        <input id="company" name="company" type="text" tabindex="-1" autocomplete="off" />
+      </div>
+
+      <button class="btn btn--solid btn--lg" type="submit">Send message</button>
+      <p class="form-note" data-contact-status role="status" aria-live="polite"></p>
+    </form>
+
+    <aside class="contact-aside" data-reveal>
+      <div class="contact-card">
+        <h2>Prefer email?</h2>
+        <p><a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
+      </div>
+      <div class="contact-card">
+        <h2>Instagram</h2>
+        <p>
+          Day-to-day photos and quick visa updates go up first on
+          <a href={SITE.instagram} rel="me noopener" target="_blank">Instagram</a>.
+        </p>
+      </div>
+      <div class="contact-card">
+        <h2>Before you write in</h2>
+        <p>
+          If it's a visa question, check the date on the itinerary first — the
+          rule stated there was accurate on that date, and I'll have noted it
+          if it has since changed.
+        </p>
+      </div>
+    </aside>
+  </section>
+</Base>
+
+<script>
+  import { SITE, HAS_FORM_ENDPOINT } from '../lib/site';
+
+  const form = document.querySelector<HTMLFormElement>('[data-contact]');
+  const status = document.querySelector<HTMLElement>('[data-contact-status]');
+
+  if (form && status) {
+    const showError = (name: string, message: string) => {
+      const field = form.elements.namedItem(name) as HTMLElement | null;
+      const slot = form.querySelector<HTMLElement>(`[data-error-for="${name}"]`);
+      if (slot) slot.textContent = message;
+      field?.setAttribute('aria-invalid', message ? 'true' : 'false');
+    };
+
+    const validate = (): boolean => {
+      const data = new FormData(form);
+      let ok = true;
+
+      const name = String(data.get('name') ?? '').trim();
+      showError('name', name ? '' : 'Please tell me your name.');
+      if (!name) ok = false;
+
+      const email = String(data.get('email') ?? '').trim();
+      // Deliberately loose: the server still validates, and strict regexes
+      // reject more real addresses than they catch fake ones.
+      const emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+      showError('email', emailOk ? '' : 'That email address looks incomplete.');
+      if (!emailOk) ok = false;
+
+      const message = String(data.get('message') ?? '').trim();
+      showError('message', message.length >= 10 ? '' : 'A sentence or two, so I can actually help.');
+      if (message.length < 10) ok = false;
+
+      return ok;
+    };
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      status.className = 'form-note';
+
+      if (!validate()) {
+        status.textContent = 'Please fix the highlighted fields.';
+        status.className = 'form-note form-note--bad';
+        form.querySelector<HTMLElement>('[aria-invalid="true"]')?.focus();
+        return;
+      }
+
+      // Honeypot tripped — pretend it worked, tell the bot nothing.
+      if (String(new FormData(form).get('company') ?? '').trim()) {
+        form.reset();
+        status.textContent = 'Thanks — message sent.';
+        status.className = 'form-note form-note--ok';
+        return;
+      }
+
+      const submit = form.querySelector<HTMLButtonElement>('button[type="submit"]');
+
+      if (!HAS_FORM_ENDPOINT) {
+        const data = new FormData(form);
+        status.textContent = 'Opening your email app…';
+        window.location.href =
+          `mailto:${SITE.email}` +
+          `?subject=${encodeURIComponent(`[Site] ${data.get('topic')}`)}` +
+          `&body=${encodeURIComponent(`${data.get('message')}\n\n— ${data.get('name')} (${data.get('email')})`)}`;
+        return;
+      }
+
+      submit && (submit.disabled = true);
+      status.textContent = 'Sending…';
+      try {
+        const response = await fetch(form.action, {
+          method: 'POST',
+          headers: { Accept: 'application/json' },
+          body: new FormData(form),
+        });
+        if (!response.ok) throw new Error(String(response.status));
+        form.reset();
+        status.textContent = "Thanks — that's arrived. I'll reply within a couple of days.";
+        status.className = 'form-note form-note--ok';
+      } catch {
+        status.textContent = `Something went wrong. Please email ${SITE.email} instead.`;
+        status.className = 'form-note form-note--bad';
+      } finally {
+        submit && (submit.disabled = false);
+      }
+    });
+
+    // Clear an error as soon as the visitor starts fixing it.
+    form.addEventListener('input', (event) => {
+      const target = event.target as HTMLElement;
+      const name = target.getAttribute('name');
+      if (name && target.getAttribute('aria-invalid') === 'true') {
+        const slot = form.querySelector<HTMLElement>(`[data-error-for="${name}"]`);
+        if (slot) slot.textContent = '';
+        target.setAttribute('aria-invalid', 'false');
+      }
+    });
+  }
+</script>

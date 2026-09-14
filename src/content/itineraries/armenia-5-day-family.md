@@ -5,6 +5,8 @@ days: 5
 budgetPerPerson: "AED 2,200"
 visaNote: "Visa on arrival for Indians"
 bestFor: "First-time visitors"
+heroImage: "/images/armenia.jpeg"
+heroWide: "/images/armenia-wide.jpg"
 summary: "Yerevan as a base, with Geghard, Garni and Lake Sevan as easy day trips — no hotel-hopping, no repacking."
 publishDate: 2026-09-10
 draft: false

@@ -1,11 +1,21 @@
 ---
 import '../styles/global.css';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import { SITE } from '../lib/site';
 
 interface Props {
   title: string;
   description: string;
+  /** Itinerary pages show a reading-progress bar; other pages don't. */
+  progress?: boolean;
+  /** Absolute-from-root path to a social preview image. */
+  image?: string;
 }
-const { title, description } = Astro.props;
+const { title, description, progress = false, image } = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
+const socialImage = image ? new URL(image, canonical) : undefined;
 ---
 <!doctype html>
 <html lang="en">
@@ -14,36 +24,44 @@ const { title, description } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <link rel="canonical" href={canonical.href} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical.href} />
+    {socialImage && <meta property="og:image" content={socialImage.href} />}
+    <meta name="twitter:card" content={socialImage ? 'summary_large_image' : 'summary'} />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Karla:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Karla:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <script is:inline>
+      // Reveal-on-scroll hides things in CSS. Gate that on JS being alive so
+      // the page is never blank if the bundle fails to load.
+      document.documentElement.classList.add('js');
+    </script>
   </head>
   <body>
-    <header class="site-header">
-      <div class="wrap">
-        <a class="brand" href="/">The Itinerary <span>Wala</span></a>
-        <nav class="site-nav">
-          <a href="/">Itineraries</a>
-          <a href="https://instagram.com/theitinerarywala">Instagram</a>
-        </nav>
-      </div>
-    </header>
+    <a class="skip-link" href="#main">Skip to content</a>
+    {progress && <div class="read-progress"><span class="read-progress__bar"></span></div>}
 
-    <slot />
+    <SiteHeader />
 
-    <footer class="site-footer">
-      <div class="wrap">
-        <p>
-          Day-by-day itineraries for families travelling on Indian passports
-          with UAE residence. Some links are affiliate links — booking through
-          them supports this site at no extra cost to you.
-        </p>
-        <p>© {new Date().getFullYear()} The Itinerary Wala</p>
-      </div>
-    </footer>
+    <main id="main" tabindex="-1">
+      <slot />
+    </main>
+
+    <SiteFooter />
+
+    <script>
+      import { reveal } from '../scripts/reveal';
+      reveal();
+    </script>
   </body>
 </html>

@@ -1,0 +1,104 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { SITE } from '../lib/site';
+
+const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
+const countries = new Set(itineraries.map((i) => i.data.country));
+
+// TODO(owner): the three steps below describe how you actually research a
+// trip — rewrite them in your own words, they're the most credible thing
+// on the page.
+const method = [
+  {
+    step: 'Check the passport, not the postcard',
+    body: `Every plan starts with the visa rule for an Indian passport held by a
+      UAE resident — visa-free, visa on arrival, or e-visa — because that's what
+      decides whether a trip is actually bookable this month.`,
+  },
+  {
+    step: 'Build the days around the kids',
+    body: `Drives get capped at roughly two hours. Big sights land before lunch.
+      Nothing on the plan assumes a child will happily queue for an hour, because
+      no child does.`,
+  },
+  {
+    step: 'Price it in real numbers',
+    body: `Budgets are per person, in dirhams, based on mid-range hotels and the
+      tours actually linked on the page — not a range wide enough to be useless.`,
+  },
+];
+---
+<Base
+  title="About — The Itinerary Wala"
+  description="Why these itineraries exist: day-by-day family travel plans built around Indian passports, UAE residence, real budgets and short drives."
+>
+  <section class="page-hero">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>About</p>
+      <h1 data-reveal>Travel plans that start with your passport, not someone else's.</h1>
+      <p class="page-hero__lede" data-reveal>
+        Most itineraries online are written for people who can go anywhere.
+        If you hold an Indian passport and live in the UAE, half that advice
+        quietly doesn't apply — the visa rules are different, the flight
+        routes are different, and the "cheap weekend break" often isn't.
+      </p>
+    </div>
+  </section>
+
+  <section class="wrap section">
+    <div class="prose" data-reveal>
+      <h2>What this site is</h2>
+      <p>
+        {SITE.name} is a small, growing library of day-by-day itineraries for
+        families flying out of the UAE on Indian passports. Every plan states
+        the visa position up front, keeps the daily pace realistic for young
+        children, and links the hotels and tours it actually recommends so you
+        can book them without going hunting.
+      </p>
+      <p>
+        Right now there {countries.size === 1 ? 'is' : 'are'} {countries.size}
+        {countries.size === 1 ? ' country' : ' countries'} covered, with more
+        added as they're researched properly. Nothing goes up as a placeholder.
+      </p>
+
+      <h2>How each itinerary gets built</h2>
+    </div>
+
+    <ol class="method">
+      {method.map((item, i) => (
+        <li class="method__item" data-reveal style={`--stagger:${i}`}>
+          <span class="method__num" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+          <h3>{item.step}</h3>
+          <p>{item.body}</p>
+        </li>
+      ))}
+    </ol>
+
+    <div class="prose" data-reveal>
+      <h2>How it pays for itself</h2>
+      <p>
+        Some of the booking links are affiliate links. If you book through one,
+        this site earns a small commission and you pay exactly the same price.
+        That's the whole business model — there's no paid placement, and a hotel
+        can't buy its way onto a plan.
+      </p>
+
+      <h2>One honest caveat</h2>
+      <p>
+        Visa rules change, sometimes with very little notice, and they can
+        depend on your specific residence status. Everything here is checked
+        when it's written and dated on the page, but please confirm with the
+        embassy or your airline before you book anything expensive.
+      </p>
+    </div>
+
+    <aside class="cta-card" data-reveal>
+      <div>
+        <h2>Planning a trip I haven't covered?</h2>
+        <p>Tell me where you're headed — it helps decide what gets researched next.</p>
+      </div>
+      <a class="btn btn--solid" href="/contact/">Get in touch</a>
+    </aside>
+  </section>
+</Base>

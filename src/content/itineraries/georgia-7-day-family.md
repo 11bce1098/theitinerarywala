@@ -5,6 +5,8 @@ days: 7
 budgetPerPerson: "AED 2,800"
 visaNote: "Visa-free with UAE residence"
 bestFor: "Families with a stroller"
+heroImage: "/images/georgia.jpeg"
+heroWide: "/images/georgia-wide.jpg"
 summary: "Tbilisi, Kazbegi and Kakheti at a pace a 4-year-old can handle — short drives, big monuments, and food everyone will eat."
 publishDate: 2026-09-14
 draft: false

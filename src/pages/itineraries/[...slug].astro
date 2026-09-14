@@ -1,6 +1,8 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import CoverArt from '../../components/CoverArt.astro';
+import DayNav from '../../components/DayNav.astro';
 
 export async function getStaticPaths() {
   const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
@@ -11,11 +13,33 @@ export async function getStaticPaths() {
 }
 
 const { itin } = Astro.props;
-const { Content } = await render(itin);
+const { Content, headings } = await render(itin);
+
+const updated = itin.data.publishDate.toLocaleDateString('en-GB', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric',
+});
 ---
-<Base title={`${itin.data.title} — The Itinerary Wala`} description={itin.data.summary}>
+<Base
+  title={`${itin.data.title} — The Itinerary Wala`}
+  description={itin.data.summary}
+  progress
+>
   <section class="itin-hero">
-    <div class="wrap">
+    <div class="itin-hero__art">
+      <CoverArt
+        seed={itin.id}
+        country={itin.data.country}
+        src={itin.data.heroImage}
+        wide={itin.data.heroWide}
+        focus={itin.data.heroFocus}
+        alt={itin.data.title}
+        eager
+      />
+    </div>
+    <div class="wrap itin-hero__content">
+      <p class="itin-hero__eyebrow">{itin.data.country} · updated {updated}</p>
       <h1>{itin.data.title}</h1>
       <p class="summary">{itin.data.summary}</p>
       <ul class="facts">
@@ -27,7 +51,9 @@ const { Content } = await render(itin);
     </div>
   </section>
 
-  <article class="itin-body">
+  <DayNav headings={headings} />
+
+  <article class="itin-body" data-article>
     <Content />
     <p class="disclosure">
       Booking links on this page are affiliate links. If you book through
@@ -36,3 +62,8 @@ const { Content } = await render(itin);
     </p>
   </article>
 </Base>
+
+<script>
+  import { trackProgress } from '../../scripts/progress';
+  trackProgress('.read-progress__bar', '[data-article]');
+</script>

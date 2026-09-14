@@ -1,0 +1,122 @@
+---
+import { getCollection } from 'astro:content';
+import { NAV, SITE, FORM_ENDPOINT, HAS_FORM_ENDPOINT } from '../lib/site';
+
+// Destination list is generated, so the footer can't go stale.
+const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
+const destinations = [...new Set(itineraries.map((i) => i.data.country))].sort();
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <p class="footer-logo">The Itinerary <span>Wala</span></p>
+      <p>
+        Day-by-day plans for families travelling on Indian passports with UAE
+        residence — visa rules checked, budgets in real numbers, every stay
+        and tour bookable in one tap.
+      </p>
+      <a class="icon-link icon-link--bordered" href={SITE.instagram} rel="me noopener" target="_blank">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <rect x="3" y="3" width="18" height="18" rx="5" />
+          <circle cx="12" cy="12" r="3.8" />
+          <circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none" />
+        </svg>
+        <span class="sr-only">The Itinerary Wala on Instagram</span>
+      </a>
+    </div>
+
+    <nav class="footer-col" aria-label="Site">
+      <h2>Explore</h2>
+      <ul>
+        {NAV.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
+      </ul>
+    </nav>
+
+    <nav class="footer-col" aria-label="Destinations">
+      <h2>Destinations</h2>
+      <ul>
+        {destinations.map((country) => (
+          <li><a href={`/?country=${encodeURIComponent(country)}`}>{country}</a></li>
+        ))}
+      </ul>
+    </nav>
+
+    <div class="footer-col footer-signup">
+      <h2>New itineraries</h2>
+      <p>One email when a new country goes up. No drip sequences.</p>
+      <form
+        class="signup-form"
+        data-signup
+        method="POST"
+        action={HAS_FORM_ENDPOINT ? FORM_ENDPOINT : undefined}
+      >
+        <input type="hidden" name="form" value="newsletter" />
+        <label class="sr-only" for="signup-email">Email address</label>
+        <div class="signup-row">
+          <input
+            id="signup-email"
+            type="email"
+            name="email"
+            required
+            autocomplete="email"
+            placeholder="you@example.com"
+          />
+          <button class="btn btn--solid" type="submit">Notify me</button>
+        </div>
+        <p class="form-note" data-signup-status role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+
+  <div class="wrap footer-bottom">
+    <p>
+      Some links are affiliate links — booking through them supports this site
+      at no extra cost to you. Visa rules change; always confirm with the
+      embassy or airline before you book.
+    </p>
+    <p>© {year} {SITE.name}</p>
+  </div>
+</footer>
+
+<script>
+  import { SITE, HAS_FORM_ENDPOINT } from '../lib/site';
+
+  const form = document.querySelector<HTMLFormElement>('[data-signup]');
+  const status = document.querySelector<HTMLElement>('[data-signup-status]');
+
+  form?.addEventListener('submit', async (event) => {
+    if (!status) return;
+    const email = new FormData(form).get('email');
+
+    // No endpoint configured: hand off to the visitor's mail client rather
+    // than pretending the address was stored somewhere.
+    if (!HAS_FORM_ENDPOINT) {
+      event.preventDefault();
+      status.textContent = 'Opening your email app…';
+      status.className = 'form-note';
+      window.location.href =
+        `mailto:${SITE.email}?subject=${encodeURIComponent('New itinerary alerts')}` +
+        `&body=${encodeURIComponent(`Please add ${email} to the list.`)}`;
+      return;
+    }
+
+    event.preventDefault();
+    status.textContent = 'Signing you up…';
+    status.className = 'form-note';
+    try {
+      const response = await fetch(form.action, {
+        method: 'POST',
+        headers: { Accept: 'application/json' },
+        body: new FormData(form),
+      });
+      if (!response.ok) throw new Error(String(response.status));
+      form.reset();
+      status.textContent = "You're on the list.";
+      status.className = 'form-note form-note--ok';
+    } catch {
+      status.textContent = `Couldn't sign you up. Email ${SITE.email} instead.`;
+      status.className = 'form-note form-note--bad';
+    }
+  });
+</script>

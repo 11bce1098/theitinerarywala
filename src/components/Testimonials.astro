@@ -1,0 +1,30 @@
+---
+import { TESTIMONIALS, PLACEHOLDER, SHOW } from '../lib/testimonials';
+---
+{SHOW && TESTIMONIALS.length > 0 && (
+  <section class="wrap section testimonials">
+    <h2 class="section-heading" data-reveal>What readers say</h2>
+
+    {PLACEHOLDER && (
+      <p class="placeholder-note">
+        <strong>Sample text.</strong> These are illustrative quotes, not real
+        reader feedback. Replace them in <code>src/lib/testimonials.ts</code>
+        and set <code>PLACEHOLDER = false</code> before launch.
+      </p>
+    )}
+
+    <ul class="quote-grid">
+      {TESTIMONIALS.map((item, i) => (
+        <li class="quote-card" data-reveal style={`--stagger:${i}`}>
+          <blockquote>
+            <p>{item.quote}</p>
+          </blockquote>
+          <footer>
+            <span class="quote-name">{item.name}</span>
+            <span class="quote-trip">{item.trip}</span>
+          </footer>
+        </li>
+      ))}
+    </ul>
+  </section>
+)}
