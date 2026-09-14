@@ -1,0 +1,39 @@
+---
+title: "Russia in 6 days: Moscow and St Petersburg"
+country: "Russia"
+days: 6
+budgetPerPerson: "TBC"
+visaNote: "Visa rules to confirm"
+bestFor: "First-time visitors"
+heroImage: "/images/russia.jpeg"
+heroWide: "/images/russia-wide.jpeg"
+summary: "Three nights in Moscow and two in St Petersburg, linked by the high-speed Sapsan — one train, no internal flights."
+publishDate: 2026-09-14
+draft: true
+---
+
+<!--
+  STUB — draft: true, so this is not on the site or in the sitemap yet.
+
+  Before publishing, confirm and fill in:
+  - visaNote: the current rule for an Indian passport held by a UAE resident.
+    Russia has run a unified e-visa that has included Indian nationals, but
+    eligibility and processing times change — check the official portal, not
+    a summary site, and date it.
+  - budgetPerPerson: real numbers from the hotels and trains you'd actually
+    book, per person, in dirhams.
+  - days: adjust if the shape changes.
+-->
+
+Moscow and St Petersburg are far apart on a map and close together in
+practice: the Sapsan covers the gap in about four hours, which means a
+short trip can take in both without an internal flight or a second
+airport transfer.
+
+## Day 1 — Moscow: Red Square and Kitay-gorod on foot
+
+Arrive and stay central. Red Square, St Basil's and the Kremlin walls are
+walkable from most Kitay-gorod hotels, which keeps the first day simple
+while everyone adjusts.
+
+<a class="book-btn" href="#PASTE-TRAVELPAYOUTS-HOTEL-LINK">Book a hotel near Red Square</a>
