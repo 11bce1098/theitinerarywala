@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://theitinerarywala.com/sitemap-index.xml
