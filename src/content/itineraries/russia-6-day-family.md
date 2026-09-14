@@ -9,7 +9,7 @@ heroImage: "/images/russia.jpeg"
 heroWide: "/images/russia-wide.jpeg"
 summary: "Three nights in Moscow and two in St Petersburg, linked by the high-speed Sapsan — one train, no internal flights."
 publishDate: 2026-09-14
-draft: true
+draft: false
 ---
 
 <!--

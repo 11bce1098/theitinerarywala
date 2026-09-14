@@ -9,7 +9,7 @@ heroImage: "/images/japan.jpeg"
 heroWide: "/images/japan-wide.jpeg"
 summary: "Four nights in Tokyo and three in Kyoto, joined by one Shinkansen ride — two bases, one train, no repacking in between."
 publishDate: 2026-09-14
-draft: true
+draft: false
 ---
 
 <!--

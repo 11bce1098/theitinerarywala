@@ -9,7 +9,7 @@ heroImage: "/images/uae.jpeg"
 heroWide: "/images/uae-wide.jpeg"
 summary: "Dubai, Abu Dhabi and the mountains over a long weekend — no flights, no visas, and you sleep in a different emirate each night."
 publishDate: 2026-09-14
-draft: true
+draft: false
 ---
 
 <!--

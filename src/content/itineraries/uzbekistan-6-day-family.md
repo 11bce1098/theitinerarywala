@@ -9,7 +9,7 @@ heroImage: "/images/uzbekistan.jpeg"
 heroWide: "/images/uzbekistan-wide.jpeg"
 summary: "The Silk Road three, linked by fast trains — Tashkent to Samarkand to Bukhara without a single long road transfer."
 publishDate: 2026-09-14
-draft: true
+draft: false
 ---
 
 <!--
