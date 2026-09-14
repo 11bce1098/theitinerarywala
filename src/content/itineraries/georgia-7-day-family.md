@@ -77,4 +77,4 @@ comes to roughly AED 2,800 per person, flights excluded. Book the
 Kazbegi hotel first — the good ones with views sell out weeks ahead
 in summer.
 
-<a class="book-btn" href="#PASTE-TRAVELPAYOUTS-FLIGHT-WIDGET">Check flight prices to Tbilisi</a>
+<a class="book-btn" href="#aff:aviasales">Check flight prices to Tbilisi</a>

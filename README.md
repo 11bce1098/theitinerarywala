@@ -146,3 +146,33 @@ honeypot field that silently discards bot submissions.
 `src/lib/site.ts`, and rewrite the three "How each itinerary gets built"
 steps in `src/pages/about.astro` in your own words — they are the most
 credible thing on that page.
+
+## Affiliate links
+
+Partner links live in `src/lib/affiliates.mjs`, keyed by partner name. In an
+itinerary, reference a key instead of pasting a URL:
+
+```html
+<a class="book-btn" href="#aff:aviasales">Check flight prices to Tbilisi</a>
+```
+
+At build time a rehype plugin in `astro.config.mjs` swaps in the real URL and
+adds `rel="sponsored nofollow noopener" target="_blank"`. Google asks for
+`rel="sponsored"` on paid links, so this is not optional. An unknown key
+fails the build rather than shipping a button that goes nowhere.
+
+Changing a URL in `affiliates.mjs` updates every page using it. Astro caches
+rendered markdown, so locally run:
+
+```bash
+rm -rf .astro node_modules/.astro && npm run build
+```
+
+Cloudflare builds from a clean checkout, so deploys pick changes up on their
+own.
+
+Run this to see what is still unlinked:
+
+```bash
+grep -rn '#PASTE-' src/content/itineraries/
+```
