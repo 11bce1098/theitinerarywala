@@ -69,7 +69,7 @@ same vineyards. It works.
 Dry Bridge Market for souvenirs in the morning, then out. Evening
 flights land in the UAE at a reasonable bedtime.
 
-### What this actually costs
+## What this trip actually costs
 
 For two adults and one child over 7 nights: mid-range hotels
 (~AED 350/night), one private driver day, two group tours, and food

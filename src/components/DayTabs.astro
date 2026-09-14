@@ -1,0 +1,141 @@
+---
+import type { Section } from '../lib/itinerary';
+
+interface Props {
+  days: Section[];
+}
+const { days } = Astro.props;
+---
+{days.length > 0 && (
+  <div class="daytabs" data-daytabs>
+    <div class="daytabs__bar">
+      <div class="daytabs__list" role="tablist" aria-label="Day by day itinerary">
+        {days.map((day, i) => (
+          <button
+            type="button"
+            role="tab"
+            id={`tab-${day.id}`}
+            class="daytab"
+            aria-controls={`panel-${day.id}`}
+            aria-selected={i === 0 ? 'true' : 'false'}
+            tabindex={i === 0 ? 0 : -1}
+            data-tab={day.id}
+            title={day.heading}
+          >
+            {day.label}
+          </button>
+        ))}
+      </div>
+    </div>
+
+    {days.map((day, i) => (
+      <section
+        role="tabpanel"
+        id={`panel-${day.id}`}
+        class:list={['daytabs__panel', 'prose-body', { 'is-active': i === 0 }]}
+        aria-labelledby={`tab-${day.id}`}
+        tabindex="0"
+        data-panel={day.id}
+        set:html={day.html}
+      />
+    ))}
+
+    <p class="daytabs__step">
+      <button type="button" class="btn btn--ghost" data-step="-1" hidden>← Previous day</button>
+      <button type="button" class="btn btn--ghost" data-step="1">Next day →</button>
+    </p>
+  </div>
+)}
+
+<script>
+  const root = document.querySelector<HTMLElement>('[data-daytabs]');
+
+  if (root) {
+    const tabs = Array.from(root.querySelectorAll<HTMLButtonElement>('[data-tab]'));
+    const panels = Array.from(root.querySelectorAll<HTMLElement>('[data-panel]'));
+    const steppers = Array.from(root.querySelectorAll<HTMLButtonElement>('[data-step]'));
+    const strip = root.querySelector<HTMLElement>('.daytabs__list');
+
+    let index = 0;
+
+    /** Horizontal only — scrollIntoView here would also move the page. */
+    const centreChip = () => {
+      const tab = tabs[index];
+      if (!strip || !tab || strip.scrollWidth <= strip.clientWidth) return;
+      strip.scrollTo({
+        left: tab.offsetLeft - strip.clientWidth / 2 + tab.clientWidth / 2,
+        behavior: 'smooth',
+      });
+    };
+
+    const select = (next: number, { focus = false, scroll = false } = {}) => {
+      index = Math.max(0, Math.min(tabs.length - 1, next));
+
+      tabs.forEach((tab, i) => {
+        const on = i === index;
+        tab.setAttribute('aria-selected', String(on));
+        tab.tabIndex = on ? 0 : -1;
+      });
+      panels.forEach((panel, i) => panel.classList.toggle('is-active', i === index));
+
+      steppers.forEach((button) => {
+        const step = Number(button.dataset.step);
+        button.hidden = step < 0 ? index === 0 : index === tabs.length - 1;
+      });
+
+      centreChip();
+      if (focus) tabs[index]?.focus();
+      if (scroll) root.scrollIntoView({ block: 'start', behavior: 'smooth' });
+
+      const id = tabs[index]?.dataset.tab;
+      if (id) history.replaceState(null, '', `#${id}`);
+    };
+
+    tabs.forEach((tab, i) => {
+      tab.addEventListener('click', () => select(i));
+    });
+
+    // WAI-ARIA tabs keyboard pattern.
+    root.querySelector('[role="tablist"]')?.addEventListener('keydown', (event) => {
+      const key = (event as KeyboardEvent).key;
+      const moves: Record<string, number> = {
+        ArrowRight: index + 1,
+        ArrowLeft: index - 1,
+        Home: 0,
+        End: tabs.length - 1,
+      };
+      if (!(key in moves)) return;
+      event.preventDefault();
+      select(moves[key], { focus: true });
+    });
+
+    steppers.forEach((button) => {
+      button.addEventListener('click', () => {
+        select(index + Number(button.dataset.step), { scroll: true });
+      });
+    });
+
+    /**
+     * Deep links: /itineraries/x/#day-3 opens that tab.
+     *
+     * The target heading lives inside a display:none panel at load, so the
+     * browser's own fragment jump lands nowhere useful — position it here
+     * once the right panel is visible.
+     */
+    const openFromHash = (initial = false) => {
+      const id = decodeURIComponent(location.hash.slice(1));
+      if (!id) return;
+      const found = tabs.findIndex(
+        (tab) => tab.dataset.tab === id || `panel-${tab.dataset.tab}` === id
+      );
+      if (found < 0) return;
+      select(found);
+      requestAnimationFrame(() => {
+        root.scrollIntoView({ block: 'start', behavior: initial ? 'auto' : 'smooth' });
+      });
+    };
+
+    openFromHash(true);
+    window.addEventListener('hashchange', () => openFromHash());
+  }
+</script>

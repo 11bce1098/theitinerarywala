@@ -25,6 +25,9 @@
 
 * { box-sizing: border-box; }
 
+/* Beats any component `display` rule, so toggling `hidden` always works. */
+[hidden] { display: none !important; }
+
 html { scroll-behavior: smooth; scroll-padding-top: calc(var(--header-h) + 4rem); }
 
 body {
@@ -520,8 +523,6 @@ body.nav-open { overflow: hidden; }
     box-shadow 0.3s var(--ease-out),
     border-color 0.3s var(--ease-out);
 }
-/* `hidden` has to beat the flex display when a filter drops a card. */
-.itinerary-card[hidden] { display: none; }
 .itinerary-card:hover,
 .itinerary-card:focus-within {
   transform: translateY(-4px);
@@ -703,104 +704,188 @@ body.nav-open { overflow: hidden; }
   font-size: 0.9rem;
 }
 
-/* ---- sticky day jump bar ---- */
-.day-nav {
+/* ---- itinerary page: banded layout ---- */
+.itin-band { border-bottom: 1px solid var(--line); }
+.itin-band--tinted { background: var(--card); }
+.itin-band__inner {
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 2.75rem 1.25rem;
+}
+.band-heading {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin: 0 0 1.6rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.crumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  list-style: none;
+  margin: 0 0 0.9rem;
+  padding: 0;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+.crumbs li + li::before {
+  content: '/';
+  margin-right: 0.4rem;
+  color: #b9b2a3;
+}
+.crumbs a { color: var(--ink-soft); text-decoration: none; }
+.crumbs a:hover { color: var(--ink); text-decoration: underline; }
+
+/* overview: copy beside an at-a-glance panel */
+.itin-overview {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 19rem;
+  gap: 2.5rem;
+  align-items: start;
+}
+@media (max-width: 880px) {
+  .itin-overview { grid-template-columns: 1fr; gap: 1.75rem; }
+}
+.glance {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.4rem 1.4rem;
+}
+.glance h3 {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0 0 1rem;
+}
+.glance dl { margin: 0; display: grid; gap: 0.75rem; }
+.glance dl > div {
+  display: grid;
+  grid-template-columns: 6.2rem minmax(0, 1fr);
+  gap: 0.6rem;
+  font-size: 0.92rem;
+  align-items: baseline;
+}
+.glance dt { color: var(--ink-soft); }
+.glance dd { margin: 0; font-weight: 500; }
+
+/* shared markdown body styling */
+.prose-body { max-width: var(--measure); }
+.prose-body > :first-child { margin-top: 0; }
+.prose-body p,
+.prose-body ul,
+.prose-body ol { margin: 0 0 1.1rem; }
+.prose-body h2 { font-size: 1.55rem; margin: 0 0 1rem; }
+.prose-body h3 { font-size: 1.15rem; margin: 1.9rem 0 0.6rem; }
+.prose-body img { max-width: 100%; border-radius: var(--radius); }
+
+/* ---- day tabs ---- */
+.daytabs__bar {
   position: sticky;
   top: calc(var(--header-h) - 1px);
-  z-index: 15;
-  background: rgba(var(--paper-rgb), 0.88);
+  z-index: 12;
+  margin: 0 -1.25rem 1.75rem;
+  padding: 0.6rem 1.25rem;
+  background: rgba(255, 255, 255, 0.92);
   backdrop-filter: saturate(1.4) blur(10px);
   -webkit-backdrop-filter: saturate(1.4) blur(10px);
   border-bottom: 1px solid var(--line);
 }
-.day-nav__wrap { padding-top: 0.5rem; padding-bottom: 0.5rem; }
-.day-nav__list {
+.daytabs__list {
   display: flex;
   gap: 0.4rem;
-  margin: 0;
-  padding: 0;
-  list-style: none;
   overflow-x: auto;
   scrollbar-width: none;
 }
-.day-nav__list::-webkit-scrollbar { display: none; }
-.day-nav__list a {
-  display: block;
+.daytabs__list::-webkit-scrollbar { display: none; }
+.daytab {
+  flex: none;
+  font: inherit;
+  font-size: 0.88rem;
   white-space: nowrap;
-  font-size: 0.85rem;
-  text-decoration: none;
-  color: var(--ink-soft);
-  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 0.35rem 0.95rem;
   border-radius: 999px;
-  padding: 0.25rem 0.8rem;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--ink-soft);
   transition:
-    background 0.22s var(--ease-out),
-    color 0.22s var(--ease-out),
-    border-color 0.22s var(--ease-out);
+    background 0.2s var(--ease-out),
+    color 0.2s var(--ease-out),
+    border-color 0.2s var(--ease-out);
 }
-.day-nav__list a:hover {
-  color: var(--ink);
-  border-color: var(--line);
-}
-.day-nav__list a[aria-current='true'] {
+.daytab:hover { color: var(--ink); border-color: var(--ink-soft); }
+.daytab[aria-selected='true'] {
   background: var(--marigold);
   border-color: var(--marigold-deep);
   color: var(--ink);
   font-weight: 700;
 }
 
-/* article body + the day timeline */
-.itin-body {
-  --rail: 2.2rem; /* gutter the day markers live in, clear of the text */
-  max-width: calc(var(--measure) + var(--rail));
-  margin: 0 auto;
-  padding: 2.5rem 1.25rem 0 calc(1.25rem + var(--rail));
-}
-.itin-body h2 {
-  font-size: 1.5rem;
-  margin: 2.8rem 0 0.8rem;
-  position: relative;
-}
-/* marigold route line + node on each Day heading:
-   days are a genuine sequence, so the timeline earns its markers */
-.itin-body h2::before {
-  content: '';
-  position: absolute;
-  left: calc(var(--rail) * -1 + 0.25rem);
-  top: 0.42em;
-  width: 0.85rem;
-  height: 0.85rem;
-  border-radius: 50%;
-  background: var(--marigold);
-  border: 3px solid var(--paper);
-  box-shadow: 0 0 0 1px var(--marigold-deep);
-}
-/* dashed route trailing from each day marker toward the next one */
-.itin-body h2::after {
-  content: '';
-  position: absolute;
-  left: calc(var(--rail) * -1 + 0.63rem);
-  top: 1.85em;
-  bottom: -3.2rem;
-  width: 2px;
-  background: repeating-linear-gradient(
-    to bottom,
-    var(--marigold-deep) 0 5px,
-    transparent 5px 11px
-  );
-  opacity: 0.45;
-}
-.itin-body h2:last-of-type::after { content: none; }
+/* Without JS every panel stays visible, so the page still reads top to
+   bottom. The `js` class is set in <head>, so there is no flash. */
+.js .daytabs__panel { display: none; }
+.js .daytabs__panel.is-active { display: block; animation: panel-in 0.35s var(--ease-out); }
+.daytabs__panel:focus-visible { outline: 3px solid var(--marigold); outline-offset: 6px; }
+.daytabs__panel + .daytabs__panel { margin-top: 2rem; }
+.js .daytabs__panel + .daytabs__panel { margin-top: 0; }
 
-@media (max-width: 600px) {
-  .itin-body { --rail: 1.5rem; }
+@keyframes panel-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: none; }
 }
-.itin-body h3 { font-size: 1.15rem; margin: 1.8rem 0 0.5rem; }
-.itin-body p, .itin-body ul { max-width: var(--measure); }
-.itin-body img {
-  max-width: 100%;
+
+.daytabs__step {
+  display: flex;
+  gap: 0.6rem;
+  justify-content: space-between;
+  margin: 2rem 0 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
+  max-width: var(--measure);
+}
+.btn--ghost {
+  background: var(--paper);
+  border-color: var(--line);
+  color: var(--ink);
+  font-weight: 500;
+}
+.btn--ghost:hover { border-color: var(--ink-soft); background: var(--card); }
+
+/* ---- related itineraries ---- */
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
+  gap: 1.25rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.related-card {
+  position: relative;
+  background: var(--paper);
+  border: 1px solid var(--line);
   border-radius: var(--radius);
+  overflow: hidden;
+  transition: transform 0.3s var(--ease-out), box-shadow 0.3s var(--ease-out);
 }
+.related-card:hover,
+.related-card:focus-within {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px -18px rgba(24, 36, 48, 0.45);
+}
+.related-card__cover { aspect-ratio: 16 / 10; overflow: hidden; }
+.related-card__body { padding: 0.9rem 1.05rem 1.1rem; }
+.related-card h3 { font-size: 1.03rem; margin: 0 0 0.3rem; }
+.related-card p { margin: 0; font-size: 0.88rem; color: var(--ink-soft); }
 
 /* affiliate booking button — used as raw HTML inside markdown */
 .book-btn {
@@ -1040,6 +1125,47 @@ body.nav-open { overflow: hidden; }
   margin: 0 0 0.5rem;
 }
 .contact-card p { margin: 0; color: var(--ink-soft); font-size: 0.95rem; }
+
+/* ---- homepage value strip ---- */
+.value-band {
+  background: var(--card);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  margin-top: 1rem;
+}
+.value-band__inner {
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 2.75rem 1.25rem;
+}
+.value-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr));
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.value-item h3 {
+  font-size: 1.08rem;
+  margin: 0 0 0.45rem;
+}
+.value-item p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}
+.value-icon {
+  display: grid;
+  place-items: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-bottom: 0.8rem;
+  border-radius: 10px;
+  background: #fbf0dc;
+  color: var(--marigold-deep);
+}
+.value-icon svg { width: 1.3rem; height: 1.3rem; }
 
 /* ---- testimonials ---- */
 .section-heading {

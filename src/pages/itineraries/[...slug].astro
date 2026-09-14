@@ -1,29 +1,45 @@
 ---
-import { getCollection, render } from 'astro:content';
+import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import CoverArt from '../../components/CoverArt.astro';
-import DayNav from '../../components/DayNav.astro';
+import DayTabs from '../../components/DayTabs.astro';
+import { splitItinerary } from '../../lib/itinerary';
 
 export async function getStaticPaths() {
   const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
   return itineraries.map((itin) => ({
     params: { slug: itin.id },
-    props: { itin },
+    props: { itin, all: itineraries },
   }));
 }
 
-const { itin } = Astro.props;
-const { Content, headings } = await render(itin);
+const { itin, all } = Astro.props;
+const { intro, days, extras } = splitItinerary(itin.rendered?.html ?? '');
 
 const updated = itin.data.publishDate.toLocaleDateString('en-GB', {
   day: 'numeric',
   month: 'long',
   year: 'numeric',
 });
+
+const facts = [
+  { label: 'Country', value: itin.data.country },
+  { label: 'Length', value: `${itin.data.days} days` },
+  { label: 'Budget', value: `${itin.data.budgetPerPerson} / person` },
+  { label: 'Visa', value: itin.data.visaNote },
+  { label: 'Best for', value: itin.data.bestFor },
+  { label: 'Updated', value: updated },
+];
+
+const related = all
+  .filter((other) => other.id !== itin.id)
+  .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
+  .slice(0, 3);
 ---
 <Base
   title={`${itin.data.title} — The Itinerary Wala`}
   description={itin.data.summary}
+  image={itin.data.heroWide ?? itin.data.heroImage}
   progress
 >
   <section class="itin-hero">
@@ -39,7 +55,13 @@ const updated = itin.data.publishDate.toLocaleDateString('en-GB', {
       />
     </div>
     <div class="wrap itin-hero__content">
-      <p class="itin-hero__eyebrow">{itin.data.country} · updated {updated}</p>
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Itineraries</a></li>
+          <li><a href={`/?country=${encodeURIComponent(itin.data.country)}`}>{itin.data.country}</a></li>
+          <li aria-current="page">{itin.data.days} days</li>
+        </ol>
+      </nav>
       <h1>{itin.data.title}</h1>
       <p class="summary">{itin.data.summary}</p>
       <ul class="facts">
@@ -51,19 +73,96 @@ const updated = itin.data.publishDate.toLocaleDateString('en-GB', {
     </div>
   </section>
 
-  <DayNav headings={headings} />
+  <div class="itin">
+    <section class="itin-band" aria-labelledby="overview-heading">
+      <div class="itin-band__inner">
+        <h2 class="band-heading" id="overview-heading">Before you go</h2>
+        <div class="itin-overview">
+          <div class="prose-body" set:html={intro} />
+          <aside class="glance" aria-label="At a glance">
+            <h3>At a glance</h3>
+            <dl>
+              {facts.map((fact) => (
+                <div>
+                  <dt>{fact.label}</dt>
+                  <dd>{fact.value}</dd>
+                </div>
+              ))}
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </section>
 
-  <article class="itin-body" data-article>
-    <Content />
-    <p class="disclosure">
-      Booking links on this page are affiliate links. If you book through
-      them, The Itinerary Wala earns a small commission at no extra cost to
-      you — it's what keeps the itineraries free.
-    </p>
-  </article>
+    {days.length > 0 && (
+      <section class="itin-band itin-band--tinted" aria-labelledby="days-heading">
+        <div class="itin-band__inner">
+          <h2 class="band-heading" id="days-heading">Day by day</h2>
+          <DayTabs days={days} />
+        </div>
+      </section>
+    )}
+
+    {extras.length > 0 && (
+      <section class="itin-band" aria-labelledby="details-heading">
+        <div class="itin-band__inner">
+          <h2 class="band-heading" id="details-heading">Costs and practicalities</h2>
+          {extras.map((section) => (
+            <div class="prose-body" set:html={section.html} />
+          ))}
+        </div>
+      </section>
+    )}
+
+    <section class="itin-band">
+      <div class="itin-band__inner">
+        <p class="disclosure">
+          Booking links on this page are affiliate links. If you book through
+          them, The Itinerary Wala earns a small commission at no extra cost to
+          you — it's what keeps the itineraries free. Visa rules change; this
+          plan was checked on {updated}, so confirm with the embassy or your
+          airline before booking.
+        </p>
+      </div>
+    </section>
+
+    {related.length > 0 && (
+      <section class="itin-band itin-band--tinted" aria-labelledby="related-heading">
+        <div class="itin-band__inner">
+          <h2 class="band-heading" id="related-heading">Other itineraries</h2>
+          <ul class="related-grid">
+            {related.map((other) => (
+              <li class="related-card">
+                <div class="related-card__cover">
+                  <CoverArt
+                    seed={other.id}
+                    country={other.data.country}
+                    src={other.data.heroImage}
+                    alt={other.data.title}
+                  />
+                </div>
+                <div class="related-card__body">
+                  <h3><a class="card-link" href={`/itineraries/${other.id}/`}>{other.data.title}</a></h3>
+                  <p>{other.data.days} days · {other.data.budgetPerPerson} / person</p>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    )}
+  </div>
 </Base>
 
 <script>
   import { trackProgress } from '../../scripts/progress';
-  trackProgress('.read-progress__bar', '[data-article]');
+  import { reveal } from '../../scripts/reveal';
+
+  trackProgress('.read-progress__bar', '.itin');
+
+  // Markdown headings only exist after the content is injected, so tag them here.
+  document
+    .querySelectorAll('.prose-body h3, .daytabs__panel > h2')
+    .forEach((el) => el.setAttribute('data-reveal', ''));
+  reveal();
 </script>
