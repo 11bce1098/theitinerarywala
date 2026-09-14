@@ -46,6 +46,31 @@ const socialImage = new URL(image ?? SITE.ogImage, canonical);
       // the page is never blank if the bundle fails to load.
       document.documentElement.classList.add('js');
     </script>
+
+    <!--
+      Travelpayouts monetisation tag. `is:inline` keeps Astro from bundling
+      it — the vendor requires this to run as-is in <head>. The attributes
+      are hints for WordPress caching plugins; harmless here, kept so the
+      snippet matches what the dashboard issues.
+    -->
+    <script
+      is:inline
+      nowprocket
+      data-noptimize="1"
+      data-cfasync="false"
+      data-wpfc-render="false"
+      seraph-accel-crit="1"
+      data-no-defer="1"
+      data-cmp-ab="2"
+    >
+      (function () {
+        var script = document.createElement("script");
+        script.async = 1;
+        script.setAttribute("data-cmp-ab", "2");
+        script.src = 'https://emrldtp.cc/NTczODQy.js?t=573842';
+        document.head.appendChild(script);
+      })();
+    </script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
