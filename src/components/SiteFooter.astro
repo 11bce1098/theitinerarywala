@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import { NAV, SITE, FORM_ENDPOINT, HAS_FORM_ENDPOINT } from '../lib/site';
+import { NAV, SITE, FORM_ENDPOINT, HAS_FORM_ENDPOINT, WEB3FORMS_KEY } from '../lib/site';
 
 // Destination list is generated, so the footer can't go stale.
 const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
@@ -52,6 +52,9 @@ const year = new Date().getFullYear();
         action={HAS_FORM_ENDPOINT ? FORM_ENDPOINT : undefined}
       >
         <input type="hidden" name="form" value="newsletter" />
+        {WEB3FORMS_KEY && <input type="hidden" name="access_key" value={WEB3FORMS_KEY} />}
+        <input type="hidden" name="subject" value="The Itinerary Wala — newsletter signup" />
+        <input type="hidden" name="from_name" value="The Itinerary Wala" />
         <label class="sr-only" for="signup-email">Email address</label>
         <div class="signup-row">
           <input

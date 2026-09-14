@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { SITE, FORM_ENDPOINT, HAS_FORM_ENDPOINT } from '../lib/site';
+import { SITE, FORM_ENDPOINT, HAS_FORM_ENDPOINT, WEB3FORMS_KEY } from '../lib/site';
 
 const topics = [
   'A question about an itinerary',
@@ -35,6 +35,10 @@ const topics = [
       novalidate
       data-reveal
     >
+      {WEB3FORMS_KEY && <input type="hidden" name="access_key" value={WEB3FORMS_KEY} />}
+      <input type="hidden" name="subject" value="The Itinerary Wala — contact form" />
+      <input type="hidden" name="from_name" value="The Itinerary Wala" />
+
       <div class="field">
         <label for="name">Your name</label>
         <input id="name" name="name" type="text" required autocomplete="name" />

@@ -12,8 +12,8 @@ export const SITE = {
     'Day-by-day travel itineraries for families on Indian passports with UAE residence: visa notes, real budgets, and bookable plans.',
   email: 'theitinerarywala@gmail.com',
   instagram: 'https://instagram.com/theitinerarywala',
-  // Fallback social preview. TODO(owner): swap for a branded 1200x630 card.
-  ogImage: '/images/georgia.jpeg',
+  // Branded 1200x630 social preview, used when a page has no image of its own.
+  ogImage: '/images/og-card.jpg',
 } as const;
 
 export interface NavLink {
@@ -30,12 +30,20 @@ export const NAV: NavLink[] = [
 /**
  * Where the contact and newsletter forms POST.
  *
- * Set PUBLIC_FORM_ENDPOINT in a .env file (or in the Cloudflare Pages
- * dashboard) to a form service such as Formspree or Web3Forms. When it's
- * empty the forms fall back to opening the visitor's mail client, so the
- * page is never a dead end — it just isn't as smooth.
+ * Set PUBLIC_WEB3FORMS_KEY to your Web3Forms access key and the endpoint is
+ * inferred. PUBLIC_FORM_ENDPOINT overrides it for any other service. With
+ * neither set the forms fall back to opening the visitor's mail client, so
+ * the page is never a dead end — it just isn't as smooth.
+ *
+ * Both are read at build time, so changing them needs a redeploy.
  */
-export const FORM_ENDPOINT: string = import.meta.env.PUBLIC_FORM_ENDPOINT ?? '';
+export const WEB3FORMS_KEY: string = import.meta.env.PUBLIC_WEB3FORMS_KEY ?? '';
+
+const CUSTOM_ENDPOINT: string = import.meta.env.PUBLIC_FORM_ENDPOINT ?? '';
+
+export const FORM_ENDPOINT: string =
+  CUSTOM_ENDPOINT.trim() ||
+  (WEB3FORMS_KEY.trim() ? 'https://api.web3forms.com/submit' : '');
 
 /** True when a real endpoint is configured. */
 export const HAS_FORM_ENDPOINT = FORM_ENDPOINT.trim().length > 0;
