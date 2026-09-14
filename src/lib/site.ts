@@ -12,6 +12,8 @@ export const SITE = {
     'Day-by-day travel itineraries for families on Indian passports with UAE residence: visa notes, real budgets, and bookable plans.',
   email: 'theitinerarywala@gmail.com',
   instagram: 'https://instagram.com/theitinerarywala',
+  // Fallback social preview. TODO(owner): swap for a branded 1200x630 card.
+  ogImage: '/images/georgia.jpeg',
 } as const;
 
 export interface NavLink {

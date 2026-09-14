@@ -7,9 +7,14 @@ import { TESTIMONIALS, PLACEHOLDER, SHOW } from '../lib/testimonials';
 
     {PLACEHOLDER && (
       <p class="placeholder-note">
-        <strong>Sample text.</strong> These are illustrative quotes, not real
-        reader feedback. Replace them in <code>src/lib/testimonials.ts</code>
-        and set <code>PLACEHOLDER = false</code> before launch.
+        <strong>Sample quotes.</strong> These are illustrative examples, not
+        real reader feedback — genuine quotes will replace them as they come in.
+        {import.meta.env.DEV && (
+          <span>
+            {' '}Edit <code>src/lib/testimonials.ts</code> and set
+            {' '}<code>PLACEHOLDER = false</code>.
+          </span>
+        )}
       </p>
     )}
 

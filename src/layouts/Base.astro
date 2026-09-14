@@ -15,7 +15,7 @@ interface Props {
 const { title, description, progress = false, image } = Astro.props;
 
 const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
-const socialImage = image ? new URL(image, canonical) : undefined;
+const socialImage = new URL(image ?? SITE.ogImage, canonical);
 ---
 <!doctype html>
 <html lang="en">
@@ -32,8 +32,8 @@ const socialImage = image ? new URL(image, canonical) : undefined;
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical.href} />
-    {socialImage && <meta property="og:image" content={socialImage.href} />}
-    <meta name="twitter:card" content={socialImage ? 'summary_large_image' : 'summary'} />
+    <meta property="og:image" content={socialImage.href} />
+    <meta name="twitter:card" content="summary_large_image" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
