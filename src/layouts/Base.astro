@@ -86,7 +86,9 @@ const socialImage = new URL(image ?? SITE.ogImage, canonical);
 
     <script>
       import { reveal } from '../scripts/reveal';
+      import { refreshBudgets } from '../scripts/rates';
       reveal();
+      refreshBudgets();
     </script>
   </body>
 </html>

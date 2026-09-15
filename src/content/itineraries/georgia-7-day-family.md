@@ -2,7 +2,8 @@
 title: "Georgia in 7 days with young kids"
 country: "Georgia"
 days: 7
-budgetPerPerson: "AED 2,800"
+budgetAmount: 2800
+budgetCurrency: "AED"
 bestFor: "Families with a stroller"
 heroImage: "/images/georgia.jpeg"
 heroWide: "/images/georgia-wide.jpg"

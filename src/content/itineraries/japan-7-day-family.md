@@ -2,7 +2,7 @@
 title: "Japan in 7 days: Tokyo and Kyoto"
 country: "Japan"
 days: 7
-budgetPerPerson: "TBC"
+budgetCurrency: "USD"
 bestFor: "First-time visitors"
 heroImage: "/images/japan.jpeg"
 heroWide: "/images/japan-wide.jpeg"

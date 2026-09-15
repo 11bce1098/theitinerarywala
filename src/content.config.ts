@@ -7,7 +7,10 @@ const itineraries = defineCollection({
     title: z.string(),
     country: z.string(),
     days: z.number(),
-    budgetPerPerson: z.string(), // e.g. "AED 3,200" — keep it a display string
+    // Author the figure in whatever currency you researched in; the site
+    // converts it to USD and to the destination currency at live rates.
+    budgetAmount: z.number().optional(),
+    budgetCurrency: z.string().default('USD'),
     // Optional, and only for something true of every passport (e.g. "e-visa
     // online, no embassy visit"). Anything nationality-specific belongs in
     // the body, not here — the pill is read by everyone.

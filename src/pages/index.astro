@@ -3,6 +3,8 @@ import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import CoverArt from '../components/CoverArt.astro';
 import { regionFor } from '../lib/geography.mjs';
+import Budget from '../components/Budget.astro';
+import { getRates, convert } from '../lib/rates.mjs';
 import Testimonials from '../components/Testimonials.astro';
 import ValueProps from '../components/ValueProps.astro';
 
@@ -11,10 +13,12 @@ const itineraries = (await getCollection('itineraries', ({ data }) => !data.draf
 
 const countries = [...new Set(itineraries.map((i) => i.data.country))].sort();
 
-/** "AED 2,800" -> 2800, so the cheapest-first sort has something to compare. */
-function budgetValue(display: string): number {
-  const digits = display.replace(/[^\d]/g, '');
-  return digits ? Number(digits) : Number.MAX_SAFE_INTEGER;
+// Sorting has to compare across currencies, so normalise to USD up front.
+const rateData = await getRates();
+function budgetValue(amount: number | undefined, currency: string): number {
+  if (amount === undefined) return Number.MAX_SAFE_INTEGER;
+  const usd = convert(amount, currency, 'USD', rateData?.rates);
+  return usd ?? amount;
 }
 ---
 <Base
@@ -66,7 +70,7 @@ function budgetValue(display: string): number {
           data-country={itin.data.country}
           data-search-text={`${itin.data.title} ${itin.data.country} ${itin.data.summary} ${itin.data.bestFor}`.toLowerCase()}
           data-days={itin.data.days}
-          data-budget={budgetValue(itin.data.budgetPerPerson)}
+          data-budget-usd={budgetValue(itin.data.budgetAmount, itin.data.budgetCurrency)}
           data-date={itin.data.publishDate.valueOf()}
         >
           <div class="itinerary-card__cover">
@@ -86,7 +90,7 @@ function budgetValue(display: string): number {
             <p>{itin.data.summary}</p>
             <div class="card-meta">
               <span class="pill">{itin.data.days} days</span>
-              <span class="pill">{itin.data.budgetPerPerson} / person</span>
+              <span class="pill"><Budget amount={itin.data.budgetAmount} currency={itin.data.budgetCurrency} country={itin.data.country} /> / person</span>
               <span class="pill">{itin.data.bestFor}</span>
             </div>
           </div>
@@ -118,7 +122,7 @@ function budgetValue(display: string): number {
     const comparators: Record<string, (a: HTMLElement, b: HTMLElement) => number> = {
       newest: (a, b) => Number(b.dataset.date) - Number(a.dataset.date),
       shortest: (a, b) => Number(a.dataset.days) - Number(b.dataset.days),
-      cheapest: (a, b) => Number(a.dataset.budget) - Number(b.dataset.budget),
+      cheapest: (a, b) => Number(a.dataset.budgetUsd) - Number(b.dataset.budgetUsd),
     };
 
     const search = document.querySelector<HTMLInputElement>('[data-search]');
@@ -190,6 +194,16 @@ function budgetValue(display: string): number {
     });
 
     apply();
+
+    // Live rates land after first paint; re-sort if cheapest-first is active.
+    document.addEventListener('rates:updated', () => {
+      const cards = Array.from(grid.querySelectorAll<HTMLElement>('.itinerary-card'));
+      for (const card of cards) {
+        const el = card.querySelector<HTMLElement>('[data-budget]');
+        if (el?.dataset.usd) card.dataset.budgetUsd = el.dataset.usd;
+      }
+      apply();
+    });
   }
 
 </script>

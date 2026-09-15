@@ -5,6 +5,7 @@ import CoverArt from '../../components/CoverArt.astro';
 import DayTabs from '../../components/DayTabs.astro';
 import { splitItinerary } from '../../lib/itinerary';
 import { regionFor } from '../../lib/geography.mjs';
+import Budget from '../../components/Budget.astro';
 
 export async function getStaticPaths() {
   const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
@@ -27,7 +28,6 @@ const facts = [
   { label: 'Country', value: itin.data.country },
   { label: 'Region', value: regionFor(itin.data.country) },
   { label: 'Length', value: `${itin.data.days} days` },
-  { label: 'Budget', value: `${itin.data.budgetPerPerson} / person` },
   // Only ever a passport-agnostic note; the real answer depends on the reader.
   { label: 'Visa', value: itin.data.visaNote ?? 'Depends on your passport' },
   { label: 'Best for', value: itin.data.bestFor },
@@ -70,7 +70,7 @@ const related = all
       <ul class="facts">
         <li class="pill pill--visa">{regionFor(itin.data.country)}</li>
         <li class="pill">{itin.data.days} days</li>
-        <li class="pill">{itin.data.budgetPerPerson} / person</li>
+        <li class="pill"><Budget amount={itin.data.budgetAmount} currency={itin.data.budgetCurrency} country={itin.data.country} /> / person</li>
         <li class="pill">{itin.data.bestFor}</li>
       </ul>
     </div>
@@ -85,7 +85,24 @@ const related = all
           <aside class="glance" aria-label="At a glance">
             <h3>At a glance</h3>
             <dl>
-              {facts.map((fact) => (
+              {facts.slice(0, 2).map((fact) => (
+                <div>
+                  <dt>{fact.label}</dt>
+                  <dd>{fact.value}</dd>
+                </div>
+              ))}
+              <div>
+                <dt>Budget</dt>
+                <dd>
+                  <Budget
+                    amount={itin.data.budgetAmount}
+                    currency={itin.data.budgetCurrency}
+                    country={itin.data.country}
+                    variant="full"
+                  />
+                </dd>
+              </div>
+              {facts.slice(2).map((fact) => (
                 <div>
                   <dt>{fact.label}</dt>
                   <dd>{fact.value}</dd>
@@ -160,9 +177,11 @@ const related = all
 
 <script>
   import { trackProgress } from '../../scripts/progress';
+  import { refreshBudgets } from '../../scripts/rates';
   import { reveal } from '../../scripts/reveal';
 
   trackProgress('.read-progress__bar', '.itin');
+  refreshBudgets();
 
   // Markdown headings only exist after the content is injected, so tag them here.
   document

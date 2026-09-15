@@ -2,7 +2,7 @@
 title: "The UAE in 4 days: Dubai, Abu Dhabi and the mountains"
 country: "UAE"
 days: 4
-budgetPerPerson: "TBC"
+budgetCurrency: "USD"
 bestFor: "Long weekends and stopovers"
 heroImage: "/images/uae.jpeg"
 heroWide: "/images/uae-wide.jpeg"

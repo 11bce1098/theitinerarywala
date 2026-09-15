@@ -2,7 +2,7 @@
 title: "Uzbekistan in 6 days: Tashkent, Samarkand and Bukhara"
 country: "Uzbekistan"
 days: 6
-budgetPerPerson: "TBC"
+budgetCurrency: "USD"
 bestFor: "First-time visitors"
 heroImage: "/images/uzbekistan.jpeg"
 heroWide: "/images/uzbekistan-wide.jpeg"

@@ -10,12 +10,12 @@
  * grouping. Reassigning one is a single edit here.
  */
 export const COUNTRIES = {
-  Armenia:    { continent: 'asia',   region: 'Caucasus' },
-  Georgia:    { continent: 'asia',   region: 'Caucasus' },
-  Japan:      { continent: 'asia',   region: 'East Asia' },
-  UAE:        { continent: 'asia',   region: 'Middle East' },
-  Uzbekistan: { continent: 'asia',   region: 'Central Asia' },
-  Russia:     { continent: 'europe', region: 'Eastern Europe' },
+  Armenia:    { continent: 'asia',   region: 'Caucasus',        currency: 'AMD' },
+  Georgia:    { continent: 'asia',   region: 'Caucasus',        currency: 'GEL' },
+  Japan:      { continent: 'asia',   region: 'East Asia',       currency: 'JPY' },
+  UAE:        { continent: 'asia',   region: 'Middle East',     currency: 'AED' },
+  Uzbekistan: { continent: 'asia',   region: 'Central Asia',    currency: 'UZS' },
+  Russia:     { continent: 'europe', region: 'Eastern Europe',  currency: 'RUB' },
 };
 
 export const CONTINENTS = [
@@ -42,6 +42,11 @@ export function continentFor(country) {
 
 export function regionFor(country) {
   return COUNTRIES[country]?.region ?? '';
+}
+
+/** ISO code of the destination's own currency. */
+export function currencyFor(country) {
+  return COUNTRIES[country]?.currency ?? 'USD';
 }
 
 /**

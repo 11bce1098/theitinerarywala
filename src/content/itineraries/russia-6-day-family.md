@@ -2,7 +2,7 @@
 title: "Russia in 6 days: Moscow and St Petersburg"
 country: "Russia"
 days: 6
-budgetPerPerson: "TBC"
+budgetCurrency: "USD"
 bestFor: "First-time visitors"
 heroImage: "/images/russia.jpeg"
 heroWide: "/images/russia-wide.jpeg"

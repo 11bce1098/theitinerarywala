@@ -1,0 +1,50 @@
+---
+import { currencyFor } from '../lib/geography.mjs';
+import { getRates, convert, formatMoney, rateDate, rateCheckUrl } from '../lib/rates.mjs';
+
+interface Props {
+  amount?: number;
+  currency: string;
+  country: string;
+  /** Cards show USD only; the itinerary page shows both. */
+  variant?: 'compact' | 'full';
+}
+const { amount, currency, country, variant = 'compact' } = Astro.props;
+
+const local = currencyFor(country);
+const data = await getRates();
+const rates = data?.rates;
+
+const usd = amount !== undefined ? convert(amount, currency, 'USD', rates) : null;
+const localValue = amount !== undefined ? convert(amount, currency, local, rates) : null;
+
+// Rendered at build time so it is right without JavaScript; the client script
+// refreshes it later so a long-cached page does not drift.
+const usdText = usd !== null ? formatMoney(usd, 'USD') : null;
+const localText = localValue !== null ? formatMoney(localValue, local) : null;
+const fallback = amount !== undefined ? `${formatMoney(amount, currency)}` : 'TBC';
+---
+{amount === undefined ? (
+  <span>TBC</span>
+) : (
+  <span
+    data-budget
+    data-amount={amount}
+    data-from={currency}
+    data-local={local}
+    data-variant={variant}
+  >
+    {usdText
+      ? (variant === 'full' && localText ? `${usdText} · ${localText}` : usdText)
+      : fallback}
+  </span>
+)}
+
+{variant === 'full' && amount !== undefined && usdText && (
+  <span class="rate-note">
+    Converted from {currency} at the rate for{' '}
+    <a href={rateCheckUrl('USD', local)} rel="noopener" target="_blank" data-rate-date>
+      {rateDate(data?.updated ?? '') || 'today'}
+    </a>
+  </span>
+)}

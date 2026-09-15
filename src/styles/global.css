@@ -544,6 +544,15 @@ body.nav-open { overflow: hidden; }
   padding: 0 0.45rem;
 }
 
+.rate-note {
+  display: block;
+  margin-top: 0.3rem;
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+}
+.rate-note a { color: var(--ink-soft); }
+.rate-note a:hover { color: var(--teal); }
+
 /* ---- footer ---- */
 .site-footer {
   border-top: 1px solid var(--line);

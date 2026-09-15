@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import CoverArt from '../../components/CoverArt.astro';
 import { groupByContinent } from '../../lib/geography.mjs';
+import Budget from '../../components/Budget.astro';
 
 export async function getStaticPaths() {
   const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
@@ -97,7 +98,7 @@ const countryCount = continent.countries.length;
                   <p>{itin.data.summary}</p>
                   <div class="card-meta">
                     <span class="pill">{itin.data.days} days</span>
-                    <span class="pill">{itin.data.budgetPerPerson} / person</span>
+                    <span class="pill"><Budget amount={itin.data.budgetAmount} currency={itin.data.budgetCurrency} country={itin.data.country} /> / person</span>
                   </div>
                 </div>
               </li>
