@@ -7,9 +7,9 @@
  */
 export const SITE = {
   name: 'The Itinerary Wala',
-  tagline: 'Visa-smart family itineraries',
+  tagline: 'Family itineraries, day by day',
   description:
-    'Day-by-day travel itineraries for families on Indian passports with UAE residence: visa notes, real budgets, and bookable plans.',
+    'Day-by-day family travel itineraries with realistic pacing, budgets in real numbers, and every stay and tour bookable in one tap.',
   email: 'theitinerarywala@gmail.com',
   instagram: 'https://instagram.com/theitinerarywala',
   // Branded 1200x630 social preview, used when a page has no image of its own.

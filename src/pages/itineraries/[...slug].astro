@@ -4,6 +4,7 @@ import Base from '../../layouts/Base.astro';
 import CoverArt from '../../components/CoverArt.astro';
 import DayTabs from '../../components/DayTabs.astro';
 import { splitItinerary } from '../../lib/itinerary';
+import { regionFor } from '../../lib/geography.mjs';
 
 export async function getStaticPaths() {
   const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
@@ -24,9 +25,11 @@ const updated = itin.data.publishDate.toLocaleDateString('en-GB', {
 
 const facts = [
   { label: 'Country', value: itin.data.country },
+  { label: 'Region', value: regionFor(itin.data.country) },
   { label: 'Length', value: `${itin.data.days} days` },
   { label: 'Budget', value: `${itin.data.budgetPerPerson} / person` },
-  { label: 'Visa', value: itin.data.visaNote },
+  // Only ever a passport-agnostic note; the real answer depends on the reader.
+  { label: 'Visa', value: itin.data.visaNote ?? 'Depends on your passport' },
   { label: 'Best for', value: itin.data.bestFor },
   { label: 'Updated', value: updated },
 ];
@@ -65,7 +68,7 @@ const related = all
       <h1>{itin.data.title}</h1>
       <p class="summary">{itin.data.summary}</p>
       <ul class="facts">
-        <li class="pill pill--visa">{itin.data.visaNote}</li>
+        <li class="pill pill--visa">{regionFor(itin.data.country)}</li>
         <li class="pill">{itin.data.days} days</li>
         <li class="pill">{itin.data.budgetPerPerson} / person</li>
         <li class="pill">{itin.data.bestFor}</li>
@@ -119,8 +122,9 @@ const related = all
         <p class="disclosure">
           Booking links on this page are affiliate links. If you book through
           them, The Itinerary Wala earns a small commission at no extra cost to
-          you — it's what keeps the itineraries free. Visa rules change; this
-          plan was checked on {updated}, so confirm with the embassy or your
+          you — it's what keeps the itineraries free. What you need to enter
+          depends on your passport and can change at short notice; this plan
+          was last checked on {updated}, so confirm with the embassy or your
           airline before booking.
         </p>
       </div>

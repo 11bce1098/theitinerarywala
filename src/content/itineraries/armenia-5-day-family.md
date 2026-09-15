@@ -3,7 +3,6 @@ title: "Armenia in 5 days without long drives"
 country: "Armenia"
 days: 5
 budgetPerPerson: "AED 2,200"
-visaNote: "Visa on arrival for Indians"
 bestFor: "First-time visitors"
 heroImage: "/images/armenia.jpeg"
 heroWide: "/images/armenia-wide.jpg"

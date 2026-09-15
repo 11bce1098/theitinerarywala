@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import CoverArt from '../components/CoverArt.astro';
+import { regionFor } from '../lib/geography.mjs';
 import Testimonials from '../components/Testimonials.astro';
 import ValueProps from '../components/ValueProps.astro';
 
@@ -18,16 +19,15 @@ function budgetValue(display: string): number {
 ---
 <Base
   title="The Itinerary Wala — visa-smart family itineraries"
-  description="Day-by-day travel itineraries for families on Indian passports with UAE residence: visa notes, real budgets, and bookable plans."
+  description="Day-by-day family travel itineraries with realistic pacing, budgets in real numbers, and every stay and tour bookable in one tap."
 >
   <section class="hero">
     <div class="wrap">
-      <p class="hero__eyebrow" data-reveal>Indian passport · UAE residence</p>
-      <h1 data-reveal>Itineraries that already know your passport.</h1>
+      <p class="hero__eyebrow" data-reveal>Family travel, planned day by day</p>
+      <h1 data-reveal>Itineraries you can actually follow.</h1>
       <p class="hero__lede" data-reveal>
-        Day-by-day plans for families travelling on Indian passports with UAE
-        residence — visa requirements checked, budgets in real numbers, and
-        every hotel and tour bookable in one tap.
+        Realistic daily pacing, budgets in real numbers, and every stay and
+        tour bookable in one tap — wherever you are travelling from.
       </p>
 
     </div>
@@ -77,7 +77,7 @@ function budgetValue(display: string): number {
               alt={itin.data.title}
               eager={index < 2}
             />
-            <span class="pill pill--visa">{itin.data.visaNote}</span>
+            <span class="pill pill--visa">{regionFor(itin.data.country)}</span>
           </div>
           <div class="itinerary-card__body">
             <h2>

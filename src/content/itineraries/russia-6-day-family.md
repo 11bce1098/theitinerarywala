@@ -3,7 +3,6 @@ title: "Russia in 6 days: Moscow and St Petersburg"
 country: "Russia"
 days: 6
 budgetPerPerson: "TBC"
-visaNote: "Visa rules to confirm"
 bestFor: "First-time visitors"
 heroImage: "/images/russia.jpeg"
 heroWide: "/images/russia-wide.jpeg"
@@ -16,12 +15,11 @@ draft: false
   STUB — draft: true, so this is not on the site or in the sitemap yet.
 
   Before publishing, confirm and fill in:
-  - visaNote: the current rule for an Indian passport held by a UAE resident.
-    Russia has run a unified e-visa that has included Indian nationals, but
-    eligibility and processing times change — check the official portal, not
-    a summary site, and date it.
+  - Entry rules: Russia has run a unified e-visa covering many nationalities,
+    but eligibility and processing times change. Do not put a nationality
+    specific claim in the frontmatter — cover it in the body, and date it.
   - budgetPerPerson: real numbers from the hotels and trains you'd actually
-    book, per person, in dirhams.
+    book, per person.
   - days: adjust if the shape changes.
 -->
 

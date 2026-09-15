@@ -19,9 +19,9 @@ export const COUNTRIES = {
 };
 
 export const CONTINENTS = [
-  { slug: 'asia',          name: 'Asia',          blurb: 'Short flights from the UAE, and where most visa-free options are.' },
+  { slug: 'asia',          name: 'Asia',          blurb: 'Enormous variety, and often the shortest flights to get there.' },
   { slug: 'europe',        name: 'Europe',        blurb: 'Longer flights, more paperwork, and worth the planning.' },
-  { slug: 'africa',        name: 'Africa',        blurb: 'Close on the map and quick to reach from the Gulf.' },
+  { slug: 'africa',        name: 'Africa',        blurb: 'Closer than it looks, and easier to reach than most expect.' },
   { slug: 'north-america', name: 'North America', blurb: 'Long-haul trips that need real lead time.' },
   { slug: 'south-america', name: 'South America', blurb: 'The longest flights, and the ones worth the most planning.' },
   { slug: 'oceania',       name: 'Oceania',       blurb: 'Far, expensive, and unlike anywhere else on this list.' },

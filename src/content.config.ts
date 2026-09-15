@@ -8,7 +8,10 @@ const itineraries = defineCollection({
     country: z.string(),
     days: z.number(),
     budgetPerPerson: z.string(), // e.g. "AED 3,200" — keep it a display string
-    visaNote: z.string(),        // the visa-smart hook, e.g. "Visa-free for UAE residents"
+    // Optional, and only for something true of every passport (e.g. "e-visa
+    // online, no embassy visit"). Anything nationality-specific belongs in
+    // the body, not here — the pill is read by everyone.
+    visaNote: z.string().optional(),
     bestFor: z.string(),         // e.g. "Families with young kids"
     summary: z.string(),         // one or two sentences for cards + meta description
     heroImage: z.string().optional(), // path under /public, e.g. /images/georgia.jpg

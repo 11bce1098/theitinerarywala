@@ -3,7 +3,6 @@ title: "Uzbekistan in 6 days: Tashkent, Samarkand and Bukhara"
 country: "Uzbekistan"
 days: 6
 budgetPerPerson: "TBC"
-visaNote: "Visa rules to confirm"
 bestFor: "First-time visitors"
 heroImage: "/images/uzbekistan.jpeg"
 heroWide: "/images/uzbekistan-wide.jpeg"
@@ -16,10 +15,10 @@ draft: false
   STUB — draft: true, so this is not on the site or in the sitemap yet.
 
   Before publishing, confirm and fill in:
-  - visaNote: Uzbekistan has run both e-visa and visa-free arrangements that
-    have changed repeatedly for Indian nationals. Confirm the current rule
-    for an Indian passport held by a UAE resident, and date it.
-  - budgetPerPerson: real numbers, per person, in dirhams.
+  - Entry rules: Uzbekistan has run both e-visa and visa-free arrangements
+    that have changed repeatedly and differ by nationality. Cover it in the
+    body rather than the frontmatter, and date it.
+  - budgetPerPerson: real numbers, per person.
   - Book the Afrosiyob trains early — seats sell out well ahead in season,
     and the alternative is a long drive.
 -->

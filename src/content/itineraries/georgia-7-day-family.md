@@ -3,7 +3,6 @@ title: "Georgia in 7 days with young kids"
 country: "Georgia"
 days: 7
 budgetPerPerson: "AED 2,800"
-visaNote: "Visa-free with UAE residence"
 bestFor: "Families with a stroller"
 heroImage: "/images/georgia.jpeg"
 heroWide: "/images/georgia-wide.jpg"
@@ -12,12 +11,11 @@ publishDate: 2026-09-14
 draft: false
 ---
 
-Georgia is the easiest "real mountains" trip you can do from the UAE:
-a 3-hour flight, no visa paperwork for UAE residents on Indian passports,
-and prices that make a week cost less than a weekend staycation at home.
-This plan keeps drives under two hours a day, which is the difference
-between a holiday and a hostage situation when you travel with a
-preschooler.
+Georgia is the easiest "real mountains" trip most families will ever
+plan: short flights from much of Europe and the Gulf, and prices that
+make a week cost less than a long weekend elsewhere. This plan keeps
+drives under two hours a day, which is the difference between a holiday
+and a hostage situation when you travel with a preschooler.
 
 ## Day 1 — Land in Tbilisi, Old Town on foot
 
@@ -67,7 +65,7 @@ same vineyards. It works.
 ## Day 7 — Souvenirs and fly home
 
 Dry Bridge Market for souvenirs in the morning, then out. Evening
-flights land in the UAE at a reasonable bedtime.
+departures get most travellers home at a reasonable bedtime.
 
 ## What this trip actually costs
 

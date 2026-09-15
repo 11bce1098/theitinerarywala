@@ -3,7 +3,6 @@ title: "Japan in 7 days: Tokyo and Kyoto"
 country: "Japan"
 days: 7
 budgetPerPerson: "TBC"
-visaNote: "Visa rules to confirm"
 bestFor: "First-time visitors"
 heroImage: "/images/japan.jpeg"
 heroWide: "/images/japan-wide.jpeg"
@@ -16,9 +15,9 @@ draft: false
   STUB — draft: true, so this is not on the site or in the sitemap yet.
 
   Before publishing, confirm and fill in:
-  - visaNote: Japan requires a visa for Indian passport holders and has been
-    expanding an eVisa route for applicants in some countries. Confirm what
-    applies when applying as a UAE resident, and date it.
+  - Entry rules: Japan is visa-free for some nationalities and not others,
+    and has been expanding an eVisa route. Cover it in the body rather than
+    the frontmatter, and date it.
   - budgetPerPerson: Japan is the most expensive destination on this site so
     far — price it honestly rather than anchoring to the Georgia number.
   - Whether a rail pass beats point-to-point tickets for this route; it often

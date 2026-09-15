@@ -29,7 +29,7 @@ const countryCount = continent.countries.length;
   title={`${continent.name} itineraries — The Itinerary Wala`}
   description={continent.comingSoon
     ? `${continent.name} itineraries are coming soon to The Itinerary Wala.`
-    : `Family itineraries in ${continent.name} for Indian passports with UAE residence: ${continent.countries.map((c) => c.name).join(', ')}.`}
+    : `Day-by-day family itineraries in ${continent.name}: ${continent.countries.map((c) => c.name).join(', ')}.`}
 >
   <section class="page-hero">
     <div class="wrap">
@@ -88,7 +88,7 @@ const countryCount = continent.countries.length;
                     src={itin.data.heroImage}
                     alt={itin.data.title}
                   />
-                  <span class="pill pill--visa">{itin.data.visaNote}</span>
+                  <span class="pill pill--visa">{country.region}</span>
                 </div>
                 <div class="itinerary-card__body">
                   <h4>
