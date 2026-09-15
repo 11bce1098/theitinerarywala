@@ -63,27 +63,34 @@ const continents = groupByContinent(itineraries);
                           </a>
                         </li>
                         {continent.regions.map((region) => (
-                          <li>
+                          <li class:list={[{ 'is-empty': region.comingSoon }]}>
                             <a
                               class="flyout__region-link"
                               href={`/continents/${continent.slug}/#${region.slug}`}
                             >
                               <span>{region.name}</span>
-                              <svg class="flyout__chev" viewBox="0 0 8 12" aria-hidden="true">
-                                <path d="M1.5 1 6.5 6l-5 5" fill="none" stroke="currentColor"
-                                      stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
-                              </svg>
+                              {region.comingSoon ? (
+                                <span class="flyout__soon">Soon</span>
+                              ) : (
+                                <svg class="flyout__chev" viewBox="0 0 8 12" aria-hidden="true">
+                                  <path d="M1.5 1 6.5 6l-5 5" fill="none" stroke="currentColor"
+                                        stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                              )}
                             </a>
-                            <ul class="flyout__countries">
-                              {region.countries.map((country) => (
-                                <li>
-                                  <a href={`/?country=${encodeURIComponent(country.name)}`}>
-                                    {country.name}
-                                    <span class="flyout__count">{country.itineraries.length}</span>
-                                  </a>
-                                </li>
-                              ))}
-                            </ul>
+                            {/* Only regions with something in them open a third panel. */}
+                            {!region.comingSoon && (
+                              <ul class="flyout__countries">
+                                {region.countries.map((country) => (
+                                  <li>
+                                    <a href={`/?country=${encodeURIComponent(country.name)}`}>
+                                      {country.name}
+                                      <span class="flyout__count">{country.itineraries.length}</span>
+                                    </a>
+                                  </li>
+                                ))}
+                              </ul>
+                            )}
                           </li>
                         ))}
                       </ul>
@@ -167,16 +174,18 @@ const continents = groupByContinent(itineraries);
                   <a href={`/continents/${continent.slug}/`}>Coming soon</a>
                 </div>
               ) : (
-                continent.regions.map((region) => (
-                  <div class="mobile-nav__region">
-                    <span class="mobile-nav__region-name">{region.name}</span>
-                    <div class="mobile-nav__countries">
-                      {region.countries.map((country) => (
-                        <a href={`/?country=${encodeURIComponent(country.name)}`}>{country.name}</a>
-                      ))}
+                continent.regions
+                  .filter((region) => !region.comingSoon)
+                  .map((region) => (
+                    <div class="mobile-nav__region">
+                      <span class="mobile-nav__region-name">{region.name}</span>
+                      <div class="mobile-nav__countries">
+                        {region.countries.map((country) => (
+                          <a href={`/?country=${encodeURIComponent(country.name)}`}>{country.name}</a>
+                        ))}
+                      </div>
                     </div>
-                  </div>
-                ))
+                  ))
               )}
             </div>
           ))}

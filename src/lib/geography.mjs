@@ -19,12 +19,42 @@ export const COUNTRIES = {
 };
 
 export const CONTINENTS = [
-  { slug: 'asia',          name: 'Asia',          blurb: 'Enormous variety, and often the shortest flights to get there.' },
-  { slug: 'europe',        name: 'Europe',        blurb: 'Longer flights, more paperwork, and worth the planning.' },
-  { slug: 'africa',        name: 'Africa',        blurb: 'Closer than it looks, and easier to reach than most expect.' },
-  { slug: 'north-america', name: 'North America', blurb: 'Long-haul trips that need real lead time.' },
-  { slug: 'south-america', name: 'South America', blurb: 'The longest flights, and the ones worth the most planning.' },
-  { slug: 'oceania',       name: 'Oceania',       blurb: 'Far, expensive, and unlike anywhere else on this list.' },
+  {
+    slug: 'asia',
+    name: 'Asia',
+    blurb: 'Enormous variety, and often the shortest flights to get there.',
+    regions: ['Middle East', 'Caucasus', 'Central Asia', 'South Asia', 'Southeast Asia', 'East Asia'],
+  },
+  {
+    slug: 'europe',
+    name: 'Europe',
+    blurb: 'Longer flights, more paperwork, and worth the planning.',
+    regions: ['Western Europe', 'Southern Europe', 'Central Europe', 'Northern Europe', 'Eastern Europe'],
+  },
+  {
+    slug: 'africa',
+    name: 'Africa',
+    blurb: 'Closer than it looks, and easier to reach than most expect.',
+    regions: ['North Africa', 'West Africa', 'East Africa', 'Southern Africa', 'Indian Ocean Islands'],
+  },
+  {
+    slug: 'north-america',
+    name: 'North America',
+    blurb: 'Long-haul trips that need real lead time.',
+    regions: ['Canada', 'United States', 'Mexico and Central America', 'The Caribbean'],
+  },
+  {
+    slug: 'south-america',
+    name: 'South America',
+    blurb: 'The longest flights, and the ones worth the most planning.',
+    regions: ['The Andes', 'Brazil', 'Southern Cone'],
+  },
+  {
+    slug: 'oceania',
+    name: 'Oceania',
+    blurb: 'Far, expensive, and unlike anywhere else on this list.',
+    regions: ['Australia', 'New Zealand', 'Pacific Islands'],
+  },
 ];
 
 /** Continent slug for a country, or a loud failure if it is unmapped. */
@@ -53,6 +83,23 @@ export function regionFor(country) {
 export function currencyFor(country) {
   return COUNTRIES[country]?.currency ?? 'USD';
 }
+
+/** Catches a typo'd or misfiled region at build time rather than in the menu. */
+function assertRegionsDeclared() {
+  for (const [country, entry] of Object.entries(COUNTRIES)) {
+    const continent = CONTINENTS.find((c) => c.slug === entry.continent);
+    if (!continent) {
+      throw new Error(`"${country}" is in continent "${entry.continent}", which is not declared.`);
+    }
+    if (!continent.regions.includes(entry.region)) {
+      throw new Error(
+        `"${country}" is in region "${entry.region}", which ${continent.name} does not declare. ` +
+          `Declared: ${continent.regions.join(', ')}`
+      );
+    }
+  }
+}
+assertRegionsDeclared();
 
 /**
  * Groups published itineraries into continents.
@@ -85,15 +132,18 @@ export function groupByContinent(itineraries) {
       }))
       .sort((a, b) => a.name.localeCompare(b.name));
 
-    // Countries also come back grouped by region, so the menu can offer
-    // continent -> region -> country instead of one long country list.
-    const regions = [...new Set(countries.map((x) => x.region))]
-      .sort()
-      .map((name) => ({
+    // Regions come from the continent's declared list, not from whatever
+    // countries happen to exist — so an empty continent still shows its
+    // subdivisions, each marked as coming soon.
+    const regions = c.regions.map((name) => {
+      const inRegion = countries.filter((x) => x.region === name);
+      return {
         name,
         slug: regionSlug(name),
-        countries: countries.filter((x) => x.region === name),
-      }));
+        countries: inRegion,
+        comingSoon: inRegion.length === 0,
+      };
+    });
 
     return {
       ...c,

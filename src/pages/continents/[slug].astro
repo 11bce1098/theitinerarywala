@@ -18,12 +18,10 @@ export async function getStaticPaths() {
 const { continent } = Astro.props;
 
 // Countries sit under their region heading, so "Asia" is not one flat list.
-const regions = [...new Set(continent.countries.map((c) => c.region))]
-  .sort()
-  .map((region) => ({
-    region,
-    countries: continent.countries.filter((c) => c.region === region),
-  }));
+// Declared order, and only the regions that actually have something in them.
+const regions = continent.regions
+  .filter((r) => !r.comingSoon)
+  .map((r) => ({ region: r.name, countries: r.countries }));
 
 const countryCount = continent.countries.length;
 ---
@@ -65,10 +63,14 @@ const countryCount = continent.countries.length;
       <div class="coming-soon" data-reveal>
         <h2>{continent.name} is coming soon</h2>
         <p>
-          Nothing here yet. Itineraries go up once the visa position, the daily
+          Nothing here yet. Itineraries go up once the entry rules, the daily
           pace and the budget have all been checked properly — so this page
-          stays empty rather than filling it with guesswork.
+          stays empty rather than filling it with guesswork. These are the
+          parts of {continent.name} it will cover:
         </p>
+        <ul class="soon-regions">
+          {continent.regions.map((region) => <li>{region.name}</li>)}
+        </ul>
         <a class="btn btn--solid" href="/contact/">Request a destination</a>
       </div>
     </section>
