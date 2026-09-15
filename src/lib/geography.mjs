@@ -40,6 +40,11 @@ export function continentFor(country) {
   return entry.continent;
 }
 
+/** URL-safe id for a region, used for menu links and page anchors. */
+export function regionSlug(region) {
+  return region.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
 export function regionFor(country) {
   return COUNTRIES[country]?.region ?? '';
 }
@@ -80,9 +85,20 @@ export function groupByContinent(itineraries) {
       }))
       .sort((a, b) => a.name.localeCompare(b.name));
 
+    // Countries also come back grouped by region, so the menu can offer
+    // continent -> region -> country instead of one long country list.
+    const regions = [...new Set(countries.map((x) => x.region))]
+      .sort()
+      .map((name) => ({
+        name,
+        slug: regionSlug(name),
+        countries: countries.filter((x) => x.region === name),
+      }));
+
     return {
       ...c,
       countries,
+      regions,
       itineraryCount: countries.reduce((n, x) => n + x.itineraries.length, 0),
       comingSoon: countries.length === 0,
     };

@@ -53,7 +53,8 @@ const continents = groupByContinent(itineraries);
                           ? <span class="flyout__soon">Soon</span>
                           : <span class="flyout__count">{continent.itineraryCount}</span>}
                       </a>
-                      <ul class="flyout__countries">
+                      {/* Level 2: regions. Level 3: their countries. */}
+                      <ul class="flyout__regions">
                         <li class="flyout__all">
                           <a href={`/continents/${continent.slug}/`}>
                             {continent.comingSoon
@@ -61,12 +62,28 @@ const continents = groupByContinent(itineraries);
                               : `All of ${continent.name} →`}
                           </a>
                         </li>
-                        {continent.countries.map((country) => (
+                        {continent.regions.map((region) => (
                           <li>
-                            <a href={`/?country=${encodeURIComponent(country.name)}`}>
-                              {country.name}
-                              <span class="flyout__region">{country.region}</span>
+                            <a
+                              class="flyout__region-link"
+                              href={`/continents/${continent.slug}/#${region.slug}`}
+                            >
+                              <span>{region.name}</span>
+                              <svg class="flyout__chev" viewBox="0 0 8 12" aria-hidden="true">
+                                <path d="M1.5 1 6.5 6l-5 5" fill="none" stroke="currentColor"
+                                      stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
                             </a>
+                            <ul class="flyout__countries">
+                              {region.countries.map((country) => (
+                                <li>
+                                  <a href={`/?country=${encodeURIComponent(country.name)}`}>
+                                    {country.name}
+                                    <span class="flyout__count">{country.itineraries.length}</span>
+                                  </a>
+                                </li>
+                              ))}
+                            </ul>
                           </li>
                         ))}
                       </ul>
@@ -145,13 +162,22 @@ const continents = groupByContinent(itineraries);
               <a class="mobile-nav__continent" href={`/continents/${continent.slug}/`}>
                 {continent.name}
               </a>
-              <div class="mobile-nav__countries">
-                {continent.comingSoon
-                  ? <a href={`/continents/${continent.slug}/`}>Coming soon</a>
-                  : continent.countries.map((country) => (
-                      <a href={`/?country=${encodeURIComponent(country.name)}`}>{country.name}</a>
-                    ))}
-              </div>
+              {continent.comingSoon ? (
+                <div class="mobile-nav__countries">
+                  <a href={`/continents/${continent.slug}/`}>Coming soon</a>
+                </div>
+              ) : (
+                continent.regions.map((region) => (
+                  <div class="mobile-nav__region">
+                    <span class="mobile-nav__region-name">{region.name}</span>
+                    <div class="mobile-nav__countries">
+                      {region.countries.map((country) => (
+                        <a href={`/?country=${encodeURIComponent(country.name)}`}>{country.name}</a>
+                      ))}
+                    </div>
+                  </div>
+                ))
+              )}
             </div>
           ))}
         </li>

@@ -4,6 +4,7 @@ import Base from '../../layouts/Base.astro';
 import CoverArt from '../../components/CoverArt.astro';
 import { groupByContinent } from '../../lib/geography.mjs';
 import Budget from '../../components/Budget.astro';
+import { regionSlug } from '../../lib/geography.mjs';
 
 export async function getStaticPaths() {
   const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
@@ -75,7 +76,7 @@ const countryCount = continent.countries.length;
 
   {regions.map((group) => (
     <section class="wrap section">
-      <h2 class="section-heading" data-reveal>{group.region}</h2>
+      <h2 class="section-heading" id={regionSlug(group.region)} data-reveal>{group.region}</h2>
       {group.countries.map((country) => (
         <div class="country-block">
           <h3 class="country-block__name" data-reveal>{country.name}</h3>
