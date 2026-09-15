@@ -62,6 +62,20 @@ const stats = [
   <section class="wrap">
     {countries.length > 1 && (
       <div class="filters" data-reveal>
+        <div class="filters__search">
+          <label class="sr-only" for="itinerary-search">Search destinations</label>
+          <svg class="filters__search-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" />
+            <path d="M16.5 16.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+          <input
+            id="itinerary-search"
+            type="search"
+            placeholder="Search a country…"
+            autocomplete="off"
+            data-search
+          />
+        </div>
         <div class="filters__group" role="group" aria-label="Filter by country">
           <button class="chip" type="button" data-filter="all" aria-pressed="true">
             All
@@ -90,6 +104,7 @@ const stats = [
           data-reveal
           style={`--stagger:${index}`}
           data-country={itin.data.country}
+          data-search-text={`${itin.data.title} ${itin.data.country} ${itin.data.summary} ${itin.data.bestFor}`.toLowerCase()}
           data-days={itin.data.days}
           data-budget={budgetValue(itin.data.budgetPerPerson)}
           data-date={itin.data.publishDate.valueOf()}
@@ -146,17 +161,39 @@ const stats = [
       cheapest: (a, b) => Number(a.dataset.budget) - Number(b.dataset.budget),
     };
 
-    // Footer links arrive as /?country=Georgia — honour that on load.
-    const requested = new URLSearchParams(location.search).get('country');
+    const search = document.querySelector<HTMLInputElement>('[data-search]');
+    let query = '';
+
+    // Footer and menu links arrive as /?country=Georgia — honour that on load,
+    // along with ?q= so a search can be shared or linked to.
+    const params = new URLSearchParams(location.search);
+    const requested = params.get('country');
     if (requested && chips.some((c) => c.dataset.filter === requested)) {
       activeCountry = requested;
       chips.forEach((c) => c.setAttribute('aria-pressed', String(c.dataset.filter === requested)));
     }
+    const requestedQuery = params.get('q');
+    if (requestedQuery && search) {
+      query = requestedQuery.trim().toLowerCase();
+      search.value = requestedQuery;
+    }
+
+    /** Keeps the URL in step so a filtered view can be shared. */
+    const syncUrl = () => {
+      const url = new URL(location.href);
+      if (activeCountry === 'all') url.searchParams.delete('country');
+      else url.searchParams.set('country', activeCountry);
+      if (query) url.searchParams.set('q', query);
+      else url.searchParams.delete('q');
+      history.replaceState(null, '', url);
+    };
 
     const apply = () => {
       let visible = 0;
       for (const card of cards) {
-        const match = activeCountry === 'all' || card.dataset.country === activeCountry;
+        const byCountry = activeCountry === 'all' || card.dataset.country === activeCountry;
+        const byQuery = !query || (card.dataset.searchText ?? '').includes(query);
+        const match = byCountry && byQuery;
         card.hidden = !match;
         if (match) visible++;
       }
@@ -174,14 +211,18 @@ const stats = [
       chip.addEventListener('click', () => {
         activeCountry = chip.dataset.filter!;
         chips.forEach((c) => c.setAttribute('aria-pressed', String(c === chip)));
-        const url = new URL(location.href);
-        if (activeCountry === 'all') url.searchParams.delete('country');
-        else url.searchParams.set('country', activeCountry);
-        history.replaceState(null, '', url);
+        syncUrl();
         apply();
       });
     });
     sortSelect?.addEventListener('change', apply);
+
+    search?.addEventListener('input', () => {
+      query = search.value.trim().toLowerCase();
+      syncUrl();
+      apply();
+    });
+
     apply();
   }
 

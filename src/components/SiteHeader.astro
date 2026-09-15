@@ -1,7 +1,12 @@
 ---
+import { getCollection } from 'astro:content';
 import { NAV, SITE, isCurrent } from '../lib/site';
+import { groupByContinent } from '../lib/geography.mjs';
 
 const pathname = Astro.url.pathname;
+
+const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
+const continents = groupByContinent(itineraries);
 ---
 <header class="site-header">
   <div class="wrap site-header__inner">
@@ -20,13 +25,51 @@ const pathname = Astro.url.pathname;
     <nav class="site-nav" aria-label="Primary">
       <ul>
         {NAV.map((link) => (
-          <li>
+          <li class:list={[{ 'has-flyout': link.menu === 'continents' && continents.length > 0 }]}>
             <a
               href={link.href}
               aria-current={isCurrent(link.href, pathname) ? 'page' : undefined}
             >
               {link.label}
+              {link.menu === 'continents' && continents.length > 0 && (
+                <svg class="caret" viewBox="0 0 12 8" aria-hidden="true">
+                  <path d="M1 1.5 6 6.5 11 1.5" fill="none" stroke="currentColor"
+                        stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              )}
             </a>
+
+            {link.menu === 'continents' && continents.length > 0 && (
+              <div class="flyout">
+                {/* Hover or keyboard focus opens this — no JS involved, so it
+                    still works if the bundle fails. */}
+                <ul class="flyout__continents">
+                  {continents.map((continent) => (
+                    <li>
+                      <a class="flyout__continent" href={`/continents/${continent.slug}/`}>
+                        <span>{continent.name}</span>
+                        <span class="flyout__count">{continent.itineraryCount}</span>
+                      </a>
+                      <ul class="flyout__countries">
+                        <li class="flyout__all">
+                          <a href={`/continents/${continent.slug}/`}>
+                            All of {continent.name} →
+                          </a>
+                        </li>
+                        {continent.countries.map((country) => (
+                          <li>
+                            <a href={`/?country=${encodeURIComponent(country.name)}`}>
+                              {country.name}
+                              <span class="flyout__region">{country.region}</span>
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </li>
         ))}
       </ul>
@@ -66,6 +109,19 @@ const pathname = Astro.url.pathname;
           >
             {link.label}
           </a>
+          {/* No hover on touch, so continents and countries are listed flat. */}
+          {link.menu === 'continents' && continents.map((continent) => (
+            <div class="mobile-nav__group">
+              <a class="mobile-nav__continent" href={`/continents/${continent.slug}/`}>
+                {continent.name}
+              </a>
+              <div class="mobile-nav__countries">
+                {continent.countries.map((country) => (
+                  <a href={`/?country=${encodeURIComponent(country.name)}`}>{country.name}</a>
+                ))}
+              </div>
+            </div>
+          ))}
         </li>
       ))}
       <li>
@@ -90,7 +146,6 @@ const pathname = Astro.url.pathname;
       setOpen(toggle.getAttribute('aria-expanded') !== 'true');
     });
 
-    // Escape closes, and focus goes back to the button that opened it.
     document.addEventListener('keydown', (event) => {
       if (event.key === 'Escape' && !panel.hidden) {
         setOpen(false);
@@ -98,10 +153,16 @@ const pathname = Astro.url.pathname;
       }
     });
 
-    // Reset when the viewport grows past the breakpoint that hides the toggle.
-    const wide = window.matchMedia('(min-width: 861px)');
+    const wide = window.matchMedia('(min-width: 981px)');
     wide.addEventListener('change', (event) => {
       if (event.matches) setOpen(false);
     });
   }
+
+  // Escape closes an open flyout by dropping focus out of it.
+  document.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape') return;
+    const open = document.querySelector<HTMLElement>('.has-flyout:focus-within');
+    open?.querySelector<HTMLAnchorElement>(':scope > a')?.focus();
+  });
 </script>

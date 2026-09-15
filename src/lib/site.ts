@@ -19,10 +19,13 @@ export const SITE = {
 export interface NavLink {
   href: string;
   label: string;
+  /** Renders the continent flyout under this item. */
+  menu?: 'continents';
 }
 
 export const NAV: NavLink[] = [
-  { href: '/', label: 'Itineraries' },
+  { href: '/', label: 'Itineraries', menu: 'continents' },
+  { href: '/visa-services/', label: 'Visa services' },
   { href: '/about/', label: 'About' },
   { href: '/contact/', label: 'Contact' },
 ];

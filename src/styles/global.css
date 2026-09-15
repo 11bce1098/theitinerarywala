@@ -263,9 +263,193 @@ main:focus { outline: none; }
 .mobile-nav a[aria-current='page'] { color: var(--marigold-deep); font-weight: 700; }
 body.nav-open { overflow: hidden; }
 
-@media (max-width: 860px) {
+@media (max-width: 980px) {
   .site-nav { display: none; }
   .nav-toggle { display: grid; place-items: center; }
+}
+
+/* ---- continent flyout ----
+   Opens on hover and on keyboard focus, with no JS, so it still works if the
+   bundle fails. Countries are nested inside each continent so the second
+   level is a plain :hover/:focus-within rule rather than sibling gymnastics. */
+.site-nav li { position: relative; }
+.caret {
+  width: 0.62rem;
+  height: 0.42rem;
+  margin-left: 0.3rem;
+  transition: transform 0.22s var(--ease-out);
+}
+.has-flyout:hover .caret,
+.has-flyout:focus-within .caret { transform: rotate(180deg); }
+
+.flyout {
+  position: absolute;
+  top: 100%;
+  left: -1rem;
+  padding-top: 0.85rem;
+  display: none;
+  z-index: 25;
+}
+.has-flyout:hover > .flyout,
+.has-flyout:focus-within > .flyout { display: block; }
+
+.site-nav .flyout__continents {
+  display: block;
+  min-width: 15rem;
+  margin: 0;
+  padding: 0.45rem;
+  list-style: none;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 18px 40px -22px rgba(24, 36, 48, 0.55);
+}
+.site-nav .flyout__continents > li { position: relative; }
+.flyout__continent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem 0.7rem;
+  border-radius: 7px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--ink);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.site-nav .flyout__continents > li:hover > .flyout__continent,
+.site-nav .flyout__continents > li:focus-within > .flyout__continent {
+  background: var(--paper);
+  color: var(--marigold-deep);
+}
+.flyout__count {
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0 0.45rem;
+}
+
+.site-nav .flyout__countries {
+  position: absolute;
+  top: -0.45rem;
+  left: 100%;
+  margin: 0;
+  margin-left: 0.45rem;
+  padding: 0.45rem;
+  min-width: 14rem;
+  list-style: none;
+  display: none;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 18px 40px -22px rgba(24, 36, 48, 0.55);
+}
+.site-nav .flyout__continents > li:hover > .flyout__countries,
+.site-nav .flyout__continents > li:focus-within > .flyout__countries { display: block; }
+.flyout__countries a {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.45rem 0.7rem;
+  border-radius: 7px;
+  font-size: 0.93rem;
+  color: var(--ink);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.flyout__countries a:hover { background: var(--paper); color: var(--marigold-deep); }
+.flyout__region { font-size: 0.78rem; color: var(--ink-soft); }
+.flyout__all {
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+.flyout__all a { font-weight: 700; font-size: 0.86rem; color: var(--teal); }
+
+/* Right-hand nav items would push their flyout off-screen. */
+.site-nav li:last-child .flyout,
+.site-nav li:nth-last-child(2) .flyout { left: auto; right: -1rem; }
+
+/* ---- mobile nav: continents listed flat, since there is no hover ---- */
+.mobile-nav__group { padding: 0.15rem 0 0.5rem 0.9rem; }
+.mobile-nav__continent {
+  display: block;
+  padding: 0.5rem 0 !important;
+  font-size: 0.82rem !important;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-soft) !important;
+  border-bottom: 0 !important;
+}
+.mobile-nav__countries {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+.mobile-nav__countries a {
+  padding: 0.25rem 0.8rem !important;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 0.88rem !important;
+  border-bottom: 1px solid var(--line) !important;
+}
+
+/* ---- search ---- */
+.filters__search {
+  position: relative;
+  flex: 1 1 15rem;
+  max-width: 22rem;
+  padding-bottom: 0.6rem;
+}
+.filters__search-icon {
+  position: absolute;
+  left: 0.75rem;
+  top: calc(50% - 0.6rem - 0.3rem);
+  width: 1.05rem;
+  height: 1.05rem;
+  color: var(--ink-soft);
+  pointer-events: none;
+}
+.filters__search input {
+  width: 100%;
+  font: inherit;
+  font-size: 0.95rem;
+  color: var(--ink);
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.45rem 0.9rem 0.45rem 2.4rem;
+  transition: border-color 0.2s var(--ease-out), box-shadow 0.2s var(--ease-out);
+}
+.filters__search input:focus {
+  outline: none;
+  border-color: var(--marigold);
+  box-shadow: 0 0 0 3px rgba(227, 154, 45, 0.25);
+}
+.filters__search input::-webkit-search-cancel-button { cursor: pointer; }
+
+/* ---- continent pages ---- */
+.country-block + .country-block { margin-top: 1.25rem; }
+/* Most countries have a single itinerary today, so the default grid padding
+   leaves the page looking empty. */
+.country-block .itinerary-grid { padding: 0.8rem 0 1.4rem; }
+.country-block__name {
+  font-size: 1.35rem;
+  margin: 0 0 0.2rem;
+}
+.country-block .itinerary-card h4 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.22rem;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  margin: 0;
 }
 
 /* ---- footer ---- */
@@ -333,7 +517,7 @@ body.nav-open { overflow: hidden; }
 }
 .footer-bottom p { margin: 0; max-width: 62ch; }
 
-@media (max-width: 860px) {
+@media (max-width: 900px) {
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 2rem; }
   .footer-brand, .footer-signup { grid-column: 1 / -1; }
 }

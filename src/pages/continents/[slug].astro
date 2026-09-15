@@ -1,0 +1,102 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import CoverArt from '../../components/CoverArt.astro';
+import { groupByContinent } from '../../lib/geography.mjs';
+
+export async function getStaticPaths() {
+  const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
+  // Only continents that actually have itineraries get a page.
+  return groupByContinent(itineraries).map((continent) => ({
+    params: { slug: continent.slug },
+    props: { continent },
+  }));
+}
+
+const { continent } = Astro.props;
+
+// Countries sit under their region heading, so "Asia" is not one flat list.
+const regions = [...new Set(continent.countries.map((c) => c.region))]
+  .sort()
+  .map((region) => ({
+    region,
+    countries: continent.countries.filter((c) => c.region === region),
+  }));
+
+const countryCount = continent.countries.length;
+---
+<Base
+  title={`${continent.name} itineraries — The Itinerary Wala`}
+  description={`Family itineraries in ${continent.name} for Indian passports with UAE residence: ${continent.countries.map((c) => c.name).join(', ')}.`}
+>
+  <section class="page-hero">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Itineraries</a></li>
+          <li aria-current="page">{continent.name}</li>
+        </ol>
+      </nav>
+      <h1 data-reveal>{continent.name}</h1>
+      <p class="page-hero__lede" data-reveal>{continent.blurb}</p>
+      <dl class="stats" data-reveal>
+        <div class="stat">
+          <dt class="stat__value">{countryCount}</dt>
+          <dd class="stat__label">{countryCount === 1 ? 'country' : 'countries'}</dd>
+        </div>
+        <div class="stat">
+          <dt class="stat__value">{continent.itineraryCount}</dt>
+          <dd class="stat__label">
+            {continent.itineraryCount === 1 ? 'itinerary' : 'itineraries'}
+          </dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  {regions.map((group) => (
+    <section class="wrap section">
+      <h2 class="section-heading" data-reveal>{group.region}</h2>
+      {group.countries.map((country) => (
+        <div class="country-block">
+          <h3 class="country-block__name" data-reveal>{country.name}</h3>
+          <ul class="itinerary-grid">
+            {country.itineraries.map((itin, i) => (
+              <li class="itinerary-card" data-reveal style={`--stagger:${i}`}>
+                <div class="itinerary-card__cover">
+                  <CoverArt
+                    seed={itin.id}
+                    country={itin.data.country}
+                    src={itin.data.heroImage}
+                    alt={itin.data.title}
+                  />
+                  <span class="pill pill--visa">{itin.data.visaNote}</span>
+                </div>
+                <div class="itinerary-card__body">
+                  <h4>
+                    <a class="card-link" href={`/itineraries/${itin.id}/`}>{itin.data.title}</a>
+                  </h4>
+                  <p>{itin.data.summary}</p>
+                  <div class="card-meta">
+                    <span class="pill">{itin.data.days} days</span>
+                    <span class="pill">{itin.data.budgetPerPerson} / person</span>
+                  </div>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </section>
+  ))}
+
+  <section class="wrap section">
+    <aside class="cta-card" data-reveal>
+      <div>
+        <h2>Somewhere in {continent.name} you want covered?</h2>
+        <p>Tell me where — it helps decide what gets researched next.</p>
+      </div>
+      <a class="btn btn--solid" href="/contact/">Get in touch</a>
+    </aside>
+  </section>
+</Base>
