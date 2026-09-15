@@ -9,19 +9,12 @@ const itineraries = (await getCollection('itineraries', ({ data }) => !data.draf
   .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
 
 const countries = [...new Set(itineraries.map((i) => i.data.country))].sort();
-const totalDays = itineraries.reduce((sum, i) => sum + i.data.days, 0);
 
 /** "AED 2,800" -> 2800, so the cheapest-first sort has something to compare. */
 function budgetValue(display: string): number {
   const digits = display.replace(/[^\d]/g, '');
   return digits ? Number(digits) : Number.MAX_SAFE_INTEGER;
 }
-
-const stats = [
-  { value: itineraries.length, label: itineraries.length === 1 ? 'itinerary' : 'itineraries' },
-  { value: countries.length, label: countries.length === 1 ? 'country' : 'countries' },
-  { value: totalDays, label: 'days planned' },
-];
 ---
 <Base
   title="The Itinerary Wala — visa-smart family itineraries"
@@ -37,45 +30,12 @@ const stats = [
         every hotel and tour bookable in one tap.
       </p>
 
-      <svg class="hero__route" viewBox="0 0 600 40" aria-hidden="true" role="presentation">
-        <path
-          class="hero__route-line"
-          d="M 8 30 C 120 30, 140 10, 240 12 S 400 30, 500 14 L 592 12"
-          fill="none"
-        />
-        {[8, 240, 500, 592].map((x, i) => (
-          <circle class="hero__route-pin" style={`--i:${i}`} cx={x} cy={i === 0 ? 30 : i === 1 ? 12 : 13} r="5" />
-        ))}
-      </svg>
-
-      <dl class="stats" data-reveal>
-        {stats.map((stat) => (
-          <div class="stat">
-            <dt class="stat__value" data-count-to={stat.value}>0</dt>
-            <dd class="stat__label">{stat.label}</dd>
-          </div>
-        ))}
-      </dl>
     </div>
   </section>
 
   <section class="wrap">
     {countries.length > 1 && (
       <div class="filters" data-reveal>
-        <div class="filters__search">
-          <label class="sr-only" for="itinerary-search">Search destinations</label>
-          <svg class="filters__search-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" />
-            <path d="M16.5 16.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-          </svg>
-          <input
-            id="itinerary-search"
-            type="search"
-            placeholder="Search a country…"
-            autocomplete="off"
-            data-search
-          />
-        </div>
         <div class="filters__group" role="group" aria-label="Filter by country">
           <button class="chip" type="button" data-filter="all" aria-pressed="true">
             All
@@ -217,6 +177,12 @@ const stats = [
     });
     sortSelect?.addEventListener('change', apply);
 
+    // The search input lives in the header; on this page it filters in place
+    // rather than submitting and reloading.
+    document
+      .querySelector<HTMLFormElement>('[data-search-form]')
+      ?.addEventListener('submit', (event) => event.preventDefault());
+
     search?.addEventListener('input', () => {
       query = search.value.trim().toLowerCase();
       syncUrl();
@@ -226,38 +192,4 @@ const stats = [
     apply();
   }
 
-  // --- stat count-up ---------------------------------------------------
-  const counters = Array.from(document.querySelectorAll<HTMLElement>('[data-count-to]'));
-  const still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-  const countUp = (el: HTMLElement) => {
-    const target = Number(el.dataset.countTo) || 0;
-    if (still || target === 0) {
-      el.textContent = String(target);
-      return;
-    }
-    const duration = 900;
-    const start = performance.now();
-    const tick = (now: number) => {
-      const t = Math.min(1, (now - start) / duration);
-      const eased = 1 - Math.pow(1 - t, 3);
-      el.textContent = String(Math.round(target * eased));
-      if (t < 1) requestAnimationFrame(tick);
-    };
-    requestAnimationFrame(tick);
-  };
-
-  if (counters.length > 0) {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        for (const entry of entries) {
-          if (!entry.isIntersecting) continue;
-          countUp(entry.target as HTMLElement);
-          observer.unobserve(entry.target);
-        }
-      },
-      { threshold: 0.6 }
-    );
-    counters.forEach((el) => observer.observe(el));
-  }
 </script>

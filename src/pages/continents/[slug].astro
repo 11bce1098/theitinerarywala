@@ -27,7 +27,9 @@ const countryCount = continent.countries.length;
 ---
 <Base
   title={`${continent.name} itineraries — The Itinerary Wala`}
-  description={`Family itineraries in ${continent.name} for Indian passports with UAE residence: ${continent.countries.map((c) => c.name).join(', ')}.`}
+  description={continent.comingSoon
+    ? `${continent.name} itineraries are coming soon to The Itinerary Wala.`
+    : `Family itineraries in ${continent.name} for Indian passports with UAE residence: ${continent.countries.map((c) => c.name).join(', ')}.`}
 >
   <section class="page-hero">
     <div class="wrap">
@@ -39,20 +41,36 @@ const countryCount = continent.countries.length;
       </nav>
       <h1 data-reveal>{continent.name}</h1>
       <p class="page-hero__lede" data-reveal>{continent.blurb}</p>
-      <dl class="stats" data-reveal>
-        <div class="stat">
-          <dt class="stat__value">{countryCount}</dt>
-          <dd class="stat__label">{countryCount === 1 ? 'country' : 'countries'}</dd>
-        </div>
-        <div class="stat">
-          <dt class="stat__value">{continent.itineraryCount}</dt>
-          <dd class="stat__label">
-            {continent.itineraryCount === 1 ? 'itinerary' : 'itineraries'}
-          </dd>
-        </div>
-      </dl>
+      {!continent.comingSoon && (
+        <dl class="stats" data-reveal>
+          <div class="stat">
+            <dt class="stat__value">{countryCount}</dt>
+            <dd class="stat__label">{countryCount === 1 ? 'country' : 'countries'}</dd>
+          </div>
+          <div class="stat">
+            <dt class="stat__value">{continent.itineraryCount}</dt>
+            <dd class="stat__label">
+              {continent.itineraryCount === 1 ? 'itinerary' : 'itineraries'}
+            </dd>
+          </div>
+        </dl>
+      )}
     </div>
   </section>
+
+  {continent.comingSoon && (
+    <section class="wrap section">
+      <div class="coming-soon" data-reveal>
+        <h2>{continent.name} is coming soon</h2>
+        <p>
+          Nothing here yet. Itineraries go up once the visa position, the daily
+          pace and the budget have all been checked properly — so this page
+          stays empty rather than filling it with guesswork.
+        </p>
+        <a class="btn btn--solid" href="/contact/">Request a destination</a>
+      </div>
+    </section>
+  )}
 
   {regions.map((group) => (
     <section class="wrap section">

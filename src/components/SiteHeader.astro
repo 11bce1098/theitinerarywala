@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
-import { NAV, SITE, isCurrent } from '../lib/site';
+import { NAV, SITE, ACTIVE_SOCIALS, isCurrent } from '../lib/site';
+import SocialIcon from './SocialIcon.astro';
 import { groupByContinent } from '../lib/geography.mjs';
 
 const pathname = Astro.url.pathname;
@@ -48,12 +49,16 @@ const continents = groupByContinent(itineraries);
                     <li>
                       <a class="flyout__continent" href={`/continents/${continent.slug}/`}>
                         <span>{continent.name}</span>
-                        <span class="flyout__count">{continent.itineraryCount}</span>
+                        {continent.comingSoon
+                          ? <span class="flyout__soon">Soon</span>
+                          : <span class="flyout__count">{continent.itineraryCount}</span>}
                       </a>
                       <ul class="flyout__countries">
                         <li class="flyout__all">
                           <a href={`/continents/${continent.slug}/`}>
-                            All of {continent.name} →
+                            {continent.comingSoon
+                              ? `${continent.name} — coming soon →`
+                              : `All of ${continent.name} →`}
                           </a>
                         </li>
                         {continent.countries.map((country) => (
@@ -76,15 +81,30 @@ const continents = groupByContinent(itineraries);
     </nav>
 
     <div class="site-header__actions">
-      <a class="icon-link" href={SITE.instagram} rel="me noopener" target="_blank">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
-             aria-hidden="true">
-          <rect x="3" y="3" width="18" height="18" rx="5" />
-          <circle cx="12" cy="12" r="3.8" />
-          <circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none" />
+      <form class="header-search" action="/" method="get" role="search" data-search-form>
+        <label class="sr-only" for="site-search">Search destinations</label>
+        <svg class="header-search__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" />
+          <path d="M16.5 16.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
         </svg>
-        <span class="sr-only">The Itinerary Wala on Instagram</span>
-      </a>
+        <input
+          id="site-search"
+          type="search"
+          name="q"
+          placeholder="Search a country…"
+          autocomplete="off"
+          data-search
+        />
+      </form>
+
+      <div class="social-row">
+        {ACTIVE_SOCIALS.map((social) => (
+          <a class="icon-link" href={social.url} rel="me noopener" target="_blank">
+            <SocialIcon name={social.key} />
+            <span class="sr-only">{SITE.name} on {social.label}</span>
+          </a>
+        ))}
+      </div>
 
       <button
         class="nav-toggle"
@@ -100,6 +120,16 @@ const continents = groupByContinent(itineraries);
   </div>
 
   <nav class="mobile-nav" id="mobile-nav" aria-label="Primary (mobile)" data-nav-panel hidden>
+    <div class="wrap">
+      <form class="header-search" action="/" method="get" role="search">
+        <label class="sr-only" for="mobile-search">Search destinations</label>
+        <svg class="header-search__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" />
+          <path d="M16.5 16.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+        </svg>
+        <input id="mobile-search" type="search" name="q" placeholder="Search a country…" autocomplete="off" />
+      </form>
+    </div>
     <ul class="wrap">
       {NAV.map((link) => (
         <li>
@@ -116,16 +146,20 @@ const continents = groupByContinent(itineraries);
                 {continent.name}
               </a>
               <div class="mobile-nav__countries">
-                {continent.countries.map((country) => (
-                  <a href={`/?country=${encodeURIComponent(country.name)}`}>{country.name}</a>
-                ))}
+                {continent.comingSoon
+                  ? <a href={`/continents/${continent.slug}/`}>Coming soon</a>
+                  : continent.countries.map((country) => (
+                      <a href={`/?country=${encodeURIComponent(country.name)}`}>{country.name}</a>
+                    ))}
               </div>
             </div>
           ))}
         </li>
       ))}
-      <li>
-        <a href={SITE.instagram} rel="me noopener" target="_blank">Instagram</a>
+      <li class="mobile-nav__socials">
+        {ACTIVE_SOCIALS.map((social) => (
+          <a href={social.url} rel="me noopener" target="_blank">{social.label}</a>
+        ))}
       </li>
     </ul>
   </nav>

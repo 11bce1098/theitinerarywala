@@ -19,11 +19,12 @@ export const COUNTRIES = {
 };
 
 export const CONTINENTS = [
-  { slug: 'asia',    name: 'Asia',          blurb: 'Short flights from the UAE, and where most visa-free options are.' },
-  { slug: 'europe',  name: 'Europe',        blurb: 'Longer flights, more paperwork, and worth the planning.' },
-  { slug: 'africa',  name: 'Africa',        blurb: 'Close on the map, and quick to reach from the Gulf.' },
-  { slug: 'americas',name: 'The Americas',  blurb: 'Long-haul trips that need real lead time.' },
-  { slug: 'oceania', name: 'Oceania',       blurb: 'The furthest, and the most planning.' },
+  { slug: 'asia',          name: 'Asia',          blurb: 'Short flights from the UAE, and where most visa-free options are.' },
+  { slug: 'europe',        name: 'Europe',        blurb: 'Longer flights, more paperwork, and worth the planning.' },
+  { slug: 'africa',        name: 'Africa',        blurb: 'Close on the map and quick to reach from the Gulf.' },
+  { slug: 'north-america', name: 'North America', blurb: 'Long-haul trips that need real lead time.' },
+  { slug: 'south-america', name: 'South America', blurb: 'The longest flights, and the ones worth the most planning.' },
+  { slug: 'oceania',       name: 'Oceania',       blurb: 'Far, expensive, and unlike anywhere else on this list.' },
 ];
 
 /** Continent slug for a country, or a loud failure if it is unmapped. */
@@ -61,8 +62,10 @@ export function groupByContinent(itineraries) {
     countries.get(name).push(itin);
   }
 
-  return CONTINENTS.filter((c) => byContinent.has(c.slug)).map((c) => {
-    const countries = [...byContinent.get(c.slug).entries()]
+  // Every continent comes back, including empty ones — those render as
+  // "coming soon" rather than being hidden, so the menu shows the full map.
+  return CONTINENTS.map((c) => {
+    const countries = [...(byContinent.get(c.slug)?.entries() ?? [])]
       .map(([name, items]) => ({
         name,
         region: regionFor(name),
@@ -76,6 +79,7 @@ export function groupByContinent(itineraries) {
       ...c,
       countries,
       itineraryCount: countries.reduce((n, x) => n + x.itineraries.length, 0),
+      comingSoon: countries.length === 0,
     };
   });
 }

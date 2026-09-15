@@ -16,6 +16,31 @@ export const SITE = {
   ogImage: '/images/og-card.jpg',
 } as const;
 
+export interface Social {
+  key: string;
+  label: string;
+  url: string;
+}
+
+/**
+ * Social profiles shown in the header and footer.
+ *
+ * TODO(owner): the Facebook and Threads URLs below are guesses built from the
+ * Instagram handle — open both and correct them, or blank the url to drop the
+ * icon. An empty url is skipped, so unused networks simply do not render.
+ */
+export const SOCIALS: Social[] = [
+  { key: 'instagram', label: 'Instagram', url: SITE.instagram },
+  { key: 'facebook',  label: 'Facebook',  url: 'https://facebook.com/theitinerarywala' },
+  { key: 'threads',   label: 'Threads',   url: 'https://threads.net/@theitinerarywala' },
+  { key: 'youtube',   label: 'YouTube',   url: '' },
+  { key: 'pinterest', label: 'Pinterest', url: '' },
+  { key: 'x',         label: 'X',         url: '' },
+];
+
+/** Only the ones with a URL actually set. */
+export const ACTIVE_SOCIALS = SOCIALS.filter((s) => s.url.trim().length > 0);
+
 export interface NavLink {
   href: string;
   label: string;
@@ -25,7 +50,7 @@ export interface NavLink {
 
 export const NAV: NavLink[] = [
   { href: '/', label: 'Itineraries', menu: 'continents' },
-  { href: '/visa-services/', label: 'Visa services' },
+  { href: '/visa-services/', label: 'Visa Services' },
   { href: '/about/', label: 'About' },
   { href: '/contact/', label: 'Contact' },
 ];
