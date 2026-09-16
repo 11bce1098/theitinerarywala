@@ -133,26 +133,21 @@ const related = all
           {extras.map((section) => (
             <div class="prose-body" set:html={section.html} />
           ))}
+          <p class="footnote">
+            <span aria-hidden="true">*</span>{' '}
+            {hasAffiliateLinks && (
+              <>
+                Some links here are affiliate links — booking through them
+                supports this site at no extra cost to you.{' '}
+              </>
+            )}
+            Prices and entry rules change, and what you need depends on your
+            passport; last checked {updated}, so confirm with the embassy or
+            your airline before booking.
+          </p>
         </div>
       </section>
     )}
-
-    <section class="itin-band">
-      <div class="itin-band__inner">
-        <p class="disclosure">
-          {hasAffiliateLinks && (
-            <>
-              Booking links on this page are affiliate links. If you book
-              through them, The Itinerary Wala earns a small commission at no
-              extra cost to you — it's what keeps the itineraries free.{' '}
-            </>
-          )}
-          What you need to enter depends on your passport and can change at
-          short notice; this plan was last checked on {updated}, so confirm
-          with the embassy or your airline before booking.
-        </p>
-      </div>
-    </section>
 
     {related.length > 0 && (
       <section class="itin-band itin-band--tinted" aria-labelledby="related-heading">

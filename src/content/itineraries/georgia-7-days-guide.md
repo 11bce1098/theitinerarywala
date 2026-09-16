@@ -320,7 +320,3 @@ is fine, except in August.
 **Can I do this itinerary in reverse?**
 Yes, but two slow Tbilisi days first give you a weather buffer
 before the mountain leg — the part you most want a clear day for.
-
-*Prices and hours checked September 2026 and marked approximate —
-confirm locally. Visa and insurance rules can change; check
-official government sites before you book.*
