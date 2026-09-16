@@ -1184,6 +1184,46 @@ body.nav-open { overflow: hidden; }
 .prose-body h3 { font-size: 1.15rem; margin: 1.9rem 0 0.6rem; }
 .prose-body img { max-width: 100%; border-radius: var(--radius); }
 
+/* Markdown tables arrived unstyled — the costs breakdown is the main one. */
+.prose-body table {
+  width: 100%;
+  max-width: var(--measure);
+  margin: 0 0 1.4rem;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+.prose-body thead th {
+  text-align: left;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  padding: 0 0.75rem 0.5rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.prose-body thead th:last-child,
+.prose-body tbody td:last-child {
+  text-align: right;
+  padding-right: 0;
+  white-space: nowrap;
+}
+.prose-body tbody td {
+  padding: 0.55rem 0.75rem 0.55rem 0;
+  border-bottom: 1px solid var(--line);
+  vertical-align: baseline;
+}
+.prose-body tbody tr:last-child td {
+  border-bottom: 0;
+  border-top: 2px solid var(--ink);
+  font-weight: 700;
+  color: var(--ink);
+}
+@media (max-width: 560px) {
+  .prose-body table { font-size: 0.88rem; }
+  .prose-body tbody td:last-child { white-space: normal; }
+}
+
 /* ---- day tabs ---- */
 .daytabs__bar {
   position: sticky;

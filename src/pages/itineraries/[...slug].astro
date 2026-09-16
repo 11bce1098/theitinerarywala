@@ -137,9 +137,14 @@ const related = all
       <section class="itin-band" aria-labelledby="details-heading">
         <div class="itin-band__inner">
           <h2 class="band-heading" id="details-heading">Costs and practicalities</h2>
-          {extras.map((section) => (
-            <div class="prose-body" set:html={section.html} />
-          ))}
+          {/* One trailing section is just a section; several are worth tabbing. */}
+          {extras.length > 1 ? (
+            <SectionTabs sections={extras} railTitle="In this section" idPrefix="more" />
+          ) : (
+            extras.map((section) => (
+              <div class="prose-body" set:html={section.html} />
+            ))
+          )}
           <p class="footnote">
             <span aria-hidden="true">*</span>{' '}
             {hasAffiliateLinks && (
