@@ -21,7 +21,7 @@ const { intro, days, extras } = splitItinerary(itin.rendered?.html ?? '');
 // Only claim commission on pages that actually carry a partner link.
 const hasAffiliateLinks = (itin.body ?? '').includes('#aff:');
 
-const updated = itin.data.publishDate.toLocaleDateString('en-GB', {
+const updated = (itin.data.updatedDate ?? itin.data.publishDate).toLocaleDateString('en-GB', {
   day: 'numeric',
   month: 'long',
   year: 'numeric',

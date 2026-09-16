@@ -42,7 +42,7 @@ const fallback = amount !== undefined ? `${formatMoney(amount, currency)}` : 'TB
 
 {variant === 'full' && amount !== undefined && usdText && (
   <span class="rate-note">
-    Converted from {currency} at the rate for{' '}
+    {currency === local ? 'Rate for' : `Converted from ${currency} at the rate for`}{' '}
     <a href={rateCheckUrl('USD', local)} rel="noopener" target="_blank" data-rate-date>
       {rateDate(data?.updated ?? '') || 'today'}
     </a>

@@ -2,13 +2,14 @@
 title: "Georgia in 7 days: Tbilisi, Kazbegi and Kakheti"
 country: "Georgia"
 days: 7
-budgetAmount: 2800
-budgetCurrency: "AED"
+budgetAmount: 2165
+budgetCurrency: "GEL"
 bestFor: "First-time visitors"
 heroImage: "/images/georgia.jpeg"
 heroWide: "/images/georgia-wide.jpg"
 summary: "One week across Tbilisi, the Kazbegi mountains and Kakheti wine country — hour-by-hour plans, visas, real costs, and the new 2026 insurance rule."
 publishDate: 2026-09-14
+updatedDate: 2026-09-16
 draft: false
 ---
 

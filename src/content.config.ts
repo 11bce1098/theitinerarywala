@@ -23,6 +23,8 @@ const itineraries = defineCollection({
     // CSS object-position for the hero crop, e.g. "center 35%" to keep the sky.
     heroFocus: z.string().optional(),
     publishDate: z.coerce.date(),
+    // Set when an itinerary is revised; the page falls back to publishDate.
+    updatedDate: z.coerce.date().optional(),
     draft: z.boolean().default(false),
   }),
 });
