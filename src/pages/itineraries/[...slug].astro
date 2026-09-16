@@ -18,6 +18,9 @@ export async function getStaticPaths() {
 const { itin, all } = Astro.props;
 const { intro, days, extras } = splitItinerary(itin.rendered?.html ?? '');
 
+// Only claim commission on pages that actually carry a partner link.
+const hasAffiliateLinks = (itin.body ?? '').includes('#aff:');
+
 const updated = itin.data.publishDate.toLocaleDateString('en-GB', {
   day: 'numeric',
   month: 'long',
@@ -81,7 +84,6 @@ const related = all
       <div class="itin-band__inner">
         <h2 class="band-heading" id="overview-heading">Before you go</h2>
         <div class="itin-overview">
-          <div class="prose-body" set:html={intro} />
           <aside class="glance" aria-label="At a glance">
             <h3>At a glance</h3>
             <dl>
@@ -110,6 +112,7 @@ const related = all
               ))}
             </dl>
           </aside>
+          <div class="prose-body" set:html={intro} />
         </div>
       </div>
     </section>
@@ -137,12 +140,16 @@ const related = all
     <section class="itin-band">
       <div class="itin-band__inner">
         <p class="disclosure">
-          Booking links on this page are affiliate links. If you book through
-          them, The Itinerary Wala earns a small commission at no extra cost to
-          you — it's what keeps the itineraries free. What you need to enter
-          depends on your passport and can change at short notice; this plan
-          was last checked on {updated}, so confirm with the embassy or your
-          airline before booking.
+          {hasAffiliateLinks && (
+            <>
+              Booking links on this page are affiliate links. If you book
+              through them, The Itinerary Wala earns a small commission at no
+              extra cost to you — it's what keeps the itineraries free.{' '}
+            </>
+          )}
+          What you need to enter depends on your passport and can change at
+          short notice; this plan was last checked on {updated}, so confirm
+          with the embassy or your airline before booking.
         </p>
       </div>
     </section>

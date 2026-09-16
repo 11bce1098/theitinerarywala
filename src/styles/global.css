@@ -1129,14 +1129,19 @@ body.nav-open { overflow: hidden; }
 .crumbs a:hover { color: var(--ink); text-decoration: underline; }
 
 /* overview: copy beside an at-a-glance panel */
-.itin-overview {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 19rem;
-  gap: 2.5rem;
-  align-items: start;
+/* The panel floats so a long overview flows beneath it. A two-column grid
+   left a tall empty column whenever the copy outran the card. */
+.itin-overview::after { content: ''; display: block; clear: both; }
+.itin-overview .glance {
+  float: right;
+  width: 19rem;
+  margin: 0.2rem 0 1.5rem 2.5rem;
 }
+.itin-overview .prose-body { max-width: none; }
+.itin-overview .prose-body > * { max-width: var(--measure); }
+
 @media (max-width: 880px) {
-  .itin-overview { grid-template-columns: 1fr; gap: 1.75rem; }
+  .itin-overview .glance { float: none; width: auto; margin: 0 0 1.75rem; }
 }
 .glance {
   background: var(--card);
