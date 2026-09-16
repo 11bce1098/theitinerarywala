@@ -1,0 +1,3 @@
+# Cloudflare Pages redirects.
+# The Georgia itinerary was renamed; keep the indexed URL working.
+/itineraries/georgia-7-day-family/ /itineraries/georgia-7-days-family-guide/ 301
