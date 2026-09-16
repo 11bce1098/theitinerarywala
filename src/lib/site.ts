@@ -25,18 +25,17 @@ export interface Social {
 /**
  * Social profiles shown in the header and footer.
  *
- * Facebook is the page's canonical URL, resolved from the share link with the
- * tracking parameters stripped. Setting a username on the page would give a
- * tidier /theitinerarywala address; update here if you do.
+ * All three URLs are the canonical form — checked to resolve without a
+ * redirect, so a click does not make an extra hop.
  *
- * TODO(owner): the Threads URL is still a guess built from the Instagram
- * handle — open it and correct it, or blank the url to drop the icon. An
- * empty url is skipped, so unused networks simply do not render.
+ * YouTube, Pinterest and X are listed with empty urls: fill one in and its
+ * icon appears in the header and footer automatically. An empty url is
+ * skipped, so unused networks never render.
  */
 export const SOCIALS: Social[] = [
   { key: 'instagram', label: 'Instagram', url: SITE.instagram },
-  { key: 'facebook',  label: 'Facebook',  url: 'https://www.facebook.com/profile.php?id=61593967965096' },
-  { key: 'threads',   label: 'Threads',   url: 'https://threads.net/@theitinerarywala' },
+  { key: 'facebook',  label: 'Facebook',  url: 'https://www.facebook.com/theitinerarywala' },
+  { key: 'threads',   label: 'Threads',   url: 'https://www.threads.net/@theitinerarywala' },
   { key: 'youtube',   label: 'YouTube',   url: '' },
   { key: 'pinterest', label: 'Pinterest', url: '' },
   { key: 'x',         label: 'X',         url: '' },
