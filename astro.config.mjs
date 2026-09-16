@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import { AFFILIATES } from './src/lib/affiliates.mjs';
+import { getRates, convert, formatMoney } from './src/lib/rates.mjs';
 
 /**
  * Rewrites `href="#aff:<key>"` in markdown to the real partner URL and tags
@@ -23,8 +24,49 @@ function resolve(key) {
 
 const RAW_AFF_HREF = /href=(["'])#aff:([A-Za-z0-9_-]+)\1/g;
 
+/** `{{GEL 1800}}` or `{{GEL 30-50}}` in markdown prose or a table cell. */
+const MONEY = /\{\{([A-Z]{3})\s+([\d,]+(?:\s*[-–]\s*[\d,]+)?)\}\}/g;
+
+const num = (text) => Number(String(text).replace(/,/g, ''));
+
+/**
+ * Turns a money token into "GEL 1,800 (≈ $665)".
+ *
+ * The conversion is computed at build time so it is right without JS, and
+ * carries data attributes so the client can refresh it against the day's
+ * rate. Without live rates it degrades to the original amount alone.
+ */
+function moneyNode(code, amountText, rates) {
+  const parts = amountText.split(/\s*[-–]\s*/).map(num);
+  const usd = parts.map((n) => convert(n, code, 'USD', rates));
+  const original = parts.map((n) => n.toLocaleString('en-US')).join('–');
+  const children = [{ type: 'text', value: `${code} ${original}` }];
+
+  if (usd.every((v) => v !== null)) {
+    children.push({
+      type: 'element',
+      tagName: 'span',
+      properties: { className: ['money-conv'] },
+      children: [{ type: 'text', value: ` (≈ ${usd.map((v) => formatMoney(v, 'USD')).join('–')})` }],
+    });
+  }
+
+  return {
+    type: 'element',
+    tagName: 'span',
+    properties: {
+      className: ['money'],
+      'data-money': '',
+      'data-amounts': parts.join(','),
+      'data-from': code,
+    },
+    children,
+  };
+}
+
 function affiliateLinks() {
-  return (tree) => {
+  return async (tree) => {
+    const rates = (await getRates())?.rates ?? null;
     const walk = (node) => {
       // Booking buttons are written as raw HTML in the markdown, which stays
       // an unparsed `raw` node — so patch the string, not element properties.
@@ -37,6 +79,34 @@ function affiliateLinks() {
             ` target=${quote}_blank${quote}`
           );
         });
+      }
+
+      // Money tokens live in ordinary prose, so patch the text nodes.
+      if (node.type === 'element' && Array.isArray(node.children)) {
+        let touched = false;
+        const next = [];
+        for (const child of node.children) {
+          if (child.type !== 'text' || !child.value.includes('{{')) {
+            next.push(child);
+            continue;
+          }
+          MONEY.lastIndex = 0;
+          let last = 0;
+          let match;
+          while ((match = MONEY.exec(child.value)) !== null) {
+            if (match.index > last) {
+              next.push({ type: 'text', value: child.value.slice(last, match.index) });
+            }
+            next.push(moneyNode(match[1], match[2], rates));
+            last = match.index + match[0].length;
+            touched = true;
+          }
+          if (!touched) { next.push(child); continue; }
+          if (last < child.value.length) {
+            next.push({ type: 'text', value: child.value.slice(last) });
+          }
+        }
+        if (touched) node.children = next;
       }
 
       // Markdown-syntax links, e.g. [Check flights](#aff:aviasales).

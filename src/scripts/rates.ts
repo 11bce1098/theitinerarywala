@@ -91,6 +91,25 @@ export async function refreshBudgets(): Promise<void> {
     el.dataset.usd = String(Math.round(usd));
   }
 
+  // Inline amounts written as {{GEL 1800}} in the markdown.
+  for (const el of Array.from(document.querySelectorAll<HTMLElement>('[data-money]'))) {
+    const from = el.dataset.from ?? 'USD';
+    const amounts = (el.dataset.amounts ?? '').split(',').map(Number).filter(Number.isFinite);
+    if (amounts.length === 0 || !rates[from]) continue;
+
+    const conv = el.querySelector<HTMLElement>('.money-conv');
+    const usd = amounts.map((n) => (n / rates[from]) * rates.USD);
+    const text = ` (≈ ${usd.map((v) => money(v, 'USD')).join('–')})`;
+    if (conv) {
+      conv.textContent = text;
+    } else {
+      const span = document.createElement('span');
+      span.className = 'money-conv';
+      span.textContent = text;
+      el.append(span);
+    }
+  }
+
   const stamp = document.querySelector<HTMLElement>('[data-rate-date]');
   if (stamp && payload.updated) {
     const parsed = new Date(payload.updated);

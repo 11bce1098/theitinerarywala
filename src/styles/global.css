@@ -643,6 +643,8 @@ body.nav-open { overflow: hidden; }
   padding: 0 0.45rem;
 }
 
+.money-conv { color: var(--ink-soft); white-space: nowrap; }
+
 .rate-note {
   display: block;
   margin-top: 0.3rem;

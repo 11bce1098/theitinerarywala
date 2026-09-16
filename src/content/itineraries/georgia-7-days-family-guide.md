@@ -21,8 +21,8 @@ with a preschooler.
 
 Everything below is written for a family of three (two adults, one
 small child) travelling with a stroller. Costs are in Georgian lari
-(GEL) with UAE dirham (AED) equivalents — at the time of writing,
-1 GEL ≈ AED 1.35.
+(GEL), with conversions calculated at today's exchange rate rather
+than whatever it was when this was written.
 
 ## Before you go: the 15-minute admin
 
@@ -57,8 +57,8 @@ change, so confirm on the
 
 **Since 1 January 2026, Georgia requires all foreign visitors to
 carry travel insurance** covering health and accidents for the full
-length of stay, with minimum coverage of 30,000 GEL (roughly
-USD 11,000). Border officers can ask for proof in paper or
+length of stay, with minimum coverage of {{GEL 30000}}.
+Border officers can ask for proof in paper or
 electronic form, in English or Georgian.
 
 In practice: buy a standard family travel policy before you fly
@@ -133,7 +133,7 @@ Old Town with khinkali (soup dumplings — order the fried ones for
 kids, less scalding), khachapuri, and Georgian lemonade. Dinner for
 three: 60–90 GEL.
 
-<a class="book-btn" href="#PASTE-TRAVELPAYOUTS-HOTEL-LINK">Book a hotel in Old Town Tbilisi</a>
+
 
 ## Day 2 — Mtskheta half-day trip
 
@@ -153,7 +153,6 @@ A Bolt or taxi there and back with waiting time costs around
 80–100 GEL, or join a small-group half-day tour if you prefer a
 guide. Either way, you are back in Tbilisi by nap time.
 
-<a class="book-btn" href="#aff:kkday">Book a Mtskheta half-day tour</a>
 
 ## Day 3 — Drive the Georgian Military Highway to Kazbegi
 
@@ -178,8 +177,7 @@ clear day — Mount Kazbek fills the window of your hotel room.
 Choose a hotel with a mountain-view room and a restaurant on site;
 after the drive, nobody wants to go out hunting for dinner.
 
-<a class="book-btn" href="#PASTE-TRAVELPAYOUTS-HOTEL-LINK">Book a Kazbegi hotel with a mountain view</a>
-<a class="book-btn" href="#aff:klook">Book a private driver for the highway</a>
+
 
 ## Day 4 — Gergeti Trinity Church, then deliberately nothing
 
@@ -232,7 +230,6 @@ qvevri wine and kids get grape juice from the same vineyard. It
 works better than it sounds. The drive is about 1h45 each way —
 time both legs with naps and it disappears.
 
-<a class="book-btn" href="#aff:kkday">Book a Kakheti family day tour</a>
 
 ## Day 7 — Souvenirs and fly home
 
@@ -242,7 +239,6 @@ Caucasus and a genuinely fun browse even with a child in tow. Grab
 a final khachapuri, then head out. Evening departures get most Gulf
 and European travellers home at a survivable bedtime.
 
-<a class="book-btn" href="#aff:aviasales">Check flight prices to Tbilisi</a>
 
 ## What this trip actually costs
 
@@ -250,19 +246,19 @@ Real numbers for two adults and one child, 7 nights, mid-range
 comfort (private bathrooms, good locations, breakfast included) —
 flights excluded:
 
-| Item | GEL | AED (approx.) |
-|---|---|---|
-| Hotels, 7 nights (5 Tbilisi + 2 Kazbegi) | 1,800 | 2,450 |
-| Private driver, Tbilisi–Kazbegi return (2 days) | 500 | 675 |
-| Gergeti 4x4 (private, with waiting) | 130 | 175 |
-| Kakheti day tour (2 adults; small kids often free) | 350 | 470 |
-| Mtskheta trip (taxi with waiting) | 100 | 135 |
-| Food and drink, 7 days | 1,200 | 1,620 |
-| Bolt rides, cable car, funicular, SIM, extras | 300 | 405 |
-| **Total for the family** | **≈ 4,380** | **≈ 5,930** |
+| Item | Cost |
+|---|---|
+| Hotels, 7 nights (5 Tbilisi + 2 Kazbegi) | {{GEL 1800}} |
+| Private driver, Tbilisi–Kazbegi return (2 days) | {{GEL 500}} |
+| Gergeti 4x4 (private, with waiting) | {{GEL 130}} |
+| Kakheti day tour (2 adults; small kids often free) | {{GEL 350}} |
+| Mtskheta trip (taxi with waiting) | {{GEL 100}} |
+| Food and drink, 7 days | {{GEL 1200}} |
+| Bolt rides, cable car, funicular, SIM, extras | {{GEL 300}} |
+| **Total for the family** | **{{GEL 4380}}** |
 
-That is roughly **AED 2,000 per person** for a family of three —
-call it AED 2,800 per person if you upgrade the Kazbegi hotel to
+That is roughly **{{GEL 1460}} per person** for a family of three —
+call it {{GEL 2060}} per person if you upgrade the Kazbegi hotel to
 one of the famous view properties, eat well, and shop at Dry
 Bridge. For context, that is a full week in the Caucasus for the
 price of two nights in most European capitals.
