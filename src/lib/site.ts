@@ -36,7 +36,7 @@ export const SOCIALS: Social[] = [
   { key: 'instagram', label: 'Instagram', url: SITE.instagram },
   { key: 'facebook',  label: 'Facebook',  url: 'https://www.facebook.com/theitinerarywala' },
   { key: 'threads',   label: 'Threads',   url: 'https://www.threads.net/@theitinerarywala' },
-  { key: 'youtube',   label: 'YouTube',   url: '' },
+  { key: 'youtube',   label: 'YouTube',   url: 'https://www.youtube.com/@theitinerarywala' },
   { key: 'pinterest', label: 'Pinterest', url: '' },
   { key: 'x',         label: 'X',         url: '' },
 ];
