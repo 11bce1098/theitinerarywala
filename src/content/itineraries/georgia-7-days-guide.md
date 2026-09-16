@@ -19,8 +19,8 @@ elsewhere. This route covers the old capital, the high Caucasus,
 and the oldest wine region on earth — with drives kept short enough
 that the road stays part of the holiday.
 
-All costs in Georgian lari (GEL); 1 GEL ≈ AED 1.35 at the time of
-writing. Opening hours are approximate — Georgian hours drift with
+All costs are in Georgian lari (GEL), with conversions calculated at
+today's exchange rate. Opening hours are approximate — Georgian hours drift with
 the seasons, so treat anything marked ~ as a guide, not a contract.
 
 ## Before you go: the 15-minute admin
@@ -43,7 +43,7 @@ the seasons, so treat anything marked ~ as a guide, not a contract.
 
 - Since **1 January 2026**, all foreign visitors must carry travel
   insurance covering health and accidents for the full stay.
-- Minimum coverage: **30,000 GEL (~USD 11,000)**; proof can be
+- Minimum coverage: **{{GEL 30000}}**; proof can be
   requested at the border, in English or Georgian, paper or PDF.
 - In practice: buy any standard travel policy, check it names
   Georgia and your dates, and save the PDF offline on your phone.
@@ -251,20 +251,20 @@ each way.
 
 Two people, 7 nights, mid-range comfort, flights excluded:
 
-| Item | GEL | AED (approx.) |
-|---|---|---|
-| Hotels, 7 nights (5 Tbilisi + 2 Kazbegi) | 1,800 | 2,450 |
-| Private driver, Tbilisi–Kazbegi return (2 days) | 500 | 675 |
-| Gergeti 4x4 (private, with waiting) | 130 | 175 |
-| Kakheti day tour for two | 350 | 470 |
-| Mtskheta trip (taxi with waiting) | 100 | 135 |
-| Food and drink, 7 days | 1,100 | 1,490 |
-| Bolt rides, cable car, funicular, baths, SIM | 350 | 470 |
-| **Total for two** | **≈ 4,330** | **≈ 5,865** |
+| Item | Cost |
+|---|---|
+| Hotels, 7 nights (5 Tbilisi + 2 Kazbegi) | {{GEL 1800}} |
+| Private driver, Tbilisi–Kazbegi return (2 days) | {{GEL 500}} |
+| Gergeti 4x4 (private, with waiting) | {{GEL 130}} |
+| Kakheti day tour for two | {{GEL 350}} |
+| Mtskheta trip (taxi with waiting) | {{GEL 100}} |
+| Food and drink, 7 days | {{GEL 1100}} |
+| Bolt rides, cable car, funicular, baths, SIM | {{GEL 350}} |
+| **Total for two** | **{{GEL 4330}}** |
 
-- Roughly **AED 2,900 per person**, with room in both directions:
-  guesthouses + shared jeeps pull it under AED 2,000; Rooms Hotel +
-  serious wine tours push it past AED 4,000.
+- Roughly **{{GEL 2165}} per person**, with room in both directions:
+  guesthouses and shared jeeps pull it under {{GEL 1480}}; Rooms Hotel
+  and serious wine tours push it past {{GEL 2960}}.
 - **Book the Kazbegi hotel first** — the view properties sell out
   weeks ahead, June–September. Everything else can wait.
 - Hotel and restaurant picks here are **unsponsored — no affiliate
