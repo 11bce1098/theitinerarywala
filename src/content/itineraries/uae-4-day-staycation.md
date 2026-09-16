@@ -36,3 +36,11 @@ walkable, and none of it the version of Dubai you drive past on the way
 to work.
 
 <a class="book-btn" href="#PASTE-TRAVELPAYOUTS-HOTEL-LINK">Book a hotel near Dubai Creek</a>
+
+## Getting there
+
+Fares swing hard by season and by day of the week, so check the spread before
+you commit to dates — moving a trip by a few days is often the single biggest
+saving on the whole budget.
+
+<a class="book-btn" href="#aff:aviasales">Check flight prices to Dubai</a>

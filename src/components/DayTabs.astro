@@ -40,10 +40,14 @@ const { days } = Astro.props;
       />
     ))}
 
-    <p class="daytabs__step">
-      <button type="button" class="btn btn--ghost" data-step="-1" hidden>← Previous day</button>
-      <button type="button" class="btn btn--ghost" data-step="1">Next day →</button>
-    </p>
+    {/* Rendered only when there is somewhere to step to — the JS keeps these
+        in sync afterwards, but it does not run until the reader interacts. */}
+    {days.length > 1 && (
+      <p class="daytabs__step">
+        <button type="button" class="btn btn--ghost" data-step="-1" hidden>← Previous day</button>
+        <button type="button" class="btn btn--ghost" data-step="1">Next day →</button>
+      </p>
+    )}
   </div>
 )}
 

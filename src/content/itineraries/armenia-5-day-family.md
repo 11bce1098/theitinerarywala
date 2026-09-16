@@ -22,3 +22,11 @@ Arrive, settle in, and walk the centre. The Cascade steps have
 escalators inside — take those up, walk down.
 
 <a class="book-btn" href="#PASTE-TRAVELPAYOUTS-HOTEL-LINK">Book a hotel near Republic Square</a>
+
+## Getting there
+
+Fares swing hard by season and by day of the week, so check the spread before
+you commit to dates — moving a trip by a few days is often the single biggest
+saving on the whole budget.
+
+<a class="book-btn" href="#aff:aviasales">Check flight prices to Yerevan</a>
