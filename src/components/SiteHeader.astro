@@ -143,8 +143,10 @@ const continents = groupByContinent(itineraries);
     </div>
   </div>
 
+</header>
+
   <nav class="mobile-nav" id="mobile-nav" aria-label="Primary (mobile)" data-nav-panel hidden>
-    <div class="wrap">
+    <div class="mobile-nav__inner wrap">
       <form class="header-search" action="/" method="get" role="search">
         <label class="sr-only" for="mobile-search">Search destinations</label>
         <svg class="header-search__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
@@ -153,54 +155,75 @@ const continents = groupByContinent(itineraries);
         </svg>
         <input id="mobile-search" type="search" name="q" placeholder="Search a country…" autocomplete="off" />
       </form>
-    </div>
-    <ul class="wrap">
-      {NAV.map((link) => (
-        <li>
-          <a
-            href={link.href}
-            aria-current={isCurrent(link.href, pathname) ? 'page' : undefined}
-          >
-            {link.label}
-          </a>
-          {/* No hover on touch, so continents and countries are listed flat. */}
-          {link.menu === 'continents' && continents.map((continent) => (
-            <div class="mobile-nav__group">
-              <a class="mobile-nav__continent" href={`/continents/${continent.slug}/`}>
-                {continent.name}
-              </a>
-              {continent.comingSoon ? (
-                <div class="mobile-nav__countries">
-                  <a href={`/continents/${continent.slug}/`}>Coming soon</a>
-                </div>
+
+      <ul class="mobile-nav__list">
+        {NAV.map((link) => (
+          <li>
+            <a
+              class="mobile-nav__top"
+              href={link.href}
+              aria-current={isCurrent(link.href, pathname) ? 'page' : undefined}
+            >
+              {link.label}
+            </a>
+
+            {/* Collapsed by default — <details> needs no JS and no hover. */}
+            {link.menu === 'continents' && continents.map((continent) => (
+              continent.comingSoon ? (
+                <a class="mobile-nav__soon" href={`/continents/${continent.slug}/`}>
+                  {continent.name}
+                  <span class="flyout__soon">Soon</span>
+                </a>
               ) : (
-                continent.regions
-                  .filter((region) => !region.comingSoon)
-                  .map((region) => (
-                    <div class="mobile-nav__region">
-                      <span class="mobile-nav__region-name">{region.name}</span>
-                      <div class="mobile-nav__countries">
-                        {region.countries.map((country) => (
-                          <a href={`/?country=${encodeURIComponent(country.name)}`}>{country.name}</a>
-                        ))}
+                <details class="mobile-nav__continent">
+                  <summary>
+                    <span>{continent.name}</span>
+                    <span class="flyout__count">{continent.itineraryCount}</span>
+                  </summary>
+                  <a class="mobile-nav__all" href={`/continents/${continent.slug}/`}>
+                    All of {continent.name} →
+                  </a>
+                  {continent.regions
+                    .filter((region) => !region.comingSoon)
+                    .map((region) => (
+                      <div class="mobile-nav__region">
+                        <span class="mobile-nav__region-name">{region.name}</span>
+                        <div class="mobile-nav__countries">
+                          {region.countries.map((country) => (
+                            <a href={`/?country=${encodeURIComponent(country.name)}`}>
+                              {country.name}
+                            </a>
+                          ))}
+                        </div>
                       </div>
-                    </div>
-                  ))
-              )}
-            </div>
-          ))}
-        </li>
-      ))}
-      <li class="mobile-nav__socials">
+                    ))}
+                </details>
+              )
+            ))}
+          </li>
+        ))}
+      </ul>
+
+      <div class="mobile-nav__socials">
         {ACTIVE_SOCIALS.map((social) => (
           <a href={social.url} rel="me noopener" target="_blank">{social.label}</a>
         ))}
-      </li>
-    </ul>
+      </div>
+    </div>
   </nav>
-</header>
 
 <script>
+  const header = document.querySelector<HTMLElement>('.site-header');
+
+  /** Keeps --header-h honest; the header's height changes with the viewport. */
+  const measureHeader = () => {
+    if (!header) return;
+    document.documentElement.style.setProperty('--header-h', `${header.offsetHeight}px`);
+  };
+  measureHeader();
+  window.addEventListener('resize', measureHeader);
+  window.addEventListener('load', measureHeader);
+
   const toggle = document.querySelector<HTMLButtonElement>('[data-nav-toggle]');
   const panel = document.querySelector<HTMLElement>('[data-nav-panel]');
 
