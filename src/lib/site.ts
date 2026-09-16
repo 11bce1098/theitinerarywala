@@ -38,7 +38,7 @@ export const SOCIALS: Social[] = [
   { key: 'threads',   label: 'Threads',   url: 'https://www.threads.net/@theitinerarywala' },
   { key: 'youtube',   label: 'YouTube',   url: 'https://www.youtube.com/@theitinerarywala' },
   { key: 'pinterest', label: 'Pinterest', url: '' },
-  { key: 'x',         label: 'X',         url: '' },
+  { key: 'x',         label: 'X',         url: 'https://x.com/itinerarywala' },
 ];
 
 /** Only the ones with a URL actually set. */
