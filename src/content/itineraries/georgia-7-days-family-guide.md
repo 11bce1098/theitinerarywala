@@ -315,7 +315,3 @@ week out except in August.
 Yes, but landing into two slow Tbilisi days first lets everyone
 find their feet before the mountain drive — with jet-lagged kids,
 that ordering earns its keep.
-
-*Prices checked September 2026. Visa rules and the insurance
-requirement can change — confirm on official government sites
-before you book.*

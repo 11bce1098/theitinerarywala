@@ -1304,12 +1304,19 @@ body.nav-open { overflow: hidden; }
 .book-btn:active { transform: translateY(0); }
 
 /* small print under affiliate sections */
+/* Small print: it sits in its own band, so it does not need the band's full
+   vertical padding on top of its own. */
 .disclosure {
   font-size: 0.85rem;
   color: var(--ink-soft);
   border-top: 1px solid var(--line);
-  margin-top: 3rem;
+  margin: 0;
   padding-top: 1rem;
+  max-width: var(--measure);
+}
+.itin-band:has(> .itin-band__inner > .disclosure) > .itin-band__inner {
+  padding-top: 0.25rem;
+  padding-bottom: 1.75rem;
 }
 
 /* ---- buttons ---- */
