@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
-import { NAV, SITE, FORM_ENDPOINT, HAS_FORM_ENDPOINT, WEB3FORMS_KEY } from '../lib/site';
+import { NAV, SITE, ACTIVE_SOCIALS, FORM_ENDPOINT, HAS_FORM_ENDPOINT, WEB3FORMS_KEY } from '../lib/site';
+import SocialIcon from './SocialIcon.astro';
 
 // Destination list is generated, so the footer can't go stale.
 const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
@@ -15,14 +16,14 @@ const year = new Date().getFullYear();
         Day-by-day family travel plans — realistic pacing, budgets in real
         numbers, and every stay and tour bookable in one tap.
       </p>
-      <a class="icon-link icon-link--bordered" href={SITE.instagram} rel="me noopener" target="_blank">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
-          <rect x="3" y="3" width="18" height="18" rx="5" />
-          <circle cx="12" cy="12" r="3.8" />
-          <circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none" />
-        </svg>
-        <span class="sr-only">The Itinerary Wala on Instagram</span>
-      </a>
+      <div class="footer-socials">
+        {ACTIVE_SOCIALS.map((social) => (
+          <a class="icon-link icon-link--bordered" href={social.url} rel="me noopener" target="_blank">
+            <SocialIcon name={social.key} />
+            <span class="sr-only">{SITE.name} on {social.label}</span>
+          </a>
+        ))}
+      </div>
     </div>
 
     <nav class="footer-col" aria-label="Site">
