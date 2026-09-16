@@ -49,6 +49,38 @@ function shortLabel(heading: string): string {
   return heading.split(/\s+[—–-]\s+/)[0];
 }
 
+/**
+ * Splits a block of rendered HTML at its H3s.
+ *
+ * Used for the overview, where the subsections (visas, money, SIM…) are
+ * independent enough to tab rather than scroll through.
+ */
+export function splitByH3(html: string): { lead: string; sections: Section[] } {
+  const H3 = /<h3\b([^>]*)>([\s\S]*?)<\/h3>/gi;
+  const marks: { start: number; attrs: string; heading: string }[] = [];
+
+  H3.lastIndex = 0;
+  let match: RegExpExecArray | null;
+  while ((match = H3.exec(html)) !== null) {
+    marks.push({ start: match.index, attrs: match[1], heading: decode(stripTags(match[2])) });
+  }
+
+  if (marks.length < 2) return { lead: html, sections: [] };
+
+  const sections: Section[] = marks.map((mark, i) => {
+    const end = i + 1 < marks.length ? marks[i + 1].start : html.length;
+    const idMatch = mark.attrs.match(/\bid=["']([^"']+)["']/);
+    return {
+      id: idMatch ? idMatch[1] : slugify(mark.heading),
+      heading: mark.heading,
+      label: shortLabel(mark.heading),
+      html: html.slice(mark.start, end),
+    };
+  });
+
+  return { lead: html.slice(0, marks[0].start), sections };
+}
+
 export function splitItinerary(html: string): SplitItinerary {
   const marks: { start: number; attrs: string; heading: string }[] = [];
 

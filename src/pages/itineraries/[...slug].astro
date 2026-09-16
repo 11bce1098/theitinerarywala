@@ -2,8 +2,8 @@
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import CoverArt from '../../components/CoverArt.astro';
-import DayTabs from '../../components/DayTabs.astro';
-import { splitItinerary } from '../../lib/itinerary';
+import SectionTabs from '../../components/SectionTabs.astro';
+import { splitItinerary, splitByH3 } from '../../lib/itinerary';
 import { regionFor } from '../../lib/geography.mjs';
 import Budget from '../../components/Budget.astro';
 
@@ -17,6 +17,8 @@ export async function getStaticPaths() {
 
 const { itin, all } = Astro.props;
 const { intro, days, extras } = splitItinerary(itin.rendered?.html ?? '');
+// The overview's subsections tab the same way the days do.
+const { lead, sections: preTrip } = splitByH3(intro);
 
 // Only claim commission on pages that actually carry a partner link.
 const hasAffiliateLinks = (itin.body ?? '').includes('#aff:');
@@ -112,7 +114,12 @@ const related = all
               ))}
             </dl>
           </aside>
-          <div class="prose-body" set:html={intro} />
+          <div class="itin-overview__main">
+            <div class="prose-body" set:html={lead} />
+            {preTrip.length > 0 && (
+              <SectionTabs sections={preTrip} railTitle="Before you go" idPrefix="pre" />
+            )}
+          </div>
         </div>
       </div>
     </section>
@@ -121,7 +128,7 @@ const related = all
       <section class="itin-band itin-band--tinted" aria-labelledby="days-heading">
         <div class="itin-band__inner">
           <h2 class="band-heading" id="days-heading">Day by day</h2>
-          <DayTabs days={days} />
+          <SectionTabs sections={days} railTitle="The week" idPrefix="day" steppers rail />
         </div>
       </section>
     )}

@@ -2,24 +2,33 @@
 import type { Section } from '../lib/itinerary';
 
 interface Props {
-  days: Section[];
+  sections: Section[];
+  /** Heading above the rail, e.g. "The week". */
+  railTitle: string;
+  /** Keeps ids unique when a page renders more than one set. */
+  idPrefix?: string;
+  /** Sequential content gets prev/next; reference sections do not. */
+  steppers?: boolean;
+  /** Only worth showing when the tab labels hide the real titles. */
+  rail?: boolean;
 }
-const { days } = Astro.props;
+const { sections, railTitle, idPrefix = 'tab', steppers = false, rail = false } = Astro.props;
+const key = (id: string) => `${idPrefix}-${id}`;
 ---
-{days.length > 0 && (
+{sections.length > 0 && (
   <div class="daytabs" data-daytabs>
     <div class="daytabs__bar">
-      <div class="daytabs__list" role="tablist" aria-label="Day by day itinerary">
-        {days.map((day, i) => (
+      <div class="daytabs__list" role="tablist" aria-label={railTitle}>
+        {sections.map((day, i) => (
           <button
             type="button"
             role="tab"
-            id={`tab-${day.id}`}
+            id={`tab-${key(day.id)}`}
             class="daytab"
-            aria-controls={`panel-${day.id}`}
+            aria-controls={`panel-${key(day.id)}`}
             aria-selected={i === 0 ? 'true' : 'false'}
             tabindex={i === 0 ? 0 : -1}
-            data-tab={day.id}
+            data-tab={key(day.id)}
             title={day.heading}
           >
             {day.label}
@@ -28,16 +37,16 @@ const { days } = Astro.props;
       </div>
     </div>
 
-    <div class="daytabs__body">
+    <div class:list={['daytabs__body', { 'daytabs__body--rail': rail }]}>
       <div class="daytabs__panels">
-        {days.map((day, i) => (
+        {sections.map((day, i) => (
           <section
             role="tabpanel"
-            id={`panel-${day.id}`}
+            id={`panel-${key(day.id)}`}
             class:list={['daytabs__panel', 'prose-body', { 'is-active': i === 0 }]}
-            aria-labelledby={`tab-${day.id}`}
+            aria-labelledby={`tab-${key(day.id)}`}
             tabindex="0"
-            data-panel={day.id}
+            data-panel={key(day.id)}
             set:html={day.html}
           />
         ))}
@@ -46,18 +55,21 @@ const { days } = Astro.props;
       {/* The numbered tabs hide what each day actually is, so the rail shows
           the whole week at once. Hidden from assistive tech: the tablist
           above is the real control, and this would only repeat it. */}
+      {rail && (
       <aside class="daytabs__rail" aria-hidden="true">
-        <p class="daytabs__rail-title">The week</p>
+        <p class="daytabs__rail-title">{railTitle}</p>
         <ol>
-          {days.map((day, i) => (
+          {sections.map((day, i) => (
             <li>
               <button
                 type="button"
                 tabindex="-1"
                 class:list={['daytabs__rail-item', { 'is-active': i === 0 }]}
-                data-rail={day.id}
+                data-rail={key(day.id)}
               >
-                <span class="daytabs__rail-num">{day.label}</span>
+                {day.heading !== day.label && (
+                  <span class="daytabs__rail-num">{day.label}</span>
+                )}
                 <span class="daytabs__rail-text">
                   {day.heading.split(/\s+[—–-]\s+/).slice(1).join(' — ') || day.heading}
                 </span>
@@ -66,11 +78,12 @@ const { days } = Astro.props;
           ))}
         </ol>
       </aside>
+      )}
     </div>
 
     {/* Rendered only when there is somewhere to step to — the JS keeps these
         in sync afterwards, but it does not run until the reader interacts. */}
-    {days.length > 1 && (
+    {steppers && sections.length > 1 && (
       <p class="daytabs__step">
         <button type="button" class="btn btn--ghost" data-step="-1" hidden>← Previous day</button>
         <button type="button" class="btn btn--ghost" data-step="1">Next day →</button>
@@ -80,14 +93,15 @@ const { days } = Astro.props;
 )}
 
 <script>
-  const root = document.querySelector<HTMLElement>('[data-daytabs]');
-
-  if (root) {
+  // A page can render more than one tab set, so initialise each root on its
+  // own rather than assuming a single instance.
+  for (const root of Array.from(document.querySelectorAll<HTMLElement>('[data-daytabs]'))) {
     const tabs = Array.from(root.querySelectorAll<HTMLButtonElement>('[data-tab]'));
     const panels = Array.from(root.querySelectorAll<HTMLElement>('[data-panel]'));
     const steppers = Array.from(root.querySelectorAll<HTMLButtonElement>('[data-step]'));
-    const strip = root.querySelector<HTMLElement>('.daytabs__list');
     const railItems = Array.from(root.querySelectorAll<HTMLButtonElement>('[data-rail]'));
+    const strip = root.querySelector<HTMLElement>('.daytabs__list');
+    if (tabs.length === 0) continue;
 
     let index = 0;
 
@@ -101,7 +115,7 @@ const { days } = Astro.props;
       });
     };
 
-    const select = (next: number, { focus = false, scroll = false } = {}) => {
+    const select = (next: number, { focus = false, scroll = false, hash = true } = {}) => {
       index = Math.max(0, Math.min(tabs.length - 1, next));
 
       tabs.forEach((tab, i) => {
@@ -122,16 +136,11 @@ const { days } = Astro.props;
       if (scroll) root.scrollIntoView({ block: 'start', behavior: 'smooth' });
 
       const id = tabs[index]?.dataset.tab;
-      if (id) history.replaceState(null, '', `#${id}`);
+      if (hash && id) history.replaceState(null, '', `#${id}`);
     };
 
-    tabs.forEach((tab, i) => {
-      tab.addEventListener('click', () => select(i));
-    });
-
-    railItems.forEach((item, i) => {
-      item.addEventListener('click', () => select(i));
-    });
+    tabs.forEach((tab, i) => tab.addEventListener('click', () => select(i)));
+    railItems.forEach((item, i) => item.addEventListener('click', () => select(i)));
 
     // WAI-ARIA tabs keyboard pattern.
     root.querySelector('[role="tablist"]')?.addEventListener('keydown', (event) => {
@@ -154,11 +163,9 @@ const { days } = Astro.props;
     });
 
     /**
-     * Deep links: /itineraries/x/#day-3 opens that tab.
-     *
-     * The target heading lives inside a display:none panel at load, so the
-     * browser's own fragment jump lands nowhere useful — position it here
-     * once the right panel is visible.
+     * Deep links open the matching tab. The target lives inside a
+     * display:none panel at load, so the browser's own fragment jump lands
+     * nowhere useful — position it here once the right panel is visible.
      */
     const openFromHash = (initial = false) => {
       const id = decodeURIComponent(location.hash.slice(1));
@@ -166,7 +173,7 @@ const { days } = Astro.props;
       const found = tabs.findIndex(
         (tab) => tab.dataset.tab === id || `panel-${tab.dataset.tab}` === id
       );
-      if (found < 0) return;
+      if (found < 0) return; // belongs to another tab set on this page
       select(found);
       requestAnimationFrame(() => {
         root.scrollIntoView({ block: 'start', behavior: initial ? 'auto' : 'smooth' });
@@ -176,4 +183,9 @@ const { days } = Astro.props;
     openFromHash(true);
     window.addEventListener('hashchange', () => openFromHash());
   }
+
+  // Markdown headings only exist after the content is injected, so tag them here.
+  document
+    .querySelectorAll('.prose-body h3, .daytabs__panel > h2')
+    .forEach((el) => el.setAttribute('data-reveal', ''));
 </script>

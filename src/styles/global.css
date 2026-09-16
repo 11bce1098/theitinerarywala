@@ -1129,19 +1129,25 @@ body.nav-open { overflow: hidden; }
 .crumbs a:hover { color: var(--ink); text-decoration: underline; }
 
 /* overview: copy beside an at-a-glance panel */
-/* The panel floats so a long overview flows beneath it. A two-column grid
-   left a tall empty column whenever the copy outran the card. */
-.itin-overview::after { content: ''; display: block; clear: both; }
-.itin-overview .glance {
-  float: right;
-  width: 19rem;
-  margin: 0.2rem 0 1.5rem 2.5rem;
+/* One grid for the whole band: copy and its tabs on the left, the facts
+   panel sticky on the right so it holds the gutter the measure leaves. */
+@media (min-width: 881px) {
+  .itin-overview {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 19rem;
+    column-gap: 2.5rem;
+    align-items: start;
+  }
+  .itin-overview__main { grid-column: 1; grid-row: 1; }
+  .itin-overview .glance {
+    grid-column: 2;
+    grid-row: 1;
+    position: sticky;
+    top: calc(var(--header-h) + 1.5rem);
+  }
 }
-.itin-overview .prose-body { max-width: none; }
-.itin-overview .prose-body > * { max-width: var(--measure); }
-
 @media (max-width: 880px) {
-  .itin-overview .glance { float: none; width: auto; margin: 0 0 1.75rem; }
+  .itin-overview .glance { margin-bottom: 1.75rem; }
 }
 .glance {
   background: var(--card);
@@ -1226,13 +1232,14 @@ body.nav-open { overflow: hidden; }
 .daytabs__rail { display: none; }
 
 @media (min-width: 1000px) {
-  .daytabs__body {
+  /* Only reserve the second column when there is actually a rail in it. */
+  .daytabs__body--rail {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 15rem;
     column-gap: 2.5rem;
     align-items: start;
   }
-  .daytabs__rail {
+  .daytabs__body--rail .daytabs__rail {
     display: block;
     position: sticky;
     top: calc(var(--header-h) + 4.25rem);
