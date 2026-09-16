@@ -1221,6 +1221,66 @@ body.nav-open { overflow: hidden; }
   font-weight: 700;
 }
 
+/* Day titles alongside the panels, filling the gutter the measure leaves. */
+.daytabs__body { display: block; }
+.daytabs__rail { display: none; }
+
+@media (min-width: 1000px) {
+  .daytabs__body {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 15rem;
+    column-gap: 2.5rem;
+    align-items: start;
+  }
+  .daytabs__rail {
+    display: block;
+    position: sticky;
+    top: calc(var(--header-h) + 4.25rem);
+  }
+}
+.daytabs__rail-title {
+  margin: 0 0 0.75rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.daytabs__rail ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-left: 1px solid var(--line);
+}
+.daytabs__rail-item {
+  display: block;
+  width: 100%;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  background: none;
+  border: 0;
+  border-left: 2px solid transparent;
+  margin-left: -1px;
+  padding: 0.45rem 0 0.45rem 0.85rem;
+  color: var(--ink-soft);
+  transition: color 0.2s var(--ease-out), border-color 0.2s var(--ease-out);
+}
+.daytabs__rail-item:hover { color: var(--ink); }
+.daytabs__rail-item.is-active {
+  border-left-color: var(--marigold);
+  color: var(--ink);
+}
+.daytabs__rail-num {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--marigold-deep);
+}
+.daytabs__rail-text { display: block; font-size: 0.85rem; line-height: 1.35; }
+
 /* Without JS every panel stays visible, so the page still reads top to
    bottom. The `js` class is set in <head>, so there is no flash. */
 .js .daytabs__panel { display: none; }

@@ -28,17 +28,45 @@ const { days } = Astro.props;
       </div>
     </div>
 
-    {days.map((day, i) => (
-      <section
-        role="tabpanel"
-        id={`panel-${day.id}`}
-        class:list={['daytabs__panel', 'prose-body', { 'is-active': i === 0 }]}
-        aria-labelledby={`tab-${day.id}`}
-        tabindex="0"
-        data-panel={day.id}
-        set:html={day.html}
-      />
-    ))}
+    <div class="daytabs__body">
+      <div class="daytabs__panels">
+        {days.map((day, i) => (
+          <section
+            role="tabpanel"
+            id={`panel-${day.id}`}
+            class:list={['daytabs__panel', 'prose-body', { 'is-active': i === 0 }]}
+            aria-labelledby={`tab-${day.id}`}
+            tabindex="0"
+            data-panel={day.id}
+            set:html={day.html}
+          />
+        ))}
+      </div>
+
+      {/* The numbered tabs hide what each day actually is, so the rail shows
+          the whole week at once. Hidden from assistive tech: the tablist
+          above is the real control, and this would only repeat it. */}
+      <aside class="daytabs__rail" aria-hidden="true">
+        <p class="daytabs__rail-title">The week</p>
+        <ol>
+          {days.map((day, i) => (
+            <li>
+              <button
+                type="button"
+                tabindex="-1"
+                class:list={['daytabs__rail-item', { 'is-active': i === 0 }]}
+                data-rail={day.id}
+              >
+                <span class="daytabs__rail-num">{day.label}</span>
+                <span class="daytabs__rail-text">
+                  {day.heading.split(/\s+[—–-]\s+/).slice(1).join(' — ') || day.heading}
+                </span>
+              </button>
+            </li>
+          ))}
+        </ol>
+      </aside>
+    </div>
 
     {/* Rendered only when there is somewhere to step to — the JS keeps these
         in sync afterwards, but it does not run until the reader interacts. */}
@@ -59,6 +87,7 @@ const { days } = Astro.props;
     const panels = Array.from(root.querySelectorAll<HTMLElement>('[data-panel]'));
     const steppers = Array.from(root.querySelectorAll<HTMLButtonElement>('[data-step]'));
     const strip = root.querySelector<HTMLElement>('.daytabs__list');
+    const railItems = Array.from(root.querySelectorAll<HTMLButtonElement>('[data-rail]'));
 
     let index = 0;
 
@@ -81,6 +110,7 @@ const { days } = Astro.props;
         tab.tabIndex = on ? 0 : -1;
       });
       panels.forEach((panel, i) => panel.classList.toggle('is-active', i === index));
+      railItems.forEach((item, i) => item.classList.toggle('is-active', i === index));
 
       steppers.forEach((button) => {
         const step = Number(button.dataset.step);
@@ -97,6 +127,10 @@ const { days } = Astro.props;
 
     tabs.forEach((tab, i) => {
       tab.addEventListener('click', () => select(i));
+    });
+
+    railItems.forEach((item, i) => {
+      item.addEventListener('click', () => select(i));
     });
 
     // WAI-ARIA tabs keyboard pattern.
