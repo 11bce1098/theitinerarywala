@@ -4,7 +4,7 @@ import Base from '../../layouts/Base.astro';
 import CoverArt from '../../components/CoverArt.astro';
 import SectionTabs from '../../components/SectionTabs.astro';
 import { splitItinerary, splitByH3 } from '../../lib/itinerary';
-import { regionFor } from '../../lib/geography.mjs';
+import { regionFor, continentFor, CONTINENTS } from '../../lib/geography.mjs';
 import Budget from '../../components/Budget.astro';
 
 export async function getStaticPaths() {
@@ -38,6 +38,18 @@ const facts = [
   { label: 'Best for', value: itin.data.bestFor },
   { label: 'Updated', value: updated },
 ];
+
+// Other destinations, for the sidebar beside the closing sections.
+const otherCountries = [...new Set(all.map((i) => i.data.country))]
+  .filter((name) => name !== itin.data.country)
+  .sort()
+  .map((name) => ({
+    name,
+    region: regionFor(name),
+    count: all.filter((i) => i.data.country === name).length,
+  }));
+
+const continent = CONTINENTS.find((c) => c.slug === continentFor(itin.data.country));
 
 const related = all
   .filter((other) => other.id !== itin.id)
@@ -137,14 +149,41 @@ const related = all
       <section class="itin-band" aria-labelledby="details-heading">
         <div class="itin-band__inner">
           <h2 class="band-heading" id="details-heading">Costs and practicalities</h2>
-          {/* One trailing section is just a section; several are worth tabbing. */}
-          {extras.length > 1 ? (
-            <SectionTabs sections={extras} railTitle="In this section" idPrefix="more" />
-          ) : (
-            extras.map((section) => (
-              <div class="prose-body" set:html={section.html} />
-            ))
-          )}
+          <div class="itin-extras">
+            <div class="itin-extras__main">
+              {/* One trailing section is just a section; several are worth tabbing. */}
+              {extras.length > 1 ? (
+                <SectionTabs sections={extras} railTitle="In this section" idPrefix="more" />
+              ) : (
+                extras.map((section) => (
+                  <div class="prose-body" set:html={section.html} />
+                ))
+              )}
+            </div>
+
+            {otherCountries.length > 0 && (
+              <aside class="side-card" aria-label="Other destinations">
+                <h3>Going somewhere else?</h3>
+                <ul class="side-card__list">
+                  {otherCountries.map((country) => (
+                    <li>
+                      <a href={`/?country=${encodeURIComponent(country.name)}`}>
+                        <span>{country.name}</span>
+                        <span class="side-card__meta">{country.region}</span>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+                <div class="side-card__foot">
+                  {continent && (
+                    <a href={`/continents/${continent.slug}/`}>All of {continent.name} →</a>
+                  )}
+                  <a href="/">Every itinerary →</a>
+                </div>
+              </aside>
+            )}
+          </div>
+
           <p class="footnote">
             <span aria-hidden="true">*</span>{' '}
             {hasAffiliateLinks && (
