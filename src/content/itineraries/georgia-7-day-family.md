@@ -32,7 +32,7 @@ The old capital is 30 minutes away — a perfect first excursion.
 Jvari Monastery for the view, Svetitskhoveli Cathedral for the scale,
 back in Tbilisi by nap time.
 
-<a class="book-btn" href="#PASTE-VIATOR-TOUR-LINK">Book a Mtskheta half-day tour</a>
+<a class="book-btn" href="#aff:kkday">Book a Mtskheta half-day tour</a>
 
 ## Day 3 — Drive to Kazbegi
 
@@ -41,7 +41,7 @@ Stop at Ananuri Fortress and the Russia–Georgia Friendship Monument
 viewpoint. Overnight in Stepantsminda with Mount Kazbek out the window.
 
 <a class="book-btn" href="#PASTE-TRAVELPAYOUTS-HOTEL-LINK">Book a Kazbegi hotel with a mountain view</a>
-<a class="book-btn" href="#PASTE-VIATOR-TOUR-LINK">Book a private driver for the highway</a>
+<a class="book-btn" href="#aff:klook">Book a private driver for the highway</a>
 
 ## Day 4 — Gergeti Trinity Church
 
@@ -61,7 +61,7 @@ Sighnaghi is Georgia's prettiest town and completely stroller-friendly
 along the walls. Adults get a tasting; kids get grape juice from the
 same vineyards. It works.
 
-<a class="book-btn" href="#PASTE-VIATOR-TOUR-LINK">Book a Kakheti family day tour</a>
+<a class="book-btn" href="#aff:kkday">Book a Kakheti family day tour</a>
 
 ## Day 7 — Souvenirs and fly home
 
