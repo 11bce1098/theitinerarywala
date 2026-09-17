@@ -12,6 +12,7 @@
 export const COUNTRIES = {
   Armenia:    { continent: 'asia',   region: 'Caucasus',        currency: 'AMD' },
   Georgia:    { continent: 'asia',   region: 'Caucasus',        currency: 'GEL' },
+  India:      { continent: 'asia',   region: 'South Asia',      currency: 'INR' },
   Japan:      { continent: 'asia',   region: 'East Asia',       currency: 'JPY' },
   UAE:        { continent: 'asia',   region: 'Middle East',     currency: 'AED' },
   Uzbekistan: { continent: 'asia',   region: 'Central Asia',    currency: 'UZS' },
