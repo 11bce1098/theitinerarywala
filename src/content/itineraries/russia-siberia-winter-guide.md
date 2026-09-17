@@ -54,6 +54,11 @@ different out here:
   first-connection block), offline **Yandex Maps** for every city,
   **Yandex Go** for taxis, Telegram for messaging (WhatsApp and
   Instagram are blocked; your Oymyakon guide will be on Telegram).
+
+<a class="book-btn" href="#aff:airalo">Compare travel eSIM plans</a>
+
+Install it before you fly; a foreign eSIM can take ~24 hours to clear
+onto a Russian network.
   Expect no signal at all for stretches of the Kolyma Highway.
 - **Insurance:** check your policy covers −50°C destinations and
   overland travel in remote regions, not just city tourism — and
@@ -290,6 +295,13 @@ warm-clothing rental and most logistics included; 18+ only).
 - **Morning** — Fly Yakutsk → Moscow (~6.5–7 h against the time
   zones, so you land close to when you left) and connect onward.
   Gulf travellers are home overnight.
+
+## Getting there
+
+Fares swing hard by season and by day of the week — moving a trip by a
+few days is often the biggest single saving on the whole budget.
+
+<a class="book-btn" href="#aff:aviasales">Check flight prices to Moscow</a>
 
 ## What this trip actually costs
 

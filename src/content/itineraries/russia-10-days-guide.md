@@ -100,6 +100,10 @@ anything marked ~ as a guide, not a contract.
   **Yandex Translate** before you fly, plus a reputable VPN if you
   need your blocked apps.
 
+<a class="book-btn" href="#aff:airalo">Compare travel eSIM plans</a>
+
+Buy and install it **before you fly** — see the 24-hour note above.
+
 ### Getting around
 
 - **Moscow:** the metro is the fastest way everywhere — and a
@@ -343,6 +347,13 @@ tours 1–2 weeks ahead in season.
   best souvenir hunting in Russia: matryoshkas, Soviet watches,
   fur hats, amber.
 - Evening departures get Gulf and Asian travellers home overnight.
+
+## Getting there
+
+Fares swing hard by season and by day of the week — moving a trip by a
+few days is often the biggest single saving on the whole budget.
+
+<a class="book-btn" href="#aff:aviasales">Check flight prices to Moscow</a>
 
 ## What this trip actually costs
 

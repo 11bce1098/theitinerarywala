@@ -1467,6 +1467,20 @@ body.nav-open { overflow: hidden; }
 }
 .book-btn:active { transform: translateY(0); }
 
+/* Secondary partner: a place to compare, not the primary recommendation. */
+.book-btn--alt {
+  background: var(--card);
+  color: var(--ink);
+  border-color: var(--line);
+  font-weight: 500;
+}
+.book-btn--alt:hover {
+  background: var(--paper);
+  color: var(--ink);
+  border-color: var(--ink-soft);
+  box-shadow: none;
+}
+
 /* small print under affiliate sections */
 /* Small print, hung off the section above rather than given a band. */
 .footnote {

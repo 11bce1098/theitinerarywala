@@ -52,6 +52,11 @@ guide, where they're covered in depth. The non-negotiables:
   and expect a ~24-hour data block the first time it touches a
   Russian network — activate early, download offline **Yandex
   Maps**.
+
+<a class="book-btn" href="#aff:airalo">Compare travel eSIM plans</a>
+
+Install it before you fly; a foreign eSIM can take ~24 hours to clear
+onto a Russian network.
 - **Apps:** WhatsApp, Instagram and Facebook are blocked; Telegram
   works. Install **Yandex Go** (taxis — set payment to cash) and
   **Yandex Translate** before you fly. English is thinner out here
@@ -283,6 +288,13 @@ piece of old Russia anywhere.
   connections cover everyone else — no need to backtrack to
   Moscow, though Moscow connections are plentiful if the fares
   beat the direct.
+
+## Getting there
+
+Fares swing hard by season and by day of the week — moving a trip by a
+few days is often the biggest single saving on the whole budget.
+
+<a class="book-btn" href="#aff:aviasales">Check flight prices to Moscow</a>
 
 ## What this trip actually costs
 

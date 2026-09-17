@@ -91,6 +91,8 @@ anything marked ~ as a guide, not a contract.
   arranged at any hotel desk) — send them Tokyo → Kyoto and carry
   one overnight bag to Hakone. Everyone who knows Japan does this.
 
+<a class="book-btn" href="#aff:airalo">Compare Japan eSIM plans</a>
+
 ### Travelling with kids?
 
 - Japan is one of the easiest countries on earth with children:
@@ -340,6 +342,22 @@ classic combination day.
   connections, so book **open-jaw flights** (into Tokyo, out of
   Osaka) — it costs little more and saves the ¥28,000 and half-day
   of backtracking to Tokyo.
+
+## Tickets and day trips
+
+Shibuya Sky, teamLab and Universal Studios slots sell out well ahead.
+Both sites list many of the same attractions at different prices, so it
+is worth comparing before you commit.
+
+<a class="book-btn" href="#aff:klook">Book tickets and tours on Klook</a>
+<a class="book-btn book-btn--alt" href="#aff:kkday">Compare on KKday</a>
+
+## Getting there
+
+Fares swing hard by season and by day of the week — moving a trip by a
+few days is often the biggest single saving on the whole budget.
+
+<a class="book-btn" href="#aff:aviasales">Check flight prices to Tokyo</a>
 
 ## What this trip actually costs
 

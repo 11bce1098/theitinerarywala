@@ -82,6 +82,8 @@ anything marked ~ as a guide, not a contract.
   voice) is restricted — locals use BOTIM or regular calls; plan
   accordingly.
 
+<a class="book-btn" href="#aff:airalo">Compare UAE eSIM plans</a>
+
 ### Etiquette in one paragraph
 
 Dress is relaxed in tourist areas — but shoulders/knees covered in
@@ -247,6 +249,21 @@ within walking distance, plus teamLab.
   hours truly allow).
 - **Evening** — Fly from AUH — or the E100 back to DXB if your
   ticket demands it (allow 3+ hours of buffer).
+
+## Tickets and day trips
+
+Burj Khalifa slots, desert safaris and the Saadiyat museums are all
+cheaper booked ahead than at the door. Compare both.
+
+<a class="book-btn" href="#aff:klook">Book tickets and tours on Klook</a>
+<a class="book-btn book-btn--alt" href="#aff:kkday">Compare on KKday</a>
+
+## Getting there
+
+Fares swing hard by season and by day of the week — moving a trip by a
+few days is often the biggest single saving on the whole budget.
+
+<a class="book-btn" href="#aff:aviasales">Check flight prices to Dubai</a>
 
 ## What this trip actually costs
 

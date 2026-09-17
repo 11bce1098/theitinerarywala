@@ -68,6 +68,8 @@ the seasons, so treat anything marked ~ as a guide, not a contract.
 - Want data on landing? A cheap international eSIM for day one +
   Magti in town.
 
+<a class="book-btn" href="#aff:airalo">Compare Georgia eSIM plans</a>
+
 ### Getting around
 
 - **Tbilisi:** use the Bolt app — rides across town 5–15 GEL.
@@ -259,6 +261,13 @@ morning to taste it without a schedule breathing down your neck.
   fine in checked luggage wrapped in a jumper.
 - **13:00** — Final khachapuri, then out.
 
+## Getting there
+
+Fares swing hard by season and by day of the week — moving a trip by a
+few days is often the biggest single saving on the whole budget.
+
+<a class="book-btn" href="#aff:aviasales">Check flight prices to Tbilisi</a>
+
 ## What this trip actually costs
 
 Two people, 7 nights, mid-range comfort, flights excluded:
@@ -283,9 +292,9 @@ Two people, 7 nights, mid-range comfort, flights excluded:
   trip (~10 hours door to door). One less pack-up, but you taste wine
   with a driver waiting and skip Sighnaghi at sunset — the loop above
   is worth the extra check-in for most people.
-- Hotel and restaurant picks here are **unsponsored — no affiliate
-  links in this article**. Chosen on location and current ratings;
-  always check prices and recent reviews before booking.
+- Hotel and restaurant picks here are chosen on location and current
+  ratings, not on commission — always check prices and recent reviews
+  before booking.
 
 ## What to pack
 

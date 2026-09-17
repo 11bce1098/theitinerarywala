@@ -81,6 +81,11 @@ anything marked ~ as a guide, not a contract.
   passport needed. eSIMs available. Coverage holds on every road
   in this guide.
 
+- An eSIM set up before you fly means data the moment you land, with
+  the local SIM as a cheap top-up if you stay longer.
+
+<a class="book-btn" href="#aff:airalo">Compare Armenia eSIM plans</a>
+
 ### Travelling with kids?
 
 - Armenia is warmly child-friendly, drives are short (the longest
@@ -243,6 +248,13 @@ Pack an overnight bag; the driver day (~2 h total driving,
   weekend (carpets, silver, Soviet oddities; haggle kindly) — then
   out to Zvartnots for an evening flight, home overnight for Gulf
   travellers.
+
+## Getting there
+
+Fares swing hard by season and by day of the week — moving a trip by a
+few days is often the biggest single saving on the whole budget.
+
+<a class="book-btn" href="#aff:aviasales">Check flight prices to Yerevan</a>
 
 ## What this trip actually costs
 

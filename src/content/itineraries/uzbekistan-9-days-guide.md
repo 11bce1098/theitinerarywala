@@ -73,6 +73,10 @@ numbers look enormous and the prices are tiny.
 - **Yandex Go** is the taxi app everywhere on this route — install
   it before you fly and pay drivers in cash. It removes every
   negotiation this trip would otherwise contain.
+- Prefer data the moment you land? A travel eSIM covers the gap until
+  you reach a SIM counter, and works across all four cities.
+
+<a class="book-btn" href="#aff:airalo">Compare Uzbekistan eSIM plans</a>
 
 ### Trains — the skill this trip runs on
 
@@ -303,6 +307,13 @@ you book; otherwise it's the desert road.
   Tashkent (~1h40, ~USD 40–70, several daily) and connect home the
   same day. Buy your bread and halva at Siyob-stocked airport
   shops if you failed earlier — but you won't have.
+
+## Getting there
+
+Fares swing hard by season and by day of the week — moving a trip by a
+few days is often the biggest single saving on the whole budget.
+
+<a class="book-btn" href="#aff:aviasales">Check flight prices to Tashkent</a>
 
 ## What this trip actually costs
 

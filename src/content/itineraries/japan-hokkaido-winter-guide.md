@@ -40,6 +40,8 @@ anything marked ~ as a guide, not a contract.
 Visas, money, Suica and eSIMs are identical to our first Japan
 guide, where they're covered in depth. Route-specific notes:
 
+<a class="book-btn" href="#aff:airalo">Compare Japan eSIM plans</a>
+
 - **Getting to Hokkaido:** fly into **New Chitose (CTS)** via
   Tokyo — Haneda⇄CTS is ~1.5 h and one of the busiest air routes
   on earth (ANA, JAL, and LCCs like Peach). Book festival-week
@@ -244,6 +246,21 @@ in Hokkaido.
   a ramen street, a chocolate factory outlet and an onsen,
   in a terminal.
 - **Afternoon** — Fly to Tokyo and connect home.
+
+## Tickets and day trips
+
+Snow Festival shuttles, Asahiyama Zoo entry and ski-day packages book
+out through February. Compare both before you pick.
+
+<a class="book-btn" href="#aff:klook">Book tickets and tours on Klook</a>
+<a class="book-btn book-btn--alt" href="#aff:kkday">Compare on KKday</a>
+
+## Getting there
+
+Fares swing hard by season and by day of the week — moving a trip by a
+few days is often the biggest single saving on the whole budget.
+
+<a class="book-btn" href="#aff:aviasales">Check flight prices to Sapporo</a>
 
 ## What this trip actually costs
 
