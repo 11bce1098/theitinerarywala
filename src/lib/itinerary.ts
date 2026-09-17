@@ -42,9 +42,12 @@ function slugify(text: string): string {
   return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
-/** "Day 3 — Drive to Kazbegi" -> "Day 3"; otherwise the part before the dash. */
+/**
+ * "Day 3 — Drive to Kazbegi" -> "Day 3", and "Days 9–13 — ..." -> "Days 9–13".
+ * Anything else falls back to the part before the dash.
+ */
 function shortLabel(heading: string): string {
-  const day = heading.match(/^Day\s+\d+/i);
+  const day = heading.match(/^Days?\s+\d+(?:\s*[–—-]\s*\d+)?/i);
   if (day) return day[0];
   return heading.split(/\s+[—–-]\s+/)[0];
 }
@@ -109,7 +112,8 @@ export function splitItinerary(html: string): SplitItinerary {
     };
   });
 
-  const isDay = (section: Section) => /^Day\s+\d+/i.test(section.heading);
+  // Accepts a range too: a multi-day leg is still part of the itinerary.
+  const isDay = (section: Section) => /^Days?\s+\d+/i.test(section.heading);
   const firstDay = sections.findIndex(isDay);
   const lastDay = sections.map(isDay).lastIndexOf(true);
 
