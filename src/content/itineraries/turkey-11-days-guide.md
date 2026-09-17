@@ -4,6 +4,8 @@ country: "Turkey"
 days: 11
 budgetAmount: 1550
 budgetCurrency: "EUR"
+heroImage: "/images/turkey.jpeg"
+heroWide: "/images/turkey-wide.jpeg"
 bestFor: "First-time visitors"
 summary: "The complete first Turkey trip — Istanbul's imperial skyline, balloons over Cappadocia, the marble streets of Ephesus and Pamukkale's white terraces — as one flight triangle with no backtracking."
 publishDate: 2026-09-17
