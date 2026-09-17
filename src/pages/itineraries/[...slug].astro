@@ -191,14 +191,11 @@ const related = all
 
             {otherCountries.length > 0 && (
               <aside class="side-card" aria-label="Other destinations">
-                <h3>Going somewhere else?</h3>
-                <ul class="side-card__list">
+                <h3>More destinations</h3>
+                <ul class="side-card__chips">
                   {otherCountries.map((country) => (
                     <li>
-                      <a href={`/?country=${encodeURIComponent(country.name)}`}>
-                        <span>{country.name}</span>
-                        <span class="side-card__meta">{country.region}</span>
-                      </a>
+                      <a href={`/?country=${encodeURIComponent(country.name)}`}>{country.name}</a>
                     </li>
                   ))}
                 </ul>
