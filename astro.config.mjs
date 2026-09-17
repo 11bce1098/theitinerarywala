@@ -2,6 +2,7 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import { AFFILIATES } from './src/lib/affiliates.mjs';
 import { getRates, convert, formatMoney } from './src/lib/rates.mjs';
+import remarkGfm from 'remark-gfm';
 
 /**
  * Rewrites `href="#aff:<key>"` in markdown to the real partner URL and tags
@@ -131,6 +132,12 @@ export default defineConfig({
   site: 'https://theitinerarywala.com',
   integrations: [sitemap()],
   markdown: {
+    // GFM treats a single ~ as strikethrough, so an itinerary line with two
+    // approximations — "(~9:00-17:00)" and "(~¥2,000)" — struck out
+    // everything between them. Re-add GFM with that turned off; tables,
+    // autolinks and the rest are unaffected.
+    gfm: false,
+    remarkPlugins: [[remarkGfm, { singleTilde: false }]],
     rehypePlugins: [affiliateLinks],
   },
 });
