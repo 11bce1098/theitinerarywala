@@ -16,6 +16,34 @@ export async function getStaticPaths() {
 }
 
 const { itin, all } = Astro.props;
+
+/**
+ * Search engines cut titles around 60 characters and descriptions around
+ * 155. Long editorial headlines are right on the page but get truncated
+ * mid-sentence in results, so derive a shorter form for the tag.
+ */
+function seoTitle(title: string, country: string, days: number): string {
+  const suffix = ' — The Itinerary Wala';
+  if (title.length + suffix.length <= 60) return title + suffix;
+  // "Siberian winter: Baikal ice, the Trans-Siberian and…" -> "Siberian winter"
+  const head = title.split(/\s*[:—–]\s*/)[0];
+  // Only add context the head is missing — otherwise it reads
+  // "Georgia in 7 days: 7 days in Georgia".
+  const hasLength = /\d+\s*days?/i.test(head);
+  const hasCountry = head.toLowerCase().includes(country.toLowerCase());
+  const candidate =
+    hasLength || hasCountry || head.length > 40
+      ? head
+      : `${head}: ${days} days in ${country}`;
+  return (candidate.length + suffix.length <= 60 ? candidate : head) + suffix;
+}
+
+function seoDescription(summary: string): string {
+  if (summary.length <= 155) return summary;
+  const cut = summary.slice(0, 152);
+  const at = Math.max(cut.lastIndexOf('. '), cut.lastIndexOf(' — '), cut.lastIndexOf(', '));
+  return (at > 90 ? cut.slice(0, at) : cut.trimEnd()) + '…';
+}
 const { intro, days, extras } = splitItinerary(itin.rendered?.html ?? '');
 // The overview's subsections tab the same way the days do.
 const { lead, sections: preTrip } = splitByH3(intro);
@@ -57,8 +85,8 @@ const related = all
   .slice(0, 3);
 ---
 <Base
-  title={`${itin.data.title} — The Itinerary Wala`}
-  description={itin.data.summary}
+  title={seoTitle(itin.data.title, itin.data.country, itin.data.days)}
+  description={seoDescription(itin.data.summary)}
   image={itin.data.heroWide ?? itin.data.heroImage}
   progress
 >

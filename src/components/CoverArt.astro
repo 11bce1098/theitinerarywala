@@ -89,6 +89,22 @@ const fallbackSun = {
   r: Math.round(16 + random() * 10),
 };
 
+/** public/images/x.jpeg -> public/images/opt/x-700.webp */
+function opt(src: string | undefined, width: number): string | undefined {
+  if (!src) return undefined;
+  const match = src.match(/^\/images\/(.+)\.[^.]+$/);
+  return match ? `/images/opt/${match[1]}-${width}.webp` : undefined;
+}
+
+// Cards top out near 460 CSS px and the phone hero near 500, so 700 covers
+// most screens and 1400 covers retina. The sources are the fallback.
+const cardSrcset = [opt(src, 700), opt(src, 1400)]
+  .map((u, i) => (u ? `${u} ${[700, 1400][i]}w` : null))
+  .filter(Boolean)
+  .join(', ');
+const cardSizes = '(min-width: 1000px) 340px, (min-width: 700px) 45vw, 100vw';
+const wideWebp = opt(wide, 1800);
+
 const skyTop = scene ? scene.skyTop : palette.sky[0];
 const skyBottom = scene ? scene.skyBottom : palette.sky[1];
 const sun = scene ? scene.sun : { ...fallbackSun, fill: palette.sun };
@@ -96,7 +112,11 @@ const uid = `cv${hash(seed).toString(36)}`;
 ---
 {src ? (
   <picture class="cover-pic">
+    {wideWebp && (
+      <source media={`(min-width: ${wideFrom})`} srcset={wideWebp} type="image/webp" />
+    )}
     {wide && <source media={`(min-width: ${wideFrom})`} srcset={wide} />}
+    {cardSrcset && <source srcset={cardSrcset} sizes={cardSizes} type="image/webp" />}
     <img
       class="cover-art"
       src={src}
