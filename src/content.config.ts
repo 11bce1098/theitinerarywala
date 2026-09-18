@@ -15,7 +15,10 @@ const itineraries = defineCollection({
     // online, no embassy visit"). Anything nationality-specific belongs in
     // the body, not here — the pill is read by everyone.
     visaNote: z.string().optional(),
-    bestFor: z.string(),         // e.g. "Families with young kids"
+    bestFor: z.string(),
+    // "Tashkent → Samarkand → Bukhara → Khiva" — shown on cards so someone
+    // scrolling knows the shape of the trip without opening it.
+    route: z.string().optional(),         // e.g. "Families with young kids"
     summary: z.string(),         // one or two sentences for cards + meta description
     heroImage: z.string().optional(), // path under /public, e.g. /images/georgia.jpg
     // Wide crop for the itinerary hero band (~2.6:1). Falls back to heroImage.

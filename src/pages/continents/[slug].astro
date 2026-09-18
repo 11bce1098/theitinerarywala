@@ -9,7 +9,8 @@ import { regionSlug } from '../../lib/geography.mjs';
 export async function getStaticPaths() {
   const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
   // Only continents that actually have itineraries get a page.
-  return groupByContinent(itineraries).map((continent) => ({
+  // No page for an empty continent — nothing links to one any more.
+  return groupByContinent(itineraries).filter((c) => !c.comingSoon).map((continent) => ({
     params: { slug: continent.slug },
     props: { continent },
   }));

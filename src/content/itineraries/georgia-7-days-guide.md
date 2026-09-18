@@ -4,6 +4,7 @@ country: "Georgia"
 days: 7
 budgetAmount: 2165
 budgetCurrency: "GEL"
+route: "Tbilisi → Kazbegi → Sighnaghi"
 bestFor: "First-time visitors"
 heroImage: "/images/georgia.jpeg"
 heroWide: "/images/georgia-wide.jpg"

@@ -4,6 +4,7 @@ country: "Uzbekistan"
 days: 9
 budgetAmount: 7500000
 budgetCurrency: "UZS"
+route: "Tashkent → Samarkand → Bukhara → Khiva"
 bestFor: "First-time visitors"
 heroImage: "/images/uzbekistan.jpeg"
 heroWide: "/images/uzbekistan-wide.jpeg"

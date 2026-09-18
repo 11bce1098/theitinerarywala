@@ -6,6 +6,7 @@ budgetAmount: 178000
 budgetCurrency: "JPY"
 heroImage: "/images/japan-hokkaido.jpeg"
 heroWide: "/images/japan-hokkaido-wide.jpeg"
+route: "Sapporo → Otaru → Asahikawa → Furano"
 bestFor: "Winter travellers"
 summary: "February in Japan's snow country — the Sapporo Snow Festival, Otaru's candlelit canal, marching penguins in Asahikawa, a beginner-friendly powder day in Furano, and a steaming hell-valley onsen night."
 publishDate: 2026-09-17

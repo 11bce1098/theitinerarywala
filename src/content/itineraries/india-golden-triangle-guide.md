@@ -6,6 +6,7 @@ budgetAmount: 47000
 budgetCurrency: "INR"
 heroImage: "/images/india.jpeg"
 heroWide: "/images/india-wide.jpeg"
+route: "Delhi → Agra → Jaipur"
 bestFor: "First-time visitors"
 summary: "The classic first India trip done right — Old Delhi's chaos and Mughal tombs, the Taj at sunrise (not on a Friday), and Jaipur's pink forts — with the train, ticket and scam knowledge that separates a great week from a stressful one."
 publishDate: 2026-09-17

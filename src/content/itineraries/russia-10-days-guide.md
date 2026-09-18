@@ -4,6 +4,7 @@ country: "Russia"
 days: 10
 budgetAmount: 82000
 budgetCurrency: "RUB"
+route: "Moscow → St Petersburg → Murmansk"
 bestFor: "First-time visitors"
 heroImage: "/images/russia.jpeg"
 heroWide: "/images/russia-wide.jpeg"

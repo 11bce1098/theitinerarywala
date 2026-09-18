@@ -6,6 +6,7 @@ budgetAmount: 260000
 budgetCurrency: "RUB"
 heroImage: "/images/siberia.jpeg"
 heroWide: "/images/siberia-wide.jpeg"
+route: "Krasnoyarsk → Baikal → Yakutsk → Oymyakon"
 bestFor: "Adventure travellers"
 summary: "A February expedition across Russia's deep winter — a night on the Trans-Siberian through the taiga, the blue ice of frozen Lake Baikal, and the road to Oymyakon, the coldest inhabited place on Earth."
 publishDate: 2026-09-17

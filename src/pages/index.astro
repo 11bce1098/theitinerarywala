@@ -27,11 +27,12 @@ function budgetValue(amount: number | undefined, currency: string): number {
 >
   <section class="hero">
     <div class="wrap">
-      <p class="hero__eyebrow" data-reveal>Family travel, planned day by day</p>
-      <h1 data-reveal>Itineraries you can actually follow.</h1>
+      <p class="hero__eyebrow" data-reveal>Day-by-day plans · Realistic budgets · Practical tips</p>
+      <h1 data-reveal>Travel plans you can actually follow.</h1>
       <p class="hero__lede" data-reveal>
-        Realistic daily pacing, budgets in real numbers, and every stay and
-        tour bookable in one tap — wherever you are travelling from.
+        Day-by-day itineraries, realistic budgets and practical travel
+        guidance — planned around the destination, the dates and how you
+        actually like to travel.
       </p>
 
     </div>
@@ -84,14 +85,15 @@ function budgetValue(amount: number | undefined, currency: string): number {
             <span class="pill pill--visa">{regionFor(itin.data.country)}</span>
           </div>
           <div class="itinerary-card__body">
+            <p class="card-bestfor">{itin.data.bestFor}</p>
             <h2>
               <a class="card-link" href={`/itineraries/${itin.id}/`}>{itin.data.title}</a>
             </h2>
+            {itin.data.route && <p class="card-route">{itin.data.route}</p>}
             <p>{itin.data.summary}</p>
             <div class="card-meta">
               <span class="pill">{itin.data.days} days</span>
               <span class="pill"><Budget amount={itin.data.budgetAmount} currency={itin.data.budgetCurrency} country={itin.data.country} /> / person</span>
-              <span class="pill">{itin.data.bestFor}</span>
             </div>
           </div>
         </li>

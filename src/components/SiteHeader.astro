@@ -45,57 +45,50 @@ const continents = groupByContinent(itineraries);
                 {/* Hover or keyboard focus opens this — no JS involved, so it
                     still works if the bundle fails. */}
                 <ul class="flyout__continents">
-                  {continents.map((continent) => (
+                  {/* Empty continents and regions are left out entirely: a menu
+                      full of "Soon" makes the offering look unfinished. */}
+                  {continents.filter((c) => !c.comingSoon).map((continent) => (
                     <li>
                       <a class="flyout__continent" href={`/continents/${continent.slug}/`}>
                         <span>{continent.name}</span>
-                        {continent.comingSoon
-                          ? <span class="flyout__soon">Soon</span>
-                          : <span class="flyout__count">{continent.itineraryCount}</span>}
+                        <span class="flyout__count">{continent.itineraryCount}</span>
                       </a>
-                      {/* Level 2: regions. Level 3: their countries. */}
                       <ul class="flyout__regions">
                         <li class="flyout__all">
                           <a href={`/continents/${continent.slug}/`}>
-                            {continent.comingSoon
-                              ? `${continent.name} — coming soon →`
-                              : `All of ${continent.name} →`}
+                            All of {continent.name} →
                           </a>
                         </li>
-                        {continent.regions.map((region) => (
-                          <li class:list={[{ 'is-empty': region.comingSoon }]}>
+                        {continent.regions.filter((r) => !r.comingSoon).map((region) => (
+                          <li>
                             <a
                               class="flyout__region-link"
                               href={`/continents/${continent.slug}/#${region.slug}`}
                             >
                               <span>{region.name}</span>
-                              {region.comingSoon ? (
-                                <span class="flyout__soon">Soon</span>
-                              ) : (
-                                <svg class="flyout__chev" viewBox="0 0 8 12" aria-hidden="true">
-                                  <path d="M1.5 1 6.5 6l-5 5" fill="none" stroke="currentColor"
-                                        stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                              )}
+                              <svg class="flyout__chev" viewBox="0 0 8 12" aria-hidden="true">
+                                <path d="M1.5 1 6.5 6l-5 5" fill="none" stroke="currentColor"
+                                      stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
                             </a>
-                            {/* Only regions with something in them open a third panel. */}
-                            {!region.comingSoon && (
-                              <ul class="flyout__countries">
-                                {region.countries.map((country) => (
-                                  <li>
-                                    <a href={`/?country=${encodeURIComponent(country.name)}`}>
-                                      {country.name}
-                                      <span class="flyout__count">{country.itineraries.length}</span>
-                                    </a>
-                                  </li>
-                                ))}
-                              </ul>
-                            )}
+                            <ul class="flyout__countries">
+                              {region.countries.map((country) => (
+                                <li>
+                                  <a href={`/?country=${encodeURIComponent(country.name)}`}>
+                                    {country.name}
+                                    <span class="flyout__count">{country.itineraries.length}</span>
+                                  </a>
+                                </li>
+                              ))}
+                            </ul>
                           </li>
                         ))}
                       </ul>
                     </li>
                   ))}
+                  <li class="flyout__more">
+                    <a href="/contact/">More destinations coming soon →</a>
+                  </li>
                 </ul>
               </div>
             )}
@@ -168,7 +161,7 @@ const continents = groupByContinent(itineraries);
             </a>
 
             {/* Collapsed by default — <details> needs no JS and no hover. */}
-            {link.menu === 'continents' && continents.map((continent) => (
+            {link.menu === 'continents' && continents.filter((c) => !c.comingSoon).map((continent) => (
               continent.comingSoon ? (
                 <a class="mobile-nav__soon" href={`/continents/${continent.slug}/`}>
                   {continent.name}
