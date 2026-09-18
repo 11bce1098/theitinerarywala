@@ -4,6 +4,8 @@ country: "India"
 days: 6
 budgetAmount: 35000
 budgetCurrency: "INR"
+heroImage: "/images/india-jaisalmer.jpeg"
+heroWide: "/images/india-jaisalmer-wide.jpeg"
 bestFor: "Returning India travellers"
 summary: "Deep desert Rajasthan — a living sandstone fort, carved havelis, an abandoned cursed village, a night under Thar stars, and a 1971 battlefield at the border — six days at the edge of India."
 publishDate: 2026-09-17

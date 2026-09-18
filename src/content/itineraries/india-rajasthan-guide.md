@@ -4,6 +4,8 @@ country: "India"
 days: 10
 budgetAmount: 62500
 budgetCurrency: "INR"
+heroImage: "/images/india-rajasthan.jpeg"
+heroWide: "/images/india-rajasthan-wide.jpeg"
 bestFor: "Returning India travellers"
 summary: "Deeper into the desert kingdoms — a holy lake with a camel-dune sunset, the blue city under Mehrangarh's walls, a 1,444-pillar marble temple, and Udaipur's lakes — one southbound arc, one driver, no backtracking."
 publishDate: 2026-09-17
