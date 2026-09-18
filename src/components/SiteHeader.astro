@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import { NAV, SITE, ACTIVE_SOCIALS, isCurrent } from '../lib/site';
 import SocialIcon from './SocialIcon.astro';
+import CurrencySwitch from './CurrencySwitch.astro';
 import { groupByContinent } from '../lib/geography.mjs';
 
 const pathname = Astro.url.pathname;
@@ -28,6 +29,7 @@ const continents = groupByContinent(itineraries);
         {NAV.map((link) => (
           <li class:list={[{ 'has-flyout': link.menu === 'continents' && continents.length > 0 }]}>
             <a
+              class:list={[{ 'nav-cta': link.cta }]}
               href={link.href}
               aria-current={isCurrent(link.href, pathname) ? 'page' : undefined}
             >
@@ -114,14 +116,8 @@ const continents = groupByContinent(itineraries);
         />
       </form>
 
-      <div class="social-row">
-        {ACTIVE_SOCIALS.map((social) => (
-          <a class="icon-link" href={social.url} rel="me noopener" target="_blank">
-            <SocialIcon name={social.key} />
-            <span class="sr-only">{SITE.name} on {social.label}</span>
-          </a>
-        ))}
-      </div>
+      <CurrencySwitch />
+
 
       <button
         class="nav-toggle"
@@ -196,6 +192,8 @@ const continents = groupByContinent(itineraries);
           </li>
         ))}
       </ul>
+
+      <div class="mobile-nav__currency"><CurrencySwitch /></div>
 
       <div class="mobile-nav__socials">
         {ACTIVE_SOCIALS.map((social) => (

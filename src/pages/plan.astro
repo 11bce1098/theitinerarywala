@@ -1,0 +1,249 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { SITE, FORM_ENDPOINT, HAS_FORM_ENDPOINT, WEB3FORMS_KEY } from '../lib/site';
+
+const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
+const countries = [...new Set(itineraries.map((i) => i.data.country))].sort();
+
+const styles = ['Relaxed', 'Balanced', 'Adventure', 'Family', 'Luxury', 'Budget'];
+const budgets = [
+  'Under ₹50,000 per person',
+  '₹50,000 – ₹1,00,000 per person',
+  '₹1,00,000 – ₹2,00,000 per person',
+  'Over ₹2,00,000 per person',
+  'Not sure yet',
+];
+---
+<Base
+  title="Plan my trip — The Itinerary Wala"
+  description="Tell us where you're going, when, and how you like to travel — and get a day-by-day plan built around it."
+>
+  <section class="page-hero">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Plan my trip</p>
+      <h1 data-reveal>Tell us the trip. We'll build the plan.</h1>
+      <p class="page-hero__lede" data-reveal>
+        The itineraries here are a starting point. Send your dates, your
+        starting city and how you actually like to travel, and you'll get a
+        day-by-day plan shaped around them — same pacing, same real budgets.
+      </p>
+    </div>
+  </section>
+
+  <section class="wrap section contact-layout">
+    <form
+      class="contact-form"
+      data-plan
+      method="POST"
+      action={HAS_FORM_ENDPOINT ? FORM_ENDPOINT : undefined}
+      novalidate
+      data-reveal
+    >
+      {WEB3FORMS_KEY && <input type="hidden" name="access_key" value={WEB3FORMS_KEY} />}
+      <input type="hidden" name="subject" value="The Itinerary Wala — trip request" />
+      <input type="hidden" name="from_name" value="The Itinerary Wala" />
+      <input type="hidden" name="form" value="plan-my-trip" />
+
+      <div class="field">
+        <label for="destination">Where are you going?</label>
+        <input id="destination" name="destination" type="text" list="destinations"
+               placeholder="Japan, or somewhere we haven't covered yet" required />
+        <datalist id="destinations">
+          {countries.map((c) => <option value={c}></option>)}
+        </datalist>
+        <p class="field__error" data-error-for="destination"></p>
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="dates">Travel dates</label>
+          <input id="dates" name="dates" type="text" placeholder="10–20 November, or just 'March'" required />
+          <p class="field__error" data-error-for="dates"></p>
+        </div>
+        <div class="field">
+          <label for="from_city">Starting city</label>
+          <input id="from_city" name="from_city" type="text" placeholder="Delhi" autocomplete="address-level2" />
+        </div>
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="travellers">Travellers</label>
+          <input id="travellers" name="travellers" type="text" placeholder="2 adults + 1 child" required />
+          <p class="field__error" data-error-for="travellers"></p>
+        </div>
+        <div class="field">
+          <label for="budget">Approximate budget</label>
+          <select id="budget" name="budget">
+            {budgets.map((b) => <option value={b}>{b}</option>)}
+          </select>
+        </div>
+      </div>
+
+      <fieldset class="field">
+        <legend>Travel style</legend>
+        <div class="style-chips">
+          {styles.map((style) => (
+            <label class="style-chip">
+              <input type="checkbox" name="style" value={style} />
+              <span>{style}</span>
+            </label>
+          ))}
+        </div>
+      </fieldset>
+
+      <div class="field">
+        <label for="passport">Passport and residency</label>
+        <input id="passport" name="passport" type="text"
+               placeholder="Indian passport, UAE resident" />
+        <p class="field__hint">
+          Entry rules depend on both, so this is the fastest way to get the
+          visa part right.
+        </p>
+      </div>
+
+      <div class="field">
+        <label for="notes">Anything else?</label>
+        <textarea id="notes" name="notes" rows="4"
+                  placeholder="Anniversary trip, hate long drives, must see the Taj…"></textarea>
+      </div>
+
+      <div class="field">
+        <label for="plan-email">Your email</label>
+        <input id="plan-email" name="email" type="email" required autocomplete="email" />
+        <p class="field__error" data-error-for="email"></p>
+      </div>
+
+      <!-- Honeypot: real people never see this, bots fill it in. -->
+      <div class="hp" aria-hidden="true">
+        <label for="plan-company">Company</label>
+        <input id="plan-company" name="company" type="text" tabindex="-1" autocomplete="off" />
+      </div>
+
+      <button class="btn btn--solid btn--lg" type="submit">Send my trip request</button>
+      <p class="form-note" data-plan-status role="status" aria-live="polite"></p>
+    </form>
+
+    <aside class="contact-aside" data-reveal>
+      <div class="contact-card">
+        <h2>What happens next</h2>
+        <p>
+          You'll get a reply within a couple of days with a day-by-day outline
+          — the route, the pacing and a realistic budget. If an existing
+          itinerary already fits, we'll point you at it rather than rewrite it.
+        </p>
+      </div>
+      <div class="contact-card">
+        <h2>What it costs</h2>
+        <p>
+          Nothing. The site is funded by booking links, so the plan itself is
+          free — and we'll say when an option we don't earn from is the better
+          one.
+        </p>
+      </div>
+      <div class="contact-card">
+        <h2>Prefer email?</h2>
+        <p><a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
+      </div>
+    </aside>
+  </section>
+</Base>
+
+<script>
+  import { SITE, HAS_FORM_ENDPOINT } from '../lib/site';
+
+  const form = document.querySelector<HTMLFormElement>('[data-plan]');
+  const status = document.querySelector<HTMLElement>('[data-plan-status]');
+
+  if (form && status) {
+    const showError = (name: string, message: string) => {
+      const field = form.elements.namedItem(name) as HTMLElement | null;
+      const slot = form.querySelector<HTMLElement>(`[data-error-for="${name}"]`);
+      if (slot) slot.textContent = message;
+      field?.setAttribute('aria-invalid', message ? 'true' : 'false');
+    };
+
+    const validate = (): boolean => {
+      const data = new FormData(form);
+      let ok = true;
+      for (const [name, label] of [
+        ['destination', 'Where are you hoping to go?'],
+        ['dates', 'Roughly when? Even a month helps.'],
+        ['travellers', 'Who is travelling?'],
+      ] as const) {
+        const value = String(data.get(name) ?? '').trim();
+        showError(name, value ? '' : label);
+        if (!value) ok = false;
+      }
+      const email = String(data.get('email') ?? '').trim();
+      const emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+      showError('email', emailOk ? '' : 'We need an email to reply to.');
+      if (!emailOk) ok = false;
+      return ok;
+    };
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      status.className = 'form-note';
+
+      if (!validate()) {
+        status.textContent = 'Please fix the highlighted fields.';
+        status.className = 'form-note form-note--bad';
+        form.querySelector<HTMLElement>('[aria-invalid="true"]')?.focus();
+        return;
+      }
+
+      // Honeypot tripped — pretend it worked, tell the bot nothing.
+      if (String(new FormData(form).get('company') ?? '').trim()) {
+        form.reset();
+        status.textContent = 'Thanks — that\'s on its way.';
+        status.className = 'form-note form-note--ok';
+        return;
+      }
+
+      const submit = form.querySelector<HTMLButtonElement>('button[type="submit"]');
+
+      if (!HAS_FORM_ENDPOINT) {
+        const data = new FormData(form);
+        const lines = ['destination', 'dates', 'from_city', 'travellers', 'budget', 'passport', 'notes']
+          .map((k) => `${k}: ${data.get(k) ?? ''}`)
+          .join('\n');
+        status.textContent = 'Opening your email app…';
+        window.location.href =
+          `mailto:${SITE.email}?subject=${encodeURIComponent('Trip request')}` +
+          `&body=${encodeURIComponent(lines)}`;
+        return;
+      }
+
+      submit && (submit.disabled = true);
+      status.textContent = 'Sending…';
+      try {
+        const response = await fetch(form.action, {
+          method: 'POST',
+          headers: { Accept: 'application/json' },
+          body: new FormData(form),
+        });
+        if (!response.ok) throw new Error(String(response.status));
+        form.reset();
+        status.textContent = "Thanks — that's arrived. You'll hear back within a couple of days.";
+        status.className = 'form-note form-note--ok';
+      } catch {
+        status.textContent = `Something went wrong. Please email ${SITE.email} instead.`;
+        status.className = 'form-note form-note--bad';
+      } finally {
+        submit && (submit.disabled = false);
+      }
+    });
+
+    form.addEventListener('input', (event) => {
+      const target = event.target as HTMLElement;
+      const name = target.getAttribute('name');
+      if (name && target.getAttribute('aria-invalid') === 'true') {
+        const slot = form.querySelector<HTMLElement>(`[data-error-for="${name}"]`);
+        if (slot) slot.textContent = '';
+        target.setAttribute('aria-invalid', 'false');
+      }
+    });
+  }
+</script>

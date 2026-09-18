@@ -8,6 +8,28 @@
  */
 const RATES_URL = 'https://open.er-api.com/v6/latest/USD';
 const CACHE_KEY = 'tiw:rates';
+const CURRENCY_KEY = 'tiw:currency';
+const DISPLAY_CURRENCIES = ['INR', 'AED', 'USD'] as const;
+const DEFAULT_CURRENCY = DISPLAY_CURRENCIES[0];
+
+/** The reader's chosen display currency, or the default. */
+export function currentCurrency(): string {
+  try {
+    const saved = localStorage.getItem(CURRENCY_KEY);
+    if (saved && (DISPLAY_CURRENCIES as readonly string[]).includes(saved)) return saved;
+  } catch {
+    /* private mode — fall through to the default */
+  }
+  return DEFAULT_CURRENCY;
+}
+
+export function setCurrency(code: string): void {
+  try {
+    localStorage.setItem(CURRENCY_KEY, code);
+  } catch {
+    /* not fatal: the page still re-renders, it just will not be remembered */
+  }
+}
 
 interface Payload {
   day: string;
@@ -74,21 +96,26 @@ export async function refreshBudgets(): Promise<void> {
   if (!payload) return;
   const { rates } = payload;
 
+  const display = currentCurrency();
+
   for (const el of targets) {
     const amount = Number(el.dataset.amount);
     const from = el.dataset.from ?? 'USD';
     const local = el.dataset.local ?? 'USD';
     if (!Number.isFinite(amount) || !rates[from]) continue;
 
-    const usd = (amount / rates[from]) * rates.USD;
+    const inDisplay = rates[display] ? (amount / rates[from]) * rates[display] : null;
     const localValue = rates[local] ? (amount / rates[from]) * rates[local] : null;
+    if (inDisplay === null) continue;
 
+    // Only pair with the local currency when it differs from what is shown.
     el.textContent =
-      el.dataset.variant === 'full' && localValue !== null
-        ? `${money(usd, 'USD')} · ${money(localValue, local)}`
-        : money(usd, 'USD');
-    // Lets the homepage re-sort once real numbers are in.
-    el.dataset.usd = String(Math.round(usd));
+      el.dataset.variant === 'full' && localValue !== null && local !== display
+        ? `${money(inDisplay, display)} · ${money(localValue, local)}`
+        : money(inDisplay, display);
+
+    // Sorting stays in one currency regardless of what is displayed.
+    el.dataset.usd = String(Math.round((amount / rates[from]) * rates.USD));
   }
 
   // Inline amounts written as {{GEL 1800}} in the markdown.

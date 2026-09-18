@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import CoverArt from '../components/CoverArt.astro';
 import { regionFor } from '../lib/geography.mjs';
+import { POPULAR } from '../lib/site';
 import Budget from '../components/Budget.astro';
 import { getRates, convert } from '../lib/rates.mjs';
 import Testimonials from '../components/Testimonials.astro';
@@ -12,6 +13,11 @@ const itineraries = (await getCollection('itineraries', ({ data }) => !data.draf
   .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
 
 const countries = [...new Set(itineraries.map((i) => i.data.country))].sort();
+
+// Featured trips, in the order set in site.ts; anything missing is skipped.
+const popular = POPULAR
+  .map((id) => itineraries.find((i) => i.id === id))
+  .filter((i): i is NonNullable<typeof i> => Boolean(i));
 
 // Sorting has to compare across currencies, so normalise to USD up front.
 const rateData = await getRates();
@@ -38,7 +44,30 @@ function budgetValue(amount: number | undefined, currency: string): number {
     </div>
   </section>
 
-  <section class="wrap">
+  {popular.length > 0 && (
+    <section class="wrap section popular">
+      <div class="popular__head" data-reveal>
+        <h2 class="section-heading">Popular trip plans</h2>
+        <a class="popular__all" href="#all">View all itineraries →</a>
+      </div>
+      <ul class="popular__list">
+        {popular.map((itin, i) => (
+          <li class="popular__item" data-reveal style={`--stagger:${i}`}>
+            <a href={`/itineraries/${itin.id}/`}>
+              <span class="popular__country">{itin.data.country}</span>
+              <span class="popular__days">{itin.data.days} days</span>
+              <span class="popular__route">{itin.data.route ?? itin.data.title}</span>
+              <span class="popular__price">
+                <Budget amount={itin.data.budgetAmount} currency={itin.data.budgetCurrency} country={itin.data.country} /> / person
+              </span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <section class="wrap" id="all">
     {countries.length > 1 && (
       <div class="filters" data-reveal>
         <div class="filters__group" role="group" aria-label="Filter by country">

@@ -49,13 +49,27 @@ export interface NavLink {
   label: string;
   /** Renders the continent flyout under this item. */
   menu?: 'continents';
+  /** Styled as the primary action rather than a nav link. */
+  cta?: boolean;
 }
+
+/**
+ * Itinerary ids to feature on the homepage, in order.
+ * TODO(owner): reorder as you learn which ones actually convert.
+ */
+export const POPULAR = [
+  'uzbekistan-9-days-guide',
+  'georgia-7-days-guide',
+  'japan-10-days-guide',
+  'turkey-11-days-guide',
+];
 
 export const NAV: NavLink[] = [
   { href: '/', label: 'Itineraries', menu: 'continents' },
   { href: '/visa-services/', label: 'Visa Services' },
   { href: '/about/', label: 'About' },
   { href: '/contact/', label: 'Contact' },
+  { href: '/plan/', label: 'Plan My Trip', cta: true },
 ];
 
 /**
@@ -71,6 +85,10 @@ export const NAV: NavLink[] = [
 export const WEB3FORMS_KEY: string = import.meta.env.PUBLIC_WEB3FORMS_KEY ?? '';
 
 const CUSTOM_ENDPOINT: string = import.meta.env.PUBLIC_FORM_ENDPOINT ?? '';
+
+/** Currencies a reader can switch between; the first is the default. */
+export const DISPLAY_CURRENCIES = ['INR', 'AED', 'USD'] as const;
+export const DEFAULT_CURRENCY = DISPLAY_CURRENCIES[0];
 
 export const FORM_ENDPOINT: string =
   CUSTOM_ENDPOINT.trim() ||

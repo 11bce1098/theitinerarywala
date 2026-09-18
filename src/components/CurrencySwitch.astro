@@ -1,0 +1,33 @@
+---
+import { DISPLAY_CURRENCIES, DEFAULT_CURRENCY } from '../lib/site';
+
+const SYMBOLS: Record<string, string> = { INR: '₹', AED: 'AED', USD: '$' };
+---
+{/* Rendered with the default selected; the client corrects it from the
+    reader's saved choice before first paint of the budgets. */}
+<label class="currency">
+  <span class="sr-only">Show prices in</span>
+  <select data-currency>
+    {DISPLAY_CURRENCIES.map((code) => (
+      <option value={code} selected={code === DEFAULT_CURRENCY}>
+        {SYMBOLS[code] ?? code} {code}
+      </option>
+    ))}
+  </select>
+</label>
+
+<script>
+  import { currentCurrency, setCurrency, refreshBudgets } from '../scripts/rates';
+
+  for (const select of Array.from(document.querySelectorAll<HTMLSelectElement>('[data-currency]'))) {
+    select.value = currentCurrency();
+    select.addEventListener('change', () => {
+      setCurrency(select.value);
+      // Keep every switcher on the page in step, then re-render the figures.
+      document
+        .querySelectorAll<HTMLSelectElement>('[data-currency]')
+        .forEach((other) => { other.value = select.value; });
+      refreshBudgets();
+    });
+  }
+</script>
