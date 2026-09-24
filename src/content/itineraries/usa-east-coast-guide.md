@@ -30,9 +30,9 @@ covered below. All costs are in US dollars (USD).
 
 ## Before you go: the visa is the trip's hardest part
 
-Read this section first — for most of our readers the US visa now
-costs more than the New York hotel, and takes longer than
-everything else combined.
+Read this section first. If your passport needs a US visa, it now
+costs more than the New York hotel and takes longer than everything
+else combined; if it doesn't, you can skip most of what follows.
 
 ### The B1/B2 visitor visa, priced honestly
 
@@ -40,29 +40,31 @@ everything else combined.
   nationalities including India also pay the new **Visa Integrity
   Fee of ~$250**, introduced October 2025. Real total: **~$435 per
   person** before you've booked anything.
-- The consolation: Indian passports typically receive a
-  **10-year, multiple-entry** B1/B2 — brutal up front, cheap per
-  trip if America is in your next decade.
+- The consolation: many nationalities, India among them, are
+  typically issued a **10-year, multiple-entry** B1/B2 — brutal up
+  front, cheap per trip if America is in your next decade.
 - **Visa Waiver Program passports** (UK, EU, Japan, Singapore and
   ~40 others) skip all of this: **ESTA ~$40** online, and ESTA
   travellers are exempt from the Integrity Fee.
 
-### Applying from the UAE — the 2026 reality
+### Where you apply, and the 2026 waits
 
-- Routine visa services at the US Embassy Abu Dhabi and Consulate
-  Dubai were **suspended in July 2026** over regional security;
-  since then only **limited nonimmigrant appointments** have been
-  released. Recent published waits: **Dubai ~11–12 months,
-  Abu Dhabi ~6 months** for B1/B2.
-- UAE residents (any nationality, Indian passports included) apply
-  locally with proof of residence — **choose Abu Dhabi** if both
-  are offered. Some applicants book other posts where rules allow;
-  waits elsewhere in the Gulf have been far shorter.
-- Applying in India instead runs many months too, varying by
-  consulate. Whichever post: **start 8–12 months before you want
-  to fly**, check ustraveldocs.com for live wait times, and treat
-  any agent promising "fast US appointments" as a scam until
-  proven otherwise.
+- Interview waits vary enormously by post — weeks at some
+  consulates, the better part of a year at others. Check the live
+  figure for yours at ustraveldocs.com before you plan anything
+  else, because it sets the timeline for the whole trip.
+- How bad it can get: routine visa services at the US Embassy Abu
+  Dhabi and Consulate Dubai were **suspended in July 2026** over
+  regional security, and only limited nonimmigrant appointments
+  have been released since — recent published waits are **Dubai
+  ~11–12 months, Abu Dhabi ~6 months**. Posts in India run many
+  months too, varying by consulate.
+- You apply where you live, with proof of residence. Where a
+  country has several posts, the quieter one can save months, so
+  check them all before booking.
+- Whichever post: **start 8–12 months before you want to fly**,
+  and treat any agent promising "fast US appointments" as a scam
+  until proven otherwise.
 - Interview answers that work are boring ones: employment, return
   ticket logic, itinerary. Never fabricate bookings — refundable
   real ones cost nothing extra.
@@ -336,9 +338,10 @@ prices.
 
 **The Canada question, answered honestly:** the famous postcard
 panorama is from the Canadian side, and the **Rainbow Bridge is a
-full international border** — Indian passports need a separate
-Canadian visitor visa (weeks to months of processing; a US visa
-does not waive it). If you hold one, walk across for an afternoon
+full international border**. Plenty of passports cross visa-free,
+but many others — India among them — need a separate Canadian
+visitor visa, and a US visa does not waive it (weeks to months of
+processing). If you can cross, walk over for an afternoon
 ($1 toll) and the view will justify the paperwork. If not, don't
 mourn: the US side is the *touch-the-falls* side — the brink, the
 boat and the cave are all here.
@@ -445,9 +448,10 @@ options. Vegetarians eat well everywhere — pizza, bagels, food
 halls — though at classic diners the answer is grilled cheese.
 
 **Should we add the Canadian side?**
-Only if you already hold (or happily obtain) a Canadian visitor
-visa — see Day 9. US-visa-holding Indian passports still need it;
-processing is measured in weeks-to-months. With it, the Canadian
+Only if your passport crosses visa-free, or you already hold (or
+happily obtain) a Canadian visitor visa — see Day 9. A US visa
+does not waive it, and processing is measured in weeks-to-months.
+With it, the Canadian
 panorama plus the American brink is the complete Niagara. Without
 it, you're missing the wide shot, not the experience.
 

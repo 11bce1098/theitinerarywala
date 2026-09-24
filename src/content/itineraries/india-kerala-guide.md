@@ -7,7 +7,7 @@ budgetCurrency: "INR"
 heroImage: "/images/india-kerala.jpeg"
 heroWide: "/images/india-kerala-wide.jpeg"
 route: "Kochi → Munnar → Backwaters → Kovalam"
-bestFor: "First-time visitors"
+bestFor: "Slow-paced travellers"
 summary: "The gentle India — colonial Fort Kochi, tea hills above the clouds, a night on a private houseboat through the backwaters, and a quiet palm-lined beach to end on. One arc, one driver, no rush."
 publishDate: 2026-09-17
 draft: false

@@ -37,12 +37,12 @@ anything marked ~ as a guide, not a contract.
 - **Visa-free (90 days for most):** ~70 passports including the
   EU, UK, USA, Australia, Singapore and the UAE. No forms, no
   fees.
-- **eVisa:** Japan's eVISA covers many others — including **all
-  nationalities resident in the UAE, and everyone resident in
-  India** — applied through Japan's accredited agencies rather
-  than directly. So an Indian passport with UAE residence
-  qualifies; apply via an accredited agency in the UAE with your
-  Emirates ID, bank statements and itinerary.
+- **eVisa:** Japan's eVISA covers many others — including everyone
+  resident in India, and all nationalities resident in the UAE —
+  applied through Japan's accredited agencies rather than directly.
+  It follows where you live rather than what passport you hold, so
+  check the list for your country of residence. Expect to supply
+  proof of residence, bank statements and your itinerary.
 - Visa fees rose sharply in **July 2026** — single-entry is now
   around ¥15,000 — and processing runs 8–10 working days, so start
   3–4 weeks out.
