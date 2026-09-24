@@ -735,10 +735,22 @@ body.nav-open { overflow: hidden; }
 }
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.6fr 1fr 1fr 1.6fr;
+  /* Destinations carries every country, so it gets the room to run three
+     columns instead of one tall list the rest of the footer has to match. */
+  grid-template-columns: 1.4fr 0.75fr 2.3fr 1.35fr;
   gap: 2.5rem;
   padding-top: 3rem;
   padding-bottom: 2.5rem;
+}
+.footer-destinations ul {
+  columns: 3;
+  column-gap: 1rem;
+}
+/* The longest name sets the floor; without this "United Kingdom" wraps. */
+.footer-destinations a { white-space: nowrap; }
+.footer-destinations li {
+  break-inside: avoid;
+  margin-bottom: 0.45rem;
 }
 .footer-brand p { margin: 0 0 1rem; max-width: 30ch; }
 .footer-logo {
@@ -792,10 +804,12 @@ body.nav-open { overflow: hidden; }
 
 @media (max-width: 900px) {
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 2rem; }
+  .footer-destinations ul { columns: 2; }
   .footer-brand, .footer-signup { grid-column: 1 / -1; }
 }
 @media (max-width: 520px) {
   .footer-grid { grid-template-columns: 1fr; }
+  .footer-destinations ul { columns: 2; column-gap: 1rem; }
 }
 
 /* ---- homepage hero ---- */
