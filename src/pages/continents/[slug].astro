@@ -20,6 +20,12 @@ const { continent } = Astro.props;
 
 // Countries sit under their region heading, so "Asia" is not one flat list.
 // Declared order, and only the regions that actually have something in them.
+// Share card: the newest guide anywhere on this continent.
+const newest = continent.countries
+  .flatMap((c) => c.itineraries)
+  .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())[0];
+const shareImage = newest?.data.heroWide ?? newest?.data.heroImage;
+
 const regions = continent.regions
   .filter((r) => !r.comingSoon)
   .map((r) => ({ region: r.name, countries: r.countries }));
@@ -30,6 +36,7 @@ const regions = continent.regions
   description={continent.comingSoon
     ? `${continent.name} itineraries are coming soon to The Itinerary Wala.`
     : `Day-by-day itineraries in ${continent.name}: ${continent.countries.map((c) => c.name).join(', ')}.`}
+  image={shareImage}
 >
   <section class="page-hero">
     <div class="wrap">
