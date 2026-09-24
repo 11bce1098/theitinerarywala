@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import CoverArt from '../components/CoverArt.astro';
-import { regionFor } from '../lib/geography.mjs';
+import { regionFor, continentFor, CONTINENTS } from '../lib/geography.mjs';
 import { POPULAR } from '../lib/site';
 import Budget from '../components/Budget.astro';
 import { getRates, convert } from '../lib/rates.mjs';
@@ -18,6 +18,15 @@ const countries = [...new Set(itineraries.map((i) => i.data.country))].sort();
 const popular = POPULAR
   .map((id) => itineraries.find((i) => i.id === id))
   .filter((i): i is NonNullable<typeof i> => Boolean(i));
+
+// The grid is grouped by continent so 25 cards read as a catalogue rather
+// than a feed. Declared order, and only continents that have something.
+const groups = CONTINENTS
+  .map((c) => ({
+    ...c,
+    items: itineraries.filter((i) => continentFor(i.data.country) === c.slug),
+  }))
+  .filter((g) => g.items.length > 0);
 
 // Sorting has to compare across currencies, so normalise to USD up front.
 const rateData = await getRates();
@@ -91,43 +100,55 @@ function budgetValue(amount: number | undefined, currency: string): number {
       </div>
     )}
 
-    <ul class="itinerary-grid" data-grid>
-      {itineraries.map((itin, index) => (
-        <li
-          class="itinerary-card"
-          data-reveal
-          style={`--stagger:${index}`}
-          data-country={itin.data.country}
-          data-search-text={`${itin.data.title} ${itin.data.country} ${itin.data.summary} ${itin.data.bestFor}`.toLowerCase()}
-          data-days={itin.data.days}
-          data-budget-usd={budgetValue(itin.data.budgetAmount, itin.data.budgetCurrency)}
-          data-date={itin.data.publishDate.valueOf()}
-        >
-          <div class="itinerary-card__cover">
-            <CoverArt
-              seed={itin.id}
-              country={itin.data.country}
-              src={itin.data.heroImage}
-              alt={itin.data.title}
-              eager={index < 2}
-            />
-            <span class="pill pill--visa">{regionFor(itin.data.country)}</span>
-          </div>
-          <div class="itinerary-card__body">
-            <p class="card-bestfor">{itin.data.bestFor}</p>
-            <h2>
-              <a class="card-link" href={`/itineraries/${itin.id}/`}>{itin.data.title}</a>
-            </h2>
-            {itin.data.route && <p class="card-route">{itin.data.route}</p>}
-            <p>{itin.data.summary}</p>
-            <div class="card-meta">
-              <span class="pill">{itin.data.days} days</span>
-              <span class="pill"><Budget amount={itin.data.budgetAmount} currency={itin.data.budgetCurrency} country={itin.data.country} /> / person</span>
+      <div data-grid>
+        {groups.map((group, gi) => (
+          <section class="dest-group" data-group={group.slug}>
+            <div class="dest-group__head" data-reveal>
+              <h2 class="section-heading">{group.name}</h2>
+              <a class="dest-group__all" href={`/continents/${group.slug}/`}>
+                All of {group.name} →
+              </a>
             </div>
-          </div>
-        </li>
-      ))}
-    </ul>
+            <ul class="itinerary-grid">
+          {group.items.map((itin, i) => (
+            <li
+              class="itinerary-card"
+              data-reveal
+              style={`--stagger:${i}`}
+              data-country={itin.data.country}
+              data-search-text={`${itin.data.title} ${itin.data.country} ${itin.data.summary} ${itin.data.bestFor}`.toLowerCase()}
+              data-days={itin.data.days}
+              data-budget-usd={budgetValue(itin.data.budgetAmount, itin.data.budgetCurrency)}
+              data-date={itin.data.publishDate.valueOf()}
+            >
+              <div class="itinerary-card__cover">
+                <CoverArt
+                  seed={itin.id}
+                  country={itin.data.country}
+                  src={itin.data.heroImage}
+                  alt={itin.data.title}
+                  eager={gi === 0 && i < 2}
+                />
+                <span class="pill pill--visa">{regionFor(itin.data.country)}</span>
+              </div>
+              <div class="itinerary-card__body">
+                <p class="card-bestfor">{itin.data.bestFor}</p>
+                <h2>
+                  <a class="card-link" href={`/itineraries/${itin.id}/`}>{itin.data.title}</a>
+                </h2>
+                {itin.data.route && <p class="card-route">{itin.data.route}</p>}
+                <p>{itin.data.summary}</p>
+                <div class="card-meta">
+                  <span class="pill">{itin.data.days} days</span>
+                  <span class="pill"><Budget amount={itin.data.budgetAmount} currency={itin.data.budgetCurrency} country={itin.data.country} /> / person</span>
+                </div>
+              </div>
+            </li>
+          ))}
+            </ul>
+          </section>
+        ))}
+      </div>
 
     <p class="grid-empty" data-empty hidden>
       No itineraries for that filter yet — more are on the way.
@@ -192,6 +213,14 @@ function budgetValue(amount: number | undefined, currency: string): number {
         card.hidden = !match;
         if (match) visible++;
       }
+      // A continent heading with nothing under it reads as a dead end, so
+      // sections fold away when the filter empties them.
+      for (const section of grid.querySelectorAll<HTMLElement>('[data-group]')) {
+        const any = Array.from(section.querySelectorAll<HTMLElement>('.itinerary-card'))
+          .some((card) => !card.hidden);
+        section.hidden = !any;
+      }
+
       if (empty) empty.hidden = visible > 0;
 
       const order = comparators[sortSelect?.value ?? 'newest'] ?? comparators.newest;
