@@ -20,6 +20,8 @@ export const COUNTRIES = {
   Uzbekistan: { continent: 'asia',   region: 'Central Asia',    currency: 'UZS' },
   Turkey:     { continent: 'asia',   region: 'Middle East',     currency: 'TRY' },
   France:     { continent: 'europe', region: 'Western Europe',  currency: 'EUR' },
+  Germany:    { continent: 'europe', region: 'Western Europe',  currency: 'EUR' },
+  'United Kingdom': { continent: 'europe', region: 'Northern Europe', currency: 'GBP' },
   Spain:      { continent: 'europe', region: 'Southern Europe', currency: 'EUR' },
   Italy:      { continent: 'europe', region: 'Southern Europe', currency: 'EUR' },
   Russia:     { continent: 'europe', region: 'Eastern Europe',  currency: 'RUB' },
