@@ -2064,6 +2064,76 @@ body.nav-open { overflow: hidden; }
 }
 .dest-group__all:hover { text-decoration: underline; }
 
+
+/* ---- homepage destination browser --------------------------------------
+   The "what does this site cover" block: one tile per country, grouped by
+   continent, each linking to its own destination page. */
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 1.8rem;
+}
+.dest-count { font-size: 0.88rem; color: var(--ink-soft); }
+.dest-continent + .dest-continent { margin-top: 1.9rem; }
+.dest-continent__name {
+  margin: 0 0 0.8rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.dest-continent__name a { color: inherit; text-decoration: none; }
+.dest-continent__name a:hover { color: var(--marigold-deep); }
+
+.dest-tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(9.5rem, 100%), 1fr));
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.dest-tile a {
+  display: block;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s var(--ease-out), transform 0.2s var(--ease-out);
+}
+.dest-tile a:hover {
+  border-color: var(--marigold);
+  transform: translateY(-2px);
+}
+.dest-tile__art {
+  display: block;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: var(--paper);
+}
+.dest-tile__art :is(img, svg) {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.dest-tile__body { display: block; padding: 0.6rem 0.7rem 0.7rem; }
+.dest-tile__name {
+  display: block;
+  font-weight: 700;
+  font-size: 0.95rem;
+  line-height: 1.2;
+}
+.dest-tile__count {
+  display: block;
+  margin-top: 0.15rem;
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+}
+
 /* ---- motion opt-out ---------------------------------------------------
    Everything above is decoration; none of it carries meaning on its own. */
 @media (prefers-reduced-motion: reduce) {

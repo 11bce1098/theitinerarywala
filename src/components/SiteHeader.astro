@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import { NAV, SITE, ACTIVE_SOCIALS, isCurrent } from '../lib/site';
 import SocialIcon from './SocialIcon.astro';
 import CurrencySwitch from './CurrencySwitch.astro';
-import { groupByContinent } from '../lib/geography.mjs';
+import { groupByContinent, countrySlug } from '../lib/geography.mjs';
 
 const pathname = Astro.url.pathname;
 
@@ -76,7 +76,7 @@ const continents = groupByContinent(itineraries);
                             <ul class="flyout__countries">
                               {region.countries.map((country) => (
                                 <li>
-                                  <a href={`/?country=${encodeURIComponent(country.name)}`}>
+                                  <a href={`/destinations/${countrySlug(country.name)}/`}>
                                     {country.name}
                                     <span class="flyout__count">{country.itineraries.length}</span>
                                   </a>
@@ -179,7 +179,7 @@ const continents = groupByContinent(itineraries);
                         <span class="mobile-nav__region-name">{region.name}</span>
                         <div class="mobile-nav__countries">
                           {region.countries.map((country) => (
-                            <a href={`/?country=${encodeURIComponent(country.name)}`}>
+                            <a href={`/destinations/${countrySlug(country.name)}/`}>
                               {country.name}
                             </a>
                           ))}

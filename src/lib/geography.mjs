@@ -84,6 +84,11 @@ export function regionSlug(region) {
   return region.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
+/** URL-safe id for a country, used for its destination page. */
+export function countrySlug(country) {
+  return country.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
 export function regionFor(country) {
   return COUNTRIES[country]?.region ?? '';
 }

@@ -1,0 +1,139 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import CoverArt from '../../components/CoverArt.astro';
+import Budget from '../../components/Budget.astro';
+import {
+  countrySlug,
+  regionFor,
+  continentFor,
+  CONTINENTS,
+} from '../../lib/geography.mjs';
+
+/**
+ * One page per country. These exist mainly so "India itineraries" is a real
+ * page: /?country=India is a filter on the homepage, which search engines
+ * read as the homepage again, so it can never rank for the thing people
+ * actually search for.
+ */
+export async function getStaticPaths() {
+  const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
+
+  const byCountry = new Map<string, typeof itineraries>();
+  for (const itin of itineraries) {
+    const list = byCountry.get(itin.data.country) ?? [];
+    list.push(itin);
+    byCountry.set(itin.data.country, list);
+  }
+
+  return [...byCountry.entries()].map(([country, list]) => ({
+    params: { country: countrySlug(country) },
+    props: {
+      country,
+      list: list.sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()),
+    },
+  }));
+}
+
+const { country, list } = Astro.props;
+
+const continentSlug = continentFor(country);
+const continent = CONTINENTS.find((c) => c.slug === continentSlug)!;
+const region = regionFor(country);
+
+const days = list.map((i) => i.data.days);
+const shortest = Math.min(...days);
+const longest = Math.max(...days);
+const dayRange = shortest === longest ? `${shortest} days` : `${shortest}–${longest} days`;
+
+// Reads as a sentence on the page and as the meta description in results.
+const lede = `${list.length === 1 ? 'One itinerary' : `${list.length} itineraries`} for ${country}, ${
+  list.length === 1 ? 'covering' : 'from'
+} ${dayRange} — day by day, with what each trip actually costs.`;
+---
+<Base
+  title={`${country} itineraries — The Itinerary Wala`}
+  description={`Day-by-day ${country} travel itineraries with realistic pacing and budgets in real numbers. ${
+    list.length === 1 ? '1 route' : `${list.length} routes`
+  }, ${dayRange}.`}
+>
+  <section class="page-hero">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/itineraries/">Itineraries</a></li>
+          <li><a href={`/continents/${continent.slug}/`}>{continent.name}</a></li>
+          <li aria-current="page">{country}</li>
+        </ol>
+      </nav>
+      <h1 data-reveal>{country} itineraries</h1>
+      <p class="page-hero__lede" data-reveal>{lede}</p>
+      <dl class="stats" data-reveal>
+        <div class="stat">
+          <dt class="stat__value">{list.length}</dt>
+          <dd class="stat__label">{list.length === 1 ? 'itinerary' : 'itineraries'}</dd>
+        </div>
+        <div class="stat">
+          <dt class="stat__value">{dayRange.replace(' days', '')}</dt>
+          <dd class="stat__label">days</dd>
+        </div>
+        <div class="stat">
+          <dt class="stat__value">{region}</dt>
+          <dd class="stat__label">region</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="wrap section">
+    <ul class="itinerary-grid">
+      {list.map((itin, i) => (
+        <li class="itinerary-card" data-reveal style={`--stagger:${i}`}>
+          <div class="itinerary-card__cover">
+            <CoverArt
+              seed={itin.id}
+              country={itin.data.country}
+              src={itin.data.heroImage}
+              alt={itin.data.title}
+              eager={i < 2}
+            />
+            <span class="pill pill--visa">{itin.data.days} days</span>
+          </div>
+          <div class="itinerary-card__body">
+            <p class="card-bestfor">{itin.data.bestFor}</p>
+            <h2>
+              <a class="card-link" href={`/itineraries/${itin.id}/`}>{itin.data.title}</a>
+            </h2>
+            {itin.data.route && <p class="card-route">{itin.data.route}</p>}
+            <p>{itin.data.summary}</p>
+            <div class="card-meta">
+              <span class="pill">
+                <Budget
+                  amount={itin.data.budgetAmount}
+                  currency={itin.data.budgetCurrency}
+                  country={itin.data.country}
+                /> / person
+              </span>
+            </div>
+          </div>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="wrap section">
+    <div class="cta-card" data-reveal>
+      <h2>Going somewhere near {country}?</h2>
+      <p>
+        {continent.name} has {continent.name === 'Asia' ? 'plenty' : 'more'} to choose
+        from, or tell us the dates and we'll shape a plan around them.
+      </p>
+      <p class="notfound__actions">
+        <a class="btn btn--solid" href={`/continents/${continent.slug}/`}>
+          All of {continent.name}
+        </a>
+        <a class="btn btn--ghost" href="/plan/">Plan my trip</a>
+      </p>
+    </div>
+  </section>
+</Base>

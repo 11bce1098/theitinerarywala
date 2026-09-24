@@ -65,7 +65,7 @@ export const POPULAR = [
 ];
 
 export const NAV: NavLink[] = [
-  { href: '/', label: 'Itineraries', menu: 'continents' },
+  { href: '/itineraries/', label: 'Itineraries', menu: 'continents' },
   { href: '/visa-services/', label: 'Visa Services' },
   { href: '/about/', label: 'About' },
   { href: '/contact/', label: 'Contact' },

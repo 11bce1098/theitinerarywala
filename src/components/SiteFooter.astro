@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import { NAV, SITE, ACTIVE_SOCIALS, FORM_ENDPOINT, HAS_FORM_ENDPOINT, WEB3FORMS_KEY } from '../lib/site';
 import SocialIcon from './SocialIcon.astro';
+import { countrySlug } from '../lib/geography.mjs';
 
 // Destination list is generated, so the footer can't go stale.
 const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
@@ -37,7 +38,7 @@ const year = new Date().getFullYear();
       <h2>Destinations</h2>
       <ul>
         {destinations.map((country) => (
-          <li><a href={`/?country=${encodeURIComponent(country)}`}>{country}</a></li>
+          <li><a href={`/destinations/${countrySlug(country)}/`}>{country}</a></li>
         ))}
       </ul>
     </nav>

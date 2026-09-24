@@ -4,7 +4,7 @@ import Base from '../../layouts/Base.astro';
 import CoverArt from '../../components/CoverArt.astro';
 import SectionTabs from '../../components/SectionTabs.astro';
 import { splitItinerary, splitByH3 } from '../../lib/itinerary';
-import { regionFor, continentFor, CONTINENTS } from '../../lib/geography.mjs';
+import { regionFor, continentFor, countrySlug, CONTINENTS } from '../../lib/geography.mjs';
 import Budget from '../../components/Budget.astro';
 
 export async function getStaticPaths() {
@@ -106,7 +106,7 @@ const related = all
       <nav class="crumbs" aria-label="Breadcrumb">
         <ol>
           <li><a href="/">Itineraries</a></li>
-          <li><a href={`/?country=${encodeURIComponent(itin.data.country)}`}>{itin.data.country}</a></li>
+          <li><a href={`/destinations/${countrySlug(itin.data.country)}/`}>{itin.data.country}</a></li>
           <li aria-current="page">{itin.data.days} days</li>
         </ol>
       </nav>
@@ -195,7 +195,7 @@ const related = all
                 <ul class="side-card__chips">
                   {otherCountries.map((country) => (
                     <li>
-                      <a href={`/?country=${encodeURIComponent(country.name)}`}>{country.name}</a>
+                      <a href={`/destinations/${countrySlug(country.name)}/`}>{country.name}</a>
                     </li>
                   ))}
                 </ul>

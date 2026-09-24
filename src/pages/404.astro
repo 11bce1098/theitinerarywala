@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
-import { groupByContinent } from '../lib/geography.mjs';
+import { groupByContinent, countrySlug } from '../lib/geography.mjs';
 import { POPULAR } from '../lib/site';
 
 // Astro writes this to dist/404.html. Cloudflare Pages picks that file up by
@@ -65,7 +65,7 @@ const popular = POPULAR
           <ul>
             {continent.countries.map((country) => (
               <li>
-                <a href={`/?country=${encodeURIComponent(country.name)}`}>
+                <a href={`/destinations/${countrySlug(country.name)}/`}>
                   {country.name}
                   <span class="flyout__count">{country.itineraries.length}</span>
                 </a>
