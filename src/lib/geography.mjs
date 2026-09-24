@@ -20,6 +20,7 @@ export const COUNTRIES = {
   Turkey:     { continent: 'asia',   region: 'Middle East',     currency: 'TRY' },
   France:     { continent: 'europe', region: 'Western Europe',  currency: 'EUR' },
   Spain:      { continent: 'europe', region: 'Southern Europe', currency: 'EUR' },
+  Italy:      { continent: 'europe', region: 'Southern Europe', currency: 'EUR' },
   Russia:     { continent: 'europe', region: 'Eastern Europe',  currency: 'RUB' },
   USA:        { continent: 'north-america', region: 'United States', currency: 'USD' },
 };
