@@ -18,7 +18,7 @@ const itineraries = defineCollection({
     bestFor: z.string(),
     // "Tashkent → Samarkand → Bukhara → Khiva" — shown on cards so someone
     // scrolling knows the shape of the trip without opening it.
-    route: z.string().optional(),         // e.g. "Families with young kids"
+    route: z.string().optional(),
     summary: z.string(),         // one or two sentences for cards + meta description
     heroImage: z.string().optional(), // path under /public, e.g. /images/georgia.jpg
     // Wide crop for the itinerary hero band (~2.6:1). Falls back to heroImage.

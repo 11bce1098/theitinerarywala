@@ -7,9 +7,9 @@
  */
 export const SITE = {
   name: 'The Itinerary Wala',
-  tagline: 'Family itineraries, day by day',
+  tagline: 'Day-by-day itineraries, honestly priced',
   description:
-    'Day-by-day family travel itineraries with realistic pacing, budgets in real numbers, and every stay and tour bookable in one tap.',
+    'Day-by-day travel itineraries with realistic pacing, budgets in real numbers, and every stay and tour bookable in one tap.',
   email: 'theitinerarywala@gmail.com',
   instagram: 'https://instagram.com/theitinerarywala',
   // Branded 1200x630 social preview, used when a page has no image of its own.
