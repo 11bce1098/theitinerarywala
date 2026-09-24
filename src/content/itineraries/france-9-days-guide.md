@@ -5,6 +5,8 @@ days: 9
 budgetAmount: 1425
 budgetCurrency: "EUR"
 route: "Paris → Versailles → Nice → Monaco"
+heroImage: "/images/france.jpeg"
+heroWide: "/images/france-wide.jpeg"
 bestFor: "First-time visitors"
 summary: "The classic first France — five Paris days done in the right order (closed-day traps avoided), then the TGV south to Nice, Èze and Monaco — with the 2026 border changes, ticket prices and visa realities most guides haven't caught up with."
 publishDate: 2026-09-24

@@ -5,6 +5,8 @@ days: 10
 budgetAmount: 2600
 budgetCurrency: "USD"
 route: "New York → Washington DC → Niagara Falls"
+heroImage: "/images/usa.jpeg"
+heroWide: "/images/usa-wide.jpeg"
 bestFor: "First-time visitors"
 summary: "The East Coast classic without a car: five New York days from the Statue of Liberty to a Broadway night, the train down to Washington's free museum mile, then a short flight to stand at the brink of Niagara — plus the honest maths on the visa that now costs $435."
 publishDate: 2026-09-24

@@ -5,6 +5,8 @@ days: 10
 budgetAmount: 8000
 budgetCurrency: "CNY"
 route: "Zhangjiajie → Longji terraces → Li River → Yangshuo"
+heroImage: "/images/china-zhangjiajie.jpeg"
+heroWide: "/images/china-zhangjiajie-wide.jpeg"
 bestFor: "Nature + photography"
 summary: "The scenery China of every reel, done properly: two days among the Avatar pillars, the glass bridge over a 300-metre gorge, Heaven's Gate through the clouds — then south to the Li River's ink-painting karsts, bamboo rafts, rice terraces and the ¥20-note view. Second in our China series; the first guide's app-and-visa setup applies here doubly."
 publishDate: 2026-09-24

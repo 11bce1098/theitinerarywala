@@ -5,6 +5,8 @@ days: 10
 budgetAmount: 2050
 budgetCurrency: "GBP"
 route: "London → Windsor → Edinburgh → the Highlands"
+heroImage: "/images/uk.jpeg"
+heroWide: "/images/uk-wide.jpeg"
 bestFor: "First-time visitors"
 summary: "England and Scotland by one fast train: six London days from the Crown Jewels to the Harry Potter studios (with the free-museum trick that halves the budget), then up the coast to Edinburgh's castle crag, a Highlands day among lochs and hairy coos — plus the £127 visa maths and the service-charge decoder."
 publishDate: 2026-09-24

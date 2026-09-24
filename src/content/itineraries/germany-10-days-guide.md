@@ -5,6 +5,8 @@ days: 10
 budgetAmount: 1800
 budgetCurrency: "EUR"
 route: "Munich → Neuschwanstein → Berlin → Potsdam"
+heroImage: "/images/germany.jpeg"
+heroWide: "/images/germany-wide.jpeg"
 bestFor: "First-time visitors"
 summary: "Two Germanys on one fast train: beer-garden Bavaria with the fairy-tale castle and the top of the country at 2,962 m, then Berlin — the Wall, Nefertiti, a free glass dome over parliament — with the booking windows, the cash surprise and the Sunday-shutdown rule that guidebooks forget to mention."
 publishDate: 2026-09-24

@@ -5,6 +5,8 @@ days: 10
 budgetAmount: 3000
 budgetCurrency: "USD"
 route: "Los Angeles → Big Sur → Yosemite → San Francisco"
+heroImage: "/images/california.jpeg"
+heroWide: "/images/california-wide.jpeg"
 bestFor: "Road trippers"
 summary: "The greatest drive in America, finally whole again: Highway 1 through Big Sur reopened end-to-end in January 2026 after three years of landslides. LA to San Francisco the long way — Malibu, Hearst Castle, McWay Falls, Bixby Bridge — then inland to Yosemite's granite cathedral. Ten days, one rental car, every cliché earned."
 publishDate: 2026-09-24
