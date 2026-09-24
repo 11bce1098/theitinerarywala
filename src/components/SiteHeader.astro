@@ -53,7 +53,6 @@ const continents = groupByContinent(itineraries);
                     <li>
                       <a class="flyout__continent" href={`/continents/${continent.slug}/`}>
                         <span>{continent.name}</span>
-                        <span class="flyout__count">{continent.itineraryCount}</span>
                       </a>
                       <ul class="flyout__regions">
                         <li class="flyout__all">
@@ -78,7 +77,6 @@ const continents = groupByContinent(itineraries);
                                 <li>
                                   <a href={`/destinations/${countrySlug(country.name)}/`}>
                                     {country.name}
-                                    <span class="flyout__count">{country.itineraries.length}</span>
                                   </a>
                                 </li>
                               ))}
@@ -167,7 +165,6 @@ const continents = groupByContinent(itineraries);
                 <details class="mobile-nav__continent">
                   <summary>
                     <span>{continent.name}</span>
-                    <span class="flyout__count">{continent.itineraryCount}</span>
                   </summary>
                   <a class="mobile-nav__all" href={`/continents/${continent.slug}/`}>
                     All of {continent.name} →

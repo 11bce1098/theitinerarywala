@@ -24,7 +24,6 @@ const regions = continent.regions
   .filter((r) => !r.comingSoon)
   .map((r) => ({ region: r.name, countries: r.countries }));
 
-const countryCount = continent.countries.length;
 ---
 <Base
   title={`${continent.name} itineraries — The Itinerary Wala`}
@@ -42,20 +41,6 @@ const countryCount = continent.countries.length;
       </nav>
       <h1 data-reveal>{continent.name}</h1>
       <p class="page-hero__lede" data-reveal>{continent.blurb}</p>
-      {!continent.comingSoon && (
-        <dl class="stats" data-reveal>
-          <div class="stat">
-            <dt class="stat__value">{countryCount}</dt>
-            <dd class="stat__label">{countryCount === 1 ? 'country' : 'countries'}</dd>
-          </div>
-          <div class="stat">
-            <dt class="stat__value">{continent.itineraryCount}</dt>
-            <dd class="stat__label">
-              {continent.itineraryCount === 1 ? 'itinerary' : 'itineraries'}
-            </dd>
-          </div>
-        </dl>
-      )}
     </div>
   </section>
 

@@ -60,14 +60,12 @@ const popular = POPULAR
         <div class="notfound__continent" data-reveal>
           <h3>
             <a href={`/continents/${continent.slug}/`}>{continent.name}</a>
-            <span class="flyout__count">{continent.itineraryCount}</span>
           </h3>
           <ul>
             {continent.countries.map((country) => (
               <li>
                 <a href={`/destinations/${countrySlug(country.name)}/`}>
                   {country.name}
-                  <span class="flyout__count">{country.itineraries.length}</span>
                 </a>
               </li>
             ))}

@@ -4,7 +4,6 @@ import Base from '../layouts/Base.astro';
 import { SITE } from '../lib/site';
 
 const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
-const countries = new Set(itineraries.map((i) => i.data.country));
 
 // TODO(owner): the three steps below describe how you actually research a
 // trip — rewrite them in your own words, they're the most credible thing
@@ -55,9 +54,8 @@ const method = [
           can book them without going hunting.
       </p>
       <p>
-        Right now there {countries.size === 1 ? 'is' : 'are'} {countries.size}
-        {countries.size === 1 ? ' country' : ' countries'} covered, with more
-        added as they're researched properly. Nothing goes up as a placeholder.
+        New countries go up as they're researched properly, and nothing goes
+        up as a placeholder — which is why the library grows slowly.
       </p>
 
       <h2>How each itinerary gets built</h2>

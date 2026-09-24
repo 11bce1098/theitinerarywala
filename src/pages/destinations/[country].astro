@@ -47,15 +47,13 @@ const longest = Math.max(...days);
 const dayRange = shortest === longest ? `${shortest} days` : `${shortest}–${longest} days`;
 
 // Reads as a sentence on the page and as the meta description in results.
-const lede = `${list.length === 1 ? 'One itinerary' : `${list.length} itineraries`} for ${country}, ${
-  list.length === 1 ? 'covering' : 'from'
-} ${dayRange} — day by day, with what each trip actually costs.`;
+const lede = `Day-by-day routes through ${country}, ${
+  shortest === longest ? 'each' : 'from'
+} ${dayRange} — with what every trip actually costs.`;
 ---
 <Base
   title={`${country} itineraries — The Itinerary Wala`}
-  description={`Day-by-day ${country} travel itineraries with realistic pacing and budgets in real numbers. ${
-    list.length === 1 ? '1 route' : `${list.length} routes`
-  }, ${dayRange}.`}
+  description={`Day-by-day ${country} travel itineraries with realistic pacing and budgets in real numbers, ${dayRange}.`}
 >
   <section class="page-hero">
     <div class="wrap">
@@ -69,10 +67,6 @@ const lede = `${list.length === 1 ? 'One itinerary' : `${list.length} itinerarie
       <h1 data-reveal>{country} itineraries</h1>
       <p class="page-hero__lede" data-reveal>{lede}</p>
       <dl class="stats" data-reveal>
-        <div class="stat">
-          <dt class="stat__value">{list.length}</dt>
-          <dd class="stat__label">{list.length === 1 ? 'itinerary' : 'itineraries'}</dd>
-        </div>
         <div class="stat">
           <dt class="stat__value">{dayRange.replace(' days', '')}</dt>
           <dd class="stat__label">days</dd>
