@@ -1,0 +1,79 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { groupByContinent } from '../lib/geography.mjs';
+import { POPULAR } from '../lib/site';
+
+// Astro writes this to dist/404.html. Cloudflare Pages picks that file up by
+// name and serves it with a real 404 status — without it, Pages falls back to
+// index.html with a 200, which reads as a soft 404 to search engines and hides
+// broken internal links from us.
+const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
+
+const continents = groupByContinent(itineraries).filter((c) => !c.comingSoon);
+
+const popular = POPULAR
+  .map((id) => itineraries.find((i) => i.id === id))
+  .filter((i): i is NonNullable<typeof i> => Boolean(i))
+  .slice(0, 4);
+---
+<Base
+  title="Page not found — The Itinerary Wala"
+  description="That page doesn't exist. Browse itineraries by continent, or start a trip plan."
+>
+  <section class="page-hero">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>404</p>
+      <h1 data-reveal>That page doesn&rsquo;t exist.</h1>
+      <p class="page-hero__lede" data-reveal>
+        The link may be out of date, or the address mistyped. Nothing is
+        broken on your end &mdash; here is the way back in.
+      </p>
+      <p class="notfound__actions" data-reveal>
+        <a class="btn btn--solid" href="/">Browse all itineraries</a>
+        <a class="btn btn--ghost" href="/plan/">Plan my trip</a>
+      </p>
+    </div>
+  </section>
+
+  {popular.length > 0 && (
+    <section class="wrap section">
+      <h2 class="section-heading" data-reveal>Popular trip plans</h2>
+      <ul class="notfound__popular">
+        {popular.map((itin) => (
+          <li data-reveal>
+            <a href={`/itineraries/${itin.id}/`}>
+              <span class="notfound__country">{itin.data.country}</span>
+              <span class="notfound__title">{itin.data.route ?? itin.data.title}</span>
+              <span class="notfound__days">{itin.data.days} days</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <section class="wrap section">
+    <h2 class="section-heading" data-reveal>Every destination</h2>
+    <div class="notfound__map">
+      {continents.map((continent) => (
+        <div class="notfound__continent" data-reveal>
+          <h3>
+            <a href={`/continents/${continent.slug}/`}>{continent.name}</a>
+            <span class="flyout__count">{continent.itineraryCount}</span>
+          </h3>
+          <ul>
+            {continent.countries.map((country) => (
+              <li>
+                <a href={`/?country=${encodeURIComponent(country.name)}`}>
+                  {country.name}
+                  <span class="flyout__count">{country.itineraries.length}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+  </section>
+</Base>
