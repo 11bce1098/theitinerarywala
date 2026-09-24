@@ -21,6 +21,7 @@ export const COUNTRIES = {
   France:     { continent: 'europe', region: 'Western Europe',  currency: 'EUR' },
   Spain:      { continent: 'europe', region: 'Southern Europe', currency: 'EUR' },
   Russia:     { continent: 'europe', region: 'Eastern Europe',  currency: 'RUB' },
+  USA:        { continent: 'north-america', region: 'United States', currency: 'USD' },
 };
 
 export const CONTINENTS = [
