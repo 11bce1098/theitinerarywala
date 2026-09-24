@@ -11,8 +11,8 @@ publishDate: 2026-09-24
 draft: false
 ---
 
-Our first two USA guides ([East Coast](/guides/usa-east-coast),
-[West classic](/guides/usa-west-coast)) were built to need no car.
+Our first two USA guides ([East Coast](/itineraries/usa-east-coast-guide/),
+[West classic](/itineraries/usa-west-coast-guide/)) were built to need no car.
 This one is the opposite: the car *is* the trip. The Pacific Coast
 Highway between Los Angeles and Monterey is the drive every rental
 ad has been imitating for fifty years — surf on one side, cliffs
@@ -41,7 +41,7 @@ All costs are in US dollars (USD).
 The **~$435-per-person** US visa reality ($185 + $250 Integrity
 Fee), the **6–12 month UAE appointment waits**, ESTA for Visa
 Waiver passports — all covered in depth in our
-[East Coast guide](/guides/usa-east-coast). Start it 8–12 months
+[East Coast guide](/itineraries/usa-east-coast-guide/). Start it 8–12 months
 out; nothing below matters without it.
 
 ### Driving in America — the honest briefing
@@ -273,7 +273,7 @@ digital pass (7 days)** on Recreation.gov to skip the gate queue.
   North Beach (~$25–35).
 
 **Where to stay in San Francisco:** our
-[West Coast guide](/guides/usa-west-coast) has the verified
+[West Coast guide](/itineraries/usa-west-coast-guide/) has the verified
 three tiers — **Argonaut** (4.5/5, Wharf luxury), **Hotel Caza**
 (4.3/5, family mid-range), **Chancellor on Union Square**
 (4.5/5, the value classic).
@@ -281,7 +281,7 @@ three tiers — **Argonaut** (4.5/5, Wharf luxury), **Hotel Caza**
 ## Days 8–9 — San Francisco, the short version
 
 Two days, fully detailed as Days 7–9 in the
-[West Coast guide](/guides/usa-west-coast); the compressed plan:
+[West Coast guide](/itineraries/usa-west-coast-guide/); the compressed plan:
 
 - **Day 8** — **Alcatraz first ferry** (~$48 — **book 90 days
   out**, it sells out weeks ahead), Pier 39 sea lions, chowder

@@ -5,13 +5,13 @@ days: 10
 budgetAmount: 3000
 budgetCurrency: "USD"
 route: "Los Angeles → Las Vegas → Grand Canyon → San Francisco"
-bestFor: "First-time visitors"
+bestFor: "Cities + canyons"
 summary: "The second America: Hollywood and the Pacific, the neon absurdity of Las Vegas with the Grand Canyon and Antelope Canyon a day-tour away, then San Francisco's fog, cable cars and Alcatraz — three flights, no rental car, and the honest maths on resort fees and 4 a.m. canyon buses."
 publishDate: 2026-09-24
 draft: false
 ---
 
-If our [East Coast guide](/guides/usa-east-coast) is America's
+If our [East Coast guide](/itineraries/usa-east-coast-guide/) is America's
 history and skyline, this is its fantasy and geology. Los Angeles
 is the world's dream factory sprawled along a beach; Las Vegas is
 the desert's fever dream — and, more usefully, the gateway to the
@@ -38,7 +38,7 @@ passport ($185 MRV + $250 Visa Integrity Fee), the **6–12 month
 appointment waits from the UAE** since the July 2026 service
 suspension, the 10-year B1/B2 consolation, ESTA for Visa Waiver
 passports — is covered in depth in our
-[East Coast guide](/guides/usa-east-coast). The one-line version:
+[East Coast guide](/itineraries/usa-east-coast-guide/). The one-line version:
 **start the visa 8–12 months before you fly**, via
 ustraveldocs.com, and let nothing else be booked non-refundable
 until it's stamped.

@@ -36,7 +36,7 @@ is a feature). All costs are in euros (EUR).
 ### Visa and borders
 
 Schengen rules are covered in depth in our
-[France guide](/guides/france-9-days); the essentials: ~60
+[France guide](/itineraries/france-9-days-guide/); the essentials: ~60
 nationalities enter visa-free (the **EES biometric border** is
 live — allow extra time at first entry — and the **€20 ETIAS**
 authorisation is expected from late 2026); Schengen-visa
@@ -348,7 +348,7 @@ flights excluded:
 | **Total for two** | **{{EUR 3700}}** |
 
 - Roughly **{{EUR 1850}} per person** — the priciest of our
-  European triangles (compare [Spain at €1,400](/guides/spain-10-days)):
+  European triangles (compare [Spain at €1,400](/itineraries/spain-10-days-guide/)):
   Venice's beds and Italy's ticket-everything culture are the
   difference. Mestre nights, bacaro dinners and free-church
   art (half the Renaissance hangs in churches) pull it toward
