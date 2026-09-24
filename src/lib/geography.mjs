@@ -23,6 +23,7 @@ export const COUNTRIES = {
   Italy:      { continent: 'europe', region: 'Southern Europe', currency: 'EUR' },
   Russia:     { continent: 'europe', region: 'Eastern Europe',  currency: 'RUB' },
   USA:        { continent: 'north-america', region: 'United States', currency: 'USD' },
+  Mexico:     { continent: 'north-america', region: 'Mexico and Central America', currency: 'MXN' },
 };
 
 export const CONTINENTS = [
