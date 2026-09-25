@@ -300,7 +300,7 @@ Two days, fully detailed as Days 7–9 in the
 
 ## Day 10 — Home from SFO
 
-- **Morning** — BART to SFO (30 min, $11), direct Gulf flights
+- **Morning** — BART to SFO (30 min, $11), then long-haul
   home. One thousand miles of California in the rear-view;
   the car went back days ago.
 

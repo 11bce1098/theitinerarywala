@@ -103,7 +103,8 @@ Stay in the **centro storico** (Pantheon/Navona — walk
 everywhere, pay for it) or **Monti** (village-in-the-city near
 the Colosseum, our pick for value).
 
-- **Afternoon** — Land at FCO (direct Gulf flights ~6.5 h).
+- **Afternoon** — Land at FCO, which takes non-stops from most
+  of the world.
   **Leonardo Express** to Termini (€14, 32 min), check in.
 - **17:30** — First passeggiata: **Piazza Navona** → the
   **Pantheon's** porch (interior tomorrow — it's ticketed now)

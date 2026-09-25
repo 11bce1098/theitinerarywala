@@ -100,7 +100,8 @@ sunsets. All costs are in pounds sterling (GBP).
 Stay around **Covent Garden/Strand** (walk everywhere, theatres
 at the door) or **South Bank/Westminster** (the view side).
 
-- **Afternoon** — Land LHR (direct Gulf flights ~7.5 h).
+- **Afternoon** — Land LHR, which takes non-stops from
+  practically anywhere.
   **Elizabeth line** into town (~£13–14, 35 min), check in.
 - **17:30** — The single best first walk in Europe:
   **Westminster Bridge → Big Ben and Parliament → Whitehall →

@@ -236,7 +236,7 @@ excluded:
   and one of the cheapest anywhere in this format; swapping the
   car for group tours cuts further, and there is almost nothing
   here to overspend on, which is part of the charm.
-- **Book in this order:** flights (the Gulf directs sell out
+- **Book in this order:** flights (the non-stops sell out
   around Eid and summer) → visa if needed (Indians: 3+ weeks) →
   July–August lodging in Uzungol and Ayder → the car → everything
   else on arrival.

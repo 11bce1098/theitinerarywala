@@ -120,7 +120,7 @@ fail at most shop terminals.
 Stay near **Wangfujing/Dongcheng** — walking distance to the
 Forbidden City, metro everywhere.
 
-- **Afternoon** — Land at PEK or Daxing (direct Gulf flights
+- **Afternoon** — Land at PEK or Daxing (non-stop from many hubs,
   ~8 h). Airport Express + metro in (~¥30–35), or DiDi ~¥100–150.
 - **17:30** — Legs-stretch on **Wangfujing** and the snack
   street, drifting toward **Qianmen's** restored Qing-era

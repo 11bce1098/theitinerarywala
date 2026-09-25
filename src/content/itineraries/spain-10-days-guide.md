@@ -82,7 +82,7 @@ outside the big-city centres.
   **~2h30**. Security X-ray before boarding — arrive 20–30 min
   early.
 - **Fly open-jaw**: into Barcelona, home from Seville (or via a
-  cheap Seville–Gulf routing through Madrid) — no backtracking.
+  cheap Seville routing through Madrid) — no backtracking.
 
 ### SIM, apps, kids
 

@@ -91,7 +91,8 @@ bookings remain the file's spine.
 Stay in the **Altstadt** (walk everywhere) or by the
 **Hauptbahnhof** (cheaper, connected, 12 minutes' walk in).
 
-- **Afternoon** — Land MUC (direct Gulf flights ~6.5 h);
+- **Afternoon** — Land MUC (non-stop from most of Europe, the
+  Gulf and North America);
   S-Bahn or Lufthansa Express bus in (~€13–15, 40 min).
 - **17:30** — First walk: **Marienplatz** — the neo-Gothic
   Rathaus with its glockenspiel silent until morning — through
@@ -290,7 +291,7 @@ Two brilliant days; pick by weather (webcams decide):
 ## Day 10 — Home from BER
 
 - **Morning** — Airport Express from Hbf (~30 min). Direct
-  Gulf flights home. Two Germanys, one train line, zero
+  flights home. Two Germanys, one train line, zero
   rental cars.
 
 ## What this trip actually costs
