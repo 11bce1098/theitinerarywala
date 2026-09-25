@@ -22,6 +22,7 @@ export const COUNTRIES = {
   Thailand:   { continent: 'asia',   region: 'Southeast Asia',  currency: 'THB' },
   Vietnam:    { continent: 'asia',   region: 'Southeast Asia',  currency: 'VND' },
   Australia:  { continent: 'oceania', region: 'Australia',      currency: 'AUD' },
+  'New Zealand': { continent: 'oceania', region: 'New Zealand', currency: 'NZD' },
   Bhutan:     { continent: 'asia',   region: 'South Asia',      currency: 'BTN' },
   Maldives:   { continent: 'asia',   region: 'South Asia',      currency: 'MVR' },
   Nepal:      { continent: 'asia',   region: 'South Asia',      currency: 'NPR' },
