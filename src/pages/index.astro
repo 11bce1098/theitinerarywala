@@ -9,6 +9,7 @@ import ValueProps from '../components/ValueProps.astro';
 import { website, itemList } from '../lib/schema';
 import { STYLES, stylesFor } from '../lib/styles.mjs';
 import { getRates, convert } from '../lib/rates.mjs';
+import { DAY_BANDS, BUDGET_BANDS, bandsWithTrips } from '../lib/finder.mjs';
 
 /**
  * The homepage is a landing page, not the catalogue — that lives at
@@ -40,6 +41,11 @@ const perDay = new Map(
     return [itin.id, usd / itin.data.days];
   }),
 );
+// The finder offers only bands that lead somewhere, and must agree with the
+// catalogue it submits to — both derive them the same way from the same data.
+const dayBands = bandsWithTrips(DAY_BANDS, itineraries.map((i) => i.data.days));
+const budgetBands = bandsWithTrips(BUDGET_BANDS, [...perDay.values()]);
+
 const styleGroups = STYLES.map((style) => {
   const matches = itineraries.filter((i) => stylesFor(i, perDay.get(i.id)).includes(style.slug));
   return {
@@ -101,6 +107,9 @@ const steps = [
   { n: '04', title: 'Book and go', body: 'Use the recommended links and spend less time on the logistics.' },
 ];
 
+// Every country with a trip, for the finder's type-ahead.
+const allCountries = [...new Set(itineraries.map((i) => i.data.country))].sort();
+
 const jsonLd = [
   website(),
   itemList('Popular trip plans', popular.map((i) => ({
@@ -133,28 +142,58 @@ const jsonLd = [
 
   <section class="wrap section find" aria-labelledby="find-heading">
     <h2 class="section-heading" id="find-heading" data-reveal>Where do you want to go?</h2>
+    <p class="section-sub" data-reveal>
+      Answer as much or as little as you like — every box is optional.
+    </p>
     <div class="find__inner" data-reveal>
       <form class="find__form" action="/itineraries/" method="get" role="search">
-        <label class="sr-only" for="home-search">Search a country or destination</label>
-        <svg class="find__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" />
-          <path d="M16.5 16.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-        </svg>
-        <input
-          id="home-search"
-          type="search"
-          name="q"
-          placeholder="Search a country or destination…"
-          autocomplete="off"
-        />
-        <button class="btn btn--solid" type="submit">Search</button>
+        <div class="find__field find__field--where">
+          <label for="home-search">Where</label>
+          <div class="find__input">
+            <svg class="find__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" />
+              <path d="M16.5 16.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+            <input
+              id="home-search"
+              type="search"
+              name="q"
+              list="finder-countries"
+              placeholder="Anywhere — or a country, city or region"
+              autocomplete="off"
+            />
+          </div>
+          <datalist id="finder-countries">
+            {allCountries.map((name) => <option value={name}></option>)}
+          </datalist>
+        </div>
+
+        <div class="find__field">
+          <label for="home-days">How long</label>
+          <select id="home-days" name="days">
+            <option value="">Any length</option>
+            {dayBands.map((band) => <option value={band.slug}>{band.label} · {band.short}</option>)}
+          </select>
+        </div>
+
+        <div class="find__field">
+          <label for="home-budget">Budget</label>
+          <select id="home-budget" name="budget">
+            <option value="">Any budget</option>
+            {budgetBands.map((band) => (
+              <option value={band.slug}>{band.label} · {band.short}</option>
+            ))}
+          </select>
+        </div>
+
+        <button class="btn btn--solid find__go" type="submit">Find trips</button>
       </form>
       <p class="find__suggest">
         <span>Popular:</span>
         {topCountries.map((name) => (
           <a href={`/destinations/${countrySlug(name)}/`}>{name}</a>
         ))}
-        <a class="find__all" href="#destinations">Explore all destinations →</a>
+        <a class="find__all" href="/itineraries/">Browse every trip &rarr;</a>
       </p>
     </div>
   </section>

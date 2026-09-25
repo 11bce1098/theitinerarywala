@@ -2382,12 +2382,30 @@ body.nav-open { overflow: hidden; }
   background: var(--card);
 }
 .find .section-heading { font-size: clamp(1.3rem, 2.4vw, 1.7rem); }
+.find .section-sub { margin: 0.4rem 0 1rem; }
+
+/**
+ * The finder is four controls on one line at desk width and a stack on a
+ * phone. Fields carry their own label rather than relying on placeholders,
+ * because a placeholder disappears the moment someone answers.
+ */
 .find__form {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) repeat(2, minmax(0, 1fr)) auto;
+  align-items: end;
+  gap: 0.7rem;
 }
+.find__field { display: flex; flex-direction: column; gap: 0.35rem; min-width: 0; }
+.find__field label,
+.finder__field label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.find__input { position: relative; display: flex; }
+.find__field { justify-content: flex-end; }
 .find__icon {
   position: absolute;
   left: 0.85rem;
@@ -2398,17 +2416,90 @@ body.nav-open { overflow: hidden; }
   color: var(--ink-soft);
   pointer-events: none;
 }
-.find__form input {
-  flex: 1 1 16rem;
+/*
+ * A search input and a select don't resolve to the same height from equal
+ * padding — the input came out 6px taller, which knocked its label out of
+ * line with the others. Pinning one height keeps the row honest.
+ */
+.find__form input,
+.find__form select,
+.find__go,
+.finder__field input,
+.finder__field select {
+  height: var(--control-h, 3rem);
+  width: 100%;
   min-width: 0;
-  padding: 0.72rem 0.9rem 0.72rem 2.6rem;
+  padding: 0 0.9rem;
+  line-height: normal;
   font: inherit;
   color: var(--ink);
   background: var(--paper);
   border: 1px solid var(--line);
   border-radius: var(--radius);
 }
-.find__form input:focus-visible { outline: 3px solid var(--marigold); outline-offset: 2px; }
+.find__form input { padding-left: 2.6rem; }
+.find__form input:focus-visible,
+.find__form select:focus-visible,
+.finder__field input:focus-visible,
+.finder__field select:focus-visible {
+  outline: 3px solid var(--marigold);
+  outline-offset: 2px;
+}
+.find__go { width: auto; white-space: nowrap; }
+
+@media (max-width: 52rem) {
+  .find__form { grid-template-columns: 1fr; }
+  .find__go { width: 100%; }
+}
+
+/* --- the same finder, on the catalogue --------------------------------- */
+.finder {
+  padding: 1.1rem 1.2rem;
+  margin-bottom: 1.6rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+}
+/*
+ * Explicit columns rather than auto-fit: auto-fit fitted three across on a
+ * tablet and left the fourth control stranded on its own row, and squeezed
+ * the selects on a phone until "Nine to twelve days" was clipped.
+ */
+.finder__fields {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.7rem;
+}
+@media (max-width: 64rem) {
+  .finder__fields { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 30rem) {
+  .finder__fields { grid-template-columns: 1fr; }
+}
+.finder__field { display: flex; flex-direction: column; gap: 0.35rem; min-width: 0; }
+.finder__status {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0.9rem 0 0;
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+}
+.finder__status strong { color: var(--ink); }
+.finder__clear {
+  margin-left: auto;
+  padding: 0.3rem 0.7rem;
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--teal);
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  cursor: pointer;
+}
+.finder__clear:hover { border-color: var(--teal); }
+
 .find__suggest {
   display: flex;
   flex-wrap: wrap;

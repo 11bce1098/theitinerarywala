@@ -6,6 +6,7 @@ import Budget from '../../components/Budget.astro';
 import { regionFor, continentFor, countrySlug, CONTINENTS } from '../../lib/geography.mjs';
 import { getRates, convert } from '../../lib/rates.mjs';
 import { breadcrumbs, itemList } from '../../lib/schema';
+import { DAY_BANDS, BUDGET_BANDS, perDay, bandsWithTrips } from '../../lib/finder.mjs';
 
 const itineraries = (await getCollection('itineraries', ({ data }) => !data.draft))
   .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
@@ -34,10 +35,16 @@ function budgetValue(amount: number | undefined, currency: string): number {
   const usd = convert(amount, currency, 'USD', rateData?.rates);
   return usd ?? amount;
 }
+// Only offer a band that leads somewhere; see bandsWithTrips.
+const rates = itineraries.map((i) => perDay(
+  budgetValue(i.data.budgetAmount, i.data.budgetCurrency), i.data.days,
+));
+const dayBands = bandsWithTrips(DAY_BANDS, itineraries.map((i) => i.data.days));
+const budgetBands = bandsWithTrips(BUDGET_BANDS, rates);
 ---
 <Base
   title="All itineraries — The Itinerary Wala"
-  description="Every day-by-day itinerary on the site, with realistic pacing and budgets in real numbers. Filter by country, or sort by length or budget."
+  description="Every day-by-day itinerary on the site, with realistic pacing and budgets in real numbers. Narrow by destination, trip length and budget per day."
   jsonLd={jsonLd}
 >
   <section class="page-hero">
@@ -50,35 +57,54 @@ function budgetValue(amount: number | undefined, currency: string): number {
       </nav>
       <h1 data-reveal>All itineraries</h1>
       <p class="page-hero__lede" data-reveal>
-        Every route on the site. Filter by country, or sort by length or
-        budget.
+        Every route on the site. Narrow it down by where you fancy, how long
+        you have, and what you want to spend a day.
       </p>
     </div>
   </section>
 
   <section class="wrap" id="all">
-    {countries.length > 1 && (
-      <div class="filters" data-reveal>
-        <div class="filters__group" role="group" aria-label="Filter by country">
-          <button class="chip" type="button" data-filter="all" aria-pressed="true">
-            All
-          </button>
-          {countries.map((country) => (
-            <button class="chip" type="button" data-filter={country} aria-pressed="false">
-              {country}
-            </button>
-          ))}
+    <form class="finder" data-finder data-reveal>
+      <div class="finder__fields">
+        <div class="finder__field">
+          <label for="f-q">Where</label>
+          <input id="f-q" type="search" name="q" list="finder-countries"
+                 placeholder="Anywhere" autocomplete="off" data-search />
+          <datalist id="finder-countries">
+            {countries.map((name) => <option value={name}></option>)}
+          </datalist>
         </div>
-        <label class="filters__sort">
-          <span>Sort</span>
-          <select data-sort>
+        <div class="finder__field">
+          <label for="f-days">How long</label>
+          <select id="f-days" name="days">
+            <option value="">Any length</option>
+            {dayBands.map((band) => <option value={band.slug}>{band.label} · {band.short}</option>)}
+          </select>
+        </div>
+        <div class="finder__field">
+          <label for="f-budget">Budget</label>
+          <select id="f-budget" name="budget">
+            <option value="">Any budget</option>
+            {budgetBands.map((band) => (
+              <option value={band.slug}>{band.label} · {band.short}</option>
+            ))}
+          </select>
+        </div>
+        <div class="finder__field">
+          <label for="f-sort">Sort by</label>
+          <select id="f-sort" data-sort>
             <option value="newest">Newest</option>
             <option value="shortest">Shortest trip</option>
             <option value="cheapest">Lowest budget</option>
           </select>
-        </label>
+        </div>
       </div>
-    )}
+      <p class="finder__status">
+        <strong data-count>{itineraries.length}</strong>
+        <span data-count-label>trips</span>
+        <button class="finder__clear" type="button" data-clear hidden>Clear filters</button>
+      </p>
+    </form>
 
       <div data-grid>
         {groups.map((group, gi) => (
@@ -99,6 +125,7 @@ function budgetValue(amount: number | undefined, currency: string): number {
               data-search-text={`${itin.data.title} ${itin.data.country} ${itin.data.summary} ${itin.data.bestFor}`.toLowerCase()}
               data-days={itin.data.days}
               data-budget-usd={budgetValue(itin.data.budgetAmount, itin.data.budgetCurrency)}
+              data-per-day={perDay(budgetValue(itin.data.budgetAmount, itin.data.budgetCurrency), itin.data.days) ?? ''}
               data-date={itin.data.publishDate.valueOf()}
             >
               <div class="itinerary-card__cover">
@@ -137,14 +164,26 @@ function budgetValue(amount: number | undefined, currency: string): number {
 </Base>
 
 <script>
-  // --- filter + sort ---------------------------------------------------
+  import { DAY_BANDS, BUDGET_BANDS, inBand } from '../../lib/finder.mjs';
+
   const grid = document.querySelector<HTMLElement>('[data-grid]');
   const empty = document.querySelector<HTMLElement>('[data-empty]');
-  const chips = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-filter]'));
-  const sortSelect = document.querySelector<HTMLSelectElement>('[data-sort]');
+  const form = document.querySelector<HTMLFormElement>('[data-finder]');
 
-  if (grid) {
+  if (grid && form) {
     const cards = Array.from(grid.querySelectorAll<HTMLElement>('.itinerary-card'));
+    const sortSelect = form.querySelector<HTMLSelectElement>('[data-sort]')!;
+    const daysSelect = form.querySelector<HTMLSelectElement>('[name="days"]')!;
+    const budgetSelect = form.querySelector<HTMLSelectElement>('[name="budget"]')!;
+    const countEl = form.querySelector<HTMLElement>('[data-count]')!;
+    const countLabel = form.querySelector<HTMLElement>('[data-count-label]')!;
+    const clearBtn = form.querySelector<HTMLButtonElement>('[data-clear]')!;
+
+    // The header carries a search box on every page; on this one it should
+    // drive the grid rather than reload it, so both inputs stay in step.
+    const searches = Array.from(document.querySelectorAll<HTMLInputElement>('[data-search]'));
+
+    let query = '';
     let activeCountry = 'all';
 
     const comparators: Record<string, (a: HTMLElement, b: HTMLElement) => number> = {
@@ -153,53 +192,72 @@ function budgetValue(amount: number | undefined, currency: string): number {
       cheapest: (a, b) => Number(a.dataset.budgetUsd) - Number(b.dataset.budgetUsd),
     };
 
-    const search = document.querySelector<HTMLInputElement>('[data-search]');
-    let query = '';
-
-    // Footer and menu links arrive as /?country=Georgia — honour that on load,
-    // along with ?q= so a search can be shared or linked to.
+    /** The homepage finder submits here, so read its answers back off the URL. */
     const params = new URLSearchParams(location.search);
-    const requested = params.get('country');
-    if (requested && chips.some((c) => c.dataset.filter === requested)) {
-      activeCountry = requested;
-      chips.forEach((c) => c.setAttribute('aria-pressed', String(c.dataset.filter === requested)));
+    const initialQuery = params.get('q');
+    if (initialQuery) {
+      query = initialQuery.trim().toLowerCase();
+      searches.forEach((el) => { el.value = initialQuery; });
     }
-    const requestedQuery = params.get('q');
-    if (requestedQuery && search) {
-      query = requestedQuery.trim().toLowerCase();
-      search.value = requestedQuery;
+    // Older inbound links used ?country=; still honour them.
+    const requestedCountry = params.get('country');
+    if (requestedCountry) activeCountry = requestedCountry;
+    for (const [param, select, bands] of [
+      ['days', daysSelect, DAY_BANDS],
+      ['budget', budgetSelect, BUDGET_BANDS],
+    ] as const) {
+      const value = params.get(param);
+      if (value && bands.some((b) => b.slug === value)) select.value = value;
     }
 
-    /** Keeps the URL in step so a filtered view can be shared. */
     const syncUrl = () => {
       const url = new URL(location.href);
-      if (activeCountry === 'all') url.searchParams.delete('country');
-      else url.searchParams.set('country', activeCountry);
-      if (query) url.searchParams.set('q', query);
-      else url.searchParams.delete('q');
+      for (const [key, value] of [
+        ['q', query],
+        ['days', daysSelect.value],
+        ['budget', budgetSelect.value],
+        ['country', activeCountry === 'all' ? '' : activeCountry],
+      ]) {
+        if (value) url.searchParams.set(key, value);
+        else url.searchParams.delete(key);
+      }
       history.replaceState(null, '', url);
     };
 
     const apply = () => {
+      const days = DAY_BANDS.find((b) => b.slug === daysSelect.value);
+      const budget = BUDGET_BANDS.find((b) => b.slug === budgetSelect.value);
       let visible = 0;
+
       for (const card of cards) {
-        const byCountry = activeCountry === 'all' || card.dataset.country === activeCountry;
+        const length = Number(card.dataset.days);
+        const rate = card.dataset.perDay ? Number(card.dataset.perDay) : null;
+
         const byQuery = !query || (card.dataset.searchText ?? '').includes(query);
-        const match = byCountry && byQuery;
+        const byCountry = activeCountry === 'all' || card.dataset.country === activeCountry;
+        const byDays = !days || inBand(days, length);
+        // A trip with no budget on it can't honestly answer a budget
+        // question, so it drops out rather than guessing its way in.
+        const byBudget = !budget || inBand(budget, rate);
+
+        const match = byQuery && byCountry && byDays && byBudget;
         card.hidden = !match;
         if (match) visible++;
       }
+
       // A continent heading with nothing under it reads as a dead end, so
       // sections fold away when the filter empties them.
       for (const section of grid.querySelectorAll<HTMLElement>('[data-group]')) {
-        const any = Array.from(section.querySelectorAll<HTMLElement>('.itinerary-card'))
+        section.hidden = !Array.from(section.querySelectorAll<HTMLElement>('.itinerary-card'))
           .some((card) => !card.hidden);
-        section.hidden = !any;
       }
 
       if (empty) empty.hidden = visible > 0;
+      countEl.textContent = String(visible);
+      countLabel.textContent = visible === 1 ? 'trip' : 'trips';
+      clearBtn.hidden = !query && !daysSelect.value && !budgetSelect.value && activeCountry === 'all';
 
-      const order = comparators[sortSelect?.value ?? 'newest'] ?? comparators.newest;
+      const order = comparators[sortSelect.value] ?? comparators.newest;
       // Reordering via `order` keeps the grid from re-running entry
       // animations the way re-appending the nodes would.
       [...cards].sort(order).forEach((card, i) => {
@@ -207,39 +265,48 @@ function budgetValue(amount: number | undefined, currency: string): number {
       });
     };
 
-    chips.forEach((chip) => {
-      chip.addEventListener('click', () => {
-        activeCountry = chip.dataset.filter!;
-        chips.forEach((c) => c.setAttribute('aria-pressed', String(c === chip)));
-        syncUrl();
-        apply();
-      });
-    });
-    sortSelect?.addEventListener('change', apply);
+    const update = () => { syncUrl(); apply(); };
 
-    // The search input lives in the header; on this page it filters in place
-    // rather than submitting and reloading.
+    // Filtering happens live, so submitting would only throw the answer away.
+    form.addEventListener('submit', (event) => event.preventDefault());
     document
       .querySelector<HTMLFormElement>('[data-search-form]')
       ?.addEventListener('submit', (event) => event.preventDefault());
 
-    search?.addEventListener('input', () => {
-      query = search.value.trim().toLowerCase();
-      syncUrl();
-      apply();
+    daysSelect.addEventListener('change', update);
+    budgetSelect.addEventListener('change', update);
+    sortSelect.addEventListener('change', apply);
+
+    searches.forEach((input) => {
+      input.addEventListener('input', () => {
+        query = input.value.trim().toLowerCase();
+        searches.forEach((other) => { if (other !== input) other.value = input.value; });
+        update();
+      });
+    });
+
+    clearBtn.addEventListener('click', () => {
+      query = '';
+      activeCountry = 'all';
+      daysSelect.value = '';
+      budgetSelect.value = '';
+      searches.forEach((el) => { el.value = ''; });
+      update();
     });
 
     apply();
 
-    // Live rates land after first paint; re-sort if cheapest-first is active.
+    // Live rates land after first paint; budgets shift, so recompute both the
+    // per-day figure the budget filter reads and the cheapest-first order.
     document.addEventListener('rates:updated', () => {
-      const cards = Array.from(grid.querySelectorAll<HTMLElement>('.itinerary-card'));
       for (const card of cards) {
         const el = card.querySelector<HTMLElement>('[data-budget]');
-        if (el?.dataset.usd) card.dataset.budgetUsd = el.dataset.usd;
+        if (!el?.dataset.usd) continue;
+        card.dataset.budgetUsd = el.dataset.usd;
+        const days = Number(card.dataset.days);
+        card.dataset.perDay = days ? String(Number(el.dataset.usd) / days) : '';
       }
       apply();
     });
   }
-
 </script>
