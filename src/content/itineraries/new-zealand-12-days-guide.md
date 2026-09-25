@@ -5,6 +5,8 @@ days: 12
 budgetAmount: 4250
 budgetCurrency: "NZD"
 route: "Auckland → Rotorua → Queenstown → Aoraki/Mt Cook → Christchurch"
+heroImage: "/images/new-zealand.jpeg"
+heroWide: "/images/new-zealand-wide.jpeg"
 bestFor: "Road trip + adventure"
 summary: "Hobbiton's front doors, a geothermal city that smells of sulphur and legends, the mountain amphitheatre of Queenstown and a fiord that's better in the rain — both islands in 12 days, with the visa maths, the driving truths and the booking order that make both islands work in twelve days."
 publishDate: 2026-09-25

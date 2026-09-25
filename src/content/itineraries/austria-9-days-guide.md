@@ -5,6 +5,8 @@ days: 9
 budgetAmount: 1750
 budgetCurrency: "EUR"
 route: "Vienna → Hallstatt → Salzburg"
+heroImage: "/images/austria.jpeg"
+heroWide: "/images/austria-wide.jpeg"
 bestFor: "First-time visitors"
 summary: "The empire, the lake village and the Sound of Music: four Viennese days of palaces, Klimt and €15 opera (the standing-ticket hack), a night in Hallstatt so you own it at dawn, then Salzburg's fortress and singing hills — with the café-culture rulebook and the ferry arrival that built a million posts."
 publishDate: 2026-09-25

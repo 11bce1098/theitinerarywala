@@ -5,6 +5,8 @@ days: 10
 budgetAmount: 1800
 budgetCurrency: "USD"
 route: "Cairo → Luxor → Aswan → Abu Simbel"
+heroImage: "/images/egypt.jpeg"
+heroWide: "/images/egypt-wide.jpeg"
 bestFor: "First-time visitors"
 summary: "The oldest trip on earth, run like clockwork: the Pyramids at gate-opening, Tutankhamun's whole treasury in the new Grand Egyptian Museum, four nights floating Luxor to Aswan past temples that predate everything you've ever seen, and the sunrise colossi of Abu Simbel — with the baksheesh decoder, the card-only ticket update, and every classic hustle pre-empted."
 publishDate: 2026-09-25

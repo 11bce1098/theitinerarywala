@@ -5,6 +5,8 @@ days: 8
 budgetAmount: 23000
 budgetCurrency: "SCR"
 route: "Mahé → Praslin → La Digue"
+heroImage: "/images/seychelles.jpeg"
+heroWide: "/images/seychelles-wide.jpeg"
 bestFor: "Beaches + island-hopping"
 summary: "The one country that lets everyone in without a visa: three islands by ferry, the beach every screensaver stole, a prehistoric palm forest and giant tortoises who own the road — with the self-catering tricks that make the Indian Ocean's priciest postcard surprisingly affordable."
 publishDate: 2026-09-25

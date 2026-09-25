@@ -5,6 +5,8 @@ days: 7
 budgetAmount: 1750
 budgetCurrency: "USD"
 route: "Beach island → water villa"
+heroImage: "/images/maldives.jpeg"
+heroWide: "/images/maldives-wide.jpeg"
 bestFor: "Couples + honeymoons"
 summary: "The Maldives on real money: three local-island days of whale sharks, sandbanks and $80 guesthouse nights — then three water-villa days with the glass floor and the floating breakfast. Free visa for every passport, the ++ resort-bill decoder, the transfer trap after 3pm, and the dress-and-alcohol rules nobody explains until you land."
 publishDate: 2026-09-25

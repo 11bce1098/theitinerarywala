@@ -5,6 +5,8 @@ days: 10
 budgetAmount: 2500
 budgetCurrency: "CHF"
 route: "Lucerne → Jungfrau → Zermatt"
+heroImage: "/images/switzerland.jpeg"
+heroWide: "/images/switzerland-wide.jpeg"
 bestFor: "First-time visitors"
 summary: "The rail-perfect classic: Lucerne's lake and a revolving cable car, four Jungfrau days from the Top of Europe to Lauterbrunnen's 72 waterfalls, then the Matterhorn filling a sunrise train window — with the Swiss Travel Pass maths that tames Europe's priciest country, the picnic strategy that halves the food bill, and the weather rule that saves the big-ticket days."
 publishDate: 2026-09-25

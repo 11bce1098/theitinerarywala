@@ -5,6 +5,8 @@ days: 10
 budgetAmount: 10500
 budgetCurrency: "MAD"
 route: "Marrakech → the Sahara → Fes → Chefchaouen"
+heroImage: "/images/morocco.jpeg"
+heroWide: "/images/morocco-wide.jpeg"
 bestFor: "Adventure + culture"
 summary: "The full Morocco arc: Marrakech's drumming square and blue gardens, over the Atlas to a night among Sahara dunes (camels, drums, the Milky Way), the medieval maze of Fes, a blue town in the mountains and a mosque on the ocean — with the e-visa Indians now get directly, the haggling rulebook, and every classic hustle answered in advance."
 publishDate: 2026-09-25

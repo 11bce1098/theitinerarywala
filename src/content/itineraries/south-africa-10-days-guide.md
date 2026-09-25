@@ -5,6 +5,8 @@ days: 10
 budgetAmount: 41000
 budgetCurrency: "ZAR"
 route: "Cape Town → the Winelands → Kruger"
+heroImage: "/images/south-africa.jpeg"
+heroWide: "/images/south-africa-wide.jpeg"
 bestFor: "Safari + city"
 summary: "The two-in-one trip nothing else matches: a mountain-backed city with penguins on the beach, then a flight that lands inside a national park the size of a country — with the brand-new online ETA for Indian passports decoded, the safety rules locals actually follow, and the honest maths of a Big Five safari."
 publishDate: 2026-09-25

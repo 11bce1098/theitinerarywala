@@ -5,6 +5,8 @@ days: 7
 budgetAmount: 55000
 budgetCurrency: "BTN"
 route: "Thimphu → Punakha → Paro"
+heroImage: "/images/bhutan.jpeg"
+heroWide: "/images/bhutan-wide.jpeg"
 bestFor: "Culture + mountains"
 summary: "The kingdom that measures happiness: a monastery glued to a cliff, dzongs the size of walled towns, 108 chortens on a Himalayan pass and a hot-stone bath in a farmhouse — with the Indian-passport advantage decoded (₹1,200-a-night SDF vs $100, no visa, Voter ID accepted) and the permit choreography that makes the whole trip run."
 publishDate: 2026-09-25

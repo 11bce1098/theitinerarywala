@@ -5,6 +5,8 @@ days: 10
 budgetAmount: 2000
 budgetCurrency: "EUR"
 route: "Athens → Mykonos → Santorini"
+heroImage: "/images/greece.jpeg"
+heroWide: "/images/greece-wide.jpeg"
 bestFor: "Couples + first-timers"
 summary: "The Aegean classic with its eyes open: the Acropolis at the 8am slot (the combo ticket is gone — new rules inside), Mykonos decoded sunbed-by-sunbed, then four Santorini days built around the caldera hike, the wine, and the truth about the Oia sunset scrum — plus the Naxos swap that halves the bill for those who'd rather have Greece than the queue."
 publishDate: 2026-09-25
