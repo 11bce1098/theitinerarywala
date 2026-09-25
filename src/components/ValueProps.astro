@@ -2,25 +2,30 @@
 /** Why these plans differ from a generic itinerary — matches the About page. */
 const items = [
   {
-    title: 'Paced for the people travelling',
-    body: 'Drives capped at roughly two hours, big sights before lunch, and nothing that assumes a child will queue quietly for an hour.',
-    icon: 'M12 3v18M5 10l7-7 7 7',
+    title: 'A route that makes sense',
+    body: 'Cities connected in an order that minimises unnecessary travel, so you are not doubling back across a country to see one thing.',
+    icon: 'M4 18c3-1 4-8 8-8s5 3 8 2',
   },
   {
-    title: 'Budgets in real numbers',
-    body: 'Per person, based on mid-range hotels and the tours actually linked on the page — not a range wide enough to be useless.',
-    icon: 'M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18',
+    title: 'A pace you can actually enjoy',
+    body: 'No twelve-hour sightseeing marathons just to tick another attraction off a list. Drives capped, big sights before lunch.',
+    icon: 'M12 7v5l3 2M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Z',
   },
   {
-    title: 'Visa position flagged, not guessed',
-    body: 'What you need depends on your passport, so every plan points you at the authority that can actually answer it rather than pretending one rule fits everyone.',
-    icon: 'M4 6h16M4 12h10M4 18h7',
+    title: 'A budget you can plan around',
+    body: 'Realistic per-person estimates instead of a vague range wide enough to be useless — and every figure converts live.',
+    icon: 'M12 3v18M8 7h6a3 3 0 0 1 0 6H8h6a3 3 0 0 1 0 6H8',
+  },
+  {
+    title: 'The important things flagged',
+    body: 'Visa and entry requirements are called out clearly, pointing at the official source, with the date they were last checked.',
+    icon: 'M6 3v18l6-4 6 4V3Z',
   },
 ];
 ---
 <section class="value-band">
   <div class="value-band__inner">
-    <h2 class="section-heading" data-reveal>Why these plans work</h2>
+    <h2 class="section-heading" data-reveal>Not just places. A plan.</h2>
     <ul class="value-grid">
       {items.map((item, i) => (
         <li class="value-item" data-reveal style={`--stagger:${i}`}>

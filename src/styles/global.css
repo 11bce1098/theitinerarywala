@@ -1838,10 +1838,11 @@ body.nav-open { overflow: hidden; }
   list-style: none;
 }
 .popular__item a {
-  display: grid;
-  gap: 0.2rem;
+  /* The card is now image-on-top, so the link is the frame and
+     .popular__body does the stacking. */
+  display: block;
   height: 100%;
-  padding: 0.9rem 1rem 1rem;
+  overflow: hidden;
   background: var(--card);
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -1878,7 +1879,7 @@ body.nav-open { overflow: hidden; }
 }
 .value-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(13rem, 100%), 1fr));
   gap: 1.5rem;
   margin: 0;
   padding: 0;
@@ -2252,6 +2253,67 @@ body.nav-open { overflow: hidden; }
   font-size: 1.2rem;
   text-align: center;
   color: var(--ink);
+}
+
+
+/* ---- homepage: visual popular cards -------------------------------------
+   These carried the same facts as text while the cards below them had
+   photographs, which made the most important row the flattest one. */
+.popular__art {
+  display: block;
+  position: relative;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  border-radius: var(--radius) var(--radius) 0 0;
+  background: var(--paper);
+}
+.popular__art :is(img, svg) {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.popular__item .popular__days {
+  position: absolute;
+  left: 0.65rem;
+  bottom: 0.65rem;
+  background: rgba(255, 255, 255, 0.93);
+  border-radius: 999px;
+  padding: 0.16rem 0.6rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+.popular__body {
+  display: grid;
+  gap: 0.2rem;
+  padding: 0.85rem 0.95rem 1rem;
+}
+
+/* ---- homepage: meet the author ----------------------------------------- */
+.meet {
+  display: grid;
+  grid-template-columns: minmax(0, 13rem) minmax(0, 1fr);
+  gap: 1.75rem;
+  align-items: center;
+  padding: 1.75rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+}
+.meet__shot {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  display: block;
+}
+.meet__body .section-heading { margin-bottom: 0.7rem; }
+.meet__body p { margin: 0 0 0.7rem; max-width: 52ch; }
+.meet__body .btn { margin-top: 0.3rem; }
+
+@media (max-width: 720px) {
+  .meet { grid-template-columns: 1fr; gap: 1.2rem; padding: 1.25rem; }
+  .meet__shot { max-width: 12rem; }
 }
 
 /* ---- motion opt-out ---------------------------------------------------

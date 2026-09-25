@@ -88,11 +88,22 @@ const destinations = CONTINENTS
         {popular.map((itin, i) => (
           <li class="popular__item" data-reveal style={`--stagger:${i}`}>
             <a href={`/itineraries/${itin.id}/`}>
-              <span class="popular__country">{itin.data.country}</span>
-              <span class="popular__days">{itin.data.days} days</span>
-              <span class="popular__route">{itin.data.route ?? itin.data.title}</span>
-              <span class="popular__price">
-                <Budget amount={itin.data.budgetAmount} currency={itin.data.budgetCurrency} country={itin.data.country} /> / person
+              <span class="popular__art">
+                <CoverArt
+                  seed={itin.id}
+                  country={itin.data.country}
+                  src={itin.data.heroImage}
+                  alt=""
+                  eager={i < 2}
+                />
+                <span class="popular__days">{itin.data.days} days</span>
+              </span>
+              <span class="popular__body">
+                <span class="popular__country">{itin.data.country}</span>
+                <span class="popular__route">{itin.data.route ?? itin.data.title}</span>
+                <span class="popular__price">
+                  <Budget amount={itin.data.budgetAmount} currency={itin.data.budgetCurrency} country={itin.data.country} /> / person
+                </span>
               </span>
             </a>
           </li>
@@ -137,7 +148,7 @@ const destinations = CONTINENTS
 
   <section class="wrap section">
     <div class="popular__head" data-reveal>
-      <h2 class="section-heading">Latest guides</h2>
+      <h2 class="section-heading">More itineraries to explore</h2>
       <a class="popular__all" href="/itineraries/">See all itineraries →</a>
     </div>
     <ul class="itinerary-grid">
@@ -173,4 +184,31 @@ const destinations = CONTINENTS
   </section>
 
   <ValueProps />
+
+  <section class="wrap section">
+    <div class="meet" data-reveal>
+      <img
+        class="meet__shot"
+        src="/images/nitesh-himalaya.jpeg"
+        alt="Nitesh Parasher on a Himalayan pass"
+        width="675"
+        height="900"
+        loading="lazy"
+        decoding="async"
+      />
+      <div class="meet__body">
+        <h2 class="section-heading">Meet the person behind The Itinerary Wala</h2>
+        <p>
+          Hi, I&rsquo;m Nitesh. I&rsquo;m the person friends and family come to
+          when they need someone to plan a trip — routes, hotels, transport,
+          budgets and all the little details in between.
+        </p>
+        <p>
+          After doing it for years, I decided to build those itineraries for
+          everyone.
+        </p>
+        <a class="btn btn--ghost" href="/about/">My story →</a>
+      </div>
+    </div>
+  </section>
 </Base>
