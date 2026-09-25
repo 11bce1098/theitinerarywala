@@ -5,6 +5,7 @@ import CoverArt from '../../components/CoverArt.astro';
 import { groupByContinent } from '../../lib/geography.mjs';
 import Budget from '../../components/Budget.astro';
 import { regionSlug } from '../../lib/geography.mjs';
+import { breadcrumbs, itemList } from '../../lib/schema';
 
 export async function getStaticPaths() {
   const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
@@ -26,6 +27,17 @@ const newest = continent.countries
   .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())[0];
 const shareImage = newest?.data.heroWide ?? newest?.data.heroImage;
 
+const allGuides = continent.countries.flatMap((c) => c.itineraries);
+const jsonLd = [
+  breadcrumbs([
+    { name: 'Itineraries', path: '/itineraries/' },
+    { name: continent.name, path: `/continents/${continent.slug}/` },
+  ]),
+  itemList(`${continent.name} itineraries`, allGuides.map((i) => ({
+    name: i.data.title, path: `/itineraries/${i.id}/`,
+  }))),
+];
+
 const regions = continent.regions
   .filter((r) => !r.comingSoon)
   .map((r) => ({ region: r.name, countries: r.countries }));
@@ -37,6 +49,7 @@ const regions = continent.regions
     ? `${continent.name} itineraries are coming soon to The Itinerary Wala.`
     : `Day-by-day itineraries in ${continent.name}: ${continent.countries.map((c) => c.name).join(', ')}.`}
   image={shareImage}
+  jsonLd={jsonLd}
 >
   <section class="page-hero">
     <div class="wrap">

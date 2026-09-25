@@ -6,6 +6,7 @@ import { regionFor, countrySlug, continentFor, CONTINENTS } from '../lib/geograp
 import { POPULAR } from '../lib/site';
 import Budget from '../components/Budget.astro';
 import ValueProps from '../components/ValueProps.astro';
+import { website, itemList } from '../lib/schema';
 
 /**
  * The homepage is a landing page, not the catalogue. At 29 guides the full
@@ -25,6 +26,13 @@ const latest = itineraries.slice(0, 6);
 
 // Countries grouped under their continent, biggest first inside each, so the
 // browse block reads as a map of what exists rather than an alphabet.
+const jsonLd = [
+  website(),
+  itemList('Popular trip plans', popular.map((i) => ({
+    name: i.data.title, path: `/itineraries/${i.id}/`,
+  }))),
+];
+
 const destinations = CONTINENTS
   .map((c) => {
     const counts = new Map<string, number>();
@@ -50,6 +58,7 @@ const destinations = CONTINENTS
 <Base
   title="The Itinerary Wala — day-by-day travel itineraries"
   description="Day-by-day travel itineraries with realistic pacing, budgets in real numbers, and every stay and tour bookable in one tap."
+  jsonLd={jsonLd}
 >
   <section class="hero">
     <div class="wrap">

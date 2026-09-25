@@ -9,6 +9,7 @@ import {
   continentFor,
   CONTINENTS,
 } from '../../lib/geography.mjs';
+import { breadcrumbs, itemList } from '../../lib/schema';
 
 /**
  * One page per country. These exist mainly so "India itineraries" is a real
@@ -49,6 +50,17 @@ const dayRange = shortest === longest ? `${shortest} days` : `${shortest}–${lo
 // Share card: the same guide that supplies this country's homepage tile.
 const shareImage = list[0]?.data.heroWide ?? list[0]?.data.heroImage;
 
+const jsonLd = [
+  breadcrumbs([
+    { name: 'Itineraries', path: '/itineraries/' },
+    { name: continent.name, path: `/continents/${continent.slug}/` },
+    { name: country, path: `/destinations/${countrySlug(country)}/` },
+  ]),
+  itemList(`${country} itineraries`, list.map((i) => ({
+    name: i.data.title, path: `/itineraries/${i.id}/`,
+  }))),
+];
+
 // Reads as a sentence on the page and as the meta description in results.
 const lede = `Day-by-day routes through ${country}, ${
   shortest === longest ? 'each' : 'from'
@@ -58,6 +70,7 @@ const lede = `Day-by-day routes through ${country}, ${
   title={`${country} itineraries — The Itinerary Wala`}
   description={`Day-by-day ${country} travel itineraries with realistic pacing and budgets in real numbers, ${dayRange}.`}
   image={shareImage}
+  jsonLd={jsonLd}
 >
   <section class="page-hero">
     <div class="wrap">

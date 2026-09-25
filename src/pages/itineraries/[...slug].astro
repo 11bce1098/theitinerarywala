@@ -5,6 +5,7 @@ import CoverArt from '../../components/CoverArt.astro';
 import SectionTabs from '../../components/SectionTabs.astro';
 import { splitItinerary, splitByH3 } from '../../lib/itinerary';
 import { regionFor, continentFor, countrySlug, CONTINENTS } from '../../lib/geography.mjs';
+import { breadcrumbs, faqFromHtml, guideArticle } from '../../lib/schema';
 import Budget from '../../components/Budget.astro';
 
 export async function getStaticPaths() {
@@ -57,6 +58,8 @@ const updated = (itin.data.updatedDate ?? itin.data.publishDate).toLocaleDateStr
   year: 'numeric',
 });
 
+const updatedIso = (itin.data.updatedDate ?? itin.data.publishDate).toISOString();
+
 const facts = [
   { label: 'Country', value: itin.data.country },
   { label: 'Region', value: regionFor(itin.data.country) },
@@ -64,7 +67,7 @@ const facts = [
   // Only ever a passport-agnostic note; the real answer depends on the reader.
   { label: 'Visa', value: itin.data.visaNote ?? 'Depends on your passport' },
   { label: 'Best for', value: itin.data.bestFor },
-  { label: 'Updated', value: updated },
+  { label: 'Updated', value: updated, datetime: updatedIso },
 ];
 
 // Other destinations, for the sidebar beside the closing sections.
@@ -79,6 +82,33 @@ const otherCountries = [...new Set(all.map((i) => i.data.country))]
 
 const continent = CONTINENTS.find((c) => c.slug === continentFor(itin.data.country));
 
+// --- structured data ------------------------------------------------------
+// Every guide ends in an FAQ written as `**Question?** Answer`, which is
+// exactly the shape FAQPage wants, so those get marked up too.
+const guidePath = `/itineraries/${itin.id}/`;
+const faqSection = extras.find((section) => /^FAQ\b/i.test(section.heading));
+const faqSchema = faqSection ? faqFromHtml(faqSection.html) : null;
+
+const jsonLd = [
+  guideArticle({
+    title: itin.data.title,
+    description: itin.data.summary,
+    path: guidePath,
+    image: itin.data.heroWide ?? itin.data.heroImage,
+    published: itin.data.publishDate,
+    updated: itin.data.updatedDate,
+    country: itin.data.country,
+    days: itin.data.days,
+  }),
+  breadcrumbs([
+    { name: 'Itineraries', path: '/itineraries/' },
+    ...(continent ? [{ name: continent.name, path: `/continents/${continent.slug}/` }] : []),
+    { name: itin.data.country, path: `/destinations/${countrySlug(itin.data.country)}/` },
+    { name: itin.data.title, path: guidePath },
+  ]),
+  ...(faqSchema ? [faqSchema] : []),
+];
+
 const related = all
   .filter((other) => other.id !== itin.id)
   .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
@@ -88,6 +118,10 @@ const related = all
   title={seoTitle(itin.data.title, itin.data.country, itin.data.days)}
   description={seoDescription(itin.data.summary)}
   image={itin.data.heroWide ?? itin.data.heroImage}
+  imageAlt={itin.data.title}
+  published={itin.data.publishDate}
+  modified={itin.data.updatedDate}
+  jsonLd={jsonLd}
   progress
 >
   <section class="itin-hero">
@@ -149,7 +183,11 @@ const related = all
               {facts.slice(2).map((fact) => (
                 <div>
                   <dt>{fact.label}</dt>
-                  <dd>{fact.value}</dd>
+                  <dd>
+                    {fact.datetime
+                      ? <time datetime={fact.datetime}>{fact.value}</time>
+                      : fact.value}
+                  </dd>
                 </div>
               ))}
             </dl>

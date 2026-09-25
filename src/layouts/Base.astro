@@ -11,8 +11,24 @@ interface Props {
   progress?: boolean;
   /** Absolute-from-root path to a social preview image. */
   image?: string;
+  /** Alt text for that image, used by screen readers on shared cards. */
+  imageAlt?: string;
+  /** JSON-LD nodes for this page; wrapped in one @graph on output. */
+  jsonLd?: Record<string, unknown>[];
+  /** ISO dates for article pages. */
+  published?: Date;
+  modified?: Date;
 }
-const { title, description, progress = false, image } = Astro.props;
+const {
+  title,
+  description,
+  progress = false,
+  image,
+  imageAlt,
+  jsonLd = [],
+  published,
+  modified,
+} = Astro.props;
 
 const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
 const socialImage = new URL(image ?? SITE.ogImage, canonical);
@@ -27,13 +43,31 @@ const socialImage = new URL(image ?? SITE.ogImage, canonical);
     <link rel="canonical" href={canonical.href} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={published ? 'article' : 'website'} />
     <meta property="og:site_name" content={SITE.name} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical.href} />
     <meta property="og:image" content={socialImage.href} />
+    <meta property="og:image:alt" content={imageAlt ?? title} />
     <meta name="twitter:card" content="summary_large_image" />
+    {published && (
+      <meta property="article:published_time" content={published.toISOString()} />
+    )}
+    {(modified ?? published) && (
+      <meta
+        property="article:modified_time"
+        content={(modified ?? published)!.toISOString()}
+      />
+    )}
+
+    {jsonLd.length > 0 && (
+      <script
+        type="application/ld+json"
+        is:inline
+        set:html={JSON.stringify({ '@context': 'https://schema.org', '@graph': jsonLd })}
+      />
+    )}
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
