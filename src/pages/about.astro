@@ -1,24 +1,25 @@
 ---
-import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import { SITE } from '../lib/site';
 
-const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
-
-// TODO(owner): the three steps below describe how you actually research a
-// trip — rewrite them in your own words, they're the most credible thing
-// on the page.
+/**
+ * The three steps are deliberately specific — a two-hour drive cap, per-person
+ * budgets, entry rules dated on the page. Vague promises are what every other
+ * travel site makes; these are checkable.
+ */
 const method = [
   {
-    step: 'Build the days around the people travelling',
-    body: `Drives get capped at roughly two hours. Big sights land before lunch.
-      Nothing on the plan assumes you will happily queue for an hour after a
-        long flight, because nobody does.`,
+    step: 'Build the days around the walking, not the map',
+    body: `Drives get capped at roughly two hours. Big sights land before lunch,
+      when the queues are short and the light is good. Nothing on the plan
+      assumes you will happily queue for an hour after a long flight, because
+      nobody does.`,
   },
   {
     step: 'Price it in real numbers',
     body: `Budgets are per person, based on mid-range hotels and the tours
-      actually linked on the page — not a range wide enough to be useless.`,
+      actually linked on the page — not a range wide enough to be useless.
+      Every figure converts live, so it is right on the day you read it.`,
   },
   {
     step: 'Say where to check the entry rules',
@@ -27,10 +28,15 @@ const method = [
       authority that can actually answer it, and says when it was last checked.`,
   },
 ];
+
+/** Countries I have travelled myself, as opposed to researched. */
+const visited = ['India', 'Japan', 'Russia', 'Georgia', 'Armenia', 'the UAE'];
 ---
 <Base
   title="About — The Itinerary Wala"
-  description="Why these itineraries exist: day-by-day travel plans built around realistic pacing, real budgets and honest logistics."
+  description="Written by Nitesh Parasher, a software engineer and Himalayan trekker. Why these itineraries exist, how they get built, and where I have actually been."
+  image="/images/nitesh.jpeg"
+  imageAlt="Nitesh Parasher in Red Square, Moscow"
 >
   <section class="page-hero">
     <div class="wrap">
@@ -38,20 +44,71 @@ const method = [
       <h1 data-reveal>Plans built for how people actually travel.</h1>
       <p class="page-hero__lede" data-reveal>
         Most itineraries online read like a list of sights. They rarely say
-        how long the drives are, what the week actually costs, or which of them is
-          worth the queue and which one isn't.
+        how long the drives are, what the week actually costs, or which of them
+        is worth the queue and which one isn't.
       </p>
     </div>
   </section>
 
   <section class="wrap section">
+    <div class="author" data-reveal>
+      <figure class="author__shot">
+        <img
+          src="/images/nitesh.jpeg"
+          alt="Nitesh Parasher standing in Red Square, Moscow, at night"
+          width="750"
+          height="900"
+          loading="lazy"
+          decoding="async"
+        />
+        <figcaption>Red Square, Moscow</figcaption>
+      </figure>
+
+      <div class="author__body prose">
+        <h2>Who writes these</h2>
+        <p>
+          I'm <strong>Nitesh Parasher</strong> — a software engineer who plans
+          other people's holidays for fun.
+        </p>
+        <p>
+          The travelling started in the Himalayas. Bali Pass, Pir Panjal, Rupin
+          Pass, Kedarkantha, Pin Bhaba — the kind of trekking where the day's
+          plan is the difference between a good walk and a miserable one. You
+          learn fast that <em>"it's about four hours"</em> in someone else's
+          trip report is doing a great deal of work.
+        </p>
+        <p>
+          That habit followed me off the mountain. I've travelled nearly every
+          state and union territory in India, and worked my way through Japan,
+          Russia, Georgia, Armenia and the UAE. Every time, the same thing:
+          itineraries written to sound good rather than to be followed. Drive
+          times nobody had driven. Budgets nobody had spent. "Half a day" for
+          something that eats a whole one.
+        </p>
+        <p>
+          So I started writing the plans I wanted to read, and the engineering
+          half of my brain handles the rest — prices that are checked, timings
+          that are real, and entry rules that say when someone last looked.
+        </p>
+      </div>
+    </div>
+
     <div class="prose" data-reveal>
+      <h2>Where I've been, and where I haven't</h2>
+      <p>
+        I've travelled the routes behind the {visited.slice(0, -1).join(', ')} and
+        {' '}{visited.at(-1)} guides myself. The rest are researched the way I'd
+        research my own trip — official sources, current prices, real timings,
+        and the same refusal to guess. But I won't imply I've stood somewhere I
+        haven't, and when I do get there, the page gets better for it.
+      </p>
+
       <h2>What this site is</h2>
       <p>
         {SITE.name} is a small, growing library of day-by-day itineraries.
-          Every plan keeps the daily pace realistic, prices the week in real
-          numbers, and links the stays and tours it actually recommends so you
-          can book them without going hunting.
+        Every plan keeps the daily pace realistic, prices the week in real
+        numbers, and links the stays and tours it actually recommends so you
+        can book them without going hunting.
       </p>
       <p>
         New countries go up as they're researched properly, and nothing goes
@@ -72,6 +129,16 @@ const method = [
     </ol>
 
     <div class="prose" data-reveal>
+      <h2>Ask me about a trip</h2>
+      <p>
+        Planning is the part I actually enjoy, so if you're going somewhere the
+        site doesn't cover yet, ask anyway — I've picked up contacts in a few
+        countries along the way, and I'll tell you plainly when I don't know.
+        On visas I can help properly for a handful of countries, Russia and
+        Japan especially. For everywhere else I'll point you at the authority
+        that actually decides, because that's the only answer worth having.
+      </p>
+
       <h2>How it pays for itself</h2>
       <p>
         Some of the booking links are affiliate links. If you book through one,

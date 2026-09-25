@@ -2148,6 +2148,41 @@ body.nav-open { overflow: hidden; }
   color: var(--ink-soft);
 }
 
+
+/* ---- About: the author block -------------------------------------------
+   A face and a named person do more for trust on a travel site than any
+   amount of copy, so the photo sits alongside the story rather than under it. */
+.author {
+  display: grid;
+  grid-template-columns: minmax(0, 15rem) minmax(0, 1fr);
+  gap: 2rem;
+  align-items: start;
+  margin-bottom: 2.5rem;
+}
+.author__shot { margin: 0; }
+.author__shot img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+}
+.author__shot figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  text-align: center;
+}
+.author__body > :first-child { margin-top: 0; }
+
+@media (max-width: 720px) {
+  .author {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+  .author__shot { max-width: 14rem; }
+}
+
 /* ---- motion opt-out ---------------------------------------------------
    Everything above is decoration; none of it carries meaning on its own. */
 @media (prefers-reduced-motion: reduce) {
