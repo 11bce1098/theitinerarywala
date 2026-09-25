@@ -5,6 +5,8 @@ days: 6
 budgetAmount: 1600
 budgetCurrency: "SGD"
 route: "Marina Bay → Sentosa → Jewel"
+heroImage: "/images/singapore.jpeg"
+heroWide: "/images/singapore-wide.jpeg"
 bestFor: "First-time visitors"
 summary: "The city of the future, eaten one hawker stall at a time: Supertrees and cloud forests, a Michelin meal for S$6, three cultures in three MRT stops, night-time safaris and the world's best airport saved for last — plus the agent-only visa quirk Indian passports need to know, and the rules that keep the fine city fine."
 publishDate: 2026-09-25

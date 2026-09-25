@@ -5,6 +5,8 @@ days: 10
 budgetAmount: 4000
 budgetCurrency: "MYR"
 route: "Kuala Lumpur → Penang → Langkawi"
+heroImage: "/images/malaysia.jpeg"
+heroWide: "/images/malaysia-wide.jpeg"
 bestFor: "Food + beach"
 summary: "The gentlest great trip in Asia: twin towers and rainbow cave-steps in KL, George Town — street-food capital of the continent — by heritage train-and-ferry, then Langkawi's cable-car cliffs and duty-free beaches. Visa-free for most passports, halal by default, and priced like a rumour."
 publishDate: 2026-09-25

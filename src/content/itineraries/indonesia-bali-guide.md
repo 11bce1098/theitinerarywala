@@ -5,6 +5,8 @@ days: 10
 budgetAmount: 19000000
 budgetCurrency: "IDR"
 route: "Ubud → Nusa Penida → Uluwatu"
+heroImage: "/images/indonesia.jpeg"
+heroWide: "/images/indonesia-wide.jpeg"
 bestFor: "First-time visitors"
 summary: "The island that launched a million reels, done with eyes open: Ubud's jungle temples and rice-terrace mornings, a cliff temple with a fire dance at sunset, Nusa Penida's dinosaur coastline — plus the e-VoA, the tourist levy QR, the Nyepi airport-closure trap and the methanol warning most guides are too polite to print."
 publishDate: 2026-09-25

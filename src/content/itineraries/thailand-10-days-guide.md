@@ -5,6 +5,8 @@ days: 10
 budgetAmount: 33000
 budgetCurrency: "THB"
 route: "Bangkok → Chiang Mai → Phuket"
+heroImage: "/images/thailand.jpeg"
+heroWide: "/images/thailand-wide.jpeg"
 bestFor: "First-time visitors"
 summary: "The kingdom's classic triangle: golden Bangkok and its street-food galaxy, Chiang Mai's temple town with a day among rescued elephants (the ethical way), then Phuket's turquoise island-hopping — plus the September 2026 visa change worth knowing before you book, and the scam-proofing that keeps the trip charmed."
 publishDate: 2026-09-25

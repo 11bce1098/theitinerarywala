@@ -5,6 +5,8 @@ days: 10
 budgetAmount: 21000000
 budgetCurrency: "VND"
 route: "Hanoi → Ha Long Bay → Hoi An"
+heroImage: "/images/vietnam.jpeg"
+heroWide: "/images/vietnam-wide.jpeg"
 bestFor: "First-time visitors"
 summary: "The north-and-centre masterpiece: Hanoi's thousand-year-old street-food theatre, a night asleep among Ha Long's limestone towers, Ninh Binh's river through the rice paddies, then Hoi An — the lantern town with a golden bridge in the clouds and a tailor who'll suit you in 24 hours. E-visa in five minutes; road-crossing course included."
 publishDate: 2026-09-25
