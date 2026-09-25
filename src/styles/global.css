@@ -753,6 +753,12 @@ body.nav-open { overflow: hidden; }
   margin-bottom: 0.45rem;
 }
 .footer-brand p { margin: 0 0 1rem; max-width: 30ch; }
+.footer-tagline {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  color: var(--ink);
+  margin: -0.4rem 0 0.9rem !important;
+}
 .footer-logo {
   font-family: var(--font-display);
   font-size: 1.2rem;

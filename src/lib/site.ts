@@ -8,7 +8,7 @@
  */
 export const SITE = {
   name: 'The Itinerary Wala',
-  tagline: 'Day-by-day itineraries, honestly priced',
+  tagline: 'Travel less like a tourist. Plan more like a local.',
   description:
     'Day-by-day travel itineraries with realistic pacing, budgets in real numbers, and every stay and tour bookable in one tap.',
   email: 'hello@theitinerarywala.com',
@@ -69,7 +69,7 @@ export const POPULAR = [
 
 export const NAV: NavLink[] = [
   { href: '/itineraries/', label: 'Itineraries', menu: 'continents' },
-  { href: '/visa-services/', label: 'Visa Services' },
+  { href: '/visa-services/', label: 'Visa' },
   { href: '/about/', label: 'About' },
   { href: '/contact/', label: 'Contact' },
   { href: '/plan/', label: 'Plan My Trip', cta: true },
