@@ -5,6 +5,8 @@ days: 8
 budgetAmount: 46000
 budgetCurrency: "PHP"
 route: "Manila → El Nido → Coron"
+heroImage: "/images/philippines.jpeg"
+heroWide: "/images/philippines-wide.jpeg"
 styles: ['beach', 'nature']
 bestFor: "Islands + lagoons"
 summary: "The lagoon country, and visa-free for most of the world: limestone cathedrals rising from gin-clear water in El Nido, a mountain lake and WWII wrecks in Coron, and an island-hopping culture that turns every day into a boat day — with the fees, ferries and typhoon calendar decoded."

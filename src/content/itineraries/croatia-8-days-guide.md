@@ -5,6 +5,8 @@ days: 8
 budgetAmount: 1300
 budgetCurrency: "EUR"
 route: "Dubrovnik → Split → Hvar → Krka"
+heroImage: "/images/croatia.jpeg"
+heroWide: "/images/croatia-wide.jpeg"
 styles: ['beach', 'culture', 'couples']
 bestFor: "Coast + old towns"
 summary: "The Adriatic's greatest hits on one Schengen visa: a walled city you circle from the ramparts, a Roman emperor's palace that never stopped being lived in, a lavender island an hour's catamaran away and waterfalls in a canyon — with the cruise-crowd clock, ferry sell-outs and sea-urchin truths the postcards skip."

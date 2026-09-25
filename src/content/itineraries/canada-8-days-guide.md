@@ -5,6 +5,8 @@ days: 8
 budgetAmount: 2600
 budgetCurrency: "CAD"
 route: "Calgary → Banff → Icefields Parkway → Jasper"
+heroImage: "/images/canada.jpeg"
+heroWide: "/images/canada-wide.jpeg"
 styles: ['nature']
 bestFor: "Mountains + road trip"
 summary: "Lakes the colour of toothpaste ads, a highway ranked among Earth's great drives, a glacier you stand on before lunch — Calgary to Banff to Jasper and back, with the visa timeline that needs months (or the eTA shortcut for US-visa holders), the Moraine Lake shuttle war, and 2026's free-entry summer decoded."

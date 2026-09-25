@@ -5,6 +5,8 @@ days: 6
 budgetAmount: 310000
 budgetCurrency: "HUF"
 route: "Budapest → Danube Bend"
+heroImage: "/images/hungary.jpeg"
+heroWide: "/images/hungary-wide.jpeg"
 styles: ['culture', 'couples']
 bestFor: "City + thermal baths"
 summary: "The most dramatic riverfront in Europe, and you can swim in it — well, in its hot springs: Parliament by night cruise, a castle district with free-before-9am turret views, outdoor thermal pools steaming at 38°C, ruin bars in pre-war tenements — plus the artists' village up the Danube, all on low-cost flights from across Europe and the Gulf."

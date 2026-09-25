@@ -5,6 +5,8 @@ days: 6
 budgetAmount: 1200
 budgetCurrency: "EUR"
 route: "Amsterdam → Zaanse Schans → Keukenhof"
+heroImage: "/images/netherlands.jpeg"
+heroWide: "/images/netherlands-wide.jpeg"
 styles: ['culture', 'family']
 bestFor: "Canals + museums"
 summary: "A city built on water and run by bicycles: Rembrandt and Van Gogh a park apart, a canal ring that turns gold at dusk, windmills seventeen minutes away — and the Anne Frank ticket war, decoded to the minute. Plus the tulip-season playbook for the 19 March–10 May window."

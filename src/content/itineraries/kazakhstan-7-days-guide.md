@@ -5,6 +5,8 @@ days: 7
 budgetAmount: 285000
 budgetCurrency: "KZT"
 route: "Almaty → Shymbulak → Big Almaty Lake → Charyn"
+heroImage: "/images/kazakhstan.jpeg"
+heroWide: "/images/kazakhstan-wide.jpeg"
 styles: ['nature']
 bestFor: "Mountains + value"
 summary: "The best-value mountain trip on this site: a leafy city with 3,000-metre peaks at the end of its avenues, a canyon doing Arizona impressions, a lake with a drowned forest standing in it — visa-free for most passports, four hours from the Gulf, and priced like a domestic holiday."

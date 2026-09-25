@@ -5,6 +5,8 @@ days: 7
 budgetAmount: 1450
 budgetCurrency: "USD"
 route: "Nairobi → Masai Mara → Lake Naivasha"
+heroImage: "/images/kenya.jpeg"
+heroWide: "/images/kenya-wide.jpeg"
 styles: ['nature', 'family']
 bestFor: "Safari + wildlife"
 summary: "The safari the word was invented for: lion prides on the Mara's gold grass, a million wildebeest in migration season, breakfast with orphaned elephants in Nairobi and a walk among giraffes on a lake island — with Kenya's eTA, the new $200 park-fee reality and the camp-location trick that beats it."

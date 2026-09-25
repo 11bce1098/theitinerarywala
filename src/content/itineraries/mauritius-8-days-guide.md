@@ -5,6 +5,8 @@ days: 8
 budgetAmount: 43000
 budgetCurrency: "MUR"
 route: "North coast → Port Louis → Chamarel → Le Morne"
+heroImage: "/images/mauritius.jpeg"
+heroWide: "/images/mauritius-wide.jpeg"
 styles: ['beach', 'couples']
 bestFor: "Beaches + road trip"
 summary: "The island where India meets Africa in the middle of the ocean: sand in seven colours, a sacred lake with a 33-metre Shiva, catamaran days and a mountain the UNESCO list bows to — visa-free for Indian passports, six hours from the UAE, and cheaper than it photographs."

@@ -5,6 +5,8 @@ days: 7
 budgetAmount: 15300
 budgetCurrency: "NOK"
 route: "Oslo → Flåm → Nærøyfjord → Bergen"
+heroImage: "/images/norway.jpeg"
+heroWide: "/images/norway-wide.jpeg"
 styles: ['nature']
 bestFor: "Fjords + scenic rail"
 summary: "The world's most beautiful commute: a mountain-crossing railway, a branch line that falls off a cliff into a fjord village, an electric boat gliding through a UNESCO waterway one kilometre deep in cliffs — Oslo to Bergen the famous way, with the 90-day minipris trick and the packed-lunch economics that tame Norwegian prices."

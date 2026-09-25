@@ -5,6 +5,8 @@ days: 9
 budgetAmount: 2650
 budgetCurrency: "USD"
 route: "Arusha → Serengeti → Ngorongoro → Zanzibar"
+heroImage: "/images/tanzania.jpeg"
+heroWide: "/images/tanzania-wide.jpeg"
 styles: ['nature', 'beach']
 bestFor: "Safari + beach"
 summary: "The bush-and-beach original: lion country that rolls to every horizon, a wildlife-packed volcanic crater, then a spice island of carved doors and blue-white beaches — with the migration's monthly map, the crater-fee maths and Zanzibar's mandatory $44 insurance decoded."

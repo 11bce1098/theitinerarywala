@@ -5,6 +5,8 @@ days: 8
 budgetAmount: 295000
 budgetCurrency: "ISK"
 route: "Reykjavik → Golden Circle → South coast → Jökulsárlón"
+heroImage: "/images/iceland.jpeg"
+heroWide: "/images/iceland-wide.jpeg"
 styles: ['nature']
 bestFor: "Road trip + nature"
 summary: "The planet showing off: erupting geysers, waterfalls you walk behind, a black beach with deadly manners, icebergs drifting to a diamond shore — one rental car, one road, eight days. With the visa quirk, the wind-vs-car-door economics and the grocery-store survival system that makes Earth's priciest island affordable."

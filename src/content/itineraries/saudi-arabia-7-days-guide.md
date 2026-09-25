@@ -5,6 +5,8 @@ days: 7
 budgetAmount: 5300
 budgetCurrency: "SAR"
 route: "Riyadh → Diriyah → AlUla → Hegra"
+heroImage: "/images/saudi-arabia.jpeg"
+heroWide: "/images/saudi-arabia-wide.jpeg"
 styles: ['culture', 'nature']
 bestFor: "History + desert"
 summary: "The trip next door that nobody's done yet: Nabataean tombs to rival Petra with a hundredth of the crowd, a cliff edge that ends the world outside Riyadh, and mud-brick palaces reborn as the Kingdom's showpiece — with the one-year multiple-entry eVisa decoded and the winter-only flight hack that lands you home from the desert direct."

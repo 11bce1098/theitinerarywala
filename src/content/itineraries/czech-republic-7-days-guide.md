@@ -5,6 +5,8 @@ days: 7
 budgetAmount: 23500
 budgetCurrency: "CZK"
 route: "Prague → Kutná Hora → Český Krumlov"
+heroImage: "/images/czech-republic.jpeg"
+heroWide: "/images/czech-republic-wide.jpeg"
 styles: ['culture', 'couples']
 bestFor: "Old towns + castles"
 summary: "Europe's best-preserved fairy tale: a castle city the wars forgot to bomb, a bridge worth waking at dawn for, a church decorated with forty thousand people's bones — and an overnight in Český Krumlov after the tour buses leave, all on one Schengen visa and Emirates' Prague non-stop."

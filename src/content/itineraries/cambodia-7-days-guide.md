@@ -5,6 +5,8 @@ days: 7
 budgetAmount: 700
 budgetCurrency: "USD"
 route: "Siem Reap → Angkor → Phnom Penh"
+heroImage: "/images/cambodia.jpeg"
+heroWide: "/images/cambodia-wide.jpeg"
 styles: ['culture']
 bestFor: "Temples + history"
 summary: "The greatest temple complex ever built, at sunrise, for $62: Angkor's three-day pass paced properly, a stilt village on Asia's beating-heart lake, a circus that will out-emotion the temples — then Phnom Penh's palaces and its hardest history, handled with the respect it demands."

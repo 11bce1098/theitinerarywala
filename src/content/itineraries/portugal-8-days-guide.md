@@ -5,6 +5,8 @@ days: 8
 budgetAmount: 1400
 budgetCurrency: "EUR"
 route: "Lisbon → Sintra → Porto → Douro valley"
+heroImage: "/images/portugal.jpeg"
+heroWide: "/images/portugal-wide.jpeg"
 styles: ['culture', 'couples']
 bestFor: "Cities + coast"
 summary: "Western Europe's best-value classic: a seven-hilled city of trams and tiled facades, a fairy-tale palace on a misty ridge, then three hours north to port-wine cellars and a golden riverfront — with the timed-ticket rules, tram-28 truths and €1.40 custard-tart economics that make it all run."
