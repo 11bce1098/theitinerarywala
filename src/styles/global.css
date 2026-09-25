@@ -2383,6 +2383,134 @@ body.nav-open { overflow: hidden; }
 .style-tiles strong { display: block; font-size: 0.95rem; }
 .style-tiles em { display: block; font-style: normal; font-size: 0.84rem; color: var(--ink-soft); }
 
+
+/* ---- homepage: find, how it works, build, destination list -------------- */
+.section-sub {
+  margin: 0.35rem 0 0;
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  max-width: 54ch;
+}
+.hero__eyebrow--under { margin-top: 1.5rem; }
+
+.find__inner {
+  padding: 1.5rem 1.6rem 1.6rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+}
+.find__inner .section-heading { margin-bottom: 0.9rem; font-size: clamp(1.2rem, 2.2vw, 1.5rem); }
+.find__form {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.find__icon {
+  position: absolute;
+  left: 0.85rem;
+  top: 50%;
+  width: 1.15rem;
+  height: 1.15rem;
+  margin-top: -0.575rem;
+  color: var(--ink-soft);
+  pointer-events: none;
+}
+.find__form input {
+  flex: 1 1 16rem;
+  min-width: 0;
+  padding: 0.72rem 0.9rem 0.72rem 2.6rem;
+  font: inherit;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.find__form input:focus-visible { outline: 3px solid var(--marigold); outline-offset: 2px; }
+.find__suggest {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.3rem 0.65rem;
+  margin: 0.9rem 0 0;
+  font-size: 0.9rem;
+}
+.find__suggest span { color: var(--ink-soft); }
+.find__suggest a { color: var(--teal); text-decoration: none; }
+.find__suggest a:hover { text-decoration: underline; }
+.find__all { margin-left: auto; font-weight: 700; }
+
+.popular__go {
+  margin-top: 0.4rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--teal);
+}
+
+/* A tinted band so the page alternates rather than running as one sheet. */
+.how {
+  margin-top: 3rem;
+  padding: 3rem 0;
+  background: linear-gradient(180deg, #fbf3e4, var(--paper));
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.how__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(14rem, 100%), 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+.how__num {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--marigold-deep);
+}
+.how__item h3 { margin: 0.3rem 0 0.35rem; font-size: 1.02rem; }
+.how__item p { margin: 0; font-size: 0.92rem; color: var(--ink-soft); }
+
+.build {
+  padding: 2.25rem 1.75rem;
+  border-radius: var(--radius);
+  background: linear-gradient(120deg, var(--marigold), var(--marigold-deep));
+  color: #fff;
+  text-align: center;
+}
+.build h2 { margin: 0 0 0.5rem; font-size: clamp(1.4rem, 3vw, 1.9rem); }
+.build p { margin: 0 auto 0.6rem; max-width: 52ch; color: rgba(255, 255, 255, 0.94); }
+.build__meta {
+  font-size: 0.88rem;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.82) !important;
+}
+.build .btn--solid {
+  margin-top: 0.8rem;
+  background: #fff;
+  color: var(--ink);
+  border-color: #fff;
+}
+.build .btn--solid:hover { background: var(--paper); }
+
+.dest-list { margin: 0; padding: 0; list-style: none; }
+.dest-list__row { padding: 0.9rem 0; border-top: 1px solid var(--line); }
+.dest-list__row:last-child { border-bottom: 1px solid var(--line); }
+.dest-list__row h3 {
+  margin: 0 0 0.3rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.dest-list__row h3 a { color: inherit; text-decoration: none; }
+.dest-list__row h3 a:hover { color: var(--marigold-deep); }
+.dest-list__row p { margin: 0; line-height: 1.9; }
+.dest-list__row p a { color: var(--ink); text-decoration: none; }
+.dest-list__row p a:hover { color: var(--marigold-deep); text-decoration: underline; }
+.dest-list__row span { color: var(--line); }
+
 /* ---- motion opt-out ---------------------------------------------------
    Everything above is decoration; none of it carries meaning on its own. */
 @media (prefers-reduced-motion: reduce) {
