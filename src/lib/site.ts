@@ -2,16 +2,16 @@
  * Single source of truth for nav, contact details and social links, so the
  * header, footer and contact page can't drift apart.
  *
- * TODO(owner): swap to hello@theitinerarywala.com once the domain has MX
- * records. It has none today, so that address would bounce — and this one
- * is the fallback the forms tell people to use when a submission fails.
+ * The address here is also the fallback the contact form and newsletter
+ * signup tell people to write to when a submission fails, so it has to be
+ * one that actually receives mail — not just one that looks right.
  */
 export const SITE = {
   name: 'The Itinerary Wala',
   tagline: 'Day-by-day itineraries, honestly priced',
   description:
     'Day-by-day travel itineraries with realistic pacing, budgets in real numbers, and every stay and tour bookable in one tap.',
-  email: 'theitinerarywala@gmail.com',
+  email: 'hello@theitinerarywala.com',
   instagram: 'https://instagram.com/theitinerarywala',
   /** @handle on X, used for twitter:site/creator attribution. */
   xHandle: '@itinerarywala',
