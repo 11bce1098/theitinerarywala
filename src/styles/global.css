@@ -2183,6 +2183,34 @@ body.nav-open { overflow: hidden; }
   .author__shot { max-width: 14rem; }
 }
 
+/* Two supporting shots under the coverage claim — the point is evidence, so
+   they sit with the sentence they back up rather than in a gallery. */
+.author__strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(11rem, 100%), 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 1.5rem;
+  max-width: 30rem;
+}
+.author__strip figure { margin: 0; }
+.author__strip img {
+  display: block;
+  width: 100%;
+  /* The two shots come off different phones; a shared ratio keeps their
+     captions on one line as a pair. */
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+}
+.author__strip figcaption { min-height: 2.4em; }
+.author__strip figcaption {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  text-align: center;
+}
+
 /* ---- motion opt-out ---------------------------------------------------
    Everything above is decoration; none of it carries meaning on its own. */
 @media (prefers-reduced-motion: reduce) {

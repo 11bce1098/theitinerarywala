@@ -35,8 +35,8 @@ const visited = ['India', 'Japan', 'Russia', 'Georgia', 'Armenia', 'the UAE'];
 <Base
   title="About — The Itinerary Wala"
   description="Written by Nitesh Parasher, a software engineer and Himalayan trekker. Why these itineraries exist, how they get built, and where I have actually been."
-  image="/images/nitesh.jpeg"
-  imageAlt="Nitesh Parasher in Red Square, Moscow"
+  image="/images/nitesh-himalaya.jpeg"
+  imageAlt="Nitesh Parasher on a Himalayan pass"
 >
   <section class="page-hero">
     <div class="wrap">
@@ -54,14 +54,15 @@ const visited = ['India', 'Japan', 'Russia', 'Georgia', 'Armenia', 'the UAE'];
     <div class="author" data-reveal>
       <figure class="author__shot">
         <img
-          src="/images/nitesh.jpeg"
-          alt="Nitesh Parasher standing in Red Square, Moscow, at night"
-          width="750"
+          src="/images/nitesh-himalaya.jpeg"
+          alt="Nitesh Parasher holding an Indian flag on a Himalayan pass, snow peaks behind"
+          width="675"
           height="900"
-          loading="lazy"
+          loading="eager"
+          fetchpriority="high"
           decoding="async"
         />
-        <figcaption>Red Square, Moscow</figcaption>
+        <figcaption>On the pass, Indian Himalaya</figcaption>
       </figure>
 
       <div class="author__body prose">
@@ -95,6 +96,24 @@ const visited = ['India', 'Japan', 'Russia', 'Georgia', 'Armenia', 'the UAE'];
 
     <div class="prose" data-reveal>
       <h2>Where I've been, and where I haven't</h2>
+      <div class="author__strip" role="group" aria-label="Photographs from the routes">
+        <figure>
+          <img
+            src="/images/nitesh.jpeg"
+            alt="Nitesh Parasher in Red Square, Moscow, at night"
+            width="750" height="900" loading="lazy" decoding="async"
+          />
+          <figcaption>Red Square, Moscow</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="/images/nitesh-suzdal.jpeg"
+            alt="Nitesh Parasher outside the blue-domed cathedral in Suzdal, Russia"
+            width="675" height="900" loading="lazy" decoding="async"
+          />
+          <figcaption>Suzdal — a stop on the Golden Ring guide</figcaption>
+        </figure>
+      </div>
       <p>
         I've travelled the routes behind the {visited.slice(0, -1).join(', ')} and
         {' '}{visited.at(-1)} guides myself. The rest are researched the way I'd
