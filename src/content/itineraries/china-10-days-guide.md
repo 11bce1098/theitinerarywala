@@ -10,7 +10,6 @@ heroWide: "/images/china-wide.jpeg"
 bestFor: "First-time visitors"
 summary: "The golden route at 350 km/h: the Great Wall with a toboggan exit, the Forbidden City's 7-day ticket sprint, an 8,000-man terracotta army, and Shanghai's sci-fi skyline — plus the two make-or-break setups (Alipay and your eSIM) that decide whether China is effortless or impossible."
 publishDate: 2026-09-24
-updatedDate: 2026-09-25
 draft: false
 ---
 

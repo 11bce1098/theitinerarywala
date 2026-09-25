@@ -6,6 +6,7 @@ import SectionTabs from '../../components/SectionTabs.astro';
 import { splitItinerary, splitByH3 } from '../../lib/itinerary';
 import { regionFor, continentFor, countrySlug, CONTINENTS } from '../../lib/geography.mjs';
 import { breadcrumbs, faqFromHtml, guideArticle } from '../../lib/schema';
+import contentDates from '../../data/content-dates.json';
 import Budget from '../../components/Budget.astro';
 
 export async function getStaticPaths() {
@@ -52,13 +53,22 @@ const { lead, sections: preTrip } = splitByH3(intro);
 // Only claim commission on pages that actually carry a partner link.
 const hasAffiliateLinks = (itin.body ?? '').includes('#aff:');
 
-const updated = (itin.data.updatedDate ?? itin.data.publishDate).toLocaleDateString('en-GB', {
+/**
+ * scripts/stamp-updated.mjs maintains this from a content hash, so the date
+ * moves when the guide actually changes and not when it is merely rebuilt.
+ * An explicit `updatedDate:` in frontmatter still wins, for the rare case of
+ * claiming a date by hand.
+ */
+const stamped = (contentDates as Record<string, { updated: string }>)[itin.id]?.updated;
+const updatedAt = itin.data.updatedDate ?? (stamped ? new Date(stamped) : itin.data.publishDate);
+
+const updated = updatedAt.toLocaleDateString('en-GB', {
   day: 'numeric',
   month: 'long',
   year: 'numeric',
 });
 
-const updatedIso = (itin.data.updatedDate ?? itin.data.publishDate).toISOString();
+const updatedIso = updatedAt.toISOString();
 
 const facts = [
   { label: 'Country', value: itin.data.country },
@@ -96,7 +106,7 @@ const jsonLd = [
     path: guidePath,
     image: itin.data.heroWide ?? itin.data.heroImage,
     published: itin.data.publishDate,
-    updated: itin.data.updatedDate,
+    updated: updatedAt,
     country: itin.data.country,
     days: itin.data.days,
   }),
@@ -120,7 +130,7 @@ const related = all
   image={itin.data.heroWide ?? itin.data.heroImage}
   imageAlt={itin.data.title}
   published={itin.data.publishDate}
-  modified={itin.data.updatedDate}
+  modified={updatedAt}
   jsonLd={jsonLd}
   progress
 >

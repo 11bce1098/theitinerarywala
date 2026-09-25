@@ -7,7 +7,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "prebuild": "node scripts/check-content.mjs && node scripts/optimise-images.mjs",
+    "prebuild": "node scripts/stamp-updated.mjs && node scripts/check-content.mjs && node scripts/optimise-images.mjs",
     "images": "node scripts/optimise-images.mjs",
     "check": "node scripts/check-content.mjs"
   },

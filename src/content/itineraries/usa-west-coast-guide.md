@@ -10,7 +10,6 @@ heroWide: "/images/usa-west-wide.jpeg"
 bestFor: "Cities + canyons"
 summary: "The second America: Hollywood and the Pacific, the neon absurdity of Las Vegas with the Grand Canyon and Antelope Canyon a day-tour away, then San Francisco's fog, cable cars and Alcatraz — three flights, no rental car, and the honest maths on resort fees and 4 a.m. canyon buses."
 publishDate: 2026-09-24
-updatedDate: 2026-09-25
 draft: false
 ---
 
