@@ -2190,6 +2190,64 @@ body.nav-open { overflow: hidden; }
   text-align: center;
 }
 
+
+/* ---- About page ---------------------------------------------------------
+   The lists are the voice of the page — the questions people actually ask —
+   so they get a little more room than a default bullet list. */
+.author__hello { font-size: 1.12rem; }
+.asks {
+  margin: 1.1rem 0;
+  padding: 0 0 0 1.1rem;
+  list-style: none;
+  border-left: 2px solid var(--marigold);
+}
+.asks li {
+  margin: 0 0 0.45rem;
+  color: var(--ink-soft);
+}
+.asks li:last-child { margin-bottom: 0; }
+.asks--quoted li { font-style: italic; }
+.asks--quoted li::before { content: '\201C'; }
+.asks--quoted li::after { content: '\201D'; }
+
+.pull {
+  margin: 1.4rem 0;
+  padding-left: 1.1rem;
+  border-left: 3px solid var(--teal);
+  font-family: var(--font-display);
+  font-size: 1.14rem;
+  line-height: 1.45;
+  color: var(--ink);
+}
+
+.offers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(16rem, 100%), 1fr));
+  gap: 1rem;
+  margin: 1.75rem 0 2.5rem;
+  padding: 0;
+  list-style: none;
+}
+.offers__item {
+  display: flex;
+  gap: 0.8rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+}
+.offers__icon { font-size: 1.4rem; line-height: 1.2; }
+.offers__item h3 { margin: 0 0 0.25rem; font-size: 0.98rem; }
+.offers__item p { margin: 0; font-size: 0.9rem; color: var(--ink-soft); }
+
+.sign-off {
+  margin: 2.5rem 0 0;
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  text-align: center;
+  color: var(--ink);
+}
+
 /* ---- motion opt-out ---------------------------------------------------
    Everything above is decoration; none of it carries meaning on its own. */
 @media (prefers-reduced-motion: reduce) {

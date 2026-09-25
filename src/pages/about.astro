@@ -1,52 +1,43 @@
 ---
 import Base from '../layouts/Base.astro';
-import { SITE } from '../lib/site';
 
-/**
- * The three steps are deliberately specific — a two-hour drive cap, per-person
- * budgets, entry rules dated on the page. Vague promises are what every other
- * travel site makes; these are checkable.
- */
-const method = [
-  {
-    step: 'Build the days around the walking, not the map',
-    body: `Drives get capped at roughly two hours. Big sights land before lunch,
-      when the queues are short and the light is good. Nothing on the plan
-      assumes you will happily queue for an hour after a long flight, because
-      nobody does.`,
-  },
-  {
-    step: 'Price it in real numbers',
-    body: `Budgets are per person, based on mid-range hotels and the tours
-      actually linked on the page — not a range wide enough to be useless.
-      Every figure converts live, so it is right on the day you read it.`,
-  },
-  {
-    step: 'Say where to check the entry rules',
-    body: `What you need to enter depends on your passport, so a plan that states
-      one answer would be wrong for most readers. Each itinerary points at the
-      authority that can actually answer it, and says when it was last checked.`,
-  },
+/** The questions that start every trip — and the reason this site exists. */
+const questions = [
+  'Which cities should you stay in?',
+  'How many days do you really need?',
+  'Is that attraction worth spending half a day on?',
+  'How much will the trip actually cost?',
+  'Should you take the train, rent a car or fly?',
+  'And how do you fit everything in without turning your holiday into a race?',
 ];
 
-/** Countries I have travelled myself, as opposed to researched. */
-const visited = ['India', 'Japan', 'Russia', 'Georgia', 'Armenia', 'the UAE'];
+/** What friends and family actually ask — the site in five lines. */
+const asks = [
+  'How many days should we spend there?',
+  'Where should we stay?',
+  'Can we do these two places in the same day?',
+  'What will the trip cost?',
+  'Can you make an itinerary for us?',
+];
+
+const offers = [
+  { icon: '🌍', title: 'Destination guides', body: 'Detailed itineraries designed around realistic travel.' },
+  { icon: '💰', title: 'Realistic budgets', body: 'So you have an idea of what your trip could actually cost.' },
+  { icon: '🛂', title: 'Visa and entry information', body: 'With links to official sources wherever possible.' },
+  { icon: '🏨', title: 'Hotels and activities', body: 'Recommended options that you can book directly.' },
+  { icon: '🗺️', title: 'Practical travel tips', body: 'The little details that make a big difference once you are actually there.' },
+];
 ---
 <Base
   title="About — The Itinerary Wala"
-  description="Written by Nitesh Parasher, a software engineer and Himalayan trekker. Why these itineraries exist, how they get built, and where I have actually been."
+  description="Hi, I'm Nitesh. I build practical, day-by-day travel itineraries you can actually use — realistic budgets, honest visa notes, and no pretending I've been everywhere."
   image="/images/nitesh-himalaya.jpeg"
   imageAlt="Nitesh Parasher on a Himalayan pass"
 >
   <section class="page-hero">
     <div class="wrap">
       <p class="eyebrow" data-reveal>About</p>
-      <h1 data-reveal>Plans built for how people actually travel.</h1>
-      <p class="page-hero__lede" data-reveal>
-        Most itineraries online read like a list of sights. They rarely say
-        how long the drives are, what the week actually costs, or which of them
-        is worth the queue and which one isn't.
-      </p>
+      <h1 data-reveal>Travel is exciting. Planning it shouldn&rsquo;t be stressful.</h1>
     </div>
   </section>
 
@@ -66,103 +57,158 @@ const visited = ['India', 'Japan', 'Russia', 'Georgia', 'Armenia', 'the UAE'];
       </figure>
 
       <div class="author__body prose">
-        <h2>Who writes these</h2>
-        <p>
-          I'm <strong>Nitesh Parasher</strong> — a software engineer who plans
-          other people's holidays for fun.
+        <p class="author__hello">
+          Hi, I&rsquo;m <strong>Nitesh</strong> — the person behind
+          The Itinerary Wala.
         </p>
         <p>
-          The travelling started in the Himalayas. Bali Pass, Pir Panjal, Rupin
-          Pass, Kedarkantha, Pin Bhaba — the kind of trekking where the day's
-          plan is the difference between a good walk and a miserable one. You
-          learn fast that <em>"it's about four hours"</em> in someone else's
-          trip report is doing a great deal of work.
+          I&rsquo;ve always enjoyed travelling. But what I enjoy almost as much
+          is figuring out how to make a trip actually work.
         </p>
-        <p>
-          That habit followed me off the mountain. I've travelled nearly every
-          state and union territory in India, and worked my way through Japan,
-          Russia, Georgia, Armenia and the UAE. Every time, the same thing:
-          itineraries written to sound good rather than to be followed. Drive
-          times nobody had driven. Budgets nobody had spent. "Half a day" for
-          something that eats a whole one.
-        </p>
-        <p>
-          So I started writing the plans I wanted to read, and the engineering
-          half of my brain handles the rest — prices that are checked, timings
-          that are real, and entry rules that say when someone last looked.
-        </p>
+        <ul class="asks">
+          {questions.map((q) => <li>{q}</li>)}
+        </ul>
+        <p>That&rsquo;s where The Itinerary Wala started.</p>
       </div>
     </div>
 
     <div class="prose" data-reveal>
-      <h2>Where I've been, and where I haven't</h2>
+      <h2>From trekking trails to international trips</h2>
       <p>
-        I've travelled the routes behind the {visited.slice(0, -1).join(', ')} and
-        {' '}{visited.at(-1)} guides myself. The rest are researched the way I'd
-        research my own trip — official sources, current prices, real timings,
-        and the same refusal to guess. But I won't imply I've stood somewhere I
-        haven't, and when I do get there, the page gets better for it.
+        My love for travel started in India, especially in the mountains.
+        I&rsquo;ve travelled across almost every part of the country, and spent
+        years exploring places through trekking, road trips and independent
+        travel.
+      </p>
+      <p>
+        Over time that curiosity took me beyond India — to places including
+        Japan, Russia, Georgia, Armenia and the UAE. Every trip taught me the
+        same thing:
+      </p>
+      <p class="pull">
+        A great holiday isn&rsquo;t about seeing the maximum number of places.
+        It&rsquo;s about getting the right things in the right order.
+      </p>
+      <p>
+        That sounds simple. But building a genuinely useful itinerary takes a
+        surprising amount of work.
       </p>
 
-      <h2>What this site is</h2>
+      <h2>So I started building the itineraries I wanted myself</h2>
       <p>
-        {SITE.name} is a small, growing library of day-by-day itineraries.
-        Every plan keeps the daily pace realistic, prices the week in real
-        numbers, and links the stays and tours it actually recommends so you
-        can book them without going hunting.
+        A lot of travel content tells you where to go. I wanted something that
+        also answered: <em>how do I actually do this trip?</em>
       </p>
       <p>
-        New countries go up as they're researched properly, and nothing goes
-        up as a placeholder — which is why the library grows slowly.
+        So The Itinerary Wala focuses on practical, day-by-day travel plans —
+        not just a list of attractions. You&rsquo;ll find realistic day-by-day
+        schedules, recommended places to stay, travel times between
+        destinations, suggested tours and activities, approximate trip budgets,
+        transport options, visa and entry information, and the practical tips
+        that save time and money.
+      </p>
+      <p>
+        The goal is simple: you should be able to take an itinerary, adjust it
+        to your style, and actually use it to plan your trip.
       </p>
 
-      <h2>How each itinerary gets built</h2>
+      <h2>I don&rsquo;t pretend I&rsquo;ve been everywhere</h2>
+      <p>
+        This one matters to me. Some of the destinations here are places
+        I&rsquo;ve personally travelled to. Others I&rsquo;ve researched
+        extensively but haven&rsquo;t visited yet. I don&rsquo;t want to pretend
+        otherwise.
+      </p>
+      <p>
+        For destinations I&rsquo;ve travelled myself, I bring my own experience
+        into the itinerary. For the rest, I research them the way I&rsquo;d
+        research my own holiday — official sources, current information,
+        transport schedules, prices and trusted travel resources.
+      </p>
+      <p>
+        And whenever something is uncertain or likely to change, I&rsquo;ll tell
+        you. I&rsquo;d rather say <em>&ldquo;check this before you
+        travel&rdquo;</em> than confidently give you the wrong answer. Entry
+        rules especially depend on your passport and where you live, and they
+        change with very little notice — every plan says when it was last
+        checked, but please confirm with the embassy or your airline before you
+        book anything expensive.
+      </p>
+
+      <h2>Why &ldquo;The Itinerary Wala&rdquo;?</h2>
+      <p>
+        Because that&rsquo;s really what I am. I&rsquo;m the person friends and
+        family come to when they&rsquo;re planning a trip.
+      </p>
+      <ul class="asks asks--quoted">
+        {asks.map((a) => <li>{a}</li>)}
+      </ul>
+      <p>
+        After doing it enough times I thought: why not build it for everyone?
+        And that&rsquo;s how The Itinerary Wala came to life.
+      </p>
+
+      <h2>What I believe about travel</h2>
+      <p>
+        I don&rsquo;t think every trip needs to be luxurious. I don&rsquo;t
+        think you need to visit every attraction. And I definitely don&rsquo;t
+        think a holiday should feel like you&rsquo;re completing a checklist.
+      </p>
+      <p>
+        Sometimes the best part of a trip is a slow morning, a great local
+        restaurant, a scenic train ride, or simply having enough time to enjoy
+        where you are.
+      </p>
+      <p class="pull">
+        The itinerary should support the trip — not become the trip.
+      </p>
+
+      <h2>What you&rsquo;ll find here</h2>
+      <p>
+        The site grows destination by destination. Every new itinerary takes
+        time, because I don&rsquo;t want to publish pages just to increase the
+        number of countries on the website. I&rsquo;d rather have fewer useful
+        itineraries than hundreds of generic ones.
+      </p>
     </div>
 
-    <ol class="method">
-      {method.map((item, i) => (
-        <li class="method__item" data-reveal style={`--stagger:${i}`}>
-          <span class="method__num" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
-          <h3>{item.step}</h3>
-          <p>{item.body}</p>
+    <ul class="offers" data-reveal>
+      {offers.map((item, i) => (
+        <li class="offers__item" style={`--stagger:${i}`}>
+          <span class="offers__icon" aria-hidden="true">{item.icon}</span>
+          <div>
+            <h3>{item.title}</h3>
+            <p>{item.body}</p>
+          </div>
         </li>
       ))}
-    </ol>
+    </ul>
 
     <div class="prose" data-reveal>
-      <h2>Ask me about a trip</h2>
-      <p>
-        Planning is the part I actually enjoy, so if you're going somewhere the
-        site doesn't cover yet, ask anyway — I've picked up contacts in a few
-        countries along the way, and I'll tell you plainly when I don't know.
-        On visas I can help properly for a handful of countries, Russia and
-        Japan especially. For everywhere else I'll point you at the authority
-        that actually decides, because that's the only answer worth having.
-      </p>
-
       <h2>How it pays for itself</h2>
       <p>
         Some of the booking links are affiliate links. If you book through one,
         this site earns a small commission and you pay exactly the same price.
-        That's the whole business model — there's no paid placement, and a hotel
-        can't buy its way onto a plan.
-      </p>
-
-      <h2>One honest caveat</h2>
-      <p>
-        Entry rules depend on your passport and your residence, and they change
-        with very little notice. Everything here is checked when it's written
-        and dated on the page, but please confirm with the embassy or your
-        airline before you book anything expensive.
+        There&rsquo;s no paid placement, and a hotel can&rsquo;t buy its way
+        onto a plan.
       </p>
     </div>
 
     <aside class="cta-card" data-reveal>
       <div>
-        <h2>Planning a trip I haven't covered?</h2>
-        <p>Tell me where you're headed — it helps decide what gets researched next.</p>
+        <h2>Planning your next trip?</h2>
+        <p>
+          Start with an itinerary. Pick a destination, see how many days you
+          need, check the budget, and adjust the plan to make it yours. If the
+          destination you want isn&rsquo;t here yet, ask me — it might be the
+          next one I build.
+        </p>
       </div>
-      <a class="btn btn--solid" href="/contact/">Get in touch</a>
+      <a class="btn btn--solid" href="/itineraries/">Browse itineraries</a>
     </aside>
+
+    <p class="sign-off" data-reveal>
+      Travel less like a tourist. Plan more like a local.
+    </p>
   </section>
 </Base>
