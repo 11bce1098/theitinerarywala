@@ -1,3 +1,4 @@
+import { readdirSync } from 'node:fs';
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import { AFFILIATES } from './src/lib/affiliates.mjs';
@@ -22,6 +23,9 @@ function resolve(key) {
   }
   return entry.url;
 }
+
+const hasGuides = readdirSync('./src/content/guides')
+  .some((f) => f.endsWith('.md') && f !== 'README.md');
 
 const RAW_AFF_HREF = /href=(["'])#aff:([A-Za-z0-9_-]+)\1/g;
 
@@ -130,7 +134,16 @@ export default defineConfig({
   // Used for the sitemap, robots.txt and the canonical/og:url tags.
   // Must match the domain the site is actually served from.
   site: 'https://theitinerarywala.com',
-  integrations: [sitemap()],
+  integrations: [
+    sitemap({
+      /**
+       * /guides/ is a real page but shows a placeholder until the first
+       * guide lands. Submitting an empty page is how you earn "Discovered —
+       * currently not indexed", so it stays out of the sitemap until then.
+       */
+      filter: (page) => !(new URL(page).pathname === '/guides/' && !hasGuides),
+    }),
+  ],
   markdown: {
     // GFM treats a single ~ as strikethrough, so an itinerary line with two
     // approximations — "(~9:00-17:00)" and "(~¥2,000)" — struck out

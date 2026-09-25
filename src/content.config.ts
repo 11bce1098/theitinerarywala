@@ -40,4 +40,31 @@ const itineraries = defineCollection({
   }),
 });
 
-export const collections = { itineraries };
+/**
+ * Practical guides — the questions that sit around an itinerary rather than
+ * inside one: visas, when to go, how to get about, what things cost.
+ *
+ * Deliberately a separate collection from itineraries. An itinerary is a
+ * route with days and a budget; a guide answers one question about a place.
+ * Mixing them would have made both schemas mostly-optional and both listing
+ * pages incoherent.
+ */
+const guides = defineCollection({
+  // The README documents the frontmatter for whoever adds a guide next;
+  // it is not one itself.
+  loader: glob({ pattern: ['**/*.md', '!README.md'], base: './src/content/guides' }),
+  schema: z.object({
+    title: z.string(),
+    /** Country it concerns, matching geography.mjs. Omit for cross-country pieces. */
+    country: z.string().optional(),
+    /** What kind of question this answers; drives the listing and the badge. */
+    topic: z.enum(['visa', 'when-to-go', 'transport', 'money', 'practical']),
+    summary: z.string(),
+    heroImage: z.string().optional(),
+    publishDate: z.coerce.date(),
+    updatedDate: z.coerce.date().optional(),
+    draft: z.boolean().default(false),
+  }),
+});
+
+export const collections = { itineraries, guides };

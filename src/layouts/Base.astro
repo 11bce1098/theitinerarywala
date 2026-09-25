@@ -18,6 +18,8 @@ interface Props {
   /** ISO dates for article pages. */
   published?: Date;
   modified?: Date;
+  /** Keep a page out of the index — used for placeholders with no content yet. */
+  noindex?: boolean;
 }
 const {
   title,
@@ -28,6 +30,7 @@ const {
   jsonLd = [],
   published,
   modified,
+  noindex = false,
 } = Astro.props;
 
 const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
@@ -38,6 +41,7 @@ const socialImage = new URL(image ?? SITE.ogImage, canonical);
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {noindex && <meta name="robots" content="noindex, follow" />}
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical.href} />

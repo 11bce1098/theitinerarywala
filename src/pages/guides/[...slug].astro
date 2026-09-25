@@ -1,0 +1,169 @@
+---
+import { getCollection, render } from 'astro:content';
+import { getGuides } from '../../lib/guides';
+import Base from '../../layouts/Base.astro';
+import CoverArt from '../../components/CoverArt.astro';
+import { topicBySlug } from '../../lib/topics.mjs';
+import { countrySlug, continentFor, CONTINENTS } from '../../lib/geography.mjs';
+import { breadcrumbs, faqFromHtml, guideArticle } from '../../lib/schema';
+import contentDates from '../../data/content-dates.json';
+
+export async function getStaticPaths() {
+  const guides = await getGuides();
+  const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
+  return guides.map((guide) => ({
+    params: { slug: guide.id },
+    props: { guide, all: guides, itineraries },
+  }));
+}
+
+const { guide, all, itineraries } = Astro.props;
+const { Content } = await render(guide);
+
+const topic = topicBySlug(guide.data.topic)!;
+const path = `/guides/${guide.id}/`;
+
+/**
+ * A guide about a country is far more use next to that country's trips, so
+ * link them both ways: itineraries here, and this guide from the country page.
+ */
+const related = guide.data.country
+  ? itineraries.filter((i) => i.data.country === guide.data.country).slice(0, 3)
+  : [];
+
+const siblings = all
+  .filter((g) => g.id !== guide.id && (
+    (guide.data.country && g.data.country === guide.data.country) || g.data.topic === guide.data.topic
+  ))
+  .slice(0, 4);
+
+const continent = guide.data.country
+  ? CONTINENTS.find((c) => c.slug === continentFor(guide.data.country))
+  : undefined;
+
+const stamped = (contentDates as Record<string, { updated: string }>)[guide.id]?.updated;
+const updatedAt = guide.data.updatedDate ?? (stamped ? new Date(stamped) : guide.data.publishDate);
+const updated = updatedAt.toLocaleDateString('en-GB', {
+  day: 'numeric', month: 'long', year: 'numeric',
+});
+
+const jsonLd = [
+  guideArticle({
+    title: guide.data.title,
+    description: guide.data.summary,
+    path,
+    image: guide.data.heroImage,
+    published: guide.data.publishDate,
+    updated: guide.data.updatedDate,
+    country: guide.data.country ?? 'Worldwide',
+    days: 0,
+  }),
+  breadcrumbs([
+    { name: 'Guides', path: '/guides/' },
+    ...(guide.data.country
+      ? [{ name: guide.data.country, path: `/destinations/${countrySlug(guide.data.country)}/` }]
+      : []),
+    { name: guide.data.title, path },
+  ]),
+];
+---
+<Base
+  title={`${guide.data.title} — The Itinerary Wala`}
+  description={guide.data.summary}
+  image={guide.data.heroImage}
+  published={guide.data.publishDate}
+  modified={updatedAt}
+  jsonLd={jsonLd}
+>
+  <section class="page-hero">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/guides/">Guides</a></li>
+          {guide.data.country && (
+            <li>
+              <a href={`/destinations/${countrySlug(guide.data.country)}/`}>{guide.data.country}</a>
+            </li>
+          )}
+          <li aria-current="page">{topic.name}</li>
+        </ol>
+      </nav>
+      <h1 data-reveal>{guide.data.title}</h1>
+      <p class="page-hero__lede" data-reveal>{guide.data.summary}</p>
+      <p class="footnote" data-reveal>
+        {topic.name}{guide.data.country ? ` · ${guide.data.country}` : ''} · Updated
+        {' '}<time datetime={updatedAt.toISOString()}>{updated}</time>
+      </p>
+    </div>
+  </section>
+
+  <section class="wrap section">
+    <div class="guide-body prose-body" data-reveal>
+      <Content />
+    </div>
+  </section>
+
+  {related.length > 0 && (
+    <section class="wrap section">
+      <h2 class="section-heading" data-reveal>{guide.data.country} itineraries</h2>
+      <ul class="itinerary-grid">
+        {related.map((itin, i) => (
+          <li class="itinerary-card" data-reveal style={`--stagger:${i}`}>
+            <div class="itinerary-card__cover">
+              <CoverArt
+                seed={itin.id}
+                country={itin.data.country}
+                src={itin.data.heroImage}
+                alt={itin.data.title}
+              />
+              <span class="pill pill--visa">{itin.data.days} days</span>
+            </div>
+            <div class="itinerary-card__body">
+              <p class="card-bestfor"><span>Best for:</span> {itin.data.bestFor}</p>
+              <h3><a class="card-link" href={`/itineraries/${itin.id}/`}>{itin.data.title}</a></h3>
+              {itin.data.route && <p class="card-route">{itin.data.route}</p>}
+            </div>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  {siblings.length > 0 && (
+    <section class="wrap section">
+      <h2 class="section-heading" data-reveal>More guides</h2>
+      <ul class="guide-list" data-reveal>
+        {siblings.map((g) => (
+          <li class="guide-card">
+            <a href={`/guides/${g.id}/`}>
+              <span class="guide-card__topic">{g.data.country ?? 'Everywhere'}</span>
+              <span class="guide-card__title">{g.data.title}</span>
+              <span class="guide-card__go">Read the guide →</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <aside class="wrap section">
+    <div class="cta-card" data-reveal>
+      <div>
+        <h2>Ready to plan the trip?</h2>
+        <p>
+          {guide.data.country
+            ? `Every ${guide.data.country} itinerary here is day by day, with a real budget.`
+            : 'Every itinerary here is day by day, with a real budget.'}
+        </p>
+      </div>
+      <a
+        class="btn btn--solid"
+        href={guide.data.country
+          ? `/destinations/${countrySlug(guide.data.country)}/`
+          : '/itineraries/'}
+      >
+        {guide.data.country ? `See ${guide.data.country} trips` : 'Browse itineraries'}
+      </a>
+    </div>
+  </aside>
+</Base>

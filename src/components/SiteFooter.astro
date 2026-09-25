@@ -3,10 +3,13 @@ import { getCollection } from 'astro:content';
 import { NAV, SITE, ACTIVE_SOCIALS, FORM_ENDPOINT, HAS_FORM_ENDPOINT, WEB3FORMS_KEY } from '../lib/site';
 import SocialIcon from './SocialIcon.astro';
 import { countrySlug } from '../lib/geography.mjs';
+import { getGuides } from '../lib/guides';
 
 // Destination list is generated, so the footer can't go stale.
 const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
 const destinations = [...new Set(itineraries.map((i) => i.data.country))].sort();
+const guideCount = (await getGuides()).length;
+const nav = guideCount > 0 ? NAV : NAV.filter((l) => l.href !== '/guides/');
 const year = new Date().getFullYear();
 ---
 <footer class="site-footer">
@@ -31,7 +34,7 @@ const year = new Date().getFullYear();
     <nav class="footer-col" aria-label="Site">
       <h2>Explore</h2>
       <ul>
-        {NAV.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
+        {nav.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
       </ul>
     </nav>
 

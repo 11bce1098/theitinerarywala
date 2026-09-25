@@ -4,11 +4,17 @@ import { NAV, SITE, ACTIVE_SOCIALS, isCurrent } from '../lib/site';
 import SocialIcon from './SocialIcon.astro';
 import CurrencySwitch from './CurrencySwitch.astro';
 import { groupByContinent, countrySlug } from '../lib/geography.mjs';
+import { getGuides } from '../lib/guides';
+
+// The Guides link is conditional: an empty section would be a dead end on
+// every page of the site.
 
 const pathname = Astro.url.pathname;
 
 const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
 const continents = groupByContinent(itineraries);
+const guideCount = (await getGuides()).length;
+const nav = guideCount > 0 ? NAV : NAV.filter((l) => l.href !== '/guides/');
 ---
 <header class="site-header">
   <div class="wrap site-header__inner">
@@ -26,7 +32,7 @@ const continents = groupByContinent(itineraries);
 
     <nav class="site-nav" aria-label="Primary">
       <ul>
-        {NAV.map((link) => (
+        {nav.map((link) => (
           <li class:list={[{ 'has-flyout': link.menu === 'continents' && continents.length > 0 }]}>
             <a
               class:list={[{ 'nav-cta': link.cta }]}
@@ -144,7 +150,7 @@ const continents = groupByContinent(itineraries);
       </form>
 
       <ul class="mobile-nav__list">
-        {NAV.map((link) => (
+        {nav.map((link) => (
           <li>
             <a
               class="mobile-nav__top"

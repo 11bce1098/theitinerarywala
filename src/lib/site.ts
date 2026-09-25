@@ -83,6 +83,7 @@ export const POPULAR = [
 
 export const NAV: NavLink[] = [
   { href: '/itineraries/', label: 'Itineraries', menu: 'continents' },
+  { href: '/guides/', label: 'Guides' },
   { href: '/visa-services/', label: 'Visa & Entry' },
   { href: '/about/', label: 'About' },
   { href: '/contact/', label: 'Contact' },
