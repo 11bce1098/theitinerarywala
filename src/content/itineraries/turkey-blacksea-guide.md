@@ -10,6 +10,7 @@ route: "Trabzon → Uzungöl → Ayder"
 bestFor: "Second-time visitors"
 summary: "The green Turkey — a cliff-hung monastery, a mosque mirrored in a mountain lake, tea gardens in the mist and hot springs above the clouds — one week, direct flights from the Gulf."
 publishDate: 2026-09-17
+updatedDate: 2026-09-25
 draft: false
 ---
 

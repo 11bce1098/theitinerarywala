@@ -2,8 +2,9 @@
  * Single source of truth for nav, contact details and social links, so the
  * header, footer and contact page can't drift apart.
  *
- * TODO(owner): swap the gmail address for a domain address
- * (hello@theitinerarywala.com) once mail is set up on the domain.
+ * TODO(owner): swap to hello@theitinerarywala.com once the domain has MX
+ * records. It has none today, so that address would bounce — and this one
+ * is the fallback the forms tell people to use when a submission fails.
  */
 export const SITE = {
   name: 'The Itinerary Wala',
@@ -12,6 +13,8 @@ export const SITE = {
     'Day-by-day travel itineraries with realistic pacing, budgets in real numbers, and every stay and tour bookable in one tap.',
   email: 'theitinerarywala@gmail.com',
   instagram: 'https://instagram.com/theitinerarywala',
+  /** @handle on X, used for twitter:site/creator attribution. */
+  xHandle: '@itinerarywala',
   // Branded 1200x630 social preview, used when a page has no image of its own.
   ogImage: '/images/og-card.jpg',
 } as const;
