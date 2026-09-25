@@ -1729,6 +1729,10 @@ body.nav-open { overflow: hidden; }
   border-radius: var(--radius);
   background: linear-gradient(120deg, #fbf3e4, var(--card));
 }
+/* The card spans the content width, so its copy needs its own measure —
+   without this the line runs to ~990px and gets hard to read. */
+.cta-card p { max-width: 62ch; }
+
 .cta-card h2 { font-size: 1.35rem; margin: 0 0 0.35rem; }
 .cta-card p { margin: 0; color: var(--ink-soft); }
 
@@ -2213,7 +2217,7 @@ body.nav-open { overflow: hidden; }
   color: var(--ink-soft);
 }
 .asks li:last-child { margin-bottom: 0; }
-.asks--quoted li { font-style: italic; }
+.asks li { font-style: italic; }
 .asks--quoted li::before { content: '\201C'; }
 .asks--quoted li::after { content: '\201D'; }
 
@@ -2296,6 +2300,7 @@ body.nav-open { overflow: hidden; }
   grid-template-columns: minmax(0, 13rem) minmax(0, 1fr);
   gap: 1.75rem;
   align-items: center;
+  max-width: 54rem;
   padding: 1.75rem;
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -2308,7 +2313,7 @@ body.nav-open { overflow: hidden; }
   display: block;
 }
 .meet__body .section-heading { margin-bottom: 0.7rem; }
-.meet__body p { margin: 0 0 0.7rem; max-width: 52ch; }
+.meet__body p { margin: 0 0 0.7rem; }
 .meet__body .btn { margin-top: 0.3rem; }
 
 @media (max-width: 720px) {
