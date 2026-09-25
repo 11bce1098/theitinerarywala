@@ -9,7 +9,7 @@ heroImage: "/images/south-africa.jpeg"
 heroWide: "/images/south-africa-wide.jpeg"
 styles: ['nature', 'family']
 bestFor: "Safari + city"
-summary: "The two-in-one trip nothing else matches: a mountain-backed city with penguins on the beach, then a flight that lands inside a national park the size of a country — with the brand-new online ETA for Indian passports decoded, the safety rules locals actually follow, and the honest maths of a Big Five safari."
+summary: "The two-in-one trip nothing else matches: a mountain-backed city with penguins on the beach, then a flight that lands inside a national park the size of a country — with the brand-new online ETA decoded, the safety rules locals actually follow, and the honest maths of a Big Five safari."
 publishDate: 2026-09-25
 draft: false
 ---
