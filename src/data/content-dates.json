@@ -7,9 +7,17 @@
     "hash": "dd48579af0cc6a94",
     "updated": "2026-09-25"
   },
+  "austria-9-days-guide": {
+    "hash": "58360fe2bca92bb4",
+    "updated": "2026-09-25"
+  },
   "azerbaijan-7-days-guide": {
     "hash": "faa4e923f06ff540",
     "updated": "2026-09-24"
+  },
+  "bhutan-7-days-guide": {
+    "hash": "5855f1665285701a",
+    "updated": "2026-09-25"
   },
   "china-10-days-guide": {
     "hash": "af896b8504e3e6f6",
@@ -18,6 +26,10 @@
   "china-zhangjiajie-guilin-guide": {
     "hash": "e60de3bb038c2dd4",
     "updated": "2026-09-24"
+  },
+  "egypt-10-days-guide": {
+    "hash": "c6c88e39bbe9d805",
+    "updated": "2026-09-25"
   },
   "france-9-days-guide": {
     "hash": "48aa56c73cb4bc62",
@@ -33,6 +45,10 @@
   },
   "germany-christmas-markets-guide": {
     "hash": "d15638a1ef900e37",
+    "updated": "2026-09-25"
+  },
+  "greece-10-days-guide": {
+    "hash": "0d140f761c1e74be",
     "updated": "2026-09-25"
   },
   "india-andaman-guide": {
@@ -87,9 +103,25 @@
     "hash": "f34ca1e85aca4bcd",
     "updated": "2026-09-25"
   },
+  "maldives-7-days-guide": {
+    "hash": "b5e90d2b9a1bac1d",
+    "updated": "2026-09-25"
+  },
   "mexico-10-days-guide": {
     "hash": "b10c8f4b0eb296eb",
     "updated": "2026-09-24"
+  },
+  "morocco-10-days-guide": {
+    "hash": "40bda0ba930101cd",
+    "updated": "2026-09-25"
+  },
+  "nepal-10-days-guide": {
+    "hash": "7a1a8a55e7c1b74a",
+    "updated": "2026-09-25"
+  },
+  "oman-8-days-guide": {
+    "hash": "89af30b120f8c1f5",
+    "updated": "2026-09-25"
   },
   "russia-10-days-guide": {
     "hash": "0fd72f8a1f91c9e4",
@@ -103,8 +135,20 @@
     "hash": "053df83d455a1674",
     "updated": "2026-09-17"
   },
+  "seychelles-8-days-guide": {
+    "hash": "b97e87ddafa98bc9",
+    "updated": "2026-09-25"
+  },
   "singapore-6-days-guide": {
     "hash": "54f5ebcbefd38bee",
+    "updated": "2026-09-25"
+  },
+  "south-africa-10-days-guide": {
+    "hash": "03a0b7c53c8e7695",
+    "updated": "2026-09-25"
+  },
+  "south-korea-10-days-guide": {
+    "hash": "9f719131e187e175",
     "updated": "2026-09-25"
   },
   "spain-10-days-guide": {
@@ -113,6 +157,10 @@
   },
   "sri-lanka-10-days-guide": {
     "hash": "974d999a026e1640",
+    "updated": "2026-09-25"
+  },
+  "switzerland-10-days-guide": {
+    "hash": "0367616d6afe6cc9",
     "updated": "2026-09-25"
   },
   "thailand-10-days-guide": {
