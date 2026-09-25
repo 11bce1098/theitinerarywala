@@ -147,16 +147,14 @@ main:focus { outline: none; }
   margin-right: auto;
 }
 .brand__mark {
-  display: grid;
-  place-items: center;
+  /* The TIW mark already carries its own rounded square and gradient, so no
+     circle or background behind it. */
+  display: block;
   width: 2rem;
   height: 2rem;
-  border-radius: 50%;
-  background: var(--marigold);
-  color: var(--ink);
+  border-radius: 7px;
   flex: none;
 }
-.brand__mark svg { width: 1.15rem; height: 1.15rem; }
 .brand__accent {
   color: var(--marigold-deep);
   transition: color 0.25s var(--ease-out);
@@ -2299,32 +2297,8 @@ body.nav-open { overflow: hidden; }
   padding: 0.85rem 0.95rem 1rem;
 }
 
-/* ---- homepage: meet the author ----------------------------------------- */
-.meet {
-  display: grid;
-  /* Full content width so its edges line up with the CTA above and the card
-     grids either side; the copy gets its own measure instead. */
-  grid-template-columns: minmax(0, 15rem) minmax(0, 1fr);
-  gap: 1.9rem;
-  align-items: center;
-  padding: 1.75rem;
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  background: var(--card);
-}
-.meet__shot {
-  width: 100%;
-  height: auto;
-  border-radius: var(--radius);
-  display: block;
-}
-.meet__body .section-heading { margin-bottom: 0.7rem; }
-.meet__body p { margin: 0 0 0.7rem; max-width: 62ch; }
-.meet__body .btn { margin-top: 0.3rem; }
 
 @media (max-width: 720px) {
-  .meet { grid-template-columns: 1fr; gap: 1.2rem; padding: 1.25rem; }
-  .meet__shot { max-width: 12rem; }
 }
 
 
@@ -2548,39 +2522,6 @@ body.nav-open { overflow: hidden; }
 }
 .trust__list span { font-size: 1.05rem; line-height: 1; }
 
-/* ---- destinations, one card per region ---------------------------------- */
-.region-grid {
-  display: grid;
-  /* 16rem lands five cards as 3+2 rather than a lopsided 4+1. */
-  grid-template-columns: repeat(auto-fit, minmax(min(16rem, 100%), 1fr));
-  gap: 0.85rem;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.region-card a {
-  display: grid;
-  gap: 0.2rem;
-  height: 100%;
-  padding: 1rem 1.1rem 1.1rem;
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  background: var(--card);
-  text-decoration: none;
-  color: inherit;
-  transition: border-color 0.2s var(--ease-out), transform 0.2s var(--ease-out);
-}
-.region-card a:hover { border-color: var(--marigold); transform: translateY(-2px); }
-.region-card__name { font-family: var(--font-display); font-size: 1.05rem; }
-.region-card__count { font-size: 0.85rem; font-weight: 700; color: var(--teal); }
-.region-card__sample {
-  font-size: 0.82rem;
-  color: var(--ink-soft);
-  line-height: 1.45;
-}
-.region-all { margin: 1rem 0 0; }
-.region-all a { font-weight: 700; color: var(--teal); text-decoration: none; }
-.region-all a:hover { text-decoration: underline; }
 
 /* The label makes the badge read as an answer rather than a fragment. */
 .card-bestfor span { opacity: 0.72; font-weight: 400; }
