@@ -7,6 +7,7 @@ budgetCurrency: "CNY"
 route: "Beijing → Xi'an → Shanghai"
 heroImage: "/images/china.jpeg"
 heroWide: "/images/china-wide.jpeg"
+styles: ['culture']
 bestFor: "First-time visitors"
 summary: "The golden route at 350 km/h: the Great Wall with a toboggan exit, the Forbidden City's 7-day ticket sprint, an 8,000-man terracotta army, and Shanghai's sci-fi skyline — plus the two make-or-break setups (Alipay and your eSIM) that decide whether China is effortless or impossible."
 publishDate: 2026-09-24

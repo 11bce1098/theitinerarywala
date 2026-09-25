@@ -7,6 +7,7 @@ budgetCurrency: "EUR"
 route: "Nuremberg → Rothenburg → Munich"
 heroImage: "/images/germany-christmas.jpeg"
 heroWide: "/images/germany-christmas-wide.jpeg"
+styles: ['culture', 'family']
 bestFor: "Winter magic"
 summary: "Three weeks a year, Germany turns into the world's most organised fairy tale: the Christkind opening Nuremberg's 400-year-old market, a walled medieval town glowing under lanterns, Munich running five markets at once — with the glühwein-mug economics, the halal-and-veg stall strategy, and the one date mistake (arriving December 26) this guide exists to prevent."
 publishDate: 2026-09-25

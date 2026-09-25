@@ -7,6 +7,7 @@ budgetCurrency: "INR"
 heroImage: "/images/india-jaisalmer.jpeg"
 heroWide: "/images/india-jaisalmer-wide.jpeg"
 route: "Jaisalmer → Thar dunes → Longewala"
+styles: ['culture', 'nature']
 bestFor: "Desert + dunes"
 summary: "Deep desert Rajasthan — a living sandstone fort, carved havelis, an abandoned cursed village, a night under Thar stars, and a 1971 battlefield at the border — six days at the edge of India."
 publishDate: 2026-09-17

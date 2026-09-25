@@ -7,6 +7,7 @@ budgetCurrency: "EUR"
 route: "Barcelona → Madrid → Toledo → Seville"
 heroImage: "/images/spain.jpeg"
 heroWide: "/images/spain-wide.jpeg"
+styles: ['culture', 'couples']
 bestFor: "First-time visitors"
 summary: "The great Spanish triangle by high-speed rail — Gaudí's just-completed masterpiece, Madrid's golden art mile and a Toledo day, then Seville's Alcázar and flamenco — three Spains, two trains, one open-jaw ticket."
 publishDate: 2026-09-24

@@ -7,6 +7,7 @@ budgetCurrency: "NPR"
 route: "Kathmandu → Pokhara → Chitwan"
 heroImage: "/images/nepal.jpeg"
 heroWide: "/images/nepal-wide.jpeg"
+styles: ['nature', 'culture']
 bestFor: "First-time visitors"
 summary: "The Himalaya without the trekking boots: Kathmandu's living medieval squares and the Pashupatinath aarti, Annapurna filling the sky at Sarangkot sunrise, rhinos from an open jeep in Chitwan — and a one-hour flight past Everest's face to finish. Indian passports need no visa at all; SAARC rates halve the tickets; one rupee-note rule catches everyone."
 publishDate: 2026-09-25

@@ -5,6 +5,7 @@ days: 7
 budgetAmount: 260000
 budgetCurrency: "AMD"
 route: "Yerevan → Geghard → Noravank → Dilijan"
+styles: ['culture', 'nature']
 bestFor: "First-time visitors"
 heroImage: "/images/armenia.jpeg"
 heroWide: "/images/armenia-wide.jpg"

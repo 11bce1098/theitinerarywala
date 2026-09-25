@@ -16,6 +16,14 @@ const itineraries = defineCollection({
     // the body, not here — the pill is read by everyone.
     visaNote: z.string().optional(),
     bestFor: z.string(),
+    /**
+     * Travel styles this trip suits, for /styles/<slug>/. Editorial judgement,
+     * so it lives here — the budget style is derived from cost instead, in
+     * src/lib/styles.mjs, and must not be listed.
+     */
+    styles: z
+      .array(z.enum(['beach', 'nature', 'culture', 'couples', 'family']))
+      .default([]),
     // "Tashkent → Samarkand → Bukhara → Khiva" — shown on cards so someone
     // scrolling knows the shape of the trip without opening it.
     route: z.string().optional(),

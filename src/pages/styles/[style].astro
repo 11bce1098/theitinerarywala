@@ -1,0 +1,137 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import CoverArt from '../../components/CoverArt.astro';
+import Budget from '../../components/Budget.astro';
+import { regionFor } from '../../lib/geography.mjs';
+import { STYLES, stylesFor, BUDGET_USD_PER_DAY } from '../../lib/styles.mjs';
+import { breadcrumbs, itemList } from '../../lib/schema';
+import { getRates, convert } from '../../lib/rates.mjs';
+
+/**
+ * One page per travel style. These exist because most people arrive knowing
+ * the kind of trip they want long before they know the country.
+ */
+export async function getStaticPaths() {
+  const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
+  const rateData = await getRates();
+
+  // Cost per person per day, in USD, so the budget style is computed rather
+  // than claimed.
+  const perDay = new Map(
+    itineraries.map((itin) => {
+      const amount = itin.data.budgetAmount;
+      if (amount === undefined) return [itin.id, null];
+      const usd = convert(amount, itin.data.budgetCurrency, 'USD', rateData?.rates) ?? amount;
+      return [itin.id, usd / itin.data.days];
+    }),
+  );
+
+  return STYLES.map((style) => {
+    const list = itineraries
+      .filter((itin) => stylesFor(itin, perDay.get(itin.id)).includes(style.slug))
+      .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
+    return { params: { style: style.slug }, props: { style, list } };
+  }).filter(({ props }) => props.list.length > 0);
+}
+
+const { style, list } = Astro.props;
+
+const countries = [...new Set(list.map((i) => i.data.country))].sort();
+const days = list.map((i) => i.data.days);
+const dayRange =
+  Math.min(...days) === Math.max(...days)
+    ? `${days[0]} days`
+    : `${Math.min(...days)}–${Math.max(...days)} days`;
+
+const shareImage = list[0]?.data.heroWide ?? list[0]?.data.heroImage;
+
+const jsonLd = [
+  breadcrumbs([
+    { name: 'Itineraries', path: '/itineraries/' },
+    { name: style.name, path: `/styles/${style.slug}/` },
+  ]),
+  itemList(style.name, list.map((i) => ({ name: i.data.title, path: `/itineraries/${i.id}/` }))),
+];
+---
+<Base
+  title={`${style.name} itineraries — The Itinerary Wala`}
+  description={`${style.tagline} Day-by-day ${style.name.toLowerCase()} itineraries across ${countries.length} countries, ${dayRange}, with realistic budgets.`}
+  image={shareImage}
+  jsonLd={jsonLd}
+>
+  <section class="page-hero">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/itineraries/">Itineraries</a></li>
+          <li aria-current="page">{style.name}</li>
+        </ol>
+      </nav>
+      <h1 data-reveal>
+        <span class="style-hero__icon" aria-hidden="true">{style.icon}</span>
+        {style.name}
+      </h1>
+      <p class="page-hero__lede" data-reveal>{style.blurb}</p>
+      {style.derived && (
+        <p class="footnote" data-reveal>
+          Worked out from each trip's own budget — anything under
+          {' '}${BUDGET_USD_PER_DAY} per person per day, converted at today's rate.
+        </p>
+      )}
+    </div>
+  </section>
+
+  <section class="wrap section">
+    <ul class="itinerary-grid">
+      {list.map((itin, i) => (
+        <li class="itinerary-card" data-reveal style={`--stagger:${i}`}>
+          <div class="itinerary-card__cover">
+            <CoverArt
+              seed={itin.id}
+              country={itin.data.country}
+              src={itin.data.heroImage}
+              alt={itin.data.title}
+              eager={i < 2}
+            />
+            <span class="pill pill--visa">{itin.data.country}</span>
+          </div>
+          <div class="itinerary-card__body">
+            <p class="card-bestfor">{itin.data.bestFor}</p>
+            <h2>
+              <a class="card-link" href={`/itineraries/${itin.id}/`}>{itin.data.title}</a>
+            </h2>
+            {itin.data.route && <p class="card-route">{itin.data.route}</p>}
+            <div class="card-meta">
+              <span class="pill">{itin.data.days} days</span>
+              <span class="pill">
+                <Budget
+                  amount={itin.data.budgetAmount}
+                  currency={itin.data.budgetCurrency}
+                  country={itin.data.country}
+                /> / person
+              </span>
+            </div>
+          </div>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="wrap section">
+    <h2 class="section-heading" data-reveal>Other ways to travel</h2>
+    <ul class="style-tiles" data-reveal>
+      {STYLES.filter((s) => s.slug !== style.slug).map((s) => (
+        <li>
+          <a href={`/styles/${s.slug}/`}>
+            <span class="style-tiles__icon" aria-hidden="true">{s.icon}</span>
+            <span>
+              <strong>{s.name}</strong>
+              <em>{s.tagline}</em>
+            </span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+</Base>

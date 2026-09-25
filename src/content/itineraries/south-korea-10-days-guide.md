@@ -7,6 +7,7 @@ budgetCurrency: "KRW"
 route: "Seoul → the DMZ → Busan"
 heroImage: "/images/southkorea.jpeg"
 heroWide: "/images/southkorea-wide.jpeg"
+styles: ['culture']
 bestFor: "First-time visitors"
 summary: "The K-everything trip done properly: palaces entered free in a rented hanbok, a stare into North Korea from the DMZ, midnight food alleys, then the KTX south to Busan's rainbow village and a sky capsule over the sea — plus the one app truth (Google Maps doesn't work here), the visa file that passes, and where halal Seoul actually lives."
 publishDate: 2026-09-25

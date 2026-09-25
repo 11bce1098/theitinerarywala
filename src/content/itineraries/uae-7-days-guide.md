@@ -5,6 +5,7 @@ days: 7
 budgetAmount: 3350
 budgetCurrency: "AED"
 route: "Dubai → Abu Dhabi"
+styles: ['family', 'beach']
 bestFor: "First-time visitors"
 heroImage: "/images/uae.jpeg"
 heroWide: "/images/uae-wide.jpeg"

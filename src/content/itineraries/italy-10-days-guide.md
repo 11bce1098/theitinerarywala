@@ -7,6 +7,7 @@ budgetCurrency: "EUR"
 route: "Rome → Florence → Venice"
 heroImage: "/images/italy.jpeg"
 heroWide: "/images/italy-wide.jpeg"
+styles: ['culture', 'couples']
 bestFor: "First-time visitors"
 summary: "The classic triangle by high-speed rail: four Roman days from the Colosseum to the Sistine ceiling, Florence's Renaissance in walking distance, then the impossible city on the water — with 2026's booking windows, Venice's new access fee, and the coperto decoded."
 publishDate: 2026-09-24

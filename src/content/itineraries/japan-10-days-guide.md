@@ -5,6 +5,7 @@ days: 10
 budgetAmount: 180000
 budgetCurrency: "JPY"
 route: "Tokyo → Hakone → Kyoto → Osaka"
+styles: ['culture']
 bestFor: "First-time visitors"
 heroImage: "/images/japan.jpeg"
 heroWide: "/images/japan-wide.jpeg"

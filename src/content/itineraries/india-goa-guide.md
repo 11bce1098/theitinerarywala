@@ -7,6 +7,7 @@ budgetCurrency: "INR"
 heroImage: "/images/india-goa.jpeg"
 heroWide: "/images/india-goa-wide.jpeg"
 route: "North Goa → Old Goa → Palolem"
+styles: ['beach']
 bestFor: "Beach + culture travellers"
 summary: "Three nights north, three nights south — cliff forts and the Assagao food scene, Old Goa's basilicas and the Latin Quarter, then Palolem's crescent and a jungle waterfall — with the taxi, scooter and season truths most Goa guides skip."
 publishDate: 2026-09-17

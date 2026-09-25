@@ -5,6 +5,7 @@ days: 7
 budgetAmount: 2165
 budgetCurrency: "GEL"
 route: "Tbilisi → Kazbegi → Sighnaghi"
+styles: ['culture', 'nature']
 bestFor: "First-time visitors"
 heroImage: "/images/georgia.jpeg"
 heroWide: "/images/georgia-wide.jpg"

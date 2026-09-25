@@ -7,6 +7,7 @@ budgetCurrency: "LKR"
 route: "Sigiriya → Kandy → Ella → Galle"
 heroImage: "/images/srilanka.jpeg"
 heroWide: "/images/srilanka-wide.jpeg"
+styles: ['nature', 'culture', 'beach']
 bestFor: "First-time visitors"
 summary: "One small island, absurdly overstocked: a 1,600-year-old palace on a rock, wild-elephant gatherings, the world's most beautiful train ride into tea country, leopards at dawn and blue whales by breakfast — a free ETA for most visitors, SAARC discounts at the gates, and a driver who becomes the trip's best decision."
 publishDate: 2026-09-25

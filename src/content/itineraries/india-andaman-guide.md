@@ -7,6 +7,7 @@ budgetCurrency: "INR"
 heroImage: "/images/india-andaman.jpeg"
 heroWide: "/images/india-andaman-wide.jpeg"
 route: "Port Blair → Havelock → Neil"
+styles: ['beach', 'family']
 bestFor: "Beach and diving travellers"
 summary: "India's island secret — one of Asia's great beaches, first-scuba water clear as glass, a kayak through glowing plankton, and the ferry logistics that make or break the trip, solved."
 publishDate: 2026-09-17

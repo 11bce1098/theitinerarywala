@@ -7,6 +7,7 @@ budgetCurrency: "EUR"
 heroImage: "/images/turkey-blacksea.jpeg"
 heroWide: "/images/turkey-blacksea-wide.jpeg"
 route: "Trabzon → Uzungöl → Ayder"
+styles: ['nature', 'family']
 bestFor: "Second-time visitors"
 summary: "The green Turkey — a cliff-hung monastery, a mosque mirrored in a mountain lake, tea gardens in the mist and hot springs above the clouds — one week, direct flights from the Gulf."
 publishDate: 2026-09-17

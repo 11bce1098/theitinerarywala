@@ -7,6 +7,7 @@ budgetCurrency: "INR"
 heroImage: "/images/india-varanasi.jpeg"
 heroWide: "/images/india-varanasi-wide.jpeg"
 route: "Varanasi → Amritsar"
+styles: ['culture']
 bestFor: "Culture and spiritual travellers"
 summary: "India's two great sacred cities in one week — dawn boats and fire ceremonies on the Ganges, then the Golden Temple's 24-hour calm, the world's largest free kitchen and the border theatre at Wagah."
 publishDate: 2026-09-17

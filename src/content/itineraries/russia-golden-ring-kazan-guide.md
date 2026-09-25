@@ -7,6 +7,7 @@ budgetCurrency: "RUB"
 heroImage: "/images/golden-ring.jpeg"
 heroWide: "/images/golden-ring-wide.jpeg"
 route: "Moscow → Suzdal → Nizhny Novgorod → Kazan"
+styles: ['culture']
 bestFor: "Second-time visitors"
 summary: "The Russia most visitors never see — monastery towns of the Golden Ring, the Volga at Nizhny Novgorod, and Tatar Kazan — strung along one eastward rail line with no backtracking."
 publishDate: 2026-09-17

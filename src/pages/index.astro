@@ -7,6 +7,8 @@ import { POPULAR } from '../lib/site';
 import Budget from '../components/Budget.astro';
 import ValueProps from '../components/ValueProps.astro';
 import { website, itemList } from '../lib/schema';
+import { STYLES, stylesFor } from '../lib/styles.mjs';
+import { getRates, convert } from '../lib/rates.mjs';
 
 /**
  * The homepage is a landing page, not the catalogue. At 29 guides the full
@@ -26,6 +28,31 @@ const latest = itineraries.slice(0, 6);
 
 // Countries grouped under their continent, biggest first inside each, so the
 // browse block reads as a map of what exists rather than an alphabet.
+// Travel styles, the second way in. Budget is computed from cost per day so
+// it can't drift; the rest are editorial tags on each guide.
+const rateDataForStyles = await getRates();
+const perDay = new Map(
+  itineraries.map((itin) => {
+    const amount = itin.data.budgetAmount;
+    if (amount === undefined) return [itin.id, null];
+    const usd = convert(amount, itin.data.budgetCurrency, 'USD', rateDataForStyles?.rates) ?? amount;
+    return [itin.id, usd / itin.data.days];
+  }),
+);
+const styleGroups = STYLES.map((style) => {
+  const matches = itineraries.filter((i) => stylesFor(i, perDay.get(i.id)).includes(style.slug));
+  return {
+    ...style,
+    count: matches.length,
+    // Curated examples where they exist, filtered to what the library
+    // actually holds; otherwise fall back to the most recent.
+    countries: (style.feature ?? []).filter((c) => matches.some((i) => i.data.country === c))
+      .concat([...new Set(matches.map((i) => i.data.country))])
+      .filter((c, i, a) => a.indexOf(c) === i)
+      .slice(0, 3),
+  };
+}).filter((s) => s.count > 0);
+
 const jsonLd = [
   website(),
   itemList('Popular trip plans', popular.map((i) => ({
@@ -111,6 +138,25 @@ const destinations = CONTINENTS
       </ul>
     </section>
   )}
+
+  <section class="wrap section" id="styles">
+    <div class="popular__head" data-reveal>
+      <h2 class="section-heading">What kind of trip are you planning?</h2>
+      <a class="popular__all" href="/itineraries/">See every itinerary →</a>
+    </div>
+    <ul class="style-grid">
+      {styleGroups.map((style, i) => (
+        <li class="style-card" data-reveal style={`--stagger:${i}`}>
+          <a href={`/styles/${style.slug}/`}>
+            <span class="style-card__icon" aria-hidden="true">{style.icon}</span>
+            <span class="style-card__name">{style.name}</span>
+            <span class="style-card__countries">{style.countries.join(' · ')}</span>
+            <span class="style-card__go">Explore {style.name.toLowerCase()} →</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
 
   <section class="wrap section" id="destinations">
     <div class="popular__head" data-reveal>

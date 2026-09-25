@@ -7,6 +7,7 @@ budgetCurrency: "OMR"
 route: "Muscat → Nizwa → Wahiba Sands → Wadi Shab"
 heroImage: "/images/oman.jpeg"
 heroWide: "/images/oman-wide.jpeg"
+styles: ['nature', 'culture']
 bestFor: "Road trippers"
 summary: "The Gulf's gentlest adventure: a marble mosque for 20,000, forts and Friday goat auctions, the Grand Canyon of Arabia, a night among apricot dunes, emerald wadi swims and green turtles nesting by red torchlight — one easy self-drive loop, visa-on-arrival for UAE residents, and petrol so cheap it feels like a typo."
 publishDate: 2026-09-25

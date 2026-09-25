@@ -7,6 +7,7 @@ budgetCurrency: "AUD"
 route: "Sydney → Blue Mountains → Great Barrier Reef → Melbourne"
 heroImage: "/images/australia.jpeg"
 heroWide: "/images/australia-wide.jpeg"
+styles: ['nature', 'family']
 bestFor: "First-time visitors"
 summary: "The east-coast grand tour: the Opera House and a harbour that shows off, the Great Barrier Reef by pontoon, Melbourne's laneway espresso religion and the Great Ocean Road — plus the subclass-600 visa played correctly (apply months out), the slip-slop-slap sun rules, and why nobody tips."
 publishDate: 2026-09-25

@@ -7,6 +7,7 @@ budgetCurrency: "MXN"
 route: "Mexico City → Chichén Itzá → Tulum → Cozumel"
 heroImage: "/images/mexico.jpeg"
 heroWide: "/images/mexico-wide.jpeg"
+styles: ['culture', 'beach']
 bestFor: "Culture + beach"
 summary: "The two Mexicos in one trip: the 22-million-person capital of Aztec ruins, Frida's blue house and the world's best street tacos, then the Maya coast — Chichén Itzá at opening time, jungle cenotes, Tulum's clifftop ruins over turquoise water. Plus the visa rule worth knowing: a valid US, UK or Schengen visa gets you in without a Mexican one."
 publishDate: 2026-09-24

@@ -7,6 +7,7 @@ budgetCurrency: "AZN"
 route: "Baku → Gobustan → Sheki"
 heroImage: "/images/azerbaijan.jpeg"
 heroWide: "/images/azerbaijan-wide.jpeg"
+styles: ['culture']
 bestFor: "First-time visitors"
 summary: "The land of fire in one week — Baku's flame-lit skyline and walled Old City, bubbling mud volcanoes and Stone Age rock art, a burning mountain, and the Silk Road palace town of Sheki in the Caucasus foothills."
 publishDate: 2026-09-24

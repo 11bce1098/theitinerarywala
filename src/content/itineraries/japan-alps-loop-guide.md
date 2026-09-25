@@ -7,6 +7,7 @@ budgetCurrency: "JPY"
 heroImage: "/images/japan-alps.jpeg"
 heroWide: "/images/japan-alps-wide.jpeg"
 route: "Kanazawa → Shirakawa-go → Takayama → Matsumoto"
+styles: ['culture', 'nature']
 bestFor: "Second-time visitors"
 summary: "The Japan most visitors miss — samurai Kanazawa, the thatched village of Shirakawa-go, Takayama's old town and morning markets, and Japan's finest original castle at Matsumoto — in one clean loop from Tokyo."
 publishDate: 2026-09-17
