@@ -1681,7 +1681,12 @@ body.nav-open { overflow: hidden; }
   color: var(--ink-soft);
   margin: 0;
 }
-.section { padding-bottom: 2rem; }
+/* One vertical rhythm for the whole site. Sections used to carry
+   padding-bottom only, so every heading sat 2rem under the previous
+   section's content and the full-bleed bands each invented their own
+   spacing on top of that. */
+.section { padding-block: 0 3.5rem; }
+.section + .section { padding-top: 0.5rem; }
 
 .prose { max-width: var(--measure); }
 .prose h2 {
@@ -1874,7 +1879,7 @@ body.nav-open { overflow: hidden; }
   background: var(--card);
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
-  margin-top: 1rem;
+  margin-block: 0 3.5rem;
 }
 .value-band__inner {
   max-width: 68rem;
@@ -2297,10 +2302,11 @@ body.nav-open { overflow: hidden; }
 /* ---- homepage: meet the author ----------------------------------------- */
 .meet {
   display: grid;
-  grid-template-columns: minmax(0, 13rem) minmax(0, 1fr);
-  gap: 1.75rem;
+  /* Full content width so its edges line up with the CTA above and the card
+     grids either side; the copy gets its own measure instead. */
+  grid-template-columns: minmax(0, 15rem) minmax(0, 1fr);
+  gap: 1.9rem;
   align-items: center;
-  max-width: 54rem;
   padding: 1.75rem;
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -2313,7 +2319,7 @@ body.nav-open { overflow: hidden; }
   display: block;
 }
 .meet__body .section-heading { margin-bottom: 0.7rem; }
-.meet__body p { margin: 0 0 0.7rem; }
+.meet__body p { margin: 0 0 0.7rem; max-width: 62ch; }
 .meet__body .btn { margin-top: 0.3rem; }
 
 @media (max-width: 720px) {
@@ -2394,12 +2400,12 @@ body.nav-open { overflow: hidden; }
 .hero__eyebrow--under { margin-top: 1.5rem; }
 
 .find__inner {
-  padding: 1.5rem 1.6rem 1.6rem;
+  padding: 1.25rem 1.4rem 1.4rem;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--card);
 }
-.find__inner .section-heading { margin-bottom: 0.9rem; font-size: clamp(1.2rem, 2.2vw, 1.5rem); }
+.find .section-heading { font-size: clamp(1.3rem, 2.4vw, 1.7rem); }
 .find__form {
   position: relative;
   display: flex;
@@ -2449,8 +2455,8 @@ body.nav-open { overflow: hidden; }
 
 /* A tinted band so the page alternates rather than running as one sheet. */
 .how {
-  margin-top: 3rem;
-  padding: 3rem 0;
+  margin-block: 0 3.5rem;
+  padding: 3.5rem 0;
   background: linear-gradient(180deg, #fbf3e4, var(--paper));
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
@@ -2473,7 +2479,7 @@ body.nav-open { overflow: hidden; }
 .how__item p { margin: 0; font-size: 0.92rem; color: var(--ink-soft); }
 
 .build {
-  padding: 2.25rem 1.75rem;
+  padding: 2.75rem 1.75rem;
   border-radius: var(--radius);
   background: linear-gradient(120deg, var(--marigold), var(--marigold-deep));
   color: #fff;
@@ -2510,6 +2516,13 @@ body.nav-open { overflow: hidden; }
 .dest-list__row p a { color: var(--ink); text-decoration: none; }
 .dest-list__row p a:hover { color: var(--marigold-deep); text-decoration: underline; }
 .dest-list__row span { color: var(--line); }
+
+@media (max-width: 720px) {
+  .section { padding-block: 0 2.25rem; }
+  .value-band,
+  .how { margin-block: 0 2.25rem; }
+  .how { padding: 2.25rem 0; }
+}
 
 /* ---- motion opt-out ---------------------------------------------------
    Everything above is decoration; none of it carries meaning on its own. */
