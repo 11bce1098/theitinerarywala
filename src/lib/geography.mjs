@@ -47,6 +47,22 @@ export const COUNTRIES = {
   Russia:     { continent: 'europe', region: 'Eastern Europe',  currency: 'RUB' },
   USA:        { continent: 'north-america', region: 'United States', currency: 'USD' },
   Mexico:     { continent: 'north-america', region: 'Mexico and Central America', currency: 'MXN' },
+  Cambodia:         { continent: 'asia',          region: 'Southeast Asia',          currency: 'USD' },
+  Philippines:      { continent: 'asia',          region: 'Southeast Asia',          currency: 'PHP' },
+  'Hong Kong':      { continent: 'asia',          region: 'East Asia',               currency: 'HKD' },
+  Kazakhstan:       { continent: 'asia',          region: 'Central Asia',            currency: 'KZT' },
+  'Saudi Arabia':   { continent: 'asia',          region: 'Middle East',             currency: 'SAR' },
+  Croatia:          { continent: 'europe',        region: 'Southern Europe',         currency: 'EUR' },
+  Portugal:         { continent: 'europe',        region: 'Southern Europe',         currency: 'EUR' },
+  'Czech Republic': { continent: 'europe',        region: 'Central Europe',          currency: 'CZK' },
+  Hungary:          { continent: 'europe',        region: 'Central Europe',          currency: 'HUF' },
+  Iceland:          { continent: 'europe',        region: 'Northern Europe',         currency: 'ISK' },
+  Norway:           { continent: 'europe',        region: 'Northern Europe',         currency: 'NOK' },
+  Netherlands:      { continent: 'europe',        region: 'Western Europe',          currency: 'EUR' },
+  Kenya:            { continent: 'africa',        region: 'East Africa',             currency: 'USD' },
+  Tanzania:         { continent: 'africa',        region: 'East Africa',             currency: 'USD' },
+  Mauritius:        { continent: 'africa',        region: 'Indian Ocean Islands',    currency: 'MUR' },
+  Canada:           { continent: 'north-america', region: 'Canada',                  currency: 'CAD' },
 };
 
 export const CONTINENTS = [
