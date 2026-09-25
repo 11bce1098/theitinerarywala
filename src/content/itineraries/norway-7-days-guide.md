@@ -57,7 +57,7 @@ softened by the packed-lunch system every Norwegian uses.
 - **Money:** Norway is functionally cashless — you can
   land, travel a week and leave without seeing a
   krone. No tipping culture (round up at most). When
-  terminals offer AED conversion: decline.
+  terminals offer to bill in your home currency: decline.
 - **The eating system, stated early because it IS the
   budget:** restaurant mains run NOK 250–450, but
   (1) **Norwegian hotel breakfasts are vast and

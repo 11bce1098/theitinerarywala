@@ -49,7 +49,8 @@ exist to beat it.
   little more and saves a 4-hour backtrack.
 - **Money:** the **euro**, cards everywhere; carry
   ~€50–100 cash for konobas, sobe landladies and ferry
-  kiosks. When terminals offer AED conversion — decline,
+  kiosks. When a terminal offers to bill you in your home
+  currency, decline — always,
   as always.
 - **The bus is the intercity system:** Dubrovnik→Split
   coastal buses run all day (**€20–30, ~4–4.5 h**,

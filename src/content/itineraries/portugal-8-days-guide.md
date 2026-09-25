@@ -52,7 +52,7 @@ brilliant and crowded; even winter is mild and gentle here.
   Pendular).
 - **Money:** euros, cards everywhere; keep €30–50 cash
   for pastelarias, kiosks and tram-stop gelado. Decline
-  AED conversion on terminals, as always.
+  home-currency conversion on terminals, as always.
 - **Getting around Lisbon:** buy a **Viva Viagem card**
   (€0.50) and load the **24-hour pass (~€7.10)** —
   covers metro, trams (including the famous 28),

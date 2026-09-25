@@ -31,11 +31,18 @@ const related = guide.data.country
   ? itineraries.filter((i) => i.data.country === guide.data.country).slice(0, 3)
   : [];
 
-const siblings = all
-  .filter((g) => g.id !== guide.id && (
-    (guide.data.country && g.data.country === guide.data.country) || g.data.topic === guide.data.topic
-  ))
-  .slice(0, 4);
+/**
+ * Guides on the same country or topic first, then anything else to fill.
+ * Without the fallback a guide whose topic nothing else shares renders no
+ * onward link at all — which is most of them while the section is small.
+ */
+const related_guides = all.filter((g) => g.id !== guide.id);
+const siblings = [
+  ...related_guides.filter((g) =>
+    (guide.data.country && g.data.country === guide.data.country) || g.data.topic === guide.data.topic),
+  ...related_guides.filter((g) =>
+    !((guide.data.country && g.data.country === guide.data.country) || g.data.topic === guide.data.topic)),
+].slice(0, 4);
 
 const continent = guide.data.country
   ? CONTINENTS.find((c) => c.slug === continentFor(guide.data.country))

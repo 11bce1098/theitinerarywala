@@ -49,7 +49,7 @@ July– August is lovely and mobbed.
 - **Currency truth:** the Czech Republic is **not a euro
   country**. Some shops "accept" euros at robbery rates —
   pay in koruna, by card (tap works everywhere), and when
-  a card machine offers to charge you in AED/EUR, **always
+  a card machine offers to charge you in your home currency, **always
   choose CZK** (that "convenience" costs 5–10%).
 - **The exchange-office warning** (Prague's one classic
   hustle): street bureaux advertising "0% commission" bury
@@ -303,7 +303,7 @@ wander at midnight. The complete honest list:
 pickpockets at the clock show, on Charles Bridge
 and tram 22 (zip and front-carry); "0% commission"
 exchange offices (never); card machines offering
-AED conversion (decline); un-hailed taxis
+home-currency conversion (decline); un-hailed taxis
 (Uber/Bolt); and the strip-club promoters on
 Wenceslas Square at night (ignore). That's it —
 handle those and Prague is easier than most capitals
