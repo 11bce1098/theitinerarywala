@@ -55,7 +55,7 @@ US$2.60** — the decimal briefing below matters).
   no visa at all.
 - **Overstays bite:** ~OMR 10/day — respect the stamp.
 
-### The UAE-drive box (your readers' favourite route)
+### Driving in from the UAE
 
 - **Crossings:** Al Wajajah/Hatta (E44 — the Muscat
   workhorse), Khatmat Malaha (E99, via Fujairah), Mezyad
@@ -281,7 +281,7 @@ international flights excluded:
 
 | Item | Cost |
 |---|---|
-| Visas on arrival ×2 (UAE-resident route) | {{OMR 10}} |
+| Visas on arrival ×2 (GCC-resident route) | {{OMR 10}} |
 | Car hire, 8 days (compact 4WD) + a full loop of ~OMR-0.23 petrol | {{OMR 255}} |
 | Hotels, 6 nights (Muscat, Nizwa, turtle lodge) | {{OMR 320}} |
 | Wahiba desert camp, half-board for two | {{OMR 80}} |
@@ -297,8 +297,9 @@ international flights excluded:
   is pocket change, and the money sits in beds and the
   camp. Guesthouse-and-2WD discipline lands near
   {{OMR 380}}; a Chedi-and-luxury-camp version doubles
-  it happily. UAE drivers swap the car-hire line for
-  the border kit (~AED 250 all-in) and save further.
+  it happily. Driving in from the UAE swaps the
+  car-hire line for the border kit (~AED 250 all-in) and
+  saves further.
 - **Book in this order:** visa route confirmed (VoA
   eligibility or the e-visa 3–4 days out) → flights or
   the border kit (NOC lead-time if renting in the
@@ -344,12 +345,14 @@ sands yourself. A compact 4WD (~OMR 10–15/day extra)
 simply deletes every asterisk.
 
 **Which visa route am I, exactly?**
-GCC nationals: none. **UAE residents (any
-nationality): visa-on-arrival ~OMR 5** with Emirates
-ID + valid residency — with the honest caveat that
-eligibility screening still occasionally surfaces,
-so the **ROP e-visa 3–4 days ahead is the
-zero-drama option**. Indians without GCC residence:
+Most European, UK, US, Australian and many other
+passports: **visa-free up to 14 days**, nothing to
+arrange. GCC nationals: none either. **GCC residents
+of any nationality: visa-on-arrival ~OMR 5** with the
+residence permit — with the honest caveat that
+eligibility screening still occasionally surfaces, so
+the **ROP e-visa 3–4 days ahead is the zero-drama
+option**. Everyone else, Indian passports included:
 the ROP e-visa (~OMR 20/30 days) with hotel + return
 proof. All roads run through evisa.rop.gov.om — no
 agent needed.

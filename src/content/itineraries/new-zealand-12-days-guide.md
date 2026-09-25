@@ -29,7 +29,7 @@ Hobbiton → Rotorua**, then fly south for **Queenstown → Milford
 Sound → Lake Tekapo/Mt Cook → Christchurch**.
 
 Costs are in New Zealand dollars — figure **{{NZD 4250}} per
-person (≈ AED 9,300 / ₹2.25 lakh)** excluding international
+person ** excluding international
 flights. Remember the hemisphere flip: **NZ summer is
 December–February** (peak prices, school-holiday crowds);
 **September–November spring** is the value sweet spot —
@@ -58,9 +58,9 @@ peaks behind Queenstown.
   accredited translation or an International Driving Permit.
   Carry an IDP regardless; rental desks like seeing it and it
   ends every argument.
-- **Biosecurity is not a joke here**: declare ALL food,
-  honey, seeds, wooden items — even the snacks in your bag. Fines start at NZD 400, and "I forgot" is not
-  a defence. When in doubt, tick yes.
+- - **Biosecurity is not a joke here**: declare ALL food, honey, seeds,
+  wooden items — even the snacks in your bag. Fines start at NZD 400,
+  and "I forgot" is not a defence. When in doubt, tick yes.
 - **Nearly every route in connects** — through Australia,
   Southeast Asia or the US west coast, depending where you
   start. Whatever the routing, book it as **"multi-city: into
@@ -347,7 +347,7 @@ first after flights**, and check current reviews.
 ## What this trip actually costs
 
 Two people, 11 nights, car + motels + the icon list,
-excluding international flights (~AED 4,500–7,000
+excluding international flights (~US$1,250–1,900
 return):
 
 | Item | Cost |
@@ -367,12 +367,10 @@ return):
 | Buffer: hot pools, gold pans, Fergburger seconds | {{NZD 300}} |
 | **Total for two** | **{{NZD 8500}}** |
 
-- **{{NZD 4250}} per person ≈ AED 9,300 / ₹2.25 lakh /
-  US$2,550.** New Zealand is not cheap — but notice
-  what's free: every national park, every trail
-  (Hooker Valley! Mt Eden!), every lake and lookout.
-  The scenery costs nothing; it's the sleeping and
-  the toys that bill you.
+- - **{{NZD 4250}} per person ≈ US$2,550.** New Zealand is not cheap —
+  but notice what's free: every national park, every trail (Hooker
+  Valley! Mt Eden!), every lake and lookout. The scenery costs nothing;
+  it's the sleeping and the toys that bill you.
 - **Book in this order:** visitor visa (NZD 441,
   apply 6+ weeks out) → international flights
   (multi-city AKL-in/CHC-out) → **Hobbiton** and the

@@ -38,14 +38,13 @@ future guide of its own. All costs are in euros (EUR).
 
 ### Visa and borders
 
-Schengen mechanics — the EES biometric border now live, the €20
-ETIAS coming for visa-free passports, the standard file — are
-covered in depth in our [France guide](/itineraries/france-9-days-guide/).
-Germany-specific: UAE applications run through **VFS Global**
-(Dubai/Abu Dhabi), fee **€90** + service charges, and summer
-appointment lead runs **4–8 weeks** — apply where Germany is
-your main destination (most nights), which this itinerary
-satisfies. Bank statements, employment proof and refundable
+Schengen mechanics — the EES biometric border now live, the €20 ETIAS
+coming for visa-free passports, the standard file — are covered in depth
+in our [Schengen visa guide](/guides/schengen-visa-how-it-works/).
+Germany-specific: applications run through **VFS Global**, fee **€90** +
+service charges, and summer appointment lead runs **4–8 weeks** — apply
+where Germany is your main destination (most nights), which this
+itinerary satisfies. Bank statements, employment proof and refundable
 bookings remain the file's spine.
 
 ### Money — Germany's cash surprise

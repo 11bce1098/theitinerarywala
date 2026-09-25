@@ -14,14 +14,14 @@ publishDate: 2026-09-24
 draft: false
 ---
 
-Our [first China guide](/itineraries/china-10-days-guide/) was civilisation:
-palaces, warriors, skylines. This one is what the same country
-looks like when geology does the building. In northwest Hunan,
-three thousand quartzite towers rise out of subtropical mist —
-the mountains that became Pandora in *Avatar*. Six hundred
-kilometres south, the Li River winds through karst cones that
-Chinese painters have been trying to get down on silk for a
-thousand years, and the ¥20 note carries the proof.
+Our [first China guide](/itineraries/china-10-days-guide/) was
+civilisation: palaces, warriors, skylines. This one is what the same
+country looks like when geology does the building. In northwest Hunan,
+three thousand quartzite towers rise out of subtropical mist — the
+mountains that became Pandora in *Avatar*. Six hundred kilometres south,
+the Li River winds through karst cones that Chinese painters have been
+trying to get down on silk for a thousand years, and the ¥20 note
+carries the proof.
 
 This is a **nature-first, legs-required** trip — cable cars and
 eco-buses do the heavy lifting, but 15,000-step days are
@@ -30,8 +30,8 @@ route: less English, fewer foreigners, more pointing at menus.
 Which is exactly the appeal.
 
 **Everything in our first guide's setup section applies here,
-harder:** the visa (CVASC, ~AED 270–320 single-entry for Indian
-passports from the UAE), **Alipay configured before you fly**,
+harder:** the visa (CVASC, ~US$70–90 single-entry for Indian
+passports), **Alipay configured before you fly**,
 and the **foreign eSIM** that keeps WhatsApp and Google alive.
 Read [that section](/itineraries/china-10-days-guide/) first; this guide
 assumes it's done.
@@ -298,7 +298,7 @@ excluded:
 
 | Item | Cost |
 |---|---|
-| China visas for two (CVASC, from the UAE) | {{CNY 1200}} |
+| China visas for two (CVASC) | {{CNY 1200}} |
 | Hotels, 9 nights | {{CNY 3600}} |
 | Trains + local transport (the 07:12 south, DiDis, buses, transfers) | {{CNY 1400}} |
 | Zhangjiajie tickets: park 4-day, cable/elevator combo, glass bridge, Tianmen | {{CNY 2000}} |

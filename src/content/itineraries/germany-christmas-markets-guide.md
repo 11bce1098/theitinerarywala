@@ -24,12 +24,12 @@ exactly four weeks.
 
 This guide joins our winter-specials shelf (alongside
 [Siberia](/itineraries/russia-siberia-winter-guide/) and
-[Hokkaido](/itineraries/japan-hokkaido-winter-guide/)) and runs the classic
-Bavarian-Franconian trio: **Nuremberg**, the most famous market
-of them all; **Rothenburg ob der Tauber**, the walled medieval
-town that looks like the inside of a snow globe; and **Munich**,
-which doesn't have a Christmas market so much as a Christmas
-*district*. One airport, three trains, seven days.
+[Hokkaido](/itineraries/japan-hokkaido-winter-guide/)) and runs the
+classic Bavarian-Franconian trio: **Nuremberg**, the most famous market
+of them all; **Rothenburg ob der Tauber**, the walled medieval town that
+looks like the inside of a snow globe; and **Munich**, which doesn't
+have a Christmas market so much as a Christmas *district*. One airport,
+three trains, seven days.
 
 **The window is strict: roughly 20 November – 24 December.**
 Markets open the week before the first Advent Sunday and — the
@@ -40,11 +40,11 @@ crowd-to-magic sweet spot. All costs are in euros (EUR).
 
 ## Before you go: the admin and the mug economics
 
-- **Visa:** everything from our
-  [Germany guide](/itineraries/germany-10-days-guide/) applies — VFS
-  Global in the UAE, €90, the usual Schengen file — with one
-  December-specific warning: **appointment demand spikes for
-  the market season, so apply by late September/October**.
+- - **Visa:** everything from our [Schengen visa
+  guide](/guides/schengen-visa-how-it-works/) applies — VFS Global, €90,
+  the usual Schengen file — with one December-specific warning:
+  **appointment demand spikes for the market season, so apply by late
+  September/October**.
 - **The markets themselves are free.** You pay for what you
   hold: and what you hold works on the **Pfand system** — a
   glühwein (~**€4.50–5.50**) comes with a **€3–5 mug

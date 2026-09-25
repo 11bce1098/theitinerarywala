@@ -50,15 +50,16 @@ All costs are in euros (EUR).
     authorisation for visa-exempt visitors, valid 3 years. Not yet
     operational at writing — **any site selling ETIAS today is a
     scam**; check the official EU page near your travel date.
-- **Schengen visa passports (including India):** UAE-based readers
-  apply through **VFS for France in the UAE** (all files decided
-  by the Abu Dhabi consulate): **€90** consular fee + ~AED 123
-  service fee, biometrics in person, and France is among the
-  faster deciders at **5–10 working days** (allow 2–3 weeks in
-  peak). The classic rejection reason is thin **proof of funds** —
-  France expects ~€65/day per person with hotels prepaid; bank
-  statements matter more than cover letters. Apply 4–6 weeks out,
-  and good travel history often earns multi-entry.
+- **Schengen visa passports (India included):** apply to the
+  French consulate or its visa partner where you live — **€90**
+  consular fee plus a service fee, biometrics in person. France
+  is among the faster deciders at **5–10 working days** (allow
+  2–3 weeks in peak). The classic rejection reason is thin
+  **proof of funds** — France expects ~€65/day per person with
+  hotels prepaid; bank statements matter more than cover letters.
+  Apply 4–6 weeks out, and good travel history often earns
+  multi-entry. Full process in our
+  [Schengen visa guide](/guides/schengen-visa-how-it-works/).
 - Travel insurance with €30,000 medical coverage is mandatory with
   the visa — and sensible for everyone.
 

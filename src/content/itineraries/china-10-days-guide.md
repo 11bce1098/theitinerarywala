@@ -53,9 +53,9 @@ crowd-free at the Wall. All costs are in Chinese yuan (CNY).
 - **If you do need one**, you apply through a **Chinese Visa
   Application Service Center (CVASC)** rather than the embassy
   directly: book at visaforchina.cn, and expect biometrics.
-  Fees vary by nationality and by post — applying from the UAE,
-  single-entry runs roughly **AED 270–320** for Indian nationals
-  (double ~AED 380–440), paid in cash at the counter.
+  Fees vary by nationality and by the post you apply at —
+  single-entry commonly runs **US$70–90** (double
+  ~US$100–120), often payable in cash at the counter.
 - Standard processing is about **4 working days**; apply 3–4
   weeks out. Documents: passport (6+ months), proof of residence
   if you are applying somewhere other than your home country, a
@@ -345,7 +345,7 @@ flights excluded:
 
 | Item | Cost |
 |---|---|
-| China visas for two (CVASC, from the UAE) | {{CNY 1200}} |
+| China visas for two (CVASC) | {{CNY 1200}} |
 | Hotels, 9 nights | {{CNY 6400}} |
 | Bullet trains: Beijing→Xi'an + Xi'an→Shanghai, two seats | {{CNY 2400}} |
 | Local transport: metros, airport expresses, DiDi, the Maglev | {{CNY 900}} |
@@ -395,8 +395,8 @@ flights excluded:
 
 **Can Indians use China's visa-free transit?**
 No — the 240-hour transit and visa-waiver lists don't include
-India. It's the CVASC visa (roughly AED 270–320 single-entry
-from the UAE, ~4 working days) — annoying to assemble,
+India. It's the CVASC visa (roughly US$70–90 single-entry
+~4 working days at most posts) — annoying to assemble,
 routinely granted for tourism with clean paperwork.
 
 **Will my WhatsApp / Google Maps / Instagram work?**

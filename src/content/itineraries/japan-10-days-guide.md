@@ -47,8 +47,9 @@ anything marked ~ as a guide, not a contract.
 - Visa fees rose sharply in **July 2026** — single-entry is now
   around ¥15,000 — and processing runs 8–10 working days, so start
   3–4 weeks out.
-- Check the official [MOFA eVISA list](https://www.mofa.go.jp/j_info/visit/visa/visaonline.html)
-  for your passport; it's revised periodically.
+- - Check the official [MOFA eVISA
+  list](https://www.mofa.go.jp/j_info/visit/visa/visaonline.html) for
+  your passport; it's revised periodically.
 
 ### The 2026 changes to know
 
@@ -351,15 +352,17 @@ Shibuya Sky, teamLab and Universal Studios slots sell out well ahead.
 Both sites list many of the same attractions at different prices, so it
 is worth comparing before you commit.
 
-<a class="book-btn" href="#aff:klook">Book tickets and tours on Klook</a>
-<a class="book-btn book-btn--alt" href="#aff:kkday">Compare on KKday</a>
+<a class="book-btn" href="#aff:klook">Book tickets and tours on
+Klook</a> <a class="book-btn book-btn--alt" href="#aff:kkday">Compare on
+KKday</a>
 
 ## Getting there
 
 Fares swing hard by season and by day of the week — moving a trip by a
 few days is often the biggest single saving on the whole budget.
 
-<a class="book-btn" href="#aff:aviasales">Check flight prices to Tokyo</a>
+<a class="book-btn" href="#aff:aviasales">Check flight prices to
+Tokyo</a>
 
 ## What this trip actually costs
 

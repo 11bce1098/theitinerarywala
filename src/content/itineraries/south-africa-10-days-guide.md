@@ -33,7 +33,7 @@ the Gulf, Europe and across Africa.
 This is a 10-day, two-base route: **Cape Town (5 nights)**
 then **Kruger (4 nights)**, flying between them. Budget is in
 South African rand — figure **{{ZAR 41000}} per person
-(≈ AED 8,600 / ₹2.1 lakh)** excluding international flights.
+** excluding international flights.
 **Go September–October if you can**: Cape Town is in spring,
 whales are breaching off Hermanus, and Kruger is at its
 dry-season best, with thirsty animals crowding the waterholes.
@@ -61,9 +61,9 @@ dry-season best, with thirsty animals crowding the waterholes.
   visa via VFS Global** wherever you apply (most families
   just do paper visas for everyone together): government fee
   **ZAR 425
-  (~AED 88)** + VFS service charge ~AED 220–280,
-  **5–15 working days**, with UAE residence visa, Emirates
-  ID, certified UAE bank statements, flights and hotel
+  (~US$20)** + VFS service charge ~US$60–80
+  **5–15 working days**, with proof of residence,
+  certified bank statements, flights and hotel
   bookings in the file. Apply a month out and it's routine.
 - Passport: 30+ days validity beyond return and **two blank
   pages** (they're strict on the pages).
@@ -305,7 +305,7 @@ warm everyone was.
 
 Two people, 9 nights, mid-range hotels + real safari,
 excluding international flights (Dubai–Cape Town returns
-run ~AED 3,200–4,800 on Emirates; book 3+ months out):
+run ~US$870–1,300 on Emirates; book 3+ months out):
 
 | Item | Cost |
 |---|---|
@@ -322,10 +322,9 @@ run ~AED 3,200–4,800 on Emirates; book 3+ months out):
 | Buffer: tips, sundowners, curio markets | {{ZAR 2950}} |
 | **Total for two** | **{{ZAR 82000}}** |
 
-- That's **{{ZAR 41000}} per person (≈ AED 8,600 /
-  ₹2.1 lakh / US$2,340)** — a genuine Big Five safari
-  plus one of the world's great cities for less than
-  many Europe-only trips on this site.
+- - That's **{{ZAR 41000}} per person (≈ US$2,340)** — a genuine Big
+  Five safari plus one of the world's great cities for less than many
+  Europe-only trips on this site.
 - **Book in this order:** international flights → **ETA
   online (adults) / VFS visas (kids) a month+ out** →
   **Airlink Cape Town–Skukuza** (small planes, monopoly
@@ -353,7 +352,7 @@ run ~AED 3,200–4,800 on Emirates; book 3+ months out):
 - A windproof jacket for Cape Point — "breezy" there
   means airborne.
 - Power: South Africa's plug is the chunky **Type M**
-  (UAE plugs don't fit) — one adapter each.
+  (most plugs don't fit) — one adapter each.
 - Zoom lens if you have one; phones capture sunsets,
   not leopards.
 
@@ -386,7 +385,7 @@ dinner.
 Adults flying into Cape Town or Joburg: **ETA online**
 — minutes to apply, about a day to clear. Children
 under 18, or anyone entering by land/other airports:
-**VFS sticker visa** (ZAR 425 + ~AED 250 service,
+**VFS sticker visa** (ZAR 425 + ~US$70 service,
 5–15 working days). Mixed families commonly file VFS
 for everyone at once so the whole family's paperwork
 matches. Rules are evolving fast — recheck

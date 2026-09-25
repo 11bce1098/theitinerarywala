@@ -21,7 +21,17 @@ import path from 'node:path';
 const DIR = 'src/content/itineraries';
 
 /** Every path the built site will actually serve from markdown links. */
-const PAGES = new Set(['/', '/about/', '/contact/', '/plan/', '/visa-services/']);
+const GUIDES_DIR = 'src/content/guides';
+
+/**
+ * Every path the built site will actually serve. Destination, continent and
+ * style pages are generated from the itineraries themselves, so they are
+ * derived below rather than listed.
+ */
+const PAGES = new Set([
+  '/', '/about/', '/contact/', '/plan/', '/visa-services/',
+  '/itineraries/', '/guides/', '/destinations/', '/continents/', '/styles/',
+]);
 const CAVEAT = /^\*[^*\n]*(?:checked|rules can change|confirm[^*]*before you book)[^*]*\*$/ms;
 
 const errors = [];
@@ -29,6 +39,26 @@ const warnings = [];
 
 const files = (await readdir(DIR)).filter((f) => f.endsWith('.md'));
 for (const file of files) PAGES.add(`/itineraries/${file.replace(/\.md$/, '')}/`);
+
+// Guides are a separate collection, and itineraries link into them.
+const guideFiles = (await readdir(GUIDES_DIR))
+  .filter((f) => f.endsWith('.md') && f !== 'README.md');
+for (const file of guideFiles) PAGES.add(`/guides/${file.replace(/\.md$/, '')}/`);
+
+// Country, continent and style pages the itineraries can link to.
+for (const file of files) {
+  const src = await readFile(path.join(DIR, file), 'utf8');
+  const country = /^country: *"?([^"\n]+)"?/m.exec(src)?.[1]?.trim();
+  if (country) {
+    PAGES.add(`/destinations/${country.toLowerCase().replace(/[^a-z0-9]+/g, '-')}/`);
+  }
+}
+for (const c of ['asia', 'europe', 'africa', 'north-america', 'south-america', 'oceania']) {
+  PAGES.add(`/continents/${c}/`);
+}
+for (const st of ['beach', 'nature', 'culture', 'couples', 'family', 'budget']) {
+  PAGES.add(`/styles/${st}/`);
+}
 
 for (const file of files) {
   const body = await readFile(path.join(DIR, file), 'utf8');

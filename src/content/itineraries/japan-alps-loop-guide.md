@@ -242,15 +242,17 @@ Bus passes, Shirakawa-go transfers and castle tickets are bookable
 ahead. Coverage of the smaller Alps operators differs between the two,
 so check both.
 
-<a class="book-btn" href="#aff:klook">Book tickets and tours on Klook</a>
-<a class="book-btn book-btn--alt" href="#aff:kkday">Compare on KKday</a>
+<a class="book-btn" href="#aff:klook">Book tickets and tours on
+Klook</a> <a class="book-btn book-btn--alt" href="#aff:kkday">Compare on
+KKday</a>
 
 ## Getting there
 
 Fares swing hard by season and by day of the week — moving a trip by a
 few days is often the biggest single saving on the whole budget.
 
-<a class="book-btn" href="#aff:aviasales">Check flight prices to Tokyo</a>
+<a class="book-btn" href="#aff:aviasales">Check flight prices to
+Tokyo</a>
 
 ## What this trip actually costs
 

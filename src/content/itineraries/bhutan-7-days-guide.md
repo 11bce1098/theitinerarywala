@@ -9,7 +9,7 @@ heroImage: "/images/bhutan.jpeg"
 heroWide: "/images/bhutan-wide.jpeg"
 styles: ['culture', 'nature']
 bestFor: "Culture + mountains"
-summary: "The kingdom that measures happiness: a monastery glued to a cliff, dzongs the size of walled towns, 108 chortens on a Himalayan pass and a hot-stone bath in a farmhouse — with the Indian-passport advantage decoded (₹1,200-a-night SDF vs $100, no visa, Voter ID accepted) and the permit choreography that makes the whole trip run."
+summary: "The kingdom that measures happiness: a monastery glued to a cliff, dzongs the size of walled towns, 108 chortens on a Himalayan pass and a hot-stone bath in a farmhouse — with the two-tier fee system decoded (a ₹1,200-a-night regional SDF against US$100, and who qualifies for which) and the permit choreography that makes the whole trip run."
 publishDate: 2026-09-25
 draft: false
 ---
@@ -50,8 +50,8 @@ Indian rupees are accepted almost everywhere).
   ₹600, **under-6 free**) — the regional rate, currently
   **locked through August 2027**. A couple's 6-night trip
   pays ₹14,400 total; internationals pay US$1,200 for the
-  same nights (plus a US$40 visa) — the gap that makes
-  Bhutan an Indian-market bargain right now.
+  same nights (plus a US$40 visa) — the widest gap between
+  the two tiers Bhutan has ever run.
 - **Apply two ways:** online at **immi.gov.bt** 4–5 working
   days ahead (pay SDF there, land smooth), or **on arrival
   at Paro airport (15–30 min)**. Land-crossers at
@@ -335,9 +335,9 @@ water, go slow — the cliff does the rest.
 The ₹1,200 regional rate (and the internationals'
 US$100 halved rate) is officially extended **through
 31 August 2027**. Beyond that, policy history says
-rates revisit. Translation: the current era is the
-cheapest legal Bhutan for Indians in decades — a
-reason to go sooner, not later.
+rates revisit. Translation: for anyone on the
+regional rate this is the cheapest legal Bhutan in
+decades — a reason to go sooner, not later.
 
 **Festivals — should we time for a tshechu?**
 If you can: **Paro Tshechu (March–April)** and

@@ -14,13 +14,14 @@ publishDate: 2026-09-24
 draft: false
 ---
 
-Our first two USA guides ([East Coast](/itineraries/usa-east-coast-guide/),
-[West classic](/itineraries/usa-west-coast-guide/)) were built to need no car.
+Our first two USA guides ([East
+Coast](/itineraries/usa-east-coast-guide/), [West
+classic](/itineraries/usa-west-coast-guide/)) were built to need no car.
 This one is the opposite: the car *is* the trip. The Pacific Coast
-Highway between Los Angeles and Monterey is the drive every rental
-ad has been imitating for fifty years — surf on one side, cliffs
-on the other, a bridge photo you've already seen a hundred times —
-and Yosemite is what happens when granite decides to show off.
+Highway between Los Angeles and Monterey is the drive every rental ad
+has been imitating for fifty years — surf on one side, cliffs on the
+other, a bridge photo you've already seen a hundred times — and Yosemite
+is what happens when granite decides to show off.
 
 **And 2026 is the year it came back.** After three years of
 landslide closures, **Highway 1 through Big Sur fully reopened on
@@ -41,15 +42,15 @@ All costs are in US dollars (USD).
 
 ### Visa, in one line
 
-The **~$435-per-person** US visa reality ($185 + $250 Integrity
-Fee), the **6–12 month UAE appointment waits**, ESTA for Visa
-Waiver passports — all covered in depth in our
-[East Coast guide](/itineraries/usa-east-coast-guide/). Start it 8–12 months
-out; nothing below matters without it.
+The **~$435-per-person** US visa reality ($185 + $250 Integrity Fee),
+the **6–12 month UAE appointment waits**, ESTA for Visa Waiver passports
+— all covered in depth in our [East Coast
+guide](/itineraries/usa-east-coast-guide/). Start it 8–12 months out;
+nothing below matters without it.
 
 ### Driving in America — the honest briefing
 
-- **Licence:** a valid licence in English (UAE licences qualify)
+- **Licence:** a valid foreign licence in English
   is accepted by California law and the major agencies; an
   **International Driving Permit** is cheap insurance for
   Indian-issued licences — get one, carry both.
@@ -283,8 +284,8 @@ three tiers — **Argonaut** (4.5/5, Wharf luxury), **Hotel Caza**
 
 ## Days 8–9 — San Francisco, the short version
 
-Two days, fully detailed as Days 7–9 in the
-[West Coast guide](/itineraries/usa-west-coast-guide/); the compressed plan:
+Two days, fully detailed as Days 7–9 in the [West Coast
+guide](/itineraries/usa-west-coast-guide/); the compressed plan:
 
 - **Day 8** — **Alcatraz first ferry** (~$48 — **book 90 days
   out**, it sells out weeks ahead), Pier 39 sea lions, chowder
@@ -371,7 +372,7 @@ drive**, and know the inland US-101 bail-out exists if a
 segment shuts. If Big Sur is closed, the trip still works:
 101 to Monterey, day-trip the open end of the coast.
 
-**Can I drive on an Indian or UAE licence?**
+**Can I drive on my own country's licence?**
 Yes — California accepts valid foreign licences for visitors,
 and rental majors take English-language licences (UAE cards
 qualify directly). Carry an **IDP with an Indian licence** —

@@ -39,16 +39,16 @@ All costs are in euros (EUR).
 
 ### Visas and borders — the short version
 
-The Schengen rules are identical to our France guide, where
-they're covered in depth. The essentials: ~60 nationalities enter
-visa-free (with the **EES biometric border** now live — allow
-extra time at first entry — and the **€20 ETIAS** authorisation
-expected from late 2026); Schengen-visa passports (including
-India) apply from the UAE with the usual file — note **Spain's UAE
+The Schengen rules are covered in depth in our [Schengen visa
+guide](/guides/schengen-visa-how-it-works/). The essentials: ~60
+nationalities enter visa-free (with the **EES biometric border** now
+live — allow extra time at first entry — and the **€20 ETIAS**
+authorisation expected from late 2026); Schengen-visa passports
+(including India) apply with the usual file — note **Spain's
 applications run through BLS International** (not VFS), fee €90 +
-service charges, and appointments in peak season need 4–6 weeks of
-lead. Proof of funds and confirmed bookings remain the make-or-
-break documents.
+service charges, and appointments in peak season need 4–6 weeks of lead.
+Proof of funds and confirmed bookings remain the make-or- break
+documents.
 
 ### Money and the small print
 
@@ -299,7 +299,7 @@ flights excluded:
   tasting menus climb fast. July–August adds heat, not much cost —
   Easter and December add both.
 - **Book in this order:** flights (open-jaw BCN in / SVQ out) →
-  Schengen visa if needed (Spain = BLS in the UAE; 4–6 weeks) →
+  Schengen visa if needed (Spain = BLS, not VFS; 4–6 weeks) →
   **Sagrada Família and the Alcázar** (the two true sellouts) →
   trains when sales open → Park Güell, Prado, Palace a week out →
   the rest walks up.

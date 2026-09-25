@@ -31,12 +31,11 @@ honest-to-goodness expensive — so this guide is built around
 the local tricks (guesthouses, takeaway boxes, the SCR 12 bus)
 that cut the bill without cutting the postcard.
 
-The route is the classic three-island ladder: **Mahé (3
-nights) → Praslin (2 nights) → La Digue (2 nights)**, hopping
-by fast ferry. Costs are in Seychellois rupees (**SCR ~16 to
-the euro; hotels quote EUR, everything local runs in SCR**).
-Figure **{{SCR 23000}} per person (≈ €1,480 / AED 6,200 /
-₹1.4 lakh)** excluding international flights.
+The route is the classic three-island ladder: **Mahé (3 nights) →
+Praslin (2 nights) → La Digue (2 nights)**, hopping by fast ferry. Costs
+are in Seychellois rupees (**SCR ~16 to the euro; hotels quote EUR,
+everything local runs in SCR**). Figure **{{SCR 23000}} per person (≈
+€1,480)** excluding international flights.
 
 ## Before you go: the admin (there barely is any)
 
@@ -56,7 +55,7 @@ Figure **{{SCR 23000}} per person (≈ €1,480 / AED 6,200 /
   malaria anywhere in Seychelles** — a genuine tropical
   rarity.
 - **Getting there:** Emirates flies **Dubai–Mahé non-stop
-  daily (~4h15)**; returns commonly AED 2,400–4,000 —
+  daily (~4h15)**; returns commonly US$650–1,100 —
   book 2–3 months out. Air Seychelles also connects
   Mumbai for India-side family joining the trip.
 - **When to go:** the magic windows are the trade-wind
@@ -296,7 +295,7 @@ sweet spot at ~€100–140).
 
 Two people, 7 nights (3 Mahé + 2 Praslin + 2 La Digue),
 guesthouse-smart with two splurges, excluding
-international flights (Dubai–Mahé ~AED 2,400–4,000
+international flights (Dubai–Mahé ~US$650–1,100
 return on Emirates):
 
 | Item | Cost |
@@ -311,12 +310,10 @@ return on Emirates):
 | Buffer: sunset drinks, coconut ice cream, souvenirs | {{SCR 1300}} |
 | **Total for two** | **{{SCR 46000}}** |
 
-- **{{SCR 23000}} per person ≈ €1,480 / AED 6,200 /
-  ₹1.4 lakh** — for the world's most expensive-looking
-  trip, that's the guesthouse economy doing its work.
-  The same 8 days in beach resorts with restaurant
-  dinners runs 2.5–4× this; the honeymoon-splurge
-  version is a future guide.
+- - **{{SCR 23000}} per person ≈ €1,480** — for the world's most
+  expensive-looking trip, that's the guesthouse economy doing its work.
+  The same 8 days in beach resorts with restaurant dinners runs 2.5–4×
+  this; the honeymoon-splurge version is a future guide.
 - **Book in this order:** Emirates flights → **Travel
   Authorisation online (10 days out, €10.90 — don't
   pay lookalike sites more)** → guesthouses (the good
@@ -350,16 +347,15 @@ return on Emirates):
 
 ## FAQ
 
-**Seychelles or Maldives — which one?**
-Different animals. **Maldives** is one resort on one
-ring of coral: the water is (slightly) more surreal,
-everything happens at your hotel, and it's the better
-pure-luxury cocoon — our [Maldives guide](/itineraries/maldives-7-days-guide/)
-covers it. **Seychelles** is a real country you explore:
-three islands, mountains, markets, buses, hikes,
-guesthouses — twice the trip for travellers who get
-bored on day three of a sunlounger. Honeymoon: Maldives
-by a nose. Everything else: Seychelles.
+**Seychelles or Maldives — which one?** Different animals. **Maldives**
+is one resort on one ring of coral: the water is (slightly) more
+surreal, everything happens at your hotel, and it's the better
+pure-luxury cocoon — our [Maldives
+guide](/itineraries/maldives-7-days-guide/) covers it. **Seychelles** is
+a real country you explore: three islands, mountains, markets, buses,
+hikes, guesthouses — twice the trip for travellers who get bored on day
+three of a sunlounger. Honeymoon: Maldives by a nose. Everything else:
+Seychelles.
 
 **Is it safe?**
 One of Africa's safest countries — solo women cycle La

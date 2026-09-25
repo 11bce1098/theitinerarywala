@@ -14,12 +14,12 @@ publishDate: 2026-09-24
 draft: false
 ---
 
-If our [East Coast guide](/itineraries/usa-east-coast-guide/) is America's
-history and skyline, this is its fantasy and geology. Los Angeles
-is the world's dream factory sprawled along a beach; Las Vegas is
-the desert's fever dream — and, more usefully, the gateway to the
-Grand Canyon and Antelope Canyon; San Francisco is the beautiful,
-foggy, hill-stacked city every film has promised you.
+If our [East Coast guide](/itineraries/usa-east-coast-guide/) is
+America's history and skyline, this is its fantasy and geology. Los
+Angeles is the world's dream factory sprawled along a beach; Las Vegas
+is the desert's fever dream — and, more usefully, the gateway to the
+Grand Canyon and Antelope Canyon; San Francisco is the beautiful, foggy,
+hill-stacked city every film has promised you.
 
 The standard advice says the West needs a road trip. It doesn't —
 not for this triangle. Three short flights connect the cities,
@@ -38,13 +38,12 @@ SF — and everything is cheaper. All costs are in US dollars (USD).
 
 Everything about the US visa — the **~$435 real cost** per Indian
 passport ($185 MRV + $250 Visa Integrity Fee), the **6–12 month
-appointment waits from the UAE** since the July 2026 service
+appointment waits at many posts** since the July 2026 service
 suspension, the 10-year B1/B2 consolation, ESTA for Visa Waiver
-passports — is covered in depth in our
-[East Coast guide](/itineraries/usa-east-coast-guide/). The one-line version:
-**start the visa 8–12 months before you fly**, via
-ustraveldocs.com, and let nothing else be booked non-refundable
-until it's stamped.
+passports — is covered in depth in our [East Coast
+guide](/itineraries/usa-east-coast-guide/). The one-line version:
+**start the visa 8–12 months before you fly**, via ustraveldocs.com, and
+let nothing else be booked non-refundable until it's stamped.
 
 ### Money — this route's three traps
 
@@ -278,9 +277,9 @@ Two very different Day 6s — pick by stamina:
 
 ## Day 10 — Home from SFO
 
-- **Morning** — Last fog-and-sourdough breakfast; BART or Uber to
-  SFO, which flies non-stop to most long-haul hubs. Triangle closed — and
-  you never touched a steering wheel.
+- - **Morning** — Last fog-and-sourdough breakfast; BART or Uber to SFO,
+  which flies non-stop to most long-haul hubs. Triangle closed — and you
+  never touched a steering wheel.
 
 ## What this trip actually costs
 

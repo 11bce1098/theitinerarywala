@@ -306,7 +306,7 @@ flights excluded:
 
 | Item | Cost |
 |---|---|
-| UK visas for two (Standard Visitor, via VFS in the UAE) | {{GBP 260}} |
+| UK visas for two (Standard Visitor, via VFS) | {{GBP 260}} |
 | Hotels, 9 nights | {{GBP 1600}} |
 | LNER London→Edinburgh, two Advance singles | {{GBP 100}} |
 | Local transport: contactless caps, Elizabeth line, boats, trams | {{GBP 270}} |

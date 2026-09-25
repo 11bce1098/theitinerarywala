@@ -37,12 +37,15 @@ by night. All costs are in Moroccan dirhams (MAD; ~10.3/US$).
 
 ## Before you go: the e-visa and the rulebook
 
-- **Indians get Morocco's e-visa directly** — no supporting
-  US/Schengen visa needed anymore: **MAD 770 (~₹6,400),
+- **Most nationalities enter visa-free for 90 days** — the
+  EU, UK, USA, Canada, Australia, Japan and the Gulf states
+  among them. Nothing to arrange in advance.
+- **Indian passports get Morocco's e-visa directly** — no
+  supporting US/Schengen visa needed anymore: **MAD 770,
   72-hour processing** (express 24 h at MAD 1,100), single
   entry, 30-day stay, on the official **acces-maroc.ma**
-  only (copycat sites charge double). UAE residence changes
-  nothing; UAE nationals enter visa-free.
+  only (copycat sites charge double). Residence elsewhere
+  changes nothing either way.
 - **The dirham is a closed currency** — you can't legally
   import/export meaningful amounts: exchange or withdraw on
   arrival, keep exchange receipts, and **spend or re-exchange
@@ -349,7 +352,7 @@ riad-grade comfort, international flights excluded:
 
 ## FAQ
 
-**The e-visa is really direct for Indians now?**
+**Is the e-visa really that direct?**
 Yes — India sits in the direct-eligibility category:
 MAD 770, 72 hours, no supporting US/Schengen visa
 required (that old workaround is obsolete). Use

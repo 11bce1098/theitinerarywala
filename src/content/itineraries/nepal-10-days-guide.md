@@ -47,7 +47,7 @@ are in Nepali rupees (NPR).
   tourism. It is genuinely that simple.
 - **Everyone else:** visa on arrival at Kathmandu airport —
   ~US$30/15 days, US$50/30 days, kiosk + cash counter;
-  UAE and most passports qualify.
+  nearly every passport qualifies.
 - **The rule that catches Indian travellers: ₹500 and ₹2,000
   Indian notes are not legal in Nepal.** Carry ₹100s (widely
   accepted at ~1.6 NPR) or just use ATMs/cards. Getting

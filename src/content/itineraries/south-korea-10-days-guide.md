@@ -345,11 +345,11 @@ international flights excluded:
 
 ## FAQ
 
-**How strict is the Korean visa for Indians?**
+**How strict is the Korean visa?**
 Document-strict, decision-fair: the embassy wants a
 clean 6-month statement story, employer letters and a
-credible itinerary. UAE-based applicants report
-7–10-working-day turnarounds routinely. No VoA exists,
+credible itinerary. Applicants commonly report
+7–10-working-day turnarounds. No VoA exists,
 and **K-ETA is not available to passports that need a visa** —
 don't buy one from a copycat site.
 

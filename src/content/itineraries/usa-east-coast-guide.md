@@ -420,8 +420,8 @@ Philadelphia stop (1h15 on the same Amtrak line, between NYC and
 DC) with an 11th day.
 
 **What's the single biggest planning mistake?**
-Underestimating the visa timeline. Appointment waits from the UAE
-have run **6–12 months** through 2026 (services were suspended
+Underestimating the visa timeline. Appointment waits have run
+**6–12 months** at many posts through 2026 (services were suspended
 outright in July 2026 and remain limited), and India's queues are
 long too. Everything else on this trip can be booked in a month;
 the visa cannot.
