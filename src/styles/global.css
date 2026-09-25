@@ -726,7 +726,9 @@ body.nav-open { overflow: hidden; }
 /* ---- footer ---- */
 .site-footer {
   border-top: 1px solid var(--line);
-  margin-top: 5rem;
+  /* Sections already carry their own bottom padding; 5rem here stacked on
+     top of it and left the last block stranded. */
+  margin-top: 1.5rem;
   background: var(--card);
   color: var(--ink-soft);
   font-size: 0.92rem;
@@ -2516,6 +2518,7 @@ body.nav-open { overflow: hidden; }
 .trust__list li {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
   font-size: 0.92rem;
   color: var(--ink);
