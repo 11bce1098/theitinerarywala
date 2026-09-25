@@ -10,7 +10,7 @@ export const SITE = {
   name: 'The Itinerary Wala',
   tagline: 'Travel less like a tourist. Plan more like a local.',
   description:
-    'Day-by-day travel itineraries with realistic pacing, budgets in real numbers, and every stay and tour bookable in one tap.',
+    'Day-by-day travel itineraries with realistic pacing, real-number budgets, and practical links to help you book your trip.',
   email: 'hello@theitinerarywala.com',
   instagram: 'https://instagram.com/theitinerarywala',
   /** @handle on X, used for twitter:site/creator attribution. */
@@ -60,6 +60,20 @@ export interface NavLink {
  * Itinerary ids to feature on the homepage, in order.
  * TODO(owner): reorder as you learn which ones actually convert.
  */
+/**
+ * Search shortcuts under the homepage hero. Deliberately curated rather than
+ * "countries with the most guides", which surfaced India, Russia and Germany —
+ * true, but not what the site is best at selling.
+ */
+export const POPULAR_DESTINATIONS = [
+  'Japan',
+  'Thailand',
+  'Vietnam',
+  'Turkey',
+  'Georgia',
+  'Uzbekistan',
+];
+
 export const POPULAR = [
   'uzbekistan-9-days-guide',
   'georgia-7-days-guide',

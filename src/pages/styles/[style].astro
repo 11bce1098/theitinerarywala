@@ -97,7 +97,7 @@ const jsonLd = [
             <span class="pill pill--visa">{itin.data.country}</span>
           </div>
           <div class="itinerary-card__body">
-            <p class="card-bestfor">{itin.data.bestFor}</p>
+            <p class="card-bestfor"><span>Best for:</span> {itin.data.bestFor}</p>
             <h2>
               <a class="card-link" href={`/itineraries/${itin.id}/`}>{itin.data.title}</a>
             </h2>

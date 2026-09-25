@@ -126,7 +126,7 @@ export function website() {
     name: 'The Itinerary Wala',
     url: SITE_URL,
     description:
-      'Day-by-day travel itineraries with realistic pacing, budgets in real numbers, and every stay and tour bookable in one tap.',
+      'Day-by-day travel itineraries with realistic pacing, real-number budgets, and practical links to help you book your trip.',
     publisher: { '@type': 'Organization', name: 'The Itinerary Wala', url: SITE_URL },
     potentialAction: {
       '@type': 'SearchAction',

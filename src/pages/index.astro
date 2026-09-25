@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import CoverArt from '../components/CoverArt.astro';
 import { countrySlug, continentFor, CONTINENTS } from '../lib/geography.mjs';
-import { POPULAR } from '../lib/site';
+import { POPULAR, POPULAR_DESTINATIONS } from '../lib/site';
 import Budget from '../components/Budget.astro';
 import ValueProps from '../components/ValueProps.astro';
 import { website, itemList } from '../lib/schema';
@@ -25,14 +25,9 @@ const popular = POPULAR
 
 const latest = itineraries.slice(0, 6);
 
-/** Countries with the most guides — the search suggestions worth offering. */
-const topCountries = [...itineraries.reduce((m, i) => {
-  m.set(i.data.country, (m.get(i.data.country) ?? 0) + 1);
-  return m;
-}, new Map<string, number>()).entries()]
-  .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
-  .slice(0, 6)
-  .map(([name]) => name);
+/** Curated search shortcuts, filtered to countries that actually exist here. */
+const covered = new Set(itineraries.map((i) => i.data.country));
+const topCountries = POPULAR_DESTINATIONS.filter((name) => covered.has(name));
 
 // Budget is computed from cost per day so it can't drift; the rest are
 // editorial tags on each guide.
@@ -58,24 +53,24 @@ const styleGroups = STYLES.map((style) => {
 }).filter((s) => s.count > 0);
 
 /**
- * Continents with their countries as plain links. This used to render 37
- * image tiles, which was most of the page's height for a list people scan
- * rather than browse — the images do their work further up.
+ * One card per continent rather than every country. Listing all 37 was most
+ * of the page's remaining height for a list people scan rather than read —
+ * the full set lives on /itineraries/ and the continent pages.
  */
 const destinations = CONTINENTS
-  .map((c) => ({
-    ...c,
-    countries: [...new Set(
+  .map((c) => {
+    const countries = [...new Set(
       itineraries.filter((i) => continentFor(i.data.country) === c.slug).map((i) => i.data.country),
-    )].sort(),
-  }))
-  .filter((c) => c.countries.length > 0);
+    )].sort();
+    return { ...c, countries, count: countries.length };
+  })
+  .filter((c) => c.count > 0);
 
 const steps = [
   { n: '01', title: 'Pick a destination', body: 'Choose a ready-made itinerary, or tell me where you want to go.' },
   { n: '02', title: 'Check the plan', body: 'See the route, the day-by-day schedule and a realistic budget.' },
   { n: '03', title: 'Make it yours', body: 'Adjust it around your dates, your interests and how you travel.' },
-  { n: '04', title: 'Book and go', body: 'Use the links on the page and start planning the fun parts.' },
+  { n: '04', title: 'Book and go', body: 'Use the recommended links and spend less time on the logistics.' },
 ];
 
 const jsonLd = [
@@ -87,7 +82,7 @@ const jsonLd = [
 ---
 <Base
   title="The Itinerary Wala — day-by-day travel itineraries"
-  description="Day-by-day travel itineraries with realistic pacing, budgets in real numbers, and every stay and tour bookable in one tap."
+  description="Day-by-day travel itineraries with realistic pacing, real-number budgets, and practical links to help you book your trip."
   jsonLd={jsonLd}
 >
   <section class="hero">
@@ -177,6 +172,15 @@ const jsonLd = [
     </section>
   )}
 
+  <section class="wrap section trust" aria-label="What every itinerary includes">
+    <ul class="trust__list" data-reveal>
+      <li><span aria-hidden="true">🗓</span> Day-by-day routes</li>
+      <li><span aria-hidden="true">💰</span> Realistic budgets</li>
+      <li><span aria-hidden="true">🚗</span> Practical transport</li>
+      <li><span aria-hidden="true">🛂</span> Visa &amp; entry guidance</li>
+    </ul>
+  </section>
+
   <section class="wrap section" id="styles">
     <div class="popular__head" data-reveal>
       <h2 class="section-heading">What kind of trip are you planning?</h2>
@@ -202,7 +206,7 @@ const jsonLd = [
     <div class="popular__head" data-reveal>
       <div>
         <h2 class="section-heading">More trips. Already planned.</h2>
-        <p class="section-sub">Pick a destination — the route is worked out.</p>
+        <p class="section-sub">Pick a destination — we&rsquo;ve worked out the route.</p>
       </div>
       <a class="popular__all" href="/itineraries/">See all itineraries →</a>
     </div>
@@ -220,7 +224,7 @@ const jsonLd = [
             <span class="pill pill--visa">{itin.data.country}</span>
           </div>
           <div class="itinerary-card__body">
-            <p class="card-bestfor">{itin.data.bestFor}</p>
+            <p class="card-bestfor"><span>Best for:</span> {itin.data.bestFor}</p>
             <h2>
               <a class="card-link" href={`/itineraries/${itin.id}/`}>{itin.data.title}</a>
             </h2>
@@ -292,26 +296,22 @@ const jsonLd = [
   </section>
 
   <section class="wrap section" id="destinations">
-    <div class="popular__head" data-reveal>
-      <h2 class="section-heading">Explore destinations</h2>
-      <a class="popular__all" href="/itineraries/">All itineraries →</a>
-    </div>
-    <ul class="dest-list">
-      {destinations.map((continent) => (
-        <li class="dest-list__row" data-reveal>
-          <h3>
-            <a href={`/continents/${continent.slug}/`}>{continent.name}</a>
-          </h3>
-          <p>
-            {continent.countries.map((name, i) => (
-              <>
-                {i > 0 && <span aria-hidden="true"> · </span>}
-                <a href={`/destinations/${countrySlug(name)}/`}>{name}</a>
-              </>
-            ))}
-          </p>
+    <h2 class="section-heading" data-reveal>Explore destinations</h2>
+    <ul class="region-grid">
+      {destinations.map((continent, i) => (
+        <li class="region-card" data-reveal style={`--stagger:${i}`}>
+          <a href={`/continents/${continent.slug}/`}>
+            <span class="region-card__name">{continent.name}</span>
+            <span class="region-card__count">
+              {continent.count} {continent.count === 1 ? 'destination' : 'destinations'}
+            </span>
+            <span class="region-card__sample">{continent.countries.slice(0, 4).join(' · ')}</span>
+          </a>
         </li>
       ))}
     </ul>
+    <p class="region-all" data-reveal>
+      <a href="/itineraries/">Explore all destinations →</a>
+    </p>
   </section>
 </Base>
