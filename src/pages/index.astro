@@ -124,6 +124,7 @@ const finderTrips = itineraries.map((i) => ({
   n: i.data.country,
   d: i.data.days,
   p: budgetUsd.get(i.id),
+  m: (i.data.styles ?? []).includes('multi-country'),
 }));
 
 /** JSON has no Infinity, so an open-ended band travels as a big number. */
@@ -135,9 +136,20 @@ const finderBudgetBands = BUDGET_BANDS.map((b) => ({
   range: bandRange(b, DEFAULT_CURRENCY, rateData?.rates),
 }));
 
-const finderContinents = CONTINENTS
-  .filter((c) => finderTrips.some((t) => t.c === c.slug))
-  .map((c) => ({ slug: c.slug, name: c.name }));
+/*
+ * "More than one country" sits alongside the continents rather than inside
+ * one, because these routes cross them — the Baltics and Central Europe are
+ * in Europe, Hong Kong and Singapore/Malaysia in Asia. It is a real answer to
+ * "where do you want to go?", so it belongs in the first question.
+ */
+const finderContinents = [
+  ...CONTINENTS
+    .filter((c) => finderTrips.some((t) => t.c === c.slug))
+    .map((c) => ({ slug: c.slug, name: c.name })),
+  ...(finderTrips.some((t) => t.m)
+    ? [{ slug: 'multi', name: 'More than one country' }]
+    : []),
+];
 
 const jsonLd = [
   website(),
@@ -255,7 +267,10 @@ const jsonLd = [
 
       const inBand = (b, v) => v !== null && v !== undefined && v >= b.min && v < b.max;
       const matches = (t, upto) => {
-        if (upto >= 1 && els.continent.value && t.c !== els.continent.value) return false;
+        if (upto >= 1 && els.continent.value) {
+          const want = els.continent.value;
+          if (want === 'multi' ? !t.m : t.c !== want) return false;
+        }
         if (upto >= 2 && els.country.value && t.n !== els.country.value) return false;
         if (upto >= 3 && els.days.value) {
           const b = finderDayBands.find((x) => x.slug === els.days.value);

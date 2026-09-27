@@ -125,6 +125,7 @@ const budgetBands = bandsWithTrips(BUDGET_BANDS, totals);
               style={`--stagger:${i}`}
               data-country={itin.data.country}
               data-continent={continentFor(itin.data.country)}
+              data-multi={(itin.data.styles ?? []).includes('multi-country') ? '' : undefined}
               data-search-text={`${itin.data.title} ${itin.data.country} ${itin.data.summary} ${itin.data.bestFor}`.toLowerCase()}
               data-days={itin.data.days}
               data-budget-usd={budgetValue(itin.data.budgetAmount, itin.data.budgetCurrency)}
@@ -242,7 +243,12 @@ const budgetBands = bandsWithTrips(BUDGET_BANDS, totals);
 
         const byQuery = !query || (card.dataset.searchText ?? '').includes(query);
         const byCountry = activeCountry === 'all' || card.dataset.country === activeCountry;
-        const byContinent = activeContinent === 'all' || card.dataset.continent === activeContinent;
+        // The homepage can hand over continent=multi, which is a shape of trip
+        // rather than a place — it crosses continents by definition.
+        const byContinent = activeContinent === 'all'
+          || (activeContinent === 'multi'
+            ? card.dataset.multi !== undefined
+            : card.dataset.continent === activeContinent);
         const byDays = !days || inBand(days, length);
         // A trip with no budget on it can't honestly answer a budget
         // question, so it drops out rather than guessing its way in.
