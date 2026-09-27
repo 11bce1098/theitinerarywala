@@ -2086,8 +2086,16 @@ body.nav-open { overflow: hidden; }
   border-top: 1px solid var(--line);
   padding-top: 0.9rem;
 }
+.quote-stars {
+  margin: 0 0 0.55rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.12em;
+  color: var(--marigold);
+}
 .quote-name { font-weight: 700; font-size: 0.92rem; }
 .quote-trip { font-size: 0.85rem; color: var(--ink-soft); }
+.quote-trip--link { color: var(--teal); font-weight: 600; text-decoration: none; }
+.quote-trip--link:hover { text-decoration: underline; }
 
 
 /* ---- 404 --------------------------------------------------------------

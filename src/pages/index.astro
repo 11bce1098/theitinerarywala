@@ -6,6 +6,7 @@ import { countrySlug, continentFor, CONTINENTS } from '../lib/geography.mjs';
 import { POPULAR, POPULAR_DESTINATIONS } from '../lib/site';
 import Budget from '../components/Budget.astro';
 import ValueProps from '../components/ValueProps.astro';
+import Testimonials from '../components/Testimonials.astro';
 import { website, itemList } from '../lib/schema';
 import { STYLES, stylesFor } from '../lib/styles.mjs';
 import { getRates, convert } from '../lib/rates.mjs';
@@ -459,6 +460,8 @@ const jsonLd = [
       </ol>
     </div>
   </section>
+
+  <Testimonials />
 
   <section class="wrap section">
     <div class="build" data-reveal>

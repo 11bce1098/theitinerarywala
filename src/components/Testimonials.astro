@@ -4,6 +4,9 @@ import { TESTIMONIALS, PLACEHOLDER, SHOW } from '../lib/testimonials';
 {SHOW && TESTIMONIALS.length > 0 && (
   <section class="wrap section testimonials">
     <h2 class="section-heading" data-reveal>What readers say</h2>
+    <p class="section-sub" data-reveal>
+      From people who planned a trip with one of these itineraries.
+    </p>
 
     {PLACEHOLDER && (
       <p class="placeholder-note">
@@ -21,12 +24,29 @@ import { TESTIMONIALS, PLACEHOLDER, SHOW } from '../lib/testimonials';
     <ul class="quote-grid">
       {TESTIMONIALS.map((item, i) => (
         <li class="quote-card" data-reveal style={`--stagger:${i}`}>
+          {/* The stars are decoration; the label carries the meaning. */}
+          <p class="quote-stars" aria-label={`Rated ${item.rating} out of 5`}>
+            <span aria-hidden="true">{'★'.repeat(item.rating)}</span>
+          </p>
           <blockquote>
             <p>{item.quote}</p>
           </blockquote>
           <footer>
             <span class="quote-name">{item.name}</span>
-            <span class="quote-trip">{item.trip}</span>
+            <span class="quote-trip">
+              {item.trip}
+              {/*
+                * Generic wording on purpose: Langkawi is part of the Malaysia
+                * itinerary rather than one of its own, so "Langkawi itinerary"
+                * would promise a page that does not exist.
+                */}
+              {item.href && (
+                <>
+                  {' · '}
+                  <a class="quote-trip--link" href={item.href}>Read the itinerary &rarr;</a>
+                </>
+              )}
+            </span>
           </footer>
         </li>
       ))}
