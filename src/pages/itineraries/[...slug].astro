@@ -119,9 +119,25 @@ const jsonLd = [
   ...(faqSchema ? [faqSchema] : []),
 ];
 
+/*
+ * Newest first, but dozens of trips share a publish date, and a tie used to
+ * fall through to whatever order the collection happened to load in — which
+ * differs between builds, so these cards reshuffled on every deploy. Rank by
+ * how near the trip is to this one first, then by date, then by id so the
+ * result is stable. The proximity terms matter: on date alone a plain id
+ * tiebreak would pin the same three countries to all of them.
+ */
+const nearness = (other: (typeof all)[number]) =>
+  regionFor(other.data.country) === regionFor(itin.data.country) ? 0
+  : continentFor(other.data.country) === continentFor(itin.data.country) ? 1
+  : 2;
+
 const related = all
   .filter((other) => other.id !== itin.id)
-  .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
+  .sort((a, b) =>
+    nearness(a) - nearness(b) ||
+    b.data.publishDate.valueOf() - a.data.publishDate.valueOf() ||
+    a.id.localeCompare(b.id))
   .slice(0, 3);
 ---
 <Base
