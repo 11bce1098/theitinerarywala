@@ -27,9 +27,9 @@ export const DAY_BANDS = [
  * whatever currency the reader has chosen.
  */
 export const BUDGET_BANDS = [
-  { slug: 'budget', label: 'Budget', min: 0, max: 1000 },
-  { slug: 'mid', label: 'Mid-range', min: 1000, max: 2000 },
-  { slug: 'premium', label: 'Premium', min: 2000, max: Infinity },
+  { slug: 'budget', min: 0, max: 1000 },
+  { slug: 'mid', min: 1000, max: 2000 },
+  { slug: 'premium', min: 2000, max: Infinity },
 ];
 
 /** Two significant figures, so a converted threshold reads as a round number. */

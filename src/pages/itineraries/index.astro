@@ -87,7 +87,7 @@ const budgetBands = bandsWithTrips(BUDGET_BANDS, totals);
             <option value="">Any budget</option>
             {budgetBands.map((band) => (
               <option value={band.slug} data-band={band.slug}>
-                {band.label} · {bandRange(band, DEFAULT_CURRENCY, rateData?.rates)}
+                {bandRange(band, DEFAULT_CURRENCY, rateData?.rates)}
               </option>
             ))}
           </select>
@@ -321,7 +321,7 @@ const budgetBands = bandsWithTrips(BUDGET_BANDS, totals);
       const code = currentCurrency();
       for (const option of Array.from(budgetSelect.options)) {
         const band = BUDGET_BANDS.find((b) => b.slug === option.value);
-        if (band) option.textContent = `${band.label} · ${bandRange(band, code, payload.rates)}`;
+        if (band) option.textContent = bandRange(band, code, payload.rates);
       }
     };
     document.addEventListener('rates:updated', relabelBudgets);
