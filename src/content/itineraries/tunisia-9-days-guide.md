@@ -5,6 +5,8 @@ days: 9
 budgetAmount: 2600
 budgetCurrency: "TND"
 route: "Tunis → Dougga → Tozeur → Matmata → Djerba"
+heroImage: "/images/tunisia.jpeg"
+heroWide: "/images/tunisia-wide.jpeg"
 styles: ['culture', 'nature', 'beach']
 bestFor: "Roman sites + desert"
 summary: "The cheapest Mediterranean country with Roman cities better preserved than most of Italy's: a colosseum that seats 35,000 in a small town, mosaics from Carthage, a salt lake you drive across, underground Berber houses used as Star Wars sets, and an island with a blue-and-white medina."

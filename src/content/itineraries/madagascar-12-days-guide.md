@@ -5,6 +5,8 @@ days: 12
 budgetAmount: 9500000
 budgetCurrency: "MGA"
 route: "Antananarivo → Andasibe → Morondava → Tsingy"
+heroImage: "/images/madagascar.jpeg"
+heroWide: "/images/madagascar-wide.jpeg"
 styles: ['nature']
 bestFor: "Lemurs + endemic wildlife"
 summary: "An island that broke away from Africa 160 million years ago and evolved on its own: lemurs that exist nowhere else, a limestone forest of stone needles, and an avenue of baobabs at sunset — with the honest version of the roads, which are the single biggest thing to plan around."

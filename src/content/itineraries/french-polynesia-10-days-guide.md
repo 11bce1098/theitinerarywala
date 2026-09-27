@@ -5,6 +5,8 @@ days: 10
 budgetAmount: 230000
 budgetCurrency: "XPF"
 route: "Tahiti → Moorea → Huahine → Taha'a → Bora Bora"
+heroImage: "/images/french-polynesia.jpeg"
+heroWide: "/images/french-polynesia-wide.jpeg"
 styles: ['beach', 'nature', 'couples']
 bestFor: "Island-hopping, not one resort"
 summary: "The version of these islands that isn't an overwater bungalow: family pensions, a ferry, an island-hopping air pass, and four islands with different characters — Moorea's green spires, Huahine's quiet, Taha'a's vanilla, and Bora Bora's lagoon, which does deserve the reputation."

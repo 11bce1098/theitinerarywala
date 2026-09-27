@@ -5,6 +5,8 @@ days: 10
 budgetAmount: 9500000
 budgetCurrency: "UGX"
 route: "Entebbe → Kibale → Queen Elizabeth → Bwindi → Lake Bunyonyi"
+heroImage: "/images/uganda.jpeg"
+heroWide: "/images/uganda-wide.jpeg"
 styles: ['nature', 'culture']
 bestFor: "Gorillas, for less"
 summary: "The same mountain gorillas as Rwanda at roughly half the permit price, plus chimpanzees in a rainforest, tree-climbing lions on a savanna crater floor, and a lake with no bilharzia at the end of it — with the honest trade-off, which is a much longer drive."
