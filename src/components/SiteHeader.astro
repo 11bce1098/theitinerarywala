@@ -14,6 +14,10 @@ const pathname = Astro.url.pathname;
 const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
 const continents = groupByContinent(itineraries);
 const guideCount = (await getGuides()).length;
+// Routes that cross a border sit outside the continent tree, because they
+// cross it — so the menu names them rather than burying them under one side.
+const multiCountry = itineraries.filter((i) =>
+  (i.data.styles ?? []).includes('multi-country')).length;
 const nav = (guideCount > 0 ? NAV : NAV.filter((l) => l.href !== '/guides/'))
   .filter((l) => !l.footerOnly);
 ---
@@ -93,9 +97,11 @@ const nav = (guideCount > 0 ? NAV : NAV.filter((l) => l.href !== '/guides/'))
                       </ul>
                     </li>
                   ))}
-                  <li class="flyout__more">
-                    <a href="/contact/">More destinations coming soon →</a>
-                  </li>
+                  {multiCountry > 0 && (
+                    <li class="flyout__more">
+                      <a href="/styles/multi-country/">More than one country &rarr;</a>
+                    </li>
+                  )}
                 </ul>
               </div>
             )}
@@ -163,12 +169,6 @@ const nav = (guideCount > 0 ? NAV : NAV.filter((l) => l.href !== '/guides/'))
 
             {/* Collapsed by default — <details> needs no JS and no hover. */}
             {link.menu === 'continents' && continents.filter((c) => !c.comingSoon).map((continent) => (
-              continent.comingSoon ? (
-                <a class="mobile-nav__soon" href={`/continents/${continent.slug}/`}>
-                  {continent.name}
-                  <span class="flyout__soon">Soon</span>
-                </a>
-              ) : (
                 <details class="mobile-nav__continent">
                   <summary>
                     <span>{continent.name}</span>
@@ -191,8 +191,12 @@ const nav = (guideCount > 0 ? NAV : NAV.filter((l) => l.href !== '/guides/'))
                       </div>
                     ))}
                 </details>
-              )
             ))}
+            {link.menu === 'continents' && multiCountry > 0 && (
+              <a class="mobile-nav__all" href="/styles/multi-country/">
+                More than one country &rarr;
+              </a>
+            )}
           </li>
         ))}
       </ul>
