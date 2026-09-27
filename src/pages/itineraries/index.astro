@@ -122,6 +122,7 @@ const budgetBands = bandsWithTrips(BUDGET_BANDS, rates);
               data-reveal
               style={`--stagger:${i}`}
               data-country={itin.data.country}
+              data-continent={continentFor(itin.data.country)}
               data-search-text={`${itin.data.title} ${itin.data.country} ${itin.data.summary} ${itin.data.bestFor}`.toLowerCase()}
               data-days={itin.data.days}
               data-budget-usd={budgetValue(itin.data.budgetAmount, itin.data.budgetCurrency)}
@@ -185,6 +186,7 @@ const budgetBands = bandsWithTrips(BUDGET_BANDS, rates);
 
     let query = '';
     let activeCountry = 'all';
+    let activeContinent = 'all';
 
     const comparators: Record<string, (a: HTMLElement, b: HTMLElement) => number> = {
       newest: (a, b) => Number(b.dataset.date) - Number(a.dataset.date),
@@ -202,6 +204,9 @@ const budgetBands = bandsWithTrips(BUDGET_BANDS, rates);
     // Older inbound links used ?country=; still honour them.
     const requestedCountry = params.get('country');
     if (requestedCountry) activeCountry = requestedCountry;
+    // The homepage finder can hand over a region instead of a single country.
+    const requestedContinent = params.get('continent');
+    if (requestedContinent) activeContinent = requestedContinent;
     for (const [param, select, bands] of [
       ['days', daysSelect, DAY_BANDS],
       ['budget', budgetSelect, BUDGET_BANDS],
@@ -217,6 +222,7 @@ const budgetBands = bandsWithTrips(BUDGET_BANDS, rates);
         ['days', daysSelect.value],
         ['budget', budgetSelect.value],
         ['country', activeCountry === 'all' ? '' : activeCountry],
+        ['continent', activeContinent === 'all' ? '' : activeContinent],
       ]) {
         if (value) url.searchParams.set(key, value);
         else url.searchParams.delete(key);
@@ -235,12 +241,13 @@ const budgetBands = bandsWithTrips(BUDGET_BANDS, rates);
 
         const byQuery = !query || (card.dataset.searchText ?? '').includes(query);
         const byCountry = activeCountry === 'all' || card.dataset.country === activeCountry;
+        const byContinent = activeContinent === 'all' || card.dataset.continent === activeContinent;
         const byDays = !days || inBand(days, length);
         // A trip with no budget on it can't honestly answer a budget
         // question, so it drops out rather than guessing its way in.
         const byBudget = !budget || inBand(budget, rate);
 
-        const match = byQuery && byCountry && byDays && byBudget;
+        const match = byQuery && byCountry && byContinent && byDays && byBudget;
         card.hidden = !match;
         if (match) visible++;
       }
@@ -255,7 +262,8 @@ const budgetBands = bandsWithTrips(BUDGET_BANDS, rates);
       if (empty) empty.hidden = visible > 0;
       countEl.textContent = String(visible);
       countLabel.textContent = visible === 1 ? 'trip' : 'trips';
-      clearBtn.hidden = !query && !daysSelect.value && !budgetSelect.value && activeCountry === 'all';
+      clearBtn.hidden = !query && !daysSelect.value && !budgetSelect.value
+        && activeCountry === 'all' && activeContinent === 'all';
 
       const order = comparators[sortSelect.value] ?? comparators.newest;
       // Reordering via `order` keeps the grid from re-running entry
@@ -288,6 +296,7 @@ const budgetBands = bandsWithTrips(BUDGET_BANDS, rates);
     clearBtn.addEventListener('click', () => {
       query = '';
       activeCountry = 'all';
+      activeContinent = 'all';
       daysSelect.value = '';
       budgetSelect.value = '';
       searches.forEach((el) => { el.value = ''; });

@@ -2472,9 +2472,13 @@ body.nav-open { overflow: hidden; }
  */
 .find__form {
   display: grid;
-  grid-template-columns: minmax(0, 1.6fr) repeat(2, minmax(0, 1fr)) auto;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) auto;
   align-items: end;
   gap: 0.7rem;
+}
+@media (max-width: 68rem) {
+  .find__form { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .find__go { grid-column: 1 / -1; width: 100%; }
 }
 .find__field { display: flex; flex-direction: column; gap: 0.35rem; min-width: 0; }
 .find__field label,
@@ -2504,7 +2508,6 @@ body.nav-open { overflow: hidden; }
  */
 .find__form input,
 .find__form select,
-.find__go,
 .finder__field input,
 .finder__field select {
   height: var(--control-h, 3rem);
@@ -2526,11 +2529,18 @@ body.nav-open { overflow: hidden; }
   outline: 3px solid var(--marigold);
   outline-offset: 2px;
 }
-.find__go { width: auto; white-space: nowrap; }
+.find__go {
+  height: var(--control-h, 3rem);
+  width: auto;
+  white-space: nowrap;
+}
+.find__form select:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
 
-@media (max-width: 52rem) {
+@media (max-width: 34rem) {
   .find__form { grid-template-columns: 1fr; }
-  .find__go { width: 100%; }
 }
 
 /* --- the same finder, on the catalogue --------------------------------- */

@@ -9,7 +9,7 @@ import ValueProps from '../components/ValueProps.astro';
 import { website, itemList } from '../lib/schema';
 import { STYLES, stylesFor } from '../lib/styles.mjs';
 import { getRates, convert } from '../lib/rates.mjs';
-import { DAY_BANDS, BUDGET_BANDS, bandsWithTrips } from '../lib/finder.mjs';
+import { DAY_BANDS, BUDGET_BANDS } from '../lib/finder.mjs';
 
 /**
  * The homepage is a landing page, not the catalogue — that lives at
@@ -41,10 +41,6 @@ const perDay = new Map(
     return [itin.id, usd / itin.data.days];
   }),
 );
-// The finder offers only bands that lead somewhere, and must agree with the
-// catalogue it submits to — both derive them the same way from the same data.
-const dayBands = bandsWithTrips(DAY_BANDS, itineraries.map((i) => i.data.days));
-const budgetBands = bandsWithTrips(BUDGET_BANDS, [...perDay.values()]);
 
 const styleGroups = STYLES.map((style) => {
   const matches = itineraries.filter((i) => stylesFor(i, perDay.get(i.id)).includes(style.slug));
@@ -107,8 +103,28 @@ const steps = [
   { n: '04', title: 'Book and go', body: 'Use the recommended links and spend less time on the logistics.' },
 ];
 
-// Every country with a trip, for the finder's type-ahead.
-const allCountries = [...new Set(itineraries.map((i) => i.data.country))].sort();
+/**
+ * One compact row per trip for the finder to filter against in the browser.
+ *
+ * The finder narrows each dropdown to what the previous answers still allow,
+ * so it needs the whole library client-side — but only these four fields, not
+ * the guides themselves.
+ */
+const finderTrips = itineraries.map((i) => ({
+  c: continentFor(i.data.country),
+  n: i.data.country,
+  d: i.data.days,
+  p: perDay.get(i.id),
+}));
+
+/** JSON has no Infinity, so an open-ended band travels as a big number. */
+const CAP = Number.MAX_SAFE_INTEGER;
+const finderDayBands = DAY_BANDS.map((b) => ({ ...b, max: b.max === Infinity ? CAP : b.max }));
+const finderBudgetBands = BUDGET_BANDS.map((b) => ({ ...b, max: b.max === Infinity ? CAP : b.max }));
+
+const finderContinents = CONTINENTS
+  .filter((c) => finderTrips.some((t) => t.c === c.slug))
+  .map((c) => ({ slug: c.slug, name: c.name }));
 
 const jsonLd = [
   website(),
@@ -146,47 +162,40 @@ const jsonLd = [
       Answer as much or as little as you like — every box is optional.
     </p>
     <div class="find__inner" data-reveal>
-      <form class="find__form" action="/itineraries/" method="get" role="search">
-        <div class="find__field find__field--where">
-          <label for="home-search">Where</label>
-          <div class="find__input">
-            <svg class="find__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" />
-              <path d="M16.5 16.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-            </svg>
-            <input
-              id="home-search"
-              type="search"
-              name="q"
-              list="finder-countries"
-              placeholder="Anywhere — or a country, city or region"
-              autocomplete="off"
-            />
-          </div>
-          <datalist id="finder-countries">
-            {allCountries.map((name) => <option value={name}></option>)}
-          </datalist>
+      <form class="find__form" action="/itineraries/" method="get" data-finder>
+        <div class="find__field">
+          <label for="f-continent">Region</label>
+          <select id="f-continent" name="continent">
+            <option value="">Anywhere</option>
+            {finderContinents.map((c) => <option value={c.slug}>{c.name}</option>)}
+          </select>
         </div>
 
         <div class="find__field">
-          <label for="home-days">How long</label>
-          <select id="home-days" name="days">
+          <label for="f-country">Country</label>
+          <select id="f-country" name="country">
+            <option value="">Any country</option>
+          </select>
+        </div>
+
+        <div class="find__field">
+          <label for="f-days">How long</label>
+          <select id="f-days" name="days">
             <option value="">Any length</option>
-            {dayBands.map((band) => <option value={band.slug}>{band.label} · {band.short}</option>)}
           </select>
         </div>
 
         <div class="find__field">
-          <label for="home-budget">Budget</label>
-          <select id="home-budget" name="budget">
+          <label for="f-budget">Budget</label>
+          <select id="f-budget" name="budget">
             <option value="">Any budget</option>
-            {budgetBands.map((band) => (
-              <option value={band.slug}>{band.label} · {band.short}</option>
-            ))}
           </select>
         </div>
 
-        <button class="btn btn--solid find__go" type="submit">Find trips</button>
+        <button class="btn btn--solid find__go" type="submit">
+          Show <span data-finder-count>{finderTrips.length}</span>
+          <span data-finder-noun>{finderTrips.length === 1 ? 'trip' : 'trips'}</span>
+        </button>
       </form>
       <p class="find__suggest">
         <span>Popular:</span>
@@ -197,6 +206,75 @@ const jsonLd = [
       </p>
     </div>
   </section>
+
+  <script is:inline define:vars={{ finderTrips, finderDayBands, finderBudgetBands }}>
+    /*
+     * Each dropdown offers only what the answers above it still allow, so the
+     * button can never lead to an empty page. Changing an earlier answer
+     * re-checks the ones below it and clears any that no longer apply.
+     */
+    const form = document.querySelector('[data-finder]');
+    if (form) {
+      const els = {
+        continent: form.querySelector('#f-continent'),
+        country: form.querySelector('#f-country'),
+        days: form.querySelector('#f-days'),
+        budget: form.querySelector('#f-budget'),
+      };
+      const countEl = form.querySelector('[data-finder-count]');
+      const nounEl = form.querySelector('[data-finder-noun]');
+
+      const inBand = (b, v) => v !== null && v !== undefined && v >= b.min && v < b.max;
+      const matches = (t, upto) => {
+        if (upto >= 1 && els.continent.value && t.c !== els.continent.value) return false;
+        if (upto >= 2 && els.country.value && t.n !== els.country.value) return false;
+        if (upto >= 3 && els.days.value) {
+          const b = finderDayBands.find((x) => x.slug === els.days.value);
+          if (!b || !inBand(b, t.d)) return false;
+        }
+        if (upto >= 4 && els.budget.value) {
+          const b = finderBudgetBands.find((x) => x.slug === els.budget.value);
+          if (!b || !inBand(b, t.p)) return false;
+        }
+        return true;
+      };
+
+      /** Rewrite a select's options, keeping the current value when it survives. */
+      const fill = (el, anyLabel, options) => {
+        const wanted = el.value;
+        el.innerHTML = '';
+        const any = new Option(anyLabel, '');
+        el.append(any);
+        for (const o of options) el.append(new Option(o.label, o.value));
+        el.value = options.some((o) => o.value === wanted) ? wanted : '';
+        el.disabled = options.length === 0;
+      };
+
+      const refresh = () => {
+        const afterContinent = finderTrips.filter((t) => matches(t, 1));
+        fill(els.country, 'Any country',
+          [...new Set(afterContinent.map((t) => t.n))].sort()
+            .map((n) => ({ value: n, label: n })));
+
+        const afterCountry = finderTrips.filter((t) => matches(t, 2));
+        fill(els.days, 'Any length',
+          finderDayBands.filter((b) => afterCountry.some((t) => inBand(b, t.d)))
+            .map((b) => ({ value: b.slug, label: `${b.label} · ${b.short}` })));
+
+        const afterDays = finderTrips.filter((t) => matches(t, 3));
+        fill(els.budget, 'Any budget',
+          finderBudgetBands.filter((b) => afterDays.some((t) => inBand(b, t.p)))
+            .map((b) => ({ value: b.slug, label: `${b.label} · ${b.short}` })));
+
+        const total = finderTrips.filter((t) => matches(t, 4)).length;
+        countEl.textContent = String(total);
+        nounEl.textContent = total === 1 ? 'trip' : 'trips';
+      };
+
+      for (const el of Object.values(els)) el.addEventListener('change', refresh);
+      refresh();
+    }
+  </script>
 
   {popular.length > 0 && (
     <section class="wrap section popular">
