@@ -63,12 +63,6 @@ export function bandRange(band, currency, rates) {
 export const inBand = (band, value) =>
   value !== null && value !== undefined && value >= band.min && value < band.max;
 
-/** Cost per person per day, or null when a trip has no budget on it. */
-export function perDay(usdTotal, days) {
-  if (!usdTotal || !days || usdTotal >= Number.MAX_SAFE_INTEGER) return null;
-  return usdTotal / days;
-}
-
 /**
  * Only the bands that actually match something.
  *
