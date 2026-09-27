@@ -5,6 +5,8 @@ days: 6
 budgetAmount: 1000
 budgetCurrency: "EUR"
 route: "Ljubljana → Lake Bled → Bohinj → Postojna"
+heroImage: "/images/slovenia.jpeg"
+heroWide: "/images/slovenia-wide.jpeg"
 styles: ['nature', 'couples']
 bestFor: "Lakes + fairy tale"
 summary: "Europe's pocket fairy tale: a church on an island in a glacier-green lake, a castle in a cliff's mouth, a capital guarded by dragons and a cave with its own railway — all inside a country you can cross in two hours, on one Schengen visa, for a round €1,000 a head."

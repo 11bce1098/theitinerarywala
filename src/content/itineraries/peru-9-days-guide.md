@@ -5,6 +5,8 @@ days: 9
 budgetAmount: 6800
 budgetCurrency: "PEN"
 route: "Lima → Cusco → Sacred Valley → Machu Picchu"
+heroImage: "/images/peru.jpeg"
+heroWide: "/images/peru-wide.jpeg"
 styles: ['culture', 'nature']
 bestFor: "Machu Picchu, done right"
 summary: "The Andes classic, sequenced so the altitude does not ruin it: Lima's coastline and its extraordinary food, the Sacred Valley first to acclimatise, Cusco's Inca-and-baroque streets, and Machu Picchu on a timed circuit booked months ahead — with the permits, the train and the acclimatisation order that most itineraries get backwards."

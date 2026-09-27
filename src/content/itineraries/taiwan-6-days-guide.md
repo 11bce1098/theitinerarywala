@@ -5,6 +5,8 @@ days: 6
 budgetAmount: 16000
 budgetCurrency: "TWD"
 route: "Taipei → Jiufen → Beitou → Maokong"
+heroImage: "/images/taiwan.jpeg"
+heroWide: "/images/taiwan-wide.jpeg"
 styles: ['culture']
 bestFor: "Food + city"
 summary: "Asia's most underrated city break, unlocked by a free web form: night markets that redefine street food, a bamboo-green tower above misty hills, hot springs at the end of a metro line and a lantern rising with your wish — for anyone holding a US, UK, Japanese or Schengen visa, Taiwan is ten minutes online."

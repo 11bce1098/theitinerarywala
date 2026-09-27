@@ -5,6 +5,8 @@ days: 10
 budgetAmount: 2400
 budgetCurrency: "SGD"
 route: "Singapore → Melaka → Kuala Lumpur → Penang"
+heroImage: "/images/singapore-malaysia.jpeg"
+heroWide: "/images/singapore-malaysia-wide.jpeg"
 styles: ['culture', 'family', 'multi-country']
 bestFor: "First-time Southeast Asia"
 summary: "The gentlest introduction to Asia there is, and it happens to span two countries: Singapore's hawker stalls and Supertrees, a Dutch-red colonial port, Kuala Lumpur's towers, and Penang's street-food streets — two currencies, one land border you can cross before lunch, and almost no paperwork for most passports."
