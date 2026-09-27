@@ -54,6 +54,16 @@ export interface NavLink {
   menu?: 'continents';
   /** Styled as the primary action rather than a nav link. */
   cta?: boolean;
+  /**
+   * Kept out of the header, shown in the footer.
+   *
+   * The header has room for about five things before it stops being a
+   * signpost, and "Guides" sitting next to "Visa & Entry" made two items
+   * that read as the same thing. Guides earn their traffic from the
+   * itineraries that link to them and from search; promote this back to
+   * the header once the section is big enough to be worth the slot.
+   */
+  footerOnly?: boolean;
 }
 
 /**
@@ -83,7 +93,7 @@ export const POPULAR = [
 
 export const NAV: NavLink[] = [
   { href: '/itineraries/', label: 'Itineraries', menu: 'continents' },
-  { href: '/guides/', label: 'Guides' },
+  { href: '/guides/', label: 'Guides', footerOnly: true },
   { href: '/visa-services/', label: 'Visa & Entry' },
   { href: '/about/', label: 'About' },
   { href: '/contact/', label: 'Contact' },

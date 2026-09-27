@@ -14,7 +14,8 @@ const pathname = Astro.url.pathname;
 const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
 const continents = groupByContinent(itineraries);
 const guideCount = (await getGuides()).length;
-const nav = guideCount > 0 ? NAV : NAV.filter((l) => l.href !== '/guides/');
+const nav = (guideCount > 0 ? NAV : NAV.filter((l) => l.href !== '/guides/'))
+  .filter((l) => !l.footerOnly);
 ---
 <header class="site-header">
   <div class="wrap site-header__inner">
