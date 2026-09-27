@@ -1,3 +1,4 @@
+import { DISPLAY_CURRENCIES, DEFAULT_CURRENCY } from '../lib/currency.mjs';
 /**
  * Refreshes budget figures in the browser.
  *
@@ -9,8 +10,6 @@
 const RATES_URL = 'https://open.er-api.com/v6/latest/USD';
 const CACHE_KEY = 'tiw:rates';
 const CURRENCY_KEY = 'tiw:currency';
-const DISPLAY_CURRENCIES = ['INR', 'AED', 'USD'] as const;
-const DEFAULT_CURRENCY = DISPLAY_CURRENCIES[0];
 
 /** The reader's chosen display currency, or the default. */
 export function currentCurrency(): string {
@@ -118,15 +117,26 @@ export async function refreshBudgets(): Promise<void> {
     el.dataset.usd = String(Math.round((amount / rates[from]) * rates.USD));
   }
 
-  // Inline amounts written as {{GEL 1800}} in the markdown.
+  /*
+   * Inline amounts written as {{GEL 1800}} in the markdown — the figures in
+   * the cost tables. These used to convert to USD whatever the reader had
+   * chosen, so the switcher appeared to do nothing on the page where the
+   * numbers matter most. They follow the selection now, and drop the
+   * parenthetical entirely when the trip is already priced in it.
+   */
   for (const el of Array.from(document.querySelectorAll<HTMLElement>('[data-money]'))) {
     const from = el.dataset.from ?? 'USD';
     const amounts = (el.dataset.amounts ?? '').split(',').map(Number).filter(Number.isFinite);
     if (amounts.length === 0 || !rates[from]) continue;
 
     const conv = el.querySelector<HTMLElement>('.money-conv');
-    const usd = amounts.map((n) => (n / rates[from]) * rates.USD);
-    const text = ` (≈ ${usd.map((v) => money(v, 'USD')).join('–')})`;
+    if (from === display || !rates[display]) {
+      conv?.remove();
+      continue;
+    }
+
+    const converted = amounts.map((n) => (n / rates[from]) * rates[display]);
+    const text = ` (≈ ${converted.map((v) => money(v, display)).join('–')})`;
     if (conv) {
       conv.textContent = text;
     } else {

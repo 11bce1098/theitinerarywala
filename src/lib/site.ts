@@ -115,8 +115,7 @@ export const WEB3FORMS_KEY: string = import.meta.env.PUBLIC_WEB3FORMS_KEY ?? '';
 const CUSTOM_ENDPOINT: string = import.meta.env.PUBLIC_FORM_ENDPOINT ?? '';
 
 /** Currencies a reader can switch between; the first is the default. */
-export const DISPLAY_CURRENCIES = ['INR', 'AED', 'USD'] as const;
-export const DEFAULT_CURRENCY = DISPLAY_CURRENCIES[0];
+export { DISPLAY_CURRENCIES, DEFAULT_CURRENCY } from './currency.mjs';
 
 export const FORM_ENDPOINT: string =
   CUSTOM_ENDPOINT.trim() ||

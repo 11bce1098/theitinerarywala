@@ -3,6 +3,7 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import { AFFILIATES } from './src/lib/affiliates.mjs';
 import { getRates, convert, formatMoney } from './src/lib/rates.mjs';
+import { DEFAULT_CURRENCY } from './src/lib/currency.mjs';
 import remarkGfm from 'remark-gfm';
 
 /**
@@ -43,16 +44,24 @@ const num = (text) => Number(String(text).replace(/,/g, ''));
  */
 function moneyNode(code, amountText, rates) {
   const parts = amountText.split(/\s*[-–]\s*/).map(num);
-  const usd = parts.map((n) => convert(n, code, 'USD', rates));
   const original = parts.map((n) => n.toLocaleString('en-US')).join('–');
   const children = [{ type: 'text', value: `${code} ${original}` }];
 
-  if (usd.every((v) => v !== null)) {
+  // First paint uses the default display currency; the client re-renders this
+  // to whatever the reader has actually chosen. Converting a price into the
+  // currency it is already quoted in helps nobody, so that case shows nothing.
+  const converted =
+    code === DEFAULT_CURRENCY ? [] : parts.map((n) => convert(n, code, DEFAULT_CURRENCY, rates));
+
+  if (converted.length > 0 && converted.every((v) => v !== null)) {
     children.push({
       type: 'element',
       tagName: 'span',
       properties: { className: ['money-conv'] },
-      children: [{ type: 'text', value: ` (≈ ${usd.map((v) => formatMoney(v, 'USD')).join('–')})` }],
+      children: [{
+        type: 'text',
+        value: ` (≈ ${converted.map((v) => formatMoney(v, DEFAULT_CURRENCY)).join('–')})`,
+      }],
     });
   }
 
