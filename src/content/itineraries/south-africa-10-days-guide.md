@@ -88,7 +88,7 @@ dry-season best, with thirsty animals crowding the waterholes.
   dawn/dusk, and if travelling with small children discuss
   timing — one more argument for September.
 
-## The safety section (read this one properly)
+### The safety section (read this one properly)
 
 South Africa is run on rules locals follow without thinking,
 and tourists who adopt them have overwhelmingly easy trips.
