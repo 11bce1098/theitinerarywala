@@ -2,7 +2,7 @@
 import '../styles/global.css';
 import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
-import { SITE } from '../lib/site';
+import { SITE, GA_ID, ANALYTICS_HOST } from '../lib/site';
 
 interface Props {
   title: string;
@@ -41,6 +41,29 @@ const socialImage = new URL(image ?? SITE.ogImage, canonical);
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    {/*
+      Google Analytics 4 (gtag.js) — the snippet as the GA dashboard issues
+      it, with one addition: the config call is gated on the live hostname.
+      Cloudflare preview deploys and `astro preview` are production builds
+      too, so without that gate every look at a preview would land in the
+      real property as a pageview. The library still loads everywhere, so
+      Google's "Test installation" and Tag Assistant see a normal install.
+
+      Skipped entirely in `astro dev`, where it would only be noise.
+    */}
+    {GA_ID && import.meta.env.PROD && (
+      <Fragment>
+        <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}></script>
+        <script define:vars={{ gaId: GA_ID, host: ANALYTICS_HOST }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag() { dataLayer.push(arguments); }
+          gtag('js', new Date());
+          if (location.hostname === host) gtag('config', gaId);
+        </script>
+      </Fragment>
+    )}
+
     {noindex && <meta name="robots" content="noindex, follow" />}
     <title>{title}</title>
     <meta name="description" content={description} />

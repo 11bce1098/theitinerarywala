@@ -110,6 +110,23 @@ export const NAV: NavLink[] = [
  *
  * Both are read at build time, so changing them needs a redeploy.
  */
+/**
+ * Google Analytics 4 measurement ID.
+ *
+ * Not a secret — it ships in the HTML of every page, which is why it sits
+ * here rather than in an env var you have to remember to set. Override it
+ * with PUBLIC_GA_ID to point a fork or a staging property somewhere else,
+ * or set that to an empty string to switch analytics off entirely.
+ *
+ * The tag only sends data from the live domain: see Base.astro. Local
+ * builds and Cloudflare preview deploys load the library but report
+ * nothing, so the numbers stay clean.
+ */
+export const GA_ID: string = import.meta.env.PUBLIC_GA_ID ?? 'G-9BNKKY6SWJ';
+
+/** The only hostname that reports analytics. Anything else is a preview. */
+export const ANALYTICS_HOST = 'theitinerarywala.com';
+
 export const WEB3FORMS_KEY: string = import.meta.env.PUBLIC_WEB3FORMS_KEY ?? '';
 
 const CUSTOM_ENDPOINT: string = import.meta.env.PUBLIC_FORM_ENDPOINT ?? '';
