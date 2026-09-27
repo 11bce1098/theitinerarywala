@@ -5,6 +5,8 @@ days: 10
 budgetAmount: 38000
 budgetCurrency: "NAD"
 route: "Windhoek → Sossusvlei → Swakopmund → Etosha"
+heroImage: "/images/namibia.jpeg"
+heroWide: "/images/namibia-wide.jpeg"
 styles: ['nature']
 bestFor: "Self-drive + desert"
 summary: "The great self-drive: red dunes you climb before sunrise, a skeleton coast where the desert meets cold Atlantic fog, and a salt pan where the animals come to you at waterholes — with the gravel-road rules, the two spare tyres, and the fuel-and-distance planning that this trip genuinely requires."

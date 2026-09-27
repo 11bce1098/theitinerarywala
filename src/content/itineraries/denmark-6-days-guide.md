@@ -5,6 +5,8 @@ days: 6
 budgetAmount: 13000
 budgetCurrency: "DKK"
 route: "Copenhagen → Helsingør → Roskilde"
+heroImage: "/images/denmark.jpeg"
+heroWide: "/images/denmark-wide.jpeg"
 styles: ['culture', 'couples', 'family']
 bestFor: "Design + cycling"
 summary: "The most liveable capital in Europe, seen the way it was built to be seen — from a bicycle: harbour baths you swim in mid-city, a palace-lined waterfront, Hamlet's castle up the coast and five Viking ships raised from a fjord, plus the honest version of what hygge and Danish prices actually mean."

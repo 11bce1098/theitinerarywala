@@ -5,6 +5,8 @@ days: 10
 budgetAmount: 1150000
 budgetCurrency: "CRC"
 route: "San José → Arenal → Monteverde → Manuel Antonio"
+heroImage: "/images/costa-rica.jpeg"
+heroWide: "/images/costa-rica-wide.jpeg"
 styles: ['nature', 'family', 'couples']
 bestFor: "Wildlife + rainforest"
 summary: "A volcano, a cloud forest and a beach with monkeys in the trees above it, linked by the jeep-boat-jeep crossing that saves half a day — with the honest version of the driving, the two seasons that change everything, and why the famous national park is worth the ticket and the queue."

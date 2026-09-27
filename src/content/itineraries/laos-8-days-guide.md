@@ -5,6 +5,8 @@ days: 8
 budgetAmount: 11000000
 budgetCurrency: "LAK"
 route: "Luang Prabang → Vang Vieng → Vientiane"
+heroImage: "/images/laos.jpeg"
+heroWide: "/images/laos-wide.jpeg"
 styles: ['culture', 'nature']
 bestFor: "Slow Southeast Asia"
 summary: "The quiet one, and the last in the region to stay that way: saffron-robed alms at dawn in a UNESCO river town, turquoise waterfalls, limestone karsts over a lazy river, and a fast new railway that turned a nine-hour bus into two hours — Southeast Asia at half the pace and most of the price."

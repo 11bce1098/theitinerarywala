@@ -5,6 +5,8 @@ days: 7
 budgetAmount: 22000
 budgetCurrency: "SEK"
 route: "Stockholm → Archipelago → Uppsala"
+heroImage: "/images/sweden.jpeg"
+heroWide: "/images/sweden-wide.jpeg"
 styles: ['culture', 'couples']
 bestFor: "Design + islands"
 summary: "A capital built across fourteen islands with thirty thousand more on its doorstep: a warship raised whole from the harbour, an old town of ochre lanes, a ferry out to red cottages and swimming rocks — plus the cashless reality, the fika habit and why the long summer evenings are the whole argument for going."
