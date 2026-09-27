@@ -40,9 +40,9 @@ anything marked ~ as a guide, not a contract.
 - **Visa-free / visa on arrival (30–90 days):** ~80 passports —
   EU, UK, USA, GCC, Japan, Singapore, most of the Americas — get
   stamped in free on arrival. No forms.
-- **Indian passports:** visa on arrival (14 days, extendable) only
-  with a valid **US visit visa, US Green Card, or EU visa/residence
-  permit** — note the UK-visa route was withdrawn in 2026.
+- **Conditional visa on arrival:** some passports, Indian among
+  them, get 14 days (extendable) only with a valid **US visit visa,
+  US Green Card, or EU visa/residence permit** — note the UK-visa route was withdrawn in 2026.
   Everyone else pre-arranges the standard tourist e-visa through
   airlines (Emirates, Etihad, flydubai, Air Arabia all process
   them with your booking) or licensed agents — apply 5+ working

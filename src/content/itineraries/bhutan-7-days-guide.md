@@ -40,7 +40,7 @@ Indian rupees are accepted almost everywhere).
 
 ## Before you go: the SDF maths and the permit choreography
 
-### The Indian-passport advantage (headline first)
+### The two fee tiers, and which one you pay
 
 - **No visa.** Entry permit instead — free — against an
   **Indian passport (6+ months) or original Voter ID**

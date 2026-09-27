@@ -352,10 +352,9 @@ of any nationality: visa-on-arrival ~OMR 5** with the
 residence permit — with the honest caveat that
 eligibility screening still occasionally surfaces, so
 the **ROP e-visa 3–4 days ahead is the zero-drama
-option**. Everyone else, Indian passports included:
-the ROP e-visa (~OMR 20/30 days) with hotel + return
-proof. All roads run through evisa.rop.gov.om — no
-agent needed.
+option**. Everyone else: the ROP e-visa (~OMR 20/30
+days) with hotel + return proof. All roads run through
+evisa.rop.gov.om — no agent needed.
 
 **Will we actually see turtles?**
 At Ras Al Jinz, near-certainly in **June–September**

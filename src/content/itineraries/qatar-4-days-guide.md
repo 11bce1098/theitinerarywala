@@ -14,8 +14,8 @@ publishDate: 2026-09-27
 draft: false
 ---
 
-Doha is the long weekend hiding in plain sight. One hour from
-Dubai, **visa-free for Indian passports**, and transformed by
+Doha is the long weekend hiding in plain sight. A stopover hub
+that waives the visa for most visitors, and transformed by
 two decades of ambition into a city that rewards a proper
 look: the **Museum of Islamic Art** on its own peninsula (I.M.
 Pei's final masterpiece, built at 91), a **National Museum**

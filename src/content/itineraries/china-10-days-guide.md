@@ -47,7 +47,8 @@ crowd-free at the Wall. All costs are in Chinese yuan (CNY).
   others, now enter visa-free for short stays, and the
   **240-hour visa-free transit** scheme covers a longer list
   again through the major airports. Neither covers everyone —
-  India is not on either list, so an Indian passport needs a
+  India is not on either list, for instance, so an Indian passport
+  needs a
   visa. Check the current list for your passport before you
   assume anything; it has been revised repeatedly.
 - **If you do need one**, you apply through a **Chinese Visa

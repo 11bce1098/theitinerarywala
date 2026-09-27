@@ -41,10 +41,10 @@ in Istanbul and Cappadocia but balloon cancellations rise.
   others. Verify your passport on the official
   [evisa.gov.tr](https://www.evisa.gov.tr) checker — the list has
   shifted several times recently.
-- **Indian passports — read carefully:** the e-visa (~USD 50–55,
-  30-day single entry, issued in 1–2 days) is **conditional**: you
-  must hold a valid visa or residence permit from the **Schengen
-  Area, USA, UK or Ireland**. A UAE residence visa does **not**
+- **Where the e-visa is conditional — read carefully:** for some
+  passports, Indian among them, the e-visa (~USD 50–55, 30-day
+  single entry, issued in 1–2 days) requires a valid visa or
+  residence permit from the **Schengen Area, USA, UK or Ireland**. A UAE residence visa does **not**
   qualify — unlike Georgia or Armenia. Without a qualifying visa,
   the route is the **sticker visa** through a Turkish application
   centre or agency: costlier (~USD 200 all-in) and 4–10 working

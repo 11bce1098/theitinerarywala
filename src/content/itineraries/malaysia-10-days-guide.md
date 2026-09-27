@@ -40,9 +40,9 @@ food-lover's jackpot. All costs are in Malaysian ringgit (MYR).
 ### Most visitors need nothing
 
 - **Check whether you need anything: most visitors don't.**
-  Malaysia admits a long list of nationalities visa-free, and
-  **Indian passports enter visa-free for 30 days** under an
-  exemption currently running **through the end of 2026** (check
+  Malaysia admits a long list of nationalities visa-free, Indian
+  passports among them for **30 days**, under an exemption
+  currently running **through the end of 2026** (check
   for extension news before late bookings; the e-visa remains
   the fallback if policy shifts). Passport valid 6+ months,
   return ticket and hotel bookings carried.

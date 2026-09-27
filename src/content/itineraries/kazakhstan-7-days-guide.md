@@ -23,9 +23,9 @@ glass, and a drowned spruce forest rising out of turquoise
 water. Then the bill arrives, in tenge, and it's half what
 you braced for.
 
-The paperwork is the other draw: **most Western passports
-enter visa-free for 30 days**, and **Indian passport holders
-for 14 days per visit** (up to 42 in any 180) — on nothing
+The paperwork is the other draw: **most passports enter
+visa-free for 30 days**, and **Indian passports for 14 days
+per visit** (up to 42 in any 180) — on nothing
 but a passport, hotel booking and return ticket. Air Arabia,
 flydubai and Air Astana fly it non-stop from the Gulf.
 

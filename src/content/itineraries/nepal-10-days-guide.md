@@ -41,15 +41,15 @@ are in Nepali rupees (NPR).
 
 ### Visas, and the open border
 
-- **Indian passports: no visa exists.** Fly in with your
+- **Most passports: visa on arrival** at Kathmandu airport —
+  ~US$30/15 days, US$50/30 days, kiosk + cash counter;
+  nearly every passport qualifies.
+- **Indian passports: no visa exists at all.** Fly in on the
   **passport** (recommended; an original Election Commission
   **Voter ID** also works, especially at land borders —
   Aadhaar/PAN/licences do **not**). Children under 15: birth
   certificate + parent's ID. No fee, no stay-limit stamp for
   tourism. It is genuinely that simple.
-- **Everyone else:** visa on arrival at Kathmandu airport —
-  ~US$30/15 days, US$50/30 days, kiosk + cash counter;
-  nearly every passport qualifies.
 
 ### The rupee-note rule, and SAARC pricing
 
@@ -57,7 +57,7 @@ are in Nepali rupees (NPR).
   Indian notes are not legal in Nepal.** Carry ₹100s (widely
   accepted at ~1.6 NPR) or just use ATMs/cards. Getting
   caught changing big INR notes is a genuine hassle.
-- **SAARC pricing is your friend again:** Indian/SAARC rates
+- **SAARC pricing applies again:** Indian/SAARC rates
   run a fraction of foreigner tickets at the heritage sites —
   and **Pashupatinath is free for Indians** (foreigners
   NPR 1,000, and non-Hindus can't enter the main sanctum
@@ -303,8 +303,8 @@ end)
 ## What this trip actually costs
 
 Two people, 9 nights (4 KTM + 3 Pokhara + 2 Chitwan),
-mid-range comfort, international flights excluded — **and
-for Indian passports, the visa line is zero**:
+mid-range comfort, international flights excluded (on an
+Indian passport the visa line is zero):
 
 | Item | Cost |
 |---|---|
@@ -354,7 +354,7 @@ for Indian passports, the visa line is zero**:
 
 ## FAQ
 
-**Truly no visa for Indians — what's the catch?**
+**Really no visa at all on an Indian passport — what's the catch?**
 No catch — the 1950 treaty keeps the border open both
 ways. The two real rules: carry the right document
 (passport or original Voter ID; kids under 15 need birth

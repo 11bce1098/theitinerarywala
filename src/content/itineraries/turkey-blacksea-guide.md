@@ -38,9 +38,10 @@ set in it.
 
 Visas, money and the scam list are identical to our 11-day Turkey
 guide, where they're covered in depth (short form: many passports
-visa-free; **Indian passports need the conditional e-visa — a valid
-US/UK/Schengen/Ireland visa required, UAE residence alone does not
-qualify — or the sticker visa, 3+ weeks early**). Route-specific
+visa-free; **others need the conditional e-visa — Indian passports
+among them — which requires a valid US/UK/Schengen/Ireland visa,
+residence in a third country not being enough on its own, or the
+sticker visa, 3+ weeks early**). Route-specific
 notes:
 
 ### Flying in, and the car

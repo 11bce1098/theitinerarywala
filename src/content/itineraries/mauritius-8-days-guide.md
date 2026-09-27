@@ -9,7 +9,7 @@ heroImage: "/images/mauritius.jpeg"
 heroWide: "/images/mauritius-wide.jpeg"
 styles: ['beach', 'couples']
 bestFor: "Beaches + road trip"
-summary: "The island where India meets Africa in the middle of the ocean: sand in seven colours, a sacred lake with a 33-metre Shiva, catamaran days and a mountain the UNESCO list bows to — visa-free for Indian passports, six hours from the UAE, and cheaper than it photographs."
+summary: "The island where India meets Africa in the middle of the ocean: sand in seven colours, a sacred lake with a 33-metre Shiva, catamaran days and a mountain the UNESCO list bows to — visa-free for most passports, and cheaper than it photographs."
 publishDate: 2026-09-25
 draft: false
 ---
@@ -42,7 +42,7 @@ southern-winter winds and the January–March cyclone lottery.
 ### Visa-free, and the one form
 
 - **Visa-free, free:** most passports get **60 days on arrival, no
-  fee** (Indian passports included) — carry the return ticket, hotel
+  fee** — carry the return ticket, hotel
   bookings and a bank card as your never-asked-for proof of funds
   (~US$100/day is the official benchmark). Extensions to 6 months
   per year are possible in-country.
@@ -107,10 +107,9 @@ southern-winter winds and the January–March cyclone lottery.
   **Aapravasi Ghat** (UNESCO, small/free entry) — the
   immigration depot steps where half a million
   indentured workers from India first stood between
-  1834 and 1920. For most Indian visitors this quiet
-  courtyard is unexpectedly the trip's heaviest
-  moment: the island's story starts on these sixteen
-  steps.
+  1834 and 1920. It is unexpectedly the trip's
+  heaviest moment: the island's story starts on these
+  sixteen steps.
 - **13:00** — **Central Market** lunch the correct
   way: **dholl puri** (MUR 15–30 each — the national
   dish is basically a Bihari roti that emigrated),

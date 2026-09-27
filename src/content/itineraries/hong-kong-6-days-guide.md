@@ -22,11 +22,11 @@ bamboo scaffolding on glass towers, incense spirals over
 temple courtyards, and a harbour crossing that has cost
 pocket change since 1888.
 
-The entry rules are refreshingly simple too. Most Western passports
-get **90 days visa-free**; **Indian passport holders need no visa
-either — just a free online Pre-arrival Registration (PAR)**,
-fifteen minutes, covering **six months of visits, 14 days at a
-time**, and **Macau adds itself visa-free for 30 days**. Compare
+The entry rules are refreshingly simple too. Most passports get
+**90 days visa-free**; a few, Indian passports among them, need
+only a free online **Pre-arrival Registration (PAR)** — fifteen
+minutes, covering **six months of visits, 14 days at a time** —
+and **Macau adds itself visa-free for 30 days**. Compare
 that with the mainland-China paperwork in our
 [Beijing–Xi'an–Shanghai guide](/itineraries/china-10-days-guide/)
 and this is the easy door into the Chinese world.
@@ -54,8 +54,9 @@ typhoon roulette.
   you renew the passport, so re-register after any
   renewal. Beware agent sites charging for what is a
   free two-page form.
-- **Macau needs nothing**: Indian passports are **visa-free 30
-  days** (passport + hotel/itinerary if asked). Your HK
+- **Macau needs nothing**: visa-free on arrival for most
+  passports (**30 days** on an Indian one; passport +
+  hotel/itinerary if asked). Your HK
   PAR covers the return since it's multiple-entry.
 
 ### Landing, and getting about
@@ -172,8 +173,7 @@ typhoon roulette.
   port terminal: 40 minutes across the **55 km
   Hong Kong–Zhuhai–Macau Bridge**, the world's longest
   sea crossing (**~HKD 65 each way**, passports +
-  PAR slip in hand; Macau stamps Indian passports in
-  visa-free).
+  PAR slip in hand; Macau stamps you in visa-free).
 - **10:30** — Old Macau on foot: the **Ruins of St
   Paul's** facade, **Senado Square's** wave-tiled
   Portuguese plaza, Rua do Cunha's sample-happy

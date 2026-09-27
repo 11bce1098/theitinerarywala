@@ -39,7 +39,7 @@ numbers look enormous and the prices are tiny.
 - **Visa-free (30 days):** most European passports, the UK, Japan,
   Korea, GCC states including the UAE, and ~90 others. No forms,
   no fees.
-- **Indian passports — new for 2026:** Uzbekistan announced
+- **New for 2026:** Uzbekistan announced
   **30-day visa-free entry for Indian citizens on 30 August 2026**.
   The announcement is recent, so confirm the implementation status
   before booking; the fallback is the painless **e-visa** at

@@ -41,9 +41,9 @@ possible. All costs are in Thai baht (THB).
 
 - **The allowances changed on 15 September 2026, so check
   yours.** Thailand admits most tourist nationalities without a
-  visa; **Indian passports now get 30 days**, down from the
-  60-day exemption of 2024–2026, and several others were
-  shortened at the same time. Still free, still no paperwork
+  visa, and several allowances were shortened at the same time —
+  **Indian passports now get 30 days**, down from the 60-day
+  exemption of 2024–2026. Still free, still no paperwork
   beyond the arrival card, and 30 days swallows this trip whole.
   Need longer? A **30-day extension costs ~฿1,900** at any
   immigration office.

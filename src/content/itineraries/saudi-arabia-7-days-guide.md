@@ -49,7 +49,7 @@ Season's carnival running the same months.
   multiple-entry visa with 90-day stays**. One form covers
   this trip and every weekend return.
 - **Not on that list?** Two routes open the same eVisa to
-  any nationality — Indian passports very much included:
+  any nationality:
   **residence in a GCC country valid 3+ months**, or a
   **valid US, UK or Schengen visa** that has been used at
   least once. A visa-on-arrival lane (~SAR 480) exists for

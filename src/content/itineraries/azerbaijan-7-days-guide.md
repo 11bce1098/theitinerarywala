@@ -41,11 +41,9 @@ the US dollar, so prices are gentler than they look.
 
 - **Visa-free (90 days):** UAE, Qatar, Turkey, and most CIS
   passports (Russia, Kazakhstan, Uzbekistan and more).
-- **The residence-permit shortcut, if you live in the Gulf:** holders
-  of a valid **UAE residence visa or GCC permanent residence** get
-  a **30-day visa on arrival** at Baku airport, whatever their
-  passport — an Indian passport with an Emirates ID walks up to
-  the counter.
+- **The residence-permit shortcut:** holders of a valid **UAE
+  residence visa or GCC permanent residence** get a **30-day visa
+  on arrival** at Baku airport, whatever their passport.
 - **Everyone else — the ASAN e-visa:** most nationalities
   (including India, EU, UK, USA) apply at
   [evisa.gov.az](https://evisa.gov.az) — **USD 25, issued within 3

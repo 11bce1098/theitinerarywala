@@ -37,9 +37,9 @@ out, and the good hotels in Aguas Calientes go first.
 
 - **Most nationalities enter Peru visa-free** for 90 days on arrival
   — the EU, UK, US, Canada, Australia, most of Latin America and
-  many others. Indian passports need a visa unless you hold a valid
-  US, UK, Canadian, Schengen or Australian visa, which grants
-  visa-free entry. Check your own case; the rules here change more
+  many others. Some passports, Indian among them, need a visa
+  unless the traveller holds a valid US, UK, Canadian, Schengen or
+  Australian visa, which grants visa-free entry. Check your own case; the rules here change more
   often than most.
 - **Altitude is the real planning constraint, not the paperwork.**
   Cusco is 3,400 m — higher than most people have ever slept. The

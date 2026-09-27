@@ -48,7 +48,7 @@ keeps this trip at {{SCR 23000}} pp instead of double:
 ### No visa — for anyone
 
 - **No visa — for anyone.** Seychelles is visa-free for all
-  nationalities, Indian passports included: you receive a
+  nationalities: you receive a
   free **Visitor's Permit on arrival** (30 days). What you
   must do is submit the **digital Travel Authorisation at
   seychelles.govtas.com** (or the mobile app) before

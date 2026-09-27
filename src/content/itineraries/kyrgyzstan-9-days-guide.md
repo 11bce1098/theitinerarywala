@@ -39,7 +39,8 @@ shared taxis and dirt roads** rather than timetables.
   Around sixty nationalities enter **visa-free for 60 days** — the
   EU, UK, US, Canada, Australia, Japan, Korea and more. Most others
   can use a straightforward **eVisa**.
-- Indian passports currently need an eVisa; it is applied for
+- Passports outside that list, Indian among them, currently need an
+  eVisa; it is applied for
   online and issued in a few working days. Check your own case,
   which is the fastest-changing detail here.
 - Passport valid six months.
