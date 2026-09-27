@@ -2042,13 +2042,70 @@ body.nav-open { overflow: hidden; }
   border-radius: 4px;
 }
 
-.quote-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+/*
+ * A single scrolling row rather than a grid, so adding quotes makes the rail
+ * longer instead of making the homepage taller. Scroll-snap does the work;
+ * the arrows are a convenience for mouse users, and the rail itself is
+ * focusable so it can be scrolled from the keyboard.
+ */
+.quote-rail { position: relative; }
+.quote-track {
+  display: flex;
   gap: 1.25rem;
   margin: 0;
-  padding: 0;
+  padding: 0.35rem 0.25rem 1rem;
   list-style: none;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: var(--line) transparent;
+}
+.quote-track::-webkit-scrollbar { height: 8px; }
+.quote-track::-webkit-scrollbar-thumb {
+  background: var(--line);
+  border-radius: 999px;
+}
+.quote-track > .quote-card {
+  flex: 0 0 min(23rem, 84%);
+  scroll-snap-align: start;
+}
+.quote-track:focus-visible {
+  outline: 3px solid var(--marigold);
+  outline-offset: 4px;
+  border-radius: var(--radius);
+}
+
+.quote-nav {
+  position: absolute;
+  top: calc(50% - 1.25rem);
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.09);
+  cursor: pointer;
+  transition: opacity 0.2s var(--ease-out), border-color 0.2s var(--ease-out);
+}
+.quote-nav:hover { border-color: var(--teal); }
+.quote-nav[hidden] { display: none; }
+.quote-nav:disabled { opacity: 0.35; cursor: default; }
+.quote-nav--prev { left: -0.6rem; }
+.quote-nav--next { right: -0.6rem; }
+.quote-nav svg { width: 1.05rem; height: 1.05rem; }
+
+@media (max-width: 62rem) {
+  /* No room to float the arrows beside the rail; swiping is the gesture here. */
+  .quote-nav { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .quote-track { scroll-behavior: auto; }
 }
 .quote-card {
   display: flex;

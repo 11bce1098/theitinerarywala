@@ -21,35 +21,116 @@ import { TESTIMONIALS, PLACEHOLDER, SHOW } from '../lib/testimonials';
       </p>
     )}
 
-    <ul class="quote-grid">
-      {TESTIMONIALS.map((item, i) => (
-        <li class="quote-card" data-reveal style={`--stagger:${i}`}>
-          {/* The stars are decoration; the label carries the meaning. */}
-          <p class="quote-stars" aria-label={`Rated ${item.rating} out of 5`}>
-            <span aria-hidden="true">{'★'.repeat(item.rating)}</span>
-          </p>
-          <blockquote>
-            <p>{item.quote}</p>
-          </blockquote>
-          <footer>
-            <span class="quote-name">{item.name}</span>
-            <span class="quote-trip">
-              {item.trip}
-              {/*
-                * Generic wording on purpose: Langkawi is part of the Malaysia
-                * itinerary rather than one of its own, so "Langkawi itinerary"
-                * would promise a page that does not exist.
-                */}
-              {item.href && (
-                <>
-                  {' · '}
-                  <a class="quote-trip--link" href={item.href}>Read the itinerary &rarr;</a>
-                </>
-              )}
-            </span>
-          </footer>
-        </li>
-      ))}
-    </ul>
+    {/*
+      * data-reveal sits on the rail, not the cards: a card scrolled out of the
+      * rail horizontally never intersects the viewport, so per-card reveals
+      * would leave the later quotes invisible until someone scrolled to them.
+      */}
+    <div class="quote-rail" data-reveal>
+      <button
+        class="quote-nav quote-nav--prev"
+        type="button"
+        data-rail="prev"
+        aria-label="Previous quotes"
+        hidden
+      >
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M15 5 8 12l7 7" />
+        </svg>
+      </button>
+
+      <ul class="quote-track" data-rail-track tabindex="0" role="group" aria-label="Reader quotes">
+        {TESTIMONIALS.map((item) => (
+          <li class="quote-card">
+            {/* The stars are decoration; the label carries the meaning. */}
+            <p class="quote-stars" aria-label={`Rated ${item.rating} out of 5`}>
+              <span aria-hidden="true">{'\u2605'.repeat(item.rating)}</span>
+            </p>
+            <blockquote>
+              <p>{item.quote}</p>
+            </blockquote>
+            <footer>
+              <span class="quote-name">{item.name}</span>
+              <span class="quote-trip">
+                {item.trip}
+                {/*
+                  * Generic wording on purpose: Langkawi is part of the Malaysia
+                  * itinerary rather than one of its own, so "Langkawi itinerary"
+                  * would promise a page that does not exist.
+                  */}
+                {item.href && (
+                  <>
+                    {' · '}
+                    <a class="quote-trip--link" href={item.href}>Read the itinerary &rarr;</a>
+                  </>
+                )}
+              </span>
+            </footer>
+          </li>
+        ))}
+      </ul>
+
+      <button
+        class="quote-nav quote-nav--next"
+        type="button"
+        data-rail="next"
+        aria-label="More quotes"
+        hidden
+      >
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="m9 5 7 7-7 7" />
+        </svg>
+      </button>
+    </div>
+
   </section>
 )}
+
+<script>
+  /*
+   * The rail scrolls on its own; this only adds the arrows for mouse users
+   * and keeps them honest about where the rail is. They stay hidden entirely
+   * when everything already fits, so they never appear as dead controls.
+   */
+  for (const rail of document.querySelectorAll<HTMLElement>('.quote-rail')) {
+    const track = rail.querySelector<HTMLElement>('[data-rail-track]');
+    const prev = rail.querySelector<HTMLButtonElement>('[data-rail="prev"]');
+    const next = rail.querySelector<HTMLButtonElement>('[data-rail="next"]');
+    if (!track || !prev || !next) continue;
+
+    const step = () => {
+      const card = track.querySelector<HTMLElement>('.quote-card');
+      const gap = parseFloat(getComputedStyle(track).columnGap || '0') || 0;
+      return card ? card.getBoundingClientRect().width + gap : track.clientWidth;
+    };
+
+    const sync = () => {
+      const overflowing = track.scrollWidth > track.clientWidth + 1;
+      prev.hidden = next.hidden = !overflowing;
+      if (!overflowing) return;
+      /*
+       * The slack covers the track's own padding — at rest scrollLeft sits a
+       * few pixels in, not at zero — while staying far below one card's width,
+       * so "at the start" cannot be confused with "one card along".
+       */
+      const slack = 12;
+      prev.disabled = track.scrollLeft <= slack;
+      next.disabled = track.scrollLeft >= track.scrollWidth - track.clientWidth - slack;
+    };
+
+    /* Smooth scrolling means the arrows land after the click, so re-check when
+       the scroll finishes as well as while it runs. */
+    const nudge = (by: number) => {
+      track.scrollBy({ left: by });
+      setTimeout(sync, 450);
+    };
+    prev.addEventListener('click', () => nudge(-step()));
+    next.addEventListener('click', () => nudge(step()));
+    track.addEventListener('scroll', sync, { passive: true });
+    track.addEventListener('scrollend', sync);
+    addEventListener('resize', sync);
+    sync();
+  }
+</script>
