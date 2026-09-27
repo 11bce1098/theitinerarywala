@@ -5,6 +5,8 @@ days: 9
 budgetAmount: 65000
 budgetCurrency: "KGS"
 route: "Bishkek → Song-Kul → Issyk-Kul → Karakol"
+heroImage: "/images/kyrgyzstan.jpeg"
+heroWide: "/images/kyrgyzstan-wide.jpeg"
 styles: ['nature', 'culture']
 bestFor: "Mountains + yurts"
 summary: "Ninety per cent mountain, visa-free for most passports, and still almost empty: a night in a yurt beside a lake at 3,000 metres, a canyon of red rock towers, an alpine lake the size of a small sea, and a valley of seven bulls — with the short season that decides everything and the shared taxis that are how the country moves."

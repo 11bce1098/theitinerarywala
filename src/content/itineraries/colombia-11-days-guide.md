@@ -5,6 +5,8 @@ days: 11
 budgetAmount: 6200000
 budgetCurrency: "COP"
 route: "Cartagena → Salento → Medellín → Bogotá"
+heroImage: "/images/colombia.jpeg"
+heroWide: "/images/colombia-wide.jpeg"
 styles: ['culture', 'nature', 'couples']
 bestFor: "Cities + coffee country"
 summary: "The country that turned itself around, seen at its best: a walled Caribbean city of bougainvillea and balconies, wax palms three times the height of anything around them, a valley city that replaced its reputation with cable cars, and Bogotá's gold — with the altitude order, the safety brief that is neither alarming nor naive, and why domestic flights beat the roads."

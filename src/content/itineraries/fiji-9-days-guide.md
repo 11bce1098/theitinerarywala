@@ -5,6 +5,8 @@ days: 9
 budgetAmount: 6500
 budgetCurrency: "FJD"
 route: "Nadi → Yasawa Islands → Coral Coast → Nadi"
+heroImage: "/images/fiji.jpeg"
+heroWide: "/images/fiji-wide.jpeg"
 styles: ['beach', 'couples', 'family']
 bestFor: "Islands + reefs"
 summary: "Three hundred islands, one catamaran that links the best of them, and a welcome that is not manufactured: manta rays in a channel, limestone caves you swim into, a village kava ceremony done properly, and reefs straight off the beach — with the boat-pass maths and the two seasons that decide the price."

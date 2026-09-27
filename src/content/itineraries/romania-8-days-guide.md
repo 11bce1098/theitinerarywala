@@ -5,6 +5,8 @@ days: 8
 budgetAmount: 5200
 budgetCurrency: "RON"
 route: "Bucharest → Brașov → Sighișoara → Sibiu"
+heroImage: "/images/romania.jpeg"
+heroWide: "/images/romania-wide.jpeg"
 styles: ['culture', 'nature', 'couples']
 bestFor: "Castles + old towns"
 summary: "Saxon towns with watchtowers and pastel squares, fortified churches in villages that have not changed in centuries, a mountain road engineered by a dictator's vanity, and the castle everyone calls Dracula's — with the honest version of that story, the driving, and why Romania is the best-value country in the EU."
