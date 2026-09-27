@@ -2,7 +2,7 @@
 title: "Nepal in 10 days: Kathmandu, Pokhara and Chitwan"
 country: "Nepal"
 days: 10
-budgetAmount: 120000
+budgetAmount: 140000
 budgetCurrency: "NPR"
 route: "Kathmandu → Pokhara → Chitwan"
 heroImage: "/images/nepal.jpeg"
@@ -303,29 +303,35 @@ end)
 ## What this trip actually costs
 
 Two people, 9 nights (4 KTM + 3 Pokhara + 2 Chitwan),
-mid-range comfort, international flights excluded (on an
-Indian passport the visa line is zero):
+mid-range comfort, at foreigner rates, international flights
+excluded:
 
 | Item | Cost |
 |---|---|
 | Hotels, 7 nights (KTM + Pokhara; Chitwan below) | {{NPR 58000}} |
 | Chitwan 2-night full-board package for two (safari, canoe, park fees) | {{NPR 40000}} |
 | Transport: KTM→Pokhara flight, tourist buses, taxis | {{NPR 42000}} |
-| Entries at SAARC rates (foreigners: add ~NPR 6000) | {{NPR 3500}} |
-| Everest mountain flight for two (SAARC fare) | {{NPR 39000}} |
+| Visa on arrival, 15 days × 2 (US$30 each) | {{NPR 9000}} |
+| Monument and gate entries | {{NPR 9500}} |
+| Everest mountain flight for two | {{NPR 64000}} |
 | Food, 10 days (momo-powered) | {{NPR 44000}} |
 | eSIM, extras | {{NPR 2500}} |
 | Buffer: a paraglide, the Krishnarpan splurge, singing bowls | {{NPR 11000}} |
-| **Total for two** | **{{NPR 240000}}** |
+| **Total for two** | **{{NPR 280000}}** |
 
-- Roughly **{{NPR 120000}} per person (~US$900)** — with
-  Vietnam and Malaysia in the site's best-value tier, and
-  the Everest flight is a sixth of it: skip it and the
-  trip dips near {{NPR 100000}} pp (but don't skip it).
-  Foreign passports add the visa ($30–50) and higher
-  gate/flight fares — figure ~US$1,150 pp.
+- Roughly **{{NPR 140000}} per person (≈US$910)** — still with
+  Vietnam and Malaysia in the site's best-value tier. The
+  Everest flight is nearly a quarter of it: skip it and the
+  trip dips near {{NPR 108000}} pp (but don't skip it).
+- **SAARC passports pay noticeably less.** Indian, Bangladeshi,
+  Sri Lankan and other SAARC travellers get the domestic gate
+  rates ({{NPR 3500}} rather than {{NPR 9500}}) and the SAARC
+  fare on the Everest flight ({{NPR 39000}} for two rather than
+  {{NPR 64000}}) — and on an Indian passport there is no visa
+  line at all. The same nine nights come to about
+  **{{NPR 120000}} per person**.
 - **Book in this order:** flights (KTM round trip; Indians
-  can even come by land) → **the Everest flight and
+  can even come overland from India) → **the Everest flight and
   KTM–Pokhara legs** (morning slots, reputable carriers) →
   hotels free-cancel (Dashain/Tihar season fills) →
   Chitwan package → paragliding on the ground by weather →

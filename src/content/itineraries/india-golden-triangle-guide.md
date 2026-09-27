@@ -29,8 +29,8 @@ and February are the sweet spots.
 
 All costs are in Indian rupees (INR), with conversions calculated
 at today's exchange rate. Foreigner ticket prices are quoted;
-**Indian passport and OCI holders pay domestic rates — the ticket
-lines in this guide shrink by ~80% for you.**
+**Indian passport and OCI holders pay domestic rates, which cut
+those ticket lines by roughly 80%.**
 
 ## Before you go: the 15-minute admin
 

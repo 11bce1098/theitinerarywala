@@ -33,8 +33,11 @@ February–March** (Nilgiri tahr calving season) — if the wildlife
 stop matters to you, travel outside those weeks.
 
 All costs are in Indian rupees (INR), with conversions calculated
-at today's exchange rate. **Indian passport and OCI holders pay
-domestic rates at the ticketed sights.**
+at today's exchange rate. Foreigner ticket prices are quoted;
+**Indian passport and OCI holders pay domestic rates at the
+ticketed sights** — which trims the entries line modestly here
+rather than transforming the budget, unlike the monument-heavy
+Golden Triangle.
 
 ## Before you go: the short version of the admin
 
