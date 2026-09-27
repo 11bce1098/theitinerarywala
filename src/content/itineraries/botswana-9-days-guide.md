@@ -5,6 +5,8 @@ days: 9
 budgetAmount: 42000
 budgetCurrency: "BWP"
 route: "Maun → Okavango Delta → Moremi → Chobe"
+heroImage: "/images/botswana.jpeg"
+heroWide: "/images/botswana-wide.jpeg"
 styles: ['nature']
 bestFor: "Delta + big game"
 summary: "A river that never reaches the sea, and the wildlife that gathers where it spreads out: mokoro channels at water level, Moremi's floodplains, and Chobe's elephant herds coming to drink at dusk — with the honest version of what a Botswana safari costs, why it costs that, and the season that decides everything."

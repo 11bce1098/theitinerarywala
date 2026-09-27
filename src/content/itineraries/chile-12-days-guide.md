@@ -5,6 +5,8 @@ days: 12
 budgetAmount: 2700000
 budgetCurrency: "CLP"
 route: "Santiago → Atacama → Puerto Natales → Torres del Paine"
+heroImage: "/images/chile.jpeg"
+heroWide: "/images/chile-wide.jpeg"
 styles: ['nature', 'culture']
 bestFor: "Desert + Patagonia"
 summary: "The longest country on earth, at both ends: a desert so dry parts of it have no recorded rain, salt flats with flamingos, and granite towers above a turquoise lake at the bottom of the world — with the altitude order, the park bookings that sell out months ahead, and the two flights that make it possible in twelve days."

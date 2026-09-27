@@ -5,6 +5,8 @@ days: 7
 budgetAmount: 900
 budgetCurrency: "EUR"
 route: "Kotor → Perast → Durmitor → Sveti Stefan"
+heroImage: "/images/montenegro.jpeg"
+heroWide: "/images/montenegro-wide.jpeg"
 styles: ['nature', 'couples', 'culture']
 bestFor: "Fjord bay + mountains"
 summary: "A country the size of a large county that holds a Venetian bay, Europe's deepest canyon and a photogenic island hotel: walls climbing 1,350 steps above Kotor, a serpentine road with twenty-five hairpins, and a glacial lake in a national park — with the cruise-ship timing that decides your day and the honest driving brief."

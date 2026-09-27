@@ -5,6 +5,8 @@ days: 10
 budgetAmount: 11000
 budgetCurrency: "GTQ"
 route: "Antigua → Lake Atitlán → Flores → Tikal"
+heroImage: "/images/guatemala.jpeg"
+heroWide: "/images/guatemala-wide.jpeg"
 styles: ['culture', 'nature']
 bestFor: "Maya sites + volcanoes"
 summary: "The cultural heart of Central America: a colonial city under three volcanoes, a lake ringed by Maya villages where the language changes shore to shore, and temples rising out of jungle canopy at dawn — with the honest brief on shuttles, the volcano hike worth doing, and the safety advice that is neither alarmist nor naive."

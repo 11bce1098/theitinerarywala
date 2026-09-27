@@ -5,6 +5,8 @@ days: 8
 budgetAmount: 1100
 budgetCurrency: "BGN"
 route: "Sofia → Rila → Plovdiv → Veliko Tarnovo"
+heroImage: "/images/bulgaria.jpeg"
+heroWide: "/images/bulgaria-wide.jpeg"
 styles: ['culture', 'nature', 'couples']
 bestFor: "Old towns + monasteries"
 summary: "One of Europe's oldest continuously inhabited cities, a monastery of painted arcades under 2,900-metre peaks, and a medieval capital stacked on a river gorge — with the Cyrillic that was invented here, the head-shake that means the opposite of what you think, and prices that are the lowest in the EU."

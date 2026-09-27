@@ -5,6 +5,8 @@ days: 9
 budgetAmount: 95000
 budgetCurrency: "ALL"
 route: "Tirana → Shkodër → Theth → Berat → Albanian Riviera"
+heroImage: "/images/albania.jpeg"
+heroWide: "/images/albania-wide.jpeg"
 styles: ['beach', 'culture', 'nature']
 bestFor: "Mediterranean on a budget"
 summary: "The last cheap corner of the Mediterranean, and it will not stay that way: Ottoman towns of stacked white windows, a ferry up a fjord-like lake into the Accursed Mountains, and a coast of clear water and empty coves — with the honest version of the driving, the bunkers, and why going in June or September matters."

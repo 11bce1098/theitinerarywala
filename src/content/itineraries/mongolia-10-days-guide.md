@@ -5,6 +5,8 @@ days: 10
 budgetAmount: 6500000
 budgetCurrency: "MNT"
 route: "Ulaanbaatar → Gobi → Orkhon Valley → Kharkhorin"
+heroImage: "/images/mongolia.jpeg"
+heroWide: "/images/mongolia-wide.jpeg"
 styles: ['nature', 'culture']
 bestFor: "Steppe + desert"
 summary: "The emptiest country on earth, and it feels it: singing sand dunes, cliffs where the first dinosaur eggs were found, a valley that was once the centre of the largest land empire in history, and nights in a felt ger with a family — with the driving reality, the short season and why there are almost no roads."

@@ -5,6 +5,8 @@ days: 8
 budgetAmount: 2300
 budgetCurrency: "USD"
 route: "Victoria Falls → Hwange → Matobo Hills"
+heroImage: "/images/zimbabwe.jpeg"
+heroWide: "/images/zimbabwe-wide.jpeg"
 styles: ['nature', 'culture']
 bestFor: "The Falls + safari"
 summary: "The largest sheet of falling water on earth, and a country that gets overlooked beside it: a rainforest soaked by permanent spray, elephant herds at Hwange's pumped waterholes, and granite hills full of rock art and rhino — with the season that decides whether the Falls thunder or trickle, and the currency situation stated plainly."

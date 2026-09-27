@@ -5,6 +5,8 @@ days: 8
 budgetAmount: 3400000
 budgetCurrency: "RWF"
 route: "Kigali → Volcanoes → Lake Kivu → Nyungwe"
+heroImage: "/images/rwanda.jpeg"
+heroWide: "/images/rwanda-wide.jpeg"
 styles: ['nature', 'culture']
 bestFor: "Mountain gorillas"
 summary: "An hour with a gorilla family on a forested volcano, and a country that has made itself one of Africa's easiest to travel: chimpanzees in a montane rainforest, a canopy walkway over the treetops, a lake with no crocodiles, and a memorial that should be visited first — with the permit reality stated plainly."
