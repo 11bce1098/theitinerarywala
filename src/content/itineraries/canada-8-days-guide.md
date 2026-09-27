@@ -40,7 +40,7 @@ Canada Strong Pass.
 
 ## Before you go: the admin
 
-- - **The visitor visa (TRV), honestly:** **CAD 100 + CAD 85
+- **The visitor visa (TRV), honestly:** **CAD 100 + CAD 85
   biometrics** per person at your nearest visa centre, filed like a
   Schengen-plus (proof of residence, bank statements, employment
   letter, ties, itinerary) — and processing commonly runs **30–60

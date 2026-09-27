@@ -38,7 +38,7 @@ July– August is lovely and mobbed.
 
 ## Before you go: the admin
 
-- - **Schengen visa, Czech flavour:** same VFS drill as our
+- **Schengen visa, Czech flavour:** same VFS drill as our
   [France](/itineraries/france-9-days-guide/),
   [Italy](/itineraries/italy-10-days-guide/) and
   [Germany](/itineraries/germany-10-days-guide/) guides — apply
@@ -267,7 +267,7 @@ US$630–980 return):
 | Buffer: beer gardens, crystal, chimney cake | {{CZK 1450}} |
 | **Total for two** | **{{CZK 47000}}** |
 
-- - **{{CZK 23500}} per person ≈ €960** — visa included: the
+- **{{CZK 23500}} per person ≈ €960** — visa included: the
   cheapest European capital week on this site, because the koruna
   quietly discounts everything the euro-zone charges full price for.
 - **Book in this order:** VFS Schengen appointment

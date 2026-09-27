@@ -322,7 +322,7 @@ run ~US$870–1,300 on Emirates; book 3+ months out):
 | Buffer: tips, sundowners, curio markets | {{ZAR 2950}} |
 | **Total for two** | **{{ZAR 82000}}** |
 
-- - That's **{{ZAR 41000}} per person (≈ US$2,340)** — a genuine Big
+- That's **{{ZAR 41000}} per person (≈ US$2,340)** — a genuine Big
   Five safari plus one of the world's great cities for less than many
   Europe-only trips on this site.
 - **Book in this order:** international flights → **ETA

@@ -39,7 +39,7 @@ southern-winter winds and the January–March cyclone lottery.
 
 ## Before you go: the admin (it barely exists)
 
-- - **Visa-free, free:** most passports get **60 days on arrival, no
+- **Visa-free, free:** most passports get **60 days on arrival, no
   fee** (Indian passports included) — carry the return ticket, hotel
   bookings and a bank card as your never-asked-for proof of funds
   (~US$100/day is the official benchmark). Extensions to 6 months
@@ -255,7 +255,7 @@ Emirates/Air Mauritius):
 | Buffer: rum tasting, kites' photos, market finds | {{MUR 2900}} |
 | **Total for two** | **{{MUR 86000}}** |
 
-- - **{{MUR 43000}} per person ≈ US$950** — resort-brochure scenery
+- **{{MUR 43000}} per person ≈ US$950** — resort-brochure scenery
   at road-trip money. The honest lever is the hotel tier: the
   all-inclusive route adds ~MUR 25,000 for two but swallows most of
   the food line; the guesthouse+street-food route cuts this budget

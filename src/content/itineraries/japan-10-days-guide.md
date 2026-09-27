@@ -47,7 +47,7 @@ anything marked ~ as a guide, not a contract.
 - Visa fees rose sharply in **July 2026** — single-entry is now
   around ¥15,000 — and processing runs 8–10 working days, so start
   3–4 weeks out.
-- - Check the official [MOFA eVISA
+- Check the official [MOFA eVISA
   list](https://www.mofa.go.jp/j_info/visit/visa/visaonline.html) for
   your passport; it's revised periodically.
 

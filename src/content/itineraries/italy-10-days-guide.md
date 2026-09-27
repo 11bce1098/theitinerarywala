@@ -350,7 +350,7 @@ flights excluded:
 | Buffer: a gondola, a rooftop aperitivo, leather-market weakness | {{EUR 300}} |
 | **Total for two** | **{{EUR 3700}}** |
 
-- - Roughly **{{EUR 1850}} per person** — the priciest of our European
+- Roughly **{{EUR 1850}} per person** — the priciest of our European
   triangles (compare [Spain at
   €1,400](/itineraries/spain-10-days-guide/)): Venice's beds and Italy's
   ticket-everything culture are the difference. Mestre nights, bacaro

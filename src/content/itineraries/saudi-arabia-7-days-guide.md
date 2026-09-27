@@ -271,7 +271,7 @@ prices similarly in winter):
 | Buffer: karak, dates, balloon fund | {{SAR 440}} |
 | **Total for two** | **{{SAR 10600}}** |
 
-- - **{{SAR 5300}} per person ≈ US$1,410** — with the visa
+- **{{SAR 5300}} per person ≈ US$1,410** — with the visa
   amortising over a full year of re-entries. The honest lever is
   AlUla lodging: midweek + November dates hold this budget;
   Habitas/Banyan Tree upgrades add SAR 4,000–9,000 to the total and

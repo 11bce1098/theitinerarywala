@@ -222,7 +222,7 @@ excluding flights (Gulf–Almaty ~US$250–490 return):
 | Buffer: Arasan Baths, skating, bazaar hauls | {{KZT 26000}} |
 | **Total for two** | **{{KZT 570000}}** |
 
-- - **{{KZT 285000}} per person ≈ US$550** — the cheapest
+- **{{KZT 285000}} per person ≈ US$550** — the cheapest
   mountains-and-canyons week this site has published, and that's
   WITH the guided 2-day tour and a Ritz-level upgrade still leaving
   you under most Europe city breaks. Kazakhstan is the value play of

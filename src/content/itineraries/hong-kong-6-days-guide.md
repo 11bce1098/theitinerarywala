@@ -213,7 +213,7 @@ international flights:
 | Buffer: egg tarts, tram rides, market finds | {{HKD 650}} |
 | **Total for two** | **{{HKD 15600}}** |
 
-- - **{{HKD 7800}} per person ≈ US$1,000.** The city's genius: its
+- **{{HKD 7800}} per person ≈ US$1,000.** The city's genius: its
   icons are nearly free — Star Ferry HKD 6.5, trams HKD 3.30,
   Symphony of Lights, temples, gardens and the Lugard Road view all
   HKD 0. The budget lives in the hotel and the two big-ticket days.

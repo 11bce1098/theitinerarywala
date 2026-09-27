@@ -277,7 +277,7 @@ Two very different Day 6s — pick by stamina:
 
 ## Day 10 — Home from SFO
 
-- - **Morning** — Last fog-and-sourdough breakfast; BART or Uber to SFO,
+- **Morning** — Last fog-and-sourdough breakfast; BART or Uber to SFO,
   which flies non-stop to most long-haul hubs. Triangle closed — and you
   never touched a steering wheel.
 

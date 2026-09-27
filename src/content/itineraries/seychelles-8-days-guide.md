@@ -310,7 +310,7 @@ return on Emirates):
 | Buffer: sunset drinks, coconut ice cream, souvenirs | {{SCR 1300}} |
 | **Total for two** | **{{SCR 46000}}** |
 
-- - **{{SCR 23000}} per person ≈ €1,480** — for the world's most
+- **{{SCR 23000}} per person ≈ €1,480** — for the world's most
   expensive-looking trip, that's the guesthouse economy doing its work.
   The same 8 days in beach resorts with restaurant dinners runs 2.5–4×
   this; the honeymoon-splurge version is a future guide.

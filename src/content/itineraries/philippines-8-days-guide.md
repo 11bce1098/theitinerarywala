@@ -240,7 +240,7 @@ international flights (Dubai/Abu Dhabi–Manila
 | Buffer: shakes, massages, kayak hires | {{PHP 2900}} |
 | **Total for two** | **{{PHP 92000}}** |
 
-- - **{{PHP 46000}} per person ≈ US$790** — beach-country money for
+- **{{PHP 46000}} per person ≈ US$790** — beach-country money for
   lagoon-country scenery. The internal flights are a quarter of the
   budget: swap the El Nido leg to the Puerto Princesa van route and
   the total drops ~PHP 9,000 for two, at the cost of an afternoon.

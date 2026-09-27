@@ -40,7 +40,7 @@ July–August hot and busiest.
 
 ## Before you go: the admin
 
-- - **Schengen, Hungary flavour:** apply via **your nearest VFS
+- **Schengen, Hungary flavour:** apply via **your nearest VFS
   Global centre** with Hungary as main destination — **€90** +
   service fee, biometrics, proof of residence valid past your
   return, bank statements, employment letter, insurance (€30,000),
@@ -243,7 +243,7 @@ flydubai DXB–BUD ~US$440–710):
 | Buffer: cakes, lángos, ruin-bar rounds | {{HUF 13600}} |
 | **Total for two** | **{{HUF 620000}}** |
 
-- - **{{HUF 310000}} per person ≈ €785** — visa included, and with
+- **{{HUF 310000}} per person ≈ €785** — visa included, and with
   Wizz's fares this is regularly the **cheapest Europe trip on the
   site door-to-door**. The forint quietly discounts everything: the
   same week in Vienna, one train-hour away, costs half again as

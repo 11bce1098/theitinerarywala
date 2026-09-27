@@ -40,7 +40,7 @@ crowd-to-magic sweet spot. All costs are in euros (EUR).
 
 ## Before you go: the admin and the mug economics
 
-- - **Visa:** everything from our [Schengen visa
+- **Visa:** everything from our [Schengen visa
   guide](/guides/schengen-visa-how-it-works/) applies — VFS Global, €90,
   the usual Schengen file — with one December-specific warning:
   **appointment demand spikes for the market season, so apply by late
