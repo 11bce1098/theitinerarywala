@@ -42,11 +42,11 @@ euros (EUR).
 
 ### Visa and money
 
-- **Visa:** Austria is Schengen — the full UAE playbook
-  (VFS Global, €90, EES biometrics, 4–8 weeks of lead,
-  bank statements + refundable bookings) is in our
-  [France guide](/itineraries/france-9-days-guide/). Austria's UAE
-  applications also run through VFS.
+- **Visa:** Austria is Schengen — the full process (€90,
+  EES biometrics, 4–8 weeks of appointment lead, bank
+  statements + refundable bookings) is in our
+  [Schengen visa guide](/guides/schengen-visa-how-it-works/). Austria's
+  applications run through VFS Global.
 - **Money:** cards near-universal; carry €40–60 for
   sausage stands, church towers and tips. Tipping: round
   up ~5–10% ("machen Sie 20"). Tap water is free,

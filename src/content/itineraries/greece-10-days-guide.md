@@ -38,9 +38,9 @@ some-things-shut asterisk. All costs are in euros (EUR).
 
 ### Visa and the Acropolis rules
 
-- **Visa:** Greece is Schengen — the UAE playbook (VFS
-  Global, €90, EES biometrics live, 4–8 weeks of lead) is in
-  our [France guide](/itineraries/france-9-days-guide/).
+- **Visa:** Greece is Schengen — the full process (VFS
+  Global, €90, EES biometrics live, 4–8 weeks of appointment
+  lead) is in our [Schengen visa guide](/guides/schengen-visa-how-it-works/).
 - **The Acropolis rules changed — current version:** entry
   is **€30 year-round** (the winter half-price is gone), on
   **mandatory hourly timed slots** booked at the official

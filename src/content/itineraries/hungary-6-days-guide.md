@@ -52,15 +52,16 @@ July–August hot and busiest.
 
 ### Flights and the forint
 
-- **Flights:** **Wizz Air AUH–BUD direct** (~AED
-  600–1,400 return if you pack light and book early —
-  the site's cheapest Europe airfare trick) or
-  **flydubai DXB–BUD**; Emirates connections via
-  European hubs otherwise.
+- **Flights:** low-cost carriers reach Budapest from across
+  Europe, and **Wizz Air flies Abu Dhabi–Budapest direct**
+  (~US$160–380 return from the Gulf if you pack light and
+  book early — the site's cheapest Europe airfare trick);
+  connections via European hubs otherwise.
 - **Money:** Hungary uses the **forint (HUF)** — not
   euros, whatever the tourist-strip menus imply. Cards
   tap everywhere; when the terminal offers to charge in
-  AED, **choose HUF** (dynamic conversion skims 5–10%).
+  your home currency, **choose HUF** (dynamic conversion
+  skims 5–10%).
   ATMs: bank-branded only, decline conversion; avoid the
   blue Euronet boxes.
 
