@@ -2,7 +2,7 @@
 title: "Bhutan in 7 days: Paro, Thimphu and Punakha"
 country: "Bhutan"
 days: 7
-budgetAmount: 55000
+budgetAmount: 109000
 budgetCurrency: "BTN"
 route: "Thimphu → Punakha → Paro"
 heroImage: "/images/bhutan.jpeg"
@@ -23,11 +23,11 @@ run both church and state, and the air at Dochula Pass smells
 of pine and prayer-flag cotton.
 
 What you pay to be here depends entirely on your passport.
-Indian, Bangladeshi and Maldivian nationals travel on the
-**regional rate — a ₹1,200/night Sustainable Development Fee,
-no visa, Voter ID accepted**; everyone else pays **US$100 a
-night** and applies for a visa through a licensed operator.
-Either way the catch is
+Most visitors pay the **Sustainable Development Fee of US$100
+per adult per night**, plus a **US$40 visa** arranged through a
+licensed operator. Indian, Bangladeshi and Maldivian nationals
+travel on the **regional rate instead — ₹1,200 a night, no
+visa, Voter ID accepted**. Either way the catch is
 choreography, not cost — permits, route papers and one sacred
 cliff hike — and this guide runs the steps in order.
 
@@ -46,11 +46,14 @@ Indian rupees are accepted almost everywhere).
   **Indian passport (6+ months) or original Voter ID**
   (Aadhaar/PAN/licences rejected; kids under 18 without
   either use birth certificate + parent's ID).
-- **SDF: ₹1,200 per adult per night** (children 6–12
-  ₹600, **under-6 free**) — the regional rate, currently
-  **locked through August 2027**. A couple's 6-night trip
-  pays ₹14,400 total; internationals pay US$1,200 for the
-  same nights (plus a US$40 visa) — the widest gap between
+- **SDF: US$100 per adult per night** (children 6–12 half,
+  **under-6 free**), plus a one-off **US$40 visa** — so a
+  couple's 6-night trip pays **US$1,280** before anything
+  else. Both tiers are **locked through August 2027**.
+- **The regional rate, if you qualify:** Indian, Bangladeshi
+  and Maldivian nationals pay **₹1,200 per adult per night**
+  (children 6–12 ₹600, under-6 free) and no visa fee —
+  ₹14,400 for the same six nights, the widest gap between
   the two tiers Bhutan has ever run.
 - **Apply two ways:** online at **immi.gov.bt** 4–5 working
   days ahead (pay SDF there, land smooth), or **on arrival
@@ -252,14 +255,16 @@ family included in spirit and often in fact).
 
 ## What this trip actually costs
 
-Two people, 6 nights (2+2+2), mid-range, Indian-passport
-rates, **flights to Paro excluded** (Delhi–Paro returns
-run ~₹18,000–28,000 — book the moment dates fix; two
-airlines, small planes):
+Two people, 6 nights (2+2+2), mid-range, at the **international
+rate**, flights to Paro excluded (Delhi–Paro returns run
+~₹18,000–28,000; Bangkok, Singapore, Kathmandu and Dhaka are
+the other gateways — book the moment dates fix; two airlines,
+small planes):
 
 | Item | Cost |
 |---|---|
-| SDF: ₹1,200 × 2 adults × 6 nights | {{BTN 14400}} |
+| SDF: US$100 × 2 adults × 6 nights | {{BTN 115000}} |
+| Visa: US$40 × 2, one-off | {{BTN 7700}} |
 | Hotels, 6 nights | {{BTN 29000}} |
 | Car + driver, 6 days + licensed guide (the Punakha-leg requirement solved) | {{BTN 37500}} |
 | Monument fees: Tiger's Nest, dzongs, museum, temples | {{BTN 7600}} |
@@ -267,16 +272,18 @@ airlines, small planes):
 | Farmhouse hot-stone baths for two | {{BTN 3000}} |
 | Local SIM, extras | {{BTN 800}} |
 | Buffer: rafting, textiles, the archery bet you'll lose | {{BTN 5200}} |
-| **Total for two** | **{{BTN 110000}}** |
+| **Total for two** | **{{BTN 218300}}** |
 
-- Roughly **{{BTN 55000}} per person (₹55,000 ≈
-  US$620)** — the cheapest international guide on this
-  site for Indian passports, in the country once
-  billed as the world's most exclusive. That's the SDF
-  window doing its work: **internationals add ~US$1,240
-  for the same trip** (US$100/night SDF + US$40 visa) —
-  worth stating plainly to non-Indian readers in the
-  box above.
+- Roughly **{{BTN 109000}} per person (≈US$1,140)** — and
+  **over half of that is the SDF and visa**, not the trip.
+  Bhutan prices access deliberately; the hotels, food and
+  driver are ordinary Himalayan money.
+- **Indian, Bangladeshi and Maldivian passports pay a
+  fraction of it.** The regional SDF of ₹1,200 per adult per
+  night replaces the US$100, and the permit is free, which
+  brings the same six nights to about **{{BTN 55000}} per
+  person** — the cheapest trip on this site, in the country
+  once billed as the world's most exclusive.
 - **Book in this order:** Paro flights (the true
   bottleneck — two airlines, weather-sensitive
   schedules) → **immi.gov.bt permit + SDF 4–5 working
@@ -335,9 +342,9 @@ water, go slow — the cliff does the rest.
 The ₹1,200 regional rate (and the internationals'
 US$100 halved rate) is officially extended **through
 31 August 2027**. Beyond that, policy history says
-rates revisit. Translation: for anyone on the
-regional rate this is the cheapest legal Bhutan in
-decades — a reason to go sooner, not later.
+rates revisit. Translation: this is the
+cheapest legal Bhutan in decades on either tier — a
+reason to go sooner, not later.
 
 **Festivals — should we time for a tshechu?**
 If you can: **Paro Tshechu (March–April)** and
