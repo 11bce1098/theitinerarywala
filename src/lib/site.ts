@@ -98,18 +98,9 @@ export const NAV: NavLink[] = [
   { href: '/about/', label: 'About' },
   { href: '/contact/', label: 'Contact' },
   { href: '/plan/', label: 'Plan My Trip', cta: true },
+  { href: '/privacy/', label: 'Privacy', footerOnly: true },
 ];
 
-/**
- * Where the contact and newsletter forms POST.
- *
- * Set PUBLIC_WEB3FORMS_KEY to your Web3Forms access key and the endpoint is
- * inferred. PUBLIC_FORM_ENDPOINT overrides it for any other service. With
- * neither set the forms fall back to opening the visitor's mail client, so
- * the page is never a dead end — it just isn't as smooth.
- *
- * Both are read at build time, so changing them needs a redeploy.
- */
 /**
  * Google Analytics 4 measurement ID.
  *
@@ -127,6 +118,16 @@ export const GA_ID: string = import.meta.env.PUBLIC_GA_ID ?? 'G-9BNKKY6SWJ';
 /** The only hostname that reports analytics. Anything else is a preview. */
 export const ANALYTICS_HOST = 'theitinerarywala.com';
 
+/**
+ * Where the contact and newsletter forms POST.
+ *
+ * Set PUBLIC_WEB3FORMS_KEY to your Web3Forms access key and the endpoint is
+ * inferred. PUBLIC_FORM_ENDPOINT overrides it for any other service. With
+ * neither set the forms fall back to opening the visitor's mail client, so
+ * the page is never a dead end — it just isn't as smooth.
+ *
+ * Both are read at build time, so changing them needs a redeploy.
+ */
 export const WEB3FORMS_KEY: string = import.meta.env.PUBLIC_WEB3FORMS_KEY ?? '';
 
 const CUSTOM_ENDPOINT: string = import.meta.env.PUBLIC_FORM_ENDPOINT ?? '';

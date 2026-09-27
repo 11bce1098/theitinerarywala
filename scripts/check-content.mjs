@@ -29,7 +29,7 @@ const GUIDES_DIR = 'src/content/guides';
  * derived below rather than listed.
  */
 const PAGES = new Set([
-  '/', '/about/', '/contact/', '/plan/', '/visa-services/',
+  '/', '/about/', '/contact/', '/plan/', '/visa-services/', '/privacy/',
   '/itineraries/', '/guides/', '/destinations/', '/continents/', '/styles/',
 ]);
 const CAVEAT = /^\*[^*\n]*(?:checked|rules can change|confirm[^*]*before you book)[^*]*\*$/ms;

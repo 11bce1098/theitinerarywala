@@ -1393,6 +1393,55 @@ body.nav-open { overflow: hidden; }
 .prose-body h3 { font-size: 1.15rem; margin: 1.9rem 0 0.6rem; }
 .prose-body img { max-width: 100%; border-radius: var(--radius); }
 
+/* Wide tables (the privacy page's, mainly) scroll rather than push the
+   page sideways — nothing else on the site may overflow horizontally. */
+/*
+ * Privacy-page lists. This started as two tables, which is the obvious shape
+ * for "service / what it does / what it receives" — but the cells are prose,
+ * not figures, and a three-column table either clips inside the 42rem reading
+ * measure or distributes its columns badly once allowed to escape it. Cards
+ * read at every width and never scroll sideways.
+ */
+.policy-list {
+  list-style: none;
+  margin: 0 0 1.6rem;
+  padding: 0;
+  display: grid;
+  gap: 0.9rem;
+}
+@media (min-width: 46rem) {
+  .policy-list { grid-template-columns: 1fr 1fr; }
+}
+.policy-item {
+  border: 1px solid var(--rule, rgba(0, 0, 0, 0.12));
+  border-radius: var(--radius);
+  padding: 1rem 1.1rem;
+  background: rgba(255, 255, 255, 0.55);
+}
+.policy-item h3 {
+  margin: 0 0 0.15rem;
+  font-size: 1.02rem;
+}
+.policy-item p { margin: 0 0 0.5rem; font-size: 0.95rem; }
+.policy-item p:last-child { margin-bottom: 0; }
+.policy-item__host {
+  font-family: var(--mono, ui-monospace, SFMono-Regular, Menlo, monospace);
+  font-size: 0.78rem;
+  opacity: 0.7;
+  word-break: break-word;
+}
+.policy-item__label {
+  /* Block, not inline: as an inline label the second line of the sentence
+     wrapped back under the label rather than under its own first line. */
+  display: block;
+  margin-bottom: 0.1rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.65;
+}
+
 /* Markdown tables arrived unstyled — the costs breakdown is the main one. */
 .prose-body table {
   width: 100%;

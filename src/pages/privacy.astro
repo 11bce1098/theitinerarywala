@@ -1,0 +1,231 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE, GA_ID } from '../lib/site';
+
+/**
+ * Written from an audit of what the site actually loads, not from a
+ * template. Every third party listed here was found in the built output:
+ * if one is added or removed, this page has to change with it.
+ */
+const updated = new Date('2026-09-27');
+const updatedLabel = updated.toLocaleDateString('en-GB', {
+  day: 'numeric', month: 'long', year: 'numeric',
+});
+
+/** Everything that receives visitor data, and why. */
+const processors = [
+  {
+    name: 'Google Analytics 4',
+    host: 'googletagmanager.com',
+    purpose: 'Counts visits and shows which itineraries people read, so I know what to write next.',
+    data: 'A randomly generated ID stored in a cookie, your approximate location, device and browser, and the pages you open.',
+  },
+  {
+    name: 'Google Fonts',
+    host: 'fonts.googleapis.com, fonts.gstatic.com',
+    purpose: 'Serves the two typefaces the site is set in.',
+    data: 'Your IP address, because the font files are requested from Google rather than from this site.',
+  },
+  {
+    name: 'Travelpayouts',
+    host: 'emrldtp.cc',
+    purpose: 'Turns links to airlines, eSIMs and tour operators into tracked affiliate links so a booking can be credited here.',
+    data: 'A cookie identifying the click, plus the page you clicked from.',
+  },
+  {
+    name: 'Web3Forms',
+    host: 'api.web3forms.com',
+    purpose: 'Delivers the contact form and the Plan My Trip form to my inbox.',
+    data: 'Only what you type into the form — your email address and whatever trip details you choose to include.',
+  },
+  {
+    name: 'Open Exchange Rates API',
+    host: 'open.er-api.com',
+    purpose: 'Fetches live currency rates so prices can show in your chosen currency.',
+    data: 'Your IP address. No cookie, and nothing about you is sent with the request.',
+  },
+  {
+    name: 'Cloudflare Pages',
+    host: 'theitinerarywala.com',
+    purpose: 'Hosts and serves the site.',
+    data: 'Standard server logs, including IP address, kept briefly for security and abuse prevention.',
+  },
+];
+
+/** What ends up in your browser, named exactly as it appears there. */
+const storage = [
+  {
+    key: '_ga, _ga_*',
+    kind: 'Cookie',
+    life: 'Up to 2 years',
+    why: 'Google Analytics. Distinguishes one returning browser from another; it does not identify you by name.',
+  },
+  {
+    key: 'tiw:currency',
+    kind: 'Local storage',
+    life: 'Until you clear it',
+    why: 'Remembers whether you chose rupees, dirhams or dollars, so every price stays in that currency as you browse.',
+  },
+  {
+    key: 'tiw:rates',
+    kind: 'Local storage',
+    life: 'Refreshed daily',
+    why: 'Caches the exchange rates so the site does not re-fetch them on every page.',
+  },
+];
+---
+<Base
+  title="Privacy — The Itinerary Wala"
+  description="What this site collects, who receives it, and how to get it deleted. Written from an audit of what the site actually loads."
+>
+  <section class="page-hero">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Privacy</p>
+      <h1 data-reveal>What this site collects, and who sees it.</h1>
+      <p class="page-hero__lede" data-reveal>
+        The short version: analytics to see which itineraries get read,
+        affiliate cookies so a booking can be credited here, and whatever
+        you type into a form. Nothing is sold, and there is no advertising
+        network on this site.
+      </p>
+      <p class="footnote" data-reveal>
+        Last updated <time datetime={updated.toISOString()}>{updatedLabel}</time>
+      </p>
+    </div>
+  </section>
+
+  <section class="wrap section">
+    <div class="prose prose-body" data-reveal>
+      <h2>Who runs this site</h2>
+      <p>
+        {SITE.name} is a personal travel-itinerary site run by Nitesh
+        Parasher. For anything on this page, including a request to delete
+        your data, write to <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
+        {' '}and it reaches me directly.
+      </p>
+
+      <h2>What gets collected</h2>
+      <p>
+        <strong>When you read.</strong> Google Analytics records that a page
+        was opened, roughly where from, and on what kind of device. It is
+        measurement, not profiling: I use it to see that the Japan itinerary
+        is read ten times more than the Bolivia one, and write accordingly.
+        The measurement ID is <code>{GA_ID}</code>, in case you want to block
+        it specifically.
+      </p>
+      <p>
+        <strong>When you write.</strong> The contact form and the Plan My
+        Trip form send exactly what you type — your email and your trip
+        details — through Web3Forms to my inbox. There is no database
+        behind this site; those messages live in my email and nowhere else.
+        Please do not put passport numbers, payment details or anything
+        else sensitive into a form that does not ask for it.
+      </p>
+      <p>
+        <strong>When you click a booking link.</strong> Some links to
+        airlines, eSIM providers and tour operators are affiliate links. If
+        you book through one, a cookie tells the partner the click came from
+        here and I may earn a commission, at no extra cost to you. What you
+        then do on their site is governed by their privacy policy, not this
+        one.
+      </p>
+
+      <h2>Who receives data</h2>
+      <p>
+        Everything below was found by auditing what the site actually loads.
+        If that list changes, this page changes with it.
+      </p>
+      <ul class="policy-list">
+        {processors.map((p) => (
+          <li class="policy-item">
+            <h3>{p.name}</h3>
+            <p class="policy-item__host">{p.host}</p>
+            <p><span class="policy-item__label">Does</span> {p.purpose}</p>
+            <p><span class="policy-item__label">Receives</span> {p.data}</p>
+          </li>
+        ))}
+      </ul>
+      <p>
+        Two of those are worth calling out plainly. <strong>Google Fonts is
+        served from Google</strong>, which means your IP address reaches
+        Google on every page even if you block analytics. And the
+        <strong> currency rates are fetched from an external API</strong> by
+        your browser, so that service sees your IP too. Neither is
+        avoidable without changing how the site is built, and both are
+        listed here rather than buried.
+      </p>
+
+      <h2>Cookies and what is stored in your browser</h2>
+      <ul class="policy-list">
+        {storage.map((item) => (
+          <li class="policy-item">
+            <h3><code>{item.key}</code></h3>
+            <p class="policy-item__host">{item.kind} &middot; {item.life}</p>
+            <p>{item.why}</p>
+          </li>
+        ))}
+      </ul>
+      <p>
+        The two <code>tiw:</code> entries are local storage, not cookies:
+        they never leave your browser and are never sent to me or anyone
+        else. Clearing your site data removes all of it, and the site works
+        normally without any of them — you will just be asked to pick a
+        currency again.
+      </p>
+
+      <h2>Your rights</h2>
+      <p>
+        If you are in the UK, the EU or the EEA, the GDPR gives you the
+        right to ask what data exists about you, to have it corrected or
+        deleted, to object to it being processed, and to complain to your
+        national data protection authority.
+      </p>
+      <p>
+        In practice there is very little to request. I hold no accounts and
+        no database. The only place your details sit is my email inbox, if
+        you have written to me — and one message asking me to delete a
+        thread is enough. For analytics data, Google holds it rather than
+        me; you can opt out across every site using the
+        {' '}<a href="https://tools.google.com/dlpage/gaoptout" rel="noopener">
+        Google Analytics opt-out add-on</a>, or block the domains listed
+        above in your browser.
+      </p>
+
+      <h2>How long things are kept</h2>
+      <ul>
+        <li><strong>Analytics:</strong> retained by Google for 14 months, then deleted automatically.</li>
+        <li><strong>Form messages:</strong> kept in my inbox while the conversation is useful, and deleted on request.</li>
+        <li><strong>Newsletter signups:</strong> there is no mailing-list
+          platform behind that box. Your address arrives in my inbox like
+          any other message and stays there until you ask me to remove it.</li>
+        <li><strong>Server logs:</strong> held briefly by Cloudflare for security, then rotated out.</li>
+      </ul>
+
+      <h2>Children</h2>
+      <p>
+        This site is written for adults planning trips. It is not directed
+        at children, and I do not knowingly collect anything from anyone
+        under 16. If you believe a child has sent me something through a
+        form, write to me and I will delete it.
+      </p>
+
+      <h2>Changes to this page</h2>
+      <p>
+        If the site starts using something new — a different analytics tool,
+        a booking partner, a comments system — this page is updated at the
+        same time, and the date at the top changes. There is no version
+        history, so the date is the honest signal.
+      </p>
+    </div>
+  </section>
+
+  <aside class="wrap section">
+    <div class="cta-card" data-reveal>
+      <div>
+        <h2>Questions about any of this?</h2>
+        <p>Write to me directly. It is a real inbox, not a ticketing system.</p>
+      </div>
+      <a class="btn btn--solid" href="/contact/">Contact</a>
+    </div>
+  </aside>
+</Base>
