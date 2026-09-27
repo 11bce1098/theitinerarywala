@@ -67,6 +67,16 @@ export const STYLES = [
       a beach within reach, and honest notes on what is actually worth the ticket.`,
   },
   {
+    slug: 'multi-country',
+    feature: ['Baltics', 'Hong Kong'],
+    name: 'Multi-country',
+    icon: '🛂',
+    tagline: 'Several countries, one trip — and one set of paperwork.',
+    blurb: `Routes that cross a border partway through: separate entry rules to
+      read, but a single run of nights rather than two holidays stitched
+      together.`,
+  },
+  {
     slug: 'budget',
     feature: ['Vietnam', 'Uzbekistan', 'Sri Lanka'],
     name: 'Budget-friendly',

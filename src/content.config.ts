@@ -22,7 +22,7 @@ const itineraries = defineCollection({
      * src/lib/styles.mjs, and must not be listed.
      */
     styles: z
-      .array(z.enum(['beach', 'nature', 'culture', 'couples', 'family']))
+      .array(z.enum(['beach', 'nature', 'culture', 'couples', 'family', 'multi-country']))
       .default([]),
     // "Tashkent → Samarkand → Bukhara → Khiva" — shown on cards so someone
     // scrolling knows the shape of the trip without opening it.

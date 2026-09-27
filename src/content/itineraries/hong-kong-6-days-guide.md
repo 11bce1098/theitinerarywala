@@ -7,7 +7,7 @@ budgetCurrency: "HKD"
 route: "Hong Kong → Lantau → Macau"
 heroImage: "/images/hong-kong.jpeg"
 heroWide: "/images/hong-kong-wide.jpeg"
-styles: ['culture', 'family']
+styles: ['culture', 'family', 'multi-country']
 bestFor: "City + skyline"
 summary: "The most vertical city on Earth, entered on a free online form: the Peak at golden hour, a bronze Buddha above the clouds, dim sum economics, one Disney day and a day trip to Macau over the world's longest sea bridge — with the PAR registration, Octopus card and typhoon calendar decoded."
 publishDate: 2026-09-25
