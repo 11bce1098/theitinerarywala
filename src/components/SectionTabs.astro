@@ -17,8 +17,28 @@ const key = (id: string) => `${idPrefix}-${id}`;
 ---
 {sections.length > 0 && (
   <div class="daytabs" data-daytabs>
-    <div class="daytabs__bar">
-      <div class="daytabs__list" role="tablist" aria-label={railTitle}>
+    {/*
+      * The strip scrolls, and with the scrollbar hidden there was nothing to
+      * say so — a clipped tab at the edge read as a layout bug rather than as
+      * "there is more". data-rail-nav rather than data-rail: the day rail
+      * below already owns that attribute.
+      */}
+    <div class="daytabs__bar" data-rail-root>
+      <button class="rail-nav rail-nav--prev daytabs__nav" type="button"
+              data-rail-nav="prev" aria-label={`Scroll ${railTitle} back`} hidden>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M15 5 8 12l7 7" />
+        </svg>
+      </button>
+      <button class="rail-nav rail-nav--next daytabs__nav" type="button"
+              data-rail-nav="next" aria-label={`Scroll ${railTitle} forward`} hidden>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="m9 5 7 7-7 7" />
+        </svg>
+      </button>
+      <div class="daytabs__list" role="tablist" aria-label={railTitle} data-rail-track>
         {sections.map((day, i) => (
           <button
             type="button"
@@ -93,6 +113,9 @@ const key = (id: string) => `${idPrefix}-${id}`;
 )}
 
 <script>
+  import { initRails } from '../scripts/rail';
+  initRails();
+
   // A page can render more than one tab set, so initialise each root on its
   // own rather than assuming a single instance.
   for (const root of Array.from(document.querySelectorAll<HTMLElement>('[data-daytabs]'))) {

@@ -26,11 +26,11 @@ import { TESTIMONIALS, PLACEHOLDER, SHOW } from '../lib/testimonials';
       * rail horizontally never intersects the viewport, so per-card reveals
       * would leave the later quotes invisible until someone scrolled to them.
       */}
-    <div class="quote-rail" data-reveal>
+    <div class="quote-rail" data-rail-root data-reveal>
       <button
-        class="quote-nav quote-nav--prev"
+        class="rail-nav rail-nav--prev quote-nav"
         type="button"
-        data-rail="prev"
+        data-rail-nav="prev"
         aria-label="Previous quotes"
         hidden
       >
@@ -72,9 +72,9 @@ import { TESTIMONIALS, PLACEHOLDER, SHOW } from '../lib/testimonials';
       </ul>
 
       <button
-        class="quote-nav quote-nav--next"
+        class="rail-nav rail-nav--next quote-nav"
         type="button"
-        data-rail="next"
+        data-rail-nav="next"
         aria-label="More quotes"
         hidden
       >
@@ -89,48 +89,6 @@ import { TESTIMONIALS, PLACEHOLDER, SHOW } from '../lib/testimonials';
 )}
 
 <script>
-  /*
-   * The rail scrolls on its own; this only adds the arrows for mouse users
-   * and keeps them honest about where the rail is. They stay hidden entirely
-   * when everything already fits, so they never appear as dead controls.
-   */
-  for (const rail of document.querySelectorAll<HTMLElement>('.quote-rail')) {
-    const track = rail.querySelector<HTMLElement>('[data-rail-track]');
-    const prev = rail.querySelector<HTMLButtonElement>('[data-rail="prev"]');
-    const next = rail.querySelector<HTMLButtonElement>('[data-rail="next"]');
-    if (!track || !prev || !next) continue;
-
-    const step = () => {
-      const card = track.querySelector<HTMLElement>('.quote-card');
-      const gap = parseFloat(getComputedStyle(track).columnGap || '0') || 0;
-      return card ? card.getBoundingClientRect().width + gap : track.clientWidth;
-    };
-
-    const sync = () => {
-      const overflowing = track.scrollWidth > track.clientWidth + 1;
-      prev.hidden = next.hidden = !overflowing;
-      if (!overflowing) return;
-      /*
-       * The slack covers the track's own padding — at rest scrollLeft sits a
-       * few pixels in, not at zero — while staying far below one card's width,
-       * so "at the start" cannot be confused with "one card along".
-       */
-      const slack = 12;
-      prev.disabled = track.scrollLeft <= slack;
-      next.disabled = track.scrollLeft >= track.scrollWidth - track.clientWidth - slack;
-    };
-
-    /* Smooth scrolling means the arrows land after the click, so re-check when
-       the scroll finishes as well as while it runs. */
-    const nudge = (by: number) => {
-      track.scrollBy({ left: by });
-      setTimeout(sync, 450);
-    };
-    prev.addEventListener('click', () => nudge(-step()));
-    next.addEventListener('click', () => nudge(step()));
-    track.addEventListener('scroll', sync, { passive: true });
-    track.addEventListener('scrollend', sync);
-    addEventListener('resize', sync);
-    sync();
-  }
+  import { initRails } from '../scripts/rail';
+  initRails();
 </script>

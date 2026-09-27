@@ -2077,9 +2077,9 @@ body.nav-open { overflow: hidden; }
   border-radius: var(--radius);
 }
 
-.quote-nav {
+/* Shared by every scrolling strip; positioned by the strip's own rules. */
+.rail-nav {
   position: absolute;
-  top: calc(50% - 1.25rem);
   z-index: 2;
   display: grid;
   place-items: center;
@@ -2093,16 +2093,70 @@ body.nav-open { overflow: hidden; }
   cursor: pointer;
   transition: opacity 0.2s var(--ease-out), border-color 0.2s var(--ease-out);
 }
-.quote-nav:hover { border-color: var(--teal); }
-.quote-nav[hidden] { display: none; }
-.quote-nav:disabled { opacity: 0.35; cursor: default; }
-.quote-nav--prev { left: -0.6rem; }
-.quote-nav--next { right: -0.6rem; }
-.quote-nav svg { width: 1.05rem; height: 1.05rem; }
+.rail-nav:hover { border-color: var(--teal); }
+.rail-nav[hidden] { display: none; }
+.rail-nav:disabled { opacity: 0.35; cursor: default; }
+.rail-nav svg { width: 1.05rem; height: 1.05rem; }
+
+.quote-nav { top: calc(50% - 1.25rem); }
+
+/*
+ * Smaller inside the sticky tab bar, and sitting on a fade so the tabs slide
+ * under them rather than colliding.
+ */
+.daytabs__bar { position: sticky; }
+.daytabs__nav {
+  top: 50%;
+  width: 2rem;
+  height: 2rem;
+  transform: translateY(-50%);
+}
+.rail-nav--prev.daytabs__nav { left: 0.35rem; }
+.rail-nav--next.daytabs__nav { right: 0.35rem; }
+.daytabs__nav svg { width: 0.9rem; height: 0.9rem; }
+.daytabs__bar[data-rail-overflowing] .daytabs__list {
+  padding-inline: 2.4rem;
+  scroll-padding-inline: 2.4rem;
+}
+/* Fade only the edge that has more behind it, so tabs dissolve under the
+   arrow instead of being chopped mid-letter. */
+.daytabs__bar[data-rail-at='start'] .daytabs__list {
+  mask-image: linear-gradient(to right, #000 calc(100% - 3.4rem), transparent 100%);
+}
+.daytabs__bar[data-rail-at='end'] .daytabs__list {
+  mask-image: linear-gradient(to right, transparent 0, #000 3.4rem);
+}
+.daytabs__bar[data-rail-at='middle'] .daytabs__list {
+  mask-image: linear-gradient(
+    to right, transparent 0, #000 3.4rem, #000 calc(100% - 3.4rem), transparent 100%
+  );
+}
+.rail-nav--prev.quote-nav { left: -0.6rem; }
+.rail-nav--next.quote-nav { right: -0.6rem; }
 
 @media (max-width: 62rem) {
-  /* No room to float the arrows beside the rail; swiping is the gesture here. */
-  .quote-nav { display: none; }
+  /*
+   * No room to float arrows beside a narrow strip, and swiping is the gesture
+   * on touch anyway — the edge fade carries the "there is more" signal alone,
+   * so it tightens to suit having nothing to hide under.
+   */
+  .quote-nav,
+  .daytabs__nav { display: none; }
+  .daytabs__bar[data-rail-overflowing] .daytabs__list {
+    padding-inline: 0;
+    scroll-padding-inline: 0;
+  }
+  .daytabs__bar[data-rail-at='start'] .daytabs__list {
+    mask-image: linear-gradient(to right, #000 calc(100% - 1.6rem), transparent 100%);
+  }
+  .daytabs__bar[data-rail-at='end'] .daytabs__list {
+    mask-image: linear-gradient(to right, transparent 0, #000 1.6rem);
+  }
+  .daytabs__bar[data-rail-at='middle'] .daytabs__list {
+    mask-image: linear-gradient(
+      to right, transparent 0, #000 1.6rem, #000 calc(100% - 1.6rem), transparent 100%
+    );
+  }
 }
 @media (prefers-reduced-motion: reduce) {
   .quote-track { scroll-behavior: auto; }
