@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { topicsWithGuides, TOPICS } from '../../lib/topics.mjs';
+import { topicsWithGuides, topicBySlug } from '../../lib/topics.mjs';
 import { countrySlug } from '../../lib/geography.mjs';
 import { breadcrumbs, itemList } from '../../lib/schema';
 import { getGuides } from '../../lib/guides';
@@ -56,6 +56,34 @@ const jsonLd = [
         <a class="btn btn--solid" href="/itineraries/">Browse itineraries</a>
       </div>
     </section>
+  ) : grouped.length > 1 && guides.length < 8 ? (
+    /*
+     * One heading per topic is a lot of furniture for a handful of guides —
+     * three headings for three cards, and each card stretched across the full
+     * width. Below eight, show a single grid and let each card name its own
+     * topic. Group properly once there is enough to group.
+     */
+    <section class="wrap section">
+      <ul class="guide-list">
+        {guides.map((guide, i) => (
+          <li class="guide-card" data-reveal style={`--stagger:${i}`}>
+            <a href={`/guides/${guide.id}/`}>
+              <span class="guide-card__topic">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                     stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d={topicBySlug(guide.data.topic)!.icon} />
+                </svg>
+                {topicBySlug(guide.data.topic)!.name}
+                {guide.data.country ? ` · ${guide.data.country}` : ''}
+              </span>
+              <span class="guide-card__title">{guide.data.title}</span>
+              <span class="guide-card__summary">{guide.data.summary}</span>
+              <span class="guide-card__go">Read the guide &rarr;</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
   ) : (
     grouped.map((topic) => (
       <section class="wrap section">
@@ -78,7 +106,7 @@ const jsonLd = [
                 </span>
                 <span class="guide-card__title">{guide.data.title}</span>
                 <span class="guide-card__summary">{guide.data.summary}</span>
-                <span class="guide-card__go">Read the guide →</span>
+                <span class="guide-card__go">Read the guide &rarr;</span>
               </a>
             </li>
           ))}
