@@ -41,9 +41,10 @@ All costs are in euros (EUR).
 
 The Schengen rules are covered in depth in our [Schengen visa
 guide](/guides/schengen-visa-how-it-works/). The essentials: ~60
-nationalities enter visa-free (with the **EES biometric border** now
-live — allow extra time at first entry — and the **€20 ETIAS**
-authorisation expected from late 2026); Schengen-visa passports
+nationalities enter visa-free (with the **EES biometric border** fully
+operational since April 2026 — allow extra time at first entry — and the
+**€20 ETIAS** authorisation still without a confirmed date); Schengen-visa
+passports
 (including India) apply with the usual file — note **Spain's
 applications run through BLS International** (not VFS), fee €90 +
 service charges, and appointments in peak season need 4–6 weeks of lead.

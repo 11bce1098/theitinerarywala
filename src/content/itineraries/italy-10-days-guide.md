@@ -40,9 +40,10 @@ is a feature). All costs are in euros (EUR).
 
 Schengen rules are covered in depth in our [Schengen visa
 guide](/guides/schengen-visa-how-it-works/); the essentials: ~60
-nationalities enter visa-free (the **EES biometric border** is live —
-allow extra time at first entry — and the **€20 ETIAS** authorisation is
-expected from late 2026); Schengen-visa passports (India included) apply
+nationalities enter visa-free (the **EES biometric border** has been fully
+operational since April 2026 — allow extra time at first entry — and the
+**€20 ETIAS** authorisation still has no confirmed start date);
+Schengen-visa passports (India included) apply
 with the usual file. **Italy's applications run through VFS Global** —
 fee €90 + service charges, typical processing ~15 days, but appointment
 slots in season need **4–8 weeks of lead**, so start early. Proof of

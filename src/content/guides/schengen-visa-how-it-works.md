@@ -47,13 +47,19 @@ border may ask about.
 
 ## The cost and the lead time
 
-The consular fee is **€90** for adults, **€45** for children aged 6–11, and
-free under 6. On top of that the application centre charges its own service
-fee, which varies by country and is not refundable if you are refused.
+The consular fee is **€90** for adults, **€45** for children aged six to 12,
+and free under six — unchanged since June 2024. On top of that the
+application centre charges its own service fee, which varies by country and
+is not refundable if you are refused.
 
-Lead time is the thing people underestimate. Decisions are often quick —
-France routinely decides in a week — but **getting an appointment** is the
-bottleneck. In peak season, appointment slots run **4 to 8 weeks out**, and
+You can lodge an application **no earlier than six months** before travel and
+**no later than 15 days** before it. The legal standard for a decision is
+**15 calendar days**, extendable to **45** where a case needs closer
+examination — so treat the table above as what consulates typically manage,
+not a promise.
+
+Lead time is the thing people underestimate. Decisions are often quick — but
+**getting an appointment** is the bottleneck. In peak season, appointment slots run **4 to 8 weeks out**, and
 for summer travel they are gone earlier than that. The practical rule: start
 **two to three months before** a summer trip, four to six weeks for shoulder
 season.
@@ -65,7 +71,8 @@ You can apply at most **six months** before travel.
 Not cover letters. The documents that decide it:
 
 - **Proof of funds.** The single most common reason for refusal. France
-  expects roughly **€65 per person per day** with accommodation prepaid;
+  expects roughly **€65 per person per day** where accommodation is prepaid
+  and **€120** where it is not;
   other consulates publish their own figures. Bank statements covering the
   last three to six months carry far more weight than a letter saying you
   can afford the trip.
@@ -85,15 +92,19 @@ issued it, as long as you stay inside your 90/180 allowance.
 
 ## Two border systems worth knowing about
 
-- **EES (Entry/Exit System)** is live. The Schengen external border now
-  registers your face and fingerprints instead of stamping your passport.
-  There is nothing to do in advance — just allow extra queue time on your
-  first arrival, especially at large airports in summer.
+- **EES (Entry/Exit System)** has been **fully operational since 10 April
+  2026**, after a phased rollout that began in October 2025. The Schengen
+  external border now registers your face and fingerprints instead of
+  stamping your passport. There is nothing to do in advance — just allow
+  extra queue time on your first arrival, especially at large airports in
+  summer.
 - **ETIAS** is a **€20** online travel authorisation for visa-exempt
-  visitors, valid three years, expected from **late 2026**. It is not
-  operational at the time of writing, which means **any site selling you an
-  ETIAS today is a scam**. Check the official EU page close to your travel
-  date. If you need a Schengen visa, ETIAS does not apply to you.
+  visitors, valid three years and free for under-18s and over-70s. **The EU
+  has not confirmed a start date**; the timetable has moved more than once,
+  and the Commission has said it will give notice well before the system goes
+  live. It is not operational at the time of writing, which means **any site
+  selling you an ETIAS today is a scam**. Check the official EU page close to
+  your travel date. If you need a Schengen visa, ETIAS does not apply to you.
 
 ## Where this applies on the site
 

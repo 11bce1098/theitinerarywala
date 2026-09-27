@@ -46,10 +46,12 @@ All costs are in euros (EUR).
     the Schengen area registers your face and fingerprints instead
     of a passport stamp. Nothing to do in advance — just allow
     extra queue time on your first arrival.
-  - **ETIAS (expected Q4 2026):** a €20 online travel
-    authorisation for visa-exempt visitors, valid 3 years. Not yet
-    operational at writing — **any site selling ETIAS today is a
-    scam**; check the official EU page near your travel date.
+  - **ETIAS (no confirmed date):** a €20 online travel
+    authorisation for visa-exempt visitors, valid 3 years, free
+    under 18 and over 70. The timetable has slipped more than
+    once and is not yet set. Not operational at writing — **any
+    site selling ETIAS today is a scam**; check the official EU
+    page near your travel date.
 - **Schengen visa passports (India included):** apply to the
   French consulate or its visa partner where you live — **€90**
   consular fee plus a service fee, biometrics in person. France

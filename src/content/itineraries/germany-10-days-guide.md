@@ -38,8 +38,8 @@ future guide of its own. All costs are in euros (EUR).
 
 ### Visa and borders
 
-Schengen mechanics — the EES biometric border now live, the €20 ETIAS
-coming for visa-free passports, the standard file — are covered in depth
+Schengen mechanics — the EES biometric border fully operational since April
+2026, the €20 ETIAS still undated, the standard file — are covered in depth
 in our [Schengen visa guide](/guides/schengen-visa-how-it-works/).
 Germany-specific: applications run through **VFS Global**, fee **€90** +
 service charges, and summer appointment lead runs **4–8 weeks** — apply
