@@ -5,6 +5,8 @@ days: 11
 budgetAmount: 8500
 budgetCurrency: "BOB"
 route: "La Paz → Uyuni → Southwest circuit → Titicaca"
+heroImage: "/images/bolivia.jpeg"
+heroWide: "/images/bolivia-wide.jpeg"
 styles: ['nature', 'culture']
 bestFor: "Salt flats + altiplano"
 summary: "The highest country in the Andes and the strangest landscape in South America: a salt flat the size of a small country that becomes a mirror when it rains, coloured lagoons full of flamingos at 4,500 metres, and a city built into a canyon where the commuter system is a cable car — with the altitude plan and the honest brief on Uyuni tour operators."

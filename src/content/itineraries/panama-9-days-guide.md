@@ -5,6 +5,8 @@ days: 9
 budgetAmount: 1950
 budgetCurrency: "USD"
 route: "Panama City → San Blas → Bocas del Toro"
+heroImage: "/images/panama.jpeg"
+heroWide: "/images/panama-wide.jpeg"
 styles: ['beach', 'nature', 'culture']
 bestFor: "Two oceans + islands"
 summary: "A country narrow enough to see both oceans in a day, and two island groups that could not be less alike: ships climbing through locks between the Atlantic and Pacific, an archipelago of 365 islands run by the Guna themselves, and a Caribbean backpacker chain with reefs — with the boat realities and the US dollar that is already in your wallet."

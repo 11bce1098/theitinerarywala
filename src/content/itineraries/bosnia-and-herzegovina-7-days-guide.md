@@ -5,6 +5,8 @@ days: 7
 budgetAmount: 1100
 budgetCurrency: "BAM"
 route: "Sarajevo → Mostar → Blagaj → Kravice"
+heroImage: "/images/bosnia-and-herzegovina.jpeg"
+heroWide: "/images/bosnia-and-herzegovina-wide.jpeg"
 styles: ['culture', 'nature', 'couples']
 bestFor: "Old towns + history"
 summary: "A city where a mosque, a synagogue, a Catholic and an Orthodox church stand within a few hundred metres, a bridge rebuilt stone by stone after it was destroyed, and a dervish house under a cliff where a river comes out of the rock — with the honest version of the recent history and the one warning that genuinely matters."

@@ -5,6 +5,8 @@ days: 11
 budgetAmount: 4200
 budgetCurrency: "USD"
 route: "Quito → Galápagos → Mindo cloud forest"
+heroImage: "/images/ecuador.jpeg"
+heroWide: "/images/ecuador-wide.jpeg"
 styles: ['nature', 'culture']
 bestFor: "Galápagos + Andes"
 summary: "Animals that have never learned to fear people, in a country small enough to reach them easily: sea lions on the town dock, marine iguanas on black lava, blue-footed boobies dancing on a clifftop, and a colonial capital at 2,850 metres — with the cruise-versus-island-hopping decision and the fees nobody mentions until you land."
