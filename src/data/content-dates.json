@@ -1,4 +1,8 @@
 {
+  "argentina-12-days-guide": {
+    "hash": "627e3f753c7ea4c6",
+    "updated": "2026-09-27"
+  },
   "armenia-7-days-guide": {
     "hash": "90ff4fca4cdae42f",
     "updated": "2026-09-17"
@@ -19,9 +23,17 @@
     "hash": "67148716e256e739",
     "updated": "2026-09-27"
   },
+  "belgium-6-days-guide": {
+    "hash": "621ffe440aaeca6b",
+    "updated": "2026-09-27"
+  },
   "bhutan-7-days-guide": {
     "hash": "fe10e99a98c05c84",
     "updated": "2026-09-25"
+  },
+  "brazil-10-days-guide": {
+    "hash": "ee581dd242493a41",
+    "updated": "2026-09-27"
   },
   "cambodia-7-days-guide": {
     "hash": "807e4b843e5ce124",
@@ -49,6 +61,10 @@
   },
   "croatia-8-days-guide": {
     "hash": "13b2109599e70f7d",
+    "updated": "2026-09-27"
+  },
+  "cuba-9-days-guide": {
+    "hash": "6ff6795d5c3e8f60",
     "updated": "2026-09-27"
   },
   "czech-republic-7-days-guide": {
