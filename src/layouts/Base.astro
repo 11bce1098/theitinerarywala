@@ -2,7 +2,7 @@
 import '../styles/global.css';
 import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
-import { SITE, GA_ID, ANALYTICS_HOST, CF_BEACON_TOKEN } from '../lib/site';
+import { SITE, GA_ID, ANALYTICS_HOST } from '../lib/site';
 
 interface Props {
   title: string;
@@ -62,26 +62,6 @@ const socialImage = new URL(image ?? SITE.ogImage, canonical);
           if (location.hostname === host) gtag('config', gaId);
         </script>
       </Fragment>
-    )}
-
-    {/*
-      Cloudflare Web Analytics — cookieless, so it needs no consent banner in
-      the EEA, which is the reason it is here alongside the Google tag rather
-      than instead of it. Renders nothing unless PUBLIC_CF_BEACON_TOKEN is
-      set. The beacon is appended from script rather than written inline so
-      it can be held to the live hostname; Cloudflare's own Pages injection
-      cannot be, and reports from every preview deploy. Use one or the other.
-    */}
-    {CF_BEACON_TOKEN && import.meta.env.PROD && (
-      <script define:vars={{ token: CF_BEACON_TOKEN, host: ANALYTICS_HOST }}>
-        if (location.hostname === host) {
-          const beacon = document.createElement('script');
-          beacon.defer = true;
-          beacon.src = 'https://static.cloudflareinsights.com/beacon.min.js';
-          beacon.setAttribute('data-cf-beacon', JSON.stringify({ token: token }));
-          document.head.appendChild(beacon);
-        }
-      </script>
     )}
 
     {noindex && <meta name="robots" content="noindex, follow" />}

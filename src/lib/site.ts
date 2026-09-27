@@ -119,22 +119,6 @@ export const GA_ID: string = import.meta.env.PUBLIC_GA_ID ?? 'G-9BNKKY6SWJ';
 export const ANALYTICS_HOST = 'theitinerarywala.com';
 
 /**
- * Cloudflare Web Analytics beacon token. Empty by default, which renders
- * nothing at all — set PUBLIC_CF_BEACON_TOKEN in the Pages build environment
- * to switch it on.
- *
- * This is the manual route, and it exists so the beacon can be held to the
- * live hostname the way the Google tag is. Cloudflare can also inject the
- * beacon for you from the Pages project settings — but that fires on every
- * preview deploy too. Use one route or the other: with both, every visit is
- * counted twice.
- *
- * Cookieless and collects no personal data, so unlike the Google tag it
- * needs no consent banner in the EEA.
- */
-export const CF_BEACON_TOKEN: string = import.meta.env.PUBLIC_CF_BEACON_TOKEN ?? '';
-
-/**
  * Where the contact and newsletter forms POST.
  *
  * Set PUBLIC_WEB3FORMS_KEY to your Web3Forms access key and the endpoint is
