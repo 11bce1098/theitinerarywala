@@ -1110,13 +1110,30 @@ body.nav-open { overflow: hidden; }
   padding: 1.15rem 1.3rem 1.25rem;
   flex-grow: 1;
 }
+/*
+ * A quiet category chip, not a headline.
+ *
+ * As uppercase bold with wide tracking, "BEST FOR: CULTURE + MOUNTAINS" ran
+ * to two lines on half the cards, which shouted over the title and left the
+ * titles in a row starting at different heights. The label is still read out
+ * for screen readers; on screen the value carries it on one line.
+ */
 .card-bestfor {
+  flex: none;
+  align-self: start;
+  max-width: 100%;
   margin: 0;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  padding: 0.22rem 0.62rem;
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  line-height: 1.35;
   color: var(--marigold-deep);
+  background: rgba(227, 154, 45, 0.13);
+  border-radius: 999px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .itinerary-card h2 {
   font-size: 1.3rem;
@@ -1128,7 +1145,6 @@ body.nav-open { overflow: hidden; }
   font-size: 0.88rem;
   font-weight: 500;
   color: var(--teal);
-  flex-grow: 0 !important;
 }
 .card-link {
   color: var(--ink);
@@ -1146,8 +1162,13 @@ body.nav-open { overflow: hidden; }
   margin: 0;
   color: var(--ink-soft);
   font-size: 0.97rem;
-  flex-grow: 1;
 }
+/*
+ * Only the summary grows, so the days/budget row sits at the bottom of every
+ * card in a row. Applied to every <p> it also stretched the best-for chip and
+ * the route line, which is why the route carried a flex-grow override.
+ */
+.itinerary-card p:not([class]) { flex-grow: 1; }
 .card-meta {
   display: flex;
   flex-wrap: wrap;
@@ -2730,7 +2751,6 @@ body.nav-open { overflow: hidden; }
 
 
 /* The label makes the badge read as an answer rather than a fragment. */
-.card-bestfor span { opacity: 0.72; font-weight: 400; }
 
 /* ---- motion opt-out ---------------------------------------------------
    Everything above is decoration; none of it carries meaning on its own. */
