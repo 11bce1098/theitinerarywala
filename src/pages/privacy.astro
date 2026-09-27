@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { SITE, GA_ID } from '../lib/site';
+import { SITE, GA_ID, CF_BEACON_TOKEN } from '../lib/site';
 
 /**
  * Written from an audit of what the site actually loads, not from a
@@ -12,8 +12,20 @@ const updatedLabel = updated.toLocaleDateString('en-GB', {
   day: 'numeric', month: 'long', year: 'numeric',
 });
 
-/** Everything that receives visitor data, and why. */
+/**
+ * Everything that receives visitor data, and why.
+ *
+ * Cloudflare Web Analytics is listed only when its token is actually set,
+ * so this page cannot claim a processor the site does not use — or omit one
+ * it quietly gained.
+ */
 const processors = [
+  ...(CF_BEACON_TOKEN ? [{
+    name: 'Cloudflare Web Analytics',
+    host: 'static.cloudflareinsights.com',
+    purpose: 'Counts page views without cookies, as a privacy-preserving alternative to the Google tag.',
+    data: 'The page opened, the referring site and a coarse country. No cookie, no identifier, nothing that persists between visits.',
+  }] : []),
   {
     name: 'Google Analytics 4',
     host: 'googletagmanager.com',
