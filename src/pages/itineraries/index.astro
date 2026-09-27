@@ -6,7 +6,8 @@ import Budget from '../../components/Budget.astro';
 import { regionFor, continentFor, countrySlug, CONTINENTS } from '../../lib/geography.mjs';
 import { getRates, convert } from '../../lib/rates.mjs';
 import { breadcrumbs, itemList } from '../../lib/schema';
-import { DAY_BANDS, BUDGET_BANDS, perDay, bandsWithTrips } from '../../lib/finder.mjs';
+import { DAY_BANDS, BUDGET_BANDS, bandsWithTrips, bandRange } from '../../lib/finder.mjs';
+import { DEFAULT_CURRENCY } from '../../lib/currency.mjs';
 
 const itineraries = (await getCollection('itineraries', ({ data }) => !data.draft))
   .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
@@ -36,11 +37,10 @@ function budgetValue(amount: number | undefined, currency: string): number {
   return usd ?? amount;
 }
 // Only offer a band that leads somewhere; see bandsWithTrips.
-const rates = itineraries.map((i) => perDay(
-  budgetValue(i.data.budgetAmount, i.data.budgetCurrency), i.data.days,
-));
+const totals = itineraries.map((i) => budgetValue(i.data.budgetAmount, i.data.budgetCurrency))
+  .map((v) => (v >= Number.MAX_SAFE_INTEGER ? null : v));
 const dayBands = bandsWithTrips(DAY_BANDS, itineraries.map((i) => i.data.days));
-const budgetBands = bandsWithTrips(BUDGET_BANDS, rates);
+const budgetBands = bandsWithTrips(BUDGET_BANDS, totals);
 ---
 <Base
   title="All itineraries — The Itinerary Wala"
@@ -86,7 +86,9 @@ const budgetBands = bandsWithTrips(BUDGET_BANDS, rates);
           <select id="f-budget" name="budget">
             <option value="">Any budget</option>
             {budgetBands.map((band) => (
-              <option value={band.slug}>{band.label} · {band.short}</option>
+              <option value={band.slug} data-band={band.slug}>
+                {band.label} · {bandRange(band, DEFAULT_CURRENCY, rateData?.rates)}
+              </option>
             ))}
           </select>
         </div>
@@ -126,7 +128,6 @@ const budgetBands = bandsWithTrips(BUDGET_BANDS, rates);
               data-search-text={`${itin.data.title} ${itin.data.country} ${itin.data.summary} ${itin.data.bestFor}`.toLowerCase()}
               data-days={itin.data.days}
               data-budget-usd={budgetValue(itin.data.budgetAmount, itin.data.budgetCurrency)}
-              data-per-day={perDay(budgetValue(itin.data.budgetAmount, itin.data.budgetCurrency), itin.data.days) ?? ''}
               data-date={itin.data.publishDate.valueOf()}
             >
               <div class="itinerary-card__cover">
@@ -237,7 +238,7 @@ const budgetBands = bandsWithTrips(BUDGET_BANDS, rates);
 
       for (const card of cards) {
         const length = Number(card.dataset.days);
-        const rate = card.dataset.perDay ? Number(card.dataset.perDay) : null;
+        const total = Number(card.dataset.budgetUsd);
 
         const byQuery = !query || (card.dataset.searchText ?? '').includes(query);
         const byCountry = activeCountry === 'all' || card.dataset.country === activeCountry;
@@ -245,7 +246,7 @@ const budgetBands = bandsWithTrips(BUDGET_BANDS, rates);
         const byDays = !days || inBand(days, length);
         // A trip with no budget on it can't honestly answer a budget
         // question, so it drops out rather than guessing its way in.
-        const byBudget = !budget || inBand(budget, rate);
+        const byBudget = !budget || (total < Number.MAX_SAFE_INTEGER && inBand(budget, total));
 
         const match = byQuery && byCountry && byContinent && byDays && byBudget;
         card.hidden = !match;
@@ -305,6 +306,27 @@ const budgetBands = bandsWithTrips(BUDGET_BANDS, rates);
 
     apply();
 
+    /*
+     * Budget thresholds are held in USD and shown in the reader's currency,
+     * so the option labels have to be rebuilt when that changes — otherwise
+     * the switcher moves every price on the page except this one.
+     */
+    const relabelBudgets = async () => {
+      const [{ currentCurrency, loadRates }, { BUDGET_BANDS, bandRange }] = await Promise.all([
+        import('../../scripts/rates'),
+        import('../../lib/finder.mjs'),
+      ]);
+      const payload = await loadRates();
+      if (!payload) return;
+      const code = currentCurrency();
+      for (const option of Array.from(budgetSelect.options)) {
+        const band = BUDGET_BANDS.find((b) => b.slug === option.value);
+        if (band) option.textContent = `${band.label} · ${bandRange(band, code, payload.rates)}`;
+      }
+    };
+    document.addEventListener('rates:updated', relabelBudgets);
+    relabelBudgets();
+
     // Live rates land after first paint; budgets shift, so recompute both the
     // per-day figure the budget filter reads and the cheapest-first order.
     document.addEventListener('rates:updated', () => {
@@ -312,8 +334,6 @@ const budgetBands = bandsWithTrips(BUDGET_BANDS, rates);
         const el = card.querySelector<HTMLElement>('[data-budget]');
         if (!el?.dataset.usd) continue;
         card.dataset.budgetUsd = el.dataset.usd;
-        const days = Number(card.dataset.days);
-        card.dataset.perDay = days ? String(Number(el.dataset.usd) / days) : '';
       }
       apply();
     });

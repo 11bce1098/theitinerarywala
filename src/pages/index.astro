@@ -9,7 +9,8 @@ import ValueProps from '../components/ValueProps.astro';
 import { website, itemList } from '../lib/schema';
 import { STYLES, stylesFor } from '../lib/styles.mjs';
 import { getRates, convert } from '../lib/rates.mjs';
-import { DAY_BANDS, BUDGET_BANDS } from '../lib/finder.mjs';
+import { DAY_BANDS, BUDGET_BANDS, bandRange } from '../lib/finder.mjs';
+import { DEFAULT_CURRENCY } from '../lib/currency.mjs';
 
 /**
  * The homepage is a landing page, not the catalogue — that lives at
@@ -33,6 +34,13 @@ const topCountries = POPULAR_DESTINATIONS.filter((name) => covered.has(name));
 // Budget is computed from cost per day so it can't drift; the rest are
 // editorial tags on each guide.
 const rateData = await getRates();
+const budgetUsd = new Map(
+  itineraries.map((itin) => {
+    const amount = itin.data.budgetAmount;
+    if (amount === undefined) return [itin.id, null];
+    return [itin.id, convert(amount, itin.data.budgetCurrency, 'USD', rateData?.rates) ?? amount];
+  }),
+);
 const perDay = new Map(
   itineraries.map((itin) => {
     const amount = itin.data.budgetAmount;
@@ -114,13 +122,17 @@ const finderTrips = itineraries.map((i) => ({
   c: continentFor(i.data.country),
   n: i.data.country,
   d: i.data.days,
-  p: perDay.get(i.id),
+  p: budgetUsd.get(i.id),
 }));
 
 /** JSON has no Infinity, so an open-ended band travels as a big number. */
 const CAP = Number.MAX_SAFE_INTEGER;
 const finderDayBands = DAY_BANDS.map((b) => ({ ...b, max: b.max === Infinity ? CAP : b.max }));
-const finderBudgetBands = BUDGET_BANDS.map((b) => ({ ...b, max: b.max === Infinity ? CAP : b.max }));
+const finderBudgetBands = BUDGET_BANDS.map((b) => ({
+  ...b,
+  max: b.max === Infinity ? CAP : b.max,
+  range: bandRange(b, DEFAULT_CURRENCY, rateData?.rates),
+}));
 
 const finderContinents = CONTINENTS
   .filter((c) => finderTrips.some((t) => t.c === c.slug))
@@ -207,7 +219,22 @@ const jsonLd = [
     </div>
   </section>
 
-  <script is:inline define:vars={{ finderTrips, finderDayBands, finderBudgetBands }}>
+  {/*
+    * The data travels as JSON rather than through define:vars, because that
+    * forces an inline script — and an inline script cannot resolve a relative
+    * import, which is how the currency relabel below reaches the rate table.
+    */}
+  <script
+    type="application/json"
+    id="finder-data"
+    set:html={JSON.stringify({ finderTrips, finderDayBands, finderBudgetBands })}
+  />
+  <script>
+    import { currentCurrency, loadRates } from '../scripts/rates';
+    import { bandRange } from '../lib/finder.mjs';
+
+    const { finderTrips, finderDayBands, finderBudgetBands } =
+      JSON.parse(document.getElementById('finder-data')!.textContent!);
     /*
      * Each dropdown offers only what the answers above it still allow, so the
      * button can never lead to an empty page. Changing an earlier answer
@@ -222,6 +249,7 @@ const jsonLd = [
         budget: form.querySelector('#f-budget'),
       };
       const countEl = form.querySelector('[data-finder-count]');
+      const ranges = {};
       const nounEl = form.querySelector('[data-finder-noun]');
 
       const inBand = (b, v) => v !== null && v !== undefined && v >= b.min && v < b.max;
@@ -264,7 +292,7 @@ const jsonLd = [
         const afterDays = finderTrips.filter((t) => matches(t, 3));
         fill(els.budget, 'Any budget',
           finderBudgetBands.filter((b) => afterDays.some((t) => inBand(b, t.p)))
-            .map((b) => ({ value: b.slug, label: `${b.label} · ${b.short}` })));
+            .map((b) => ({ value: b.slug, label: `${b.label} · ${ranges[b.slug] ?? b.range}` })));
 
         const total = finderTrips.filter((t) => matches(t, 4)).length;
         countEl.textContent = String(total);
@@ -273,6 +301,27 @@ const jsonLd = [
 
       for (const el of Object.values(els)) el.addEventListener('change', refresh);
       refresh();
+
+      /*
+       * The thresholds are held in USD but shown in the reader's currency, so
+       * the labels have to be rebuilt whenever that changes — otherwise the
+       * switcher moves every price on the page except the one asking about
+       * price.
+       */
+      const relabel = async () => {
+        const payload = await loadRates();
+        if (!payload) return;
+        const code = currentCurrency();
+        for (const b of finderBudgetBands) {
+          ranges[b.slug] = bandRange(
+            { ...b, max: b.max >= Number.MAX_SAFE_INTEGER ? Infinity : b.max },
+            code, payload.rates,
+          );
+        }
+        refresh();
+      };
+      document.addEventListener('rates:updated', relabel);
+      relabel();
     }
   </script>
 

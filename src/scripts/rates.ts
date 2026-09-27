@@ -51,7 +51,7 @@ function readCache(): Payload | null {
   }
 }
 
-async function load(): Promise<Payload | null> {
+export async function loadRates(): Promise<Payload | null> {
   const cached = readCache();
   if (cached) return cached;
   try {
@@ -91,7 +91,7 @@ export async function refreshBudgets(): Promise<void> {
   const targets = Array.from(document.querySelectorAll<HTMLElement>('[data-budget]'));
   if (targets.length === 0) return;
 
-  const payload = await load();
+  const payload = await loadRates();
   if (!payload) return;
   const { rates } = payload;
 

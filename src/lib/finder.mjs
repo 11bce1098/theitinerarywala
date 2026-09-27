@@ -18,18 +18,47 @@ export const DAY_BANDS = [
 ];
 
 /**
- * Budget as cost per person per day, in USD.
+ * Budget as the whole trip, per person, in USD.
  *
- * Total budget can't be compared across trips — a $3,000 fortnight is cheaper
- * going than a $1,500 long weekend — and a currency label on the control would
- * only be right for whoever happens to be reading. Per-day in one currency is
- * the only version of this question that sorts honestly.
+ * It used to be cost per day, which sorted honestly but asked the reader to
+ * do arithmetic before they could recognise their own trip. People book a
+ * budget for a holiday, not for a night. The thresholds stay in USD because
+ * that is what the cards are normalised to; the labels are converted to
+ * whatever currency the reader has chosen.
  */
 export const BUDGET_BANDS = [
-  { slug: 'budget', label: 'Budget', short: 'Under $100 a day', min: 0, max: 100 },
-  { slug: 'mid', label: 'Mid-range', short: '$100–200 a day', min: 100, max: 200 },
-  { slug: 'premium', label: 'Premium', short: 'Over $200 a day', min: 200, max: Infinity },
+  { slug: 'budget', label: 'Budget', min: 0, max: 1000 },
+  { slug: 'mid', label: 'Mid-range', min: 1000, max: 2000 },
+  { slug: 'premium', label: 'Premium', min: 2000, max: Infinity },
 ];
+
+/** Two significant figures, so a converted threshold reads as a round number. */
+function roundish(value) {
+  if (value <= 0) return 0;
+  const step = 10 ** (Math.floor(Math.log10(value)) - 1);
+  return Math.round(value / step) * step;
+}
+
+export function formatThreshold(usd, currency, rates) {
+  const rate = rates?.[currency];
+  const value = roundish(rate ? usd * rate : usd);
+  try {
+    return new Intl.NumberFormat('en-US', {
+      style: 'currency', currency, maximumFractionDigits: 0,
+    }).format(value);
+  } catch {
+    return `${currency} ${Math.round(value).toLocaleString('en-US')}`;
+  }
+}
+
+/** "Under ₹110,000", "₹110,000–₹220,000", "Over ₹220,000". */
+export function bandRange(band, currency, rates) {
+  const lo = formatThreshold(band.min, currency, rates);
+  const hi = band.max === Infinity ? null : formatThreshold(band.max, currency, rates);
+  if (band.min === 0 && hi) return `Under ${hi}`;
+  if (!hi) return `Over ${lo}`;
+  return `${lo}\u2013${hi}`;
+}
 
 export const inBand = (band, value) =>
   value !== null && value !== undefined && value >= band.min && value < band.max;
