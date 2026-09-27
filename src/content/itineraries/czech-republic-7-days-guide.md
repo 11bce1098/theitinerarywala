@@ -38,6 +38,8 @@ July– August is lovely and mobbed.
 
 ## Before you go: the admin
 
+### Schengen, Czech flavour
+
 - **Schengen visa, Czech flavour:** same VFS drill as our
   [France](/itineraries/france-9-days-guide/),
   [Italy](/itineraries/italy-10-days-guide/) and
@@ -48,6 +50,9 @@ July– August is lovely and mobbed.
   statements, employment letter, full hotel + flight itinerary and
   **€30,000 travel insurance**. Standard turnaround runs to **15
   calendar days** — apply 4–6 weeks out, longer before summer.
+
+### The koruna, and the exchange trap
+
 - **Currency truth:** the Czech Republic is **not a euro
   country**. Some shops "accept" euros at robbery rates —
   pay in koruna, by card (tap works everywhere), and when
@@ -58,6 +63,9 @@ July– August is lovely and mobbed.
   a terrible rate. Rule: **withdraw from bank ATMs
   (decline conversion) or pay by card; never change cash
   at tourist-strip counters.**
+
+### Taxis
+
 - **Taxis:** hail nothing. **Uber/Bolt** are cheap and
   honest; the Airport Express bus (~CZK 100) and metro
   do the rest.

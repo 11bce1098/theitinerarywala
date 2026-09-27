@@ -37,7 +37,9 @@ cities, wet-season Cairns); June–August flips it (whales off
 Sydney, dry warm Cairns, chilly Melbourne). All costs are in
 Australian dollars (AUD).
 
-## Before you go: the visa needs a head start
+## Before you go: the visa, and the local rules
+
+### The visa, and the timeline
 
 - **Two routes in, and your passport fixes which one you get.**
   The EU, UK, US, Canada, Japan, Singapore and a number of
@@ -59,13 +61,16 @@ Australian dollars (AUD).
   itinerary (this page is one), refundable bookings, and proof
   of residence if you are applying from a country other than
   your own.
+
+### At the border
+
 - **Border strictness is real:** Australia's biosecurity is
   the world's fussiest — **declare every food item**
   (yes, the snacks in your bag and the sweets from home) on the
   incoming card. Declared = usually fine; undeclared =
   AUD 300+ fines. When in doubt, tick yes.
 
-## Money, sun and sea — the local rules
+### Money and tipping
 
 - **Tap your card on everything**: Sydney's Opal system and
   Melbourne's trams take contactless bank cards directly;
@@ -75,6 +80,9 @@ Australian dollars (AUD).
 - **No tipping. Anywhere.** Menu price = final price
   (weekend/holiday surcharges of 10–15% are printed on the
   menu). Australia is expensive *honestly*.
+
+### Sun, surf and stingers
+
 - **Slip, slop, slap:** the UV index here breaks
   instruments — SPF50+, hat and sunglasses are equipment,
   not accessories, even on cloudy days.
@@ -84,6 +92,9 @@ Australian dollars (AUD).
 - Cairns extras: **stinger season (Nov–May)** means netted
   beaches and free lycra suits on reef boats (wear one);
   **croc signs are not decorative** — no wild-river swims.
+
+### Staying connected
+
 - eSIM ~US$15–25; Telstra coverage rules outside cities.
 
 ## Day 1 — Land in Sydney, harbour hello

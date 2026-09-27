@@ -42,6 +42,8 @@ typhoon roulette.
 
 ## Before you go: the admin
 
+### PAR is the whole visa story
+
 - **PAR, the whole visa story:** register free at the
   Immigration Department's GovHK site — passport details
   must match **exactly**, passport needs 6+ months
@@ -55,12 +57,18 @@ typhoon roulette.
 - **Macau needs nothing**: Indian passports are **visa-free 30
   days** (passport + hotel/itinerary if asked). Your HK
   PAR covers the return since it's multiple-entry.
+
+### Landing, and getting about
+
 - **Land smart:** the **Airport Express** does
   airport→Kowloon in 22 minutes (~HKD 105; kids half).
   Buy an **Octopus card** on arrival (or add it to
   Apple/Google Wallet) — it pays trains, trams, ferries,
   buses, 7-Elevens and half the city's cafés. Budget
   HKD 300/person of top-ups for the week.
+
+### Money and weather
+
 - **Money:** cards + Octopus everywhere; keep ~HKD 500
   cash for markets and dai pai dongs. Tipping: round up,
   10% service is usually already on the bill.

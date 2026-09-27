@@ -40,6 +40,8 @@ Canada Strong Pass.
 
 ## Before you go: the admin
 
+### The visa, and the eTA shortcut
+
 - **The visitor visa (TRV), honestly:** **CAD 100 + CAD 85
   biometrics** per person at your nearest visa centre, filed like a
   Schengen-plus (proof of residence, bank statements, employment
@@ -57,6 +59,9 @@ Canada Strong Pass.
   is current, this trip's paperwork just became a
   web form. Verify eligibility on canada.ca before
   relying on it.
+
+### Flights and park entry
+
 - **Flights:** no non-stops from the Gulf to Calgary — one-stop
   via Toronto (Emirates DXB–YYZ + Air Canada),
   London, or Frankfurt; ~US$1,100–1,750 return,
@@ -67,6 +72,9 @@ Canada Strong Pass.
   7 September, admission is FREE under the Canada
   Strong Pass**. Outside that window, the family
   daily rate wins for this trip length.
+
+### Driving and wildlife
+
 - **Driving:** most foreign licences in English work
   for visits; roads are wide, calm and moose-aware.
   Fuel ~CAD 1.50–1.75/L; **fill up in Banff or

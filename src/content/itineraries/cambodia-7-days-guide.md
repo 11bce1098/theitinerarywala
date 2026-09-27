@@ -39,6 +39,8 @@ downpours and the best light.
 
 ## Before you go: the admin
 
+### The e-visa and the arrival card
+
 - **e-Visa, the easy kind:** **US$30 + US$6 processing
   (≈ $36 all-in)** at the official **evisa.gov.kh** —
   passport scan + photo, **3–5 working days**, 30-day
@@ -50,6 +52,9 @@ downpours and the best light.
 - **Plus the free e-Arrival Card** at **arrival.gov.kh**
   within 7 days of flying — ten minutes, QR code,
   airlines increasingly ask.
+
+### Getting there
+
 - **Getting there:** no non-stops from the Gulf — one-stop via
   Bangkok, Kuala Lumpur, Singapore or Ho Chi Minh City,
   ~US$490–820 return, 9–12 h door to door. Note
@@ -57,6 +62,9 @@ downpours and the best light.
   40 km east of town (~$30–35 taxi, 50 min), and Phnom
   Penh's **Techo International** (opened 2025) is ~30 km
   south.
+
+### Money and apps
+
 - **The dollar–riel dance:** prices quote in USD; change
   under a dollar comes in riel (~4,100 = $1). Both are
   real money — spend the riel on tuk-tuks and water.

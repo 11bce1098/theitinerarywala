@@ -40,6 +40,8 @@ euros (EUR).
 
 ## Before you go: the admin
 
+### Visa and money
+
 - **Visa:** Austria is Schengen — the full UAE playbook
   (VFS Global, €90, EES biometrics, 4–8 weeks of lead,
   bank statements + refundable bookings) is in our
@@ -49,6 +51,9 @@ euros (EUR).
   sausage stands, church towers and tips. Tipping: round
   up ~5–10% ("machen Sie 20"). Tap water is free,
   Alpine-fresh and served without eye-rolling if you ask.
+
+### The Sunday rule and the trams
+
 - **Sundays:** shops close (museums, cafés and bakeries
   don't) — plan shopping for Saturday.
 - **Transport honour system:** Vienna's U-Bahn has no
@@ -56,6 +61,9 @@ euros (EUR).
   clothes inspectors fine €105 with genuine indifference
   to your tourist status. A 72-hour Vienna pass
   (~€17.10) covers everything.
+
+### The café rulebook
+
 - **The café rulebook** (this matters in Vienna): a
   coffee-house table is rented, not borrowed — one
   melange buys you hours, the newspaper is communal, the

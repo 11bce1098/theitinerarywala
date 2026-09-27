@@ -36,6 +36,8 @@ some-things-shut asterisk. All costs are in euros (EUR).
 
 ## Before you go: the admin
 
+### Visa and the Acropolis rules
+
 - **Visa:** Greece is Schengen — the UAE playbook (VFS
   Global, €90, EES biometrics live, 4–8 weeks of lead) is in
   our [France guide](/itineraries/france-9-days-guide/).
@@ -47,6 +49,9 @@ some-things-shut asterisk. All costs are in euros (EUR).
   and friends are now separate tickets. Free-entry days
   still exist (first Sundays Nov–Mar, a handful of national
   dates) and are gloriously crowded.
+
+### The ferry box
+
 - **The ferry box (read before booking):** conventional
   ships (**Blue Star**, ~€43–53 Piraeus→Mykonos, 4h40) are
   steadier, cheaper, deck-access lovely; **high-speed cats**
@@ -55,6 +60,9 @@ some-things-shut asterisk. All costs are in euros (EUR).
   that cancel first. Book on Ferryhopper, arrive 45 min
   early, take the seasickness tablet *before* sailing, and
   never book a ferry-to-flight connection under 6 hours.
+
+### Money and pickpockets
+
 - Cards everywhere; carry €50 in small notes for kiosks,
   buses and chapel candles. Tipping: round up, ~5–10% for
   table service. Tap water: fine in Athens, **bottled on

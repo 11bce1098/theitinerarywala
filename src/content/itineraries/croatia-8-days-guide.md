@@ -34,6 +34,8 @@ exist to beat it.
 
 ## Before you go: the admin
 
+### Schengen, Croatia flavour
+
 - **Schengen visa, Croatia flavour:** the same VFS drill
   as our [France](/itineraries/france-9-days-guide/),
   [Czech](/itineraries/czech-republic-7-days-guide/) and
@@ -44,6 +46,9 @@ exist to beat it.
   itinerary. Apply **4–6 weeks out** (more before
   summer). An existing multi-entry Schengen from another
   trip works here — one zone, one sticker.
+
+### Flights and money
+
 - **Flights:** **flydubai Dubai–Dubrovnik**, roughly
   April–October, plus Zagreb links; otherwise one-stop
   on Turkish/Pegasus via Istanbul or EU hubs. Book
@@ -54,6 +59,9 @@ exist to beat it.
   kiosks. When a terminal offers to bill you in your home
   currency, decline — always,
   as always.
+
+### The bus is the system
+
 - **The bus is the intercity system:** Dubrovnik→Split
   coastal buses run all day (**€20–30, ~4–4.5 h**,
   sea-side seats on the LEFT northbound) — the ride

@@ -40,6 +40,8 @@ current EGP figures below at ~50/USD).
 
 ## Before you go: visa, cards and the baksheesh decoder
 
+### The visa, two ways
+
 - **E-visa (most Indians):** **US$25 single / US$60
   multiple**, on the official **visa2egypt.gov.eg** only —
   5–7 working days, apply ~2 weeks out. Passport 6+ months.
@@ -49,6 +51,9 @@ current EGP figures below at ~50/USD).
   whatever passport they carry — bring exact **USD cash** for
   the bank counter before immigration. Without one of those,
   the e-visa above is the route.
+
+### Cards, cash and baksheesh
+
 - **The card-only update:** Giza, GEM and most major sites
   now **refuse cash at the ticket window** — carry a
   Visa/Mastercard that works internationally *plus a
@@ -62,6 +67,9 @@ current EGP figures below at ~50/USD).
   guide. Land in Egypt with a brick of small EGP notes
   (airport ATM, withdraw an odd amount like 950 to force
   small bills) and the whole country smiles.
+
+### The hustle, pre-empted
+
 - **The hustle script, pre-empted:** "the pyramid entrance
   is closed today, my friend" (it isn't — walk on), the
   free camel photo that costs $10 to *end*, the papyrus
