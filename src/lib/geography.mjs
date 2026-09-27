@@ -63,6 +63,8 @@ export const COUNTRIES = {
   Tanzania:         { continent: 'africa',        region: 'East Africa',             currency: 'USD' },
   Mauritius:        { continent: 'africa',        region: 'Indian Ocean Islands',    currency: 'MUR' },
   Canada:           { continent: 'north-america', region: 'Canada',                  currency: 'CAD' },
+  'Singapore and Malaysia': { continent: 'asia', region: 'Southeast Asia', currency: 'SGD' },
+  'Central Europe': { continent: 'europe', region: 'Central Europe',  currency: 'EUR' },
   Slovenia:         { continent: 'europe',        region: 'Central Europe',          currency: 'EUR' },
   Poland:           { continent: 'europe',        region: 'Central Europe',          currency: 'PLN' },
   Finland:          { continent: 'europe',        region: 'Northern Europe',         currency: 'EUR' },
