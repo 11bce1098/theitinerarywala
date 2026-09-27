@@ -5,6 +5,8 @@ days: 10
 budgetAmount: 1750
 budgetCurrency: "EUR"
 route: "Prague → Vienna → Budapest"
+heroImage: "/images/central-europe.jpeg"
+heroWide: "/images/central-europe-wide.jpeg"
 styles: ['culture', 'couples', 'multi-country']
 bestFor: "Three capitals, one visa"
 summary: "The classic European rail triangle, done at a pace that lets each city breathe: Prague's castle-and-bridge morning, Vienna's coffee houses and palace halls, Budapest's thermal baths and its river lit gold at night — three countries, three currencies, one Schengen visa and two four-hour trains."

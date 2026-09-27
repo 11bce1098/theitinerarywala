@@ -5,6 +5,8 @@ days: 6
 budgetAmount: 1700
 budgetCurrency: "EUR"
 route: "Helsinki → Rovaniemi → Lapland"
+heroImage: "/images/finland.jpeg"
+heroWide: "/images/finland-wide.jpeg"
 styles: ['nature', 'family']
 bestFor: "Winter + family"
 summary: "The Arctic Circle trip that makes adults believe again: meeting Santa is genuinely free, huskies genuinely fly, the night train has bunk beds and reindeer traffic — and the northern lights need four nights and honest odds. Lapland in December, decoded, with the booking calendar that starts NOW."

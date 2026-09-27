@@ -5,6 +5,8 @@ days: 7
 budgetAmount: 1350
 budgetCurrency: "EUR"
 route: "Dublin → Galway → Cliffs of Moher → Dingle"
+heroImage: "/images/ireland.jpeg"
+heroWide: "/images/ireland-wide.jpeg"
 styles: ['nature', 'culture']
 bestFor: "Coast + culture"
 summary: "The friendliest country in Europe and its wildest coastline: a 1,200-year-old book in a Harry Potter library, cliffs that drop 214 metres into the Atlantic, fiddle sessions in painted pubs — and the visa trick nobody tells Indians: a UK visit visa can cover Ireland too."

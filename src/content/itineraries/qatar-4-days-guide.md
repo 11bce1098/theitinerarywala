@@ -5,6 +5,8 @@ days: 4
 budgetAmount: 1800
 budgetCurrency: "QAR"
 route: "Doha → Inland Sea → Katara → The Pearl"
+heroImage: "/images/qatar.jpeg"
+heroWide: "/images/qatar-wide.jpeg"
 styles: ['culture', 'family']
 bestFor: "City break + culture"
 summary: "The easiest international trip on this site: visa-free on arrival for most passports, an hour from the Gulf hubs, and a capital that spent a fortune becoming interesting — a desert-rose museum, a five-storey falcon souq, I.M. Pei's masterpiece on its own island, and dunes that roll straight into the sea."

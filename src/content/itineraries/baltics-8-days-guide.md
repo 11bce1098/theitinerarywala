@@ -5,6 +5,8 @@ days: 8
 budgetAmount: 1100
 budgetCurrency: "EUR"
 route: "Tallinn → Riga → Vilnius → Trakai"
+heroImage: "/images/baltics.jpeg"
+heroWide: "/images/baltics-wide.jpeg"
 styles: ['culture', 'multi-country']
 bestFor: "Old towns + value"
 summary: "Three capitals, three countries, one Schengen visa and Europe's friendliest prices: Tallinn's fairy-tale walls, Riga's art-nouveau streets and zeppelin-hangar market, Vilnius' baroque lanes and a castle on a lake island — stitched together by comfortable four-hour coaches."

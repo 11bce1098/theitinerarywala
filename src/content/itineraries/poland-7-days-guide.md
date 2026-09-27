@@ -5,6 +5,8 @@ days: 7
 budgetAmount: 3650
 budgetCurrency: "PLN"
 route: "Kraków → Auschwitz → Wieliczka → Warsaw"
+heroImage: "/images/poland.jpeg"
+heroWide: "/images/poland-wide.jpeg"
 styles: ['culture']
 bestFor: "Old towns + history"
 summary: "Europe's best-value great city and its phoenix capital: a medieval square with an hourly trumpet that stops mid-note, a salt cathedral 100 metres underground, history's heaviest day trip handled with respect — and a capital rebuilt brick-by-brick from photographs. On flydubai directs, at złoty prices."

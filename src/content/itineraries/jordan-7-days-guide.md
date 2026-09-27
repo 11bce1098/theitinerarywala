@@ -5,6 +5,8 @@ days: 7
 budgetAmount: 675
 budgetCurrency: "JOD"
 route: "Amman → Dead Sea → Petra → Wadi Rum"
+heroImage: "/images/jordan.jpeg"
+heroWide: "/images/jordan-wide.jpeg"
 styles: ['culture', 'nature']
 bestFor: "History + desert"
 summary: "The rose-red city carved by hand two thousand years ago, a Mars-red desert you sleep in, and a sea you cannot sink in — Jordan packs three wonders into a country the size of a UAE road trip, with the Jordan Pass trick that makes the visa free and Petra's real step-count told honestly."
