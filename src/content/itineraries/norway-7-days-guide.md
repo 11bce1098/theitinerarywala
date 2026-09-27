@@ -42,6 +42,8 @@ softened by the packed-lunch system every Norwegian uses.
 
 ## Before you go: the admin
 
+### Schengen, Norway flavour
+
 - **Schengen visa, Norway flavour:** Norway takes its
   own applications at **your nearest VFS Global centre** —
   **€90** + service fee, biometrics, proof of residence,
@@ -49,6 +51,9 @@ softened by the packed-lunch system every Norwegian uses.
   same drill as our other Schengen guides, ~15
   calendar days, apply 4–6 weeks out. An existing
   multi-entry Schengen sticker works.
+
+### The minipris trick
+
 - **The minipris trick (this guide's biggest saver):**
   Vy releases Bergen-line tickets ~**90 days out**,
   cheapest first — **NOK 249–399** vs NOK 1,000+
@@ -56,6 +61,9 @@ softened by the packed-lunch system every Norwegian uses.
   Oslo→Myrdal the hour they drop. Seats: **left side
   (A) out of Oslo** for the lakes; the guide's couple
   trick is one seat each side.
+
+### Money, and the eating system
+
 - **Money:** Norway is functionally cashless — you can
   land, travel a week and leave without seeing a
   krone. No tipping culture (round up at most). When
@@ -69,6 +77,9 @@ softened by the packed-lunch system every Norwegian uses.
   smoked salmon — lunch for two ~NOK 200 vs 700);
   (3) tap water is glacier-grade. Dinner out becomes
   the day's one bill.
+
+### Weather
+
 - **Weather:** "There's no bad weather, only bad
   clothing" is the national motto, and Bergen — 240
   rain days a year — enforces it. Waterproof shell,

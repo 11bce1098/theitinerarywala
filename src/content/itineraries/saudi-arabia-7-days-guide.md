@@ -38,6 +38,8 @@ Season's carnival running the same months.
 
 ## Before you go: the admin
 
+### The eVisa is the whole story
+
 - **The eVisa is the whole story:** citizens of some
   60 countries — most of Europe, the UK, the US, Japan,
   Australia and more — apply directly at
@@ -55,6 +57,9 @@ Season's carnival running the same months.
 - The tourist eVisa also permits **Umrah** (outside Hajj
   season). **Makkah remains
   closed to non-Muslims**; mixed groups plan around it.
+
+### Booking with the calendar
+
 - **Book with the calendar:** a **seasonal Dubai–AlUla
   non-stop** (3× weekly — Sun/Tue/Thu, late October to late
   March) makes a perfect open-jaw if you route through the
@@ -65,7 +70,7 @@ Season's carnival running the same months.
   ~1 h 50, **SAR 250–550** — book early; AlUla's winter
   flights fill with Riyadh weekenders.
 
-## The culture brief (honest, and mostly good news)
+### The culture brief (honest, and mostly good news)
 
 - **Dress:** modest, not costumed — no abaya required for
   visitors. Shoulders and knees covered does it;

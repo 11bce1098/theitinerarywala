@@ -39,6 +39,14 @@ everything local runs in SCR**). Figure **{{SCR 23000}} per person (≈
 
 ## Before you go: the admin (there barely is any)
 
+Seychelles has no budget-airline, hostel-circuit economy —
+it's a small island nation importing almost everything. The
+honest numbers: restaurant mains run **SCR 250–450**, a beer
+SCR 90–120, resort dinners €50+ a head. The system that
+keeps this trip at {{SCR 23000}} pp instead of double:
+
+### No visa — for anyone
+
 - **No visa — for anyone.** Seychelles is visa-free for all
   nationalities, Indian passports included: you receive a
   free **Visitor's Permit on arrival** (30 days). What you
@@ -54,6 +62,9 @@ everything local runs in SCR**). Figure **{{SCR 23000}} per person (≈
 - Passport valid 6 months. No mandatory vaccinations, **no
   malaria anywhere in Seychelles** — a genuine tropical
   rarity.
+
+### Getting there, and when to go
+
 - **Getting there:** Emirates flies **Dubai–Mahé non-stop
   daily (~4h15)**; returns commonly US$650–1,100 —
   book 2–3 months out. Air Seychelles also connects
@@ -66,13 +77,7 @@ everything local runs in SCR**). Figure **{{SCR 23000}} per person (≈
   (it moves around; west coasts stay clean). An October
   trip hits the sweet spot.
 
-## The money truth (read before booking anything)
-
-Seychelles has no budget-airline, hostel-circuit economy —
-it's a small island nation importing almost everything. The
-honest numbers: restaurant mains run **SCR 250–450**, a beer
-SCR 90–120, resort dinners €50+ a head. The system that
-keeps this trip at {{SCR 23000}} pp instead of double:
+### The money truth (read before booking anything)
 
 - **Sleep in guesthouses and self-catering apartments** —
   Seychelles' family-run guesthouses are licensed,

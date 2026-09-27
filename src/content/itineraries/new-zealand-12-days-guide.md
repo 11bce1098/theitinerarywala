@@ -38,6 +38,20 @@ peaks behind Queenstown.
 
 ## Before you go: the admin
 
+New Zealand's roads are beautiful, safe — and **slow**.
+Google's "3 hours" means 3 hours of winding two-lane road
+at 80 km/h behind a campervan, so **plan 60–70 km/h
+averages**, drive left, and learn the two local
+specialties: **one-lane bridges** (the arrow pointing your
+way has right of way) and the merciless UV (sunscreen ON
+for driving days — you burn through glass here). Fuel runs
+~NZD 2.70–3/litre. Campervans look romantic and cost
+NZD 250–450/day plus holiday-park fees — for this two-week
+shape, **car + motels is cheaper and warmer**, which is
+how we've budgeted it.
+
+### The visa, funds and your licence
+
 - **Visa first, everything else second — but check which one
   you need.** Around 60 nationalities travel visa-free on an
   **NZeTA** (NZD 17–23 online, approved in minutes to days).
@@ -58,28 +72,20 @@ peaks behind Queenstown.
   accredited translation or an International Driving Permit.
   Carry an IDP regardless; rental desks like seeing it and it
   ends every argument.
+
+### Biosecurity is not a joke
+
 - **Biosecurity is not a joke here**: declare ALL food, honey, seeds,
   wooden items — even the snacks in your bag. Fines start at NZD 400,
   and "I forgot" is not a defence. When in doubt, tick yes.
+
+### Getting there
+
 - **Nearly every route in connects** — through Australia,
   Southeast Asia or the US west coast, depending where you
   start. Whatever the routing, book it as **"multi-city: into
   AKL, out of CHC"**: it costs little more than a return and
   saves a day of backtracking at the end.
-
-## The driving truth (read before you rent)
-
-New Zealand's roads are beautiful, safe — and **slow**.
-Google's "3 hours" means 3 hours of winding two-lane road
-at 80 km/h behind a campervan, so **plan 60–70 km/h
-averages**, drive left, and learn the two local
-specialties: **one-lane bridges** (the arrow pointing your
-way has right of way) and the merciless UV (sunscreen ON
-for driving days — you burn through glass here). Fuel runs
-~NZD 2.70–3/litre. Campervans look romantic and cost
-NZD 250–450/day plus holiday-park fees — for this two-week
-shape, **car + motels is cheaper and warmer**, which is
-how we've budgeted it.
 
 ## Day 1 — Land in Auckland
 

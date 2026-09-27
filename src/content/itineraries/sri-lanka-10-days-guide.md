@@ -38,6 +38,8 @@ costs are in Sri Lankan rupees (LKR).
 
 ## Before you go: the free visa and the driver decision
 
+### The visa is free
+
 - **The visa is free.** Under the scheme expanded in May 2026 a
   long list of nationalities, India included, get a **free ETA —
   30 days, double entry**: apply at the official **eta.gov.lk** (approval
@@ -50,6 +52,9 @@ costs are in Sri Lankan rupees (LKR).
   Afghanistan — and the Cultural Triangle counters charge the
   SAARC tier: **Sigiriya drops from US$35 to US$20**. Carry the physical passport everywhere;
   copies don't unlock it.
+
+### The driver-car is how Sri Lanka works
+
 - **The driver-car is how Sri Lanka works:** a car with an
   English-speaking driver runs **~US$55–70/day all-in**
   (fuel, his meals and lodging included) — split by two it
@@ -59,6 +64,9 @@ costs are in Sri Lankan rupees (LKR).
   well-reviewed operators; tip LKR 1,000–1,500/day at the
   end. In towns, the **PickMe app** is tuk-tuk Uber —
   meters without the negotiation theatre.
+
+### The respect rules
+
 - **The respect rules (taken seriously here):** never pose
   with your **back to a Buddha statue** — and visible
   Buddha tattoos have caused genuine deportations. Cover

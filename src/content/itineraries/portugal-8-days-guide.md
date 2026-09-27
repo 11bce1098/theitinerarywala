@@ -37,6 +37,8 @@ brilliant and crowded; even winter is mild and gentle here.
 
 ## Before you go: the admin
 
+### Schengen, Portugal flavour
+
 - **Schengen visa, Portugal flavour:** the standard VFS
   drill from our [France](/itineraries/france-9-days-guide/) and
   [Croatia](/itineraries/croatia-8-days-guide/) guides — **€90** +
@@ -45,6 +47,9 @@ brilliant and crowded; even winter is mild and gentle here.
   statements, insurance (€30,000), itinerary; apply
   **4–6 weeks out**. Existing multi-entry Schengen
   stickers work.
+
+### Two timed tickets to book first
+
 - **Two timed tickets rule this trip — book them before
   you fly:** **Pena Palace** (timed entry is mandatory;
   summer slots vanish weeks out — book at the official
@@ -52,6 +57,9 @@ brilliant and crowded; even winter is mild and gentle here.
   train** (CP releases **promo fares from €16 about 60
   days out** at cp.pt vs €35.70 walk-up on the Alfa
   Pendular).
+
+### Money and getting around
+
 - **Money:** euros, cards everywhere; keep €30–50 cash
   for pastelarias, kiosks and tram-stop gelado. Decline
   home-currency conversion on terminals, as always.
@@ -60,6 +68,9 @@ brilliant and crowded; even winter is mild and gentle here.
   covers metro, trams (including the famous 28),
   funiculars and the Santa Justa lift, each of which
   charges tourists €3–6 onboard otherwise.
+
+### The hills are the gym
+
 - **The hills are the gym:** Lisbon and Porto are
   staircase cities on cobbles polished since the
   1755 earthquake — real walking shoes, not sandals

@@ -39,6 +39,8 @@ stay in port and lagoons go grey.
 
 ## Before you go: the admin
 
+### Visa-free, and eTravel
+
 - **Visa-free, officially:** most Western passports get
   **30 days** on arrival. Indian nationals get **14 days**
   (passport 6+ months, confirmed hotel, return ticket,
@@ -51,6 +53,9 @@ stay in port and lagoons go grey.
   72 hours before arrival; screenshot the QR. Beware
   lookalike sites that charge — the real one costs
   nothing.
+
+### Flights, and the El Nido decision
+
 - **Flights:** Emirates and Etihad fly Dubai/Abu Dhabi →
   Manila non-stop (~8½ h), commonly US$490–820
   return. Book internal legs the same day you book these
@@ -62,6 +67,9 @@ stay in port and lagoons go grey.
   + a 5–6 h shuttle van (PHP 700–900). We budget the
   direct flight out, and **Coron → Manila** home
   (Busuanga airport, ~PHP 3,500–6,000).
+
+### Cash rules the islands
+
 - **Cash rules the islands:** El Nido and Coron ATMs are
   few, moody and fee-happy — **carry your pesos from
   Manila** (cards work at hotels; tours and takeaways are

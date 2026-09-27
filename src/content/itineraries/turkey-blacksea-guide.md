@@ -43,6 +43,8 @@ US/UK/Schengen/Ireland visa required, UAE residence alone does not
 qualify — or the sticker visa, 3+ weeks early**). Route-specific
 notes:
 
+### Flying in, and the car
+
 - **Fly direct:** flydubai (Dubai) and Air Arabia (Abu Dhabi/
   Sharjah) serve Trabzon nonstop seasonally-to-year-round; from
   everywhere else it's a cheap 2-hour hop from Istanbul (Turkish
@@ -54,6 +56,9 @@ notes:
   plateaus. ~€40–70/day plus fuel. Alternative: a private driver
   (~€80–120/day) or the cheap group day tours from Trabzon's
   Meydan if you'd rather not drive mountain switchbacks.
+
+### Cash, and halal travel
+
 - **Cash note:** more cash-reliant than western Turkey — village
   restaurants, trout farms and plateau bungalows often prefer
   lira notes.

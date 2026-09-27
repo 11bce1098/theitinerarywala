@@ -39,6 +39,8 @@ in Vietnamese dong (VND).
 
 ## Before you go: the five-minute visa (and the zeros)
 
+### The e-visa, done at home
+
 - **E-visa, done at home:** most nationalities, India included,
   apply on the official **evisa.gov.vn** — **US$25 single / US$50
   multiple entry, 90 days**, approved in **3–5 working days**.
@@ -51,6 +53,9 @@ in Vietnamese dong (VND).
   print two copies.
 - Passport 6+ months. The e-visa follows your passport, not
   where you live.
+
+### The zeros briefing
+
 - **The zeros briefing:** prices come in thousands. ₫25,000
   is a dollar coffee; ₫250,000 is a nice dinner for two;
   ₫2,500,000 is a boutique hotel night. The 20,000 and
@@ -58,7 +63,7 @@ in Vietnamese dong (VND).
   in Vietnam is a 25× tip in dim light**. Sort notes by
   denomination on day one.
 
-## Money, roads and the food rules
+### Money, roads and the food rules
 
 - **Cash-leaning but modernising:** hotels, cruises and
   bigger restaurants take cards; street food, markets and

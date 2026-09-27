@@ -41,6 +41,8 @@ cheap, wet gamble.
 
 ## Before you go: the admin
 
+### The eVisa, and Zanzibar insurance
+
 - **One eVisa covers mainland + Zanzibar:** **US$50**
   at the official **visa.immigration.go.tz** —
   passport scan + photo, allow **up to 10 days**
@@ -53,6 +55,9 @@ cheap, wet gamble.
   online at **inbound.visitzanzibar.go.tz** before you
   land (your own travel insurance doesn't replace it).
   Screenshot the QR; it's checked with immigration.
+
+### Park fees, and the open-jaw
+
 - **The park-fee reality (why quotes look high):**
   per-day, per-person conservation fees for
   non-residents run **Serengeti ~$83, Ngorongoro ~$83,
@@ -70,6 +75,9 @@ cheap, wet gamble.
   Zanzibar on flydubai's direct** (~5½ h). Book the
   Arusha→Zanzibar hop (~$150–220) with the safari
   operator so delays stay their problem.
+
+### Health and money
+
 - **Health:** the whole route is a **malaria area** —
   travel-clinic prophylaxis, DEET at dusk. Yellow
   fever certificate only if you transit an endemic

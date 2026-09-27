@@ -37,6 +37,8 @@ possible. All costs are in Thai baht (THB).
 
 ## Before you go: the visa just changed — read this first
 
+### The allowances changed
+
 - **The allowances changed on 15 September 2026, so check
   yours.** Thailand admits most tourist nationalities without a
   visa; **Indian passports now get 30 days**, down from the
@@ -45,13 +47,6 @@ possible. All costs are in Thai baht (THB).
   beyond the arrival card, and 30 days swallows this trip whole.
   Need longer? A **30-day extension costs ~฿1,900** at any
   immigration office.
-- **The TDAC (Thailand Digital Arrival Card) is mandatory for
-  everyone** — a free online form (passport, flight,
-  first-night address) completed **within 3 days before
-  departure**; the QR code is scanned at immigration and
-  airlines can ask for it at check-in. Use only the official
-  tdac.immigration.go.th — paid "agents" for this free form
-  are the trip's first scam.
 - Passport valid 6+ months; an onward/return ticket isn't
   strictly mandatory but immigration may ask — carry the
   booking anyway. The exemption follows your passport, not where
@@ -60,7 +55,17 @@ possible. All costs are in Thai baht (THB).
   entries now attract scrutiny — a tourist pattern is fine, a
   living-there pattern isn't.
 
-## Money, scams and the respect rules
+### The TDAC is mandatory
+
+- **The TDAC (Thailand Digital Arrival Card) is mandatory for
+  everyone** — a free online form (passport, flight,
+  first-night address) completed **within 3 days before
+  departure**; the QR code is scanned at immigration and
+  airlines can ask for it at check-in. Use only the official
+  tdac.immigration.go.th — paid "agents" for this free form
+  are the trip's first scam.
+
+### Money, scams and the respect rules
 
 - **Cash still rules street Thailand**: cards work in malls
   and hotels, but stalls, songthaews, boats and massage shops
