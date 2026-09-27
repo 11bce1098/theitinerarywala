@@ -1,0 +1,39 @@
+---
+/**
+ * Shown only to visitors the law actually covers — the EEA, the UK and
+ * Switzerland — and only until they answer once. Everyone else never sees it,
+ * because Consent Mode already treats their region as granted.
+ *
+ * Rendered hidden and revealed by script, rather than built in JS, so the
+ * markup is in the HTML for screen readers and the styles are in the sheet
+ * that has already loaded. There is no layout shift either way: it is fixed
+ * to the bottom of the viewport.
+ */
+---
+<div
+  class="consent"
+  data-consent
+  hidden
+  role="dialog"
+  aria-labelledby="consent-title"
+  aria-describedby="consent-body"
+>
+  <div class="consent__inner">
+    <div>
+      <p class="consent__title" id="consent-title">A word about cookies</p>
+      <p class="consent__body" id="consent-body">
+        Analytics cookies tell me which itineraries actually get read, and
+        which ones to write next. Say no and the site behaves exactly the
+        same — nothing here is gated. <a href="/privacy/">What gets collected</a>.
+      </p>
+    </div>
+    <div class="consent__actions">
+      <button type="button" class="btn btn--ghost" data-consent-choice="denied">
+        Reject
+      </button>
+      <button type="button" class="btn btn--solid" data-consent-choice="granted">
+        Accept
+      </button>
+    </div>
+  </div>
+</div>

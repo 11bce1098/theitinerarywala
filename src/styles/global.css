@@ -1395,6 +1395,70 @@ body.nav-open { overflow: hidden; }
 
 /* Wide tables (the privacy page's, mainly) scroll rather than push the
    page sideways — nothing else on the site may overflow horizontally. */
+/* The opt-out block on the privacy page. */
+.consent-controls {
+  border: 1px solid var(--rule, rgba(0, 0, 0, 0.12));
+  border-radius: var(--radius);
+  padding: 1rem 1.1rem;
+  margin: 0 0 1.2rem;
+  background: rgba(255, 255, 255, 0.55);
+}
+.consent-controls__state {
+  margin: 0 0 0.7rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.consent-controls__actions { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+.consent-controls__actions .btn[aria-pressed='true'] { outline: 2px solid currentColor; outline-offset: 2px; }
+
+/*
+ * EEA consent banner. Fixed to the bottom so it never shifts the page, and
+ * rendered hidden — the script reveals it only for visitors in a region that
+ * requires asking. Reject is styled with the same weight as Accept, because
+ * a refusal that is harder to give than consent is not a real choice.
+ */
+.consent {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 60;
+  background: var(--paper, #fdfbf7);
+  border-top: 1px solid var(--rule, rgba(0, 0, 0, 0.14));
+  box-shadow: 0 -8px 28px rgba(0, 0, 0, 0.1);
+  padding: 0.95rem 1.25rem calc(0.95rem + env(safe-area-inset-bottom));
+}
+.consent__inner {
+  max-width: 68rem;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.85rem 1.5rem;
+}
+.consent__inner > div:first-child { flex: 1 1 22rem; }
+.consent__title {
+  margin: 0 0 0.2rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+.consent__body {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  opacity: 0.85;
+}
+.consent__actions {
+  display: flex;
+  gap: 0.6rem;
+  flex: 0 0 auto;
+}
+.consent__actions .btn { padding-inline: 1.3rem; }
+@media (max-width: 30rem) {
+  .consent__actions { width: 100%; }
+  .consent__actions .btn { flex: 1 1 0; }
+}
+
 /*
  * Privacy-page lists. This started as two tables, which is the obvious shape
  * for "service / what it does / what it receives" — but the cells are prose,

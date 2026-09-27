@@ -3,6 +3,8 @@ import '../styles/global.css';
 import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import { SITE, GA_ID, ANALYTICS_HOST } from '../lib/site';
+import { CONSENT_REGIONS, CONSENT_KEY, GRANTED, DENIED } from '../lib/consent.mjs';
+import ConsentBanner from '../components/ConsentBanner.astro';
 
 interface Props {
   title: string;
@@ -55,9 +57,48 @@ const socialImage = new URL(image ?? SITE.ogImage, canonical);
     {GA_ID && import.meta.env.PROD && (
       <Fragment>
         <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}></script>
-        <script define:vars={{ gaId: GA_ID, host: ANALYTICS_HOST }}>
+        <script define:vars={{
+          gaId: GA_ID,
+          host: ANALYTICS_HOST,
+          regions: CONSENT_REGIONS,
+          key: CONSENT_KEY,
+          granted: GRANTED,
+          denied: DENIED,
+        }}>
           window.dataLayer = window.dataLayer || [];
           function gtag() { dataLayer.push(arguments); }
+          /*
+           * define:vars wraps this script in an IIFE, so the declaration
+           * above is local. The consent banner needs to call gtag later,
+           * hence the explicit global.
+           */
+          window.gtag = gtag;
+
+          /*
+           * Consent Mode v2, and it has to run before config — otherwise the
+           * tag sets its cookies before anyone has been asked. Naming
+           * `region` is what scopes the denial: Consent Mode treats every
+           * region not listed as granted, so only the EEA, the UK and
+           * Switzerland start denied and nobody else is shown a banner.
+           * Until a visitor there accepts, GA still receives cookieless
+           * pings — they are counted, just not identified.
+           */
+          gtag('consent', 'default', Object.assign({}, denied, {
+            region: regions,
+            wait_for_update: 500,
+          }));
+
+          /*
+           * A stored choice wins, anywhere in the world: someone who accepted
+           * is not asked twice, and someone who opted out on the privacy page
+           * stays opted out even though their region defaults to granted.
+           */
+          try {
+            const saved = localStorage.getItem(key);
+            if (saved === 'granted') gtag('consent', 'update', granted);
+            else if (saved === 'denied') gtag('consent', 'update', denied);
+          } catch (e) { /* private mode: leave the stricter default in place */ }
+
           gtag('js', new Date());
           if (location.hostname === host) gtag('config', gaId);
         </script>
@@ -150,11 +191,16 @@ const socialImage = new URL(image ?? SITE.ogImage, canonical);
 
     <SiteFooter />
 
+    {GA_ID && import.meta.env.PROD && <ConsentBanner />}
+
     <script>
       import { reveal } from '../scripts/reveal';
       import { refreshBudgets } from '../scripts/rates';
+      import { consent, consentControls } from '../scripts/consent';
       reveal();
       refreshBudgets();
+      consent();
+      consentControls();
     </script>
   </body>
 </html>
