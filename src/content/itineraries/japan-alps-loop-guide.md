@@ -39,6 +39,8 @@ essentials:
 
 <a class="book-btn" href="#aff:airalo">Compare Japan eSIM plans</a>
 
+### Visas, and no JR Pass needed
+
 - **Visas:** ~70 passports visa-free (EU, UK, USA, UAE and more);
   Japan's eVISA covers all nationalities resident in the UAE and
   everyone resident in India, via accredited agencies. Fees rose in
@@ -46,6 +48,9 @@ essentials:
 - **No JR Pass needed** — this loop's transport bought
   point-to-point totals ~¥35,000 per person, far under the ¥50,000
   pass.
+
+### Reserve the mountain buses
+
 - **Reserve the mountain buses.** The Kanazawa → Shirakawa-go →
   Takayama highway buses are all-reserved seating and **sell out
   on autumn-foliage and winter weekends** — book on Japan Bus
@@ -53,6 +58,9 @@ essentials:
 - **Suica note:** IC cards cover the cities, but the mountain
   buses and some rural lines are ticket- or cash-based — keep
   ¥15,000+ in cash on this route, more than you'd need in Tokyo.
+
+### Luggage
+
 - **Luggage:** the takkyubin trick again — forward big bags
   Tokyo → Takayama (or straight to your last Tokyo hotel) and
   travel the loop with an overnight bag. Buses have small holds;

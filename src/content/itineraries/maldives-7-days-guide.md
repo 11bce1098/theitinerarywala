@@ -38,6 +38,8 @@ US dollars — the Maldives' second currency in practice.
 
 ## Before you go: the free visa and the two decoders
 
+### The free visa on arrival
+
 - **Every passport gets a free 30-day visa on arrival** —
   India, UAE, everyone — with a confirmed accommodation
   booking and onward ticket. The one task: the **IMUGA
@@ -45,6 +47,9 @@ US dollars — the Maldives' second currency in practice.
   **imuga.immigration.gov.mv within 96 hours before
   arrival** (airlines check it; any site charging for it is
   a scam). File the departure one on the way out too.
+
+### Decoder 1 — the "++" bill
+
 - **Decoder #1 — the resort "++" bill:** quoted room rates
   sprout **10% service charge + 17% TGST** (that's the
   "++"), plus the **Green Tax — now ~$12 per person per
@@ -52,6 +57,9 @@ US dollars — the Maldives' second currency in practice.
   "cheap" villa quote can grow ~30% at checkout. This
   guide's numbers include the reality; when comparing
   resorts, compare **total-with-taxes**, always.
+
+### Decoder 2 — the transfer trap
+
 - **Decoder #2 — the transfer trap:** resorts control their
   own transfers and bill them separately: **shared
   speedboats ~$100–250+ round trip per person** (South/North
@@ -61,6 +69,9 @@ US dollars — the Maldives' second currency in practice.
   ($80–150). This itinerary's resort choice (speedboat
   range) exists to dodge the whole trap. Maafushi's shared
   speedboat, by contrast: **~$25–30**.
+
+### The rules that surprise people
+
 - **The rules that surprise people, told now:** local
   islands are ordinary Muslim communities — **bikinis only
   on the designated "bikini beach"**, shoulders/knees

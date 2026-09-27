@@ -36,7 +36,9 @@ April–August. Mexico City is spring-like all year — and
 2,240 m high, so expect one breathless first day. All costs are
 in Mexican pesos (MXN).
 
-## Before you go: the visa rule worth checking first
+## Before you go: the visa rule, money and safety
+
+### The visa rule worth checking first
 
 - **Hold a valid US, UK, Canadian, Japanese or Schengen visa?
   You're in free.** Whatever passport you carry, Mexico waives
@@ -61,24 +63,20 @@ in Mexican pesos (MXN).
   confirm which one that is before you book. Mexico's SAE online
   authorisation covers only Russian, Turkish and Ukrainian
   passports.
+
+### Routing warning
+
 - **Routing warning:** many cheap fares into Cancún connect
   through the USA, which needs a US transit visa even if you
   never leave the airport. Without one, route via Europe,
   Istanbul or Panama instead.
 
-## Money, safety and the small print
+### Money, water and tipping
 
 - **Cash still matters:** cards work in cities and resorts, but
   ruins ticket booths, cenotes, colectivos and taco stands are
   **pesos-only** — carry 1,500–2,000 MXN in small notes; ATMs
   at real banks beat airport exchange desks.
-- **The safety honesty:** Mexico's violent headlines are real
-  and overwhelmingly elsewhere — the CDMX tourist core, the
-  Riviera Maya corridor and the ruins circuit see millions of
-  visitors with ordinary big-city precautions. The rules that
-  matter: **Uber/DiDi, never street taxis, in Mexico City**;
-  authorised prepaid taxis only at airports; nothing flashy on
-  the metro; beach-town common sense after midnight.
 - **Water:** bottled or filtered only — including teeth-
   brushing for sensitive stomachs. Street food is glorious and
   safest at busy stalls with high turnover (the queue *is* the
@@ -86,6 +84,19 @@ in Mexican pesos (MXN).
 - Tipping: 10–15% at restaurants (often not included), 20–50
   MXN for porters and tour guides' hats.
 - eSIM ~US$10–15; Telcel coverage is excellent on this route.
+
+### The safety honesty
+
+- **The safety honesty:** Mexico's violent headlines are real
+  and overwhelmingly elsewhere — the CDMX tourist core, the
+  Riviera Maya corridor and the ruins circuit see millions of
+  visitors with ordinary big-city precautions. The rules that
+  matter: **Uber/DiDi, never street taxis, in Mexico City**;
+  authorised prepaid taxis only at airports; nothing flashy on
+  the metro; beach-town common sense after midnight.
+
+### Travelling with kids?
+
 - **Kids:** Mexicans adore them — under-11s pay 100 MXN at the
   big ruins, under-13s enter Teotihuacán free, cenotes are
   nature's swimming pools (life jackets provided), and the

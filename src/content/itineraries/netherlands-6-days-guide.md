@@ -39,12 +39,17 @@ relatives beat it.
 
 ## Before you go: the admin
 
+### Schengen, Netherlands flavour
+
 - **Schengen visa, Netherlands flavour:** the standard
   VFS drill from our other Schengen guides — **€90** +
   service fee at your nearest VFS centre, biometrics,
   proof of residence, bank statements, insurance, itinerary;
   apply **4–6 weeks out**. Existing multi-entry
   Schengen stickers work.
+
+### The Anne Frank ticket war
+
 - **The Anne Frank House ticket war, decoded:** tickets
   (**€16.50**) exist ONLY online, released **in batches
   about six weeks ahead** — and "a release can be gone
@@ -57,10 +62,16 @@ relatives beat it.
 - **Timed-museum calendar:** **Van Gogh (€25)** books
   out 1–2 weeks ahead (weekend mornings 3–4);
   **Rijksmuseum (€25)** needs only a few days.
+
+### The I amsterdam Card verdict
+
 - **The I amsterdam Card verdict** (€67–140): it
   **hasn't covered the Van Gogh Museum since 2022 and
   has never covered Anne Frank** — for this itinerary,
   skip it and buy tickets individually.
+
+### Money, transit and hotels
+
 - **Money & transit:** cards/contactless everywhere
   (many places are card-ONLY — the reverse problem);
   tap in/out on trams with your bank card, or buy GVB

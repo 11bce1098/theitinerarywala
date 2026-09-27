@@ -37,6 +37,8 @@ by night. All costs are in Moroccan dirhams (MAD; ~10.3/US$).
 
 ## Before you go: the e-visa and the rulebook
 
+### Entry, two ways
+
 - **Most nationalities enter visa-free for 90 days** — the
   EU, UK, USA, Canada, Australia, Japan and the Gulf states
   among them. Nothing to arrange in advance.
@@ -46,18 +48,27 @@ by night. All costs are in Moroccan dirhams (MAD; ~10.3/US$).
   entry, 30-day stay, on the official **acces-maroc.ma**
   only (copycat sites charge double). Residence elsewhere
   changes nothing either way.
+
+### The closed currency, and cash
+
 - **The dirham is a closed currency** — you can't legally
   import/export meaningful amounts: exchange or withdraw on
   arrival, keep exchange receipts, and **spend or re-exchange
   before departure**.
 - Cash rules the medinas (cards at riads and restaurants) —
   carry MAD 300–500 daily in small notes; ATMs everywhere.
+
+### The haggling rulebook
+
 - **The haggling rulebook** (souks only — food, taxis-by-
   meter and marked shops are exempt): opening prices run
   3–4× — counter at a third, climb slowly, keep it smiling,
   and know that **walking away is the strongest bid** (half
   of all deals close on the walk). Accepting mint tea
   obliges nothing but pleasantness.
+
+### The hustle, answered in advance
+
 - **The hustle script, answered in advance:** "the square is
   closed / wrong way, I'll show you" (it isn't; a polite
   *la, shukran* while moving works); henna ladies who grab a

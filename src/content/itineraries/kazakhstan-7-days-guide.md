@@ -38,6 +38,8 @@ same cable cars into Central Asia's biggest ski trip.
 
 ## Before you go: the admin
 
+### Visa-free, official
+
 - **Visa-free, official:** the EU, UK, US, Japan and some
   fifty others get **30 days**; since Government Decree
   464 (2022) Indian citizens get **14 days per entry,
@@ -45,6 +47,9 @@ same cable cars into Central Asia's biggest ski trip.
   valid with two blank pages; carry the return ticket and
   hotel PDFs for the counter. No forms, no fees, no
   registration for tourist stays this length.
+
+### Flights and the tenge
+
 - **Flights:** the Gulf hubs → Almaty ~4 h, commonly
   **US$250–490 return** (Air Arabia is often the
   steal). Overnight departures land you in Almaty at
@@ -53,6 +58,9 @@ same cable cars into Central Asia's biggest ski trip.
   and Kaspi-QR run the city, but **the mountains and
   park gates are cash country** — carry KZT 20,000–30,000
   in notes. ATMs everywhere in town.
+
+### Getting around, and the language
+
 - **Getting around:** download **Yandex Go** before you
   land — Almaty's Uber, absurdly cheap (most city hops
   KZT 700–2,000), and the etiquette answer to

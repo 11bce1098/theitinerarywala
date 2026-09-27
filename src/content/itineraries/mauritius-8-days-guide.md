@@ -39,6 +39,8 @@ southern-winter winds and the January–March cyclone lottery.
 
 ## Before you go: the admin (it barely exists)
 
+### Visa-free, and the one form
+
 - **Visa-free, free:** most passports get **60 days on arrival, no
   fee** (Indian passports included) — carry the return ticket, hotel
   bookings and a bank card as your never-asked-for proof of funds
@@ -50,12 +52,18 @@ southern-winter winds and the January–March cyclone lottery.
   screenshot it, airlines ask at check-in.
 - **Passport** valid beyond the stay; that's the whole
   file.
+
+### Driving on the left
+
 - **Driving:** Mauritius drives on the **left** — a jolt
   if you are used to the right, second nature if not.
   Your Indian licence (in English) is accepted for
   tourist stays — carry an IDP if you like belt AND
   braces. Roads are good, distances small (the whole
   island is 65 × 45 km), speed cameras plentiful.
+
+### Money
+
 - **Money:** cards widespread, but keep MUR 2,000–3,000
   cash for street food, markets and beach vendors. ATMs
   everywhere in towns.

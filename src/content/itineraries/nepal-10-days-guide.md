@@ -37,7 +37,9 @@ December–February is cold but clear; **June–September is
 monsoon**: green, cheap, and the peaks mostly hide. All costs
 are in Nepali rupees (NPR).
 
-## Before you go: the open border and the rupee-note rule
+## Before you go: the open border, money and altitude
+
+### Visas, and the open border
 
 - **Indian passports: no visa exists.** Fly in with your
   **passport** (recommended; an original Election Commission
@@ -48,6 +50,9 @@ are in Nepali rupees (NPR).
 - **Everyone else:** visa on arrival at Kathmandu airport —
   ~US$30/15 days, US$50/30 days, kiosk + cash counter;
   nearly every passport qualifies.
+
+### The rupee-note rule, and SAARC pricing
+
 - **The rule that catches Indian travellers: ₹500 and ₹2,000
   Indian notes are not legal in Nepal.** Carry ₹100s (widely
   accepted at ~1.6 NPR) or just use ATMs/cards. Getting
@@ -57,6 +62,9 @@ are in Nepali rupees (NPR).
   and **Pashupatinath is free for Indians** (foreigners
   NPR 1,000, and non-Hindus can't enter the main sanctum
   at all).
+
+### The aviation honesty
+
 - **The aviation honesty, plainly:** Nepal's domestic flying
   has a patchier safety record than its neighbours. The
   sensible protocol this guide follows: **Buddha Air or Yeti
@@ -66,22 +74,25 @@ are in Nepali rupees (NPR).
   itinerary does). Roads are the alternative: slow, bumpy,
   scenic, fine.
 
-## Money, altitude and small print
+### Money and tipping
 
 - Cards work at hotels and nicer restaurants; **Thamel
   stalls, taxis and temples run on cash** — NPR 500s and
   100s. ATMs everywhere (fee ~NPR 500).
 - Tipping: not formalised — NPR 100–200 for drivers/porters,
   ~10% at tourist restaurants, guide tips by day.
+- Bargain in Thamel with a smile (start ~half), never at
+  fixed-price shops; pashmina, singing bowls and khukuri
+  knives are the classic hauls (knife goes in checked
+  luggage!).
+
+### Altitude and dust
+
 - **No altitude worries on this route** (Kathmandu 1,400 m,
   Sarangkot 1,600 m) — this is the Himalaya at
   walking-around height.
 - Kathmandu's dust is real: a light mask for traffic hours
   helps sensitive lungs. Bottled/filtered water only.
-- Bargain in Thamel with a smile (start ~half), never at
-  fixed-price shops; pashmina, singing bowls and khukuri
-  knives are the classic hauls (knife goes in checked
-  luggage!).
 
 ## Day 1 — Land in Kathmandu, Thamel evening
 

@@ -44,6 +44,8 @@ guide, where they're covered in depth. Route-specific notes:
 
 <a class="book-btn" href="#aff:airalo">Compare Japan eSIM plans</a>
 
+### Getting there, and no rail pass
+
 - **Getting to Hokkaido:** fly into **New Chitose (CTS)** via
   Tokyo — Haneda⇄CTS is ~1.5 h and one of the busiest air routes
   on earth (ANA, JAL, and LCCs like Peach). Book festival-week
@@ -53,6 +55,9 @@ guide, where they're covered in depth. Route-specific notes:
 - **IC card caveat:** Suica covers Sapporo and the main JR lines,
   but several local buses (including the Asahiyama Zoo bus) are
   **cash only** — keep coins and small notes handy.
+
+### Weather, and booking ahead
+
 - **Weather is a feature and a variable:** heavy snow occasionally
   delays trains and cancels the penguin walk. Build slack, don't
   stack tight connections, and pack proper boots — pavements are

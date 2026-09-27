@@ -35,7 +35,9 @@ gamble. Ramadan is a feature, not a bug: tourist restaurants
 run normally and the evening **Ramadan bazaars** are a
 food-lover's jackpot. All costs are in Malaysian ringgit (MYR).
 
-## Before you go: the two-minute admin
+## Before you go: the two-minute admin, and the small print
+
+### Most visitors need nothing
 
 - **Check whether you need anything: most visitors don't.**
   Malaysia admits a long list of nationalities visa-free, and
@@ -51,7 +53,7 @@ food-lover's jackpot. All costs are in Malaysian ringgit (MYR).
   Anyone charging for this free form is a scam.
 - The exemption follows your passport, not where you live.
 
-## Money, apps and the small print
+### Grab, tipping and eSIMs
 
 - **Grab runs the country** — cars, food, even Langkawi
   (thinner there; more below). Cards and e-wallets work in
@@ -59,6 +61,12 @@ food-lover's jackpot. All costs are in Malaysian ringgit (MYR).
   carry RM100–200 in small notes.
 - Tipping: not expected. Prices include tax at hawkers;
   restaurants add ~10% service.
+- eSIM ~US$5–10; Hotlink/CelcomDigi tourist SIMs at
+  airports. English is a working national language —
+  the lowest language-barrier trip on this site.
+
+### Halal, alcohol and kids
+
 - **Halal, formally:** look for the JAKIM logo, but in
   practice Malay food is halal by definition and most Chinese
   kopitiams are clearly marked when not. The one navigation
@@ -67,9 +75,6 @@ food-lover's jackpot. All costs are in Malaysian ringgit (MYR).
 - Alcohol is taxed into rarity — **except Langkawi, a
   duty-free island** (this explains the chocolate-and-
   perfume shops too; stock up there, not at the airport).
-- eSIM ~US$5–10; Hotlink/CelcomDigi tourist SIMs at
-  airports. English is a working national language —
-  the lowest language-barrier trip on this site.
 - **Kids:** Malaysia is effortless — hawker centres have
   something for every child, distances are short, malls have
   play zones for the 3pm heat, and Langkawi is one big

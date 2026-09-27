@@ -35,7 +35,9 @@ date-check before booking: Nyepi**, the Hindu Day of Silence
 **including the airport**; more below. All costs are in
 Indonesian rupiah (IDR).
 
-## Before you go: visa, levy, and the zeros again
+## Before you go: visa, levy, and the safety page
+
+### The e-VoA and the levy
 
 - **e-VoA (recommended):** most visitors, India included, use
   Indonesia's Visa on Arrival — **IDR 500,000 (~US$32)**, 30 days,
@@ -48,16 +50,19 @@ Indonesian rupiah (IDR).
   from the visa — pay at **lovebali.baliprov.go.id** before
   arrival and keep the QR; checkpoints at attractions
   increasingly scan it.
+- The VoA follows your passport, not where you live — a
+  residence permit elsewhere changes nothing either way.
+
+### Zeros briefing
+
 - **Zeros briefing, Indonesian edition:** IDR 100,000 ≈
   US$6. Menus drop the thousands ("50" = 50k). The 100k
   (red) and 10k (purple) notes don't look alike — but count
   changer cash twice anyway, and use **authorized money
   changers or bank-attached ATMs only** (skimming is Bali's
   quiet crime).
-- The VoA follows your passport, not where you live — a
-  residence permit elsewhere changes nothing either way.
 
-## The safety page most Bali guides skip
+### The safety page most Bali guides skip
 
 - **Scooters are the #1 tourist injury.** Legally you need
   an IDP + home motorcycle licence; without them insurance

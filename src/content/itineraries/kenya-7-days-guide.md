@@ -41,6 +41,8 @@ the Mara's new fee regime (below) is what moves this number.
 
 ## Before you go: the admin
 
+### The eTA, and the park-fee truth
+
 - **eTA for everyone:** Kenya scrapped visas and requires
   an **Electronic Travel Authorisation** instead — apply
   at the official **etakenya.go.ke** (~**US$34**,
@@ -60,6 +62,9 @@ the Mara's new fee regime (below) is what moves this number.
   **Mara Triangle side (~$70/24 h)**. Always confirm
   whether a safari quote **includes park fees** — it's
   the single biggest hidden-cost trap in Kenya.
+
+### Health, honestly
+
 - **Health, honestly:** the Mara is a **malaria area** —
   see a travel clinic about prophylaxis (Nairobi's
   altitude keeps it low-risk there). **Yellow fever
@@ -67,6 +72,9 @@ the Mara's new fee regime (below) is what moves this number.
   non-endemic country**, but IS if you transit an endemic
   one —
   carry the certificate if you have one anyway.
+
+### Money and the safari vehicle
+
 - **Money:** Kenya is startlingly cashless — cards and
   **M-Pesa** everywhere, park gates card-only. Carry
   modest USD cash for tips (crisp notes), KES small
