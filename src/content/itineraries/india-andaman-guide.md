@@ -44,6 +44,8 @@ at today's exchange rate.
 India visa/UPI/SIM basics live in our Golden Triangle guide.
 Island specifics:
 
+### Permits and getting there
+
 - **Foreigners: no special permit anymore.** The old Restricted
   Area Permit was abolished for the main tourist islands in 2018 —
   passports are simply registered on arrival at Port Blair.
@@ -52,6 +54,9 @@ Island specifics:
 - **Getting there:** fly to **Port Blair (IXZ)** — direct from
   Chennai (~2 h), Kolkata, Bengaluru, Delhi and Hyderabad. No
   international flights; Gulf readers connect via Chennai.
+
+### Ferries, and the iron rule
+
 - **The ferries are the skeleton of the trip.** Private catamarans
   (Makruzz, Nautika, Green Ocean, ITT Majestic) run Port Blair ⇄
   Havelock ⇄ Neil: typically **₹1,100–1,800 per person per leg**
@@ -60,13 +65,16 @@ Island specifics:
   is the budget pick. **Book all three legs online as soon as
   dates are fixed** — the government ferries (₹400–700) are
   cheaper but near-impossible for tourists to secure.
+- **The iron rule:** fly out only the day *after* your last ferry.
+  This itinerary's final Port Blair night is not optional padding.
+
+### Connectivity
+
 - **Connectivity honesty:** the undersea cable improved things,
   but data is still patchy on Havelock and weak on Neil; ATMs are
   few and empty-able — **carry cash from Port Blair**. Download
   offline maps and tell people you'll be slow to reply. It's a
   feature.
-- **The iron rule:** fly out only the day *after* your last ferry.
-  This itinerary's final Port Blair night is not optional padding.
 
 ### Travelling with kids?
 

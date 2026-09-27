@@ -37,6 +37,8 @@ safetravel.is**) that locals live by.
 
 ## Before you go: the admin
 
+### Schengen, Iceland flavour
+
 - **Schengen visa, Iceland flavour:** Iceland keeps
   embassies in few countries, so applications usually go
   through **a VFS Global Iceland desk**, which routes to
@@ -48,6 +50,9 @@ safetravel.is**) that locals live by.
   itinerary; **~15 working days**, so apply 5–6 weeks
   out. An existing multi-entry Schengen sticker works —
   one zone.
+
+### Flights, and the car rules
+
 - **Flights:** no non-stops from the Gulf — one stop via London,
   Frankfurt, Copenhagen or Helsinki to **Keflavík
   (KEF)**, commonly US$760–1,250 return, 10–13 h
@@ -64,6 +69,9 @@ safetravel.is**) that locals live by.
   river crossings are for 4x4s and not this trip**,
   and driving off-road is illegal everywhere, full
   stop.
+
+### Money, and the two-website habit
+
 - **Money:** fully cashless — you can do the entire
   week without touching a krona. Fuel pumps want a
   card **with a PIN**. **Nobody tips in Iceland** —

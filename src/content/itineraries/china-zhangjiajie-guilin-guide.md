@@ -45,6 +45,8 @@ attraction. All costs are in Chinese yuan (CNY).
 
 ## Getting in and out (read once, relax after)
 
+### The open-jaw, and the train between
+
 - **Fly into Zhangjiajie (DYG), out of Guilin (KWL)** — both
   connect through Chinese hubs (Guangzhou, Kunming, Shanghai,
   Chongqing) on one ticket from the Gulf; there are no direct
@@ -57,6 +59,9 @@ attraction. All costs are in Chinese yuan (CNY).
   ~¥370+). This single-train fact shapes the itinerary below;
   book it the day the ~2-week window opens (Trip.com queues
   it).
+
+### Real-name everything
+
 - **Real-name everything**: park tickets, cable cars and trains
   all book against your passport — carry it daily.
 

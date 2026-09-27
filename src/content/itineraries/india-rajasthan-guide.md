@@ -42,6 +42,8 @@ Visas, UPI One World, SIMs, health notes and the full scam list
 live in our Golden Triangle guide — they apply unchanged. Circuit
 specifics:
 
+### One car, and the sequencing rule
+
 - **One car + driver for the whole arc** (~₹3,500–4,000/day
   including fuel and the driver's expenses; any Rajasthan operator
   or hotel arranges it). Distances are 2.5–5 h per hop and the
@@ -51,8 +53,14 @@ specifics:
   **Ranakpur admits non-Jain visitors only from 12:00 noon** —
   so mornings belong to Kumbhalgarh or the road, never the
   temple. This guide is ordered accordingly.
+
+### Book the lake rooms first
+
 - **Book Udaipur's lakeside rooms first** — the lake-view havelis
   are small and December–February weekends vanish.
+
+### Tipping
+
 - Tipping the driver: ~₹150–250/day, given at the end.
 
 ### Travelling with kids?

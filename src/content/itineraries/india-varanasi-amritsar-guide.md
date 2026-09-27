@@ -45,6 +45,8 @@ rates at ticketed sites.**
 Visas, UPI One World, SIMs and the general scam list live in our
 Golden Triangle guide. Route specifics:
 
+### Flights, and getting about
+
 - **Flights:** into Varanasi (VNS) via Delhi from most origins;
   between the cities, Varanasi → Amritsar usually connects
   **via Delhi** (~4–5 h door to door; occasional seasonal directs
@@ -54,9 +56,15 @@ Golden Triangle guide. Route specifics:
 - **Both cities are walking-and-rickshaw places** — the old
   quarters are vehicle-free or close to it. Autos and cycle
   rickshaws by agreed fare; Ola/Uber work outside the old cores.
+
+### Dressing for sacred spaces
+
 - **Dress for sacred spaces all week:** shoulders and knees
   covered everywhere, head covering mandatory at the Golden Temple
   (free scarves at the gates) and useful at every Varanasi temple.
+
+### The Varanasi hustle
+
 - **The Varanasi hustle:** boat touts, "priests" offering blessings
   that become invoices, and karma-donation collectors at the
   burning ghats. The Golden Triangle guide's rules apply doubled —

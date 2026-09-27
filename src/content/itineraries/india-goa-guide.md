@@ -40,6 +40,8 @@ Visas, UPI One World, SIMs and general India notes live in our
 Golden Triangle guide. Goa specifics — and these matter more here
 than anywhere in India:
 
+### Two airports, and no Uber
+
 - **Two airports, 60 km apart.** **Mopa (GOX)** in the far north —
   newer, growing international schedule — and **Dabolim (GOI)**
   mid-state, closer to the south. Check which one your flight
@@ -53,6 +55,9 @@ than anywhere in India:
   8 h/80 km), and motorcycle-taxi "pilots" for solo hops.
   Budget transport honestly — it's Goa's one genuinely expensive
   item.
+
+### Scooters and sea safety
+
 - **The scooter rule that gets tourists fined:** rent only
   vehicles with **black number plates** (yellow/white lettering) —
   white private plates are illegal to rent and police impound them.

@@ -40,6 +40,8 @@ July–August hot and busiest.
 
 ## Before you go: the admin
 
+### Schengen, Hungary flavour
+
 - **Schengen, Hungary flavour:** apply via **your nearest VFS
   Global centre** with Hungary as main destination — **€90** +
   service fee, biometrics, proof of residence valid past your
@@ -47,6 +49,9 @@ July–August hot and busiest.
   full itinerary. Apply **4–6 weeks out**; summer slots go fast.
   Already holding a Schengen visa from our other guides' trips? It
   works here — one zone, one sticker.
+
+### Flights and the forint
+
 - **Flights:** **Wizz Air AUH–BUD direct** (~AED
   600–1,400 return if you pack light and book early —
   the site's cheapest Europe airfare trick) or
@@ -58,6 +63,9 @@ July–August hot and busiest.
   AED, **choose HUF** (dynamic conversion skims 5–10%).
   ATMs: bank-branded only, decline conversion; avoid the
   blue Euronet boxes.
+
+### Taxis and the metro
+
 - **Taxis:** never hail from the street. **Bolt** (or
   official yellow Főtaxi) is cheap and honest; the
   airport's **100E bus** runs to the centre for

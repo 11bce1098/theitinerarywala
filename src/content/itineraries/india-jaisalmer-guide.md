@@ -39,6 +39,8 @@ Visas, UPI One World, SIMs and the scam list are in our Golden
 Triangle guide; the car-and-driver pattern is in the Rajasthan
 circuit. Jaisalmer specifics:
 
+### Getting there, and where to sleep
+
 - **Getting there:** Jaisalmer's airport (JSA) runs **seasonal
   winter directs** (Delhi and select cities, roughly October–
   March — check current schedules); otherwise fly to **Jodhpur**
@@ -52,6 +54,9 @@ circuit. Jaisalmer specifics:
   best-rated heritage hotels are all outside anyway, with rooftop
   fort views the inside can't offer. Visit the fort all day;
   sleep facing it.
+
+### The dune camp and the border day
+
 - **Book the dune camp direct** (not through touts at Sam's gate),
   confirm exactly what's included, and reserve 2–3 months out for
   peak weeks. Arrange your transport back — camp roads are dark.

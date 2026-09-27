@@ -44,6 +44,8 @@ for 171 nationalities at the official site only; the **UPI One
 World wallet** lets G20-nationality visitors pay by QR like
 locals; Airtel/Jio SIM at the airport). Kerala-specific notes:
 
+### Flying in, and the car
+
 - **Fly into Kochi (COK)** — direct flights from across the Gulf
   (this is the UAE's most-connected Indian state) and every Indian
   hub. The airport is ~40 km from Fort Kochi.
@@ -53,9 +55,15 @@ locals; Airtel/Jio SIM at the airport). Kerala-specific notes:
   taxi days, and turns every transfer into sightseeing. Self-drive
   is possible but the hill hairpins and Indian traffic argue
   otherwise.
+
+### Book the houseboat first
+
 - **Book the houseboat before anything else** — the good boats and
   the Dec 20–Jan 5 peak (when rates double) go first. Book direct
   with operators rather than aggregator markups.
+
+### The gentler India
+
 - Kerala is calmer than north India — the tout pressure of Delhi
   and Agra largely doesn't exist here — but the same app-taxi and
   official-counter habits still serve.

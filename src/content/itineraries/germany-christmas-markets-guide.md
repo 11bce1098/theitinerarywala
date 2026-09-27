@@ -40,11 +40,16 @@ crowd-to-magic sweet spot. All costs are in euros (EUR).
 
 ## Before you go: the admin and the mug economics
 
+### Visa
+
 - **Visa:** everything from our [Schengen visa
   guide](/guides/schengen-visa-how-it-works/) applies — VFS Global, €90,
   the usual Schengen file — with one December-specific warning:
   **appointment demand spikes for the market season, so apply by late
   September/October**.
+
+### The mug economics
+
 - **The markets themselves are free.** You pay for what you
   hold: and what you hold works on the **Pfand system** — a
   glühwein (~**€4.50–5.50**) comes with a **€3–5 mug
@@ -56,6 +61,9 @@ crowd-to-magic sweet spot. All costs are in euros (EUR).
   a wooden hut): €50–100/day in notes and coins keeps the
   queue moving. Bigger stalls now tap cards; don't rely
   on it.
+
+### Cold, and the crowd calendar
+
 - **The cold is the price of the glow:** late-afternoon
   temperatures run 0–5°C, evenings dip below freezing. This
   trip is spent *standing outdoors at night* — thermal base
