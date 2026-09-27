@@ -1,4 +1,8 @@
 {
+  "albania-9-days-guide": {
+    "hash": "a771a1df9f2ac434",
+    "updated": "2026-09-27"
+  },
   "argentina-12-days-guide": {
     "hash": "0dfd686a4e9d785d",
     "updated": "2026-09-27"
@@ -31,6 +35,10 @@
     "hash": "fe10e99a98c05c84",
     "updated": "2026-09-25"
   },
+  "botswana-9-days-guide": {
+    "hash": "39eb2f5576f887f0",
+    "updated": "2026-09-27"
+  },
   "brazil-10-days-guide": {
     "hash": "2aab63e9b8a3da6d",
     "updated": "2026-09-27"
@@ -45,6 +53,10 @@
   },
   "central-europe-10-days-guide": {
     "hash": "5a079c0ee286e6bb",
+    "updated": "2026-09-27"
+  },
+  "chile-12-days-guide": {
+    "hash": "3bbcf196b33e3c6b",
     "updated": "2026-09-27"
   },
   "china-10-days-guide": {
@@ -275,6 +287,10 @@
     "hash": "053df83d455a1674",
     "updated": "2026-09-17"
   },
+  "rwanda-8-days-guide": {
+    "hash": "6157fc99b216ec84",
+    "updated": "2026-09-27"
+  },
   "saudi-arabia-7-days-guide": {
     "hash": "ee508ba53bd973da",
     "updated": "2026-09-27"
@@ -365,6 +381,10 @@
   },
   "vietnam-10-days-guide": {
     "hash": "1b152b1062bcac5c",
+    "updated": "2026-09-27"
+  },
+  "zimbabwe-8-days-guide": {
+    "hash": "6e552857ef047cfd",
     "updated": "2026-09-27"
   }
 }
