@@ -152,6 +152,7 @@ const budgets = [
 
 <script>
   import { SITE, HAS_FORM_ENDPOINT } from '../lib/site';
+  import { track } from '../scripts/track';
 
   const form = document.querySelector<HTMLFormElement>('[data-plan]');
   const status = document.querySelector<HTMLElement>('[data-plan-status]');
@@ -225,9 +226,14 @@ const budgets = [
           body: new FormData(form),
         });
         if (!response.ok) throw new Error(String(response.status));
+        // Read before reset, or the field is already empty. Worth sending: it
+        // shows which countries people ask for, including ones the site does
+        // not cover yet.
+        const asked = String(new FormData(form).get('destination') ?? '');
         form.reset();
         status.textContent = "Thanks — that's arrived. You'll hear back within a couple of days.";
         status.className = 'form-note form-note--ok';
+        track('plan_request', { destination: asked });
       } catch {
         status.textContent = `Something went wrong. Please email ${SITE.email} instead.`;
         status.className = 'form-note form-note--bad';

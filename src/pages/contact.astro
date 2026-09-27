@@ -100,6 +100,7 @@ const topics = [
 
 <script>
   import { SITE, HAS_FORM_ENDPOINT } from '../lib/site';
+  import { track } from '../scripts/track';
 
   const form = document.querySelector<HTMLFormElement>('[data-contact]');
   const status = document.querySelector<HTMLElement>('[data-contact-status]');
@@ -177,6 +178,7 @@ const topics = [
         form.reset();
         status.textContent = "Thanks — that's arrived. I'll reply within a couple of days.";
         status.className = 'form-note form-note--ok';
+        track('contact_message');
       } catch {
         status.textContent = `Something went wrong. Please email ${SITE.email} instead.`;
         status.className = 'form-note form-note--bad';

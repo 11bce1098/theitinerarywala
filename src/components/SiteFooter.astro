@@ -89,6 +89,7 @@ const year = new Date().getFullYear();
 
 <script>
   import { SITE, HAS_FORM_ENDPOINT } from '../lib/site';
+  import { track } from '../scripts/track';
 
   const form = document.querySelector<HTMLFormElement>('[data-signup]');
   const status = document.querySelector<HTMLElement>('[data-signup-status]');
@@ -122,6 +123,7 @@ const year = new Date().getFullYear();
       form.reset();
       status.textContent = "You're on the list.";
       status.className = 'form-note form-note--ok';
+      track('newsletter_signup');
     } catch {
       status.textContent = `Couldn't sign you up. Email ${SITE.email} instead.`;
       status.className = 'form-note form-note--bad';
