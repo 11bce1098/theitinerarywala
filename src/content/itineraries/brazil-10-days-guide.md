@@ -5,6 +5,8 @@ days: 10
 budgetAmount: 11000
 budgetCurrency: "BRL"
 route: "Rio de Janeiro → Paraty → Iguaçu"
+heroImage: "/images/brazil.jpeg"
+heroWide: "/images/brazil-wide.jpeg"
 styles: ['culture', 'nature', 'beach']
 bestFor: "Beaches + waterfalls"
 summary: "The greatest city setting on earth, a colonial port between rainforest and sea, and a waterfall system you hear before you see: Christ above Rio's beaches, Paraty's cobbles and schooner islands, and Iguaçu from the panoramic side — with the honest safety brief, the distances, and why Carnival changes every number in this guide."

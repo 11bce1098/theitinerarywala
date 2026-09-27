@@ -5,6 +5,8 @@ days: 6
 budgetAmount: 1250
 budgetCurrency: "EUR"
 route: "Brussels → Bruges → Ghent → Antwerp"
+heroImage: "/images/belgium.jpeg"
+heroWide: "/images/belgium-wide.jpeg"
 styles: ['culture', 'couples', 'family']
 bestFor: "Old towns + short hops"
 summary: "Four medieval cities inside an hour of each other by train: Bruges' canals at dawn before the coaches arrive, Ghent's castle and student energy, Brussels' grand square and comic-strip walls, and Antwerp's cathedral Rubens — with the day-trip trap, the beer that is genuinely worth the fuss, and why the trains make a car pointless."

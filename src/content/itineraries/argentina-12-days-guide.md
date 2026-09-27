@@ -5,6 +5,8 @@ days: 12
 budgetAmount: 2600
 budgetCurrency: "USD"
 route: "Buenos Aires → Iguazú → El Calafate → El Chaltén"
+heroImage: "/images/argentina.jpeg"
+heroWide: "/images/argentina-wide.jpeg"
 styles: ['culture', 'nature']
 bestFor: "Cities + glaciers"
 summary: "A country so long it holds subtropical waterfalls and Patagonian ice in the same trip: Buenos Aires' European boulevards and steak, the thunder of Iguazú from both sides, a glacier you watch calve into a lake, and the granite spires of Fitz Roy — with the internal-flight planning and the currency reality that make or break the budget."

@@ -5,6 +5,8 @@ days: 9
 budgetAmount: 1100
 budgetCurrency: "USD"
 route: "Havana → Viñales → Trinidad → Havana"
+heroImage: "/images/cuba.jpeg"
+heroWide: "/images/cuba-wide.jpeg"
 styles: ['culture', 'couples']
 bestFor: "Music + old cities"
 summary: "A country that runs on cash you bring with you: Havana's crumbling grandeur and live son in the plazas, tobacco valleys worked by ox and hand, and a colonial town frozen in the 1850s — plus the honest brief on cards that will not work, shortages that are real, and why casas particulares beat hotels on every measure."
