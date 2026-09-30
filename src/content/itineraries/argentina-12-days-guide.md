@@ -91,96 +91,217 @@ airports.
 
 ## Day 1 — Land in Buenos Aires
 
-- **Afternoon** — Land at Ezeiza, transfer in. Sleep in **Palermo**
-  or **Recoleta**.
-- **Evening** — Walk, eat late, adjust.
+- **10:00** — Land at **Ezeiza (EZE)**, 35 km out — an hour into
+  town, more at rush hour. Use the official remise desk or a
+  pre-booked car; the touts outside arrivals are not worth it.
+- **11:30** — Sleep in **Palermo** for the restaurants and parks, or
+  **Recoleta** for the grand streets. Both are safe to walk at
+  night, which is the deciding factor.
+- **13:00** — Change money. The exchange situation here changes
+  constantly, so ask your hotel what today's arrangement is rather
+  than trusting anything written more than a month ago. Bring clean
+  USD notes.
+- **15:00** — Walk. **Plaza Serrano** and the Palermo Soho blocks,
+  or the **Bosques de Palermo** if you need grass and air.
+- **19:00** — A first drink. Nobody eats before nine.
+- **21:30** — Dinner, late, and let the jet lag sort itself out
+  against a city that does everything two hours after you would.
 
 ## Day 2 — The city's two halves
 
-- **Morning** — **Recoleta Cemetery**, a city of marble mausoleums
-  where Evita is buried.
-- **Afternoon** — **San Telmo**'s cobbles and antiques, then
-  **Plaza de Mayo** and the pink presidential palace.
-- **Evening** — A *parrilla*, properly, and late.
+- **10:00** — **Recoleta Cemetery**: 4,700 mausoleums laid out in
+  streets, marble and cracked glass and cats, with **Evita** in the
+  Duarte family vault. The free map at the gate matters; people
+  lose an hour looking for her.
+- **12:00** — The **Floralis Genérica** sculpture and the **Museo
+  Nacional de Bellas Artes**, free and strong on Argentine
+  painters.
+- **13:30** — Lunch in Recoleta.
+- **15:30** — **San Telmo**: cobbles, antique shops and the
+  **Mercado de San Telmo** for a sandwich at the counter. On
+  **Sundays** the whole of Defensa becomes a street market and the
+  neighbourhood is at its best.
+- **17:30** — **Plaza de Mayo**: the **Casa Rosada**, the Cabildo,
+  and the white headscarves painted on the paving for the **Madres
+  de Plaza de Mayo**, who have circled here every Thursday since
+  1977.
+- **21:30** — A **parrilla**, properly. Order *bife de chorizo* or
+  *ojo de bife*, ask for *jugoso* if you want it pink, and let the
+  Malbec happen.
 
 ## Day 3 — Tango, books and football
 
-- **Morning** — **El Ateneo Grand Splendid**, a bookshop in a
-  converted opera house.
-- **Afternoon** — **La Boca**'s painted streets — touristy, brief,
-  and best in daylight — or a football stadium tour.
-- **Evening** — Tango. The dinner shows are for visitors; a
-  *milonga* is where people actually dance.
+- **10:00** — **El Ateneo Grand Splendid**, a 1919 opera house
+  turned bookshop — the stalls are shelves, the boxes are reading
+  nooks, and the stage is a café. Fifteen minutes, and it earns the
+  fuss.
+- **11:30** — **La Boca**: the painted corrugated houses of
+  **Caminito** are a film set with prices to match. Go, look, take
+  the photograph, and leave within the hour — and stay on the
+  tourist streets, because the surrounding barrio is not one to
+  wander.
+- **13:30** — Lunch back in the centre.
+- **15:00** — **La Bombonera** stadium tour, or **El Monumental**
+  for River. If there is a match and you can get a seat through a
+  reputable agency, that is the better use of the afternoon by some
+  margin.
+- **18:00** — Rest.
+- **22:00** — **Tango.** The dinner shows are competent and for
+  visitors. A ***milonga*** — La Catedral, Salón Canning — is where
+  people actually dance, starts late, and will happily let you sit
+  at the edge and watch all night.
 
 ## Day 4 — Fly north to Iguazú
 
-- **Morning** — Fly to **Puerto Iguazú**, about two hours.
-- **Afternoon** — Settle. The falls need a full day, not half of one.
-- **Evening** — The Argentine side's national park closes at dusk;
-  save it for tomorrow.
+- **08:00** — Fly from **Aeroparque (AEP)**, the city airport, not
+  Ezeiza — two hours to **Puerto Iguazú**.
+- **10:30** — Land into heat and humidity that Buenos Aires did not
+  prepare you for. This is subtropical rainforest.
+- **12:00** — Check in, and swim if there is a pool.
+- **15:00** — **Hito Tres Fronteras**, the obelisk where Argentina,
+  Brazil and Paraguay meet across two rivers — ten minutes, and it
+  orients you for the next two days.
+- **17:00** — Buy tomorrow's park ticket online tonight if you can;
+  the queue at the gate can take 45 minutes.
+- **19:30** — Dinner in town. Early night — the falls need the
+  whole of tomorrow and the heat peaks at two.
 
 ## Day 5 — Iguazú, the Argentine side
 
-- **All day** — The **upper and lower circuits**, then the train to
-  the **Devil's Throat** walkway, where you stand directly above the
-  largest drop. Expect to get soaked and to stop caring.
-- **Evening** — Back to town.
+- **08:00** — At the gate for opening. The Argentine side holds
+  about 80% of the falls and puts you **among** them rather than
+  opposite them.
+- **08:30** — The **Lower Circuit** first, while it is cool —
+  1.4 km of walkway down to the level of the water, with Salto
+  Bossetti overhead.
+- **10:30** — The **Upper Circuit**, along the tops of the falls.
+- **12:30** — Lunch inside the park.
+- **14:00** — The **Ecological Train** to the **Garganta del
+  Diablo** — a kilometre of catwalk over flat water that ends at
+  the edge of an 80 m horseshoe with half the river going into it.
+  It is loud enough to feel through the boards. Expect to be
+  soaked, and to stop caring.
+- **16:30** — **Isla San Martín** if the river is low enough for
+  the boat to run.
+- **18:00** — Out. Coatis on the paths are not tame; they will open
+  your bag.
 
 ## Day 6 — The Brazilian side, or the jungle
 
-- **Option A** — Cross to the **Brazilian side** for the panoramic
-  view: the Argentine side puts you in the falls, the Brazilian side
-  shows you their scale. Check whether your passport needs a
-  Brazilian visa before planning this.
-- **Option B** — Stay Argentine: a boat under the falls, or the
-  jungle trails and birdlife.
-- **Evening** — Fly or overnight back to Buenos Aires.
+- **Option A — Brazil, 09:00.** The Brazilian side is a single
+  1.2 km walkway giving the **panorama**: Argentina puts you in the
+  falls, Brazil shows you their scale, and doing both is why people
+  allow two days. **Check your visa before planning this** — many
+  nationalities need one for Brazil and it is not issued at the
+  bridge.
+- **Option B — the water, 09:00.** The **Gran Aventura** boat takes
+  you under **Salto San Martín**. You will be drenched to the skin;
+  dry bags are provided and are not optional.
+- **Option C — the forest.** The **Macuco trail**, 7 km return
+  through jungle to a waterfall you can swim beneath, with toucans
+  and capuchins and almost nobody on it.
+- **17:00** — Fly back to Buenos Aires, or overnight and fly early.
 
 ## Day 7 — South to Patagonia
 
-- **Morning** — Fly Buenos Aires → **El Calafate**, about three
-  hours. The landscape out the window changes completely.
-- **Afternoon** — Arrive. The town is small, windy and geared
-  entirely to the glacier.
-- **Evening** — Book tomorrow early.
+- **09:00** — Fly Aeroparque to **El Calafate**, about three and a
+  half hours. Watch out of the window: green pampa becomes brown
+  steppe becomes ice fields, and the change is complete.
+- **13:00** — Land. The town is small, treeless, extremely windy
+  and built entirely around the glacier.
+- **14:30** — Check in, then **Avenida del Libertador** for
+  supplies — Patagonia is expensive and the supermarket is where
+  you assemble tomorrow's lunch.
+- **16:30** — **Laguna Nimez**, a reserve on the lake edge ten
+  minutes' walk from town, with flamingos, black-necked swans and
+  the Andes behind.
+- **19:30** — Dinner — **Patagonian lamb**, cooked on a cross over
+  embers, which is the regional dish and worth the ceremony.
+- **21:00** — Book tomorrow: the park bus, and the boat if you want
+  it.
 
 ## Day 8 — Perito Moreno
 
-- **All day** — The **glacier**: a 5 km wall of ice, 70 m high,
-  which calves into the lake with a noise like artillery while you
-  watch from steel walkways.
-- **Optional** — The boat that takes you close to the face, or an
-  ice trek on the glacier itself.
-- **Evening** — Back to El Calafate.
+- **08:00** — The bus to **Parque Nacional Los Glaciares**, 80 km,
+  90 minutes.
+- **09:30** — The **balconies**. **Perito Moreno** is a 5 km wall of
+  ice, **70 m** high above the water and 170 m below it, and one of
+  very few glaciers on earth not retreating. Seven kilometres of
+  steel walkway take you along the face at every level.
+- **10:30** — Stand still and wait. It **calves** without warning —
+  a crack like artillery, then a tower of ice the size of a
+  building goes into the lake. You will hear it before you see it,
+  and you will miss the first three.
+- **13:00** — The **boat** to the south face for scale, or the
+  **mini-trekking** with crampons on the ice itself — five hours,
+  booked weeks ahead in season, and the better option if you are
+  fit.
+- **17:30** — Back to El Calafate.
+- **19:30** — The **Glaciarium** ice museum on the way in if you
+  have the energy; better than it sounds on how the ice field
+  works.
 
 ## Day 9 — Bus to El Chaltén
 
-- **Morning** — Three hours north by bus, with Fitz Roy appearing
-  on the horizon for the last hour.
-- **Afternoon** — An easy first walk — **Chorrillo del Salto** or
-  the **Mirador de los Cóndores**.
-- **Evening** — Eat early; the town starts hiking at dawn.
+- **08:00** — Three hours north by bus. **Fitz Roy** appears on the
+  horizon about an hour out and does not look real.
+- **11:00** — Arrive **El Chaltén**, founded in 1985 in a border
+  dispute and now Argentina's trekking capital — three streets, no
+  ATM you should rely on, and every trail starts from the village
+  itself. **No park fee, no permits, no guide required.**
+- **12:00** — The **ranger station** briefing, which is genuinely
+  useful on conditions.
+- **14:00** — An easy first walk: **Chorrillo del Salto**, flat and
+  an hour each way, or the **Mirador de los Cóndores**, 45 minutes
+  up for the view over the valley.
+- **18:00** — Eat early. Buy tomorrow's food tonight — the shops
+  are small and shut early.
+- **20:00** — **Check the wind forecast**, which matters more than
+  rain here and decides whether tomorrow happens.
 
 ## Day 10 — Laguna de los Tres
 
-- **All day** — The big one: about 20 km return to the lake below
-  **Fitz Roy**, with a brutal final kilometre straight up. Eight to
-  ten hours. Start early and check the wind forecast, which matters
-  more than the rain here.
-- **Alternative** — **Laguna Capri** for the same view at half the
-  effort.
+- **06:30** — Start in the dark. The **Laguna de los Tres** trail is
+  **20–22 km return**, eight to ten hours, and it is the reason
+  people come.
+- **08:30** — **Laguna Capri** at 4 km, where Fitz Roy first fills
+  the view. Many people stop here, and it is a complete day on its
+  own if the weather has turned.
+- **11:00** — The flat middle section through lenga forest to
+  **Poincenot** camp.
+- **12:00** — The last kilometre: **400 m straight up** on loose
+  scree, an hour of it, and comfortably the hardest thing on this
+  itinerary.
+- **13:00** — The lake, the granite tower directly above it, and the
+  glacier feeding in. Eat, and get cold quickly.
+- **14:00** — Down, which is harder on the knees than the climb was
+  on the lungs.
+- **17:30** — Back in the village. Beer at one of the two
+  breweries, entirely earned.
 
 ## Day 11 — El Chaltén, gentler
 
-- **Morning** — **Laguna Torre**, flatter and quieter, with Cerro
-  Torre at the end of it.
-- **Afternoon** — Bus back to El Calafate.
-- **Evening** — Last Patagonian lamb.
+- **08:30** — **Laguna Torre**, 18 km return but almost flat — three
+  hours out through forest to a glacial lake with **Cerro Torre**
+  at the end, a spire so difficult it went unclimbed until 1974 and
+  the first ascent is still argued about.
+- **13:30** — Back, and lunch.
+- **15:00** — Bus to **El Calafate**, three hours.
+- **18:30** — Arrive. Last chance for anything you meant to buy.
+- **20:30** — Last Patagonian lamb, and an early night if the
+  flight is early.
 
 ## Day 12 — Fly home
 
-- Fly El Calafate → Buenos Aires, and connect. **Leave a long gap**
-  if you are changing airports in Buenos Aires, or sleep there.
+- **Morning** — Fly **El Calafate → Aeroparque**, three and a half
+  hours.
+- **The connection is the risk.** Domestic flights land at
+  **Aeroparque** and most international flights leave from
+  **Ezeiza** — two airports, 45 minutes apart in good traffic and
+  much worse in bad. **Leave four hours**, or sleep in Buenos Aires
+  and fly out the next day.
+- **At Ezeiza**, claim the VAT refund on anything you bought with a
+  *tax free* receipt before you check in, not after.
 
 ## What this trip actually costs
 

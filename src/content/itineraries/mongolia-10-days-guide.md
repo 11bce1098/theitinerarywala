@@ -98,79 +98,168 @@ Valley**, the seat of the Mongol and earlier empires; and nights in
 
 ## Day 1 — Land in Ulaanbaatar
 
-- **Afternoon** — Land, drop bags. The capital is a Soviet grid with
-  glass towers dropped into it and ger districts on the hills around.
-- **Evening** — **Sükhbaatar Square**, then dinner. Confirm your
-  tour, your driver and your cash.
+- **13:00** — Land at **Chinggis Khaan (UBN)**, an hour south of the
+  city on the new road.
+- **14:30** — Drop bags. Ulaanbaatar is a Soviet grid with glass
+  towers dropped into it and *ger* districts climbing the hills
+  around — a third of the country lives here and the contrast is
+  the first thing you notice.
+- **16:00** — **Sükhbaatar Square**: parliament, the seated Chinggis
+  Khaan, and the scale of a capital built to be looked at.
+- **17:30** — Draw cash. **This is the last reliable ATM** — outside
+  the capital, card payment is rare and the countryside runs on
+  tögrög notes. Take more than you think.
+- **19:00** — Dinner — *khuushuur*, fried mutton pastries, and
+  Chinggis beer — then confirm three things with your operator:
+  the driver, the vehicle (a Russian UAZ van or a Land Cruiser), and
+  whether the itinerary changes if it rains.
+- **21:00** — Repack into one soft bag. Hard cases do not fit.
 
 ## Day 2 — Ulaanbaatar, and south
 
-- **Morning** — **Gandan Monastery**, the working Buddhist centre
-  that survived the purges, and the **National Museum**, which is
-  genuinely excellent on the empire.
-- **Afternoon** — Drive south toward the Gobi. The city ends
-  abruptly and then there is nothing.
-- **Evening** — First ger camp.
+- **09:00** — **Gandantegchinlen Monastery**, the working Buddhist
+  centre that survived the 1937 purges when some 18,000 monks were
+  killed. Morning prayers are open; the 26 m gilded Migjid
+  Janraisig stands in the main temple.
+- **11:00** — The **National Museum of Mongolia**, which is
+  genuinely excellent on the empire and honest about the Soviet
+  period. Two hours.
+- **13:00** — Lunch, then leave the city.
+- **14:30** — Drive south. The city ends abruptly — one moment
+  apartment blocks, the next open steppe with nothing on it to the
+  horizon in every direction. There are no fences.
+- **18:00** — First **ger camp**. A ger is a felt tent with a stove
+  in the middle, beds round the edge, and a door that always faces
+  south. The stove goes out around 03:00 and it gets cold.
+- **20:00** — Dinner in the camp's dining ger. Mutton, noodles, and
+  suutei tsai — salted milk tea, which you will either take to or
+  not.
 
 ## Day 3 — Into the Gobi
 
-- **All day** — Driving, with stops. The **Baga Gazriin Chuluu**
-  granite formations or **Tsagaan Suvarga**'s eroded cliffs,
-  depending on your route.
-- **Evening** — Steppe sunset, which takes an hour and covers the
-  whole sky.
+- **08:00** — Driving, and this is the day to make peace with it:
+  Mongolia has almost no sealed roads outside the main corridors,
+  so "road" means parallel tyre tracks across open ground and your
+  driver picks a line.
+- **11:00** — **Baga Gazriin Chuluu**, granite outcrops rising out
+  of flat steppe with a ruined monastery among them, or **Tsagaan
+  Suvarga** — a 60 m escarpment of eroded sediment in orange and
+  white, depending on the route.
+- **13:30** — Lunch out of the van.
+- **16:00** — Arrive at camp. Walk out from it in any direction for
+  twenty minutes and turn round; the absence of anything is the
+  point of the Gobi and it does not photograph.
+- **19:30** — Dinner, then the **sunset**, which on the steppe takes
+  an hour and fills the whole sky rather than one corner of it.
+- **21:30** — The stars. No light within 100 km.
 
 ## Day 4 — Yolyn Am, the ice gorge
 
-- **Morning** — **Yolyn Am**, a narrow gorge in the Gobi Gurvan
-  Saikhan mountains that holds ice into July — a glacier in a desert.
-- **Afternoon** — The walk up the gorge, with pikas and lammergeiers.
-- **Evening** — Ger camp near Dalanzadgad.
+- **08:30** — Into the **Gobi Gurvan Saikhan** mountains for **Yolyn
+  Am** — the Valley of the Lammergeier, a gorge that narrows to a
+  few metres and holds **ice into July**. A glacier in a desert,
+  which is not what anyone expects of the Gobi.
+- **10:00** — Walk up the gorge, an easy two hours in and out.
+  Pikas everywhere in the scree, lammergeiers overhead, and
+  occasionally ibex on the walls.
+- **13:00** — Lunch in Dalanzadgad or at camp.
+- **15:00** — The small **Gobi museum** at Dalanzadgad, or rest.
+- **17:00** — This is the one day the Gobi feels cold. Layers.
+- **19:30** — Camp near Dalanzadgad. Charge everything — the
+  next camps may run a generator for two hours only.
 
 ## Day 5 — Khongoryn Els, the singing dunes
 
-- **Afternoon** — **Khongoryn Els**: dunes up to 300 m high running
-  for 100 km, which make a low booming sound as the sand shifts.
-- **Evening** — Climb one for sunset. It is much harder than it
-  looks and worth every step.
-- **Optional** — Camel ride, which here is a two-humped Bactrian and
-  a working animal.
+- **08:00** — Drive west to the dunes, four to five hours across
+  gravel desert.
+- **13:00** — Arrive **Khongoryn Els**: dunes up to **300 m** high
+  running for 100 km along the mountain foot, with a green stream
+  and grazing camels at their base. They make a low booming sound
+  as the sand shifts, which is where the name comes from.
+- **15:00** — A **Bactrian camel** ride — two humps, a working
+  animal, and the herder's actual transport rather than a
+  concession.
+- **17:30** — **Climb the dune.** It is 200-odd metres of sand that
+  gives way under each step, it takes most people 45 minutes, and
+  it is far harder than it looks. Do it anyway: the ridge at sunset,
+  with desert on one side and mountain on the other, is the best
+  hour of the trip.
+- **20:00** — Dinner, and sand in everything for the rest of the
+  week.
 
 ## Day 6 — The Flaming Cliffs
 
-- **Morning** — **Bayanzag**, the red sandstone cliffs where Roy
-  Chapman Andrews found the first dinosaur eggs known to science in
-  1923. Still producing fossils.
-- **Afternoon** — North out of the desert.
-- **Evening** — Ger camp on the steppe.
+- **08:30** — **Bayanzag**, the **Flaming Cliffs** — red sandstone
+  that turns orange in low sun, and where Roy Chapman Andrews found
+  the **first dinosaur eggs known to science** in 1923. The site
+  still produces fossils; it is illegal to remove anything, and
+  people still try.
+- **10:30** — Walk the cliff edge and down into the saxaul forest
+  below.
+- **12:00** — Lunch, then north out of the desert.
+- **17:30** — The landscape greens as you climb — gravel gives way
+  to grass, and there are suddenly horses and herds everywhere.
+- **19:00** — Ger camp on the steppe.
 
 ## Day 7 — North to the Orkhon Valley
 
-- **All day** — The long drive north into greener country, with
-  herds and gers increasingly visible.
-- **Evening** — The **Orkhon Valley**, a UNESCO landscape and the
-  heart of successive steppe empires.
+- **08:00** — The long drive north. Six to eight hours depending on
+  the ground, with stops wherever the driver decides.
+- **12:00** — Lunch, often at a roadside *guanz* — a canteen ger
+  where the menu is whatever is in the pot.
+- **15:00** — **Ongi monastery** ruins if you route through them:
+  destroyed in 1939, with a small rebuilt temple among the rubble
+  and a monk who will explain what happened.
+- **18:00** — The **Orkhon Valley**, a UNESCO cultural landscape and
+  the seat of successive steppe empires — Xiongnu, Turkic, Uighur
+  and Mongol — because this is where the grass and water are.
+- **19:30** — Camp. Noticeably greener, wetter and colder than the
+  Gobi.
 
 ## Day 8 — The valley
 
-- **Morning** — **Orkhon waterfall**, and a horse ride, which is the
-  correct way to cover ground here.
-- **Afternoon** — A family ger visit: milking, felt-making, and
-  however much of the day they want to give you.
-- **Evening** — Stay with the family if your operator arranges it.
+- **08:30** — The **Orkhon waterfall**, 20 m over a basalt lip into
+  a gorge you can climb down into. It is fed by snowmelt and is
+  thin by late summer.
+- **10:30** — **Horses.** This is the correct way to cover ground
+  here and a Mongolian horse is small, half-wild and faster than
+  you expect. A half-day with a herder costs very little; say
+  honestly how much you have ridden.
+- **13:30** — Lunch.
+- **15:00** — A **family ger visit**: milking, the separating of
+  curds, felt-making, and the airag — fermented mare's milk — which
+  you will be offered and should at least try. Take the bowl with
+  your right hand.
+- **18:00** — Stay with the family if your operator has arranged
+  it. It is the single best night of the trip and it is not a
+  performance; you are in someone's home.
 
 ## Day 9 — Kharkhorin, and back
 
-- **Morning** — **Kharkhorin**, the site of Karakorum — Genghis
-  Khan's capital — and **Erdene Zuu**, the monastery built from its
-  stones and ringed by 108 stupas.
-- **Afternoon** — Drive back to Ulaanbaatar, around six hours on
-  mostly paved road.
-- **Evening** — A shower, and a restaurant.
+- **08:30** — **Kharkhorin**, on the site of **Karakorum**, Chinggis
+  Khaan's capital from 1235. There is almost nothing left above
+  ground — the Chinese razed it — which is itself worth standing in.
+- **09:30** — **Erdene Zuu**, Mongolia's oldest surviving monastery,
+  built in 1585 **from the stones of Karakorum** and ringed by a
+  wall of **108 stupas**. Three temples survived the purges out of
+  more than sixty.
+- **12:00** — Lunch, then the six-hour drive back to Ulaanbaatar on
+  mostly sealed road.
+- **18:30** — Arrive. A shower, which after nine days will be
+  memorable.
+- **20:00** — Dinner in a restaurant with a menu. **Modern
+  Nomads** or one of the Peace Avenue places.
 
 ## Day 10 — Fly home
 
-- The airport is an hour south of the city on a good road.
+- **Morning** — The **State Department Store** on Peace Avenue for
+  cashmere, which is genuinely cheap here and genuinely good — the
+  sixth floor is the one you want.
+- **Afternoon** — The airport is an hour south on a good road.
+- **Note** — If you flew in on a narrow schedule, keep a spare day
+  in Ulaanbaatar rather than at the end of the countryside leg.
+  Rain turns tracks to mud and the return drive is the thing that
+  slips.
 
 ## What this trip actually costs
 
