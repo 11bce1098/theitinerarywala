@@ -83,56 +83,130 @@ evenings stretch past ten and the whole country moves outdoors.
 
 ## Day 1 — Land, and the old town at dusk
 
-- **Afternoon** — Land, drop bags, walk into **Gamla Stan** — the
-  narrow lanes, **Stortorget**'s painted facades and the palace.
-- **Evening** — Dinner in the old town's back streets rather than on
-  the main drag, then the waterfront as the light goes — which in
-  June it barely does.
+- **14:00** — Land at **Arlanda (ARN)**. The **Arlanda Express**
+  runs to Central Station in 18 minutes; the **Flygbussarna** coach
+  takes 45 and costs a third as much. Both are fine.
+- **15:30** — Drop bags. **Gamla Stan** puts you in the middle of
+  it; **Södermalm** is where you will eat better.
+- **16:30** — Walk into **Gamla Stan**: **Stortorget** and its
+  painted facades, **Mårten Trotzigs Gränd** at 90 cm the narrowest
+  lane in the city, and the **Royal Palace** — 600 rooms, and still
+  the working one.
+- **18:00** — **Monteliusvägen**, the cliff path on Södermalm, for
+  the view back over the water to the old town. Ten minutes' walk
+  and the best free thing in Stockholm.
+- **19:30** — Dinner in Gamla Stan's back streets rather than on
+  Västerlånggatan, where the prices are for people who do not know
+  there is a back street.
+- **Note on light** — In June it barely gets dark at all; in
+  December it is dark by three. Both are worth experiencing and
+  they are entirely different cities.
 
 ## Day 2 — The Vasa, and Djurgården
 
-- **Morning** — The **Vasa Museum**, early, before the tour groups.
-  Allow two hours; you will want them.
-- **Afternoon** — **Djurgården** island: **Skansen**'s open-air
-  museum, or the **ABBA** museum, or simply the park.
-- **Evening** — **Södermalm** for dinner — the hilly, scruffier,
-  better-eating side of the city.
+- **08:30** — The **Vasa Museum** at opening, before the tour
+  groups. A 64-gun warship that sank 1,300 m into her maiden voyage
+  in 1628, sat in the mud for 333 years, and came up **98%
+  intact**. Allow two hours; you will want them, and the ship is
+  genuinely difficult to take in.
+- **11:00** — Walk **Djurgården**, the royal park island. The
+  **Nordiska Museet** if it rains.
+- **12:30** — Lunch at **Rosendals Trädgård**, a biodynamic garden
+  café in the middle of the island — soup, bread, and cake in a
+  greenhouse.
+- **14:00** — **Skansen**, the world's first open-air museum (1891):
+  150 buildings moved here from across Sweden, plus Nordic animals
+  — bear, wolf, lynx, moose. Two to three hours.
+- **17:00** — The **ABBA Museum** if that is your thing; it is
+  unembarrassed and well made.
+- **19:30** — **Södermalm** for dinner — the hillier, scruffier,
+  better-eating half of the city. **SoFo**, the blocks south of
+  Folkungagatan, is the concentration.
 
 ## Day 3 — Out to the archipelago
 
-- **Morning** — Ferry to **Vaxholm** or **Grinda**, an hour or two
-  out, past red wooden cottages and bare rock.
-- **Afternoon** — Swim if it is summer. Walk if it is not.
-- **Evening** — Back on the late ferry, which in midsummer runs in
-  full daylight.
+- **09:00** — Ferry from **Strömkajen**. The archipelago is
+  **30,000 islands** and you cannot see it in a day, so pick one:
+  **Vaxholm** (one hour, a fortress town, easiest) or **Grinda**
+  (two hours, mostly nature, better).
+- **11:00** — Arrive. Red wooden cottages with white trim, bare
+  granite worn smooth by ice, and pine down to the waterline.
+- **12:30** — Lunch at the island inn — herring, new potatoes, dill.
+- **14:00** — Walk the shore path, and **swim** if it is June to
+  August. The Baltic is brackish, cold and clean, and the rocks are
+  warm.
+- **17:00** — The late ferry back, which in midsummer runs in full
+  daylight and feels like the middle of the afternoon.
+- **20:00** — Dinner back in town.
+- **Alternative** — The **Cinderella** boats are faster and the
+  **Waxholmsbolaget** commuter ferries are cheaper and slower.
+  Check the last return before you go out; they thin considerably
+  outside summer.
 
 ## Day 4 — Museums, and the metro
 
-- **Morning** — **Fotografiska** for photography, or the
-  **Nationalmuseum** for the older collection.
-- **Afternoon** — Ride the **blue line** for the cave stations, then
-  **Kungsholmen** for the City Hall where the Nobel banquet is held.
-- **Evening** — Fika properly, in a place with a queue.
+- **09:30** — **Fotografiska** on the Södermalm waterfront — four
+  changing photography exhibitions, open late, and the top-floor
+  café has the view.
+- **12:00** — Lunch, then across to **Kungsholmen**.
+- **13:30** — **Stadshuset**, the City Hall, by guided tour only —
+  the **Blue Hall** where the Nobel banquet is held (it is not
+  blue) and the **Golden Hall** lined with 18 million mosaic
+  tiles. The tower climb is separate and worth it.
+- **15:30** — Ride the **blue line**. Stockholm's metro is the
+  longest art gallery in the world — **T-Centralen**'s blue
+  vine-work, **Solna Centrum**'s red forest, **Kungsträdgården**'s
+  excavated ruins. A single ticket covers 90 minutes of hopping
+  between them.
+- **17:30** — **Nationalmuseum** for the older collection, free and
+  open late on Thursdays.
+- **19:00** — **Fika**, properly: coffee and a *kanelbulle* at a
+  place with a queue. It is a fixed part of the day here, not a
+  snack.
 
 ## Day 5 — Uppsala
 
-- **Morning** — Train north, 40 minutes. The **cathedral** is the
-  tallest in Scandinavia; the **university** is the oldest in the
-  Nordics.
-- **Afternoon** — **Gamla Uppsala**'s royal burial mounds, which
-  predate everything else on this trip by a very long way.
-- **Evening** — Back to Stockholm.
+- **08:30** — Train north from Central Station, **40 minutes**, and
+  trains leave several times an hour.
+- **09:30** — **Uppsala Cathedral**, the tallest in Scandinavia at
+  118 m, with Gustav Vasa's tomb and Carl Linnaeus buried in the
+  floor.
+- **11:00** — **Gustavianum**, the old university building, for the
+  **anatomical theatre** in the cupola — 1660s, and used in public.
+  The university is the oldest in the Nordics, founded 1477.
+- **13:00** — Lunch by the **Fyris** river.
+- **14:30** — **Gamla Uppsala**, ten minutes out: three **royal
+  burial mounds** from the 6th century, a museum, and a church on
+  the site of the pagan temple that stood here before it. This
+  predates everything else on the trip by a thousand years.
+- **17:30** — Train back.
+- **19:30** — Dinner in Stockholm.
 
 ## Day 6 — Stockholm your way
 
-- Options: a second island, **Drottningholm** palace by boat, the
-  **Moderna Museet**, or a long slow day of markets and fika.
-- **Evening** — Last dinner. Try the herring, honestly prepared.
+- **Option A — Drottningholm.** The royal residence, a UNESCO site,
+  reached by **steamboat** in an hour across Lake Mälaren — the
+  palace, the Chinese Pavilion and an 18th-century **theatre with
+  its original stage machinery still working**.
+- **Option B — art.** **Moderna Museet** on Skeppsholmen (Picasso,
+  Dalí, and a Rauschenberg goat), then the island's walk round.
+- **Option C — a second island.** **Sandhamn** or **Fjäderholmarna**,
+  the latter only 25 minutes out and enough for an afternoon.
+- **Option D — markets and nothing.** **Östermalms Saluhall** for
+  the food hall, **Hötorgshallen** for the cheaper one, and a long
+  slow day.
+- **19:30** — Last dinner. Try the herring properly prepared —
+  pickled three ways, with potatoes, sour cream and *västerbotten*
+  cheese — rather than the version that put you off.
 
 ## Day 7 — Fly home
 
-- Arlanda is 20 minutes by express train from the centre, and
-  considerably cheaper by commuter train if you have the time.
+- **Morning** — **Arlanda Express** from Central, 18 minutes, every
+  15 minutes. The **commuter train** takes 40 and costs
+  considerably less if you have the time.
+- **Note** — Sweden is close to cashless. Many places take **no
+  cash at all**, including some museums and most cafés, so a card
+  is not optional here — it is the only thing that works.
 
 ## What this trip actually costs
 

@@ -92,81 +92,169 @@ version helps more than either reassurance or alarm.
 
 ## Day 1 — Land in Rio
 
-- **Afternoon** — Land, transfer to **Copacabana** or **Ipanema**.
-- **Evening** — Walk the beachfront promenade, which is busy and
-  safe and the best introduction to how the city uses itself.
+- **13:00** — Land at **Galeão (GIG)**, 20 km north. Take an
+  official taxi or a pre-booked car; the ride into the Zona Sul is
+  40–60 minutes.
+- **14:30** — Stay in **Copacabana**, **Ipanema** or **Leblon**.
+  This matters more than usual in Rio: these are the neighbourhoods
+  where walking around at night is normal.
+- **16:00** — Onto the beach. **Copacabana** is 4 km of mosaic
+  promenade, and the numbered lifeguard posts — *postos* — are how
+  the city gives directions.
+- **18:00** — Walk to **Arpoador**, the rock at the end of Ipanema,
+  for sunset. People applaud when the sun goes; this is not a
+  performance for visitors, they do it every evening.
+- **20:00** — Dinner in Ipanema. A *chopp* — draught lager, served
+  very cold — and *pão de queijo* while you decide.
+- **Note** — Take a cheap phone or none at all to the beach, leave
+  your passport in the safe, and carry small notes. Rio is fine
+  with ordinary care and unforgiving of carelessness.
 
 ## Day 2 — Sugarloaf and the south
 
-- **Morning** — **Sugarloaf** by cable car in two stages, ideally
-  late afternoon for the light — but go early if the forecast is
-  poor, because cloud ruins it.
-- **Afternoon** — **Ipanema** and the **Arpoador** rock, where
-  people applaud the sunset.
-- **Evening** — Dinner in Ipanema or Leblon.
+- **09:00** — **Praia Vermelha** and the **Pista Cláudio Coutinho**,
+  a flat 2 km path under the cliffs with marmosets in the trees.
+- **10:30** — **Sugarloaf (Pão de Açúcar)** by cable car in two
+  stages — first to **Morro da Urca**, then to the summit at 396 m.
+  Go **early if the forecast is poor**, because cloud ruins it
+  entirely; go late if it is clear, because the light at sunset is
+  better.
+- **13:00** — Lunch in **Urca**, the quiet village beneath it, and
+  the sea wall where locals drink beer facing the bay.
+- **15:30** — **Ipanema** and **Leblon** beaches. Posto 9 is the
+  liveliest stretch; rent a chair and umbrella from the vendors,
+  which costs little and is what everyone does.
+- **18:00** — Arpoador again, or **Parque Lage** for the mansion and
+  the jungle courtyard with Christ framed above it.
+- **21:00** — Dinner in Leblon.
 
 ## Day 3 — Christ, and the forest
 
-- **Early** — **Christ the Redeemer** on the first train up, before
-  the cloud and the crowds. Book the timed ticket ahead.
-- **Afternoon** — **Tijuca** forest, the urban rainforest, or the
-  **Botanical Garden** below it.
-- **Evening** — **Lapa** for the arches and live music, by car both
-  ways.
+- **07:30** — **Christ the Redeemer** on the first train from
+  **Cosme Velho**. Book the **timed ticket** in advance — it sells
+  out — and take the earliest slot: by ten the platform is full and
+  by eleven the cloud is usually in.
+- **09:30** — Down, and into **Tijuca**, the largest urban
+  rainforest in the world, replanted by hand from the 1860s after
+  the coffee estates stripped the hills.
+- **11:00** — The **Cascatinha Taunay** waterfall and the trail to
+  **Pico da Tijuca** if you want the climb, or the easy circuits if
+  you do not.
+- **13:30** — Lunch, then the **Jardim Botânico** below the forest —
+  imperial palms, 8,000 species, and toucans in the fig trees.
+- **16:30** — The **Escadaria Selarón**, the tiled steps in Lapa, in
+  late light.
+- **20:00** — **Lapa** for the arches and live *samba* and *choro*.
+  Go by taxi both ways, keep your phone in your pocket, and stay on
+  the busy streets — the music is worth it and the caution is not
+  optional.
 
 ## Day 4 — Down the coast to Paraty
 
-- **Morning** — Four hours south along the Costa Verde.
-- **Afternoon** — Arrive in **Paraty**: whitewashed colonial houses,
-  cobbles laid to flood at high tide, no cars in the old town.
-- **Evening** — Dinner in the historic centre, which is lit by
-  lamplight and looks it.
+- **08:30** — Four hours south on the **Costa Verde**, a coast road
+  between the Atlantic forest and the sea, with stops wherever the
+  view demands.
+- **12:30** — Arrive **Paraty**: whitewashed colonial houses, heavy
+  wooden doors, and cobbles laid deliberately uneven so the highest
+  tides flood and clean the streets. **No cars in the old town.**
+- **14:00** — Lunch, then wander. The grid is small and getting
+  lost takes effort.
+- **16:00** — The **Casa da Cultura**, and the four churches — the
+  town built separate ones for whites, freed Black residents and
+  enslaved people, which the guides will explain properly.
+- **18:30** — The quay as the boats come in.
+- **20:00** — Dinner in the historic centre, lit by lamplight
+  because there is very little else.
 
 ## Day 5 — Islands and beaches
 
-- **All day** — A **schooner trip** around the bay, stopping at
-  islands and swimming beaches. This is what Paraty is for.
-- **Evening** — A cachaça distillery tasting; the region invented
-  the good stuff.
+- **09:00** — The **schooner trip** around the bay: five hours,
+  four or five stops, swimming off the boat at each. The bay holds
+  65 islands and about 300 beaches, and this is the only sensible
+  way to see any of them.
+- **12:00** — Lunch on board or on **Ilha Comprida**.
+- **15:30** — **Praia Vermelha** or **Lula** on the far shore, which
+  the small boats reach and the big ones do not.
+- **17:00** — Back to the quay.
+- **18:30** — A **cachaça** tasting. The region's *alambiques*
+  distil single-estate cane spirit that has nothing to do with the
+  supermarket version — **Engenho d'Ouro** and **Maria Izabel** are
+  the names to ask for.
+- **20:30** — Dinner.
 
 ## Day 6 — Paraty slow
 
-- **Morning** — The **gold trail**, a Portuguese-era stone road
-  through the rainforest, or a waterfall walk.
-- **Afternoon** — The town itself, unhurried.
-- **Evening** — Back toward Rio, or an early night before the
-  transfer.
+- **08:30** — The **Caminho do Ouro** — the Gold Trail, a
+  Portuguese-era stone road built by enslaved labour to carry gold
+  from Minas Gerais down to the port. Three hours with a guide, up
+  through rainforest, with a waterfall and a cachaça still at the
+  top.
+- **13:00** — Lunch back in town.
+- **15:00** — **Trindade**, 40 minutes south — a beach village with
+  a natural rock pool you can swim in, and considerably less
+  polished than Paraty.
+- **18:00** — Back, and the old town unhurried.
+- **20:00** — Last Paraty dinner. Repack for the flight.
 
 ## Day 7 — Fly to Iguaçu
 
-- **Morning** — Transfer to Rio and fly to **Foz do Iguaçu**, about
-  two hours.
-- **Afternoon** — Settle. The falls are 20 minutes from town.
-- **Evening** — Early night; the park is best at opening.
+- **07:00** — Transfer back to Rio, four hours.
+- **13:00** — Fly from **Galeão** or **Santos Dumont** to **Foz do
+  Iguaçu**, about two hours.
+- **15:30** — Land. The town is 20 minutes from the park and the
+  heat is subtropical.
+- **17:00** — Check in, swim.
+- **19:00** — Dinner. **Buy tomorrow's park ticket online tonight**
+  and take the earliest entry; the difference between 09:00 and
+  11:00 at the falls is the difference between a walkway and a
+  scrum.
 
 ## Day 8 — The falls, Brazilian side
 
-- **Morning** — The **Brazilian park**: a single panoramic trail
-  along the gorge that ends on a walkway into the spray beneath the
-  Devil's Throat. Two to three hours, and the view that appears on
-  every poster.
-- **Afternoon** — **Parque das Aves**, the bird park opposite,
-  which is much better than it needs to be.
-- **Evening** — Dinner in Foz.
+- **08:00** — Into the **Parque Nacional do Iguaçu** at opening.
+  A double-decker shuttle runs from the visitor centre to the trail
+  head.
+- **08:45** — The **Trilha das Cataratas**: 1.2 km along the gorge,
+  with the whole Argentine side opening up opposite you. Brazil
+  holds about 20% of the falls and has the view of the other 80% —
+  that is why people do both sides.
+- **10:00** — The walkway out into the spray below the **Garganta
+  do Diabo**, where you will be soaked and the noise makes
+  conversation impossible. The lift at the end takes you up to the
+  terrace above it.
+- **12:00** — Out, and lunch.
+- **14:00** — **Parque das Aves** opposite the entrance — a bird
+  park far better than it needs to be, with walk-through aviaries of
+  toucans and macaws, and a serious rescue and breeding programme.
+- **17:00** — Back to Foz.
 
 ## Day 9 — The Argentine side, or the dam
 
-- **Option A** — Cross to **Argentina** for the upper and lower
-  circuits, which put you among the falls rather than opposite them.
-  Check whether your passport needs an Argentine visa first.
-- **Option B** — **Itaipu dam**, one of the largest in the world,
-  and a genuinely impressive piece of engineering.
-- **Evening** — Last night.
+- **Option A — Argentina, 08:00.** The **upper and lower circuits**
+  put you **among** the falls, and the train to the Garganta del
+  Diablo walkway puts you directly above the main drop. It is the
+  better of the two sides and needs a full day. **Check your visa
+  before planning it** — many nationalities need one for Argentina
+  and it is not issued at the border.
+- **Option B — Itaipu, 09:00.** One of the largest hydroelectric
+  dams in the world, 8 km of concrete, and it supplies most of
+  Paraguay's electricity and a large share of Brazil's. The
+  technical tour goes inside; the panoramic one does not. Genuinely
+  impressive engineering.
+- **Option C** — The **helicopter** over the falls, 10 minutes,
+  and the only way to see the full horseshoe at once.
+- **19:30** — Last night in Foz.
 
 ## Day 10 — Fly home
 
-- Fly Foz → Rio or São Paulo and connect. Allow a long layover;
-  domestic-to-international transfers here are not quick.
+- **Morning** — Fly Foz to **Rio** or **São Paulo** and connect.
+- **Allow a long layover.** Domestic-to-international transfers in
+  Brazil mean collecting bags, changing terminals and checking in
+  again — **four hours at Guarulhos** is sensible, and three is
+  tight.
+- **Note** — If your international flight leaves from **Galeão** and
+  you land at **Santos Dumont**, those are different airports.
+  Check which one your ticket says.
 
 ## What this trip actually costs
 
