@@ -93,53 +93,119 @@ you barely notice the moving.
 
 ## Day 1 — Land in Brussels
 
-- **Afternoon** — Land, drop bags. **Grand-Place** first: the guild
-  houses are the most concentrated piece of architecture in the
-  country.
-- **Evening** — Dinner near Sainte-Catherine rather than on the
-  tourist strip off Grand-Place, which is all barkers and mediocrity.
+- **14:00** — Land at **Brussels Airport (BRU)**. The train to
+  **Bruxelles-Central** takes 20 minutes and runs four times an
+  hour. If you flew into **Charleroi**, that is a different airport
+  an hour away by coach — check which one your ticket says.
+- **15:30** — Drop bags. Stay near **Sainte-Catherine** or the
+  **Dansaert** quarter rather than immediately on Grand-Place.
+- **16:30** — **Grand-Place**. Guild houses in gilded baroque on all
+  four sides, rebuilt after Louis XIV's bombardment in 1695, and the
+  most concentrated piece of architecture in Belgium. Stand still in
+  the middle of it for ten minutes.
+- **17:30** — **Galeries Royales Saint-Hubert**, Europe's first
+  covered shopping arcade (1847), and the chocolatiers in it —
+  **Neuhaus** invented the filled praline here in 1912.
+- **19:30** — Dinner around **Sainte-Catherine**, not on the
+  **Rue des Bouchers** strip off Grand-Place, which is all barkers,
+  laminated menus and disappointment.
+- **21:00** — A first beer. Ask what is on and let them choose.
 
 ## Day 2 — Brussels properly
 
-- **Morning** — **Royal Museums of Fine Arts** for the Bruegels and
-  the Magritte collection next door.
-- **Afternoon** — The **comic-strip route** of painted walls, and
-  Manneken Pis, which is small and which everyone photographs anyway.
-- **Evening** — A proper beer bar with a list the length of a menu.
+- **10:00** — **Royal Museums of Fine Arts**: the **Bruegel**
+  collection — the Census at Bethlehem, the Fall of the Rebel
+  Angels — and the **Magritte Museum** in the same complex, which is
+  the largest holding of his work anywhere and is best done second.
+- **13:00** — Lunch, then the **Mont des Arts** gardens for the view
+  back down over the lower town.
+- **14:30** — The **comic-strip route**: around 60 painted gable
+  walls across the centre — Tintin, Lucky Luke, the Smurfs — with
+  the **Comics Art Museum** in a Horta building if you want the
+  indoor version. Belgium takes this seriously and so should you.
+- **16:00** — **Manneken Pis**, which is 61 cm tall, usually dressed
+  in one of his 1,000 costumes, and photographed by everyone
+  including you.
+- **17:00** — **Musical Instruments Museum** in the Old England
+  art-nouveau department store, with the rooftop café.
+- **19:30** — A **proper beer bar** — **Delirium**, **Moeder
+  Lambic**, or **À la Mort Subite** for the lambic in its own
+  1920s room. Trappist, gueuze, kriek; every beer has its own
+  glass and they are not being precious.
 
 ## Day 3 — Train to Bruges
 
-- **Morning** — An hour by train. Drop bags.
-- **Afternoon** — The **Markt** and the **belfry**, 366 steps for
-  the view.
-- **Evening** — **Bruges after six**, when the coaches have gone and
-  the canals reflect the lamps. This is why you are sleeping here.
+- **09:30** — Train to **Bruges**, one hour, twice an hour, no
+  booking needed.
+- **11:00** — Drop bags. **Stay the night** — this is the single
+  most important decision on a Belgium trip and the reason the
+  itinerary is shaped this way.
+- **12:00** — The **Markt** and lunch on a side street off it.
+- **14:00** — The **Belfry**: **366 steps**, a narrowing spiral, and
+  a carillon of 47 bells at the top. Tickets are timed and capped.
+- **15:30** — The **Burg** square next door, the **Basilica of the
+  Holy Blood**, and the **Begijnhof** — a walled courtyard of white
+  houses under poplars, founded 1245, still silent.
+- **18:00** — **Bruges after six.** The day coaches leave, the
+  streets empty, and the canals go still and reflect the lamps. The
+  town that was unbearable at two in the afternoon becomes the best
+  thing in the country at eight.
+- **20:00** — Dinner. *Waterzooi*, or mussels if they are in season
+  — which is September to April, despite what the tourist menus
+  claim in July.
 
 ## Day 4 — Bruges at dawn, then Ghent
 
-- **Early** — Walk the canals before eight. The town is silent and
-  you will have it.
-- **Late morning** — The **Groeningemuseum** for the Flemish
-  Primitives, or a canal boat.
-- **Afternoon** — Train to **Ghent**, 30 minutes.
-- **Evening** — The **Graslei** waterfront, lit, with dinner
-  alongside it.
+- **07:30** — **Walk the canals before eight.** Rozenhoedkaai,
+  Groenerei, the Bonifacius bridge — you will have them to
+  yourself, and the light is low and flat on the water. This hour
+  is why you stayed.
+- **09:30** — Breakfast, then the **Groeningemuseum** for the
+  **Flemish Primitives** — Van Eyck's Madonna with Canon van der
+  Paele and Memling's portraits, in a small museum you can do
+  properly in 90 minutes.
+- **12:00** — A **canal boat**, 30 minutes, which shows you the back
+  of every building you have walked past.
+- **13:30** — Lunch, collect bags.
+- **15:00** — Train to **Ghent**, 30 minutes.
+- **16:00** — Ghent is the correction to Bruges: the same canals and
+  guild houses, but a working university city of 70,000 students
+  rather than a preserved one.
+- **19:00** — The **Graslei** and **Korenlei** waterfronts, lit, and
+  dinner alongside.
 
 ## Day 5 — Ghent and Antwerp
 
-- **Morning** — **Gravensteen** castle, and **Saint Bavo's** for the
-  **Ghent Altarpiece**, which is worth the timed ticket.
-- **Afternoon** — Train to **Antwerp**, 45 minutes: the cathedral's
-  Rubens panels, the station itself (one of Europe's finest), and
-  the fashion district.
-- **Evening** — Back to Ghent or on to Brussels, depending where you
-  fly from.
+- **09:30** — **Saint Bavo's Cathedral** for the **Ghent
+  Altarpiece** — Van Eyck's 1432 polyptych, the most stolen artwork
+  in history, now shown with an augmented-reality guide in a
+  climate-controlled room. Book the timed ticket; it is the single
+  best thing in Belgium.
+- **11:00** — **Gravensteen**, the moated castle of the Counts of
+  Flanders, whose audio guide is unexpectedly funny and covers the
+  torture instruments with enthusiasm.
+- **12:30** — Lunch — a *cuberdon*, the cone-shaped raspberry sweet
+  sold from carts here.
+- **14:00** — Train to **Antwerp**, 45 minutes.
+- **14:45** — **Antwerpen-Centraal** itself, which is one of the
+  finest railway stations in Europe — stone, iron and glass over
+  four levels, and worth walking back out of to look at.
+- **15:30** — The **Cathedral of Our Lady** for four **Rubens**
+  altarpieces in the room they were painted for, then the
+  **fashion district** around Nationalestraat and **MoMu**.
+- **18:00** — Back to Ghent, or on to Brussels if you fly from
+  there. Check which before you buy the ticket.
 
 ## Day 6 — Fly home
 
-- Brussels airport is 20 minutes by train from the centre. Charleroi,
-  used by low-cost carriers, is an hour by coach — check which one
-  your flight leaves from.
+- **Morning** — **Brussels Airport** is 20 minutes by train from
+  Central, four times an hour. **Charleroi** is an hour by coach and
+  the coach leaves from a different place — confirm the night
+  before.
+- **Last stop** — Chocolate at the station is fine; chocolate from
+  **Pierre Marcolini**, **Wittamer** or a local *chocolatier* is
+  the thing you will wish you had bought. Buy it the day before,
+  not at the gate.
 
 ## What this trip actually costs
 

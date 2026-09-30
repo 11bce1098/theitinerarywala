@@ -83,51 +83,116 @@ Six days is right. Denmark is small, and Copenhagen rewards slowness.
 
 ## Day 1 — Land, and Nyhavn
 
-- **Afternoon** — Land, drop bags, collect the bike.
-- **Evening** — **Nyhavn**'s painted houses, then a walk along the
-  harbour to the opera house. In summer this is a late-evening city.
+- **14:00** — Land at **Kastrup (CPH)**. The **metro** runs to the
+  centre in 15 minutes, driverless, every few minutes — there is no
+  reason to take a taxi.
+- **15:00** — Drop bags, then **collect a bike**. Copenhagen has
+  more bicycles than people and 400 km of protected lane; renting
+  for the trip costs little and turns a walkable city into an easy
+  one. Ride on the right of the lane, signal with your hand, and do
+  not stop in it.
+- **16:30** — **Nyhavn**: the painted 17th-century houses along the
+  canal, with Hans Christian Andersen's house at number 20. It is
+  the postcard and it is crowded; ten minutes is enough.
+- **17:30** — Ride the harbour path to the **Opera House** and back
+  along **Christianshavn's** canals, which is the version of the
+  same thing without the crowd.
+- **19:30** — Dinner. **Torvehallerne**, the glass market halls, for
+  the informal version — smørrebrød, fish, and a beer standing up.
+- **Note** — In June the light lasts past eleven; in December it is
+  dark by half past three and the city runs on candles and *hygge*
+  instead.
 
 ## Day 2 — The city by bike
 
-- **Morning** — **Rosenborg Castle** for the crown jewels and the
-  gardens, then **Amalienborg** for the palace square.
-- **Afternoon** — The **Little Mermaid** briefly, since you will be
-  asked, then **Kastellet**'s star fort, which is better.
-- **Evening** — **Reffen** or another street-food hall.
+- **09:30** — **Rosenborg Castle**: the **crown jewels** in the
+  basement, a Renaissance royal residence above, and the **Kongens
+  Have** gardens around it — the oldest royal gardens in Denmark
+  and the city's lunchtime lawn.
+- **11:30** — **Amalienborg**, four identical palaces around an
+  octagonal square, and the **changing of the guard at noon** if the
+  Queen is in residence (the flag tells you).
+- **12:30** — **Frederik's Church**, the marble dome opposite.
+- **13:30** — Lunch in **Nyboder** or by the harbour.
+- **15:00** — The **Little Mermaid**, briefly, because you will be
+  asked. She is small, there is a coach party, and four minutes
+  covers it.
+- **15:30** — **Kastellet** next door, which is the better site: a
+  star-shaped fortress from 1664, still a working military area,
+  with a windmill on the rampart and a moat you can ride around.
+- **18:00** — **Reffen** on the harbour — street-food stalls in
+  shipping containers on a reclaimed industrial spit, best reached
+  by bike, and the most enjoyable cheap dinner in the city.
 
 ## Day 3 — Design, and a swim
 
-- **Morning** — **Designmuseum Danmark**, which explains why
-  everything in the city looks the way it does.
-- **Afternoon** — **Islands Brygge harbour bath** if it is warm
-  enough, which is the most Copenhagen thing you can do.
-- **Evening** — **Tivoli** after dark — older than almost every
-  other amusement park in the world, and more garden than rides.
+- **10:00** — **Designmuseum Danmark**: chairs, mostly, and it
+  explains why everything in this city — the lamps, the cutlery, the
+  station signage — looks the way it does. Wegner, Jacobsen,
+  Henningsen, in a rococo hospital building.
+- **12:30** — Lunch in **Nyhavn's** back streets.
+- **14:00** — **Islands Brygge harbour bath** if it is warm enough.
+  The harbour was industrial and filthy within living memory; it was
+  cleaned to swimmable and the city built public pools in it. Free,
+  open to anyone, and the most Copenhagen thing available.
+- **15:30** — Alternatively, **Christiania** — the self-governing
+  free town in an old barracks, founded 1971. Photography is not
+  allowed on Pusher Street and the request is meant.
+- **17:30** — **Tivoli** as the light goes. Opened in 1843, it is
+  the second-oldest amusement park in the world and is far more
+  garden than rides — lanterns, a lake, an open-air stage, and a
+  wooden rollercoaster from 1914 with a brakeman riding in it.
+- **20:00** — Dinner inside Tivoli, or **Vesterbro** outside it.
 
 ## Day 4 — Helsingør and Hamlet's castle
 
-- **Morning** — Train north, about 45 minutes, to **Kronborg**, the
-  castle Shakespeare called Elsinore. Sweden is visible across the
-  water.
-- **Afternoon** — The **Maritime Museum** next door, built into a
-  dry dock, or **Louisiana** modern art museum on the way back —
-  one of the best-sited galleries anywhere.
-- **Evening** — Back to Copenhagen.
+- **09:00** — Train north from Central, **45 minutes**, along the
+  coast.
+- **10:00** — **Kronborg**, which Shakespeare called Elsinore. A
+  Renaissance fortress at the narrowest point of the Øresund,
+  built to tax every ship passing into the Baltic — which is what
+  paid for it. **Sweden is 4 km across the water** and clearly
+  visible. The casemates below hold Holger Danske, asleep until
+  Denmark needs him.
+- **12:30** — The **M/S Maritime Museum** next door, built by
+  Bjarke Ingels **into a dry dock** — the galleries are below
+  ground around the empty dock, which stays open to the sky.
+- **14:30** — Train back, stopping at **Humlebæk** for **Louisiana**
+  — modern art in a series of low pavilions running down to the
+  sea, with a Calder and a Giacometti on the lawn. One of the
+  best-sited galleries anywhere, and worth more time than you will
+  have.
+- **18:00** — Back in Copenhagen.
+- **20:00** — Dinner.
 
 ## Day 5 — Roskilde and the Viking ships
 
-- **Morning** — Train west, about 25 minutes. **Five Viking ships**,
-  deliberately sunk to block the fjord a thousand years ago, raised
-  and reassembled.
-- **Afternoon** — **Roskilde Cathedral**, where Danish monarchs are
-  buried, then back.
-- **Evening** — Last dinner. Book if it is somewhere good;
-  Copenhagen's kitchens fill.
+- **09:30** — Train west, **25 minutes**.
+- **10:00** — The **Viking Ship Museum**: five ships deliberately
+  sunk around 1070 to block the fjord against raiders, raised in
+  1962 and reassembled from the fragments. A cargo ship, a
+  longship, a ferry — the working fleet rather than the ceremonial
+  one. The boatyard outside builds full-size replicas by hand with
+  period tools, and in summer you can sail one.
+- **13:00** — Lunch in town.
+- **14:30** — **Roskilde Cathedral**, brick Gothic from the 1170s
+  and the burial place of **39 Danish kings and queens** — the
+  chapels run chronologically, so you walk through 900 years of
+  changing taste in one building.
+- **16:30** — Train back.
+- **19:30** — Last dinner, and **book it**. Copenhagen's kitchens
+  fill days ahead, and the good mid-range places are harder to get
+  into than the expensive ones.
 
 ## Day 6 — Fly home
 
-- The metro runs to the airport from the city centre in about
-  fifteen minutes, driverless, every few minutes.
+- **Morning** — The **metro** to Kastrup takes about fifteen
+  minutes from the centre and runs all night.
+- **Return the bike** the evening before if your flight is early;
+  rental desks keep shop hours.
+- **Note** — Denmark is effectively cashless. Cards work
+  everywhere, including the smallest bakery, and some places take
+  nothing else.
 
 ## What this trip actually costs
 
