@@ -89,81 +89,173 @@ exactly as advertised.
 
 ## Day 1 — Land in Papeete
 
-- **Afternoon** — Land at Faa'a. Most long-haul arrivals land in the
-  morning, which gives you the day.
-- **Evening** — The **roulottes at Place Vaiete** on the waterfront:
-  grilled fish, chow mein, steak frites, from trucks, at tables on
-  the quay.
+- **05:30** — Most long-haul flights land at **Faa'a (PPT)** in the
+  early morning, which is a gift: you get the whole first day.
+  Rooms are rarely ready, so leave bags and start.
+- **08:00** — The **Marché de Papeete**, best before nine: vanilla
+  pods by the bundle, monoi oil, pareos, tuna being broken down
+  downstairs, and flower crowns everyone actually wears.
+- **10:00** — **Place Vaiete** and the waterfront, then the
+  **cathedral** and the pearl shops on rue Jeanne d'Arc — Tahitian
+  black pearls are graded on lustre and surface, and a reputable
+  dealer will show you why one is four times the other.
+- **12:30** — Lunch, then check in and sleep for two hours. You have
+  crossed a lot of time zones.
+- **17:00** — **Pointe Vénus**, where Cook observed the transit of
+  Venus in 1769 — black sand, a lighthouse, and locals swimming
+  after work.
+- **19:00** — The **roulottes** at Place Vaiete: food trucks that
+  wheel in at dusk — grilled tuna, *chow mein*, *poisson cru au lait
+  de coco*, steak frites — eaten at plastic tables on the quay. It
+  is the cheapest good meal in French Polynesia and the most fun.
 
 ## Day 2 — Tahiti's other side, then Moorea
 
-- **Morning** — Drive the **Tahiti Iti** peninsula or the east coast
-  to the **Arahoho blowhole** and the **Faarumai waterfalls**. Tahiti
-  is treated as an airport and is worth a day.
-- **Afternoon** — **Ferry to Moorea**, 30–45 minutes from Papeete.
-- **Evening** — Cook's Bay or Opunohu Bay.
+- **08:00** — Hire a car and drive the east coast. Tahiti is treated
+  as an airport by most itineraries and deserves a day.
+- **09:00** — The **Arahoho blowhole**, then the **Faarumai
+  waterfalls** — a ten-minute walk to Vaimahuta, which drops into a
+  pool you can swim in.
+- **11:00** — The **Taravao** isthmus and up onto **Tahiti Iti**,
+  the smaller peninsula, as far as the road goes at **Teahupo'o** —
+  the wave that breaks over shallow reef here is among the heaviest
+  in the world, and from shore you can see why.
+- **13:30** — Lunch at Teahupo'o or Taravao.
+- **15:30** — Back to Papeete, return the car.
+- **17:00** — **Ferry to Moorea** — 30–45 minutes, runs several
+  times daily, takes cars, and costs a fraction of the flight. Sit
+  outside for the approach: Moorea rises out of the sea as a wall of
+  green spires.
+- **18:30** — Check in at **Cook's Bay** or **Opunohu Bay**.
+- **20:00** — Dinner at the pension.
 
 ## Day 3 — Moorea's lagoon
 
-- **Morning** — A **lagoon tour**: stingrays and blacktip sharks in
-  waist-deep water, coral gardens, and a motu stop.
-- **Afternoon** — **Whale encounter** if you are here between July
-  and October, with a licensed operator.
-- **Evening** — Sunset from the beach at Ta'ahiamanu.
+- **08:30** — The **lagoon tour**, and do not skip it. Stingrays
+  come to waist-deep water and lean against your legs like cats;
+  blacktip reef sharks circle a metre away and are entirely
+  uninterested in you.
+- **10:30** — The **coral gardens** off the north shore for
+  snorkelling, then a **motu** stop — a sand islet on the reef — for
+  grilled fish and green coconut.
+- **14:00** — Back, out of the sun.
+- **16:00** — **Whale encounter** if you are here **July to
+  October**: humpbacks calve in this lagoon and licensed operators
+  run in-water encounters. Book with an operator who carries a
+  guide in the water and limits the group; the cheap ones put twenty
+  people in at once, which helps nobody.
+- **18:00** — Sunset from **Ta'ahiamanu** beach, public and free,
+  looking back at Tahiti across the channel.
 
 ## Day 4 — Moorea's interior
 
-- **Morning** — The **Belvedere lookout** over both bays, the
-  **Magic Mountain** track, and the pineapple fields.
-- **Afternoon** — The **Three Coconuts** hike, or snorkelling.
-- **Evening** — Last night on Moorea.
+- **07:30** — Up to the **Belvedere lookout** before the cloud
+  builds: **Cook's Bay** on one side, **Opunohu Bay** on the other,
+  **Mount Rotui** between them, and the whole crater rim behind.
+- **09:00** — The **Opunohu valley** *marae* — restored stone temple
+  platforms in the trees, with almost nobody there.
+- **10:30** — **Magic Mountain**, a steep track to a viewpoint over
+  the lagoon. 4x4 tours run it; on a scooter you will be pushing.
+- **13:00** — Lunch, and the pineapple fields — Moorea grows the
+  Queen Tahiti variety and sells juice at the roadside.
+- **15:00** — The **Three Coconuts** hike, three hours through
+  forest to a pass between peaks, or a second snorkel if legs have
+  had enough.
+- **18:30** — Last Moorea night. Fly out tomorrow, so repack for the
+  inter-island baggage limit.
 
 ## Day 5 — To Huahine
 
-- **Morning** — Fly to **Huahine**, 35 minutes.
-- **Afternoon** — Settle in at **Fare**, the one small town.
-- **Evening** — Sunset over the pass.
+- **09:00** — Ferry or short hop back to Papeete if you are flying
+  out of PPT, or take the direct Moorea–Huahine flight where the
+  schedule allows.
+- **11:30** — Fly to **Huahine**, 35 minutes. The island appears as
+  two joined by a bridge and almost no development on either.
+- **13:00** — **Fare**, the one small town: a quay, a shop, and a
+  pace that takes a day to adjust to.
+- **15:00** — Swim off the town beach, or walk the coast road.
+- **17:30** — Sunset over the pass in the reef, from the quay, with
+  the supply ship in if you are lucky — the whole island turns out
+  for it.
+- **19:30** — Dinner at your pension, half-board, at a long table
+  with whoever else is staying.
 
 ## Day 6 — Huahine, slow
 
-- **Morning** — The **maraes at Maeva**, the largest concentration of
-  pre-European stone temples in Polynesia, and the ancient stone
-  fish traps still in the lagoon.
-- **Afternoon** — Circle the island by scooter or car: vanilla,
-  watermelon, the blue-eyed sacred eels at Faie, and almost no
-  development.
-- **Evening** — Dinner at the pension.
+- **08:30** — The ***marae* at Maeva**: over 200 stone structures
+  around Lake Fauna Nui, the densest concentration of pre-European
+  temples in Polynesia, and the **stone fish traps** in the lagoon
+  are still in use after 800 years.
+- **10:30** — Circle the island by scooter or car — two hours of
+  driving, four with stops. Vanilla, watermelon, and a coastline
+  with no resorts on it.
+- **12:00** — **Faie**, and the **blue-eyed eels** in the stream:
+  sacred, up to two metres, and fed by anyone who stops. Tinned
+  mackerel is the accepted offering.
+- **13:00** — Lunch at a roadside *snack*.
+- **15:00** — The **Belvedere** above Maroe Bay, and the vanilla
+  plantation on the way back.
+- **18:30** — Dinner, and the stars. There is very little light
+  here.
 
 ## Day 7 — Raiatea and Taha'a
 
-- **Morning** — Fly to **Raiatea**, Polynesia's sacred island, and
-  the **Taputapuatea marae** — a UNESCO site and the centre from
-  which the great voyaging canoes departed.
-- **Afternoon** — Boat across to **Taha'a**, the vanilla island.
-- **Evening** — A pension on Taha'a, or a motu.
+- **09:00** — Fly to **Raiatea**, 20 minutes — the sacred island,
+  and the departure point from which the great voyaging canoes
+  settled Hawai'i and New Zealand.
+- **10:30** — **Taputapuatea marae**, a UNESCO site and the most
+  important religious centre in eastern Polynesia. The scale is
+  modest and the significance is not; take the guide.
+- **13:00** — Lunch in Uturoa.
+- **15:00** — Boat across to **Taha'a**, 30 minutes inside the same
+  lagoon — the two islands share one reef, which is why the water
+  between them is flat.
+- **16:30** — Check in at a pension or on a motu. Taha'a produces
+  most of French Polynesia's vanilla and the whole island smells
+  faintly of it.
+- **19:30** — Dinner, and an early night.
 
 ## Day 8 — The coral garden
 
-- **Morning** — The **coral garden** between Taha'a and Motu Tautau:
-  you enter at one end of a shallow channel and the current carries
-  you over the coral to the other.
-- **Afternoon** — A **vanilla plantation**, and a pearl farm.
-- **Evening** — Quiet.
+- **09:00** — The **coral garden** between Taha'a and **Motu
+  Tautau**: you are dropped at one end of a shallow channel and the
+  current carries you over the coral to the other, face down, doing
+  nothing. Twenty minutes, repeated as often as you like, and the
+  best snorkel of the trip for effort expended.
+- **11:30** — A **vanilla plantation**: Tahitian vanilla is
+  hand-pollinated, one flower at a time, on a single morning when it
+  opens. Understanding that explains the price.
+- **13:00** — Lunch on a motu.
+- **15:00** — A **pearl farm** — grafting, the three-year wait, and
+  how the grades are decided. Buy here if you are buying.
+- **17:30** — Back to the pension. Quiet.
 
 ## Day 9 — Bora Bora
 
-- **Morning** — Fly to **Bora Bora**. The approach over the lagoon
-  is the point.
-- **Afternoon** — A **lagoon tour**: manta rays, the coral gardens,
-  and a motu lunch. Mount Otemanu above all of it.
-- **Evening** — **Matira Beach**, the public beach, which is free and
-  is the best beach on the island.
+- **09:30** — Fly to **Bora Bora**, 20 minutes. The airport is on a
+  motu, so you arrive by boat across the lagoon — the approach is
+  the point, and it earns the reputation.
+- **11:00** — Check in at **Matira**, the one stretch with
+  affordable rooms and the best beach.
+- **13:00** — The **lagoon tour**: **manta rays** at the cleaning
+  stations, the coral gardens, blacktips and lemon sharks in the
+  shallows, and lunch on a motu with **Mount Otemanu** above
+  everything.
+- **17:00** — **Matira Beach** — public, free, shallow a long way
+  out, and the best beach on the island regardless of what the
+  resorts charge.
+- **19:00** — Dinner in Vaitape, or a *roulotte* by the quay.
 
 ## Day 10 — Fly home
 
-- **Morning** — Bora Bora back to Papeete, and the long flight out.
-  Most international departures leave late at night, so the last day
-  is usable.
+- **Morning** — Bora Bora to Papeete, 50 minutes, and a long day
+  before the night flight out.
+- **If you have the hours** — Leave bags at the airport and take
+  the ferry to Moorea and back, or drive round Tahiti's west coast
+  to the **Grotte de Maraa** and the **Jardins d'Eau de Vaipahi**.
+- **Evening** — Most international departures leave between 22:00
+  and midnight, so the last day is genuinely usable. Eat at the
+  roulottes one more time before you go.
 
 ## What this trip actually costs
 
