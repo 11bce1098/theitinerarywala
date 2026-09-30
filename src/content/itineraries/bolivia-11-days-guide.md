@@ -96,87 +96,183 @@ This matters more here than almost anywhere on this site.
 
 ## Day 1 — Land in La Paz, and do nothing
 
-- **Afternoon** — Land at 4,061 m, descend into the city. Drop bags
-  and stop.
-- **Evening** — Walk slowly, drink water, eat lightly. That is the
-  whole plan and it is the right one.
+- **11:00** — Land at **El Alto (LPB)**, 4,061 m — the highest
+  international airport in the world. You will feel it walking to
+  baggage claim.
+- **12:00** — Drive down into the city. La Paz sits in a canyon, and
+  the descent from El Alto to **Sopocachi** or the **Zona Sur**
+  drops 500 m. Sleep as low as your budget allows: every hundred
+  metres helps on the first night.
+- **13:30** — Drop bags. Then stop. This is not a rest day being
+  polite about it — altitude sickness on day one ruins day three.
+- **15:00** — *Mate de coca*, and a walk of no more than a few
+  blocks on the flat.
+- **18:00** — Eat lightly and early. Alcohol tonight is a bad trade.
+- **20:00** — Sleep. If you have a headache, that is normal; if you
+  are breathless at rest or vomiting, go down, not up.
 
 ## Day 2 — La Paz, gently
 
-- **Morning** — The **Witches' Market** and **Calle Jaén**, the
-  colonial street.
-- **Afternoon** — **Mi Teleférico**: ride the red and yellow lines
-  up to **El Alto** for the view down into the canyon city.
-- **Evening** — If it is Thursday or Sunday, the **El Alto market**
-  is one of the largest in South America.
+- **09:30** — The **Mercado de las Brujas** (Witches' Market) on
+  Linares: herbs, amulets and the dried llama foetuses buried under
+  new buildings as an offering to Pachamama. It is not staged for
+  visitors; the builders genuinely buy them.
+- **11:00** — **Calle Jaén**, the one intact colonial street, and
+  its four small museums on a single ticket — the Precious Metals
+  one takes twenty minutes and is the best of them.
+- **13:00** — Lunch in **Sopocachi**.
+- **15:00** — **Mi Teleférico**, the cable-car metro. Ride the
+  **red line** up to El Alto and change to the **yellow** and
+  **green** for the run back down over the canyon — about USD 1 a
+  leg, and the finest public transport view on the continent.
+- **17:30** — From the El Alto station, the drop into the bowl with
+  Illimani behind it, at the hour the light goes orange.
+- **19:30** — Dinner. If it is Thursday or Sunday, the **El Alto
+  market** — 16 de Julio — is among the largest in South America
+  and runs for kilometres.
 
 ## Day 3 — Moon Valley, or Chacaltaya
 
-- **Option A** — **Valle de la Luna**, eroded clay spires twenty
-  minutes from the centre.
-- **Option B** — **Chacaltaya** at 5,300 m, a former ski resort on a
-  vanished glacier — only if day two went well.
-- **Evening** — Fly to **Uyuni**, or take the night bus.
+- **Option A — Valle de la Luna, 09:00.** Eroded clay spires twenty
+  minutes from the Zona Sur, an hour-long marked circuit, and back
+  by midday. The sensible choice if day two left you tired.
+- **Option B — Chacaltaya, 07:00.** A former ski resort at
+  **5,395 m** on a glacier that has entirely gone. The hut is a
+  20-minute walk from the road and it will take you forty. Only
+  attempt this if you slept well and walked yesterday without
+  trouble — it is 1,300 m above the city.
+- **13:00** — Back down, and lunch.
+- **16:00** — Repack for the salt: warm layers, sunglasses, sun
+  cream, a power bank. The southwest circuit has no electricity for
+  much of it.
+- **19:00** — **Fly to Uyuni** (one hour, and worth the money) or
+  take the overnight **bus** (10–12 hours, cama seats, cold). The
+  flight buys you most of a day.
 
 ## Day 4 — Onto the salt
 
-- **Morning** — The **train cemetery** outside Uyuni, then out onto
-  the **Salar**.
-- **Midday** — **Incahuasi island**, a coral outcrop covered in
-  giant cactus, standing in a white sea.
-- **Afternoon** — The perspective photographs, which everyone takes
-  and everyone enjoys.
-- **Evening** — A **salt hotel** on the edge of the flat.
+- **08:00** — The **train cemetery** outside Uyuni: rusting British
+  locomotives abandoned when the mining line closed, half-buried in
+  salt wind. Twenty minutes, and better than it sounds.
+- **09:30** — **Colchani**, the salt-processing village on the edge,
+  then out onto the **Salar de Uyuni** — 10,582 km² of salt crust,
+  flat to within one metre across its entire width.
+- **11:30** — **Incahuasi island**: a fossilised coral outcrop
+  covered in *Trichocereus* cactus up to twelve metres tall, some
+  of them 900 years old, standing in a white sea. Walk the summit
+  loop.
+- **13:30** — Lunch on the flat, then the **perspective
+  photographs** — everyone takes them, everyone enjoys them, and
+  your driver has done this a thousand times and is better at it
+  than you.
+- **16:00** — If it is the wet season (January–March), find standing
+  water for the **mirror effect** — the reason a lot of people come.
+- **18:30** — Sunset on the salt, which turns pink.
+- **20:00** — A **salt hotel** on the edge of the flat. The walls,
+  floor, beds and tables are salt blocks. It is colder than you
+  expect.
 
 ## Day 5 — South into the reserve
 
-- **All day** — Driving south through the altiplano: **Laguna
-  Cañapa** and **Hedionda** with flamingos, the **Árbol de Piedra**
-  rock, and altitudes climbing past 4,500 m.
-- **Evening** — **Laguna Colorada**, red with algae and full of
-  three flamingo species. The refugio here is basic and very cold.
+- **07:00** — Leave early; today is 300 km of dirt and there is no
+  hurrying it.
+- **09:30** — **Laguna Cañapa**, then **Hedionda** — mineral lakes
+  with James's, Chilean and Andean flamingos on them, at 4,100 m.
+  Hedionda means "stinking", and it does.
+- **12:30** — Lunch, usually out of the vehicle at whichever lake
+  is sheltered.
+- **14:30** — The **Siloli desert** and the **Árbol de Piedra**, a
+  wind-carved rock that balances on a stem the width of a table.
+- **16:30** — **Laguna Colorada** at 4,278 m: red with algae, white
+  with borax islands, and holding the largest breeding colony of
+  James's flamingo in the world.
+- **18:00** — The refugio. Basic, shared, and genuinely cold —
+  −15°C is normal. Sleep in your clothes; everyone does.
 
 ## Day 6 — Geysers, springs, and back
 
-- **05:00** — **Sol de Mañana** geysers at 4,900 m, at dawn, which
-  is when they are most active and most punishing.
-- **Morning** — **Polques hot springs**, and **Laguna Verde** under
-  the Licancabur volcano.
-- **Afternoon** — The long drive back to Uyuni, or transfer to the
-  Chilean border for San Pedro de Atacama.
+- **05:00** — Out in the dark for **Sol de Mañana** at **4,900 m**,
+  the highest point of the trip. The mud pools and fumaroles are at
+  their most violent just after dawn, the air is thin, and it is
+  brutally cold. Stay on the paths — the crust gives way.
+- **07:30** — **Termas de Polques**, hot springs at the edge of a
+  lagoon. Getting in is easy; getting out into the wind is the
+  hard part.
+- **09:30** — **Laguna Verde** under the cone of **Licancabur**, the
+  volcano on the Chilean border. The green only appears when the
+  wind stirs the arsenic and copper sediment, so a still morning
+  shows you a grey lake.
+- **11:00** — Two ways out: transfer to the **Hito Cajón** border
+  for **San Pedro de Atacama** in Chile, or the long drive back.
+- **19:00** — Uyuni, if you came back — about eight hours.
 
 ## Day 7 — Back to La Paz
 
-- **Morning** — Fly or bus north.
-- **Afternoon** — A shower, a real bed, and lower air.
+- **09:00** — Fly north, or the day bus. After three days of dirt
+  road the flight is the kinder option.
+- **13:00** — La Paz. A shower, a real bed, and air that is 700 m
+  thicker than where you have been.
+- **16:00** — Nothing demanding. The **Mercado Lanza** for lunch,
+  or an hour in a café on Sagárnaga.
+- **19:30** — Dinner properly — **Gustu** in the Zona Sur if you
+  want the tasting-menu version of Bolivian produce, and it is
+  worth one evening.
 
 ## Day 8 — To Lake Titicaca
 
-- **Morning** — Bus to **Copacabana**, three to four hours, with the
-  ferry crossing at Tiquina where you get out and the bus goes
-  separately.
-- **Afternoon** — The **basilica** and the hill above the town for
-  sunset over the lake.
+- **08:00** — Bus to **Copacabana**, three to four hours. At the
+  **Estrecho de Tiquina** everyone gets off: passengers cross on a
+  launch, the bus goes separately on a flat barge, and you wait on
+  the far side watching it come.
+- **12:00** — Arrive Copacabana on the lake shore at 3,841 m.
+- **13:30** — Lunch — *trucha* from the lake, which is on every menu
+  for good reason.
+- **15:00** — The **Basílica de Nuestra Señora de Copacabana** and
+  its Black Madonna, the most venerated image in Bolivia. Outside,
+  cars are blessed with flowers, beer and confetti.
+- **17:30** — Climb **Cerro Calvario**, 45 minutes of stations of
+  the cross, for sunset over the lake. It is steep at this altitude.
+- **19:30** — Dinner on the front.
 
 ## Day 9 — Isla del Sol
 
-- **Morning** — Boat to **Isla del Sol**, the Inca creation site,
-  with terraces, ruins and no vehicles.
-- **Afternoon** — Walk the island, or stay the night, which is
-  better if you have it.
-- **Evening** — Back to Copacabana.
+- **08:30** — Boat to **Isla del Sol**, 90 minutes. In Inca belief
+  this is where the sun was born and Manco Cápac emerged.
+- **10:30** — Land at the **south** end (Yumani) and climb the
+  **Escalera del Inca** from the jetty — 200-odd steps at 4,000 m,
+  which is the hardest twenty minutes of the trip.
+- **12:00** — Walk the ridge trail north if the communities have it
+  open — three hours, no vehicles anywhere on the island, terraces
+  the whole way, and the Cordillera Real across the water.
+- **15:00** — **Pilko Kaina** ruins or the Inca fountain.
+- **17:00** — Last boat back — check the time when you land, they
+  are firm about it.
+- **Better** — Stay the night. The island empties after the day
+  boats leave and the stars at 4,000 m over the lake are worth
+  rearranging a day for.
 
 ## Day 10 — Tiwanaku, and La Paz
 
-- **Morning** — Back toward La Paz, stopping at **Tiwanaku**, the
-  pre-Inca site with the Gate of the Sun and monoliths that predate
-  the Incas by a thousand years.
-- **Evening** — Last dinner in La Paz.
+- **08:30** — Leave Copacabana, and stop at **Tiwanaku** on the way
+  in — the pre-Inca capital that peaked around 800 AD, a thousand
+  years before the Incas, who inherited the site and claimed it.
+- **11:00** — The **Gate of the Sun** cut from a single block, the
+  **Kalasasaya** platform, the sunken temple of carved stone heads,
+  and the **Akapana** pyramid. Two hours with a guide; the two
+  museums are included.
+- **14:00** — Into La Paz, 90 minutes.
+- **16:00** — **Mercado Rodríguez** for produce, or the craft
+  shops on Sagárnaga for alpaca that is actually alpaca.
+- **19:30** — Last dinner, and a *singani* sour.
 
 ## Day 11 — Fly home
 
-- El Alto is above the city; allow for the climb and for altitude
-  slowing everything down, including you.
+- **Allow more time than feels sensible.** El Alto is 500 m above
+  the city, the climb takes 45 minutes in traffic, and at 4,061 m
+  everything — including you, and including the queue — moves
+  slower.
+- **On the plane**, the descent to sea level will feel like taking
+  off a rucksack you had stopped noticing.
 
 ## What this trip actually costs
 
