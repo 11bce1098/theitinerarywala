@@ -82,72 +82,141 @@ being clear which one you actually want.
 
 ## Day 1 — Land in Panama City
 
-- **Afternoon** — Land, drop bags in **Casco Viejo**, the restored
-  colonial quarter.
-- **Evening** — The seafront promenade with the skyline across the
-  bay, and dinner in the old town.
+- **14:00** — Land at **Tocumen (PTY)**. It is 25 km from the centre
+  and the taxi runs 30–50 minutes depending on the hour.
+- **15:30** — Drop bags in **Casco Viejo**, the restored colonial
+  quarter on its own small peninsula. Stay here, not in the
+  high-rise banking district — everything you want to walk to is in
+  these fifteen blocks.
+- **17:00** — Walk **Plaza de la Independencia** and the streets
+  around it while the light is good: half the quarter is restored,
+  half is still ruins with trees growing out of it, and the mixture
+  is the appeal.
+- **18:30** — **Paseo Las Bóvedas**, the sea wall at the tip, for
+  the skyline across the bay — 60 glass towers facing a 17th-century
+  wall.
+- **20:00** — Dinner in the old town. Ceviche at the **Mercado de
+  Mariscos** is the cheap version and excellent; the rooftops
+  behind the cathedral are the other kind of evening.
 
 ## Day 2 — The canal, and the old city
 
-- **Morning** — **Miraflores Locks**, timed to a transit. The scale
-  of a Panamax ship rising in a chamber is the thing to see.
-- **Afternoon** — **Casco Viejo** properly: the ruined Jesuit
-  convent, the plazas, and the Biomuseo on the causeway if you want
-  the Gehry building.
-- **Evening** — Pack light for San Blas; you are leaving before
-  dawn.
+- **08:30** — **Miraflores Locks**, 20 minutes out. Go early:
+  southbound transits run roughly 08:00–11:00, and a Panamax ship
+  rising 16 metres in a chamber with 60 cm of clearance either side
+  is the single best thing in the city. Check the day's schedule
+  before you leave — with no ship in the lock it is just a museum.
+- **11:30** — The observation deck and the film, then out before
+  the tour buses land.
+- **13:00** — Lunch back in Casco Viejo.
+- **14:30** — The quarter properly: the **ruined Jesuit convent**,
+  the **Iglesia San José** golden altar that was hidden from
+  Morgan's pirates with a coat of paint, and the **Canal Museum** on
+  Plaza Catedral, which is better than the one at the locks.
+- **17:00** — **Biomuseo** on the Amador causeway if you want the
+  Gehry building — it is small, and the building is the exhibit.
+- **19:30** — Early dinner. Pack a small bag for San Blas and leave
+  the rest at the hotel; you are up before four.
 
 ## Day 3 — To San Blas
 
-- **05:00** — 4x4 transfer over the mountains, then a boat out to
-  the islands.
-- **Midday** — Arrive. There is sand, palms, reef and a horizon.
-- **Afternoon** — Snorkel, swim, do nothing, which is the whole
-  programme.
-- **Evening** — Fish and coconut rice, and stars with no light
-  anywhere.
+- **04:30** — 4x4 pickup. The drive crosses the continental divide
+  and drops into **Guna Yala** — two and a half hours, the last
+  forty minutes steep, winding and not for weak stomachs.
+- **07:30** — **Cartí** port. Guna Yala is an autonomous
+  territory: there is a community fee, your passport is checked,
+  and photography of people needs asking first.
+- **08:30** — Boat out to your island, 30–60 minutes across open
+  water. Expect to get wet.
+- **10:00** — Arrive. The islands are the size of a football pitch,
+  the accommodation is a hut on sand, and the electricity is a
+  generator that runs for a few hours after dark.
+- **12:00** — Fish, coconut rice, and a hammock.
+- **15:00** — Snorkel off the reef edge. That is the whole
+  programme, and it is the correct one.
+- **19:30** — No light pollution for 50 km in any direction. Look up.
 
 ## Day 4 — The islands
 
-- **All day** — Boat trips between islands, a sandbar that is
-  nothing but sand, and a shipwreck reef. Your host decides the
-  route by the weather.
-- **Evening** — A second night, which is the minimum that makes the
-  journey worth it.
+- **09:00** — The boat day, and your host picks the route by the
+  weather: a **sandbar** that is nothing but sand and a metre of
+  water in every direction, a **natural pool** where starfish sit
+  on the bottom, and a **shipwreck reef** for the best snorkelling.
+- **13:00** — Lunch on whichever island you have landed on.
+- **15:00** — A **Guna village** visit if it is offered — dense,
+  ordered, and a working community rather than a display. Molas,
+  the reverse-appliqué panels, are made and sold here and are the
+  one souvenir worth carrying.
+- **17:30** — Back to your island for sunset.
+- **Note** — Two nights is the minimum that justifies the journey.
+  One night means you spend more hours travelling than lying down.
 
 ## Day 5 — Back to the city, and on to Bocas
 
-- **Morning** — Boat and 4x4 back, arriving around midday.
-- **Afternoon** — Fly to **Bocas del Toro**, about an hour.
-- **Evening** — **Bocas Town** on Isla Colón: wooden buildings over
-  the water, and a very different energy.
+- **06:00** — Boat back to Cartí, then the 4x4 over the mountains.
+- **10:30** — Panama City. Straight to **Albrook**, the domestic
+  airport, not Tocumen — they are different airports on opposite
+  sides of town and this catches people out.
+- **12:30** — Fly to **Bocas del Toro**, one hour over the isthmus.
+- **14:00** — Land on **Isla Colón**, 200 m from the water taxis.
+- **15:30** — **Bocas Town**: Caribbean clapboard on stilts over the
+  sea, bicycles, and a pace that has nothing to do with the capital.
+- **19:00** — Dinner over the water. The Caribbean side is
+  Afro-Antillean and the food changes accordingly — coconut rice,
+  patacones, fish in escabeche.
 
 ## Day 6 — Reefs and islands
 
-- **Morning** — A boat day: **Dolphin Bay**, the coral gardens at
-  **Cayo Coral**, and **Red Frog Beach** on Bastimentos.
-- **Afternoon** — Snorkelling, which is the best reason to be here.
-- **Evening** — Back to town.
+- **08:30** — The classic boat day. **Dolphin Bay** first, where
+  bottlenose feed in the shallows — go early, before a dozen boats
+  are circling them.
+- **10:30** — **Cayo Coral**: the best snorkelling in the
+  archipelago, shallow gardens over white sand, with lunch on the
+  stilted restaurant above it.
+- **13:30** — **Red Frog Beach** on Bastimentos, named for the
+  strawberry poison-dart frogs a guide will find for you in ten
+  minutes.
+- **16:00** — **Zapatilla Cays** if the sea is flat and the boat is
+  going — an uninhabited pair inside the marine park, and the
+  picture everyone takes home.
+- **18:30** — Back to town.
 
 ## Day 7 — Bastimentos, or surf
 
-- **Option A** — **Bastimentos** island: Wizard Beach, the jungle
-  path, and the Ngäbe communities inland.
-- **Option B** — Surf lessons at **Playa Bluff** or Isla Carenero,
-  depending on season.
-- **Evening** — Last island night.
+- **Option A — Bastimentos on foot.** Water taxi to **Old Bank**,
+  then the jungle path across the island to **Wizard Beach**: 30
+  minutes, muddy, and worth it for an empty stretch of sand. The
+  Ngäbe communities inland run guided walks.
+- **Option B — surf.** December to March and June to August bring
+  the swell. Lessons at **Playa Bluff** or beginner breaks on
+  **Isla Carenero**, ten minutes by taxi boat.
+- **Option C — do nothing**, which on the Caribbean side is a
+  legitimate plan.
+- **18:00** — Last island evening. Confirm tomorrow's flight; Bocas
+  departures move with the weather.
 
 ## Day 8 — Back to Panama City
 
-- **Morning** — Fly back, an hour.
-- **Afternoon** — **Panamá Viejo**, the ruins of the original city
-  sacked in 1671, or the **Amador Causeway** by bike.
-- **Evening** — A rooftop, since the skyline is the city's own
-  favourite view.
+- **09:00** — Fly back to Albrook, one hour.
+- **11:00** — **Panamá Viejo**, the ruins of the original 1519 city
+  that Henry Morgan sacked in 1671 — the cathedral tower still
+  stands and the site museum explains why the survivors rebuilt
+  eight kilometres west at Casco Viejo.
+- **14:00** — Lunch, then the **Amador Causeway** by rented bike:
+  six flat kilometres on the spoil dug out of the canal, with the
+  ships queueing at the Pacific entrance beside you.
+- **17:30** — **Cerro Ancón** for the last view — the canal on one
+  side, the skyline on the other.
+- **20:00** — A rooftop in Casco Viejo. The city likes its own
+  skyline and it is right to.
 
 ## Day 9 — Fly home
 
-- Tocumen is Latin America's main hub, and it is busy. Allow time.
+- **Morning** — Free. The **Mercado de Mariscos** for a last
+  ceviche, or the fish market's upstairs counters for breakfast.
+- **Afternoon** — Tocumen is Latin America's main connecting hub
+  and the queues reflect it. Three hours before a long-haul, and
+  allow for the traffic getting there.
 
 ## What this trip actually costs
 

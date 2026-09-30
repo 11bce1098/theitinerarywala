@@ -91,77 +91,168 @@ to end.
 
 ## Day 1 — Land at Entebbe
 
-- **Afternoon** — Land on the shore of Lake Victoria. Stay in
-  **Entebbe** rather than Kampala; it is calmer and closer.
-- **Evening** — The botanical gardens, or the chimp sanctuary on
-  Ngamba Island if you have a full day.
+- **13:00** — Land at **Entebbe (EBB)**, on a peninsula in Lake
+  Victoria. Stay in Entebbe, not Kampala: it is ten minutes from the
+  terminal against ninety in Kampala traffic, and you fly out from
+  here too.
+- **15:00** — **Entebbe Botanical Gardens**, 40 hectares on the
+  lakeshore, free to walk and full of black-and-white colobus,
+  vervets and about 200 bird species. An hour is enough.
+- **17:00** — **Uganda Wildlife Conservation Education Centre**, the
+  old zoo, now a rescue centre — worth it only if you want a first
+  look at what you are about to see properly.
+- **19:00** — Dinner on the lake. Tilapia, and the first of many
+  Nile Specials.
+- **20:30** — Meet your driver-guide if they are here tonight. On a
+  trip with this much road, the guide matters more than the lodges.
+- **Alternative** — With a spare day, **Ngamba Island** chimp
+  sanctuary is a 45-minute boat ride and a genuinely good half-day.
 
 ## Day 2 — West to Kibale
 
-- **All day** — Drive west, five to six hours, through tea estates
-  and the Fort Portal crater lakes.
-- **Evening** — **Kibale**, and a very loud forest after dark.
+- **07:00** — Leave early. The road west is 350 km and takes six
+  hours, and the first two out of Kampala are the worst of it.
+- **10:00** — Cross the **equator** at **Kayabwe** — a painted
+  circle, a coffee stop, and the water-swirling demonstration that
+  is entirely a trick. Ten minutes, and everybody stops.
+- **13:00** — Lunch at **Mbarara** or on the Fort Portal road.
+- **15:30** — The **Fort Portal crater lakes**: thirty-odd volcanic
+  craters filled with water, tea estates in between, and the
+  Rwenzoris on the horizon if the cloud lifts.
+- **17:00** — Arrive **Kibale**. Settle in, and walk the lodge
+  grounds before dark.
+- **19:30** — Dinner, and then listen. The forest at night here is
+  the loudest place on the itinerary — tree hyrax screaming, and
+  nothing else sounds like it.
 
 ## Day 3 — Chimpanzees
 
-- **Morning** — **Chimpanzee tracking** in Kibale, which has the
-  highest primate density in Africa. Sightings are close to
-  guaranteed and considerably noisier than gorillas.
-- **Afternoon** — **Bigodi wetland** walk for monkeys and birds,
-  run by the community.
-- **Evening** — Kibale.
+- **07:00** — Briefing at **Kanyanchu**, then into **Kibale**.
+  Thirteen primate species live here, the highest density in
+  Africa, and the chimp community is habituated: sightings run at
+  roughly 90%.
+- **08:30** — Tracking. Anything from forty minutes to three hours
+  of walking, then **one hour** with the group. They are loud,
+  fast, and entirely unbothered by you — a different experience
+  from gorillas in every way.
+- **12:00** — Out, and lunch.
+- **14:30** — **Bigodi Wetland Sanctuary**, run by the community
+  next door: a boardwalk circuit for red colobus, grey-cheeked
+  mangabey and about 130 bird species. Two to three hours, and the
+  fee stays in the village.
+- **18:00** — Back at the lodge.
+- **Upgrade** — The **chimpanzee habituation experience** puts you
+  with researchers from dawn to dusk instead of one hour. It costs
+  roughly double and is the better day if you only do one primate
+  trek.
 
 ## Day 4 — South to Queen Elizabeth
 
-- **Morning** — Drive south, about three hours, past the crater
-  lakes and across the equator.
-- **Afternoon** — **Kazinga Channel** boat: hippo in the hundreds,
-  buffalo, elephant and extraordinary birdlife, all from the water.
-- **Evening** — Lodge on the escarpment.
+- **08:00** — Drive south, about three hours, past more crater
+  lakes and down the escarpment into the rift.
+- **11:00** — Arrive **Queen Elizabeth National Park**. The
+  temperature climbs as you descend; this is 900 m, not 1,500.
+- **12:30** — Lunch at the lodge, and the afternoon off — the
+  animals are asleep and so should you be.
+- **15:00** — The **Kazinga Channel** boat, two hours on the 32 km
+  waterway between Lakes Edward and George. Hippo in the hundreds,
+  buffalo shoulder-deep, elephant coming down to drink, and one of
+  the densest concentrations of water birds anywhere. Take the
+  afternoon departure, not the morning one.
+- **18:30** — Sundowner on the escarpment, with the Rwenzoris
+  behind you.
+- **19:30** — Dinner. Early start again.
 
 ## Day 5 — Game drives, and the Ishasha lions
 
-- **Dawn** — Game drive on the **Kasenyi** plains for lion,
-  elephant and Uganda kob.
-- **Afternoon** — South to the **Ishasha** sector, where lions climb
-  fig trees and lie along the branches. Nobody is quite sure why.
-- **Evening** — Ishasha.
+- **06:00** — Game drive on the **Kasenyi** plains at first light:
+  lion on the kob breeding grounds, elephant, buffalo, and warthog
+  in absurd numbers. Three hours.
+- **09:30** — Back for breakfast.
+- **12:00** — Drive south to the **Ishasha** sector, two hours
+  through the park.
+- **15:30** — The **tree-climbing lions**: a population here lies
+  along the branches of fig trees through the afternoon. The best
+  guess is tsetse flies and cooler air, and no one is certain. They
+  are not guaranteed — reckon on a 50/50 afternoon, which is part of
+  why the guide matters.
+- **18:30** — Ishasha camp, on the river, with hippo audible all
+  night.
 
 ## Day 6 — Into Bwindi
 
-- **Morning** — The drive into **Bwindi Impenetrable Forest**, three
-  to four hours on rough road and increasingly steep.
-- **Afternoon** — Settle and attend the briefing.
-- **Evening** — Early night.
+- **08:00** — The climb into **Bwindi Impenetrable Forest**: three
+  to four hours, rough road, and steeply uphill for the last of it.
+  You go from 900 m to over 2,000 m.
+- **12:30** — Arrive your sector — **Buhoma**, **Ruhija**,
+  **Rushaga** or **Nkuringo**. This is set by which gorilla family
+  you were allocated when the permit was bought, and it decides
+  where you sleep.
+- **14:00** — Lunch, then a short **waterfall walk** or the village
+  trail to get your legs moving at altitude.
+- **17:00** — The briefing. Listen to the porter conversation
+  properly: hiring one costs about USD 20, is the single best money
+  on this trip, and directly employs people from the villages that
+  gave up the forest.
+- **19:00** — Dinner, kit laid out, early night.
 
 ## Day 7 — Gorillas
 
-- **06:00** — Briefing, family allocation, drive to the trailhead.
-- **Morning** — The trek: one to six hours through dense forest,
-  then **one hour** with the family. Masks required, distance
-  enforced, flash banned.
-- **Afternoon** — Back. Most people need the rest of the day.
-- **Evening** — A **Batwa community** visit, if arranged
-  respectfully through the lodge.
+- **06:30** — Report to the park headquarters. Registration, group
+  allocation by fitness, and a briefing you should actually listen
+  to.
+- **08:00** — Drive to the trailhead and start walking. The trek is
+  anything from **one to six hours** each way, through nettles,
+  mud and vines, mostly uphill. Guides cut the trail with machetes.
+- **11:00** — The trackers radio in, you leave your bags, and the
+  hour begins. **One hour** with the family, seven metres back,
+  masks on, no flash. The hour goes in what feels like ten minutes.
+- **14:30** — Back down. Certificates at headquarters, and most
+  people are finished for the day.
+- **16:30** — Rest. Do not plan anything.
+- **18:00** — A **Batwa** community visit if your lodge arranges one
+  properly — the forest's original inhabitants, evicted when it
+  became a park in 1991, and the least comfortable and most
+  necessary hour of the trip.
 
 ## Day 8 — To Lake Bunyonyi
 
-- **Morning** — Drive to **Lake Bunyonyi**, about three hours, into
-  terraced hills.
-- **Afternoon** — The lake: 29 islands, very deep, cold, and **free
-  of bilharzia and crocodiles**, which makes it one of the few
-  swimmable lakes in the region.
-- **Evening** — A canoe at sunset.
+- **08:30** — Drive to **Lake Bunyonyi**, about three hours, through
+  terraced hillsides farmed to the summit.
+- **11:30** — Arrive. The lake is 29 islands, up to 44 m deep, at
+  1,960 m — and it is **free of bilharzia, crocodiles and hippo**,
+  which makes it the one lake in the region you can actually swim
+  in.
+- **13:00** — Lunch on the terrace.
+- **15:00** — **Dugout canoe** between the islands. Ask about
+  **Akampene** — Punishment Island — where unmarried pregnant girls
+  were once abandoned, and the story of the men who rowed out to
+  fetch them.
+- **18:00** — Sunset from the water. After Bwindi this is the
+  recovery day, and it is well placed.
 
 ## Day 9 — The long road back
 
-- **All day** — Drive to Entebbe or Kampala, eight to nine hours,
-  with a stop at the **equator** marker.
-- **Evening** — Entebbe.
+- **07:00** — The drive to Entebbe is 8 to 9 hours and there is no
+  way to make it shorter. Leave early.
+- **11:00** — **Mbarara** for lunch and fuel.
+- **14:00** — The **equator** at Kayabwe again, for the photograph
+  you did not take on the way out.
+- **17:00** — Kampala traffic. This is the part that adds an hour.
+- **19:00** — Entebbe. Dinner on the lake, and a proper shower.
+- **Alternative** — A **charter flight** from Kihihi or Kisoro back
+  to Entebbe turns this day into 90 minutes. It costs roughly USD
+  300–400 and if your budget stretches, it buys you a day.
 
 ## Day 10 — Fly home
 
-- Entebbe airport is fifteen minutes from the town's hotels.
+- **Morning** — Entebbe's hotels are fifteen minutes from the
+  terminal, so a late-morning start is fine.
+- **Afternoon** — Most long-haul departures leave in the evening;
+  the **craft market** on the Kampala road is a better last hour
+  than the airport.
+- **Note** — Keep your gorilla certificate somewhere it will not
+  get bent. It is a better souvenir than anything in the market.
 
 ## What this trip actually costs
 

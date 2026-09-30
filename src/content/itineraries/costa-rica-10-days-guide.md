@@ -95,78 +95,168 @@ than any map suggests.
 
 ## Day 1 — Land in San José
 
-- **Afternoon** — Land, collect the car or meet the shuttle. Sleep
-  near the airport or in **Alajuela** rather than the city centre;
-  you are leaving early.
+- **15:00** — Land at **Juan Santamaría (SJO)**, which is in
+  **Alajuela**, not San José — 20 km from the capital and much
+  closer to where you are going next.
+- **16:00** — Collect the car. Take the insurance argument
+  seriously: mandatory liability is extra on top of every quoted
+  rate, so the price you booked is never the price you pay. Photograph
+  every panel before you drive off.
+- **17:00** — Sleep in **Alajuela** or one of the airport hotels.
+  There is no reason to fight into San José and out again tomorrow.
+- **18:30** — **Alajuela's** central park and the mango trees, then
+  dinner — a *casado* of rice, beans, plantain and whatever protein,
+  which you will eat most days and not tire of.
+- **20:00** — Download offline maps. Signal disappears between towns
+  and Waze is what everyone actually uses here.
 
 ## Day 2 — North to Arenal
 
-- **Morning** — Drive or shuttle to **La Fortuna**, about three
-  hours.
-- **Afternoon** — The volcano reveals itself when it feels like it.
-  Settle in, and take the first clear view you get.
-- **Evening** — **Hot springs**. There are resort versions with
-  swim-up bars and a free river where locals go; both are the same
-  water.
+- **08:00** — Drive to **La Fortuna**, about three hours via the
+  Zarcero road — slower than the alternative and far better, with
+  the topiary gardens at Zarcero as the stop.
+- **11:30** — Arrive. The volcano appears when it decides to; if it
+  is clear as you drive in, stop and take the photograph then,
+  because it may not be clear again.
+- **13:00** — Lunch in town, then check in.
+- **15:00** — **La Fortuna waterfall**: 500 steps down to a 70 m
+  fall and a pool you can swim in. The climb back out is the
+  workout of the trip.
+- **17:30** — **Hot springs**. **Tabacón** is the resort version
+  with swim-up bars; the **free río Chollín** under the road bridge
+  is the same geothermal water with locals and a crate of beer.
+  They are fed by the same volcano.
+- **20:00** — Dinner in La Fortuna.
 
 ## Day 3 — The volcano, up close
 
-- **Morning** — **Arenal Volcano National Park**: the lava-field
-  trail and the lookout, early.
-- **Afternoon** — **Hanging bridges** through the canopy, or the
-  **La Fortuna waterfall** and its 500 steps down.
-- **Evening** — A night walk, which is when the frogs and snakes
-  come out.
+- **07:00** — **Arenal Volcano National Park** at opening. The
+  **1968 lava-field trail** crosses the flow from the eruption that
+  destroyed two villages and killed 87 people; the volcano was
+  continuously active from then until 2010 and has been quiet since.
+- **10:00** — **Cerro Chato** is closed, so the sector's other
+  viewpoint walk instead — two hours, and Lake Arenal behind you.
+- **13:00** — Lunch.
+- **14:30** — **Mistico Hanging Bridges**: 3 km of trail with
+  fifteen bridges through the canopy, six of them suspended. Go with
+  a guide — you will see perhaps five times as much, and eyelash
+  vipers are hard to spot when you do not know where they sit.
+- **18:30** — **Night walk** at the Arenal Observatory or a local
+  reserve: red-eyed tree frogs, kinkajous, sleeping birds, and the
+  snakes that were there in daylight too.
+- **20:30** — Dinner, and pack — tomorrow's transfer has a luggage
+  limit in practice if not on paper.
 
 ## Day 4 — Jeep-boat-jeep to Monteverde
 
-- **Morning** — The lake crossing: minibus, boat, minibus. Three
-  hours door to door and the best transfer in the country.
-- **Afternoon** — Arrive in **Santa Elena**. The temperature drops
-  noticeably; this is cloud forest, not jungle.
-- **Evening** — Book tomorrow's early reserve entry.
+- **08:00** — The **jeep-boat-jeep**: minibus to the lake, 30
+  minutes across **Lake Arenal** with the volcano behind you, then
+  a minibus up the other side. Three hours door to door, about USD
+  30, and the best transfer in the country — the road round the
+  lake takes twice as long and shows you less.
+- **11:30** — Arrive **Santa Elena**. The temperature drops eight
+  or ten degrees as you climb; this is cloud forest at 1,400 m, and
+  the wind does not stop.
+- **13:00** — Lunch, then settle in.
+- **15:00** — Walk the town. **Santa Elena** is small, and the
+  afternoon is for booking two things: tomorrow's reserve entry with
+  a guide for 07:00, and a zipline slot.
+- **17:00** — The **Ranario** frog pond or the **Serpentario** — 45
+  minutes each, genuinely well done, and useful for learning what
+  you are looking at tomorrow.
+- **19:30** — Dinner. It gets cold; bring a layer you did not think
+  you would need in Costa Rica.
 
 ## Day 5 — Cloud forest
 
-- **Early** — **Monteverde** or **Santa Elena** reserve at opening,
-  with a guide. The quetzal, if you see one, is seen at dawn.
-- **Afternoon** — Ziplines and canopy bridges, which were invented
-  here and are done properly.
-- **Evening** — A coffee or chocolate tour, better than it sounds
-  and genuinely about the farming.
+- **06:30** — **Monteverde Cloud Forest Reserve** at opening, with a
+  guide. Entry is capped and slots sell out in high season. The
+  guides carry scopes and know where the **resplendent quetzal** has
+  been showing — March to May is nesting season and the best odds.
+- **10:00** — The suspension bridges inside the reserve, and the
+  continental divide where you can stand with the Caribbean weather
+  hitting one shoulder and the Pacific the other.
+- **12:30** — Lunch back in Santa Elena.
+- **14:00** — **Ziplines.** The canopy tour was invented here and
+  the operators are serious about it — thirteen cables, and the
+  1 km **Superman** line across a valley if you want it.
+- **17:00** — A **coffee, chocolate and sugar cane tour** at a
+  working farm: three hours, far better than it sounds, and mostly
+  about how a smallholding actually makes a living.
+- **19:30** — Dinner.
 
 ## Day 6 — Down to the Pacific
 
-- **Morning** — The long leg: Monteverde down to the coast, roughly
-  four hours, much of it unpaved at the start.
-- **Afternoon** — Arrive at **Manuel Antonio** or **Quepos**. Swim.
-- **Evening** — Sunset on the beach, which is the point of the
-  second half of this trip.
+- **07:30** — The long leg: Monteverde to the coast, four hours.
+  The first 40 minutes are unpaved, steep and slow — this is the
+  road that ate your rental's suspension, and it is deliberate:
+  Monteverde has voted against paving it to limit visitor numbers.
+- **10:00** — Down to the Pan-American and south.
+- **12:30** — **Tárcoles bridge** for the crocodiles — twenty of
+  them, some over four metres, visible from the roadside. Five
+  minutes, free, and mildly alarming.
+- **14:30** — Arrive **Manuel Antonio** or **Quepos**. Check in and
+  get in the sea.
+- **17:45** — Sunset on **Playa Espadilla**. The Pacific side goes
+  from full sun to dark in about twenty minutes.
+- **19:30** — Dinner on the hill road, where the restaurants face
+  the water.
 
 ## Day 7 — Manuel Antonio National Park
 
-- **Early** — Be at the gate when it opens with a pre-booked ticket.
-  Sloths, capuchins, howlers and coatis, on a park loop that ends at
-  a beach inside the reserve.
-- **Afternoon** — That beach. Guard your food from the monkeys, who
-  are organised about it.
-- **Evening** — Dinner overlooking the water.
+- **06:30** — Be at the gate for opening with a **pre-booked
+  ticket** — entry is capped daily, closed Tuesdays, and turning up
+  without one does not work.
+- **07:00** — The park loop. Sloths — both two- and three-toed —
+  white-faced capuchins, howlers, coatis, and if you are lucky the
+  squirrel monkeys that exist almost nowhere else. Hire one of the
+  guides at the gate: they carry scopes and find in seconds what you
+  would walk past all morning.
+- **10:00** — **Playa Manuel Antonio**, the beach inside the
+  reserve, on a perfect crescent bay. Swim.
+- **11:30** — Watch your bag. The capuchins are organised, patient
+  and have done this before; they will open a rucksack while you
+  are in the water.
+- **13:30** — Out before the heat peaks, and lunch.
+- **16:00** — The afternoon off, or the **Nauyaca**-style waterfall
+  tours if you still have legs.
 
 ## Day 8 — The coast your way
 
-- Options: a **mangrove kayak**, a **catamaran** afternoon, surf
-  lessons at **Playa Espadilla**, or a day doing none of it.
+- **Option A — mangroves.** A **Damas Island kayak** at high tide,
+  three hours through the tunnels, with silky anteaters and white
+  ibis. The quietest thing you will do all trip.
+- **Option B — the water.** A **catamaran** afternoon out of Quepos,
+  with snorkelling and usually dolphins, or a **sportfishing**
+  half-day — this is one of the world's serious sailfish coasts.
+- **Option C — surf.** Lessons on **Playa Espadilla**, which is a
+  forgiving beach break, or a day trip south to **Dominical** for
+  something more serious.
+- **Option D — nothing.** Ten days in, this is the right answer more
+  often than people admit.
 
 ## Day 9 — Back toward San José
 
-- **Morning** — The coastal road north, about three hours, or add
-  **Carara** for the scarlet macaws near the river mouth.
-- **Afternoon** — Sleep near the airport again.
+- **08:30** — The coastal road north, about three hours on the
+  Costanera — fast, flat and dull compared with everything else you
+  have driven.
+- **10:00** — **Carara National Park**, where the dry north-west
+  and the wet south meet: this is the reliable place for **scarlet
+  macaws**, which cross to the river mouth in pairs late afternoon
+  and early morning. Two hours on the river trail.
+- **13:00** — Lunch in **Jacó** or **Herradura**.
+- **15:30** — Into Alajuela. Refuel before you return the car —
+  they charge a premium otherwise.
+- **17:00** — Airport hotel. Repack, and put the wet things where
+  you can get at them.
 
 ## Day 10 — Fly home
 
-- Early flights out of San José are the norm. Return the car with
-  time to spare; the inspection is thorough.
+- **Morning** — Most departures for Europe and North America leave
+  in the morning, so this is usually an early one.
+- **Return the car with time in hand.** The inspection is thorough
+  and they check every panel against the photographs. Yours should
+  match, because you took them on day one.
 
 ## What this trip actually costs
 
