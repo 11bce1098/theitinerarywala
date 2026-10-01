@@ -81,81 +81,172 @@ considerable margin.
 
 ## Day 1 — Land in Tunis
 
-- **Afternoon** — Land, drop bags in the **medina** or **Sidi Bou
-  Said**, the blue-and-white village on the cliff.
-- **Evening** — Mint tea with pine nuts above the bay at Sidi Bou
-  Said.
+- **14:00** — Land at **Tunis-Carthage (TUN)**, which is 8 km from
+  the centre — fifteen minutes, and one of the closest airports to
+  its city anywhere.
+- **15:00** — **Change money on arrival** and keep the receipts.
+  The dinar is a closed currency: you cannot get it outside Tunisia
+  and you need those receipts to convert back before you leave.
+- **16:00** — Stay in the **medina** for atmosphere or **Sidi Bou
+  Said** for the setting — the blue-and-white village on the cliff
+  20 minutes north, which is where you will want to be in the
+  evening.
+- **17:30** — Walk **Sidi Bou Said**'s cobbled main street before
+  the light goes: whitewashed walls, blue studded doors, and
+  bougainvillea over everything.
+- **18:30** — **Café des Délices** or the smaller **Café des
+  Nattes** for **mint tea with pine nuts** floating in it, on a
+  terrace above the Gulf of Tunis.
+- **20:00** — Dinner. Grilled fish, *brik* — a thin pastry parcel
+  with a whole egg inside that you must eat in one movement — and
+  harissa with everything.
 
 ## Day 2 — Carthage and the Bardo
 
-- **Morning** — **Carthage**: the Antonine baths, the ports, and the
-  Byrsa hill. What Rome left of it is fragmentary and the setting is
-  extraordinary.
-- **Afternoon** — The **Bardo Museum**, whose Roman mosaic
-  collection is the finest in the world and is displayed in a
-  former palace.
-- **Evening** — The **Tunis medina**, a UNESCO site and a working
-  souk rather than a preserved one.
+- **08:30** — **Carthage**, spread over several sites on one
+  ticket. Start at the **Antonine Baths**, the largest Roman baths
+  outside Rome, with the sea behind the columns.
+- **10:00** — The **Punic ports** — two harbours, one circular and
+  military, cut out of the shore and still legible from the hill
+  above. Rome destroyed the city so thoroughly in 146 BC that what
+  you are mostly looking at is the Roman rebuild on top.
+- **11:00** — **Byrsa Hill** and its museum for the layout.
+- **13:00** — Lunch.
+- **14:30** — The **Bardo Museum**, and give it three hours. It
+  holds **the finest collection of Roman mosaics in the world**,
+  lifted from villas across the country and displayed in a former
+  beylical palace — the Virgil mosaic, the Ulysses and the Sirens,
+  and room after room of floors you can stand on the edge of.
+- **18:00** — The **Tunis medina**, a UNESCO site and a working
+  souk rather than a preserved one. **Zitouna Mosque** at its
+  centre; the roof terraces of the carpet shops give the view over
+  it, and the sales pitch is the price of admission.
+- **20:00** — Dinner in the medina.
 
 ## Day 3 — Dougga, and south
 
-- **Morning** — **Dougga**, two hours inland: a complete Roman
-  hillside town with a capitol, theatre and baths, usually almost
-  empty.
-- **Afternoon** — South toward **Kairouan**, Islam's fourth holiest
-  city, and the **Great Mosque** with its courtyard of recycled
-  Roman columns.
-- **Evening** — Kairouan.
+- **08:00** — Drive west to **Dougga**, about two hours.
+- **10:00** — **Dougga** is the best-preserved Roman town in North
+  Africa and you may have it to yourself: a theatre for 3,500 cut
+  into the hillside, the **Capitol** standing nearly complete, a
+  forum, baths, brothels with the signage still visible, and a
+  Punic-Libyan mausoleum predating all of it. Two to three hours,
+  and wear proper shoes — the site is loose stone and goats.
+- **13:00** — Lunch at the site café or in Téboursouk.
+- **14:30** — South to **Kairouan**, about three hours.
+- **17:30** — The **Great Mosque of Kairouan**, Islam's fourth
+  holiest site and the oldest in North Africa, founded 670. The
+  courtyard is paved to funnel rain into cisterns below, and its
+  **colonnade is built from recycled Roman columns**, no two the
+  same. Non-Muslims may enter the courtyard but not the prayer
+  hall; cover shoulders and knees.
+- **19:00** — The **Aghlabid basins** at sunset, then dinner.
+  Kairouan makes *makroudh*, a date-filled semolina pastry, and it
+  is everywhere.
 
 ## Day 4 — El Jem, and to the desert edge
 
-- **Morning** — **El Jem**: an amphitheatre for 35,000 standing
-  almost intact in a small town, which you can walk into and under.
-- **Afternoon** — The long drive south-west to **Tozeur**, on the
-  edge of the Chott.
-- **Evening** — The **Ouled el-Hadef** quarter, built in patterned
-  yellow brick.
+- **08:30** — Drive to **El Jem**, 90 minutes.
+- **10:00** — The **amphitheatre**, and nothing prepares you for
+  it: a Roman colosseum for **35,000 people**, standing almost
+  complete, in the middle of an ordinary modern town of 20,000.
+  You can walk the arena floor, climb the tiers, and go down into
+  the **underground passages** where animals and fighters waited.
+  Entry costs a few dinars and there is no queue.
+- **11:30** — The **El Jem museum** on the edge of town, with more
+  mosaics *in situ* in excavated villas.
+- **13:00** — Lunch.
+- **14:00** — The long drive south-west to **Tozeur**, about four
+  and a half hours, with the landscape drying out mile by mile.
+- **18:30** — Arrive. **Ouled el-Hadef**, the old quarter, is built
+  of yellow brick laid in projecting geometric patterns — a local
+  technique you will not see elsewhere — and it is best in low sun.
+- **20:00** — Dinner, and dates. Tozeur's *deglet nour* are the
+  reason the oasis exists.
 
 ## Day 5 — The Chott and the mountain oases
 
-- **Morning** — **Chott el Djerid**, a salt lake you cross on a
-  causeway, with mirages that are genuinely disorienting.
-- **Afternoon** — **Chebika**, **Tamerza** and **Mides** — mountain
-  oases with palm gorges and waterfalls against bare rock.
-- **Evening** — Back to Tozeur.
+- **07:00** — Early, because the mountain oases are a 4x4 day and
+  the heat builds.
+- **08:00** — **Chott el Djerid**: a salt lake the size of a
+  county, crossed on a causeway, with mirages that are genuinely
+  disorienting — you will see water that is not there, and in
+  places the crust is tinted pink and violet by algae.
+- **10:00** — **Chebika**, the first mountain oasis — a palm gorge
+  under bare rock, with a spring and a waterfall at the top of a
+  short scramble.
+- **11:30** — **Tamerza**, the largest, with the abandoned old
+  village left after the floods of 1969 and a canyon below it.
+- **13:00** — **Mides**, on the Algerian border, where the gorge
+  drops away at the edge of the village. Lunch.
+- **15:30** — Back toward Tozeur across the Chott in the other
+  light.
+- **17:30** — The **Tozeur palmeraie** — 400,000 palms irrigated by
+  a thousand-year-old system of channels still allocated by the
+  hour.
+- **19:30** — Dinner.
 
 ## Day 6 — Star Wars, and Matmata
 
-- **Morning** — **Ong Jemel** and the **Mos Espa** set, still
-  standing in the sand, if that appeals — or the Tozeur palmeraie if
-  it does not.
-- **Afternoon** — East to **Matmata**, where Berber families built
-  homes as pits dug into the ground with rooms off the sides. One
-  is the hotel used as the Lars homestead.
-- **Evening** — Sleep underground, which is cooler than it sounds
-  and warmer than the desert night.
+- **08:00** — **Ong Jemel** and the **Mos Espa** set, 30 minutes
+  out by 4x4 — built for *The Phantom Menace* and still standing in
+  the sand, slowly being buried. Worth it if that means something
+  to you; skip it entirely if not.
+- **10:30** — Back, then the drive east to **Matmata**, about three
+  hours.
+- **14:00** — **Matmata**, and the thing to understand is that
+  these are not caves: Berber families dug a **circular pit** seven
+  metres down into the soft rock and then tunnelled rooms off the
+  sides of it, so the courtyard is open to the sky and the house is
+  underground. It keeps 50°C out and holds winter warmth in.
+- **15:30** — Several families still live this way and show their
+  homes for a small fee. **Sidi Driss** is the one used as the
+  **Lars homestead** in *A New Hope*, and it is a working hotel.
+- **18:00** — **Sleep underground.** It is cooler than it sounds
+  and warmer than the desert night outside.
+- **19:30** — Dinner at the hotel, usually couscous.
 
 ## Day 7 — To Djerba
 
-- **Morning** — Drive to **Djerba**, crossing on the Roman causeway
-  or the ferry.
-- **Afternoon** — **Houmt Souk**, the island's whitewashed main
-  town, and the **El Ghriba synagogue**, among the oldest in Africa
-  and still in use.
-- **Evening** — The beach.
+- **08:30** — Drive to **Djerba**, about two and a half hours —
+  either over the **Roman causeway** at El Kantara, built in the
+  second century and still carrying the road, or by the short
+  ferry from Jorf.
+- **11:30** — **Houmt Souk**, the island's whitewashed main town,
+  and its covered markets.
+- **13:00** — Lunch — Djerban fish couscous.
+- **15:00** — The **El Ghriba synagogue**, one of the oldest in
+  Africa and in continuous use. Djerba's Jewish community has been
+  here since antiquity — by tradition since 586 BC — and still
+  numbers over a thousand. Security is tight and photography is
+  restricted; dress conservatively.
+- **17:00** — The **beach** on the north-east coast.
+- **19:30** — Dinner on the water.
 
 ## Day 8 — Djerba, slow
 
-- **Morning** — The island's villages, the pottery at Guellala, and
-  the flamingo lagoons in season.
-- **Afternoon** — Beach, or the street-art village of **Erriadh**.
-- **Evening** — Last night.
+- **09:00** — The island by hire car or scooter: **Guellala** for
+  the pottery, where the clay and the kilns have not changed, and
+  the **flamingo lagoon** at Ras R'mel if they are in (autumn
+  through spring).
+- **12:00** — **Erriadh** and **Djerbahood** — a village where 250
+  street artists from 30 countries painted the walls in 2014 and
+  the work has been maintained since. An hour of wandering and
+  genuinely good.
+- **14:00** — Lunch, then the beach for the afternoon.
+- **17:30** — Last sunset.
+- **19:30** — Dinner. **Convert your remaining dinars back
+  tomorrow, not tonight** — but work out now what you need to keep.
 
 ## Day 9 — Fly home
 
-- **Djerba has its own international airport**, which saves the
-  drive back to Tunis. If your return is from Tunis, allow a full
-  day for it.
+- **Morning** — **Djerba has its own international airport
+  (DJE)**, which saves the six-hour drive back to Tunis. If your
+  return is from Tunis, allow the full day for it.
+- **At the airport** — Convert leftover dinars back **before
+  security**, with the exchange receipts you kept from day one. You
+  cannot legally take meaningful amounts out, and there is nowhere
+  to spend them once you are through.
 
 ## What this trip actually costs
 

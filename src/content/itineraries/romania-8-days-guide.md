@@ -99,72 +99,144 @@ the west.
 
 ## Day 1 — Land in Bucharest
 
-- **Afternoon** — Land, collect the car or leave it until you head
-  north.
-- **Evening** — The **Old Town** for dinner, and the sheer scale of
-  the **Palace of the Parliament** from outside — the heaviest
-  building in the world, and a monument to what it cost.
+- **14:00** — Land at **Otopeni (OTP)**, 17 km north. The 783 bus
+  runs to the centre; a taxi should be ordered from the official
+  app terminals in arrivals rather than taken from a tout.
+- **15:30** — Drop bags. **Leave the car hire until you head
+  north** on day two — Bucharest traffic and parking are not worth
+  a day of paying for a vehicle you will not use.
+- **16:30** — The **Palace of the Parliament** from outside: the
+  **heaviest building in the world**, 365,000 m², built by
+  Ceaușescu at the cost of a fifth of historic Bucharest, which was
+  demolished for it. The interior tour needs booking and a
+  passport; the scale from the boulevard tells you most of it.
+- **18:00** — **Calea Victoriei** and the **Revolution Square**
+  balcony where Ceaușescu's last speech turned on him in December
+  1989. The memorial is in the square.
+- **19:30** — The **Old Town** — **Lipscani** — for dinner.
+  **Caru' cu Bere** is the beer hall everyone photographs; the back
+  streets feed you better.
 
 ## Day 2 — Bucharest, then north
 
-- **Morning** — The **Village Museum**, an open-air collection of
-  rural houses from across the country, which sets up everything you
-  will see later.
-- **Afternoon** — Drive north to **Brașov**, about three hours
-  through the mountains.
-- **Evening** — **Piața Sfatului**, the council square, ringed by
-  cafés.
+- **09:30** — The **Village Museum** on Herăstrău lake: 300
+  original rural buildings — houses, churches, windmills, a
+  sunken dwelling from Transylvania — moved here from across the
+  country. Two hours, and it sets up everything you will see over
+  the next week.
+- **12:00** — Collect the car, and lunch.
+- **13:30** — Drive north to **Brașov**, about three hours, up the
+  **Prahova Valley** between the Bucegi mountains.
+- **17:00** — Arrive. Brașov is a Saxon town founded by German
+  settlers in the 13th century, and it looks it.
+- **18:00** — **Piața Sfatului**, the council square, with the old
+  town hall in the middle and cafés on every side.
+- **20:00** — Dinner. Romanian food is heavier than you expect —
+  *sarmale*, *mămăligă*, *ciorbă de burtă* if you are brave.
 
 ## Day 3 — Brașov and Bran
 
-- **Morning** — The **Black Church**, **Rope Street** — one of the
-  narrowest in Europe — and the cable car up Tâmpa for the view.
-- **Afternoon** — **Bran Castle**, 30 minutes away, and
-  **Râșnov** fortress on the way back, which is emptier and has
-  better views.
-- **Evening** — Back in Brașov.
+- **09:00** — The **Black Church**, the largest Gothic church
+  between Vienna and Istanbul, named for the soot that blackened it
+  after the Habsburg fire of 1689. Its collection of Anatolian
+  carpets, donated by Saxon merchants, is the biggest outside
+  Turkey.
+- **10:30** — **Strada Sforii** — Rope Street — one of the
+  narrowest in Europe at 1.1 m, and 80 m long.
+- **11:30** — The **Tâmpa cable car** for the view down over the
+  terracotta roofs, with the Hollywood-style BRAȘOV sign on the
+  ridge.
+- **13:30** — Lunch, then drive 30 minutes to **Bran**.
+- **14:30** — **Bran Castle**. Be clear about what it is: a real
+  14th-century border fortress with a genuine Habsburg royal
+  history, and **essentially no connection to Vlad Țepeș or to
+  Stoker's novel**. Go for the building and the Queen Marie rooms,
+  not the Dracula gift shops below it.
+- **16:30** — **Râșnov fortress** on the way back — a peasant
+  citadel on a hill, emptier than Bran and with much better views.
+- **19:30** — Back in Brașov.
 
 ## Day 4 — Peleș, and the Saxon villages
 
-- **Morning** — **Peleș Castle** at Sinaia, a neo-Renaissance royal
-  palace of carved wood and stained glass, and the most beautiful
-  building in Romania.
-- **Afternoon** — East into the **Saxon villages** — **Viscri** or
-  **Biertan** — for the fortified churches, UNESCO-listed and
-  frequently empty.
-- **Evening** — A village *pensiune*, with dinner cooked by your
-  hosts.
+- **08:30** — Drive to **Sinaia**, an hour south.
+- **09:30** — **Peleș Castle**, and it is the most beautiful
+  building in Romania: a neo-Renaissance summer palace built for
+  Carol I in the 1870s, with 160 rooms of carved walnut, Murano
+  glass and a retractable glass ceiling. It had **electricity and a
+  central vacuum system before most European palaces**. Closed
+  Mondays and Tuesdays — check before you drive.
+- **12:00** — **Pelișor** next door, the art-nouveau smaller one,
+  if you want more.
+- **13:00** — Lunch, then drive east into the **Saxon villages**.
+- **15:30** — **Viscri** or **Biertan**: fortified churches built
+  by German settlers so that an entire village could shelter inside
+  the walls during Ottoman raids. UNESCO-listed, frequently empty,
+  and Viscri's lanes still have horse carts on them.
+- **18:00** — A village ***pensiune***. Dinner is cooked by your
+  hosts from what they have, and it is the best meal of the trip.
 
 ## Day 5 — Sighișoara
 
-- **Morning** — Drive to **Sighișoara**, a walled citadel still
-  lived in, with the **Clock Tower** and the covered stairway up to
-  the church on the hill.
-- **Afternoon** — The citadel's lanes, which take an afternoon and
-  no plan.
-- **Evening** — Dinner inside the walls.
+- **09:30** — Drive to **Sighișoara**, an hour or so.
+- **10:30** — The **citadel**, and the thing that distinguishes it:
+  it is the **last inhabited medieval citadel in Europe** — people
+  live in the houses, children go to school up here, and it is not
+  a preserved shell.
+- **11:00** — The **Clock Tower** with its wooden figures that turn
+  at midnight, and the history museum inside it.
+- **13:00** — Lunch inside the walls. The house where Vlad Dracul
+  lived is a restaurant now; the sign is more interesting than the
+  food.
+- **15:00** — The **covered stairway** — 175 roofed steps built so
+  schoolchildren could climb in winter — up to the **Church on the
+  Hill** and the German cemetery behind it.
+- **16:30** — The lanes, which take an afternoon and no plan at all.
+- **19:30** — Dinner inside the walls, when the day visitors have
+  gone.
 
 ## Day 6 — Sibiu
 
-- **Morning** — Drive to **Sibiu**, about two hours.
-- **Afternoon** — The **Large and Small Squares**, the **Bridge of
-  Lies**, and the roofs with eyelid dormers that watch the street.
-- **Evening** — Sibiu eats well; it was a European Capital of
-  Culture and has not forgotten.
+- **09:30** — Drive to **Sibiu**, about two hours.
+- **11:30** — The **Piața Mare** and **Piața Mică**, the large and
+  small squares, with the **Bridge of Lies** between them — cast
+  iron from 1859, and the story is that it creaks when someone
+  lies on it.
+- **13:00** — Lunch. **Sibiu eats well** — it was European Capital
+  of Culture in 2007 and has not let it slip.
+- **14:30** — The **Brukenthal Museum**, one of the oldest in
+  Europe, in the baron's own baroque palace.
+- **16:00** — Climb the **Council Tower**, then walk the old walls
+  and the Lower Town below them.
+- **18:00** — Look up: the roofs have **eyelid dormers**, narrow
+  slits that look exactly like half-closed eyes watching the
+  street. Once you see them you cannot stop.
+- **20:00** — Dinner.
 
 ## Day 7 — The mountain road, or the gorge
 
-- **In season (July–October)** — The **Transfăgărășan**: hairpins to
-  2,042 m, Bâlea Lake at the top, and a tunnel through the ridge.
-  Allow the whole day.
-- **Out of season** — **Corvin Castle** at Hunedoara instead, which
-  is the castle Bran pretends to be.
-- **Evening** — Back toward Bucharest, or sleep en route.
+- **In season (roughly July–October), 08:00** — The
+  **Transfăgărășan**, built by Ceaușescu through the Făgăraș ridge:
+  hairpins to **2,042 m**, **Bâlea Lake** at the top, a tunnel
+  through the mountain, and the Vidraru dam on the south side.
+  Allow the **whole day** — it is 90 km that takes four hours of
+  driving plus stops, and the pass is closed by snow the rest of
+  the year.
+- **Out of season, 09:00** — **Corvin Castle** at Hunedoara
+  instead, two hours west. Drawbridge, towers, and a courtyard —
+  **this is the castle Bran pretends to be**, and almost nobody
+  outside Romania has heard of it.
+- **17:00** — Begin the drive back toward Bucharest, or sleep at
+  **Curtea de Argeș** or **Pitești** to break it.
+- **20:00** — Dinner wherever you land.
 
 ## Day 8 — Fly home
 
-- Drive back to Bucharest — around four hours from Sibiu — and
-  return the car with time in hand.
+- **Morning** — Bucharest is about **four hours from Sibiu**, less
+  if you slept en route. Leave margin: the Prahova valley road
+  backs up badly on Sunday afternoons.
+- **Return the car with time in hand** and check the fuel policy.
+- **Note** — Romania uses the **leu**, not the euro, despite being
+  in the EU. Spend them; they are awkward to change anywhere else.
 
 ## What this trip actually costs
 
