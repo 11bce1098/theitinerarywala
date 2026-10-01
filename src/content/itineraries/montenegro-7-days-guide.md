@@ -77,65 +77,132 @@ drive most of it — which is where the other honest brief comes in.
 
 ## Day 1 — Land, and into the bay
 
-- **Afternoon** — Fly to **Tivat** or **Podgorica**, collect the
-  car, drive to **Kotor** — 20 minutes from Tivat.
-- **Evening** — The old town after the ships have gone: Venetian
-  squares, a cathedral from 1166, and cats everywhere, which is a
-  local institution.
+- **14:00** — Fly into **Tivat (TIV)**, which is 20 minutes from
+  Kotor, or **Podgorica (TGD)**, which is 90. Tivat is worth paying
+  for.
+- **15:00** — Collect the car. **Montenegro needs a car** — the bus
+  network exists but the mountain half of this trip does not work
+  without one.
+- **16:00** — Drive into **Kotor**, on the inner arm of the bay.
+  The **Bay of Kotor** is often called a fjord and is not one — it
+  is a drowned river canyon — but the effect is the same: 1,700 m
+  walls dropping straight into salt water.
+- **17:30** — The old town **after the cruise ships have gone**,
+  which is the critical timing. Up to four ships a day disgorge
+  into a walled town of 1,000 residents; by six they have sailed
+  and it becomes itself again.
+- **18:30** — Venetian squares, the **Cathedral of St Tryphon**
+  from 1166, and the **cats** — a genuine civic institution, with
+  their own museum and a square named after them.
+- **20:00** — Dinner on a side square. Try *njeguški pršut*, the
+  mountain ham, and a Vranac red.
 
 ## Day 2 — The walls, and the bay towns
 
-- **07:00** — The **fortress walls** to **San Giovanni**, 1,350
-  steps, before the heat and the crowds.
-- **Late morning** — **Perast**, a single street of baroque palaces,
-  and the boat to **Our Lady of the Rocks**, an artificial island
-  built by sailors dropping stones for four centuries.
-- **Afternoon** — Swim off the bay, which is calm and cold and clear.
-- **Evening** — Dinner in Perast or Dobrota, away from Kotor's
-  main square.
+- **07:00** — The **fortress walls** to **San Giovanni**: **1,350
+  steps** and 260 m of climb up the cliff behind the town. Start at
+  seven — by ten it is both crowded and brutally hot, there is no
+  shade, and people turn back. Take water.
+- **09:00** — The view from the top is the one on every photograph
+  of Montenegro, and you have earned it.
+- **10:30** — Down, breakfast, and drive round to **Perast**, 20
+  minutes.
+- **11:30** — **Perast** is a single street of baroque palaces
+  built by sea captains, with no through traffic and 300 residents.
+- **12:30** — The boat to **Our Lady of the Rocks** — an
+  **artificial island**, built up over four centuries by sailors
+  dropping a stone on each safe return, and still topped up every
+  July in the *fašinada*. The church inside has 68 silver votive
+  plaques and a tapestry a local woman embroidered with her own
+  hair over 25 years.
+- **14:30** — Lunch in Perast, then **swim off the bay** — calm,
+  cold, startlingly clear, with the mountains straight above.
+- **19:30** — Dinner in **Perast** or **Dobrota**, away from
+  Kotor's main square where the prices are set by the ships.
 
 ## Day 3 — The serpentine and Lovćen
 
-- **Morning** — Up the **twenty-five hairpins** to the **Kotor
-  serpentine viewpoint**, then on to **Lovćen National Park** and the
-  **Njegoš mausoleum** at 1,657 m, reached by 461 steps through the
-  mountain.
-- **Afternoon** — **Cetinje**, the old royal capital, small and
-  faded and interesting.
-- **Evening** — Back down to the bay, or on toward the north.
+- **09:00** — The **Kotor serpentine**: **25 numbered hairpins**
+  climbing the wall behind the town on a road built in 1884. It is
+  single-track in places with passing bays, and the drop is
+  unprotected. Go up it, not down, and go early before the tour
+  vans.
+- **09:45** — The viewpoint around hairpin 17, with the whole bay
+  below and Our Lady of the Rocks a white dot in it.
+- **11:00** — **Lovćen National Park** and the **Njegoš
+  mausoleum** at **1,657 m** — the poet-prince-bishop's tomb under
+  the summit, reached by **461 steps through a tunnel** in the
+  mountain, with a black granite eagle and a view that on a clear
+  day takes in most of the country.
+- **13:30** — **Cetinje**, the old royal capital — small, faded,
+  and more interesting than it first looks: the palace, the
+  monastery, and a street of former embassies from when this was a
+  recognised kingdom.
+- **16:00** — Back down to the bay, or push on north to break
+  tomorrow's drive.
+- **19:30** — Dinner.
 
 ## Day 4 — North to Durmitor
 
-- **Morning** — The drive north, about three hours, over the
-  **Đurđevića Tara bridge** with the **Tara Canyon** — Europe's
-  deepest, second only to the Grand Canyon worldwide — 150 m below.
-- **Afternoon** — **Žabljak**, the highest town in the Balkans, and
-  **Black Lake** at the foot of the massif.
-- **Evening** — Mountain food, which is meat and cheese and
-  unapologetic.
+- **08:30** — The drive north, about three hours, and it climbs
+  steadily out of the coastal climate into alpine.
+- **11:00** — The **Đurđevića Tara bridge**: five arches, 365 m
+  long, 172 m above the river, built in 1940 and blown up by its
+  own engineer in 1942 to stop the Italians — he was executed for
+  it and there is a monument at the far end.
+- **11:30** — Below it, the **Tara Canyon** — **1,300 m deep, the
+  deepest in Europe** and second in the world only to the Grand
+  Canyon. There is a zipline across if you want it.
+- **13:00** — Lunch, then on to **Žabljak**, at 1,450 m the
+  highest town in the Balkans.
+- **15:00** — **Black Lake (Crno jezero)**, 20 minutes' walk from
+  town — two glacial lakes joined in high water, ringed by pine,
+  under the **Međed** peak. The circuit is 3.5 km and flat.
+- **19:00** — Mountain food, which is meat, cheese, *kačamak* and
+  no apology for any of it.
 
 ## Day 5 — Durmitor
 
-- **Option A** — The **Black Lake circuit** and up toward
-  **Ćurevac** for the canyon view.
-- **Option B** — **Rafting the Tara**, which runs roughly May to
-  October and is the classic Montenegrin activity.
-- **Option C** — The **Ring Road** loop through the park, which is
-  an afternoon of driving through alpine meadow.
+- **Option A — walking, 08:00.** The **Black Lake circuit** first,
+  then up toward **Ćurevac** for the canyon view, or the full climb
+  to **Bobotov Kuk** at 2,523 m — seven hours return and the
+  highest point in the park.
+- **Option B — rafting, 09:00.** The **Tara** runs roughly **May to
+  October**, with the high water in May and June. A half-day covers
+  18 km of grade II–III through the canyon; it is the classic
+  Montenegrin activity and it is not frightening.
+- **Option C — driving, 10:00.** The **Durmitor Ring Road**, 80 km
+  through alpine meadow, past the Sedlo pass at 1,907 m, with
+  shepherds' huts and very little traffic. Half a day with stops.
+- **19:00** — Last mountain dinner.
 
 ## Day 6 — South to the coast
 
-- **Morning** — The long drive south, three to four hours.
-- **Afternoon** — **Sveti Stefan**, the fortified islet turned
-  hotel, photographed from the road above since you cannot walk onto
-  it, then **Budva**'s old town.
-- **Evening** — A beach near **Petrovac**, which is calmer than
-  Budva.
+- **08:30** — The long drive south, three to four hours. The
+  **Moraća canyon** route is the scenic one, with the 13th-century
+  **Morača monastery** and its frescoes as the stop.
+- **13:00** — Lunch, then the coast.
+- **14:30** — **Sveti Stefan**: a fortified islet joined to the
+  shore by a causeway, turned into a hotel in the 1950s and closed
+  to non-guests. **You photograph it from the road above** — there
+  is a dedicated viewpoint — and that is the whole experience,
+  which is worth knowing before you drive down.
+- **16:00** — **Budva** old town, walled and Venetian and
+  considerably more crowded than Kotor.
+- **18:00** — A beach near **Petrovac**, which is calmer than
+  Budva and where you will actually want to swim.
+- **20:00** — Last dinner on the coast.
 
 ## Day 7 — Fly home
 
-- Tivat and Podgorica are both within about ninety minutes of the
-  southern coast. Return the car with time for the inspection.
+- **Morning** — **Tivat** and **Podgorica** are both within about
+  90 minutes of the southern coast.
+- **Return the car with time for the inspection.** The serpentine
+  and the mountain roads mark paintwork, and the rental excess here
+  is high.
+- **Note** — Montenegro uses the **euro** without being in the
+  eurozone — it adopted it unilaterally — so there is nothing to
+  change and nothing left over.
 
 ## What this trip actually costs
 

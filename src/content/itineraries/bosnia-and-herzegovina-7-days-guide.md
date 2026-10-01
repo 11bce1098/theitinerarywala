@@ -96,63 +96,135 @@ Seven days, and one warning that is not optional.
 
 ## Day 1 — Land in Sarajevo
 
-- **Afternoon** — Land, drop bags near **Baščaršija**, the Ottoman
-  bazaar.
-- **Evening** — Coffee in the bazaar, done properly in a džezva,
-  and ćevapi for dinner.
+- **14:00** — Land at **Sarajevo (SJJ)**, 12 km out, 20 minutes in.
+- **15:00** — Drop bags near **Baščaršija**, the Ottoman bazaar.
+  Staying inside the old town means everything on this itinerary is
+  on foot.
+- **16:30** — First walk through the bazaar: coppersmiths still
+  working in **Kazandžiluk** street, the **Sebilj** fountain, and
+  pigeons that are effectively a civic monument.
+- **17:30** — **Bosnian coffee**, properly. It comes in a *džezva*
+  with a copper cup, a sugar cube you hold in your teeth, and a
+  piece of *rahat lokum*. It is not Turkish coffee and saying so
+  will get you a short lecture.
+- **19:30** — ***Ćevapi*** for dinner — small grilled beef sausages
+  in a *somun* flatbread with raw onion and *kajmak*. **Željo** is
+  the institution; order *deset* (ten) unless you are very hungry.
+- **21:00** — The bazaar at night, which empties and goes quiet
+  early.
 
 ## Day 2 — Sarajevo's layers
 
-- **Morning** — The **Meeting of Cultures** line, then **Gazi
-  Husrev-bey Mosque**, the **Old Orthodox Church**, the
-  **cathedral** and the **synagogue**, all within a short walk.
-- **Afternoon** — The **Latin Bridge**, where Franz Ferdinand was
-  shot in 1914, and the City Hall, burned in 1992 and rebuilt.
-- **Evening** — The **Yellow Fortress** for sunset over a valley of
-  minarets and white gravestones.
+- **09:00** — Stand on the **Sarajevo Meeting of Cultures** line in
+  the pavement on Ferhadija. Turn one way and the street is Ottoman;
+  turn the other and it is Austro-Hungarian, and the change happens
+  in a single step.
+- **09:30** — Within about ten minutes' walk: **Gazi Husrev-bey
+  Mosque** (1531, and the courtyard is open), the **Old Orthodox
+  Church** with its icon museum, the Catholic **Sacred Heart
+  Cathedral**, and the **Ashkenazi synagogue** across the river.
+  Four faiths in four hundred metres is the thing Sarajevo is for.
+- **12:00** — The **Morića Han**, the old caravanserai courtyard,
+  for coffee.
+- **13:00** — Lunch — *burek* from a *buregdžinica*, sold by weight.
+- **14:30** — The **Latin Bridge**, where Gavrilo Princip shot
+  Franz Ferdinand on 28 June 1914 and started the First World War.
+  The museum on the corner is small and does the context well.
+- **16:00** — **Vijećnica**, the City Hall — a Moorish-revival
+  extravagance that served as the National Library until it was
+  shelled in August 1992 and **two million books burned**. Rebuilt
+  and reopened in 2014.
+- **18:30** — The **Yellow Fortress** for sunset: the whole valley,
+  minarets, and the white gravestones that cover the hillsides —
+  most of them dated 1992 to 1995.
 
 ## Day 3 — The siege, and the hills
 
-- **Morning** — The **Tunnel of Hope**, out by the airport. It
-  explains the siege better than any book.
-- **Afternoon** — The **cable car** to Trebević, the old Olympic
-  mountain, and the abandoned **bobsleigh track** now covered in
-  graffiti.
-- **Evening** — Last Sarajevo night.
+- **09:00** — The **Tunnel of Hope**, out by the airport. During the
+  **longest siege of a capital city in modern warfare — 1,425 days**
+  — this 800 m hand-dug tunnel under the runway was the city's only
+  link to the outside world. A 25 m section survives, with the
+  museum around the house it ran beneath. It explains the siege
+  better than any book, and the family who owned the house still
+  run it.
+- **11:30** — Back into town.
+- **13:00** — Lunch.
+- **14:30** — The **cable car** up **Trebević**, the Olympic
+  mountain, rebuilt in 2018 after being destroyed in the war.
+- **15:30** — The abandoned **1984 Olympic bobsleigh track** near
+  the top: a concrete serpent through the forest, now entirely
+  covered in graffiti, used as an artillery position during the
+  siege and never repaired. You can walk the whole run.
+- **18:00** — Back down.
+- **20:00** — Last Sarajevo dinner.
 
 ## Day 4 — South to Mostar
 
-- **Morning** — Train or bus through the **Neretva canyon**, which
-  is the reason to take the train.
-- **Afternoon** — **Stari Most**, the rebuilt bridge, and the
-  cobbled bazaar either side of it. Divers jump from it in summer,
-  for money, and it is 24 m down.
-- **Evening** — The bridge lit, from a restaurant on the riverbank.
+- **09:00** — **Take the train, not the bus.** It is two and a half
+  hours, runs twice a day, costs very little, and follows the
+  **Neretva canyon** the whole way — the single best rail journey
+  in the Balkans. Sit on the right going south.
+- **11:30** — **Mostar**. Drop bags; the old town is small.
+- **13:00** — Lunch above the river.
+- **14:30** — **Stari Most**, the bridge Suleiman the Magnificent's
+  architect built in 1566, **destroyed by shelling in November
+  1993** and rebuilt by 2004 using the original technique and stone
+  from the same quarry. The reconstruction is the point as much as
+  the bridge.
+- **16:00** — The **divers**. Members of the Mostar diving club
+  jump **24 m** into the Neretva through the summer once a crowd
+  has paid enough. They warm up for a long time; the water is about
+  10°C.
+- **17:00** — The cobbled bazaar either side, which is tourist-heavy
+  and still worth an hour for the coppersmiths.
+- **20:00** — Dinner on the riverbank with the **bridge lit**,
+  which is what you came for.
 
 ## Day 5 — Blagaj, Počitelj and Kravice
 
-- **Morning** — **Blagaj Tekija**, the dervish house under the
-  cliff where the Buna emerges from a cave, which is one of the most
-  striking places in the Balkans.
-- **Midday** — **Počitelj**, an Ottoman village stacked up a
-  hillside above the river.
-- **Afternoon** — **Kravice waterfalls**, a horseshoe of falls into
-  a pool you can swim in.
-- **Evening** — Back to Mostar.
+- **09:00** — **Blagaj Tekija**, 20 minutes out: a 16th-century
+  dervish house built flush against a 200 m cliff, at the point
+  where the **Buna river emerges fully formed from a cave mouth**.
+  It is one of the most striking places in the Balkans and you need
+  no interest in Sufism to feel it. Remove shoes, cover shoulders.
+- **11:00** — **Počitelj**, an Ottoman village stacked up a
+  hillside above the Neretva — a clock tower, a mosque, a fort at
+  the top, and pomegranates sold at the bottom.
+- **13:00** — Lunch at Počitelj or on the road.
+- **14:30** — **Kravice waterfalls**: a 120 m horseshoe of falls
+  dropping 25 m into a pool you can swim in. Busy in August, empty
+  in May, and the walk down from the car park is steeper than it
+  looks coming back up.
+- **18:00** — Back to Mostar.
+- **20:00** — Dinner.
 
 ## Day 6 — Mostar, or over the border
 
-- **Option A** — Mostar slowly: the **Muslibegović House**, the
-  old Turkish houses, and the **sniper tower** if you want the
-  harder history.
-- **Option B** — **Kotromanić** and the Neretva valley north, or a
-  day trip to **Dubrovnik**, which is two and a half hours away.
-- **Evening** — Last dinner.
+- **Option A — Mostar slowly, 09:30.** The **Muslibegović House**,
+  an 18th-century Ottoman home you can stay in; the **Bišćevića**
+  house with its cantilevered room over the river; and the
+  **sniper tower** — a derelict bank on the former front line,
+  covered in graffiti, which you can walk into if you are careful
+  and which is the harder half of this town's history.
+- **Option B — Dubrovnik, 08:00.** Two and a half hours each way,
+  and an entirely reasonable day trip. **Check the border** — it is
+  an EU external frontier and queues can be long in summer.
+- **Option C — north, 09:00.** The **Neretva valley** toward
+  **Jablanica** and the bridge from the 1943 battle, with the best
+  roast lamb in the country at the roadside restaurants there.
+- **20:00** — Last dinner.
 
 ## Day 7 — Fly home
 
-- Sarajevo and Mostar both have small airports; **Dubrovnik and
-  Split** are within three hours and often have better connections.
+- **Morning** — **Sarajevo (SJJ)** and **Mostar (OMO)** are both
+  small, and Mostar's has very few flights.
+- **Consider flying from Croatia.** **Dubrovnik** is 2.5 hours from
+  Mostar and **Split** about 3, and both usually have far better
+  connections and cheaper fares. Build the border crossing into
+  your timing.
+- **Note** — Bosnia uses the **convertible mark (BAM)**, pegged to
+  the euro. Euros are accepted in tourist places at a poor rate;
+  pay in marks and spend them before you leave.
 
 ## What this trip actually costs
 
