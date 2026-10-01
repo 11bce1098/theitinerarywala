@@ -96,83 +96,169 @@ numbering and capacities have been revised more than once.
 
 ## Day 1 — Land in Lima, sea level and dinner
 
-- **Afternoon** — Land, drop bags in **Miraflores** or **Barranco**.
-  The clifftop walk above the Pacific is the introduction.
-- **Evening** — Eat. Lima is genuinely one of the world's great
-  food cities, and it runs from a ceviche counter at a market to
-  restaurants that book months out. Do both over two nights.
+- **14:00** — Land at **Jorge Chávez (LIM)**. The new terminal
+  opened in 2025; allow for the transfer, which is 40–60 minutes to
+  Miraflores.
+- **15:30** — Stay in **Miraflores** for convenience or **Barranco**
+  for character. Both are on the clifftop above the Pacific.
+- **17:00** — The ***Malecón*** — six kilometres of clifftop park
+  above the sea, with paragliders launching off the edge at
+  Parque Raimondi.
+- **18:30** — It will probably be grey. Lima sits under the
+  ***garúa*** — a coastal fog — for much of the year, and it
+  almost never rains. Do not judge the city by the light.
+- **20:00** — **Eat.** Lima is one of the world's great food
+  cities and it is the reason to stop here rather than connect
+  straight through. Start with **ceviche at a *cevichería***
+  — lunchtime is when locals eat it, but the good ones serve
+  through — and **pisco sour** first.
 
 ## Day 2 — Lima, and the reason to stop here
 
-- **Morning** — **Museo Larco** for the pre-Columbian collection,
-  which reframes everything you will see later, or the **Centro
-  Histórico** for the colonial squares and catacombs.
-- **Afternoon** — **Barranco**: the bohemian quarter, the bridge,
-  and a slower pace than Miraflores.
-- **Evening** — An early night. Tomorrow starts high.
+- **09:30** — **Museo Larco** in Pueblo Libre: 45,000 pre-Columbian
+  pieces in a colonial mansion, arranged chronologically so that
+  3,000 years of Andean cultures make sense **before** you reach
+  Cusco. It reframes everything you see later. The storage rooms
+  are open to visitors, which almost no museum does.
+- **12:30** — Lunch in the museum garden, which is genuinely good.
+- **14:00** — The **Centro Histórico**: **Plaza Mayor**, the
+  cathedral with Pizarro's remains, and the **San Francisco
+  catacombs** — bone-lined ossuaries under the monastery holding an
+  estimated 25,000 burials.
+- **17:00** — **Barranco**: the bohemian quarter, the **Puente de
+  los Suspiros**, and a slower evening than Miraflores.
+- **19:30** — Dinner. If you want one of the famous kitchens —
+  Central, Maido — **they book months ahead**; the mid-range
+  places in Barranco are extraordinary and take walk-ins.
+- **21:30** — Early night. Tomorrow starts high.
 
 ## Day 3 — Fly to Cusco, then straight down to the valley
 
-- **Morning** — Fly **Lima → Cusco**, about 90 minutes.
-- **Immediately** — Do not stay in Cusco. Transfer straight to the
-  **Sacred Valley** — Urubamba or Ollantaytambo — and sleep lower.
-  This single decision is what makes the rest of the trip pleasant.
-- **Afternoon** — Nothing strenuous. Walk the village, drink water,
-  eat lightly.
+- **08:00** — Fly **Lima → Cusco**, about 90 minutes. Take a
+  morning flight: afternoon departures out of Cusco are cancelled
+  often enough that the airline schedules around it.
+- **09:30** — Land at **3,400 m**. You will feel it in the walk to
+  the terminal.
+- **10:30** — **Do not stay in Cusco tonight.** Transfer straight
+  down to the **Sacred Valley** — **Urubamba** at 2,870 m or
+  **Ollantaytambo** at 2,790 m. **This single decision is what
+  makes the rest of the trip pleasant**, and it is the most useful
+  thing in this guide.
+- **12:30** — Arrive. Lunch, lightly.
+- **14:00** — **Nothing strenuous.** Walk the village slowly, drink
+  far more water than you want, and have *mate de coca*. Altitude
+  sickness is not about fitness — fit young people get it worst
+  because they push on.
+- **19:00** — Early dinner, early bed.
 
 ## Day 4 — The Sacred Valley
 
-- **Morning** — **Pisac**: the terraces above the town, and the
-  market below it.
-- **Afternoon** — **Ollantaytambo**, which is both a spectacular
-  terraced site and the last living Inca town — the street plan is
-  original.
-- **Evening** — Early dinner in Ollantaytambo. The train leaves from
-  here.
+- **08:30** — **Pisac**: the **terraces** climb the mountainside
+  above the town in curves, with a ceremonial centre, baths and a
+  cliff face honeycombed with over a thousand looted tombs. Enter
+  at the top and walk down — the taxi takes you up, and the descent
+  through the site is the right direction.
+- **11:30** — **Pisac market** below. Tuesday, Thursday and Sunday
+  are the big days.
+- **13:00** — Lunch in the valley.
+- **15:00** — **Ollantaytambo**, and it is two things at once: a
+  spectacular terraced temple site where the Incas defeated the
+  Spanish in 1537, with six monoliths of rose rhyolite hauled
+  across the valley from a quarry 6 km away — and **the last
+  living Inca town**, whose **street plan, canals and foundations
+  are original** and still lived in.
+- **18:00** — Walk the lanes behind the plaza, which is where that
+  last point becomes obvious.
+- **19:30** — Early dinner. **The train leaves from here** and
+  tomorrow is early.
+- **Note** — Buy the **Boleto Turístico** if you are doing several
+  sites; Machu Picchu is ticketed separately and must be bought
+  months ahead with a chosen circuit and entry time.
 
 ## Day 5 — Machu Picchu
 
-- **Early** — **Train to Aguas Calientes**, then the shuttle bus up.
-  Take the earliest slot you hold.
-- **Your circuit** — Whichever you booked. The classic view comes
-  from the upper terraces; the lower circuits get you closer to the
-  stonework and are easier underfoot.
-- **Optional** — **Huayna Picchu** or **Machu Picchu Mountain**, both
-  separately ticketed, both capped, both booked at the same time as
-  entry. Neither is for anyone uneasy with exposure.
-- **Evening** — Sleep in Aguas Calientes, or train back to the
-  valley if you would rather wake up somewhere nicer.
+- **05:00** — **Train to Aguas Calientes** from Ollantaytambo, 90
+  minutes up the Urubamba gorge. Sit on the left going out.
+- **07:00** — The shuttle bus up the switchbacks, 25 minutes, and
+  the queue for it is long — be in it before your entry slot.
+- **08:00** — **Your circuit.** Entry is now by **fixed circuit and
+  timed slot**, bought in advance, and you cannot wander between
+  them. **The classic postcard view is from the upper circuits**
+  (1 or 2); the lower ones get you closer to the stonework of the
+  Temple of the Sun and the Intihuatana and are easier underfoot.
+  **A guide is required** at the entrance.
+- **11:00** — **Huayna Picchu** or **Machu Picchu Mountain** if you
+  booked one — separately ticketed, capped daily, and sold with
+  your entry months earlier. Huayna Picchu is the steep peak behind
+  the ruins, with exposed steps and cables. **Neither is for anyone
+  uneasy with heights.**
+- **14:00** — Down. Aguas Calientes is a functional town in a
+  gorge, with hot springs and inflated prices.
+- **16:00** — **Train back to the valley** rather than sleeping
+  here, if you can — you will wake up somewhere far nicer.
 
 ## Day 6 — Back to Cusco, now acclimatised
 
-- **Morning** — Train and transfer up to **Cusco**, which by now
-  will feel fine.
-- **Afternoon** — **Qorikancha**, where a baroque convent was built
-  straight onto Inca foundations and the joint is the point.
-- **Evening** — **Plaza de Armas** at dusk, and dinner in San Blas.
+- **09:00** — Transfer up to **Cusco**, an hour and a half. **By
+  now it will feel fine**, which is the whole reason the valley
+  came first.
+- **11:00** — Check in around **San Blas** or the Plaza.
+- **13:00** — Lunch.
+- **14:30** — **Qorikancha**: the Inca Temple of the Sun, once
+  lined with gold sheet, with the **Santo Domingo convent built
+  directly on top of it**. The Spanish could not demolish the
+  foundations, so they built on them — and the earthquakes of 1650
+  and 1950 brought down the convent while the Inca walls did not
+  move. **The joint between the two is the point.**
+- **17:00** — **Plaza de Armas** at dusk, with the cathedral lit.
+- **19:30** — Dinner in **San Blas**.
 
 ## Day 7 — Cusco properly
 
-- **Morning** — **Sacsayhuamán**, the fortress above town, walkable
-  uphill if you are feeling strong and a short taxi if not.
-- **Afternoon** — **San Pedro market**, the cathedral, and the
-  artisan streets of San Blas.
-- **Evening** — Free. Cusco's restaurants are better than a town this
-  size has any right to.
+- **09:00** — **Sacsayhuamán**, above the town: zigzag ramparts of
+  stones weighing up to 120 tonnes, cut and fitted **without
+  mortar** so precisely that a blade will not enter the joints.
+  Walk up if you are feeling strong — it is steep — or take a taxi
+  and walk down.
+- **11:30** — The nearby sites on the same ticket: **Q'enqo**,
+  **Puka Pukara** and **Tambomachay**.
+- **13:00** — **San Pedro market** for lunch — juice stalls, soups,
+  and the cheese and bread counters.
+- **15:00** — The **cathedral** on the Plaza, for the Last Supper
+  painted with a **roast guinea pig** on the table, and the
+  **Twelve-Angled Stone** on Hatunrumiyoc street.
+- **17:00** — **San Blas**: the artisan quarter, steep and narrow,
+  and the best wandering in the city.
+- **20:00** — Dinner. Cusco's restaurants are better than a town of
+  this size has any right to be.
 
 ## Day 8 — Rainbow Mountain, Maras, or rest
 
-- Three honest options. **Maras and Moray** — the salt pans and the
-  circular terraces — is the gentle one and the best value.
-  **Rainbow Mountain** is a very early start and 5,000 m of altitude
-  for a photograph. **Doing nothing in Cusco** is a legitimate third
-  choice after a week at height.
+- **Option A — Maras and Moray, 08:30.** The gentle one and the
+  best value: **Moray's** concentric circular terraces, an Inca
+  agricultural laboratory where each ring sits at a different
+  temperature, and the **Maras salt pans** — 3,000 shallow terraces
+  fed by a saline spring, worked by the same families since
+  pre-Inca times. Back by mid-afternoon.
+- **Option B — Rainbow Mountain, 03:00.** A three-hour drive, then
+  a 90-minute climb to **5,036 m** for a striped mineral hillside.
+  It is **higher than Everest base camp**, it is genuinely hard,
+  the colours are weaker than the photographs, and it is very
+  crowded. Go in only if you are well acclimatised and want it.
+- **Option C — nothing.** After a week at altitude this is a
+  legitimate and under-chosen answer.
+- **19:30** — Last dinner.
 
 ## Day 9 — Fly home via Lima
 
-- **Morning** — Fly Cusco → Lima. Take the earliest flight and leave
-  a long connection; afternoon cancellations out of Cusco are common
-  enough to plan around.
+- **07:00** — Fly **Cusco → Lima**, and **take the earliest flight
+  of the day**. Cusco sits in a bowl, the weather closes in, and
+  **afternoon cancellations are common enough to plan around**.
+- **09:00** — Land in Lima.
+- **Leave a long connection** — four hours minimum to an
+  international departure. If your flight home is late evening,
+  the airport is 40 minutes from Miraflores and a last ceviche is
+  entirely achievable.
 
 ## What this trip actually costs
 

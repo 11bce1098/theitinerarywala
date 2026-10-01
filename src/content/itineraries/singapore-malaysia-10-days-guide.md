@@ -95,86 +95,185 @@ and you never double back.
 
 ## Day 1 — Land in Singapore, Marina Bay switches on
 
-- **Afternoon** — Land, drop bags. Singapore's airport is a sight in
-  its own right, but save it for the end — you fly out of Penang, so
-  see **Jewel** now, on the way in.
-- **Evening** — **Marina Bay** after dark: the Supertrees light up
-  twice a night, free, and the waterfront walk is the city's
-  introduction to itself.
+- **14:00** — Land at **Changi**. **See Jewel now, on the way in** —
+  the 40 m indoor waterfall and the forest around it are in the
+  public landside area — because you fly home from Penang and will
+  not pass through here again.
+- **16:00** — The **MRT** reaches the city in 35 minutes and costs
+  about two dollars. Buy a contactless-enabled card or just tap a
+  bank card.
+- **17:00** — Drop bags. **Chinatown**, **Kampong Glam** or
+  **Tiong Bahru** are the interesting places to sleep; Marina Bay
+  is the expensive one.
+- **19:00** — **Marina Bay after dark.** Walk the waterfront from
+  the Merlion round to the **Helix Bridge**, with the Sands hotel
+  and the whole skyline across the water.
+- **19:45** — The **Supertree** light-and-sound show at Gardens by
+  the Bay — **19:45 and 20:45 nightly, free** — watched lying on
+  the grass underneath, which is how everyone does it.
+- **21:00** — Supper at a hawker centre.
 
 ## Day 2 — Gardens, and three cultures in three stops
 
-- **Morning** — **Gardens by the Bay**: the Cloud Forest before the
-  heat, the Flower Dome after.
-- **Afternoon** — **Chinatown, Little India and Kampong Glam**, three
-  MRT stops apart and completely different from one another. Eat in
-  all three.
-- **Evening** — A hawker centre. **Michelin-listed stalls cost a few
-  dollars**, and the queue tells you which one.
+- **09:00** — **Gardens by the Bay**: the **Cloud Forest** first,
+  before the heat — a 35 m indoor mountain with a waterfall and a
+  cloud walk — then the **Flower Dome**, which is cooler and
+  calmer. The **OCBC Skyway** between the Supertrees is cheap and
+  worth it.
+- **12:30** — Lunch, then the MRT.
+- **14:00** — **Chinatown**: the **Buddha Tooth Relic Temple**, the
+  Sri Mariamman Hindu temple two streets away, and the **Maxwell
+  Food Centre**.
+- **15:30** — **Little India**: Tekka Centre, the **Sri Veeramakali-
+  amman** temple, and the sensory jolt of going from one to the
+  other in four MRT stops.
+- **17:00** — **Kampong Glam**: the gold-domed **Sultan Mosque**,
+  Arab Street's textile shops, and **Haji Lane**'s murals and bars.
+- **19:30** — **A hawker centre, properly.** Several stalls here
+  hold **Michelin** mentions and charge a few dollars. **The queue
+  is the review** — join the longest one. Chilli crab, Hainanese
+  chicken rice, char kway teow, carrot cake (which is neither).
 
 ## Day 3 — Singapore your way
 
-- Options: **Sentosa** for the island day, the **Botanic Gardens**
-  for the quiet one, or the **Night Safari**, which is better than it
-  sounds.
-- **Evening** — Book the morning coach to Melaka and file your MDAC.
+- **Option A — Sentosa, 09:00.** The island day: beaches, cable
+  car, Universal Studios, and the **SkyHelix**. Good with children,
+  skippable otherwise.
+- **Option B — the quiet one, 09:00.** The **Botanic Gardens**, a
+  UNESCO site and free, with the **National Orchid Garden** inside
+  it; then the **MacRitchie TreeTop Walk**, a suspension bridge
+  over primary rainforest with macaques and monitor lizards, 20
+  minutes from the financial district.
+- **Option C — the museums.** The **National Gallery** in the old
+  Supreme Court, or the **Peranakan Museum**, which sets up
+  everything you will see in Melaka.
+- **19:30** — The **Night Safari**, which is better than it sounds
+  — a proper zoo run after dark, when the animals are actually
+  awake. Book ahead.
+- **21:30** — **Two things before bed:** book tomorrow's coach, and
+  **file your Malaysian Digital Arrival Card (MDAC)** — it is
+  required within three days of entry and the border is slow
+  without it.
 
 ## Day 4 — Overland to Melaka
 
-- **Morning** — Coach to **Melaka**, roughly four hours including the
-  border. Two passport queues, one lunch stop.
-- **Afternoon** — **Dutch Square** and the hill above it: a Portuguese
-  gate, a Dutch church and a British lighthouse in ten minutes of
-  walking, which is the whole history of the place.
-- **Evening** — **Jonker Street**, best on a weekend night when the
-  night market runs.
+- **08:00** — Coach to **Melaka**, roughly four to five hours
+  including the border. **Two passport queues** — Singapore exit at
+  Woodlands, Malaysia entry at Johor — and you get off the bus with
+  your luggage at both. It is tedious and entirely straightforward.
+- **13:00** — Arrive. Drop bags around Jonker Street.
+- **14:30** — **Dutch Square**: the red **Stadthuys** (1650,
+  the oldest Dutch building in Asia) and Christ Church.
+- **15:30** — **St Paul's Hill** above it, and this is the whole
+  history of the place in ten minutes of walking — a **Portuguese**
+  gate (A Famosa, 1511), a **Dutch** church, and a **British**
+  lighthouse, with St Francis Xavier's empty tomb at the top.
+- **17:00** — The **river walk**, which is nicer than it has any
+  right to be and covered in murals.
+- **19:00** — **Jonker Street**, and it is **best on a Friday,
+  Saturday or Sunday night** when the night market closes the road.
+  Eat: *chicken rice balls*, *cendol*, satay celup.
 
 ## Day 5 — Melaka slow, then north to KL
 
-- **Morning** — A river walk, then the Baba-Nyonya heritage houses —
-  the Peranakan culture that grew where the trade routes met.
-- **Afternoon** — Coach to **Kuala Lumpur**, about two hours.
-- **Evening** — The **Petronas Towers** from the park below, where
-  the fountains run after dark and the view costs nothing.
+- **09:00** — The **Baba-Nyonya Heritage Museum** — three
+  terrace houses knocked together, the home of a **Peranakan**
+  family, whose culture grew where Chinese traders married local
+  Malay women and which exists because of exactly this port. Guided
+  only, and the guides are descendants.
+- **11:00** — **Cheng Hoon Teng** temple, the oldest functioning
+  Chinese temple in Malaysia, and **Kampung Kling** mosque with its
+  pagoda-shaped minaret, on the same street.
+- **13:00** — Lunch — *asam pedas*, or Nyonya laksa.
+- **14:30** — Coach to **Kuala Lumpur**, about two hours.
+- **17:00** — Arrive. Drop bags around **Bukit Bintang** or
+  **KLCC**.
+- **19:00** — The **Petronas Towers** from **KLCC Park** below,
+  where the **fountain show** runs after dark and the view costs
+  nothing. The Skybridge tickets sell out days ahead; the park is
+  the better photograph anyway.
+- **20:30** — Dinner.
 
 ## Day 6 — Caves, towers and the old quarter
 
-- **Morning** — **Batu Caves** early: 272 coloured steps, a limestone
-  cavern at the top, and monkeys with no respect for anybody.
-- **Afternoon** — **Merdeka Square** and the old railway station, then
-  **Central Market** for lunch.
-- **Evening** — A rooftop somewhere, or **Jalan Alor**'s street-food
-  strip, which is the better meal.
+- **07:30** — **Batu Caves** early, before the heat and the coaches
+  — 30 minutes by KTM Komuter train. **272 steps**, repainted in
+  rainbow colours in 2018, up to a limestone cavern with a Hindu
+  shrine inside and a 43 m gold Murugan statue at the bottom.
+  **The macaques will take anything you are holding**, including
+  sunglasses and phones.
+- **10:30** — Back into town.
+- **11:30** — **Merdeka Square**, the **Sultan Abdul Samad
+  building**, and the **old railway station** — Moorish-revival
+  colonial architecture that looks like nothing else in Asia.
+- **13:00** — **Central Market** for lunch and crafts, then
+  **Petaling Street** in Chinatown.
+- **15:00** — The **Islamic Arts Museum**, which is excellent and
+  air-conditioned, or the **Thean Hou** temple.
+- **19:30** — **Jalan Alor**'s street-food strip — plastic stools,
+  smoke, satay and grilled fish — which is a better meal than any
+  rooftop. **Heli Lounge Bar**, a helipad that becomes a bar at
+  sunset, is the drink before it.
 
 ## Day 7 — The train north to Penang
 
-- **Morning** — **KL → Butterworth** on the electric train, about
-  four hours and genuinely comfortable, then the ferry or bridge
-  across to **George Town**.
-- **Afternoon** — Drop bags and walk. George Town's old quarter is a
-  UNESCO site and best discovered on foot without a plan.
-- **Evening** — Your first Penang meal. Ask anyone where they eat;
-  follow that answer.
+- **08:30** — **KL Sentral → Butterworth** on the **ETS electric
+  train**: about four hours, reserved seats, comfortable, and
+  genuinely one of the nicest journeys in Southeast Asia. Book
+  ahead; it sells out.
+- **12:30** — **Butterworth**, then the **ferry** across to
+  **George Town** — 15 minutes, and the approach to the waterfront
+  is the right way to arrive.
+- **13:30** — Drop bags in the old quarter.
+- **15:00** — **Walk with no plan.** George Town's core is a UNESCO
+  site of shophouses, clan temples, mosques and godowns, and it is
+  small enough that getting lost is the method.
+- **19:00** — Your first Penang meal. **Ask anyone where they eat
+  and go there** — this is the food capital of the trip and
+  everyone has a strong opinion.
 
 ## Day 8 — George Town properly
 
-- **Morning** — The **clan jetties**, the Blue Mansion, and the
-  street art that made the city famous.
-- **Afternoon** — **Penang Hill** by funicular for the view and five
-  degrees of relief.
-- **Evening** — **Gurney Drive** or a neighbourhood hawker centre.
-  This is the eating capital of the trip; plan two dinners if you can.
+- **08:30** — The **clan jetties** — stilt villages over the water,
+  each built by one Chinese clan, with **Chew Jetty** the largest
+  and still lived in. Go early, before the day crowds.
+- **10:00** — The **street art**: Ernest Zacharevic's 2012 murals —
+  the children on the bicycle, the boy on the chair — plus the
+  wrought-iron caricatures. There are maps; wandering works better.
+- **11:30** — The **Blue Mansion** (Cheong Fatt Tze), indigo and
+  perfectly feng-shui'd, by guided tour only.
+- **13:00** — Lunch — *char kway teow*, *assam laksa*, *cendol*.
+- **15:00** — **Penang Hill** by **funicular** to 833 m, for the
+  view over the strait and **five degrees of relief**. The
+  **Habitat** rainforest walk at the top is worth the extra hour.
+- **19:00** — **Gurney Drive** hawker centre, or a neighbourhood
+  one, which will be better. **Plan two dinners if you can** — an
+  early and a late — because one is not enough here.
 
 ## Day 9 — Penang at your pace
 
-- Options: **Kek Lok Si** temple, the **spice garden**, **Batu
-  Ferringhi**'s beach, or simply another day of George Town's food.
-- **Evening** — Last meal. Make it char kway teow.
+- **Option A — temples, 09:00.** **Kek Lok Si**, the largest
+  Buddhist temple in Malaysia, built up a hillside in tiers with a
+  seven-storey pagoda combining Chinese, Thai and Burmese styles.
+- **Option B — green, 09:00.** The **Tropical Spice Garden** on the
+  north coast, or the **Botanic Gardens**.
+- **Option C — beach, 10:00.** **Batu Ferringhi**, which is
+  pleasant rather than exceptional — the sea here is not the
+  reason to come to Penang.
+- **Option D — more food.** Entirely legitimate, and what most
+  people actually do.
+- **19:30** — Last meal. **Make it char kway teow**, cooked over
+  charcoal, from a stall with a queue.
 
 ## Day 10 — Fly home from Penang
 
-- Penang's airport is small and quick. Direct flights reach the Gulf
-  and much of Asia; most other routings connect through KL.
+- **Morning** — **Penang (PEN)** is 30 minutes from George Town and
+  small and quick — 90 minutes is enough.
+- **Direct flights** reach the Gulf, Singapore, Bangkok and much of
+  Asia; most other routings connect through **KL**, so check
+  whether yours needs a terminal change there.
+- **Last stop** — Nutmeg oil and *tau sar pneah* biscuits from a
+  shop in the old town, which are the two things Penang sends home.
 
 ## What this trip actually costs
 
