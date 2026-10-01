@@ -93,74 +93,159 @@ hop-on pass that lets you island-hop without chartering anything.
 
 ## Day 1 — Land in Nadi
 
-- **Afternoon** — Land, and stay near **Nadi** or **Denarau**, since
-  the catamaran leaves early.
-- **Evening** — Draw cash for the islands. The Garden of the
-  Sleeping Giant or the Sabeto mud pools fill an afternoon if you
-  land early.
+- **06:00** — Most long-haul flights land at **Nadi (NAN)** at dawn.
+  You will be greeted by a guitar trio in the arrivals hall, which
+  is not a put-on.
+- **08:00** — Stay near **Nadi town** or **Denarau** — the
+  **Yasawa Flyer** leaves Denarau marina around 08:45, so tonight's
+  bed needs to be close to it.
+- **09:30** — **Draw cash now.** The Yasawa islands have no ATMs,
+  patchy card acceptance and no bank, and your resort will charge a
+  poor rate to change money. Take more Fijian dollars than you
+  think for the whole island stretch.
+- **11:00** — **Sabeto mud pools** and hot springs, 20 minutes out
+  — you coat yourself in grey mud, let it dry, and rinse in a
+  thermal pool. Cheap, daft, and exactly the right first morning.
+- **14:00** — The **Garden of the Sleeping Giant**, orchids planted
+  by Raymond Burr on the hillside, a quiet hour.
+- **17:00** — Repack into one soft bag for the islands.
+- **19:00** — Dinner, early night. **Buy the Flyer ticket and your
+  resort transfers as a package (a "Bula Pass") before you go** —
+  booking each leg separately costs considerably more.
 
 ## Day 2 — North into the Yasawas
 
-- **Morning** — The **Yasawa Flyer** north. The run takes most of
-  the day depending how far you go; the view does the work.
-- **Afternoon** — Arrive at your first island — the **Naviti** or
-  **Waya** groups are the usual middle of the chain.
-- **Evening** — Dinner at the property, which is where everyone
-  eats, and a beach with no lights on it.
+- **08:45** — The **Yasawa Flyer** leaves Denarau. The catamaran
+  runs the whole chain daily and drops you at your island by small
+  boat — the big boat does not dock, it stops offshore and a tender
+  comes out.
+- **11:00** — Past the **Mamanucas** — the resort islands, and
+  **Monuriki**, where *Cast Away* was filmed.
+- **13:00** — Lunch on board, and watch the islands go from low and
+  developed to high, green and almost empty.
+- **15:00** — Arrive at your island. The **Naviti** and **Waya**
+  groups are the usual middle of the chain and the sensible choice
+  for a first stop.
+- **16:00** — Settle. Accommodation runs from backpacker dorms in
+  *bure* huts to small resorts, and the difference in the water in
+  front of them is nil.
+- **18:30** — Dinner at the property, which is where everyone eats
+  — there is nowhere else — at long shared tables.
+- **20:00** — A beach with no lights on it, and the whole sky.
 
 ## Day 3 — Reef, and the first swim
 
-- **Morning** — Snorkel straight off the beach. The coral here comes
-  close in, and most properties will run a boat to a better site.
-- **Afternoon** — A village visit with *sevusevu*, if your hosts
-  arrange one.
-- **Evening** — Kava, and singing, which is not staged.
+- **07:30** — Breakfast, then snorkel **straight off the beach**.
+  The coral comes close in here; you do not need a boat for the
+  first look.
+- **10:00** — Most properties run a boat to a better site mid-
+  morning — ask at breakfast, because it goes when enough people
+  want it.
+- **12:30** — Lunch, then the heat of the day in a hammock.
+- **15:00** — A **village visit**, if your hosts arrange one. You
+  bring ***sevusevu*** — a bundle of *waka*, dried kava root,
+  bought in Nadi market for a few dollars — and present it to the
+  chief, who accepts it on the village's behalf. Cover your
+  shoulders and knees, and **take your hat off**: wearing one in a
+  village is reserved for the chief.
+- **18:00** — **Kava**, cross-legged on a mat. Clap once, take the
+  bowl, drink it in one, clap three times. It tastes of muddy water
+  and numbs your mouth, and the point is entirely the sitting
+  around.
+- **20:00** — Singing afterwards, in harmony, and it is not staged
+  for you.
 
 ## Day 4 — Further north
 
-- **Morning** — The Flyer again, an hour or two up the chain toward
-  the **Sawa-i-Lau** area.
-- **Afternoon** — The **limestone caves**: you swim through a short
-  underwater passage into a second chamber, which is the one people
-  talk about afterwards.
-- **Evening** — A different island, a similar rhythm.
+- **09:00** — The **Flyer** again, an hour or two further up the
+  chain toward the **Sawa-i-Lau** area and the top of the Yasawas.
+- **11:30** — Arrive, settle at the second island. Changing islands
+  once is worth it; the chain is 80 km long and the north is
+  noticeably quieter than the middle.
+- **14:00** — **Sawa-i-Lau caves**: a limestone chamber you enter by
+  boat and swim in, with light coming through a hole in the roof.
+  Then the part people talk about afterwards — **a short underwater
+  passage** you duck through, in the dark, with a guide's hand, into
+  a second enclosed chamber. It is about three metres and entirely
+  safe, and it is still a decision.
+- **16:30** — Back, and a swim off the beach.
+- **19:00** — Dinner, different island, same rhythm.
 
 ## Day 5 — Manta rays, in season
 
-- **Morning** — In the **Naviti** channel between May and October,
-  boats take snorkellers to swim with **manta rays** as they feed in
-  the current. It is the single best thing in the islands.
-- **Afternoon** — Beach, hammock, book.
-- **Evening** — Last island night.
+- **07:00** — **Between May and October**, mantas feed in the
+  channel off **Naviti** on the tide. Boats go when the spotters on
+  the headland see them, which means you wait with your fins on
+  and then move quickly.
+- **08:00** — In the water. **Reef mantas** up to three metres
+  across, feeding in the current, passing underneath you close
+  enough to see the markings. You swim alongside, you do not chase,
+  and you do not touch.
+- **10:30** — Back. This is the single best thing in the islands and
+  it is weather and season dependent, which is why it is worth
+  building two days of flexibility around it.
+- **12:30** — Lunch, then beach, hammock, book — the correct
+  programme.
+- **16:00** — A **sunset kayak** or the headland walk for the view
+  back down the chain.
+- **19:00** — Last island night. Settle the bar bill in cash.
 
 ## Day 6 — Back south, and across to the coast
 
-- **Morning** — The Flyer back to Denarau, most of the day.
-- **Afternoon** — Drive along the **Coral Coast**, about ninety
-  minutes.
-- **Evening** — A coast resort or guesthouse.
+- **09:00** — The **Flyer** south, most of the day — four to five
+  hours from the top of the chain.
+- **14:00** — Denarau marina. Collect the bag you left, and the
+  hire car if you booked one.
+- **15:30** — Drive the **Coral Coast**, about 90 minutes
+  south-east on the Queens Road, with the sea on one side the whole
+  way.
+- **17:30** — A coast resort or guesthouse around **Korotogo** or
+  **Pacific Harbour**.
+- **19:00** — Dinner, and a shower with pressure, which after a
+  week of islands is a genuine pleasure.
 
 ## Day 7 — The highlands and the river
 
-- **Morning** — **Sigatoka River** by longboat or a highland village
-  tour, which is the cultural half of the trip.
-- **Afternoon** — The **Sigatoka Sand Dunes**, an archaeological
-  site as much as a landscape.
-- **Evening** — Back on the coast.
+- **08:00** — The **Sigatoka River** by longboat — flat-bottomed
+  craft up into the interior to highland villages that the road
+  does not reach. Half a day, with *sevusevu* again, and a
+  *meke* — the dance — if the village is expecting you.
+- **13:00** — Lunch back on the coast.
+- **15:00** — The **Sigatoka Sand Dunes National Park**: Fiji's
+  first national park, and an **archaeological site** as much as a
+  landscape — 2,600-year-old Lapita pottery and human burials erode
+  out of the dunes continuously. The two-hour loop goes over the
+  dunes and down to a black-sand beach with serious surf.
+- **18:00** — Back.
+- **19:30** — Dinner — *kokoda*, the Fijian ceviche in coconut
+  milk, which is on every menu and should be.
 
 ## Day 8 — Reef, or the garden island
 
-- **Option A** — Snorkel or dive the **Coral Coast** reef, reachable
-  from the beach at low tide.
-- **Option B** — A day trip inland to **Navala**, the village of
-  traditional thatched *bure*, with a guide.
-- **Evening** — Drive back toward Nadi.
+- **Option A — the reef, 09:00.** Snorkel or dive the **Coral
+  Coast** reef, which you reach from the beach at low tide, or go
+  out to the **Beqa Lagoon** for the serious diving — including
+  the shark dive, which is baited, controversial, and extremely
+  impressive.
+- **Option B — Navala, 08:00.** A day inland to **Navala**, the
+  last village in Fiji built entirely of traditional thatched
+  ***bure***, laid out in avenues under the hills. Go with a guide
+  and with *sevusevu*; it is a working village and not a museum.
+- **Option C — Pacific Harbour.** Ziplines, river tubing, or the
+  Arts Village.
+- **17:00** — Drive back toward Nadi, about two hours.
+- **19:30** — Last dinner.
 
 ## Day 9 — Fly home
 
-- Nadi airport is small and straightforward. Most long-haul
-  departures are late evening or overnight, so you often get the
-  last day.
+- **Morning** — **Nadi airport is small and straightforward** — an
+  hour is genuinely enough.
+- **Most long-haul departures are late evening or overnight**, so
+  you usually get the last day. Leave bags at the airport or your
+  hotel and take it slowly.
+- **Last stop** — **Nadi market** for kava root, which is the one
+  thing worth carrying home, and check your own country's rules on
+  bringing it in before you buy.
 
 ## What this trip actually costs
 

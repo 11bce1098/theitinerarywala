@@ -86,79 +86,164 @@ thing to plan around.
 
 ## Day 1 — Land in Tirana
 
-- **Afternoon** — Land, collect the car. Tirana is a small capital
-  of painted apartment blocks — an actual mayoral policy in the
-  2000s.
-- **Evening** — **Skanderbeg Square**, then **Blloku**, once the
-  sealed quarter of the party elite and now where everyone drinks.
+- **14:00** — Land at **Tirana (TIA)**, 17 km out, 30 minutes in.
+- **15:00** — Collect the car if you are driving the whole route.
+  Albanian roads are much better than their reputation; the hazard
+  is other drivers, overtaking on blind bends, and the occasional
+  cow.
+- **16:00** — **Skanderbeg Square**, a pedestrianised slab of
+  Albanian stone with the national hero on a horse, the Et'hem Bey
+  mosque, and the clock tower.
+- **17:00** — The **Pyramid**, Enver Hoxha's mausoleum turned
+  derelict landmark turned, since 2023, a tech-education centre you
+  can climb the outside of.
+- **18:00** — Tirana's apartment blocks are painted in blocks of
+  colour — an actual policy by Edi Rama when he was mayor, on the
+  grounds that a city that looks cared for behaves like one.
+- **19:30** — **Blloku**, the quarter sealed off for the party elite
+  until 1991 and now where everyone drinks. Dinner, and a *raki*.
 
 ## Day 2 — Tirana, then north
 
-- **Morning** — **Bunk'Art 1** or **2**, nuclear bunkers turned into
-  museums of the communist period, and the best explanation of what
-  Albania was.
-- **Afternoon** — Drive north to **Shkodër**, about two hours.
-- **Evening** — The pedestrian old street, and **Rozafa Castle**
-  above the confluence at sunset.
+- **09:30** — **Bunk'Art 1**, a five-storey nuclear bunker built for
+  the leadership under a hill on the edge of town, now a museum of
+  the communist period. It is the best explanation of what Albania
+  was — 173,000 bunkers for a country of three million — and takes
+  two hours. **Bunk'Art 2** in the centre is smaller and covers the
+  secret police.
+- **12:00** — The **House of Leaves**, the surveillance museum in
+  the old interception building, if you want the third hour of it.
+- **13:00** — Lunch, then collect the car.
+- **14:30** — Drive north to **Shkodër**, about two hours on good
+  road.
+- **16:30** — The pedestrian old street, **Rruga Kolë Idromeno**,
+  with its Venetian-influenced facades and a town that rides
+  bicycles.
+- **18:00** — **Rozafa Castle**, above the confluence of three
+  rivers, for sunset over Lake Shkodër with Montenegro on the far
+  side. The legend attached to it — a woman walled into the
+  foundations, one breast left out to feed her son — is told at the
+  gate.
+- **20:00** — Dinner. **Book tomorrow's ferry and your Valbonë
+  transfer tonight** through your guesthouse; it is one connected
+  chain and missing a link strands you.
 
 ## Day 3 — The lake ferry to the mountains
 
-- **Early** — The **Koman Lake ferry**: a three-hour boat up a
-  flooded river gorge with walls hundreds of metres high, which is
-  one of the great boat journeys in Europe and costs almost nothing.
-- **Afternoon** — Onward to **Valbonë**, deep in the Accursed
-  Mountains.
-- **Evening** — A guesthouse, with dinner of whatever the family
-  cooked.
+- **06:00** — Early transfer to **Koman**, about two hours on a
+  road that includes an unlit single-track tunnel through rock.
+- **09:00** — The **Koman Lake ferry**, and this is one of the great
+  boat journeys in Europe: three hours up a flooded river gorge,
+  walls rising hundreds of metres straight out of green water, so
+  narrow in places the boat seems to be heading into rock. It is a
+  working service for villages with no road, it carries cars and
+  goats, and it costs almost nothing.
+- **12:00** — **Fierzë**, then a minibus on to **Valbonë**, about
+  90 minutes up into the **Accursed Mountains**.
+- **14:30** — Arrive. The valley is wide, white with riverbed stone,
+  and walled by 2,500 m limestone.
+- **16:00** — An easy walk up the valley floor to stretch out the
+  boat.
+- **19:00** — A guesthouse dinner — whatever the family cooked,
+  served at one table, usually including *fli*, the layered pancake
+  that takes hours over embers.
+- **20:30** — Arrange the **mule for tomorrow's bags** tonight if
+  you want one.
 
 ## Day 4 — Valbonë to Theth
 
-- **All day** — The **Valbonë–Theth pass**: about 17 km and six to
-  eight hours over a 1,800 m col, with a mule option for bags. The
-  classic Albanian walk, well marked and busy in season.
-- **Evening** — **Theth**: a stone village with a church, a
-  lock-in tower and no phone signal to speak of.
+- **07:00** — Start early, before the heat. The **Valbonë–Theth
+  pass** is **about 17 km**, six to eight hours, over a col at
+  **1,800 m** — and it is the classic Albanian walk.
+- **08:30** — The first two hours climb steadily through beech
+  forest on a well-marked path. Red-and-white waymarks the whole
+  way; you do not need a guide in summer.
+- **11:00** — The **col**. Valbonë behind, Theth ahead, and a café
+  shack at the top selling tea and mountain honey that has no
+  business being there.
+- **12:00** — The descent is longer than the climb and harder on
+  the knees — three hours of switchbacks.
+- **15:30** — **Theth**: stone houses with slate roofs, a white
+  church, and the **kulla** — a lock-in tower where men under blood
+  feud could shelter, which is explained properly inside.
+- **18:00** — Soak your feet. There is **almost no phone signal**
+  and that is part of the point.
+- **19:30** — Guesthouse dinner.
 
 ## Day 5 — Theth, and out
 
-- **Morning** — The **Blue Eye of Theth** or the **Grunas
-  waterfall**, both short walks from the village.
-- **Afternoon** — Transfer out to Shkodër by road, about three
-  hours.
-- **Evening** — Back in a town with wifi.
+- **08:00** — The **Blue Eye of Theth** — a karst spring of
+  genuinely unreal blue, about two hours' walk each way up the
+  valley, with a cold pool you can get into if you are brave.
+- **12:30** — Lunch back in the village.
+- **14:00** — The **Grunas waterfall**, 25 m, half an hour from the
+  village, if you still have legs.
+- **15:00** — Transfer out to **Shkodër** by road — about three
+  hours. The road is now paved the whole way, which it was not
+  until recently, and the descent has the views.
+- **18:30** — Back in a town with wifi, which will feel strange.
+- **20:00** — Dinner, and a proper shower.
 
 ## Day 6 — South to Berat
 
-- **Morning** — The drive south, about three and a half hours,
-  around Tirana.
-- **Afternoon** — **Berat**: the Mangalem and Gorica quarters facing
-  each other across the river, white Ottoman houses stacked so the
-  windows look like a single façade.
-- **Evening** — Up to the **castle**, which is still inhabited —
-  people live inside the walls.
+- **08:30** — The drive south, about three and a half hours, around
+  Tirana on the bypass.
+- **12:30** — **Berat**, the "town of a thousand windows". The
+  **Mangalem** and **Gorica** quarters face each other across the
+  Osum, white Ottoman houses stacked up the slopes so the windows
+  read as one continuous façade.
+- **14:00** — Lunch by the river, then the **Gorica bridge**.
+- **16:00** — Up to the **castle**, and the thing that makes it
+  unusual: **people still live inside the walls**. It is a
+  neighbourhood with washing lines, not a ruin — plus the
+  **Onufri** icon museum in the cathedral within.
+- **18:30** — Sunset from the ramparts over both quarters.
+- **20:00** — Dinner in Mangalem.
 
 ## Day 7 — Gjirokastër or the coast
 
-- **Morning** — Drive south. **Gjirokastër**, the other UNESCO
-  Ottoman town, is stone rather than white and worth the detour.
-- **Afternoon** — Over the pass to the **Riviera** at **Himarë** or
-  **Dhërmi**.
-- **Evening** — First swim.
+- **08:30** — Drive south. **Gjirokastër** is the other UNESCO
+  Ottoman town, and the opposite of Berat — grey stone instead of
+  white plaster, built up a steep hillside, with a vast castle and
+  a US spy plane parked in it.
+- **11:00** — The **Skenduli** or **Zekate** houses, still owned by
+  the families, shown by them, and the best way to see how an
+  Ottoman merchant actually lived.
+- **13:00** — Lunch, then over the **Llogara pass** — a road that
+  climbs to 1,027 m through pine and then drops to the Ionian in a
+  series of switchbacks with the whole **Riviera** laid out below.
+- **16:30** — Down to **Dhërmi** or **Himarë**.
+- **17:30** — First swim. The water is clear and cold and the
+  beaches are pebble, not sand.
+- **20:00** — Dinner on the front.
 
 ## Day 8 — The Riviera
 
-- **Morning** — **Gjipe** beach, in a canyon mouth and reachable
-  only on foot or by boat, which keeps it quiet.
-- **Afternoon** — **Ksamil**'s islets, or the Roman and Byzantine
-  ruins of **Butrint**, which are excellent and shaded.
-- **Evening** — Seafood on the water at a fraction of Greek prices
-  across the strait.
+- **08:30** — **Gjipe beach**, at the mouth of a canyon and
+  reachable only on foot (a 30-minute walk down) or by boat — which
+  is exactly why it stays quiet.
+- **12:00** — Back up, and lunch.
+- **14:00** — **Butrint**, an hour south: Greek, Roman, Byzantine
+  and Venetian layers on a wooded peninsula between a lagoon and
+  the strait — a theatre, a baptistery with a mosaic floor, and
+  shade, which matters in August. Two hours, and it is the best
+  archaeological site in the country.
+- **16:30** — **Ksamil's** islets, which you can wade to, with
+  Corfu visible across the water.
+- **19:30** — Seafood on the water at roughly a third of what the
+  same plate costs on the Greek island you can see from the table.
 
 ## Day 9 — Back to Tirana
 
-- **Morning** — The coast road north, then inland. Around four to
-  five hours to Tirana, more in August traffic.
-- **Afternoon** — Fly home.
+- **08:00** — The coast road north, then inland. **Four to five
+  hours** to Tirana, and considerably more in August when the
+  Riviera road backs up.
+- **12:00** — Lunch on the way, at Vlorë or Fier.
+- **14:30** — Tirana. Return the car — **check the fuel policy and
+  photograph the panels again**, because gravel and coastal roads
+  leave marks.
+- **16:00** — Fly home, or a last hour in Blloku if the flight is
+  late.
 
 ## What this trip actually costs
 
