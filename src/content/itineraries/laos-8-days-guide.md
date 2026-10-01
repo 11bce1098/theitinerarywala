@@ -101,71 +101,152 @@ genuinely comfortable for the first time.
 
 ## Day 1 — Land in Luang Prabang
 
-- **Afternoon** — Land, drop bags. The airport is ten minutes from
-  town.
-- **Evening** — Climb **Mount Phousi** for the sunset over the
-  Mekong, then the **night market** along Sisavangvong Road, which
-  is handicrafts rather than souvenir tat.
+- **14:00** — Land at **Luang Prabang (LPQ)**, ten minutes from
+  town. Visa on arrival is straightforward for most nationalities —
+  bring **USD cash and a passport photo**.
+- **15:00** — Drop bags. The old town sits on a peninsula between
+  the **Mekong** and the **Nam Khan**, and the whole of it is a
+  UNESCO site — which is why there are no high buildings and the
+  traffic is motorbikes.
+- **16:30** — Walk the peninsula: French shutters, gold temple
+  roofs, frangipani, and the two rivers meeting at the tip.
+- **17:30** — **Mount Phousi**, 328 steps up the hill in the middle
+  of town, for sunset over the Mekong. It is crowded at the top and
+  worth it anyway; the temples on the way up are quieter.
+- **19:00** — The **night market** along Sisavangvong: textiles,
+  paper lanterns and silver, mostly made by the people selling it —
+  this is handicraft rather than souvenir tat. Bargain gently and
+  without heat; hard haggling reads badly here.
+- **20:00** — Dinner, and set an alarm for 05:15.
 
 ## Day 2 — Alms at dawn, temples after
 
-- **05:30** — The **tak bat** alms procession, observed properly
-  from a respectful distance.
-- **Morning** — Back to sleep, or the **morning market** for
-  breakfast.
-- **Late morning** — **Wat Xieng Thong**, the finest temple in the
-  country, and the old quarter's French-colonial streets.
-- **Afternoon** — The **Royal Palace Museum**, then a Mekong sunset
-  boat.
+- **05:30** — The ***tak bat***: several hundred monks walk the
+  streets in a silent line at first light and receive sticky rice
+  from kneeling residents. **Watch from across the road**, stand
+  back, do not use flash, do not block the line, and do not buy
+  rice from a street vendor to join in unless you understand what
+  you are doing. It is a daily religious act, not a show, and it is
+  the thing most often done badly by visitors.
+- **06:30** — The **morning market** two streets away for
+  breakfast — noodle soup, grilled river fish, Lao coffee thick
+  with condensed milk.
+- **08:00** — Back to sleep, honestly.
+- **10:30** — **Wat Xieng Thong**, 1560, and the finest temple in
+  Laos: the sweeping roof almost to the ground, the tree-of-life
+  mosaic on the rear wall, and the funeral carriage house.
+- **12:00** — Lunch, then the **Royal Palace Museum** — the last
+  king's residence until 1975, left as it was, with the Prabang
+  Buddha the city is named for.
+- **16:00** — A **Mekong sunset boat**, two hours, with a beer.
+- **19:00** — Dinner on the riverfront.
 
 ## Day 3 — Kuang Si waterfalls
 
-- **Morning** — **Kuang Si**: turquoise pools stacked down a
-  hillside, swimmable, and the bear sanctuary at the entrance.
-  Go early; the tour groups arrive by eleven.
-- **Afternoon** — Back to town. **Traditional Arts Centre** for the
-  ethnic-textile collection, or a weaving village across the river.
-- **Evening** — Dinner on the riverfront.
+- **08:00** — **Kuang Si**, 30 km out. **Go early** — the tour
+  groups arrive by eleven and the pools stop being swimmable in any
+  peaceful sense.
+- **08:45** — The **bear sanctuary** at the entrance, run by Free
+  the Bears: Asiatic black bears rescued from bile farms, and worth
+  the twenty minutes.
+- **09:30** — The falls: limestone shelves stacked down a hillside,
+  water an opaque turquoise from the dissolved calcium carbonate,
+  and most of the pools are swimmable. The path climbs to the top
+  of the main 60 m drop and is slippery in the wet season.
+- **12:30** — Back to town, lunch.
+- **15:00** — **Traditional Arts and Ethnology Centre** — a small,
+  excellent museum on Laos's 50-odd ethnic groups and their
+  textiles, which makes sense of everything in the night market.
+- **16:30** — **Ban Xang Khong** across the river for weaving and
+  *saa* paper, by the bamboo footbridge if the season allows it.
+- **19:00** — Dinner.
 
 ## Day 4 — Luang Prabang slow
 
-- **Morning** — **Pak Ou caves** by boat — thousands of Buddha
-  images in a limestone cavern above the Mekong — or a cooking class.
-- **Afternoon** — Nothing scheduled. This is the town for it.
-- **Evening** — Book tomorrow's train transfer.
+- **08:30** — **Pak Ou caves** by slow boat up the Mekong, two
+  hours each way: two limestone caverns in a cliff above the river
+  holding **thousands of Buddha images**, left by pilgrims over
+  four centuries.
+- **11:00** — The boat usually stops at **Ban Xang Hai**, the
+  whisky village, on the way back.
+- **13:00** — Lunch.
+- **14:30** — Alternative, or as well: a **cooking class**. They
+  start at the market with your teacher explaining what everything
+  is, which is the useful half, then *laap*, *mok pa* steamed in
+  banana leaf, and sticky rice.
+- **17:00** — **Nothing scheduled.** Luang Prabang is the town for
+  this and you should let it happen — a book by the Nam Khan, a
+  massage, the sunset again.
+- **19:30** — Dinner, and book the morning transfer to the station.
 
 ## Day 5 — Train to Vang Vieng
 
-- **Morning** — Van to the station, train south, about an hour.
-- **Afternoon** — Arrive among the karsts. **Blue Lagoon 1** is the
-  famous one and the busiest; **2 and 3** are quieter and better.
-- **Evening** — Sunset from a riverside bar, watching the limestone
-  go pink.
+- **08:00** — Van to **Luang Prabang station**, which is 12 km out
+  of town — allow 30 minutes plus the queue, and **have the ticket
+  already**. The China–Laos railway opened in 2021 and turned a
+  six-hour mountain road into a one-hour ride.
+- **09:30** — The train south, **one hour**, mostly through tunnels
+  — this line is 60% tunnel and bridge — with karst valleys in the
+  gaps.
+- **11:00** — **Vang Vieng**, and the limestone towers rising
+  straight out of rice paddy either side of the Nam Song.
+- **13:00** — Lunch, check in.
+- **15:00** — The **Blue Lagoons**. **Lagoon 1** is the famous one,
+  closest, and busiest; **2 and 3** are 20 minutes further on a
+  dirt road, quieter, and better. Rent a scooter or a buggy.
+- **18:00** — Sunset from a riverside bar as the karsts go pink,
+  which is what the town is actually for now that its party era is
+  over.
 
 ## Day 6 — Karsts, caves and the river
 
-- **Sunrise** — **Hot-air balloon**, if the budget stretches. It is
-  the image people bring home.
-- **Morning** — **Tham Chang** cave, or kayaking the Nam Song.
-- **Afternoon** — Tubing, which is now a gentle float rather than
-  its former self.
-- **Evening** — Early night.
+- **05:30** — **Hot-air balloon** at sunrise if the budget stretches
+  — up over the karsts with mist still in the valleys. It is the
+  image people bring home from Laos, it runs roughly October to
+  April, and it is booked the day before.
+- **08:30** — Breakfast.
+- **09:30** — **Tham Chang** cave, lit and easy, above a spring you
+  can swim in — or **Tham Phu Kham** by the Blue Lagoon, which is a
+  steeper scramble to a reclining Buddha in a cavern.
+- **12:30** — Lunch.
+- **14:00** — **Kayak the Nam Song**, two to three hours downstream
+  between the karsts, or **tubing**, which is now a gentle float
+  with a few riverside bars rather than the thing it was a decade
+  ago.
+- **17:30** — The **Nam Xay viewpoint** for the classic photograph
+  — a 40-minute climb, steep, and better at sunset than sunrise.
+- **19:30** — Early night.
 
 ## Day 7 — Train to Vientiane
 
-- **Morning** — Train south, about an hour.
-- **Afternoon** — **Pha That Luang**, the golden stupa that is the
-  national symbol, and **Patuxai**, the victory arch built with
-  cement donated for an airport runway.
-- **Evening** — The **Mekong riverfront night market**, and dinner
-  looking across at Thailand.
+- **09:00** — Train south, **one hour**, to Vientiane.
+- **10:30** — The capital is low-rise, quiet and does not feel like
+  one — a riverfront town of under a million.
+- **11:30** — **Pha That Luang**, the golden stupa that is the
+  national symbol and appears on the currency.
+- **13:00** — Lunch, then **Patuxai** — the victory arch built in
+  the 1960s with **cement the Americans donated for an airport
+  runway**, a fact the plaque on it states with some relish. Climb
+  it for the view.
+- **15:00** — **Wat Si Saket**, the oldest temple in the city and
+  the only one the Siamese did not destroy in 1828, with **over
+  6,800 Buddha images** in wall niches.
+- **18:00** — The **Mekong riverfront night market**, and dinner
+  looking across the water at Thailand.
 
 ## Day 8 — Fly home
 
-- **Morning** — **COPE Visitor Centre** if you have a few hours: a
-  small, sobering museum about unexploded ordnance, and the most
-  important thing in the city.
-- Then out. Vientiane's airport is small and close.
+- **09:00** — **COPE Visitor Centre**, and make time for it. Laos is
+  the **most heavily bombed country per capita in history** — more
+  ordnance dropped on it between 1964 and 1973 than on Europe in
+  the whole of the Second World War — and around 30% of it did not
+  explode. COPE makes prosthetics for people still being injured by
+  it today. It is small, free, and the most important hour in the
+  country.
+- **11:00** — Lunch, then **Wattay airport**, which is ten minutes
+  from the centre and very small.
+- **Note** — Spend your kip. It is difficult to change outside Laos
+  and effectively worthless once you leave.
 
 ## What this trip actually costs
 

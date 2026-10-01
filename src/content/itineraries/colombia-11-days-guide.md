@@ -95,95 +95,194 @@ Colombia's reputation lags its reality by about fifteen years, but
 
 ## Day 1 — Land in Cartagena
 
-- **Afternoon** — Land, drop bags in the **walled city** or
-  **Getsemaní**, which is livelier and cheaper.
-- **Evening** — Walk the walls at sunset, then dinner in Getsemaní's
-  plaza, where the street music happens.
+- **14:00** — Land at **Rafael Núñez (CTG)**, which is unusually
+  close — 15 minutes to the old town.
+- **15:00** — Stay inside the **walled city** for the setting, or
+  **Getsemaní** just outside it for more life and lower prices.
+  Getsemaní is the better choice and ten minutes' walk from
+  everything.
+- **16:30** — Wait out the heat. It is consistently around 32°C
+  with high humidity and there is no cool season.
+- **17:30** — Walk **Las Murallas**, the 11 km of 16th-century walls
+  built to keep out English privateers, at sunset — **Café del Mar**
+  on the bastion is the obvious spot and knows it.
+- **19:30** — Dinner in **Plaza de la Trinidad**, Getsemaní's
+  square, where the street music, the beer sellers and most of the
+  neighbourhood turn up after dark. Nothing is organised and that is
+  the appeal.
 
 ## Day 2 — The walled city
 
-- **Morning** — Early, before the heat: **Plaza Santo Domingo**,
-  **Las Bóvedas**, and the balconied streets that are the whole
-  point.
-- **Afternoon** — **Castillo San Felipe**, the fortress, or the
-  **Palace of the Inquisition** for the darker history.
-- **Evening** — A rooftop for the sunset over the walls.
+- **08:00** — **Early, before the heat.** **Plaza Santo Domingo**
+  with the Botero reclining woman, **Plaza de San Pedro Claver**,
+  and the balconied streets hung with bougainvillea that are the
+  actual point of Cartagena.
+- **10:00** — **Las Bóvedas**, the 23 vaulted dungeons built into
+  the ramparts, now craft shops.
+- **11:00** — The **Palace of the Inquisition** for the darker
+  history — the tribunal operated here until 1821 and the museum
+  does not soften it.
+- **13:00** — Lunch, then out of the sun.
+- **16:00** — **Castillo San Felipe de Barajas**, the largest
+  Spanish fort in the Americas, with tunnels cut so that footsteps
+  echo and defenders could hear attackers coming.
+- **18:00** — **Getsemaní's street art** on Calle de la Sierpe and
+  around, which is a neighbourhood project rather than a gallery.
+- **20:00** — Dinner, and *limonada de coco*.
 
 ## Day 3 — Islands or mud
 
-- **Option A** — **Islas del Rosario** for Caribbean water, a boat
-  day.
-- **Option B** — **Totumo mud volcano**, which is exactly as silly
-  as it sounds and universally enjoyed.
-- **Evening** — Pack; tomorrow you fly inland.
+- **Option A — Islas del Rosario, 08:30.** A boat hour out to coral
+  islands with the Caribbean water Cartagena's own beaches do not
+  have. Day trips return around five; a night on **Isla Grande** is
+  better if you can spare it.
+- **Option B — Totumo, 09:00.** A 15 m mud volcano an hour north
+  that you climb and lower yourself into — warm grey mud so dense
+  you cannot sink, a man massaging you whether you asked or not,
+  and a wash in the lagoon afterwards by women who will also charge
+  you. It is exactly as silly as it sounds and nobody regrets it.
+- **16:00** — Back, and a swim.
+- **19:00** — Dinner, then pack — tomorrow you fly inland and the
+  climate changes completely.
 
 ## Day 4 — Into the coffee region
 
-- **Morning** — Fly to **Pereira** or **Armenia**, about an hour.
-- **Afternoon** — Drive to **Salento**, an hour through the
-  valleys. Bamboo, banana palms and steep green everywhere.
-- **Evening** — The **Calle Real**'s painted shopfronts, and
-  *trucha* — trout — which is the local dish.
+- **09:00** — Fly to **Pereira** or **Armenia**, about an hour.
+- **10:30** — Land into the **Eje Cafetero** — green, steep, 1,500 m
+  up and twelve degrees cooler than the coast.
+- **12:00** — Drive to **Salento**, an hour through valleys of
+  bamboo, banana palm and coffee.
+- **13:30** — Lunch — ***trucha***, trout, served with a *patacón*
+  the size of a plate, which is the regional dish and on every
+  menu.
+- **15:00** — **Calle Real**, the painted shopfronts in colours that
+  should clash and do not, and the **Mirador** at the top of the
+  street for the valley.
+- **18:00** — ***Tejo***: the national sport, played in a bar, in
+  which you throw a metal puck at gunpowder packets buried in clay
+  and they explode. It is free if you buy beer. Go.
+- **20:00** — Dinner.
 
 ## Day 5 — Cocora Valley
 
-- **Morning** — **Valle de Cocora**, where **wax palms** — the
-  tallest palms on earth, sixty metres — stand over cloud-forest
-  ridges. The loop takes five to six hours; the shorter mirador
-  walk gives the same photograph in ninety minutes.
-- **Afternoon** — Back to Salento, and *tejo* — a bar game involving
-  gunpowder — if you want the local evening.
+- **07:00** — A **Willys jeep** from the plaza to **Valle de
+  Cocora**, 30 minutes, standing on the back bumper if the seats
+  are full, which is how it is done.
+- **07:45** — The valley holds the ***palma de cera***, the **wax
+  palm** — Colombia's national tree, the **tallest palm on earth**
+  at up to 60 m, growing improbably out of cloud-forest ridges.
+- **08:00** — The **full loop** takes five to six hours
+  anticlockwise: down through farmland, into cloud forest, across
+  six swinging bridges over the river, a steep climb to the
+  **Acaime** hummingbird reserve, then out along the ridge where
+  the palms are.
+- **11:00** — **Or the short version**: the mirador walk gives you
+  the same photograph in 90 minutes, and plenty of people do it.
+- **14:30** — Back to Salento, muddy. Boots matter here; it rains
+  most afternoons.
+- **19:00** — Dinner.
 
 ## Day 6 — A coffee farm, properly
 
-- **Morning** — A **finca tour**: picking, pulping, drying,
-  roasting and cupping, explained by people who do it. The small
-  family farms are better than the large show-farms.
-- **Afternoon** — **Filandia**, quieter and prettier than Salento
-  and twenty minutes away.
-- **Evening** — Last valley night.
+- **09:00** — A ***finca*** **tour**. Pick the small family farms —
+  **Finca El Ocaso** or a *campesino*-run one — over the large show
+  farms: picking with a basket on your waist, pulping, fermenting,
+  drying on the patio, roasting, and cupping at the end.
+- **11:30** — The useful part is the economics: what the farmer is
+  paid per kilo of cherry, what the exporter gets, and why
+  Colombia exports its best beans and drank bad coffee for
+  decades.
+- **13:00** — Lunch back in town.
+- **15:00** — **Filandia**, twenty minutes away — quieter and
+  arguably prettier than Salento, with a wooden viewing tower over
+  the valley.
+- **18:00** — Back.
+- **19:30** — Last valley night.
 
 ## Day 7 — Fly to Medellín
 
-- **Morning** — Fly from Pereira or Armenia, under an hour.
-- **Afternoon** — **El Poblado** or **Laureles**. The climate here
-  is the reason it is called the city of eternal spring.
-- **Evening** — Dinner in Provenza, which is where the city eats.
+- **09:30** — Fly from Pereira or Armenia, **under an hour**.
+- **11:00** — Land at **José María Córdova**, which is 45 minutes
+  and 1,000 m above the city — the descent through the valley is a
+  good introduction.
+- **13:00** — **El Poblado** for restaurants and nightlife,
+  **Laureles** for somewhere more residential and less expensive.
+- **15:00** — The climate is the reason it is called **la ciudad de
+  la eterna primavera** — 22°C all year, at 1,500 m, in a valley.
+- **17:00** — The **metro**, which is worth a ride for its own
+  sake: it opened in 1995, it is spotless, nobody litters in it,
+  and *Medellínenses* are visibly proud of it in a way that tells
+  you something about the city's last thirty years.
+- **20:00** — Dinner in **Provenza**.
 
 ## Day 8 — Comuna 13 and the cable cars
 
-- **Morning** — **Comuna 13** with a local guide: outdoor
-  escalators, street art, and the honest story of what the
-  neighbourhood was and how it changed. Go with a guide from there,
-  not a bus tour.
-- **Afternoon** — The **metrocable** up the hillside — public
-  transport that doubles as the best view in the city — and
-  **Parque Arví** at the top.
-- **Evening** — **Plaza Botero**'s fat bronze sculptures, and the
-  museum behind them.
+- **09:00** — **Comuna 13**, and go with a **local guide from the
+  neighbourhood**, not a bus tour. This was among the most violent
+  urban districts in the world; Operación Orión in 2002 was a
+  military assault on the hillside. The outdoor **escalators**
+  installed in 2011 cut a 350-step climb to six minutes and
+  connected the barrio to the city.
+- **10:30** — The **street art** is the neighbourhood telling the
+  story itself, and the guides are usually people who grew up
+  through it. Hip-hop, graffiti and dance were the route out for a
+  generation, and it is not a metaphor.
+- **13:00** — Lunch, then the **metrocable** — gondolas as public
+  transport, running up slopes no bus could serve. Ride **Línea K**
+  to Santo Domingo and change for **Parque Arví**, 20 minutes over
+  the ridge into cloud forest above the city.
+- **17:00** — Back down. **Plaza Botero** and its 23 fat bronzes,
+  with the **Museo de Antioquia** behind.
+- **20:00** — Dinner.
 
 ## Day 9 — Guatapé
 
-- **All day** — Two hours east: **El Peñol**, a 200-metre granite
-  monolith with 700 steps up it and a lake of islands below, and
-  **Guatapé** town, where every building carries painted
-  *zócalos*.
-- **Evening** — Back to Medellín.
+- **08:00** — Two hours east by car or bus.
+- **10:00** — **El Peñón de Guatapé**: a 200 m granite monolith with
+  **740 steps** zigzagging up a crack in its face. Twenty minutes
+  up if you are fit, and the view at the top is of a reservoir
+  broken into hundreds of islands and fingers — flooded in the
+  1970s for hydroelectricity, drowning the old town of El Peñol.
+- **12:00** — **Guatapé town**, where every building carries
+  ***zócalos*** — painted and moulded panels around the base of the
+  wall, showing what the household does. Sheep for the butcher,
+  bread for the baker.
+- **14:00** — Lunch by the water, and a boat on the reservoir past
+  the ruins of Pablo Escobar's bombed-out country house.
+- **17:00** — Back to Medellín.
 
 ## Day 10 — Fly to Bogotá
 
-- **Morning** — Fly, 45 minutes. **You are now at 2,640 m** — take
-  the first afternoon gently.
-- **Afternoon** — **La Candelaria**, the colonial quarter, and the
-  **Museo del Oro** — 55,000 pieces of pre-Columbian goldwork and
-  the best museum in the country.
-- **Evening** — Dinner in Chapinero or La Macarena.
+- **09:00** — Fly, 45 minutes.
+- **10:30** — **You are now at 2,640 m.** Bogotá is the third
+  highest capital in the world and the first afternoon should be
+  taken gently.
+- **12:00** — **La Candelaria**, the colonial quarter — steep
+  streets, painted doors, and **Plaza de Bolívar** with the
+  cathedral and the Palace of Justice.
+- **14:00** — The ***Museo del Oro***: **55,000 pieces** of
+  pre-Columbian goldwork, including the Muisca raft that gave rise
+  to the El Dorado legend. It is the best museum in Colombia and
+  needs two hours.
+- **16:30** — The **Botero Museum** nearby, free, with his own
+  collection of Picasso, Monet and Bacon alongside his.
+- **19:30** — Dinner in **Chapinero** or **La Macarena**, and an
+  *ajiaco* — the chicken, corn and three-potato soup that is
+  Bogotá's own.
 
 ## Day 11 — Monserrate, then home
 
-- **Morning** — **Monserrate** by funicular for the view over a
-  city of eight million in a bowl of mountains.
-- **Afternoon** — Fly home.
+- **08:00** — **Monserrate** by funicular or cable car to 3,152 m —
+  the white church on the ridge, and the whole city of eight
+  million laid out in its bowl of mountains below. Go early; the
+  cloud comes in by eleven and the queues build.
+- **10:30** — Down, and the **Paloquemao market** if you have time
+  — the flower hall at the back is extraordinary, and Colombia is
+  the world's second largest cut-flower exporter.
+- **13:00** — **El Dorado** airport is 30 minutes from the centre
+  and much more in traffic. Allow for it.
+- **Note** — Carry your **passport** rather than a copy; it is
+  asked for more often than you expect, including at some museums.
 
 ## What this trip actually costs
 
