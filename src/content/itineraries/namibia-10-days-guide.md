@@ -92,81 +92,168 @@ are why this is a ten-day trip and not a seven-day one.
 
 ## Day 1 — Land in Windhoek
 
-- **Afternoon** — Land, collect the car, check the spares yourself
-  before leaving the lot.
-- **Evening** — Sleep in Windhoek. Shop for water and snacks
-  tonight; tomorrow's drive has little along it.
+- **12:00** — Land at **Hosea Kutako (WDH)**, 45 km east of the
+  city — about 45 minutes in.
+- **13:00** — **Collect the car, and inspect it yourself.** Check
+  **two spare wheels**, the jack, the wheel brace and the tyre
+  pressures before you leave the lot. On Namibian gravel a puncture
+  is routine and a single spare is not enough. Photograph every
+  panel.
+- **15:00** — Windhoek. **Christuskirche** and the **Independence
+  Memorial Museum** behind it fill an hour, and the top floor has
+  the view.
+- **17:00** — **Shop tonight.** Water — five litres per person per
+  day — plus snacks, a cool box and fuel. Tomorrow's road has very
+  little on it, and that remains true for the next week.
+- **19:00** — Dinner. **Joe's Beerhouse** is the institution and it
+  knows it; game meat, and it is better than the decor suggests.
+- **20:30** — Download offline maps. Mobile signal disappears
+  between towns and does not come back for hours.
 
 ## Day 2 — South to the dunes
 
-- **Morning** — The long drive to **Sesriem**, about five hours,
-  through the Khomas Hochland passes.
-- **Afternoon** — Arrive, settle. **Sesriem Canyon** is a short
-  walk and a good leg-stretch.
-- **Evening** — Stars. There is almost no light pollution here and
-  the sky is genuinely astonishing.
+- **07:30** — Leave early. **Sesriem** is about five hours via the
+  **Khomas Hochland** and the **Spreetshoogte** or **Remhoogte**
+  pass — gravel, steep, and spectacular.
+- **10:30** — The pass itself. Drop to **60 km/h on gravel** and
+  stay there: most accidents here are rollovers caused by speed on
+  loose surface, and the rental insurance usually excludes them.
+- **13:00** — Lunch from the cool box. There is nowhere to buy any.
+- **15:00** — Arrive **Sesriem**. **Stay inside the gate** if you
+  possibly can — it is the difference between being at Dune 45 for
+  sunrise and arriving an hour after it.
+- **16:30** — **Sesriem Canyon**, a kilometre-long slot cut 30 m
+  into conglomerate, ten minutes from camp and a good leg-stretch.
+- **18:30** — **Elim Dune** for sunset, or the camp bar.
+- **20:30** — The **stars**. There is effectively no light within
+  200 km and the Milky Way casts a shadow. This is among the
+  darkest accessible skies on earth.
 
 ## Day 3 — Sossusvlei before sunrise
 
-- **Pre-dawn** — Be at the gate when it opens. Staying inside the
-  park gets you in an hour before outside guests, which is the
-  difference between a photograph and a crowd.
-- **Sunrise** — **Dune 45**, climbed in the cool.
-- **Morning** — Drive to the 2x4 car park, then the shuttle or a
-  deep-sand walk to **Deadvlei** — the white pan, black trees, red
-  dunes and blue sky that is Namibia's signature image.
-- **Midday** — Out before the heat. Afternoon is for lying still.
+- **05:15** — Be at the inner gate when it opens. Guests inside
+  Sesriem get in an hour before everyone else, and that hour is the
+  whole point.
+- **06:00** — **Dune 45**, 45 km in — a 170 m star dune climbed on
+  the ridge line in the cool. Forty minutes up in soft sand, five
+  minutes down if you run the face.
+- **08:00** — Drive to the 2x4 car park at 60 km, then the last
+  5 km: **shuttle** (cheap, and the sensible option) or a deep-sand
+  walk that will take an hour.
+- **08:45** — **Deadvlei**: a white clay pan, 900-year-old
+  blackened camel thorn trees that cannot rot in this dryness, the
+  red wall of **Big Daddy** behind, and a blue sky. This is
+  Namibia's signature image and it earns it.
+- **10:30** — **Sossusvlei** itself, then out.
+- **12:00** — **Leave before the heat peaks.** It reaches the
+  mid-forties and there is no shade anywhere.
+- **14:00** — Lie still. This is a planned part of the day.
+- **18:00** — Sunset, dinner, early night.
 
 ## Day 4 — The desert road to the coast
 
-- **Morning** — North-west toward **Walvis Bay** and
-  **Swakopmund**, about five hours through the Namib.
-- **Afternoon** — Arrive on the coast, where it will be
-  unexpectedly cold and foggy. That is the Benguela current, and it
-  is why this desert exists.
-- **Evening** — Swakopmund's German colonial streets, and a very
-  good bakery or two.
+- **08:00** — North-west toward the coast, about five hours. The
+  **Kuiseb** and **Gaub** canyons break the drive, and the
+  **Tropic of Capricorn** sign is a photograph everyone takes.
+- **11:30** — The gravel plains. Nothing grows here, the horizon is
+  flat in every direction, and it is the emptiest road on the trip.
+- **14:00** — **Walvis Bay**, then 30 km north to **Swakopmund**.
+- **15:00** — **It will be cold and foggy**, after a week of
+  forty degrees. The **Benguela current** runs up this coast from
+  Antarctica, chills the air, and that fog is the only reliable
+  moisture the Namib gets — which is why the desert exists at all.
+- **16:30** — Swakopmund's German colonial streets: the Woermann
+  House tower, the jetty, and **two very good bakeries** that are
+  the reason people linger.
+- **19:00** — Dinner. Fresh fish, after a week without it.
 
 ## Day 5 — Sand, sea and fog
 
-- **Morning** — **Walvis Bay lagoon**: flamingos, pelicans, and a
-  boat trip where seals climb aboard.
-- **Afternoon** — **Sandwich Harbour** by 4x4 where the dunes drop
-  straight into the Atlantic, or quad-biking and sandboarding for
-  something less scenic and more fun.
-- **Evening** — Oysters, which are better here than they have any
-  right to be.
+- **08:00** — **Walvis Bay lagoon** by boat: thousands of
+  **flamingos**, pelicans that land on the bow, and Cape fur seals
+  that climb aboard for the fish and are entirely unembarrassed
+  about it. Three hours, with oysters and sparkling wine on the way
+  back.
+- **12:30** — Lunch at the Raft.
+- **14:00** — **Sandwich Harbour by 4x4** — the single best
+  excursion on this coast. The dunes drop **straight into the
+  Atlantic** with no beach between them, and getting there means
+  driving the tideline and then the dune faces. Go with an
+  operator; people get stuck and drowned here doing it themselves.
+- **14:00 alt** — **Quad biking** and **sandboarding** on the dunes
+  behind town for something less scenic and more fun.
+- **19:00** — **Oysters.** Walvis Bay's are cold-water, cheap and
+  far better than they have any right to be.
 
 ## Day 6 — North toward Etosha
 
-- **Morning** — Long drive north, roughly six hours, with the
-  optional stop at **Spitzkoppe** or the **Cape Cross** seal colony.
-- **Evening** — Sleep near **Okaukuejo** or the southern gate.
+- **07:30** — Long drive north, roughly six hours.
+- **09:00** — **Cape Cross** if you route up the coast: the largest
+  **Cape fur seal** colony in the world, up to 200,000 animals. The
+  smell arrives several minutes before the viewing platform does
+  and is genuinely overwhelming.
+- **11:30** — **Spitzkoppe** on the inland route instead — granite
+  inselbergs rising 700 m off the plain, with a rock arch and
+  bushman paintings. The better of the two stops.
+- **14:00** — Lunch at **Omaruru** or **Outjo**.
+- **17:00** — Sleep near **Okaukuejo** or the southern **Andersson
+  Gate**. Inside the park if you booked early enough.
+- **19:00** — Dinner, and fuel up — the camps sell it but
+  intermittently.
 
 ## Day 7 — Etosha: the waterhole day
 
-- **Early** — Into the park at gate opening. Drive slowly between
-  waterholes and stop at each; this is not a chasing safari.
-- **Midday** — Rest at camp. Animals do.
-- **Evening** — The **floodlit waterhole** at Okaukuejo after dark,
-  which is the best wildlife hour in Namibia and costs nothing.
+- **06:30** — Into the park at gate opening. **Etosha is not a
+  chasing safari**: the pan is a salt desert, the animals must come
+  to water, and the method is to drive slowly between waterholes
+  and then **stop and wait** at each.
+- **08:00** — **Okondeka** and the western waterholes for lion.
+- **11:00** — Back to camp as the heat builds.
+- **12:30** — **Rest.** The animals do and so should you; between
+  noon and three there is nothing moving.
+- **15:30** — Out again, waterhole to waterhole.
+- **19:30** — The **floodlit waterhole at Okaukuejo** after dark.
+  Black rhino come in most nights, elephant push the rhino off,
+  and the whole thing happens in silence twenty metres from a
+  stone wall you sit on. **It costs nothing and it is the best
+  wildlife hour in Namibia.** Stay late.
 
 ## Day 8 — Etosha, east
 
-- **All day** — Work east across the pan toward **Halali** or
-  **Namutoni**, waterhole to waterhole. Elephant, giraffe, zebra and
-  springbok are near-certain; rhino and lion are luck and patience.
+- **06:30** — Work east across the pan toward **Halali** and
+  **Namutoni**, waterhole to waterhole.
+- **09:00** — **Salvadora**, **Sueda** and the pan edge, where
+  springbok and zebra mass in open ground and the heat haze turns
+  them to water.
+- **12:00** — **Halali** camp, and its own waterhole — the best of
+  the three for black rhino in daylight.
+- **15:30** — East to **Namutoni**, the white German fort, and
+  **Klein Namutoni** and **Chudop** nearby.
+- **18:00** — Elephant, giraffe, zebra, springbok, oryx and
+  wildebeest are near-certain over two days here. **Rhino and
+  lion are patience**; leopard is luck.
+- **19:30** — Last night in the park.
 
 ## Day 9 — South to Windhoek
 
-- **Morning** — Leave early. The drive back is about five hours.
-- **Afternoon** — Windhoek. Wash the car of half the country's dust,
-  spend your remaining Namibian dollars.
+- **07:00** — Leave early. The drive back is about five hours on
+  good tar once you clear the park.
+- **12:30** — Lunch at **Otjiwarongo** or the **Okahandja** craft
+  market, which is the place for woodwork.
+- **15:00** — Windhoek. **Wash the car** — gravel dust is in every
+  seam and rental companies notice.
+- **17:00** — Spend the remaining Namibian dollars; they are pegged
+  to the rand but not accepted outside the country.
+- **19:30** — Last dinner.
 
 ## Day 10 — Fly home
 
-- Morning flight out. Allow time for the rental inspection; gravel
-  chips are normal and usually covered, but check what you signed.
+- **Morning** — Flights out of WDH are mostly morning or early
+  afternoon; the airport is 45 minutes east.
+- **Allow time for the rental inspection.** Gravel **chips in the
+  windscreen are normal** and usually covered by the extra waiver —
+  check what you actually signed, because the standard excess here
+  is large and windscreens are the most common claim in the country.
 
 ## What this trip actually costs
 

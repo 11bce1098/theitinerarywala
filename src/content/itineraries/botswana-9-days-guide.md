@@ -86,76 +86,151 @@ accident, and it is worth understanding before you plan.
 
 ## Day 1 — Land in Maun
 
-- **Afternoon** — Maun is the delta's gateway: a small town with an
-  airport that is busier with light aircraft than airliners.
-- **Evening** — Sleep in a lodge by the Thamalakane River. Confirm
-  your luggage limit for tomorrow's flight.
+- **13:00** — Land at **Maun (MUB)**, the delta's gateway — a small
+  airport busier with single-engine Cessnas than with airliners.
+- **14:00** — Sleep at a lodge on the **Thamalakane River**. Maun
+  itself is a supply town rather than a destination, and that is
+  fine for one night.
+- **16:00** — **Confirm tomorrow's luggage limit.** Light aircraft
+  into the delta allow **20 kg in a soft bag** — no wheels, no hard
+  frame, no exceptions, and they weigh you too. Repack now and
+  leave the rest at the lodge.
+- **17:00** — Draw cash. The camps are all-inclusive but staff tips
+  are cash and there are no machines where you are going.
+- **18:30** — Sundowner on the river, with hippo audible downstream.
+- **20:00** — Dinner. An early night; the flight is first thing and
+  the delta runs on dawn.
 
 ## Day 2 — Into the delta
 
-- **Morning** — A **light aircraft transfer** into a delta
-  concession, 20 to 40 minutes. The view of the channels from 500
-  feet is the first extraordinary thing.
-- **Afternoon** — Settle, and an afternoon **game drive** or first
-  mokoro.
-- **Evening** — Dinner under the stars, and the sound of the delta
-  at night, which is not quiet.
+- **09:00** — The **light aircraft transfer**, 20 to 40 minutes
+  into a concession. Flying at **500 feet** over the channels is
+  the first extraordinary thing that happens: the delta appears as
+  a braided map of water, reed and palm island, with elephant
+  visible from the window.
+- **10:00** — Land on a strip of cleared grass. Someone drives the
+  animals off it first. Your guide meets the plane.
+- **11:00** — Camp, and the briefing. **You do not walk between
+  tents after dark** — someone escorts you, every time, and the
+  reason is genuine.
+- **12:30** — Brunch, then the heat of the day.
+- **16:00** — First **game drive**. Afternoon drives run into dusk
+  and finish with a sundowner somewhere open.
+- **19:30** — Dinner under the stars.
+- **21:00** — Listen. Hippo grunting, lion contact-calling, hyena,
+  and the fact that none of it is far away. The delta at night is
+  not quiet and you will not sleep much on the first one.
 
 ## Day 3 — Mokoro, and walking
 
-- **Morning** — **Mokoro** through the channels, poled by a guide
-  standing behind you, at the water's eye level. Reed frogs,
-  jacanas, lilies, and the occasional very large animal.
-- **Afternoon** — A **guided walk** on an island, which is the only
-  way to understand the tracks and the smaller things.
-- **Evening** — Night drive if the concession permits it, which is
-  where you find the cats.
+- **06:00** — Coffee at the fire, then out.
+- **06:30** — **Mokoro** — a dugout canoe, now fibreglass, poled
+  from behind by a standing guide. You sit at **water level**,
+  which changes everything: reed frogs on the stems at eye height,
+  jacanas walking on the lilies, and a hippo somewhere that your
+  poler is tracking by sound and will quietly steer around.
+- **09:30** — Breakfast back at camp.
+- **11:00** — A **guided walk** on an island, rifle carried and
+  never used. This is the only way to learn the small things —
+  tracks, dung, termite architecture, which trees matter — and it
+  changes how you see the drives.
+- **13:00** — Lunch, then rest.
+- **16:00** — Afternoon drive.
+- **20:00** — **Night drive** if the concession permits it —
+  private concessions do, the national parks do not, and it is
+  where you find leopard, civet, genet and the cats actually
+  hunting.
 
 ## Day 4 — A full delta day
 
-- **Dawn** — Game drive. The early one is always the better one.
-- **Midday** — Rest. The camp will insist and be right.
-- **Afternoon** — Mokoro or boat, depending on water.
-- **Evening** — Sundowners somewhere with a view.
+- **05:45** — **Dawn drive**, and the early one is always better:
+  cool air, animals moving, and predators still out from the night.
+- **09:30** — Breakfast.
+- **11:00** — **Rest.** The camp will insist and the camp is right
+  — nothing moves between eleven and three, including you.
+- **15:30** — Tea, then **mokoro or motorboat** depending on water
+  levels. The flood arrives from Angola around **June to August**,
+  which is when the delta is fullest and — counter-intuitively —
+  driest overhead.
+- **17:30** — **Sundowners** on a termite mound or an open pan,
+  with the camp's folding table and a gin.
+- **19:30** — Dinner, and the guides' stories, which are the other
+  reason to be here.
 
 ## Day 5 — East to Moremi
 
-- **Morning** — Transfer to **Moremi Game Reserve**, the delta's
-  protected eastern edge, by air or road.
-- **Afternoon** — **Khwai** area game drive: elephant, buffalo,
-  wild dog if you are lucky, and very good leopard odds.
-- **Evening** — Camp.
+- **09:00** — Transfer to **Moremi Game Reserve** — the delta's
+  protected eastern third, and the first reserve in Africa created
+  by a local community rather than a government, in 1963.
+- **11:00** — Arrive. Moremi mixes floodplain, mopane woodland and
+  dry island in a way the inner delta does not, and that variety is
+  why the game viewing here is the best in the country.
+- **12:30** — Lunch, rest.
+- **15:30** — The **Khwai** area drive: elephant and buffalo in
+  numbers, and **the best leopard odds in Botswana** — the riverine
+  trees along the Khwai are where they sit.
+- **18:30** — **African wild dog** are here too, denning between
+  June and August. There are fewer than 7,000 left in the world and
+  Botswana holds the largest population; if your guide gets a radio
+  call, drop everything.
+- **20:00** — Dinner at camp.
 
 ## Day 6 — Moremi, properly
 
-- **All day** — Two long drives with a break in the heat.
-  Moremi's mix of floodplain, mopane and island makes it the most
-  varied game viewing in the country.
+- **05:45** — The long morning drive, four hours, out to **Xakanaxa**
+  and the lagoons.
+- **10:00** — The **heronry** at Xakanaxa if it is breeding season
+  (roughly July to November) — one of the largest in southern
+  Africa, with storks, herons and egrets nesting over water.
+- **11:30** — Back to camp, brunch, rest.
+- **15:30** — The second drive, west toward **Third Bridge** and
+  the pole crossings — wooden-log bridges that vehicles cross one
+  at a time and that look considerably less reliable than they are.
+- **18:00** — Sundowners.
+- **19:30** — Last delta dinner.
 
 ## Day 7 — North to Chobe
 
-- **Morning** — Transfer north to **Kasane** and **Chobe National
-  Park**, by air or the long road.
-- **Afternoon** — The **Chobe River cruise** at sunset: elephant
-  herds crossing to the islands, hippo, crocodile, and a great deal
-  of birdlife, all from water level.
-- **Evening** — Kasane.
+- **09:00** — Transfer north to **Kasane**, by air (an hour) or the
+  long road through Savuti.
+- **12:00** — Arrive. Kasane is a town, with shops and signal, and
+  after a week of camps that is a jolt.
+- **14:00** — Lunch, check in.
+- **15:30** — The **Chobe River cruise**, and take the afternoon
+  one. **Elephant herds cross to the islands to feed** — a hundred
+  at a time, swimming with trunks up — plus hippo, crocodile,
+  buffalo on the floodplain, and a density of birds that makes the
+  boat worth it on its own.
+- **18:00** — Sunset on the water, with Namibia on the far bank.
+- **19:30** — Dinner in Kasane.
 
 ## Day 8 — Chobe, and the option next door
 
-- **Morning** — A game drive along the Chobe riverfront, which has
-  one of the highest elephant densities in Africa.
-- **Afternoon** — **Victoria Falls is 80 km away** across the
-  Zimbabwe border, and a day trip is entirely normal from Kasane.
-  See our [Zimbabwe guide](/itineraries/zimbabwe-8-days-guide/) if
-  you would rather give it proper time.
-- **Evening** — Last night.
+- **06:00** — Game drive along the **Chobe riverfront**, which has
+  **one of the highest elephant densities in Africa** — the park
+  holds perhaps 120,000 and in the dry season most of them are
+  within reach of this river.
+- **10:00** — Back for breakfast.
+- **12:00** — **Victoria Falls is 80 km away** across the Zimbabwe
+  border, and a day trip from Kasane is entirely normal — allow two
+  hours for the border on a bad day. It is worth doing badly if the
+  alternative is not at all; see our
+  [Zimbabwe guide](/itineraries/zimbabwe-8-days-guide/) if you
+  would rather give it the days it deserves.
+- **16:00** — Or stay: a second river cruise, or the **Sedudu**
+  floodplain drive.
+- **19:30** — Last night. Tip in cash, in the envelopes the camps
+  provide, and split guide and camp staff separately.
 
 ## Day 9 — Fly home
 
-- **Kasane airport** has connections to Johannesburg and
-  Johannesburg has everything else. Maun is the alternative if your
-  route runs that way.
+- **Morning** — **Kasane (BBK)** connects to Johannesburg, and
+  Johannesburg connects to everything. **Maun** is the alternative
+  if your routing runs that way.
+- **Note** — Botswana's model is deliberately low-volume and
+  high-cost: fewer beds, fewer vehicles, no self-drive in the
+  concessions. It is why you saw what you saw, and why it cost what
+  it cost.
 
 ## What this trip actually costs
 
