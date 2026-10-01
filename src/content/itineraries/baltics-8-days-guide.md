@@ -29,8 +29,8 @@ Three countries; **one Schengen visa, one currency, one
 language of survival (English works everywhere)** — and
 comfortable coaches stitching it together in four-hour hops.
 The shape: **Tallinn (3 nights) → Riga (2) → Vilnius (2)**,
-flying open-jaw. Figure **{{EUR 1100}} per person
-** including the visa — the
+flying open-jaw. Figure **{{EUR 1100}} per person**
+including the visa — the
 cheapest multi-country Europe trip on this site. **Go
 May–September** for long light and café squares; December
 for three of Europe's prettiest small Christmas markets.

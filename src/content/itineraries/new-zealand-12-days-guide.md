@@ -29,7 +29,7 @@ Hobbiton → Rotorua**, then fly south for **Queenstown → Milford
 Sound → Lake Tekapo/Mt Cook → Christchurch**.
 
 Costs are in New Zealand dollars — figure **{{NZD 4250}} per
-person ** excluding international
+person** excluding international
 flights. Remember the hemisphere flip: **NZ summer is
 December–February** (peak prices, school-holiday crowds);
 **September–November spring** is the value sweet spot —

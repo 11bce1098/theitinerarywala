@@ -174,7 +174,7 @@ Two Lucerne mountain days — pick by webcam:
   railway *through the Eiger* to **Jungfraujoch, 3,454 m**.
   **Tickets: CHF 100.60 round trip from Grindelwald
   (~CHF 75 with the pass's 25%; kids 6–15 a flat CHF 20;
-  + CHF 10 seat reservation May–Oct).** Note the trap:
+  plus CHF 10 seat reservation May–Oct).** Note the trap:
   the same trip from Interlaken costs CHF 234 full — 
   **basing in Grindelwald is the discount.**
 - **09:30** — On top of Europe: the **Sphinx terrace**

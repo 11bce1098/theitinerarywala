@@ -32,8 +32,8 @@ the Gulf, Europe and across Africa.
 
 This is a 10-day, two-base route: **Cape Town (5 nights)**
 then **Kruger (4 nights)**, flying between them. Budget is in
-South African rand — figure **{{ZAR 41000}} per person
-** excluding international flights.
+South African rand — figure **{{ZAR 41000}} per person**
+excluding international flights.
 **Go September–October if you can**: Cape Town is in spring,
 whales are breaching off Hermanus, and Kruger is at its
 dry-season best, with thirsty animals crowding the waterholes.

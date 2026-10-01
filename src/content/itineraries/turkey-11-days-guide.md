@@ -312,7 +312,7 @@ if the price looks too good, so is the safety margin.
 - **Morning** — Optional: tandem paragliding over the terraces
   (Pamukkale is one of the cheapest places anywhere to fly), or a
   last barefoot hour on the travertines before the buses arrive.
-- **12:00** — Transfer to **Denizli airport (DNZ,** ~1 h**)**,
+- **12:00** — Transfer to **Denizli airport (DNZ)**, ~1 h,
   fly to Istanbul (~1h10, several daily) and connect home —
   Gulf travellers land the same night.
 
