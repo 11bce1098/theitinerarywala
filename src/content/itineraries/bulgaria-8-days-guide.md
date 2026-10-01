@@ -88,73 +88,149 @@ Union.
 
 ## Day 1 — Land in Sofia
 
-- **Afternoon** — Land, collect the car or leave it until you head
-  out. The metro reaches the airport.
-- **Evening** — **Vitosha Boulevard** with the mountain at the end of
-  it, and dinner in a mehana.
+- **14:00** — Land at **Sofia (SOF)**. **Metro Line 1 runs from
+  Terminal 2 to the centre** in 20 minutes for about a euro, which
+  makes a taxi pointless.
+- **15:30** — Drop bags. **Leave the car hire until day three** —
+  Sofia is walkable and central parking is a nuisance.
+- **16:30** — **Vitosha Boulevard**, pedestrianised, with **Mount
+  Vitosha** standing 2,290 m at the end of it. Sofia is the only
+  European capital with a mountain of that size on its doorstep.
+- **18:00** — The **mineral baths square** behind the former
+  bathhouse, where locals still fill bottles from the public
+  fountains, free, with hot mineral water.
+- **19:30** — Dinner in a ***mehana*** — a traditional tavern.
+  *Shopska* salad, *kavarma*, and rakia, which arrives before the
+  food and is drunk with it, not after.
 
 ## Day 2 — Sofia
 
-- **Morning** — **Alexander Nevsky Cathedral**, then the
-  **Serdica** Roman ruins exposed under the city centre and
-  visible from the metro station.
-- **Afternoon** — The **Boyana Church** on the edge of town —
-  UNESCO-listed for frescoes from 1259 that anticipate the
-  Renaissance by a century — and the **National History Museum**
-  next to it.
-- **Evening** — The mineral baths square, and the mosque, synagogue
-  and cathedral within sight of each other.
+- **09:30** — **Alexander Nevsky Cathedral**, neo-Byzantine, gold
+  domes, built 1882–1912 as a memorial to the 200,000 Russian
+  soldiers who died freeing Bulgaria from Ottoman rule. The crypt
+  holds the best icon collection in the country.
+- **11:00** — The **Serdica** Roman ruins, exposed under the city
+  centre during metro construction and left open — you can see
+  2nd-century streets from the platform and walk among them at
+  ground level. Sofia has been continuously inhabited for 7,000
+  years and this is where you can see it.
+- **12:00** — The **Square of Tolerance**: an Orthodox cathedral,
+  a mosque, a synagogue and a Catholic church **within 300 m of
+  each other**, which the city is rightly pleased about.
+- **13:30** — Lunch at the **Central Market Hall**.
+- **15:00** — **Boyana Church** on the edge of town — UNESCO-listed
+  for **frescoes painted in 1259 that anticipate the Renaissance by
+  a century**, with individualised faces and real perspective.
+  Entry is limited to small groups for a few minutes at a time, and
+  it is worth the trip out.
+- **16:30** — The **National History Museum** next door, in the
+  former communist residence.
+- **19:30** — Dinner.
 
 ## Day 3 — Rila Monastery
 
-- **Morning** — Two hours south into the **Rila mountains**. The
-  monastery's courtyard — black-and-white striped arches, a painted
-  porch, mountains above — is the image of Bulgaria.
-- **Afternoon** — The **Hrelyo Tower**, the museum, and the walk to
-  **St Ivan's cave** up the valley.
-- **Evening** — Stay nearby rather than driving back, and eat trout.
+- **08:30** — Collect the car, then two hours south into the
+  **Rila mountains**.
+- **10:30** — **Rila Monastery**, founded in the 10th century,
+  rebuilt in the 1830s, and the single most recognisable place in
+  Bulgaria. The courtyard — **black-and-white striped arches** in
+  tiers, a frescoed porch of 1,200 panels, the Hrelyo Tower, and
+  forested mountains straight above the walls — is one of those
+  places that is exactly as good as the photographs.
+- **12:00** — The **Hrelyo Tower** (1335, the only part to survive
+  the fire), the museum with Rafail's Cross — a wooden crucifix
+  carved with 104 biblical scenes and 650 figures, which took the
+  monk twelve years and his eyesight.
+- **14:00** — Lunch — **trout**, from the river, at the stalls
+  outside the gate, with *mekitsi*.
+- **15:30** — The walk up the valley to **St Ivan's cave**, about
+  an hour each way. Tradition says squeezing through the hole in
+  the rock absolves your sins; it is a tight fit.
+- **18:00** — **Stay nearby rather than driving back.** The
+  monastery after the day buses leave, with monks and nobody else,
+  is the reason to.
 
 ## Day 4 — East to Plovdiv
 
-- **Morning** — Drive across to **Plovdiv**, about three hours.
-- **Afternoon** — The **Roman theatre**, still in use, cut into the
-  hillside with a view over the city.
-- **Evening** — **Kapana**, the craft quarter, which is where
-  Plovdiv's European Capital of Culture money went and went well.
+- **09:00** — Drive across to **Plovdiv**, about three hours.
+- **12:00** — Arrive. Plovdiv claims to be **the oldest
+  continuously inhabited city in Europe** — around 8,000 years —
+  and has the layers to show for it.
+- **13:00** — Lunch.
+- **14:30** — The **Roman theatre**, cut into the saddle between
+  two hills, built under Trajan, lost under a landslide for
+  centuries and only rediscovered in the 1970s. It seats 5,000 and
+  **is still used** — check whether anything is on while you are
+  there.
+- **16:30** — The **Roman stadium**, most of it still under the
+  main shopping street, with one curved end excavated and visible
+  below pavement level.
+- **19:00** — **Kapana** — "the trap" — the craft quarter of
+  narrow lanes, where Plovdiv's 2019 European Capital of Culture
+  money went and went well. Bars, galleries, and dinner.
 
 ## Day 5 — Plovdiv, and the old town
 
-- **Morning** — The **Old Town**'s National Revival houses —
-  timber-framed, overhanging, painted — and the Roman stadium under
-  the main shopping street.
-- **Afternoon** — **Bachkovo Monastery**, 30 minutes south and the
-  country's second largest, or the **Asen's Fortress** on its crag.
-- **Evening** — Back in Kapana.
+- **09:00** — The **Old Town** on the hill: **National Revival
+  houses** from the 1800s, timber-framed, each storey overhanging
+  the one below, painted in ochre and blue. The **Balabanov** and
+  **Kuyumdzhioglu** houses are open and furnished.
+- **11:30** — **Nebet Tepe**, the hilltop ruin at the top, for the
+  view over the whole city and the plain.
+- **13:00** — Lunch.
+- **14:30** — **Bachkovo Monastery**, 30 minutes south — the
+  country's second largest, founded 1083, with a frescoed refectory
+  and a miracle-working icon that draws queues on feast days.
+- **16:30** — Or **Asen's Fortress** on its crag above the river
+  gorge, a 13th-century church on a rock with a long drop on three
+  sides.
+- **19:30** — Back in Kapana.
 
 ## Day 6 — North to Veliko Tarnovo
 
-- **Morning** — The drive north over the Balkan range, about three
-  hours, through the **Shipka Pass** with its gold-domed Russian
-  church.
-- **Afternoon** — **Veliko Tarnovo**: the **Tsarevets** fortress on
-  its own hill above a meander of the Yantra, and houses stacked up
-  the gorge behind.
-- **Evening** — The fortress from **Samovodska Charshia**, the
-  craft street.
+- **08:30** — North over the **Balkan range**, about three hours.
+- **10:30** — The **Shipka Pass**, where in 1877 a few thousand
+  Bulgarian volunteers and Russian troops held the summit against
+  far larger Ottoman forces — the fight that decided the war of
+  liberation. The **Shipka Memorial Church** below, with its gold
+  onion domes among pine, holds the bones of the dead in its crypt.
+- **12:30** — Lunch, and the **Valley of the Thracian Kings**
+  around Kazanlak if you detour — the UNESCO-listed tomb has a
+  replica open to visitors because the originals cannot take the
+  breath.
+- **15:00** — **Veliko Tarnovo**, the medieval capital, built in
+  tiers above a double meander of the **Yantra**.
+- **16:30** — **Tsarevets**, the fortress on its own hill, reached
+  across a saddle — palace, patriarchate, and Execution Rock at
+  the far end where traitors were thrown into the river.
+- **19:00** — Dinner on **Samovodska Charshia**, the craft street,
+  with the fortress lit across the gorge.
 
 ## Day 7 — Arbanasi and the villages
 
-- **Morning** — **Arbanasi**, five minutes up the hill: stone
-  merchants' houses like small fortresses, and the **Nativity
-  Church**, plain outside and covered in frescoes within.
-- **Afternoon** — **Tryavna** or **Etar** for the revival-era
-  crafts, or back toward Sofia.
-- **Evening** — Last night.
+- **09:30** — **Arbanasi**, five minutes up the hill — a village of
+  stone merchants' houses built like small fortresses, with blank
+  outer walls, iron doors and gardens hidden inside.
+- **10:30** — The **Nativity Church**: plain and low outside,
+  deliberately, so the Ottoman authorities would not notice it, and
+  **completely covered inside with 17th-century frescoes** — over
+  2,000 figures on every surface including the ceiling. One of the
+  best interiors in the Balkans.
+- **13:00** — Lunch in Arbanasi.
+- **14:30** — **Tryavna** for the woodcarving school and the
+  clock-tower square, or the **Etar** open-air museum with working
+  water-powered craft workshops.
+- **17:30** — Back to Veliko Tarnovo, or start west toward Sofia.
+- **19:30** — Last dinner.
 
 ## Day 8 — Fly home
 
-- Veliko Tarnovo to Sofia airport is about three hours. Allow for
-  it, or fly from Varna if your route runs to the coast.
+- **Morning** — **Veliko Tarnovo to Sofia airport is about three
+  hours.** Leave early and allow for it.
+- **Alternative** — **Varna** or **Burgas** on the coast are
+  roughly the same distance east and may suit your routing better.
+- **Note** — Bulgaria uses the **lev**, pegged to the euro. Spend
+  them; they are hard to change elsewhere.
 
 ## What this trip actually costs
 

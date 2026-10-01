@@ -92,101 +92,211 @@ trip.
 
 ## Day 1 — Land in Santiago
 
-- **Afternoon** — Land, drop bags in **Lastarria** or **Providencia**.
-- **Evening** — Walk, eat. Chile eats earlier than Argentina but
-  later than Europe.
+- **13:00** — Land at **Arturo Merino Benítez (SCL)**, 20 km from
+  the centre. Use the official **Transvip** or **Turbus** desks
+  rather than the touts.
+- **14:30** — Stay in **Lastarria** for the cafés and museums or
+  **Providencia** for a quieter residential base. Both are safe to
+  walk; **avoid leaving valuables visible anywhere**, which is the
+  standing advice for Santiago and is meant.
+- **16:00** — Walk **Barrio Lastarria** and the **Parque
+  Forestal**.
+- **18:00** — **Cerro Santa Lucía**, the small hill the city was
+  founded on in 1541, for the first look at the Andes behind the
+  skyline.
+- **20:00** — Dinner. Chile eats earlier than Argentina and later
+  than Europe — around nine. *Pisco sour* first, and it is Chilean,
+  whatever Peru says.
 
 ## Day 2 — Santiago
 
-- **Morning** — **Cerro Santa Lucía** or **San Cristóbal** for the
-  view over a city with the Andes behind it.
-- **Afternoon** — The **Pre-Columbian Art Museum**, which is small
-  and excellent, and the **Central Market** for lunch.
-- **Evening** — **Bellavista** for dinner, or the wine bars of
-  Lastarria.
+- **09:00** — **Cerro San Cristóbal** by the 1925 funicular, 300 m
+  above the city, with the Virgin at the top. Go early: the
+  **smog** sits in the basin and the Andes are only visible on
+  clear mornings, usually after rain.
+- **11:00** — The **Museo Chileno de Arte Precolombino**, which is
+  small, beautifully done, and the best museum in the country —
+  Chinchorro mummies older than Egypt's, and Andean textiles.
+- **13:00** — **Mercado Central** for lunch: *congrio* or *reineta*
+  at a counter in the 1872 iron hall, with *machas a la parmesana*
+  to start.
+- **15:00** — **Museo de la Memoria y los Derechos Humanos**, on
+  the Pinochet dictatorship. It is unflinching and it is the
+  context for a great deal else.
+- **17:30** — **Barrio Bellavista** and **La Chascona**, one of
+  Neruda's three houses, built for Matilde and as eccentric as the
+  others.
+- **20:00** — Dinner in Bellavista or the Lastarria wine bars.
 
 ## Day 3 — North to the desert
 
-- **Morning** — Fly to **Calama**, two hours, then an hour by road
-  to **San Pedro de Atacama**.
-- **Afternoon** — **Do nothing strenuous.** You are at 2,400 m and
-  tomorrow goes higher. Walk the adobe village.
-- **Evening** — **Valle de la Luna** for sunset over salt-crusted
-  badlands.
+- **08:00** — Fly to **Calama**, two hours.
+- **10:30** — The transfer to **San Pedro de Atacama**, an hour
+  across gravel plain with the volcano line ahead.
+- **12:00** — San Pedro is a single-storey adobe village at
+  **2,400 m**, and it is the altitude that shapes the next three
+  days.
+- **13:00** — Lunch, then **do nothing strenuous**. Tomorrow goes
+  above 4,000 m and the day after to 4,300 m; today is acclimat-
+  isation whether you feel you need it or not.
+- **15:30** — Walk the village: the adobe church, the Gustavo Le
+  Paige museum, and the one main street.
+- **17:00** — **Valle de la Luna** for sunset — salt-crusted
+  badlands, the Three Marias, and the amphitheatre, with the
+  Licancabur volcano turning red opposite as the sun drops.
+- **20:00** — Dinner, and drink more water than you want to.
 
 ## Day 4 — Salt flats and flamingos
 
-- **Morning** — **Laguna Chaxa** in the **Salar de Atacama**, where
-  three flamingo species feed on a salt crust that cracks underfoot.
-- **Afternoon** — The **altiplano lagoons** — Miscanti and Miñiques
-  — at over 4,000 m, which is why today is not day one.
-- **Evening** — Stargazing. The skies here are among the clearest on
-  earth, and the small observatory tours are genuinely good.
+- **08:00** — **Laguna Chaxa** in the **Salar de Atacama**,
+  Chile's largest salt flat. **Three flamingo species** — Andean,
+  Chilean and James's — feed here on brine shrimp, on a crust that
+  cracks and tinkles underfoot.
+- **11:00** — Back for the heat of the day.
+- **14:30** — The **altiplano lagoons** — **Miscanti** and
+  **Miñiques** — at **over 4,100 m**: two deep blue lakes under
+  snow-streaked volcanoes, with vicuña grazing the shore. This is
+  why yesterday was a rest day; walk slowly up here and expect to
+  be breathless.
+- **17:00** — **Toconao** village on the way back, with its
+  separate bell tower in white volcanic stone.
+- **21:30** — **Stargazing.** The Atacama has the clearest skies on
+  earth and most of the world's major observatories; the small
+  tours run by local astronomers with their own telescopes are
+  genuinely good — Saturn's rings, the Magellanic Clouds, and the
+  Milky Way bright enough to read by.
 
 ## Day 5 — Geysers, at dawn
 
-- **04:00** — **El Tatio**, the highest geyser field in the world at
-  4,300 m. The eruptions are most dramatic in the cold before
-  sunrise, which is why the start is brutal. It will be below
-  freezing.
-- **Late morning** — The hot springs on the way down.
-- **Afternoon** — Sleep, or the **Valle del Arcoíris**.
+- **04:00** — Leave for **El Tatio**. It is brutal and it is
+  necessary: the geyser field is **4,320 m**, the eruptions are at
+  their most dramatic in the cold before sunrise, and by nine the
+  columns have largely collapsed.
+- **06:30** — Arrive. **It will be −10°C or colder.** Eighty
+  geysers and a hundred fumaroles across a basin, with steam
+  columns catching the first sun. Stay on the marked paths — the
+  crust is thin, the water is at boiling point, and people have
+  been badly scalded.
+- **08:30** — Breakfast cooked on a vent, then the **hot springs**
+  at the edge of the field if you brought a swimsuit and the nerve
+  to change in that cold.
+- **10:30** — Down, stopping at **Machuca** village and the
+  vicuña wetlands.
+- **13:00** — Back in San Pedro. **Sleep.**
+- **17:00** — The **Valle del Arcoíris** or the **Quebrada de
+  Jerez**, if you have anything left.
 
 ## Day 6 — South, the long way
 
-- **Morning** — Road to Calama, fly to **Santiago**.
-- **Afternoon** — Connect on to **Punta Arenas**, or overnight in
-  Santiago if the timings do not work. This is the one heavy travel
-  day.
-- **Evening** — Arrive at the bottom of the continent.
+- **08:00** — Transfer to Calama, then fly to **Santiago**, two
+  hours.
+- **12:30** — Santiago. **This is the one heavy travel day** — the
+  country is 4,300 km long and you are crossing most of it.
+- **15:00** — Connect on to **Punta Arenas**, three and a half
+  hours more. If the timings do not work, **overnight in Santiago**
+  rather than risking it; Patagonian flights are weather-dependent
+  and missing one costs a day.
+- **19:00** — Arrive at the bottom of the continent. It is cold,
+  windy, and light until very late in summer.
+- **20:30** — Dinner. King crab — *centolla* — is the local
+  speciality and in season it is extraordinary.
 
 ## Day 7 — To Puerto Natales
 
-- **Morning** — Bus north, three hours, along the Strait of
-  Magellan and out onto the steppe.
-- **Afternoon** — **Puerto Natales**, a small port town on a fjord
-  and the base for the park.
-- **Evening** — Check your park booking, buy anything you have
-  forgotten, and look at tomorrow's wind forecast.
+- **09:00** — Bus north, **three hours**, along the **Strait of
+  Magellan** and out onto open steppe — rheas, guanacos, and
+  nothing else.
+- **12:30** — **Puerto Natales**, a small port on the Señoret
+  fjord and the base for the park.
+- **14:00** — Lunch, then the practical afternoon: **confirm your
+  park booking and accommodation**, which must be reserved in
+  advance and is not available on the gate.
+- **16:00** — **Buy or hire what you are missing.** Natales is the
+  last place with gear shops, and the **wind** is the thing people
+  underestimate — gusts of 100 km/h are routine in spring and
+  summer.
+- **17:30** — **Check tomorrow's forecast**, and specifically the
+  wind. It decides what is possible more than rain does.
+- **19:30** — Dinner, and an early night.
 
 ## Day 8 — Into Torres del Paine
 
-- **Morning** — Two hours into the park. The first sight of the
-  **Cuernos** across Lago Pehoé is the one people remember.
-- **Afternoon** — **Salto Grande** and the **Mirador Cuernos**, an
-  easy walk with the best reward-to-effort ratio in the park.
-- **Evening** — Sleep in or near the park.
+- **07:30** — Two hours into the park, with the **Cuernos del
+  Paine** appearing across **Lago Pehoé** — black sedimentary caps
+  on pale granite, rising straight out of turquoise water. This is
+  the view people remember, and it is from the road.
+- **10:00** — Register at the gate and watch the fire briefing.
+  **Open fire is banned everywhere** — two visitors' camp stoves
+  burned a third of this park in 2005 and 2011.
+- **11:30** — **Salto Grande**, the waterfall between two lakes,
+  ten minutes from the car park.
+- **13:00** — The **Mirador Cuernos**, an easy hour return with
+  the best reward-to-effort ratio in the park.
+- **15:30** — **Lago Nordenskjöld** viewpoints along the road, and
+  guanaco everywhere on the eastern side.
+- **18:00** — Check in, in or near the park.
+- **20:00** — Dinner, and lay out tomorrow's kit.
 
 ## Day 9 — Base of the Towers
 
-- **All day** — The **Mirador Las Torres**: about 18 km return, seven
-  to nine hours, with a boulder field for the last kilometre and
-  three granite towers over a green lake at the end. The park's
-  signature walk, and a hard one.
-- **Alternative** — **Lago Grey** and the glacier face by catamaran,
-  for a fraction of the effort.
+- **06:30** — The **Mirador Las Torres**: **18–20 km return, seven
+  to nine hours**, and the park's signature walk.
+- **07:30** — The first hour climbs the windy **Ascencio valley** —
+  this is the exposed section and where the gusts hit.
+- **09:30** — Through the beech forest to **Chileno** and then
+  **El Campamento**, flatter and sheltered.
+- **11:00** — **The last kilometre is a boulder field**, almost
+  vertical, scrambling over granite blocks for an hour.
+- **12:00** — The top: **three granite towers** straight out of a
+  green glacial lake. Eat quickly — it is cold and exposed, and
+  the cloud can close in within minutes.
+- **13:00** — Down, which takes four hours and punishes knees.
+- **18:00** — Back. Entirely earned.
+- **Alternative** — If the wind is up or the legs are not willing,
+  the **Lago Grey catamaran** gives you the glacier face for a
+  fraction of the effort.
 
 ## Day 10 — Grey Glacier, or the French Valley
 
-- **Option A** — The **Grey Glacier** boat, which takes you to the
-  ice face and among the bergs.
-- **Option B** — Guanacos and condors on the eastern steppe, which
-  is where the wildlife actually is.
-- **Evening** — Back to Puerto Natales.
+- **Option A — Grey Glacier, 09:00.** The catamaran across **Lago
+  Grey** to the face of the glacier, between icebergs that have
+  calved off the **Southern Patagonian Ice Field** — the third
+  largest body of ice on earth after the poles. Three hours, with a
+  whisky over glacier ice at the end.
+- **Option B — the French Valley, 07:00.** The middle section of
+  the W, from Paine Grande up to the **Mirador Británico** —
+  a hanging glacier that calves audibly across the valley all day.
+  Long, and requires the catamaran both ways.
+- **Option C — the steppe, 09:00.** The eastern side is where the
+  **wildlife** actually is: guanaco herds in hundreds, condors,
+  rhea, and the park's **puma** population, which is the densest
+  in the world and best found with a tracker at dawn.
+- **18:00** — Back to Puerto Natales.
 
 ## Day 11 — South, and the penguins
 
-- **Morning** — Bus to **Punta Arenas**.
-- **Afternoon** — **Magdalena Island**'s penguin colony in season
-  (roughly November to March), or the **Nao Victoria** museum and
-  the cemetery, which is stranger and better than it sounds.
-- **Evening** — Last Patagonian dinner.
+- **08:30** — Bus to **Punta Arenas**, three hours.
+- **12:00** — Lunch on the **Plaza Muñoz Gamero**, and rub the toe
+  of the Magellan statue's Fuegian, which supposedly brings you
+  back.
+- **14:00** — **Isla Magdalena** by boat (roughly **November to
+  March**): a colony of **120,000 Magellanic penguins** on a small
+  island, with a marked path through the middle of them. They walk
+  past your feet and ignore you entirely.
+- **14:00 alt** — Out of season: the **Nao Victoria museum**, with
+  full-size replicas of Magellan's ship and Shackleton's *James
+  Caird*, and the **cemetery**, which is far stranger and better
+  than it sounds — cypress avenues and the mausoleums of the
+  immigrant families who ran Patagonia.
+- **19:30** — Last Patagonian dinner.
 
 ## Day 12 — Fly home
 
-- Fly Punta Arenas → Santiago and connect. Leave a long gap;
-  Patagonian weather delays flights and the connection is the whole
-  length of the country.
+- **Morning** — Fly **Punta Arenas → Santiago**, and connect.
+- **Leave a long gap.** Patagonian weather delays flights routinely,
+  the connection crosses the entire length of the country, and
+  there is no second option if you miss it. **Four hours minimum**,
+  and an overnight in Santiago is the safe version.
 
 ## What this trip actually costs
 
