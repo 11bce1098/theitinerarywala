@@ -98,78 +98,159 @@ shared taxis and dirt roads** rather than timetables.
 
 ## Day 1 — Land in Bishkek
 
-- **Afternoon** — Land, drop bags. Bishkek is a wide, green Soviet
-  grid city with good coffee and no particular sights.
-- **Evening** — **Ala-Too Square**, the changing of the guard, and
-  dinner. Arrange your onward driver tonight.
+- **04:00** — Most flights into **Manas (FRU)** land in the small
+  hours, which is worth knowing when you book the first night.
+  The airport is 30 minutes out.
+- **11:00** — Bishkek is a wide, green Soviet grid of poplars and
+  irrigation channels, with the **Ala-Too range** standing 4,800 m
+  directly south of it. It has good coffee and almost no sights,
+  and that is fine.
+- **13:00** — Lunch — *laghman*, hand-pulled noodles, or *samsa*
+  from a tandoor.
+- **15:00** — **Ala-Too Square**, the changing of the guard on the
+  hour, and **Osh Bazaar** for the practical shopping: a SIM, dried
+  fruit, and a warm layer if you did not bring one.
+- **17:00** — **Draw cash.** Outside Bishkek, card acceptance is
+  patchy and in the mountains it is nil. Take plenty of som.
+- **19:00** — Dinner, and **confirm the driver and the Song-Kul
+  yurt booking tonight** — the whole middle of this trip is one
+  chain and there is no mobile signal to fix it later.
 
 ## Day 2 — Burana, then south to Kochkor
 
-- **Morning** — **Burana Tower**, an eleventh-century minaret on the
-  Silk Road plain, with stone grave markers around it.
-- **Afternoon** — Drive to **Kochkor**, the staging town for
-  Song-Kul, about three hours.
-- **Evening** — A guesthouse, a felt-making demonstration if you
-  want one, and an early night.
+- **09:00** — Drive east to **Burana Tower**, 80 km, about 90
+  minutes.
+- **10:30** — **Burana**: an 11th-century minaret standing alone on
+  the Silk Road plain, all that is left of **Balasagun**, a
+  Karakhanid capital. You climb the inside on a steep dark stair.
+  Around it is a field of ***balbals*** — Turkic stone grave
+  markers, carved with faces, moved here from across the valley.
+- **12:30** — Lunch at **Tokmok** or on the road.
+- **14:00** — South to **Kochkor**, about three hours, climbing out
+  of the Chui valley.
+- **17:00** — Arrive. Kochkor is the staging town for Song-Kul and
+  the base of the **community-based tourism** network that runs the
+  yurt stays.
+- **18:00** — A **felt-making demonstration** if you want one —
+  *shyrdak* rugs, which are a genuine craft here and the best thing
+  to take home.
+- **19:30** — Guesthouse dinner, and an early night.
 
 ## Day 3 — Up to Song-Kul
 
-- **Morning** — The climb: three to four hours on dirt over the
-  **Kalmak-Ashuu pass**, with the lake appearing suddenly on a
-  plain at the top.
-- **Afternoon** — Walk, or ride. The plain is enormous, the herds
-  are everywhere, and there is nothing to do, which is the
-  attraction.
-- **Evening** — Dinner in the yurt with the family, and a sky with
-  no light pollution for hundreds of kilometres.
+- **09:00** — The climb. Three to four hours on dirt track over the
+  **Kalmak-Ashuu pass** at 3,446 m — switchbacks, no barriers, and
+  a 4x4 is not optional.
+- **12:30** — The lake appears suddenly as you come over the lip:
+  **Song-Kul** at **3,016 m**, 29 km across, on an open plain
+  surrounded by low green hills with nothing built on them.
+- **13:30** — Lunch at the yurt camp. These are **summer pastures**
+  — *jailoo* — and the families move up here with their herds from
+  roughly June to September. Outside those months there is nobody
+  and nothing.
+- **15:00** — Walk, or ride. The plain is enormous, horses and
+  sheep are everywhere, and **there is nothing to do**, which is
+  precisely the attraction.
+- **18:30** — Dinner in the family yurt — *besh barmak*, bread,
+  *kurut*, and fermented mare's milk if you want it.
+- **21:00** — **The sky.** No settlement for 60 km in any
+  direction, at 3,000 m, with no moisture in the air. It is one of
+  the darkest places you will ever stand.
+- **Note** — It gets **close to freezing at night even in July**.
+  The stove goes out; sleep in layers.
 
 ## Day 4 — Song-Kul, and down the other side
 
-- **Morning** — A horse ride along the shore, which is how the
-  distances here are meant to be covered.
-- **Afternoon** — Down the northern pass toward **Kochkor** and on
-  east to the south shore of **Issyk-Kul**.
-- **Evening** — Arrive at the lake.
+- **07:00** — Sunrise over the lake with the herds being moved out
+  to graze.
+- **09:00** — A **horse ride** along the shore, two to four hours.
+  Kyrgyz horses are small, sure-footed and semi-wild, and this is
+  how the distances here are meant to be covered — the whole
+  culture is built on it.
+- **13:00** — Lunch, then down the **northern pass** toward
+  Kochkor.
+- **16:00** — East along the south shore of **Issyk-Kul**, the
+  world's **second largest alpine lake** — 182 km long, 668 m deep,
+  slightly saline, and it **never freezes**, which is what the name
+  means.
+- **18:30** — Arrive at the lake. The contrast with the high plain
+  is total: it is warm down here.
+- **20:00** — Dinner, and a bed with a mattress.
 
 ## Day 5 — The canyons of the south shore
 
-- **Morning** — **Skazka (Fairytale) Canyon**, eroded red and orange
-  rock formations you walk into and over.
-- **Afternoon** — **Jeti-Ögüz** — the Seven Bulls — red sandstone
-  cliffs and a broken heart-shaped rock, with a valley behind them.
-- **Evening** — On to **Karakol**.
+- **09:00** — **Skazka (Fairytale) Canyon**: eroded red, orange and
+  purple sandstone, which you walk into and then up onto — there
+  are no paths and no rails, you simply pick a ridge. An hour or
+  two, and it is far bigger inside than it looks from the road.
+- **12:00** — Lunch at **Bokonbaevo**, and the **eagle hunters**
+  here if a demonstration is running — golden eagles, hunted with
+  from horseback, and the practice is real rather than staged for
+  tourists though the demonstration is.
+- **15:00** — **Jeti-Ögüz** — the Seven Bulls — a wall of red
+  sandstone fins above a village, with the **Broken Heart** rock
+  beside them, and a green valley behind that is worth driving up.
+- **17:30** — On to **Karakol**.
+- **19:30** — Dinner.
 
 ## Day 6 — Karakol
 
-- **Morning** — The **Dungan Mosque**, built by Chinese Muslim
-  craftsmen in the style of a pagoda and without a single nail, and
-  the wooden **Orthodox cathedral** built the same way.
-- **Afternoon** — The **animal market** if it is Sunday, which is
-  one of the best mornings in Central Asia.
-- **Evening** — Ashlyan-fu, the local cold noodle dish, from a
-  market stall.
+- **09:00** — The **Dungan Mosque**: built 1907–1910 by Chinese
+  Muslim craftsmen in the form of a **Buddhist pagoda**, painted
+  red, green and yellow, and assembled **without a single nail**.
+  There is nothing else like it.
+- **10:30** — The **Holy Trinity Orthodox Cathedral**, wooden, also
+  built without nails, rebuilt after the 1890 earthquake.
+- **12:00** — Lunch — ***ashlyan-fu***, the Dungan cold noodle dish
+  in a sour broth, from a stall at the market, with a fried
+  potato patty on the side. It is Karakol's own and costs almost
+  nothing.
+- **14:00** — The **animal market** — *mal bazar* — if it is a
+  **Sunday morning**, and plan the week around that if you can.
+  Horses, sheep and cattle traded from dawn, no concession to
+  visitors at all, and one of the best mornings in Central Asia.
+- **16:00** — The **Przhevalsky** memorial and museum by the lake.
+- **19:00** — Dinner.
 
 ## Day 7 — Ala-Kul or the valley
 
-- **Option A** — A day hike up the **Karakol valley** toward
-  Ala-Kul, which is a serious multi-day trek in full but gives a
-  fine day walk from the trailhead.
-- **Option B** — **Altyn-Arashan** by 4x4, a valley of hot springs
-  under the peaks.
-- **Evening** — Back in Karakol.
+- **Option A — the Karakol valley, 08:00.** A day walk from the
+  trailhead up toward **Ala-Kul**: spruce forest, river, and
+  increasingly alpine. The full Ala-Kul circuit is a serious
+  three-day trek over a 3,900 m pass, but the valley gives a
+  fine day out and back.
+- **Option B — Altyn-Arashan, 08:00.** A valley of **hot springs**
+  under 4,000 m peaks, reached by an hour and a half of 4x4 on a
+  track that is more riverbed than road. Soak, eat, come back — or
+  stay the night in one of the huts.
+- **Option C — the ski base.** The chairlift at **Karakol** runs in
+  summer for the view over Issyk-Kul.
+- **18:00** — Back in Karakol.
+- **19:30** — Last mountain dinner.
 
 ## Day 8 — The north shore back to Bishkek
 
-- **Morning** — West along the **north shore** of Issyk-Kul, with a
-  swim stop; the lake is slightly saline and never freezes.
-- **Afternoon** — **Cholpon-Ata**'s petroglyph field, then on to
-  Bishkek, about five hours in total.
-- **Evening** — Last dinner in the city.
+- **08:30** — West along the **north shore**, which is the
+  developed side — Soviet-era sanatoria, beaches and holidaymakers.
+- **10:30** — A **swim**. The water is around 20°C in summer,
+  slightly saline, and clear.
+- **12:30** — **Cholpon-Ata**'s **petroglyph field**: hundreds of
+  Saka-era carvings on glacial boulders spread across an open site,
+  mostly ibex, from around 800 BC. Free to walk, and nobody there.
+- **14:00** — Lunch, then on to Bishkek — about five hours in total
+  from Karakol.
+- **18:00** — Arrive.
+- **20:00** — Last dinner. **Buy the shyrdak** you have been
+  thinking about since Kochkor.
 
 ## Day 9 — Fly home
 
-- Manas airport is 30 minutes out. Many flights leave in the very
-  early hours; check yours before planning the last evening.
+- **Manas** is 30 minutes out, and **many flights leave between
+  03:00 and 06:00** — check yours before you plan the last evening,
+  because it may mean no sleep rather than a lie-in.
+- **Note** — Kyrgyzstan is **visa-free for most nationalities for
+  60 days**, which is unusually generous for the region and one
+  reason it is the easiest Central Asian country to start with.
 
 ## What this trip actually costs
 

@@ -97,85 +97,170 @@ best part of two days.
 
 ## Day 1 — Land, and straight to Antigua
 
-- **Afternoon** — Land at Guatemala City and transfer directly to
-  **Antigua**, about an hour. Do not linger in the capital.
-- **Evening** — The cobbled grid, the **Santa Catalina arch**, and
-  dinner in a courtyard.
+- **14:00** — Land at **La Aurora (GUA)** in Guatemala City and
+  **transfer straight out** — about an hour to Antigua, and there
+  is no reason to spend a night in the capital.
+- **15:30** — Antigua is a grid of cobbled streets under **three
+  volcanoes**, founded 1543, flattened by earthquake in 1773 and
+  left half-ruined ever since — which is exactly why it looks the
+  way it does.
+- **17:00** — The **Santa Catalina arch** on 5a Avenida, with
+  **Agua** framed behind it, and the market end of the street.
+- **18:30** — **Parque Central** as the light goes.
+- **20:00** — Dinner in a courtyard. Antigua eats well and is
+  considerably more expensive than the rest of the country.
+- **Note** — **It is cold at night.** Antigua sits at 1,530 m and
+  the volcano days go far higher; bring more warm clothing than
+  "Central America" suggests.
 
 ## Day 2 — Antigua
 
-- **Morning** — The ruined convents and churches — **Santa Clara**,
-  **Las Capuchinas**, the cathedral ruins behind the façade.
-- **Afternoon** — **Cerro de la Cruz** for the view of the grid with
-  **Agua** behind it, or a coffee finca on the slopes.
-- **Evening** — If **Fuego** is active you will see it from the
-  rooftops after dark.
+- **09:00** — The ruins, and they are the point: **Las Capuchinas**
+  with its circular tower of nuns' cells, **Santa Clara**, and the
+  **cathedral** — a working façade with the collapsed nave open to
+  the sky behind it.
+- **11:30** — **Iglesia de La Merced**, yellow and intact, with the
+  largest fountain in Central America in its cloister.
+- **13:00** — Lunch, then the **Jade Museum** or a **chocolate
+  workshop** — bean to bar in two hours, and genuinely about cacao's
+  role in Maya society rather than a tasting.
+- **16:00** — **Cerro de la Cruz**, 20 minutes' climb, for the grid
+  laid out below with **Agua** behind it. Go with others or with
+  the tourist police, who escort walkers up on a schedule.
+- **18:30** — **If Fuego is active you will see it from the
+  rooftops after dark** — it erupts every 15 to 20 minutes, and
+  from Antigua it is a glow and a distant thud.
+- **20:00** — Dinner.
 
 ## Day 3 — Acatenango, or a gentler day
 
-- **Option A** — The **Acatenango overnight**: up through cloud
-  forest to a ridge camp at 3,600 m, with Fuego erupting across the
-  valley all night. Down the next morning. This takes days 3 and 4.
-- **Option B** — **Pacaya** in the morning, then a textile workshop
-  or a chocolate class in the afternoon.
+- **Option A — Acatenango, 08:00.** The overnight hike, and the
+  best thing in Guatemala. Six hours up through farmland, cloud
+  forest and then volcanic scree to a ridge camp at **3,600 m**,
+  with **Fuego erupting across the valley all night** — a kilometre
+  away, at eye level, every twenty minutes, throwing lava into the
+  dark. It is brutally cold, the altitude is real, and almost
+  nobody regrets it. **This uses days 3 and 4.**
+- **What it takes** — Go with an operator that provides a proper
+  sleeping bag and tent, hire a porter if you are unsure, and do
+  not attempt it on your first day at altitude.
+- **Option B — Pacaya, 06:00.** A half-day instead: a much easier
+  climb on an active volcano where you toast marshmallows on
+  vents. Back by lunch.
+- **Option B afternoon** — A **backstrap weaving** workshop or the
+  coffee fincas on the slopes above town.
 
 ## Day 4 — Down from the volcano, or to the lake
 
-- **After Acatenango** — Rest in Antigua. You will want to.
-- **Otherwise** — Shuttle to **Lake Atitlán**, three hours, arriving
-  at **Panajachel** and taking a boat to your village.
+- **After Acatenango** — Down by late morning, then **rest in
+  Antigua**. You will want to, and your legs will insist.
+- **Otherwise, 08:00** — Shuttle to **Lake Atitlán**, about three
+  hours over the highlands.
+- **11:30** — Arrive **Panajachel**, the lakeside town where the
+  road ends, then take a ***lancha*** — the public boat — to your
+  village. **San Pedro**, **San Marcos** and **Santa Cruz** are the
+  usual bases; Panajachel itself is the least appealing of them.
+- **13:30** — First sight of the lake properly: a flooded caldera
+  **340 m deep**, ringed by three volcanoes, with villages at the
+  water's edge connected mostly by boat.
+- **18:00** — Sunset from the dock.
+- **20:00** — Dinner.
 
 ## Day 5 — The lake villages
 
-- **Morning** — **San Juan La Laguna**: weaving and natural-dye
-  cooperatives run by women's collectives, and the best place on the
-  lake to buy textiles honestly.
-- **Afternoon** — **San Marcos** for the swimming platform and the
-  hippie end of the lake, or **Santiago Atitlán** for the most
-  traditional village and the shrine of **Maximón**.
-- **Evening** — Sunset over the volcanoes from the water.
+- **08:30** — ***Lancha*** to **San Juan La Laguna**, and this is
+  the village to spend the morning in: **women's weaving
+  cooperatives** using backstrap looms and **natural dyes** — the
+  plants are grown in the courtyard and they show you the process
+  from leaf to thread. It is the most honest place on the lake to
+  buy textiles, and the money stays in the co-op.
+- **11:00** — San Juan's painted streets and the **Rupalaj K'istalin**
+  community guides.
+- **13:00** — Lunch, then on by boat.
+- **14:30** — **Santiago Atitlán**, the largest and most
+  traditional village, and the shrine of ***Maximón*** — a cigar-
+  smoking folk saint, part Maya deity and part Spanish, who **moves
+  house every year** to a different cofradía member. A small
+  payment and a guide gets you in; take the offering seriously.
+- **16:30** — Or **San Marcos** for the swimming platform at
+  **Cerro Tzankujil** and the yoga end of the lake.
+- **18:00** — Sunset over the volcanoes from the water. **The
+  afternoon wind — the *Xocomil* — gets up around three**, so the
+  late boats are rougher; the last ones run around six.
 
 ## Day 6 — Atitlán, active or slow
 
-- **Option A** — The **Indian Nose** ridge at dawn, for sunrise over
-  the caldera.
-- **Option B** — Kayak the shore, or walk the path between San Juan
-  and San Pedro.
-- **Evening** — Book tomorrow's shuttle and the Flores flight.
+- **Option A — Indian Nose, 04:00.** A 90-minute climb in the dark
+  to the ridge above San Juan for **sunrise over the whole
+  caldera**, with the three volcanoes catching the first light.
+  Go with a village guide; the trail has had robberies and the
+  co-ops run it properly.
+- **Option B — the water, 08:00.** **Kayak** the shore from Santa
+  Cruz, which is flat and clear before the wind, or the
+  **San Juan–San Pedro** path along the hillside.
+- **Option C — nothing.** Entirely defensible.
+- **16:00** — **Book tomorrow's shuttle and confirm the Flores
+  flight.** This is the day the logistics need attention.
+- **19:00** — Last lake dinner.
 
 ## Day 7 — Chichicastenango, then north
 
-- **Morning** — If it is **Thursday or Sunday**, the
-  **Chichicastenango market** is the largest indigenous market in
-  Central America and worth reorganising the week for.
-- **Afternoon** — Shuttle to Guatemala City and fly to **Flores**,
-  an hour.
-- **Evening** — **Flores** is a small island town on a lake,
-  connected by a causeway, and a pleasant surprise after the
-  journey.
+- **06:30** — **If it is Thursday or Sunday**, go to
+  **Chichicastenango** — the **largest indigenous market in Central
+  America**, filling the whole town. Textiles, masks, produce,
+  livestock, and **Santo Tomás church**, where Maya and Catholic
+  ritual run simultaneously on the same steps, with copal smoke and
+  flower offerings. **It is worth reorganising the week around.**
+- **11:00** — Back, or straight on.
+- **13:00** — Shuttle to Guatemala City.
+- **16:00** — Fly to **Flores**, one hour. The alternative is a
+  nine-hour overnight bus, which is cheap and costs you a day.
+- **17:30** — **Flores**: a small island town on **Lake Petén
+  Itzá**, joined by a causeway, with red roofs and one road round
+  the edge. A genuinely pleasant surprise after the journey.
+- **19:30** — Dinner over the water.
 
 ## Day 8 — Tikal
 
-- **Pre-dawn** — The **sunrise tour** into the park, when the
-  howler monkeys start and the mist sits on the canopy. Whether the
-  sun actually appears is a gamble; the sound is not.
-- **Morning** — **Temple IV**, the tallest, which you climb to look
-  out over the canopy at the tops of other temples. The Great Plaza,
-  Temple I and II, the acropolis.
-- **Afternoon** — Back to Flores, or stay in the park hotels to
-  return in the late afternoon when it is empty again.
+- **03:30** — The **sunrise tour**. Into the park in the dark, and
+  up Temple IV before first light.
+- **05:30** — Whether the sun actually appears through the mist is
+  a gamble. **The sound is not**: howler monkeys start in the dark
+  and the noise they make is genuinely unnerving — a deep roar that
+  carries kilometres and sounds nothing like a monkey.
+- **07:30** — **Temple IV**, at **70 m** the tallest pre-Columbian
+  structure in the Americas, climbed by a wooden stair to look out
+  over unbroken canopy with the roof combs of other temples pushing
+  through it.
+- **09:00** — The **Great Plaza** — Temples I and II facing each
+  other — the **North Acropolis**, and the Lost World pyramid.
+  Tikal was a city of perhaps 60,000 at its peak and what is
+  cleared is a fraction of it; mounds in the forest are buildings.
+- **12:00** — Out before the heat, or **stay in the park hotels**
+  and go back in at four when the day tours have gone and you have
+  the plaza to yourself.
+- **19:00** — Back in Flores.
 
 ## Day 9 — Yaxhá, or the lake
 
-- **Option A** — **Yaxhá**, a smaller site on a lake, far quieter
-  than Tikal and with a sunset from the top of a temple.
-- **Option B** — A slow day in Flores, swimming off the causeway.
-- **Evening** — Fly back to Guatemala City.
+- **Option A — Yaxhá, 13:00.** A smaller site on a lake an hour
+  away, far quieter than Tikal, where you climb **Structure 216**
+  for **sunset over two lakes and the forest**. Howler monkeys
+  again, and perhaps a dozen other people.
+- **Option B — slow, 09:00.** Flores itself: swim off the causeway,
+  take a *lancha* to **San Miguel** across the water for the
+  viewpoint, and do very little.
+- **18:00** — Fly back to **Guatemala City**.
+- **20:00** — **Sleep near the airport**, not in Antigua — the
+  morning transfer back is an hour you will not want.
 
 ## Day 10 — Fly home
 
-- Most international departures leave in the morning from Guatemala
-  City. Sleep near the airport rather than returning to Antigua.
+- **Morning** — Most international departures leave **La Aurora**
+  in the morning, and the airport is small and straightforward.
+- **Note** — Keep some **quetzales** for the departure formalities
+  and a last coffee, but not many; they are hard to change
+  elsewhere.
 
 ## What this trip actually costs
 
