@@ -93,67 +93,143 @@ This is the single most important planning fact in this guide.
 
 ## Day 1 — Land in Kigali
 
-- **Afternoon** — Land, drop bags. Kigali is hilly, calm and clean.
-- **Evening** — Dinner. The city has a real restaurant scene.
+- **14:00** — Land at **Kigali (KGL)**, 10 km from the centre.
+  Visa on arrival is straightforward for most nationalities.
+- **15:00** — Drop bags. Kigali is built over a series of ridges,
+  it is strikingly clean, and the traffic is orderly in a way that
+  surprises people who have travelled elsewhere in the region.
+- **16:30** — **Plastic bags are banned** and have been since 2008 —
+  they are confiscated at the airport. The **last Saturday of each
+  month is *umuganda***, a compulsory community clean-up morning
+  when shops shut and traffic stops until midday; if you arrive on
+  one, plan around it.
+- **18:00** — A drink at **Hôtel des Mille Collines** — the "Hotel
+  Rwanda" — which is now simply a hotel with a pool, and is more
+  ordinary than its reputation.
+- **20:00** — Dinner. Kigali has a real restaurant scene; Rwandan
+  coffee is excellent and mostly exported.
 
 ## Day 2 — The memorial, and north
 
-- **Morning** — The **Kigali Genocide Memorial**. It is not an
-  optional cultural stop; it is the context for everything else you
-  will see, and it is handled with great care. Allow two hours and
-  expect to need the rest of the morning afterwards.
-- **Afternoon** — Drive north to **Musanze**, under three hours,
-  with the Virunga volcanoes rising ahead.
-- **Evening** — Early night. Tomorrow starts at dawn.
+- **09:00** — The **Kigali Genocide Memorial**. This is not an
+  optional cultural stop — it is the context for the whole country,
+  and in 1994 around **one million people were killed in a hundred
+  days**. **250,000 are buried in the gardens here.** The exhibition
+  is careful, chronological and unsparing, including the
+  international failure to intervene. The children's room at the
+  end is the hardest part.
+- **11:30** — Allow two hours inside and expect to want the rest of
+  the morning. The gardens are designed for exactly that.
+- **13:00** — Lunch.
+- **14:30** — Drive north to **Musanze (Ruhengeri)**, under three
+  hours on good tarmac, with the **Virunga volcanoes** rising ahead
+  — five cones, often cloud-topped, straddling three borders.
+- **17:30** — Arrive. Check the lodge's briefing time.
+- **19:00** — Dinner, kit laid out, early night. **Lay out: boots,
+  gaiters, gardening gloves for the nettles, rain shell, 2 litres
+  of water.**
 
 ## Day 3 — Gorillas
 
-- **05:30** — Briefing at **Volcanoes National Park** headquarters,
-  family allocation, and the drive to the trailhead.
-- **Morning** — The trek: anywhere from one to five hours each way.
-  Then **one hour** with the family — adults, juveniles, usually a
-  silverback a few metres away, entirely unbothered by you.
-- **Afternoon** — Back down. Most people are quiet for a while.
-- **Evening** — Certificate, a drink, and the realisation that it is
-  over.
+- **05:30** — **Volcanoes National Park headquarters at Kinigi**:
+  registration, coffee, dancers, and the allocation. Groups are
+  matched to fitness, so **say honestly how fit you are** — the
+  easy families are a genuinely different day from the hard ones.
+- **07:00** — Drive to the trailhead, then walk. **One to five
+  hours each way**, through farmland, then bamboo, then stinging
+  nettles and vines on steep volcanic mud. **Hire a porter** —
+  about USD 10–20, it directly employs people from the villages
+  that gave up this land, and they will haul you up the worst of it.
+- **10:30** — The trackers radio in. Bags down, masks on, and the
+  hour starts.
+- **The hour** — Seven metres back, no flash. A silverback at
+  arm's length ignoring you completely, juveniles tumbling, an
+  infant on its mother's back. It costs **USD 1,500** and almost
+  nobody comes out of that hour thinking about the money.
+- **14:00** — Back down. Certificates at headquarters.
+- **16:00** — Rest. Do not plan anything.
 
 ## Day 4 — Golden monkeys, or Dian Fossey
 
-- **Option A** — **Golden monkey trek**, a much cheaper permit for a
-  rarer and very lively primate in the bamboo.
-- **Option B** — The hike to **Dian Fossey's grave** at Karisoke,
-  which is steep and historically rich.
-- **Afternoon** — Drive to **Lake Kivu** at Gisenyi, about an hour.
+- **Option A — golden monkeys, 06:00.** A permit at a fraction of
+  the gorilla price, for an endangered monkey found only in the
+  Virungas. They move constantly through the bamboo and the hour is
+  noisier and more chaotic than the gorillas. Far easier walking.
+- **Option B — Dian Fossey's grave, 06:00.** A steep two-hour climb
+  to the **Karisoke** research site at 3,000 m, where Fossey lived
+  from 1967 and was murdered in 1985. She is buried beside Digit
+  and the other gorillas she studied, in the gorilla graveyard she
+  dug herself. Historically the richer of the two.
+- **13:00** — Back, and lunch.
+- **15:00** — Drive to **Lake Kivu** at **Gisenyi (Rubavu)**, about
+  an hour.
+- **17:30** — The lakeshore, with the Democratic Republic of Congo
+  on the far side and **Nyiragongo's** glow visible after dark on a
+  clear night.
 
 ## Day 5 — Lake Kivu
 
-- **Morning** — Swim. Kivu has **no crocodiles and no hippos**,
-  which makes it one of very few swimmable African lakes.
-- **Afternoon** — A boat to the islands, or the **Congo Nile Trail**
-  by bike along the shore.
-- **Evening** — Fishermen's boats going out at dusk, singing, which
-  is the lake's nightly ritual.
+- **08:00** — **Swim.** Kivu has **no crocodiles, no hippos and no
+  bilharzia**, which makes it one of very few African lakes you can
+  simply get into.
+- **10:00** — A **boat to the islands** — Napoleon Island for the
+  fruit bats, which leave in a cloud at dusk.
+- **13:00** — Lunch on the shore.
+- **15:00** — The **Congo Nile Trail** by bike — the full route is
+  227 km over ten days, but a half-day along the shore south of
+  Gisenyi gives you terraced hills, coffee washing stations and
+  children shouting *muzungu* at you from every village.
+- **18:00** — The **fishermen** go out at dusk: wooden trimarans
+  with long poles, three to a set, and the crews **sing in unison
+  to keep time with the paddles**. It happens every evening, it is
+  not for you, and it is the best hour on the lake.
+- **20:00** — Dinner — tilapia and *isombe*.
 
 ## Day 6 — South to Nyungwe
 
-- **All day** — The drive south along Kivu is one of the great
-  African road journeys — four to six hours of switchbacks above the
-  lake through terraced hills.
-- **Evening** — Arrive at **Nyungwe Forest**.
+- **08:00** — The drive south along Kivu, and it is **one of the
+  great African road journeys**: four to six hours of switchbacks
+  high above the lake, through tea estates and hills terraced to
+  the summit. Rwanda is called *le pays des mille collines* and
+  this is the road that proves it.
+- **12:00** — Lunch at **Kibuye (Karongi)**, halfway, on the water.
+- **15:30** — The landscape changes as you climb into **Nyungwe** —
+  one of the oldest montane rainforests in Africa, old enough to
+  have survived the last ice age, which is why its biodiversity is
+  what it is.
+- **17:00** — Arrive. Settle, and book tomorrow at reception.
+- **19:00** — Dinner. It is cool and wet up here; bring a layer.
 
 ## Day 7 — Chimps and the canopy
 
-- **05:00** — **Chimpanzee tracking**. Louder, faster and more
-  chaotic than the gorillas, and a different kind of morning.
-- **Afternoon** — The **canopy walkway**, 50 m above a ravine and
-  160 m long, which is the only one of its kind in East Africa.
-- **Evening** — Last forest night.
+- **05:00** — **Chimpanzee tracking.** An early, muddy start — the
+  chimps nest high and move at first light, and you are following
+  trackers who went out before you. Sightings run at about 70%.
+- **08:00** — When you find them it is loud, fast and chaotic:
+  screaming, drumming on buttress roots, and a troop moving through
+  the canopy above you at speed. Entirely unlike the gorillas.
+- **11:00** — Back, and breakfast.
+- **14:00** — The **canopy walkway** — **160 m long and 50 m above
+  a ravine**, the only one of its kind in East Africa, on the
+  Igishigishigi trail. It moves underfoot, which is the point.
+- **16:00** — The **Isumo waterfall trail** or a **colobus** troop
+  walk — Nyungwe's Angolan colobus move in super-troops of up to
+  400, which is unique.
+- **19:00** — Last forest night.
 
 ## Day 8 — Back to Kigali, and home
 
-- **Morning** — The drive back, around five hours, or a short
-  domestic flight if your schedule is tight.
-- **Afternoon** — Kigali's craft cooperatives, then the airport.
+- **08:00** — The drive back, **around five hours** via Huye, or a
+  short domestic flight if your schedule is tight.
+- **13:00** — Kigali. Lunch.
+- **15:00** — The **craft cooperatives** — **Nyamirambo Women's
+  Centre** for textiles and a neighbourhood walking tour, or the
+  Caplaki market for *agaseke* peace baskets, which are woven by
+  cooperatives of survivors and perpetrators working together.
+- **18:00** — The airport is 20 minutes out and most long-haul
+  departures are evening.
+- **Note** — Keep the gorilla certificate flat. It is the best
+  thing you will take home.
 
 ## What this trip actually costs
 

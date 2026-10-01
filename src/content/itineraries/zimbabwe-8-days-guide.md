@@ -85,71 +85,155 @@ This matters more at Victoria Falls than at almost any sight.
 
 ## Day 1 — Land at Victoria Falls
 
-- **Afternoon** — The airport is 20 minutes from town. Drop bags.
-- **Evening** — **Sunset cruise on the Zambezi** above the Falls,
-  with hippo, elephant on the banks and the spray column downstream.
+- **14:00** — Land at **Victoria Falls (VFA)**, 20 minutes from
+  town. Visas are issued on arrival — the **KAZA UniVisa** covers
+  Zimbabwe and Zambia and is what you want if you plan to cross.
+- **15:00** — Drop bags. The town is small and walkable, and
+  **warthogs and baboons wander through it** — the latter will take
+  food out of your hand, so do not carry any visibly.
+- **16:00** — Listen. You can hear the Falls from the town, which
+  is why the Lozi name is ***Mosi-oa-Tunya*** — the smoke that
+  thunders.
+- **16:30** — The **sunset cruise on the Zambezi** above the Falls:
+  two hours, hippo pods surfacing beside the boat, elephant coming
+  down to the banks, and the **spray column** rising downstream
+  where the river disappears. Gin and tonic included, and it is the
+  correct first evening.
+- **19:30** — Dinner in town. Game meat is on every menu — kudu,
+  warthog, crocodile — and it is not a gimmick here.
 
 ## Day 2 — The Falls, properly
 
-- **Morning** — The **rainforest walk**: sixteen viewpoints along
-  the Zimbabwean rim, through forest kept permanently wet by spray.
-  Allow two to three hours. In high water you will be soaked
-  regardless of what you wear.
-- **Afternoon** — The **bridge** between the two countries, where
-  the bungee jump is, and **Lookout Café** over the gorge.
-- **Evening** — Town. Zimbabwe's crafts are good and the market
-  pressure is real but good-humoured.
+- **07:00** — Into the **rainforest** at opening, before the tour
+  buses and in the best light.
+- **07:15** — **Sixteen viewpoints** along the Zimbabwean rim,
+  through forest kept permanently green by the spray — this
+  microclimate exists nowhere else for hundreds of kilometres. The
+  Falls are **1.7 km wide and 108 m high**, and Zimbabwe holds
+  about three-quarters of the frontage.
+- **09:00** — **Danger Point** and the **Knife-Edge** view across
+  to Zambia.
+- **In high water (roughly March–June)** you will be **soaked
+  regardless of what you wear** — hire a poncho at the gate, keep
+  your camera in a bag, and accept that you will see less of the
+  Falls through the spray than you will in October. **In low water
+  (September–December)** the eastern cataract can run dry and the
+  geology is visible instead. Neither is wrong; they are different
+  visits.
+- **11:00** — Out, and dry off.
+- **13:00** — Lunch at the **Lookout Café**, built on the lip of
+  the Batoka Gorge with the zip-line running past the terrace.
+- **15:00** — Walk to the **bridge** — the 1905 steel arch between
+  the two countries, with the bungee jump off the middle. You can
+  walk to the halfway point without a Zambian visa; take your
+  passport.
+- **17:00** — The **craft market**. Pressure is real and
+  good-humoured; haggle, and they will take USD, old clothes or
+  trainers as part-payment and say so.
+- **19:30** — High tea or a drink on the **Victoria Falls Hotel**
+  terrace, with the bridge framed at the end of the lawn.
 
 ## Day 3 — Activities, or the Zambian side
 
-- **Option A** — **Cross to Zambia** for the Knife-Edge Bridge and,
-  in low water, **Devil's Pool**.
-- **Option B** — Whitewater rafting the Zambezi below the Falls —
-  among the best commercial rafting anywhere, and only in low water.
-- **Option C** — Helicopter over the Falls, which is the only way
-  to understand the shape of the gorge.
+- **Option A — Zambia, 08:00.** Cross the bridge for the
+  **Knife-Edge Bridge** view, which looks back at the full face
+  Zimbabwe cannot show you, and — **in low water only, roughly
+  August to December** — **Devil's Pool**, a rock lip at the very
+  edge of the drop that you swim to and lie in. It is as alarming
+  as it sounds and run with guides.
+- **Option B — rafting, 08:00.** The **Zambezi below the Falls** is
+  among the best commercial whitewater anywhere — grade V, big
+  water, warm. **Low water only (roughly August to December).** The
+  climb back out of the gorge at the end is 200 m and genuinely
+  hard.
+- **Option C — helicopter, any time.** The **Flight of Angels**, 12
+  or 25 minutes, and the only way to understand the zigzag of
+  gorges — the Falls have cut back through seven previous positions
+  along fault lines, and from the air it is obvious.
+- **17:00** — Back, and an early night; tomorrow is a transfer day.
 
 ## Day 4 — South to Hwange
 
-- **Morning** — Road transfer to **Hwange National Park**, about
-  two and a half hours.
-- **Afternoon** — First game drive. Hwange has **no natural
-  permanent water** — the waterholes are pumped, which is why the
-  game concentrates so predictably in the dry season.
-- **Evening** — A waterhole hide after dark, which some camps have
-  and which is worth choosing a camp for.
+- **08:30** — Road transfer to **Hwange National Park**, about two
+  and a half hours.
+- **11:00** — Arrive. Hwange is **14,650 km²**, the size of Belgium,
+  and **has no natural permanent surface water** — the Kalahari
+  sand swallows it. Every waterhole is **pumped**, originally by
+  diesel and now largely by solar, and that single fact shapes
+  everything: in the dry season the game concentrates at the pans
+  with total predictability.
+- **12:30** — Lunch, then the heat of the day.
+- **15:30** — First **game drive**. Hwange holds around **45,000
+  elephant**, one of the largest populations on the continent, plus
+  the big cats and over 100 mammal species.
+- **18:30** — Sundowners.
+- **20:00** — A **floodlit waterhole hide** after dark if your camp
+  has one — several do, and it is worth choosing a camp for.
+  Elephant come in silently, which for an animal that size is the
+  unnerving part.
 
 ## Day 5 — Hwange
 
-- **Dawn** — The long morning drive, which is when the predators
-  are still moving.
-- **Midday** — Rest.
-- **Afternoon** — A second drive, ending at a waterhole for the
-  elephant parade at dusk. Herds here run to hundreds.
+- **05:45** — The long morning drive, out before first light, which
+  is when the predators are still moving and the lion are walking
+  the roads.
+- **09:30** — Breakfast in the bush.
+- **11:00** — Back to camp, and rest.
+- **15:30** — The second drive, working toward a pan for the
+  evening.
+- **17:30** — **The elephant parade.** In the dry season herds
+  arrive at the waterholes in the last hour of light — **a hundred
+  or more at a time**, families queueing, young ones shoved aside,
+  and bulls taking what they want. It is Hwange's signature hour.
+- **19:30** — Dinner under the stars.
 
 ## Day 6 — To Matobo
 
-- **Morning** — Drive south-east to the **Matobo Hills**, around
-  four hours, via **Bulawayo** if you want the railway museum or
-  lunch.
-- **Afternoon** — Arrive among balancing granite kopjes unlike
-  anything else in the region.
-- **Evening** — Sunset from **World's View**, where Cecil Rhodes is
-  buried and the argument about that continues.
+- **08:00** — Drive south-east to the **Matobo Hills**, around four
+  hours.
+- **11:00** — **Bulawayo** on the way: the **Railway Museum** for
+  Rhodesian-era locomotives left where they stood, or the Natural
+  History Museum, and lunch.
+- **14:30** — Into **Matobo**, and the landscape is unlike anything
+  else in the region: **granite kopjes** worn into balancing towers
+  and domes over two billion years, with vegetation in the cracks.
+- **16:00** — Check in.
+- **17:30** — Sunset from **World's View**, on the summit slab
+  where **Cecil Rhodes is buried** — he chose the spot himself and
+  the grave is cut into the rock. The argument about whether he
+  should still be there is live, ongoing and worth asking your
+  guide about; you will get a straight answer.
+- **19:30** — Dinner.
 
 ## Day 7 — Rhino and rock art
 
-- **Morning** — **Rhino tracking on foot** with a guide and a
-  ranger. Matobo has one of Africa's densest white rhino
-  populations and the walking approach is extraordinary.
-- **Afternoon** — **Rock art**: the caves here hold paintings up to
-  13,000 years old, and the guides explain them properly.
-- **Evening** — Last night.
+- **06:30** — **Rhino tracking on foot**, with a guide and an armed
+  ranger. Matobo has **one of Africa's densest white rhino
+  populations**, and you approach them walking — downwind, quiet,
+  often to within thirty metres of a group grazing. Standing on the
+  ground near a two-tonne animal that knows you are there is
+  completely unlike seeing one from a vehicle.
+- **10:30** — Back, and breakfast.
+- **13:00** — **Rock art.** The Matobo caves hold **San paintings
+  up to 13,000 years old** — **Nswatugi** and **Pomongwe** are the
+  accessible ones, with eland, giraffe and human figures in ochre.
+  The guides explain what is known and are honest about what is
+  guessed.
+- **16:00** — The **balancing rocks** and a last climb onto a
+  whaleback for the view.
+- **19:00** — Last night.
 
 ## Day 8 — Fly home
 
-- **Bulawayo** has domestic connections to Harare and Johannesburg;
-  many visitors drive back to Victoria Falls and fly from there.
+- **Morning** — **Bulawayo (BUQ)** is an hour away and connects to
+  Harare and Johannesburg.
+- **Alternative** — Many visitors **drive back to Victoria Falls**
+  — about five hours — and fly from there, which usually has better
+  international connections. Decide this when you book, not now.
+- **Note** — Zimbabwe runs largely on **US dollars in cash**.
+  Bring small denominations, bring more than you expect, and check
+  notes you are given as change — worn or torn US notes are often
+  refused.
 
 ## What this trip actually costs
 
