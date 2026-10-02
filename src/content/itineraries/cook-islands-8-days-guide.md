@@ -5,6 +5,8 @@ days: 8
 budgetAmount: 3400
 budgetCurrency: "NZD"
 route: "Rarotonga → Aitutaki → Rarotonga"
+heroImage: "/images/cook-islands.jpeg"
+heroWide: "/images/cook-islands-wide.jpeg"
 styles: ['beach', 'nature', 'couples']
 bestFor: "The Pacific's best lagoon"
 summary: "One island you can circle by bus in 50 minutes, and another whose lagoon is three times the size of the island inside it — turquoise water a metre deep for kilometres, sandbars you stand on in the middle of the sea, and a 45-minute flight between the two."

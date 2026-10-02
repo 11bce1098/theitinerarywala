@@ -5,6 +5,8 @@ days: 9
 budgetAmount: 112000
 budgetCurrency: "CVE"
 route: "São Vicente → Santo Antão → Santiago"
+heroImage: "/images/cape-verde.jpeg"
+heroWide: "/images/cape-verde-wide.jpeg"
 styles: ['nature', 'culture', 'beach']
 bestFor: "Hiking and morna, not resorts"
 summary: "The islands sold as winter sun, done the other way: Mindelo's music bars where morna was invented, a neighbouring island with no airport and some of the best ridge walking in the Atlantic, and the first European colonial town in the tropics with its whipping post still standing in the square."

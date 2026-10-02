@@ -5,6 +5,8 @@ days: 9
 budgetAmount: 580000
 budgetCurrency: "GYD"
 route: "Georgetown → Kaieteur → Iwokrama → Rupununi"
+heroImage: "/images/guyana.jpeg"
+heroWide: "/images/guyana-wide.jpeg"
 styles: ['nature', 'culture']
 bestFor: "Rainforest with nobody in it"
 summary: "A single-drop waterfall almost five times the height of Niagara, reached by light aircraft and approached on foot to an unfenced lip where you stand alone — then a rainforest canopy walkway, a river where giant otters and black caiman live, and savannah ranches where the vaqueros still work cattle on horseback."

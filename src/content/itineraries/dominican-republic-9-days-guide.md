@@ -5,6 +5,8 @@ days: 9
 budgetAmount: 95000
 budgetCurrency: "DOP"
 route: "Santo Domingo → Samaná → Jarabacoa → Punta Cana"
+heroImage: "/images/dominican-republic.jpeg"
+heroWide: "/images/dominican-republic-wide.jpeg"
 styles: ['beach', 'culture', 'nature']
 bestFor: "Colonial city + whales"
 summary: "The Caribbean's oldest European city and its highest mountains in one country: the first cathedral in the Americas, humpback whales calving in Samaná bay between January and March, a 27-waterfall river you jump down, and beaches that earned the resorts their reputation."
