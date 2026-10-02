@@ -38,15 +38,6 @@ const year = new Date().getFullYear();
       </ul>
     </nav>
 
-    <nav class="footer-col footer-destinations" aria-label="Destinations">
-      <h2>Destinations</h2>
-      <ul>
-        {destinations.map((country) => (
-          <li><a href={`/destinations/${countrySlug(country)}/`}>{country}</a></li>
-        ))}
-      </ul>
-    </nav>
-
     <div class="footer-col footer-signup">
       <h2>Get the next itinerary</h2>
       <p>One email when a new country goes up. No drip sequences.</p>
@@ -75,6 +66,15 @@ const year = new Date().getFullYear();
         <p class="form-note" data-signup-status role="status" aria-live="polite"></p>
       </form>
     </div>
+
+    <nav class="footer-col footer-destinations" aria-label="Destinations">
+      <h2>Destinations</h2>
+      <ul>
+        {destinations.map((country) => (
+          <li><a href={`/destinations/${countrySlug(country)}/`}>{country}</a></li>
+        ))}
+      </ul>
+    </nav>
   </div>
 
   <div class="wrap footer-bottom">
