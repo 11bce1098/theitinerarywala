@@ -16,19 +16,23 @@ highlights:
   - "Mtskheta, and a free afternoon before you fly"
 itinerary:
   - heading: "Arrival in Tbilisi"
+    image: "/images/packages/days/tbilisi-old-town.jpeg"
     body: >-
       Arrival in Tbilisi, transfer, check-in. The evening is free.
   - heading: "Tbilisi city tour"
+    image: "/images/packages/days/narikala-cable-car.jpeg"
     body: >-
       The old town, the fortress above it, and the river between them.
     meals: "Breakfast"
   - heading: "Kazbegi, full day"
+    image: "/images/packages/days/gudauri-friendship-monument.jpeg"
     body: >-
       Ananuri, Gudauri, and Gergeti Trinity Church. The hard day of the
       trip — the Georgian Military Highway to 2,379 metres at the Jvari
       Pass, and a 4x4 for the last climb to the church.
     meals: "Breakfast"
   - heading: "Kakheti wine, full day"
+    image: "/images/packages/days/sighnaghi.jpeg"
     body: >-
       Sighnaghi, the "City of Love", Bodbe Monastery, and a winery visit
       with tasting. An easy day after a hard one: mostly flat driving, a
@@ -37,11 +41,13 @@ itinerary:
       heritage list and still in everyday use.
     meals: "Breakfast"
   - heading: "Mtskheta"
+    image: "/images/packages/days/jvari-monastery.jpeg"
     body: >-
       Half-day tour of Mtskheta — Jvari Monastery and Svetitskhoveli
       Cathedral — then a free afternoon.
     meals: "Breakfast"
   - heading: "Departure"
+    image: "/images/packages/days/abanotubani-baths.jpeg"
     body: >-
       Checkout, airport transfer, departure.
     meals: "Breakfast"

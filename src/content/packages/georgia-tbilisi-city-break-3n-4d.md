@@ -16,11 +16,13 @@ highlights:
   - "Airport transfers both ways, and a free final morning"
 itinerary:
   - heading: "Arrival in Tbilisi"
+    image: "/images/packages/days/tbilisi-old-town.jpeg"
     body: >-
       Arrival in Tbilisi, airport transfer, check-in. The evening is free at
       leisure — an Old Town walk, or Shardeni Street, which is five minutes
       from most old-town hotels and is where the city eats late.
   - heading: "Tbilisi city tour"
+    image: "/images/packages/days/narikala-cable-car.jpeg"
     body: >-
       Old Town, Narikala Fortress by cable car, Metekhi Church, the Bridge of
       Peace, and the sulfur bath district. The cable car runs from Rike Park
@@ -28,6 +30,7 @@ itinerary:
       three-minute ride with the old town underneath it.
     meals: "Breakfast"
   - heading: "Mtskheta and Ananuri"
+    image: "/images/packages/days/ananuri-fortress.jpeg"
     body: >-
       Day trip to Mtskheta for Jvari Monastery and Svetitskhoveli Cathedral,
       then Ananuri Fortress. Mtskheta was the capital for most of a thousand
@@ -35,6 +38,7 @@ itinerary:
       the point where the Aragvi and Mtkvari rivers meet.
     meals: "Breakfast"
   - heading: "Departure"
+    image: "/images/packages/days/bridge-of-peace.jpeg"
     body: >-
       Free morning for shopping, checkout, airport transfer, departure.
     meals: "Breakfast"

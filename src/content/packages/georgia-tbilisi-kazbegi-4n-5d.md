@@ -16,9 +16,11 @@ highlights:
   - "Mtskheta, the old capital and seat of the Georgian church"
 itinerary:
   - heading: "Arrival in Tbilisi"
+    image: "/images/packages/days/tbilisi-old-town.jpeg"
     body: >-
       Arrival in Tbilisi, transfer, check-in. The evening is free.
   - heading: "Tbilisi city tour"
+    image: "/images/packages/days/mtatsminda-funicular.jpeg"
     body: >-
       Old Town, Narikala, the Bridge of Peace, and the funicular up to
       Mtatsminda. Mtatsminda is the ridge the whole city is built below, and
@@ -26,6 +28,7 @@ itinerary:
       afternoon for the light.
     meals: "Breakfast"
   - heading: "Kazbegi, full day"
+    image: "/images/packages/days/gergeti-trinity.jpeg"
     body: >-
       Zhinvali reservoir, Ananuri Fortress, the Gudauri viewpoint,
       Stepantsminda, and Gergeti Trinity Church by 4x4. This is the long day
@@ -34,11 +37,13 @@ itinerary:
       unpaved, which is why the final leg is a 4x4 rather than the coach.
     meals: "Breakfast"
   - heading: "Mtskheta"
+    image: "/images/packages/days/svetitskhoveli.jpeg"
     body: >-
       Day trip to Mtskheta for Jvari Monastery and Svetitskhoveli Cathedral,
       then a free afternoon in Tbilisi.
     meals: "Breakfast"
   - heading: "Departure"
+    image: "/images/packages/days/bridge-of-peace.jpeg"
     body: >-
       Checkout, airport transfer, departure.
     meals: "Breakfast"

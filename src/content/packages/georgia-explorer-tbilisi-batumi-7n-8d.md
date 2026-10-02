@@ -16,23 +16,28 @@ highlights:
   - "Both halves of the country, with the drive between them"
 itinerary:
   - heading: "Arrival in Tbilisi"
+    image: "/images/packages/days/tbilisi-old-town.jpeg"
     body: >-
       Arrival in Tbilisi, transfer, check-in.
   - heading: "Tbilisi city tour"
+    image: "/images/packages/days/narikala-cable-car.jpeg"
     body: >-
       The old town, Narikala, and the river between them.
     meals: "Breakfast"
   - heading: "Kazbegi, full day"
+    image: "/images/packages/days/gergeti-trinity.jpeg"
     body: >-
       North on the Georgian Military Highway to Ananuri, the Gudauri
       viewpoint, and Gergeti Trinity Church by 4x4.
     meals: "Breakfast"
   - heading: "Kakheti wine tour"
+    image: "/images/packages/days/bodbe-monastery.jpeg"
     body: >-
       East into the vineyards for Sighnaghi, Bodbe Monastery and a winery
       with tasting.
     meals: "Breakfast"
   - heading: "West to Batumi"
+    image: "/images/packages/days/batumi-boulevard.jpeg"
     body: >-
       Drive to Batumi via Mtskheta, or an internal flight. Check-in, and
       Batumi Boulevard in the evening. The drive is roughly six hours and
@@ -40,6 +45,7 @@ itinerary:
       you in Batumi with the afternoon still to use.
     meals: "Breakfast"
   - heading: "Batumi city tour"
+    image: "/images/packages/days/alphabet-tower.jpeg"
     body: >-
       The Botanical Garden, the Alphabet Tower, the Piazza, and the Ali &
       Nino statue. Ali & Nino is the moving sculpture on the seafront: two
@@ -47,10 +53,12 @@ itinerary:
       every evening.
     meals: "Breakfast"
   - heading: "Back to Tbilisi"
+    image: "/images/packages/days/bridge-of-peace.jpeg"
     body: >-
       Return to Tbilisi, free evening for shopping.
     meals: "Breakfast"
   - heading: "Departure"
+    image: "/images/packages/days/abanotubani-baths.jpeg"
     body: >-
       Checkout, airport transfer, departure.
     meals: "Breakfast"

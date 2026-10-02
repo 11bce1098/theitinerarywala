@@ -125,6 +125,17 @@ for (const { dir, file, itinerary } of scanned) {
     }
   }
 
+  /*
+   * Day photographs in a package's structured itinerary. Same failure as a
+   * hero pointing at nothing, but quieter: the page still renders, with a
+   * broken thumbnail beside the day someone is deciding whether to buy.
+   */
+  for (const [, src] of body.matchAll(/^\s+image:\s*"([^"]+)"/gm)) {
+    if (!existsSync(path.join('public', src))) {
+      errors.push(`${file}: day image points at missing ${src}`);
+    }
+  }
+
   // Root-relative links only; external ones are not ours to verify.
   for (const [, label, href] of body.matchAll(/\[([^\]]*)\]\((\/[^)\s#]*)(?:#[^)\s]*)?\)/g)) {
     const normalised = href.endsWith('/') || href.includes('.') ? href : `${href}/`;

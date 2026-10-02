@@ -33,6 +33,18 @@ const enquiry = `/plan/?destination=${encodeURIComponent(`${country} — ${title
 const money = (n: number) =>
   `${priceCurrency} ${n.toLocaleString('en-US')}`;
 
+/**
+ * The webp variant optimise-images built for a day photo.
+ *
+ * These render at about 256 CSS px on desktop and full width on a phone, so
+ * 700 covers both and 1400 covers retina — shipping the 300 KB source for a
+ * thumbnail was the alternative.
+ */
+const opt = (src: string, width: number) => {
+  const match = src.match(/^\/images\/(.+)\.[^.]+$/);
+  return match ? `/images/opt/${match[1]}-${width}.webp` : null;
+};
+
 /** Only the sections with something in them get a tab. */
 const sections = [
   { id: 'overview', label: 'Overview', on: true },
@@ -179,7 +191,15 @@ const jsonLd = [
                         </summary>
                         <div class="pkg-day__body">
                           {day.image && (
-                            <img class="pkg-day__img" src={day.image} alt="" loading="lazy" decoding="async" width="1200" height="800" />
+                            <picture>
+                              <source
+                                type="image/webp"
+                                srcset={`${opt(day.image, 700)} 700w, ${opt(day.image, 1400)} 1400w`}
+                                sizes="(min-width: 901px) 256px, 100vw"
+                              />
+                              <img class="pkg-day__img" src={day.image} alt="" loading="lazy"
+                                   decoding="async" width="1536" height="1024" />
+                            </picture>
                           )}
                           <div>
                             <p>{day.body}</p>

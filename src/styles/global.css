@@ -3246,8 +3246,16 @@ body.nav-open { overflow: hidden; }
   padding-bottom: 1rem;
 }
 .pkg-day__body > div > p { margin-top: 0; }
+/* The <picture> is the grid child now, so it carries the sizing; the img
+   inside just fills it. */
+.pkg-day__body > picture { display: block; align-self: start; }
+/* `height: auto` is load-bearing. The img carries width/height attributes to
+   reserve space before it loads, and with both dimensions definite the
+   browser ignores aspect-ratio entirely — which rendered every day photo as
+   a 256x1024 ribbon. */
 .pkg-day__img {
   width: 100%;
+  height: auto;
   aspect-ratio: 3 / 2;
   object-fit: cover;
   border-radius: var(--radius);
@@ -3258,7 +3266,7 @@ body.nav-open { overflow: hidden; }
   color: var(--ink-soft);
 }
 /* No photograph, no column for one. */
-.pkg-day__body:not(:has(.pkg-day__img)) { grid-template-columns: 1fr; }
+.pkg-day__body:not(:has(picture)) { grid-template-columns: 1fr; }
 
 /* Included / not included */
 .pkg-incl-grid {
