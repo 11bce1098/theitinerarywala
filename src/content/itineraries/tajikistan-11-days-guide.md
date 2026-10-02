@@ -5,6 +5,8 @@ days: 11
 budgetAmount: 16000
 budgetCurrency: "TJS"
 route: "Dushanbe → Kalaikhum → Khorog → Wakhan → Murghab → Karakul"
+heroImage: "/images/tajikistan.jpeg"
+heroWide: "/images/tajikistan-wide.jpeg"
 styles: ['nature', 'culture']
 bestFor: "The second highest road on earth"
 summary: "The M41 runs from Dushanbe to Kyrgyzstan across a 4,655-metre pass, along a river with Afghanistan on the far bank for three days, past hot springs and Silk Road forts and a lake made by a meteorite — and it needs a permit, a 4x4 and a tolerance for altitude that most road trips do not ask for."

@@ -5,6 +5,8 @@ days: 9
 budgetAmount: 230000
 budgetCurrency: "VUV"
 route: "Port Vila → Tanna → Espiritu Santo"
+heroImage: "/images/vanuatu.jpeg"
+heroWide: "/images/vanuatu-wide.jpeg"
 styles: ['nature', 'beach', 'culture']
 bestFor: "Standing on a volcano rim"
 summary: "The most accessible active volcano on earth, where you walk to the crater rim after dark and watch lava thrown into the sky from a few hundred metres away — plus freshwater blue holes you swim in, a 200-metre liner you can dive inside, and villages where the old ways are not a performance."

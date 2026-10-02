@@ -5,6 +5,8 @@ days: 8
 budgetAmount: 290000
 budgetCurrency: "JMD"
 route: "Kingston → Blue Mountains → Port Antonio → Treasure Beach"
+heroImage: "/images/jamaica.jpeg"
+heroWide: "/images/jamaica-wide.jpeg"
 styles: ['beach', 'nature', 'culture']
 bestFor: "The island behind the resorts"
 summary: "The Jamaica that all-inclusives never show you: Trench Town and the Bob Marley house in Kingston, coffee farms at 1,200 metres, a river you raft on a bamboo punt, lagoons the colour of antifreeze on the north-east coast, and a fishing village on the south where almost nobody goes."

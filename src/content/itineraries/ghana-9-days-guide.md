@@ -5,6 +5,8 @@ days: 9
 budgetAmount: 12000
 budgetCurrency: "GHS"
 route: "Accra → Cape Coast → Kakum → Kumasi → Volta"
+heroImage: "/images/ghana.jpeg"
+heroWide: "/images/ghana-wide.jpeg"
 styles: ['culture', 'nature']
 bestFor: "History you cannot unsee"
 summary: "West Africa's most straightforward country to travel, and the one where the Atlantic slave trade is not a museum subject but a set of buildings you walk through — Cape Coast and Elmina, the dungeons and the Door of No Return, alongside Ashanti goldweights, a rainforest canopy walk and the Volta's waterfalls."
