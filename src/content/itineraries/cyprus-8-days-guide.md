@@ -5,6 +5,8 @@ days: 8
 budgetAmount: 950
 budgetCurrency: "EUR"
 route: "Paphos → Troodos → Nicosia → Famagusta → Larnaca"
+heroImage: "/images/cyprus.jpeg"
+heroWide: "/images/cyprus-wide.jpeg"
 styles: ['culture', 'beach', 'nature']
 bestFor: "Ruins, mountains, both sides"
 summary: "Roman floor mosaics still in the houses they were laid in, painted Byzantine churches hidden in pine forest, and the last divided capital in Europe — where you walk through a UN checkpoint in the middle of the shopping street and come out somewhere that feels like a different country."

@@ -5,6 +5,8 @@ days: 8
 budgetAmount: 5200
 budgetCurrency: "WST"
 route: "Upolu → Lalomanu → Savai'i → Apia"
+heroImage: "/images/samoa.jpeg"
+heroWide: "/images/samoa-wide.jpeg"
 styles: ['beach', 'nature', 'culture']
 bestFor: "Fa'a Samoa, and beach fales"
 summary: "The Pacific island where the old social system never broke: you sleep in an open-sided fale on the sand for a few tala, swim down a ladder into a garden sinkhole filled with sea water, walk across a lava field that swallowed a village, and watch blowholes fire coconuts a hundred feet into the air."

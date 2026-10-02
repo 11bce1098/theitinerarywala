@@ -5,6 +5,8 @@ days: 9
 budgetAmount: 720000
 budgetCurrency: "XOF"
 route: "Dakar → Gorée → Saint-Louis → Djoudj → Sine-Saloum"
+heroImage: "/images/senegal.jpeg"
+heroWide: "/images/senegal-wide.jpeg"
 styles: ['culture', 'nature']
 bestFor: "Music, history, river delta"
 summary: "West Africa's most confident country: an island twenty minutes off Dakar where the House of Slaves faces the Atlantic, a crumbling French colonial capital on a sandbar, a bird sanctuary holding a million migrants from Europe, and a mangrove delta you cross by pirogue past islands made entirely of shells."

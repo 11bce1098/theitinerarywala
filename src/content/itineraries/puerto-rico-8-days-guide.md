@@ -5,6 +5,8 @@ days: 8
 budgetAmount: 1700
 budgetCurrency: "USD"
 route: "San Juan → El Yunque → Vieques → Ponce → Rincón"
+heroImage: "/images/puerto-rico.jpeg"
+heroWide: "/images/puerto-rico-wide.jpeg"
 styles: ['beach', 'nature', 'culture']
 bestFor: "Rainforest + bioluminescence"
 summary: "A 500-year-old walled city, the only tropical rainforest in the US national forest system, and a bay on Vieques so dense with bioluminescent plankton that it is the brightest recorded anywhere — every stroke of the paddle lights the water blue."
