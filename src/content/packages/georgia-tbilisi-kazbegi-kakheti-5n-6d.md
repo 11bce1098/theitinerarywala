@@ -5,8 +5,8 @@ nights: 5
 days: 6
 route: "Tbilisi → Kazbegi → Kakheti → Mtskheta"
 summary: "Mountains one day, wine the next: the Kazbegi run north, then east into Kakheti for Sighnaghi, Bodbe Monastery and a cellar where they still ferment in buried clay qvevri — the method Georgia has used for 8,000 years."
-heroImage: "/images/georgia.jpeg"
-heroWide: "/images/georgia-wide.jpg"
+heroImage: "/images/packages/kakheti.jpeg"
+heroWide: "/images/packages/kakheti-wide.jpeg"
 highlights:
   - "Gergeti Trinity Church and the Gudauri viewpoint"
   - "A Kakheti winery with tasting, fermented in buried qvevri"

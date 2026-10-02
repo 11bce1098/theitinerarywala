@@ -5,8 +5,8 @@ nights: 3
 days: 4
 route: "Tbilisi → Mtskheta → Ananuri"
 summary: "The short version of Georgia: a capital you can walk, a cable car to a fortress above it, and a day out to the country's religious heart at Mtskheta — enough for a long weekend without a wasted morning."
-heroImage: "/images/georgia.jpeg"
-heroWide: "/images/georgia-wide.jpg"
+heroImage: "/images/packages/tbilisi-break.jpeg"
+heroWide: "/images/packages/tbilisi-break-wide.jpeg"
 highlights:
   - "Narikala Fortress by cable car, over the old town"
   - "Abanotubani, the sulfur baths the city was founded on"

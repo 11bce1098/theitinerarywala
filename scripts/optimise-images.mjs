@@ -27,6 +27,26 @@ const QUALITY = 84;
 const isSource = (name) =>
   /\.(jpe?g|png)$/i.test(name) && !name.startsWith('og-card');
 
+/**
+ * Every source under public/images, including subfolders.
+ *
+ * It read one flat directory until packages arrived with their own folder,
+ * at which point the variants simply were not generated and the pages asked
+ * for files that did not exist. Returns paths relative to SRC_DIR, so the
+ * output mirrors the input tree.
+ */
+async function sources(dir = '') {
+  const entries = await readdir(path.join(SRC_DIR, dir), { withFileTypes: true });
+  const found = [];
+  for (const entry of entries) {
+    if (entry.name === 'opt') continue; // our own output
+    const rel = dir ? path.join(dir, entry.name) : entry.name;
+    if (entry.isDirectory()) found.push(...(await sources(rel)));
+    else if (isSource(entry.name)) found.push(rel);
+  }
+  return found;
+}
+
 async function newerThan(src, out) {
   if (!existsSync(out)) return true;
   const [a, b] = await Promise.all([stat(src), stat(out)]);
@@ -35,7 +55,7 @@ async function newerThan(src, out) {
 
 async function main() {
   await mkdir(OUT_DIR, { recursive: true });
-  const files = (await readdir(SRC_DIR)).filter(isSource);
+  const files = await sources();
 
   let written = 0;
   let skipped = 0;
@@ -51,6 +71,7 @@ async function main() {
       // Never upscale: a 1600px source asked for 1800 stays at 1600.
       const target = Math.min(width, meta.width ?? width);
       const out = path.join(OUT_DIR, `${base}-${width}.webp`);
+      await mkdir(path.dirname(out), { recursive: true });
       if (!(await newerThan(src, out))) { skipped++; continue; }
       await sharp(src).resize({ width: target, withoutEnlargement: true })
         .webp({ quality: QUALITY })

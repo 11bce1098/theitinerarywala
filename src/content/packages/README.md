@@ -16,8 +16,8 @@ nights: 4
 days: 5
 route: "Tbilisi → Kazbegi → Mtskheta"   # optional, shown on cards
 summary: "One or two sentences. Used on the card and as the meta description."
-heroImage: "/images/georgia.jpeg"       # card crop, 2:1 or narrower
-heroWide: "/images/georgia-wide.jpg"    # hero band, wider than 2:1
+heroImage: "/images/packages/kazbegi.jpeg"       # card crop, 2:1 or narrower
+heroWide: "/images/packages/kazbegi-wide.jpeg"   # hero band, wider than 2:1
 publishDate: 2026-10-02
 ```
 

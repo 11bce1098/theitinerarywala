@@ -5,8 +5,8 @@ nights: 7
 days: 8
 route: "Tbilisi → Kazbegi → Kakheti → Batumi → Tbilisi"
 summary: "The whole country end to end: the capital, the Caucasus, the wine region, and then west to the Black Sea for Batumi — a subtropical seafront city that looks and behaves nothing like the rest of Georgia."
-heroImage: "/images/georgia.jpeg"
-heroWide: "/images/georgia-wide.jpg"
+heroImage: "/images/packages/explorer.jpeg"
+heroWide: "/images/packages/explorer-wide.jpeg"
 highlights:
   - "Gergeti Trinity Church and the Georgian Military Highway"
   - "A Kakheti winery, Sighnaghi and Bodbe Monastery"

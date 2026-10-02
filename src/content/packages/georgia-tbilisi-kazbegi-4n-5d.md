@@ -5,8 +5,8 @@ nights: 4
 days: 5
 route: "Tbilisi → Kazbegi → Mtskheta"
 summary: "The city plus the mountain everyone comes for: a full day up the Georgian Military Highway to Gergeti Trinity Church, standing alone under Kazbek at 2,170 metres, with Tbilisi and Mtskheta either side of it."
-heroImage: "/images/georgia.jpeg"
-heroWide: "/images/georgia-wide.jpg"
+heroImage: "/images/packages/kazbegi.jpeg"
+heroWide: "/images/packages/kazbegi-wide.jpeg"
 highlights:
   - "Gergeti Trinity Church at 2,170 m, reached by 4x4"
   - "The Georgian Military Highway over the Jvari Pass"
