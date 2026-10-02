@@ -167,6 +167,21 @@ const bandLabel = (band: (typeof BUDGET_BANDS)[number], currency: string, rates?
   import { track } from '../scripts/track';
 
   /*
+   * Arriving from a package page, or from any link that already knows where
+   * the reader wants to go. Without this the enquiry button on a package
+   * dropped someone onto an empty form and asked them to type back the thing
+   * they had just been reading.
+   *
+   * Prefilled rather than locked: it is an ordinary text field, and someone
+   * who followed the link by accident can simply overwrite it.
+   */
+  const prefill = new URLSearchParams(location.search).get('destination');
+  if (prefill) {
+    const field = document.querySelector<HTMLInputElement>('#destination');
+    if (field && !field.value) field.value = prefill.slice(0, 200);
+  }
+
+  /*
    * Budget thresholds are held in USD and shown in the reader's currency, so
    * the labels have to be rebuilt when the switcher moves — otherwise this is
    * the one figure on the site that ignores it.

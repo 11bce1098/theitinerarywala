@@ -1,0 +1,201 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import CoverArt from '../../components/CoverArt.astro';
+import { countrySlug, regionFor } from '../../lib/geography.mjs';
+import { breadcrumbs } from '../../lib/schema';
+
+export async function getStaticPaths() {
+  const packages = (await getCollection('packages', ({ data }) => !data.draft))
+    .sort((a, b) => a.data.nights - b.data.nights || a.id.localeCompare(b.id));
+  const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
+  return packages.map((pkg) => ({
+    params: { slug: pkg.id },
+    props: { pkg, all: packages, itineraries },
+  }));
+}
+
+const { pkg, all, itineraries } = Astro.props;
+const { Content } = await render(pkg);
+
+const path = `/packages/${pkg.id}/`;
+const { title, country, nights, days, route, priceFrom, priceCurrency } = pkg.data;
+
+/** The other lengths, so someone can step up or down without going back. */
+const siblings = all.filter((p) => p.id !== pkg.id && p.data.country === country);
+
+/** The free itineraries for the same country — the honest alternative. */
+const free = itineraries.filter((i) => i.data.country === country).slice(0, 2);
+
+/**
+ * Prefills the enquiry form, so the package someone was reading arrives with
+ * the message instead of being described from memory.
+ */
+const enquiry = `/plan/?destination=${encodeURIComponent(`${country} — ${title}`)}`;
+
+/**
+ * Product + Offer only once a price exists. Google rejects an Offer with no
+ * price, and marking up "on request" as though it were a rate is the kind of
+ * thing that costs a rich result rather than winning one.
+ */
+const jsonLd = [
+  {
+    '@type': 'TouristTrip',
+    name: title,
+    description: pkg.data.summary,
+    touristType: 'Leisure',
+    itinerary: {
+      '@type': 'ItemList',
+      numberOfItems: days,
+      name: route ?? title,
+    },
+    ...(priceFrom
+      ? {
+          offers: {
+            '@type': 'Offer',
+            price: priceFrom,
+            priceCurrency,
+            availability: 'https://schema.org/InStock',
+            url: new URL(path, 'https://theitinerarywala.com').href,
+          },
+        }
+      : {}),
+  },
+  breadcrumbs([
+    { name: 'Packages', path: '/packages/' },
+    { name: country, path: `/packages/` },
+    { name: title, path },
+  ]),
+];
+---
+<Base
+  title={`${title} — Georgia holiday package`}
+  description={pkg.data.summary}
+  image={pkg.data.heroWide ?? pkg.data.heroImage}
+  imageAlt={title}
+  published={pkg.data.publishDate}
+  modified={pkg.data.updatedDate ?? pkg.data.publishDate}
+  jsonLd={jsonLd}
+>
+  <section class="itin-hero">
+    <div class="itin-hero__art">
+      <CoverArt
+        seed={pkg.id}
+        country={country}
+        src={pkg.data.heroImage}
+        wide={pkg.data.heroWide}
+        alt={title}
+        eager
+      />
+    </div>
+    <div class="wrap itin-hero__content">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/packages/">Packages</a></li>
+          <li aria-current="page">{nights} nights</li>
+        </ol>
+      </nav>
+      <h1>{title}</h1>
+      <p class="summary">{pkg.data.summary}</p>
+      <ul class="facts">
+        <li class="pill pill--visa">{regionFor(country)}</li>
+        <li class="pill">{nights} nights / {days} days</li>
+        {route && <li class="pill">{route}</li>}
+      </ul>
+    </div>
+  </section>
+
+  <div class="itin">
+    <section class="itin-band">
+      <div class="itin-band__inner">
+        <div class="pkg-layout">
+          <div class="pkg-main prose">
+            <Content />
+          </div>
+
+          <aside class="pkg-side" aria-label="Book this package">
+            <div class="pkg-book">
+              <p class="pkg-book__price">
+                {priceFrom
+                  ? `From ${priceCurrency} ${priceFrom.toLocaleString('en-US')}`
+                  : 'Price on request'}
+              </p>
+              <p class="pkg-book__note">
+                {priceFrom
+                  ? 'Per person, twin share. Final rate depends on travel dates and hotel category.'
+                  : 'Rates move with the season, the hotel category and the size of the group, so this page quotes a number only once it is a real one. Send your dates and you will get a written quote rather than an estimate.'}
+              </p>
+              <a class="btn btn--solid pkg-book__cta" href={enquiry}>Enquire about this package</a>
+              <dl class="pkg-book__facts">
+                <div><dt>Length</dt><dd>{nights} nights, {days} days</dd></div>
+                <div><dt>Country</dt><dd>{country}</dd></div>
+                {route && <div><dt>Route</dt><dd>{route}</dd></div>}
+              </dl>
+            </div>
+
+            {pkg.data.inclusions.length > 0 && (
+              <div class="pkg-incl">
+                <h2>What&rsquo;s included</h2>
+                <ul>{pkg.data.inclusions.map((item) => <li>{item}</li>)}</ul>
+              </div>
+            )}
+            {pkg.data.exclusions.length > 0 && (
+              <div class="pkg-incl pkg-incl--out">
+                <h2>Not included</h2>
+                <ul>{pkg.data.exclusions.map((item) => <li>{item}</li>)}</ul>
+              </div>
+            )}
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    {siblings.length > 0 && (
+      <section class="wrap section">
+        <div class="popular__head" data-reveal>
+          <div>
+            <h2 class="section-heading">Other lengths</h2>
+            <p class="section-sub">Same country, more or less of it.</p>
+          </div>
+        </div>
+        <ul class="pkg-list">
+          {siblings.map((other, i) => (
+            <li class="pkg-card" data-reveal style={`--stagger:${i}`}>
+              <a class="pkg-card__link" href={`/packages/${other.id}/`}>
+                <span class="pkg-card__cover">
+                  <CoverArt seed={other.id} country={other.data.country} src={other.data.heroImage} alt="" />
+                  <span class="pkg-card__nights">{other.data.nights}N / {other.data.days}D</span>
+                </span>
+                <span class="pkg-card__body">
+                  <span class="pkg-card__title">{other.data.title}</span>
+                  {other.data.route && <span class="pkg-card__route">{other.data.route}</span>}
+                  <span class="pkg-card__summary">{other.data.summary}</span>
+                  <span class="pkg-card__go">See the package &rarr;</span>
+                </span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {free.length > 0 && (
+      <section class="wrap section">
+        <div class="pkg-cta" data-reveal>
+          <h2>Rather do it yourself?</h2>
+          <p>
+            The free {country} itineraries on this site cover the same ground
+            day by day, with real budgets, and cost nothing to use. The
+            packages exist for people who would rather not book six things
+            separately — not because the free version is missing anything.
+          </p>
+          <div class="pkg-cta__links">
+            {free.map((i) => (
+              <a class="btn" href={`/itineraries/${i.id}/`}>{i.data.title}</a>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+  </div>
+</Base>

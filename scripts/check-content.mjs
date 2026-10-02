@@ -29,6 +29,7 @@ const DIR = 'src/content/itineraries';
 
 /** Every path the built site will actually serve from markdown links. */
 const GUIDES_DIR = 'src/content/guides';
+const PACKAGES_DIR = 'src/content/packages';
 
 /**
  * Every path the built site will actually serve. Destination, continent and
@@ -37,7 +38,8 @@ const GUIDES_DIR = 'src/content/guides';
  */
 const PAGES = new Set([
   '/', '/about/', '/contact/', '/plan/', '/visa-services/', '/privacy/',
-  '/itineraries/', '/guides/', '/destinations/', '/continents/', '/styles/',
+  '/itineraries/', '/guides/', '/packages/',
+  '/destinations/', '/continents/', '/styles/',
 ]);
 const CAVEAT = /^\*[^*\n]*(?:checked|rules can change|confirm[^*]*before you book)[^*]*\*$/ms;
 
@@ -51,6 +53,12 @@ for (const file of files) PAGES.add(`/itineraries/${file.replace(/\.md$/, '')}/`
 const guideFiles = (await readdir(GUIDES_DIR))
   .filter((f) => f.endsWith('.md') && f !== 'README.md');
 for (const file of guideFiles) PAGES.add(`/guides/${file.replace(/\.md$/, '')}/`);
+
+// Packages are sold rather than described, so a broken link or a hero that
+// fails to load costs more here than anywhere else on the site.
+const packageFiles = (await readdir(PACKAGES_DIR))
+  .filter((f) => f.endsWith('.md') && f !== 'README.md');
+for (const file of packageFiles) PAGES.add(`/packages/${file.replace(/\.md$/, '')}/`);
 
 // Country, continent and style pages the itineraries can link to.
 for (const file of files) {
@@ -67,8 +75,15 @@ for (const st of ['beach', 'nature', 'culture', 'couples', 'family', 'budget']) 
   PAGES.add(`/styles/${st}/`);
 }
 
-for (const file of files) {
-  const body = await readFile(path.join(DIR, file), 'utf8');
+/* Itineraries and packages share the hero and link rules; only the caveat
+   check below is itinerary-specific, because only that template prints one. */
+const scanned = [
+  ...files.map((file) => ({ dir: DIR, file, itinerary: true })),
+  ...packageFiles.map((file) => ({ dir: PACKAGES_DIR, file, itinerary: false })),
+];
+
+for (const { dir, file, itinerary } of scanned) {
+  const body = await readFile(path.join(dir, file), 'utf8');
 
   for (const [, field, src] of body.matchAll(/^hero(Image|Wide):\s*"([^"]+)"/gm)) {
     const onDisk = path.join('public', src);
@@ -118,7 +133,7 @@ for (const file of files) {
     }
   }
 
-  if (CAVEAT.test(body)) {
+  if (itinerary && CAVEAT.test(body)) {
     warnings.push(`${file}: has its own closing caveat; the template already prints one`);
   }
 }

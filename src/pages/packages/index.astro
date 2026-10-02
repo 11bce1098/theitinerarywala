@@ -1,0 +1,126 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import CoverArt from '../../components/CoverArt.astro';
+import { countrySlug } from '../../lib/geography.mjs';
+import { breadcrumbs, itemList } from '../../lib/schema';
+
+/**
+ * The packages index.
+ *
+ * Sorted shortest first, which is also cheapest first — someone comparing a
+ * long weekend against a full week reads down, and the ladder is the
+ * argument. Grouped by country so the page still works when the second
+ * destination arrives; with one country the heading carries the count
+ * instead of repeating "Georgia" above every card.
+ */
+const packages = (await getCollection('packages', ({ data }) => !data.draft))
+  .sort((a, b) => a.data.nights - b.data.nights || a.id.localeCompare(b.id));
+
+const countries = [...new Set(packages.map((p) => p.data.country))].sort();
+
+const jsonLd = [
+  breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Packages', path: '/packages/' }]),
+  itemList('Holiday packages', packages.map((p) => ({
+    name: p.data.title,
+    path: `/packages/${p.id}/`,
+  }))),
+];
+---
+<Base
+  title="Georgia holiday packages — The Itinerary Wala"
+  description="Fixed-length Georgia trips with transfers, hotels and guided touring arranged — from a 3-night Tbilisi break to an 8-day run across the country to Batumi."
+  jsonLd={jsonLd}
+  noindex={packages.length === 0}
+>
+  <section class="page-hero">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li aria-current="page">Packages</li>
+        </ol>
+      </nav>
+      <p class="eyebrow" data-reveal>Holiday packages</p>
+      <h1 data-reveal>Georgia, arranged end to end.</h1>
+      <p class="page-hero__lede" data-reveal>
+        Everything else on this site is a plan you book yourself. These are
+        the opposite: a fixed run of nights with the transfers, hotels and
+        guided days already arranged, so the only thing left to choose is
+        how long you have.
+      </p>
+    </div>
+  </section>
+
+  {packages.length === 0 ? (
+    <section class="wrap section">
+      <div class="coming-soon" data-reveal>
+        <h2>Packages are on the way</h2>
+        <p>Nothing here yet. In the meantime, every itinerary on the site is free to use.</p>
+        <a class="btn btn--solid" href="/itineraries/">Browse itineraries</a>
+      </div>
+    </section>
+  ) : (
+    countries.map((country) => (
+      <section class="wrap section">
+        <div class="popular__head" data-reveal>
+          <div>
+            <h2 class="section-heading">{country}</h2>
+            <p class="section-sub">
+              Shortest first. Every one starts and ends at the airport, and the
+              longer trips add a region rather than stretching the same one.
+            </p>
+          </div>
+          <a class="section-link" href={`/destinations/${countrySlug(country)}/`}>
+            Free {country} itineraries &rarr;
+          </a>
+        </div>
+
+        <ul class="pkg-list">
+          {packages.filter((p) => p.data.country === country).map((pkg, i) => (
+            <li class="pkg-card" data-reveal style={`--stagger:${i}`}>
+              <a class="pkg-card__link" href={`/packages/${pkg.id}/`}>
+                <span class="pkg-card__cover">
+                  <CoverArt
+                    seed={pkg.id}
+                    country={pkg.data.country}
+                    src={pkg.data.heroImage}
+                    alt=""
+                  />
+                  <span class="pkg-card__nights">
+                    {pkg.data.nights}N / {pkg.data.days}D
+                  </span>
+                </span>
+                <span class="pkg-card__body">
+                  <span class="pkg-card__title">{pkg.data.title}</span>
+                  {pkg.data.route && <span class="pkg-card__route">{pkg.data.route}</span>}
+                  <span class="pkg-card__summary">{pkg.data.summary}</span>
+                  <span class="pkg-card__foot">
+                    <span class="pkg-card__price">
+                      {pkg.data.priceFrom
+                        ? `From ${pkg.data.priceCurrency} ${pkg.data.priceFrom.toLocaleString('en-US')} / person`
+                        : 'Price on request'}
+                    </span>
+                    <span class="pkg-card__go">See the package &rarr;</span>
+                  </span>
+                </span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))
+  )}
+
+  <section class="wrap section">
+    <div class="pkg-cta" data-reveal>
+      <h2>Not quite the trip you had in mind?</h2>
+      <p>
+        These are the four that run most often, not the only four that can be
+        arranged. Send your dates and roughly what you want out of the trip,
+        and you&rsquo;ll get a version shaped around it.
+      </p>
+      <a class="btn btn--solid" href="/plan/?destination=Georgia">Ask for a custom trip</a>
+    </div>
+  </section>
+</Base>

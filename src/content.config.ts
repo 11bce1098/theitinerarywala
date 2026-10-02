@@ -67,4 +67,46 @@ const guides = defineCollection({
   }),
 });
 
-export const collections = { itineraries, guides };
+/**
+ * Bookable holiday packages — a fixed run of nights with transfers, tours and
+ * accommodation, sold rather than merely described.
+ *
+ * Separate from itineraries on purpose, and the distinction is commercial
+ * rather than editorial. An itinerary is free advice: it carries a researched
+ * budget the reader spends themselves, and nobody is on the hook if they
+ * choose differently. A package is an offer — a fixed duration someone pays
+ * for — so it needs inclusions, exclusions and a price, and it must not
+ * inherit the itinerary schema's habit of estimating.
+ *
+ * `priceFrom`, `inclusions` and `exclusions` are deliberately optional and
+ * empty by default. A package with no price renders as "price on request"
+ * with an enquiry form; it never renders a guessed number, because a figure
+ * on a page that reads as bookable is a quote.
+ */
+const packages = defineCollection({
+  loader: glob({ pattern: ['**/*.md', '!README.md'], base: './src/content/packages' }),
+  schema: z.object({
+    title: z.string(),
+    /** Country it runs in, matching geography.mjs. */
+    country: z.string(),
+    /** Nights is what a hotel sells; days is what a brochure counts. Both. */
+    nights: z.number(),
+    days: z.number(),
+    summary: z.string(),
+    /** "Tbilisi → Kazbegi → Kakheti" — the shape of the trip, shown on cards. */
+    route: z.string().optional(),
+    /** Per person, twin share. Unset until a rate is actually agreed. */
+    priceFrom: z.number().optional(),
+    priceCurrency: z.string().default('USD'),
+    /** What the rate covers, and what it does not. Unset until confirmed. */
+    inclusions: z.array(z.string()).default([]),
+    exclusions: z.array(z.string()).default([]),
+    heroImage: z.string().optional(),
+    heroWide: z.string().optional(),
+    publishDate: z.coerce.date(),
+    updatedDate: z.coerce.date().optional(),
+    draft: z.boolean().default(false),
+  }),
+});
+
+export const collections = { itineraries, guides, packages };

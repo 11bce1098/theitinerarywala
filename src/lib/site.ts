@@ -91,10 +91,22 @@ export const POPULAR = [
   'turkey-11-days-guide',
 ];
 
+/**
+ * "Packages", not "Holiday Packages": the header has five slots and the
+ * fuller phrase is twice the width of anything beside it. The page itself
+ * is titled "Georgia holiday packages", which is the phrase people search
+ * — the nav only has to be unambiguous next to "Itineraries", and it is:
+ * itineraries are free plans you book yourself, packages are sold.
+ *
+ * Visa & Entry moves to the footer to make room. The page still describes
+ * something real, but it is the one header item that was answering a
+ * question every itinerary already answers inline.
+ */
 export const NAV: NavLink[] = [
   { href: '/itineraries/', label: 'Itineraries', menu: 'continents' },
+  { href: '/packages/', label: 'Packages' },
   { href: '/guides/', label: 'Guides', footerOnly: true },
-  { href: '/visa-services/', label: 'Visa & Entry' },
+  { href: '/visa-services/', label: 'Visa & Entry', footerOnly: true },
   { href: '/about/', label: 'About' },
   { href: '/contact/', label: 'Contact' },
   { href: '/plan/', label: 'Plan My Trip', cta: true },

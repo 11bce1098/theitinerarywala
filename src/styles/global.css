@@ -3031,3 +3031,175 @@ body.nav-open { overflow: hidden; }
   .itinerary-card:hover { transform: none; }
   .itinerary-card:hover .cover-art { transform: none; }
 }
+
+/* ---- holiday packages ---- */
+
+/*
+ * A package card is horizontal where an itinerary card is vertical: there are
+ * four of them, read top to bottom as a ladder of lengths, and stacking them
+ * as tall cards in a grid loses the comparison that is the whole point.
+ */
+.pkg-list {
+  display: grid;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.pkg-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition:
+    transform 0.3s var(--ease-out),
+    box-shadow 0.3s var(--ease-out),
+    border-color 0.3s var(--ease-out);
+}
+.pkg-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--teal);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.07);
+}
+.pkg-card__link {
+  display: grid;
+  grid-template-columns: 16rem 1fr;
+  width: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+.pkg-card__cover {
+  position: relative;
+  display: block;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+}
+.pkg-card__cover .cover-art {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* The length is the thing being compared, so it sits on the art, not in the
+   body copy where it would be one more line to read. */
+.pkg-card__nights {
+  position: absolute;
+  left: 0.75rem;
+  bottom: 0.75rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--ink);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+.pkg-card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 1.25rem 1.35rem;
+}
+.pkg-card__title {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  color: var(--ink);
+}
+.pkg-card__route {
+  font-size: 0.85rem;
+  color: var(--teal);
+}
+.pkg-card__summary { color: var(--ink-soft); }
+.pkg-card__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: 0.6rem;
+}
+.pkg-card__price { font-weight: 700; color: var(--ink); }
+.pkg-card__go { color: var(--teal); font-weight: 600; }
+
+@media (max-width: 760px) {
+  .pkg-card__link { grid-template-columns: 1fr; }
+  .pkg-card__cover { aspect-ratio: 16 / 9; }
+}
+
+/* ---- package detail ---- */
+
+.pkg-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 20rem;
+  gap: 2.5rem;
+  align-items: start;
+}
+/* Sticky only where there is a column to be sticky in; below the breakpoint
+   the panel is just the next thing on the page. */
+.pkg-side { position: sticky; top: 5rem; display: grid; gap: 1rem; }
+.pkg-book {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.35rem;
+}
+.pkg-book__price {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  color: var(--ink);
+}
+.pkg-book__note {
+  margin: 0.5rem 0 1rem;
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+}
+.pkg-book__cta { width: 100%; justify-content: center; text-align: center; }
+.pkg-book__facts {
+  margin: 1.1rem 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.9rem;
+}
+.pkg-book__facts > div {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  padding: 0.3rem 0;
+}
+.pkg-book__facts dt { color: var(--ink-soft); }
+.pkg-book__facts dd { margin: 0; text-align: right; color: var(--ink); }
+
+.pkg-incl {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.35rem;
+}
+.pkg-incl h2 {
+  margin: 0 0 0.6rem;
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+.pkg-incl ul { margin: 0; padding-left: 1.1rem; font-size: 0.92rem; }
+.pkg-incl li { margin-bottom: 0.35rem; }
+.pkg-incl--out { color: var(--ink-soft); }
+
+.pkg-cta {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.75rem;
+}
+.pkg-cta h2 { margin-top: 0; }
+.pkg-cta p { max-width: 62ch; color: var(--ink-soft); }
+.pkg-cta__links { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+
+@media (max-width: 900px) {
+  .pkg-layout { grid-template-columns: 1fr; gap: 1.75rem; }
+  .pkg-side { position: static; }
+}
