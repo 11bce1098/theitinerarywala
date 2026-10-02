@@ -5,6 +5,8 @@ days: 8
 budgetAmount: 2500
 budgetCurrency: "BZD"
 route: "Caye Caulker → San Ignacio → Hopkins"
+heroImage: "/images/belize.jpeg"
+heroWide: "/images/belize-wide.jpeg"
 styles: ['beach', 'nature', 'culture']
 bestFor: "Reef + Maya caves"
 summary: "The only English-speaking country in Central America, with the second largest barrier reef on earth off one coast and a Maya sacrificial cave inland that you swim into and walk through barefoot, past skeletons left where they fell twelve centuries ago."

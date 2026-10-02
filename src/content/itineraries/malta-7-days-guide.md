@@ -5,6 +5,8 @@ days: 7
 budgetAmount: 850
 budgetCurrency: "EUR"
 route: "Valletta → the south → Mdina → Gozo → Comino"
+heroImage: "/images/malta.jpeg"
+heroWide: "/images/malta-wide.jpeg"
 styles: ['culture', 'beach', 'couples']
 bestFor: "Deep history, short distances"
 summary: "A country 27 km long holding temples a thousand years older than the pyramids, a baroque capital built by knights after the siege of 1565, Caravaggio's only signed painting, and an underground necropolis that admits eighty people a day — with Gozo across the water for the slow half."

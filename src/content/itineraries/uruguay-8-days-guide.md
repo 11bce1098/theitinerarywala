@@ -5,6 +5,8 @@ days: 8
 budgetAmount: 49000
 budgetCurrency: "UYU"
 route: "Montevideo → Colonia → Punta del Este → Cabo Polonio"
+heroImage: "/images/uruguay.jpeg"
+heroWide: "/images/uruguay-wide.jpeg"
 styles: ['beach', 'culture', 'couples']
 bestFor: "Slow coast + Tannat"
 summary: "South America's quietest country: a capital with a 22 km seafront promenade, a Portuguese smuggling town of cobbles and sycamores an hour from Buenos Aires, and a village at the far end of the coast with no road to it, no mains electricity and a sea lion colony under the lighthouse."

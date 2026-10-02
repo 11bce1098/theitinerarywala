@@ -5,6 +5,8 @@ days: 9
 budgetAmount: 3400
 budgetCurrency: "USD"
 route: "Livingstone → South Luangwa → Lower Zambezi"
+heroImage: "/images/zambia.jpeg"
+heroWide: "/images/zambia-wide.jpeg"
 styles: ['nature']
 bestFor: "Walking safari, properly"
 summary: "The country that invented the walking safari, and still does it better than anywhere: three days in South Luangwa on foot with a guide and a scout, canoeing past elephant on the Lower Zambezi, and Victoria Falls from the side where you can stand on the lip of it."
