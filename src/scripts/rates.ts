@@ -87,9 +87,19 @@ function money(amount: number, code: string): string {
   }
 }
 
+/**
+ * Everything a rate change moves.
+ *
+ * The guard below is only here to spare a network request on pages with no
+ * money on them, so it has to name every hook this function touches — it
+ * used to test `[data-budget]` alone, which silently skipped the fetch *and*
+ * the `rates:updated` event on pages that convert something else.
+ */
+const RATE_DEPENDENT = '[data-budget], [data-money], [data-rate-date], [data-budget-bands]';
+
 export async function refreshBudgets(): Promise<void> {
+  if (!document.querySelector(RATE_DEPENDENT)) return;
   const targets = Array.from(document.querySelectorAll<HTMLElement>('[data-budget]'));
-  if (targets.length === 0) return;
 
   const payload = await loadRates();
   if (!payload) return;

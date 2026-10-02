@@ -2,18 +2,26 @@
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import { SITE, FORM_ENDPOINT, HAS_FORM_ENDPOINT, WEB3FORMS_KEY } from '../lib/site';
+import { DEFAULT_CURRENCY } from '../lib/currency.mjs';
+import { BUDGET_BANDS, bandRange } from '../lib/finder.mjs';
+import { getRates } from '../lib/rates.mjs';
 
 const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
 const countries = [...new Set(itineraries.map((i) => i.data.country))].sort();
 
 const styles = ['Relaxed', 'Balanced', 'Adventure', 'Family', 'Luxury', 'Budget'];
-const budgets = [
-  'Under ₹50,000 per person',
-  '₹50,000 – ₹1,00,000 per person',
-  '₹1,00,000 – ₹2,00,000 per person',
-  'Over ₹2,00,000 per person',
-  'Not sure yet',
-];
+
+/*
+ * The same USD bands the trip finder uses, converted for the reader.
+ *
+ * These were four hardcoded rupee ranges, which quietly told everyone else
+ * the site was not built for them — and disagreed with the bands on
+ * /itineraries/ anyway. One definition now, in USD, rendered in whatever
+ * currency the reader has chosen.
+ */
+const rateData = await getRates();
+const bandLabel = (band: (typeof BUDGET_BANDS)[number], currency: string, rates?: Record<string, number>) =>
+  `${bandRange(band, currency, rates)} per person`;
 ---
 <Base
   title="Plan my trip — The Itinerary Wala"
@@ -75,8 +83,12 @@ const budgets = [
         </div>
         <div class="field">
           <label for="budget">Approximate budget</label>
-          <select id="budget" name="budget">
-            {budgets.map((b) => <option value={b}>{b}</option>)}
+          <select id="budget" name="budget" data-budget-bands>
+            {BUDGET_BANDS.map((band) => {
+              const label = bandLabel(band, DEFAULT_CURRENCY, rateData?.rates);
+              return <option value={label} data-band={band.slug}>{label}</option>;
+            })}
+            <option value="Not sure yet">Not sure yet</option>
           </select>
         </div>
       </div>
@@ -153,6 +165,42 @@ const budgets = [
 <script>
   import { SITE, HAS_FORM_ENDPOINT } from '../lib/site';
   import { track } from '../scripts/track';
+
+  /*
+   * Budget thresholds are held in USD and shown in the reader's currency, so
+   * the labels have to be rebuilt when the switcher moves — otherwise this is
+   * the one figure on the site that ignores it.
+   *
+   * The option's value is rewritten too, not just its text: the value is what
+   * arrives in the inbox. It carries the USD equivalent alongside, so two
+   * enquiries in different currencies can still be compared at a glance.
+   */
+  const budgetSelect = document.querySelector<HTMLSelectElement>('[data-budget-bands]');
+  if (budgetSelect) {
+    const relabel = async () => {
+      const [{ currentCurrency, loadRates }, { BUDGET_BANDS, bandRange }] = await Promise.all([
+        import('../scripts/rates'),
+        import('../lib/finder.mjs'),
+      ]);
+      const payload = await loadRates();
+      if (!payload) return;
+      const code = currentCurrency();
+
+      for (const option of Array.from(budgetSelect.options)) {
+        const band = BUDGET_BANDS.find((b) => b.slug === option.dataset.band);
+        if (!band) continue;
+        const label = `${bandRange(band, code, payload.rates)} per person`;
+        option.textContent = label;
+        // "Under ₹96,000 per person (≈ under $1,000)" — lowercased, or the
+        // qualifier reads as doubled against the one it is restating.
+        const usd = bandRange(band, 'USD', payload.rates);
+        option.value =
+          code === 'USD' ? label : `${label} (≈ ${usd[0].toLowerCase()}${usd.slice(1)})`;
+      }
+    };
+    document.addEventListener('rates:updated', relabel);
+    relabel();
+  }
 
   const form = document.querySelector<HTMLFormElement>('[data-plan]');
   const status = document.querySelector<HTMLElement>('[data-plan-status]');
