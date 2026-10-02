@@ -2,7 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import CoverArt from '../../components/CoverArt.astro';
-import { countrySlug, regionFor } from '../../lib/geography.mjs';
+import { regionFor } from '../../lib/geography.mjs';
 import { breadcrumbs } from '../../lib/schema';
 
 export async function getStaticPaths() {
@@ -19,35 +19,55 @@ const { pkg, all, itineraries } = Astro.props;
 const { Content } = await render(pkg);
 
 const path = `/packages/${pkg.id}/`;
-const { title, country, nights, days, route, priceFrom, priceCurrency } = pkg.data;
+const d = pkg.data;
+const {
+  title, country, nights, days, route, priceFrom, priceWas, priceCurrency,
+  highlights, itinerary, inclusions, exclusions, optionalTours, departures, faqs,
+} = d;
 
-/** The other lengths, so someone can step up or down without going back. */
 const siblings = all.filter((p) => p.id !== pkg.id && p.data.country === country);
-
-/** The free itineraries for the same country — the honest alternative. */
 const free = itineraries.filter((i) => i.data.country === country).slice(0, 2);
 
-/**
- * Prefills the enquiry form, so the package someone was reading arrives with
- * the message instead of being described from memory.
- */
 const enquiry = `/plan/?destination=${encodeURIComponent(`${country} — ${title}`)}`;
 
-/**
- * Product + Offer only once a price exists. Google rejects an Offer with no
- * price, and marking up "on request" as though it were a rate is the kind of
- * thing that costs a rich result rather than winning one.
+const money = (n: number) =>
+  `${priceCurrency} ${n.toLocaleString('en-US')}`;
+
+/** Only the sections with something in them get a tab. */
+const sections = [
+  { id: 'overview', label: 'Overview', on: true },
+  { id: 'itinerary', label: 'Itinerary', on: itinerary.length > 0 },
+  { id: 'included', label: "What's included", on: inclusions.length + exclusions.length > 0 },
+  { id: 'optional', label: 'Optional tours', on: optionalTours.length > 0 },
+  { id: 'dates', label: 'Dates & prices', on: departures.length > 0 },
+  { id: 'faq', label: 'FAQs', on: faqs.length > 0 },
+].filter((s) => s.on);
+
+const savePct =
+  priceFrom && priceWas && priceWas > priceFrom
+    ? Math.round(((priceWas - priceFrom) / priceWas) * 100)
+    : null;
+
+/*
+ * Product/Offer only once a price exists — Google rejects an Offer without
+ * one, and marking "on request" up as a rate is how you lose a rich result
+ * rather than win one. The FAQ block is free: the questions are already
+ * structured, so there is nothing to parse out of rendered HTML.
  */
 const jsonLd = [
   {
     '@type': 'TouristTrip',
     name: title,
-    description: pkg.data.summary,
+    description: d.summary,
     touristType: 'Leisure',
     itinerary: {
       '@type': 'ItemList',
       numberOfItems: days,
-      name: route ?? title,
+      itemListElement: itinerary.map((day, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: `Day ${i + 1} — ${day.heading}`,
+      })),
     },
     ...(priceFrom
       ? {
@@ -61,32 +81,34 @@ const jsonLd = [
         }
       : {}),
   },
+  ...(faqs.length > 0
+    ? [{
+        '@type': 'FAQPage',
+        mainEntity: faqs.map((f) => ({
+          '@type': 'Question',
+          name: f.q,
+          acceptedAnswer: { '@type': 'Answer', text: f.a },
+        })),
+      }]
+    : []),
   breadcrumbs([
     { name: 'Packages', path: '/packages/' },
-    { name: country, path: `/packages/` },
     { name: title, path },
   ]),
 ];
 ---
 <Base
   title={`${title} — Georgia holiday package`}
-  description={pkg.data.summary}
-  image={pkg.data.heroWide ?? pkg.data.heroImage}
+  description={d.summary}
+  image={d.heroWide ?? d.heroImage}
   imageAlt={title}
-  published={pkg.data.publishDate}
-  modified={pkg.data.updatedDate ?? pkg.data.publishDate}
+  published={d.publishDate}
+  modified={d.updatedDate ?? d.publishDate}
   jsonLd={jsonLd}
 >
   <section class="itin-hero">
     <div class="itin-hero__art">
-      <CoverArt
-        seed={pkg.id}
-        country={country}
-        src={pkg.data.heroImage}
-        wide={pkg.data.heroWide}
-        alt={title}
-        eager
-      />
+      <CoverArt seed={pkg.id} country={country} src={d.heroImage} wide={d.heroWide} alt={title} eager />
     </div>
     <div class="wrap itin-hero__content">
       <nav class="crumbs" aria-label="Breadcrumb">
@@ -96,7 +118,7 @@ const jsonLd = [
         </ol>
       </nav>
       <h1>{title}</h1>
-      <p class="summary">{pkg.data.summary}</p>
+      <p class="summary">{d.summary}</p>
       <ul class="facts">
         <li class="pill pill--visa">{regionFor(country)}</li>
         <li class="pill">{nights} nights / {days} days</li>
@@ -105,21 +127,189 @@ const jsonLd = [
     </div>
   </section>
 
+  {sections.length > 1 && (
+    <nav class="pkg-jump" aria-label="On this page">
+      <div class="wrap pkg-jump__inner">
+        {sections.map((s) => <a href={`#${s.id}`}>{s.label}</a>)}
+      </div>
+    </nav>
+  )}
+
   <div class="itin">
     <section class="itin-band">
       <div class="itin-band__inner">
         <div class="pkg-layout">
-          <div class="pkg-main prose">
-            <Content />
+          <div class="pkg-main">
+            <section id="overview" class="pkg-section">
+              <h2 class="band-heading">Overview</h2>
+              <div class="prose"><Content /></div>
+
+              {highlights.length > 0 && (
+                <ul class="pkg-highlights">
+                  {highlights.map((h) => (
+                    <li>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                           stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M20 6 9 17l-5-5" />
+                      </svg>
+                      <span>{h}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </section>
+
+            {itinerary.length > 0 && (
+              <section id="itinerary" class="pkg-section">
+                <h2 class="band-heading">Day by day</h2>
+                <ol class="pkg-days">
+                  {itinerary.map((day, i) => (
+                    <li class="pkg-day">
+                      {/* Open by default: the itinerary is the thing being
+                          bought, and hiding it behind a click to look tidy
+                          costs more than the scroll it saves. */}
+                      <details class="pkg-day__box" open>
+                        <summary class="pkg-day__head">
+                          <span class="pkg-day__n">Day {i + 1}</span>
+                          <span class="pkg-day__title">{day.heading}</span>
+                          <svg class="pkg-day__chev" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                               stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="m6 9 6 6 6-6" />
+                          </svg>
+                        </summary>
+                        <div class="pkg-day__body">
+                          {day.image && (
+                            <img class="pkg-day__img" src={day.image} alt="" loading="lazy" decoding="async" width="1200" height="800" />
+                          )}
+                          <div>
+                            <p>{day.body}</p>
+                            {day.meals && <p class="pkg-day__meals">Meals: {day.meals}</p>}
+                          </div>
+                        </div>
+                      </details>
+                    </li>
+                  ))}
+                </ol>
+              </section>
+            )}
+
+            {(inclusions.length > 0 || exclusions.length > 0) && (
+              <section id="included" class="pkg-section">
+                <h2 class="band-heading">What&rsquo;s included</h2>
+                <div class="pkg-incl-grid">
+                  {inclusions.length > 0 && (
+                    <div class="pkg-incl">
+                      <h3>Included</h3>
+                      <ul class="pkg-ticks">{inclusions.map((x) => <li>{x}</li>)}</ul>
+                    </div>
+                  )}
+                  {exclusions.length > 0 && (
+                    <div class="pkg-incl pkg-incl--out">
+                      <h3>Not included</h3>
+                      <ul class="pkg-crosses">{exclusions.map((x) => <li>{x}</li>)}</ul>
+                    </div>
+                  )}
+                </div>
+              </section>
+            )}
+
+            {optionalTours.length > 0 && (
+              <section id="optional" class="pkg-section">
+                <h2 class="band-heading">Optional tours</h2>
+                <p class="pkg-section__sub">Added to the package on request, priced per person.</p>
+                <ul class="pkg-opts">
+                  {optionalTours.map((t) => (
+                    <li class="pkg-opt">
+                      {t.image && <img class="pkg-opt__img" src={t.image} alt="" loading="lazy" decoding="async" />}
+                      <div class="pkg-opt__body">
+                        <h3>{t.name}</h3>
+                        <p>{t.body}</p>
+                        <p class="pkg-opt__price">
+                          {t.adult ? `Adult ${money(t.adult)}` : 'Price on request'}
+                          {t.child ? ` · Child ${money(t.child)}` : ''}
+                        </p>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+            {departures.length > 0 && (
+              <section id="dates" class="pkg-section">
+                <h2 class="band-heading">Dates &amp; prices</h2>
+                <div class="pkg-table-wrap">
+                  <table class="pkg-table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Departure</th>
+                        <th scope="col">Adult</th>
+                        <th scope="col">Single</th>
+                        <th scope="col">Child</th>
+                        <th scope="col">Availability</th>
+                        <th scope="col"><span class="sr-only">Book</span></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {departures.map((dep) => (
+                        <tr>
+                          <th scope="row">
+                            {dep.date.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}
+                          </th>
+                          <td>{dep.adult ? money(dep.adult) : '—'}</td>
+                          <td>{dep.single ? money(dep.single) : '—'}</td>
+                          <td>{dep.child ? money(dep.child) : '—'}</td>
+                          <td>
+                            <span class={`pkg-stat pkg-stat--${dep.status}`}>
+                              {dep.status === 'sold-out' ? 'Sold out'
+                                : dep.status === 'limited' ? 'Few seats' : 'Available'}
+                            </span>
+                          </td>
+                          <td>
+                            {dep.status === 'sold-out'
+                              ? <span class="pkg-table__na">—</span>
+                              : <a class="pkg-table__go" href={enquiry}>Enquire</a>}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+            )}
+
+            {faqs.length > 0 && (
+              <section id="faq" class="pkg-section">
+                <h2 class="band-heading">Questions</h2>
+                <ul class="pkg-faqs">
+                  {faqs.map((f) => (
+                    <li>
+                      <details class="pkg-faq">
+                        <summary>
+                          <span>{f.q}</span>
+                          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="m6 9 6 6 6-6" />
+                          </svg>
+                        </summary>
+                        <p>{f.a}</p>
+                      </details>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
           </div>
 
           <aside class="pkg-side" aria-label="Book this package">
             <div class="pkg-book">
               <p class="pkg-book__price">
-                {priceFrom
-                  ? `From ${priceCurrency} ${priceFrom.toLocaleString('en-US')}`
-                  : 'Price on request'}
+                {priceFrom ? `From ${money(priceFrom)}` : 'Price on request'}
+                {priceWas && priceFrom && priceWas > priceFrom && (
+                  <span class="pkg-book__was">{money(priceWas)}</span>
+                )}
               </p>
+              {savePct && <p class="pkg-book__save">Save {savePct}%</p>}
               <p class="pkg-book__note">
                 {priceFrom
                   ? 'Per person, twin share. Final rate depends on travel dates and hotel category.'
@@ -132,19 +322,6 @@ const jsonLd = [
                 {route && <div><dt>Route</dt><dd>{route}</dd></div>}
               </dl>
             </div>
-
-            {pkg.data.inclusions.length > 0 && (
-              <div class="pkg-incl">
-                <h2>What&rsquo;s included</h2>
-                <ul>{pkg.data.inclusions.map((item) => <li>{item}</li>)}</ul>
-              </div>
-            )}
-            {pkg.data.exclusions.length > 0 && (
-              <div class="pkg-incl pkg-incl--out">
-                <h2>Not included</h2>
-                <ul>{pkg.data.exclusions.map((item) => <li>{item}</li>)}</ul>
-              </div>
-            )}
           </aside>
         </div>
       </div>
@@ -190,9 +367,7 @@ const jsonLd = [
             separately — not because the free version is missing anything.
           </p>
           <div class="pkg-cta__links">
-            {free.map((i) => (
-              <a class="btn" href={`/itineraries/${i.id}/`}>{i.data.title}</a>
-            ))}
+            {free.map((i) => <a class="btn" href={`/itineraries/${i.id}/`}>{i.data.title}</a>)}
           </div>
         </div>
       </section>

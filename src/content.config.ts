@@ -98,9 +98,63 @@ const packages = defineCollection({
     /** Per person, twin share. Unset until a rate is actually agreed. */
     priceFrom: z.number().optional(),
     priceCurrency: z.string().default('USD'),
+    /** Struck-through "was" price. Only set it if the trip genuinely sold at it. */
+    priceWas: z.number().optional(),
     /** What the rate covers, and what it does not. Unset until confirmed. */
     inclusions: z.array(z.string()).default([]),
     exclusions: z.array(z.string()).default([]),
+    /** Six or so one-liners for the strip under the hero. */
+    highlights: z.array(z.string()).default([]),
+    /**
+     * The day-by-day, structured rather than written as markdown headings.
+     *
+     * It was prose first. Structure won because each day wants a photograph
+     * beside it and a meal line under it, and pulling those back out of
+     * rendered HTML is guesswork that breaks the first time someone writes a
+     * heading slightly differently.
+     */
+    itinerary: z
+      .array(
+        z.object({
+          heading: z.string(),
+          body: z.string(),
+          /** 3:2 photograph, optional — the day renders fine without one. */
+          image: z.string().optional(),
+          /** "Breakfast", "Breakfast, dinner". Omit when none are provided. */
+          meals: z.string().optional(),
+        }),
+      )
+      .default([]),
+    /**
+     * Add-ons sold separately. Priced per person, same currency as the
+     * package; a tour with no price shows as "on request" like the package.
+     */
+    optionalTours: z
+      .array(
+        z.object({
+          name: z.string(),
+          body: z.string(),
+          image: z.string().optional(),
+          adult: z.number().optional(),
+          child: z.number().optional(),
+        }),
+      )
+      .default([]),
+    /** Fixed departures. Empty while the trip runs on request. */
+    departures: z
+      .array(
+        z.object({
+          date: z.coerce.date(),
+          adult: z.number().optional(),
+          single: z.number().optional(),
+          child: z.number().optional(),
+          /** 'available' | 'limited' | 'sold-out' — drives the badge. */
+          status: z.enum(['available', 'limited', 'sold-out']).default('available'),
+        }),
+      )
+      .default([]),
+    /** Shown as an accordion, and emitted as FAQPage structured data. */
+    faqs: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
     heroImage: z.string().optional(),
     heroWide: z.string().optional(),
     publishDate: z.coerce.date(),
