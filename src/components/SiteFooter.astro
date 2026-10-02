@@ -2,12 +2,17 @@
 import { getCollection } from 'astro:content';
 import { NAV, SITE, ACTIVE_SOCIALS, FORM_ENDPOINT, HAS_FORM_ENDPOINT, WEB3FORMS_KEY } from '../lib/site';
 import SocialIcon from './SocialIcon.astro';
-import { countrySlug } from '../lib/geography.mjs';
+import { countrySlug, isGrouping } from '../lib/geography.mjs';
 import { getGuides } from '../lib/guides';
 
-// Destination list is generated, so the footer can't go stale.
+// Destination list is generated, so the footer can't go stale. Groupings
+// like "Central Europe" are dropped: under a "Destinations" heading they
+// read as countries, and their itineraries are still reachable everywhere
+// else. See isGrouping().
 const itineraries = await getCollection('itineraries', ({ data }) => !data.draft);
-const destinations = [...new Set(itineraries.map((i) => i.data.country))].sort();
+const destinations = [...new Set(itineraries.map((i) => i.data.country))]
+  .filter((country) => !isGrouping(country))
+  .sort();
 const guideCount = (await getGuides()).length;
 const nav = guideCount > 0 ? NAV : NAV.filter((l) => l.href !== '/guides/');
 const year = new Date().getFullYear();

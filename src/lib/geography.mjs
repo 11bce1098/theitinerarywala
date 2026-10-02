@@ -63,7 +63,7 @@ export const COUNTRIES = {
   Tanzania:         { continent: 'africa',        region: 'East Africa',             currency: 'USD' },
   Mauritius:        { continent: 'africa',        region: 'Indian Ocean Islands',    currency: 'MUR' },
   Canada:           { continent: 'north-america', region: 'Canada',                  currency: 'CAD' },
-  'Singapore and Malaysia': { continent: 'asia', region: 'Southeast Asia', currency: 'SGD' },
+  'Singapore and Malaysia': { continent: 'asia', region: 'Southeast Asia', currency: 'SGD', grouping: true },
   Madagascar:               { continent: 'africa',          region: 'Indian Ocean Islands',    currency: 'MGA' },
   Uganda:                   { continent: 'africa',          region: 'East Africa',             currency: 'UGX' },
   Tunisia:                  { continent: 'africa',          region: 'North Africa',            currency: 'TND' },
@@ -111,12 +111,12 @@ export const COUNTRIES = {
   Sweden:           { continent: 'europe',        region: 'Northern Europe',             currency: 'SEK' },
   Denmark:          { continent: 'europe',        region: 'Northern Europe',             currency: 'DKK' },
   Laos:             { continent: 'asia',          region: 'Southeast Asia',              currency: 'LAK' },
-  'Central Europe': { continent: 'europe', region: 'Central Europe',  currency: 'EUR' },
+  'Central Europe': { continent: 'europe', region: 'Central Europe',  currency: 'EUR', grouping: true },
   Slovenia:         { continent: 'europe',        region: 'Central Europe',          currency: 'EUR' },
   Poland:           { continent: 'europe',        region: 'Central Europe',          currency: 'PLN' },
   Finland:          { continent: 'europe',        region: 'Northern Europe',         currency: 'EUR' },
   Ireland:          { continent: 'europe',        region: 'Northern Europe',         currency: 'EUR' },
-  Baltics:          { continent: 'europe',        region: 'Northern Europe',         currency: 'EUR' },
+  Baltics:          { continent: 'europe',        region: 'Northern Europe',         currency: 'EUR', grouping: true },
   Taiwan:           { continent: 'asia',          region: 'East Asia',               currency: 'TWD' },
   Qatar:            { continent: 'asia',          region: 'Middle East',             currency: 'QAR' },
   Jordan:           { continent: 'asia',          region: 'Middle East',             currency: 'JOD' },
@@ -186,6 +186,19 @@ export function countrySlug(country) {
 
 export function regionFor(country) {
   return COUNTRIES[country]?.region ?? '';
+}
+
+/**
+ * True for the entries that are a run of countries rather than one place —
+ * "Baltics", "Central Europe", "Singapore and Malaysia".
+ *
+ * They are real itineraries and keep their own pages; they just do not belong
+ * in a list headed "Destinations", where they read as countries. Note this is
+ * not the same as the `multi-country` style tag: Hong Kong carries that tag
+ * for its Macau day trip and is still a single destination.
+ */
+export function isGrouping(country) {
+  return Boolean(COUNTRIES[country]?.grouping);
 }
 
 /** ISO code of the destination's own currency. */
