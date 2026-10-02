@@ -10,6 +10,12 @@
  *    the homepage with a 200 (Pages falls back to index.html), so a wrong
  *    path looked fine; now they 404 properly, which is honest but still
  *    broken. Nine of them had shipped before this check existed.
+ * 4. A hero image on the wrong side of the 2:1 line. optimise-images sorts
+ *    sources by aspect ratio: wider than 2:1 gets a -1800 variant, anything
+ *    else gets -700 and -1400. The templates request those widths by name,
+ *    and a <picture> does not fall back when the chosen <source> 404s — so a
+ *    'wide' that is really 1.6:1 ships a hero that silently fails to load.
+ *    Ecuador shipped exactly that before this check existed.
  *
  * Runs from prebuild, so it fails the deploy rather than the deploy failing
  * quietly in public.
@@ -17,6 +23,7 @@
 import { readdir, readFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
+import sharp from 'sharp';
 
 const DIR = 'src/content/itineraries';
 
@@ -64,10 +71,42 @@ for (const file of files) {
   const body = await readFile(path.join(DIR, file), 'utf8');
 
   for (const [, field, src] of body.matchAll(/^hero(Image|Wide):\s*"([^"]+)"/gm)) {
-    if (!existsSync(path.join('public', src))) {
+    const onDisk = path.join('public', src);
+    if (!existsSync(onDisk)) {
       const alt = src.replace(/\.jpe?g$/, (m) => (m === '.jpg' ? '.jpeg' : '.jpg'));
       const hint = existsSync(path.join('public', alt)) ? ` — did you mean ${alt}?` : '';
       errors.push(`${file}: hero${field} points at missing ${src}${hint}`);
+      continue;
+    }
+
+    /*
+     * The 2:1 line decides which variants exist, and the templates ask for
+     * them by name. Getting this wrong ships a hero that 404s rather than
+     * one that looks wrong, so it has to fail the build.
+     */
+    let meta;
+    try {
+      meta = await sharp(onDisk).metadata();
+    } catch (error) {
+      warnings.push(`${file}: could not read ${src} (${error.message})`);
+      continue;
+    }
+    const ratio = (meta.width ?? 0) / (meta.height ?? 1);
+    const dims = `${meta.width}x${meta.height}, ${ratio.toFixed(2)}:1`;
+
+    if (field === 'Wide' && ratio <= 2) {
+      errors.push(
+        `${file}: heroWide ${src} is ${dims} — must be wider than 2:1, or ` +
+        'optimise-images builds -700/-1400 instead of the -1800 the hero ' +
+        'asks for. Crop it to about 1800x700.',
+      );
+    }
+    if (field === 'Image' && ratio > 2) {
+      errors.push(
+        `${file}: heroImage ${src} is ${dims} — must be 2:1 or narrower, or ` +
+        'optimise-images builds only -1800 and the card srcset 404s. ' +
+        'Crop it to about 1600x1000.',
+      );
     }
   }
 
