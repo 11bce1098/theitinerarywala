@@ -824,8 +824,7 @@ body.nav-open { overflow: hidden; }
      instead. */
   grid-template-columns: 1.4fr 0.85fr 2.5fr;
   grid-template-areas:
-    "brand  explore ."
-    "signup signup  ."
+    "brand  explore signup"
     "destinations destinations destinations";
   gap: 2.5rem;
   padding-top: 3rem;
@@ -837,14 +836,20 @@ body.nav-open { overflow: hidden; }
 .footer-signup { grid-area: signup; }
 .footer-destinations ul {
   /* Width first, count second: the browser fits as many columns as will hold
-     the longest name — "Bosnia and Herzegovina" is 161px — and caps at four.
-     A bare `columns: 4` overflows the moment the track drops below ~700px,
-     and multicol clips rather than wraps, because the names are nowrap. */
-  columns: 11rem 4;
-  column-gap: 1rem;
+     the longest name and caps at six. A bare `columns: 6` would overflow the
+     moment the track narrowed.
+     Six is the ceiling, not a preference — "Bosnia and Herzegovina" measures
+     161px, and six of those plus gaps is 1046 of the 1048 available. That is
+     also why the gap is 0.75rem here rather than 1rem: at 1rem the sixth
+     column lands a pixel short and the browser drops to five. */
+  columns: 10.25rem 6;
+  column-gap: 0.75rem;
 }
-/* The longest name sets the floor; without this "United Kingdom" wraps. */
-.footer-destinations a { white-space: nowrap; }
+/* These names used to be `white-space: nowrap`, from a time when the columns
+   could get narrower than "United Kingdom". They cannot any more — the
+   declaration above floors every column at 10.25rem — and with only a couple
+   of pixels of slack at six columns, a name that outgrows its column should
+   wrap onto a second line rather than overlap the one beside it. */
 .footer-destinations li {
   break-inside: avoid;
   margin-bottom: 0.45rem;
