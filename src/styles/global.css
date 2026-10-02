@@ -817,12 +817,27 @@ body.nav-open { overflow: hidden; }
 .footer-grid {
   display: grid;
   /* Destinations carries every country, so it gets the room to run three
-     columns instead of one tall list the rest of the footer has to match. */
-  grid-template-columns: 1.4fr 0.75fr 2.3fr 1.35fr;
+     columns instead of one tall list the rest of the footer has to match —
+     and it spans both rows, because it is several times taller than
+     anything else. The signup used to sit in a fourth column beside it,
+     which left most of that column as whitespace; it tucks under the brand
+     instead. */
+  grid-template-columns: 1.4fr 0.85fr 2.5fr;
+  grid-template-areas:
+    "brand  explore destinations"
+    "signup signup  destinations";
+  /* Destinations is taller than both rows together, and its slack would
+     otherwise be split evenly between them — stranding the signup halfway
+     down the page. Row one takes its content; row two takes the rest. */
+  grid-template-rows: auto 1fr;
   gap: 2.5rem;
   padding-top: 3rem;
   padding-bottom: 2.5rem;
 }
+.footer-brand { grid-area: brand; }
+.footer-explore { grid-area: explore; }
+.footer-destinations { grid-area: destinations; }
+.footer-signup { grid-area: signup; }
 .footer-destinations ul {
   columns: 3;
   column-gap: 1rem;
@@ -890,12 +905,23 @@ body.nav-open { overflow: hidden; }
 .footer-bottom p { margin: 0; max-width: 62ch; }
 
 @media (max-width: 900px) {
-  .footer-grid { grid-template-columns: 1fr 1fr; gap: 2rem; }
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "brand   brand"
+      "explore destinations"
+      "signup  signup";
+    grid-template-rows: none;
+    gap: 2rem;
+  }
   .footer-destinations ul { columns: 2; }
-  .footer-brand, .footer-signup { grid-column: 1 / -1; }
 }
 @media (max-width: 520px) {
-  .footer-grid { grid-template-columns: 1fr; }
+  .footer-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas: "brand" "explore" "destinations" "signup";
+    grid-template-rows: none;
+  }
   .footer-destinations ul { columns: 2; column-gap: 1rem; }
 }
 
